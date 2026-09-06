@@ -38,4 +38,4 @@ Datei `…_N.webp` = Buchseite **N − 1**. Nie ins Git.
 - `Quelle: S. xx` = Buchfußzeile
 - Katalog-ID zeigt auf `angepasst.md`; nur dort `### Befehl`
 - Alle drei Dateien: `### Siehe auch`
-- Nach jedem Block: Validator `python3 skill/scripts/validate_wissen.py`, dann INDEX, Commit
+- Nach jedem Block: INDEX, Commit. Gate läuft als pre-commit (`install-hooks.sh`).

@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Blockt Commits mit kaputtem Wissen oder Buchscans im Index.
+set -euo pipefail
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+echo "pre-commit: wfrp-wissen"
+exec python3 "$ROOT/skill/scripts/validate_wissen.py" --staged

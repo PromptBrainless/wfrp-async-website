@@ -4,13 +4,25 @@ from __future__ import annotations
 
 import argparse
 import re
+import subprocess
 import sys
 from pathlib import Path
 
-ROOT = Path("/workspace")
+
+def find_root() -> Path:
+    here = Path(__file__).resolve()
+    for p in [here.parent, *here.parents]:
+        if (p / "knowledge" / "00-INDEX.md").exists():
+            return p
+    cwd = Path.cwd()
+    if (cwd / "knowledge" / "00-INDEX.md").exists():
+        return cwd
+    return cwd
+
+
+ROOT = find_root()
 KNOW = ROOT / "knowledge"
 BEFEHLE = KNOW / "10-system" / "06-befehle.md"
-CATALOG = KNOW / "data" / "catalog.json"
 
 ORIGINAL_FORBIDDEN = re.compile(
     r"(Die Frist|Aktionskatalog|Befehlsregister|\bEngine\b)", re.I
@@ -20,6 +32,9 @@ HAS_STATUS = re.compile(r"Status:\s*Original,\s*nicht anfassen", re.I)
 MD_LINK = re.compile(r"\[[^\]]*\]\(([^)]+)\)")
 CMD_TICK = re.compile(r"`([a-z][a-z0-9_]*)`")
 TODO = re.compile(r"TODO|Platzhalter|📝")
+FORBIDDEN_STAGED = re.compile(
+    r"(?i)(\.(pdf|webp|png|jpe?g)$|Grundregelwerk|Warhammer_Fantasy|^attachments/)",
+)
 
 MECHANIC_GLOBS = [
     "04-faehigkeiten-talente/faehigkeiten/*/",
@@ -51,7 +66,6 @@ def mechanic_dirs(limit: Path | None) -> list[Path]:
         for p in KNOW.glob(g):
             if p.is_dir() and not p.name.startswith("_"):
                 found.append(p)
-    # also any folder that already has original.md
     for p in KNOW.rglob("original.md"):
         found.append(p.parent)
     uniq = []
@@ -62,7 +76,11 @@ def mechanic_dirs(limit: Path | None) -> list[Path]:
             seen.add(r)
             uniq.append(p)
     if limit:
-        uniq = [p for p in uniq if limit in p.parents or p == limit or limit in p.rglob("*")]
+        uniq = [
+            p
+            for p in uniq
+            if p == limit or limit in p.parents or str(p).startswith(str(limit))
+        ]
     return sorted(uniq)
 
 
@@ -127,7 +145,6 @@ def check_links(path: Path, r: Report) -> None:
         try:
             target.relative_to(KNOW.resolve())
         except ValueError:
-            # may point to repo root (NEUES-FENSTER)
             if not target.exists():
                 r.err(f"{path.relative_to(ROOT)}: toter Link {href}")
             continue
@@ -167,9 +184,29 @@ def check_binaries(r: Report) -> None:
             r.err(f"Medium im knowledge/: {p.relative_to(ROOT)}")
 
 
+def check_staged(r: Report) -> None:
+    try:
+        out = subprocess.check_output(
+            ["git", "diff", "--cached", "--name-only", "-z"],
+            cwd=ROOT,
+        )
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        r.warn("git index nicht lesbar, --staged übersprungen")
+        return
+    names = [n.decode("utf-8", "replace") for n in out.split(b"\0") if n]
+    for n in names:
+        if FORBIDDEN_STAGED.search(n):
+            r.err(f"staged verboten (Buch/Scan): {n}")
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("path", nargs="?", help="optional: ein Mechanik-Ordner")
+    ap.add_argument(
+        "--staged",
+        action="store_true",
+        help="zusätzlich den Git-Index auf Buchdateien prüfen",
+    )
     args = ap.parse_args()
     limit = Path(args.path).resolve() if args.path else None
     if limit and not limit.exists():
@@ -197,6 +234,9 @@ def main() -> int:
             check_links(idx, r)
         if not BEFEHLE.exists():
             r.err("Befehlsregister fehlt")
+
+    if args.staged:
+        check_staged(r)
 
     print(f"Ordner geprüft: {len(dirs)}")
     if r.warnings:

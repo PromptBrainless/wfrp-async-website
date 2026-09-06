@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# Fängt --no-verify-Commits vor dem Push.
+set -euo pipefail
+ROOT="$(git rev-parse --show-toplevel)"
+cd "$ROOT"
+echo "pre-push: wfrp-wissen"
+exec python3 "$ROOT/skill/scripts/validate_wissen.py"

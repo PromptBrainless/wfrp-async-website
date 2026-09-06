@@ -75,13 +75,14 @@ Rohkapitel (ganzer Abschnitt) zusätzlich unter `_roh/` ablegen und nicht umschr
 2. VOLLTEXT-Welle
 3. Befehlsregister nur bei neuer ID
 4. Übergabe Stand-Zeile
-5. Validator:
+5. Validator (läuft auch als Git-Hook):
 
 ```
 python3 skill/scripts/validate_wissen.py
+bash skill/scripts/install-hooks.sh   # einmal pro Clone
 ```
 
-Exit 0 = commitfähig. Exit 1 = Fehler beheben, nicht committen.
+`pre-commit` und `pre-push` in `.githooks/` rufen denselben Gate auf. Exit 1 = kein Commit / kein Push. GitHub Action `wissen` prüft `main` zusätzlich.
 
 6. Commit
 

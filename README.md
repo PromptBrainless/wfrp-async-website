@@ -46,6 +46,8 @@ Wissensbasis folgt dem Inhaltsverzeichnis. Viele Dateien sind noch Platzhalter o
 
 Simulation und UI sind später. Nicht in dieser Arbeitsliste.
 
+Git-Hooks (Qualität): einmal `bash skill/scripts/install-hooks.sh`. Danach blocken `pre-commit` / `pre-push` kaputtes Wissen und Buchscans. CI: `.github/workflows/wissen.yml`.
+
 ---
 
 ## Repo-Struktur

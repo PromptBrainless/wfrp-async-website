@@ -57,8 +57,9 @@ Kurzfassung überschreiben: Inhalt nach `original.md` heben, alte Datei wird Zei
 2. VOLLTEXT-Welle Häkchen
 3. Befehlsregister nur bei neuer ID
 4. Übergabe Stand-Zeile
-5. Validator: `python3 skill/scripts/validate_wissen.py` — bei Exit 1 nicht committen.
-6. Commit
+5. Validator / Hook: `python3 skill/scripts/validate_wissen.py` — Exit 1 = kein Commit.
+   Einmal: `bash skill/scripts/install-hooks.sh`
+6. Commit (pre-commit läuft von selbst)
 
 ## 6. Nicht tun
 

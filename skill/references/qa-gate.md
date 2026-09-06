@@ -1,9 +1,12 @@
 # Qualitäts-Gate
 
 Validator: `python3 skill/scripts/validate_wissen.py`  
+`--staged` prüft zusätzlich den Git-Index (Buch/Scan).  
+Hooks: `bash skill/scripts/install-hooks.sh` → `.githooks/pre-commit` und `pre-push`.
+
 Optional ein Pfad: `python3 skill/scripts/validate_wissen.py knowledge/04-faehigkeiten-talente/faehigkeiten/wahrnehmung`
 
-Fehler (Exit 1) blocken den Commit. Warnungen dürfen, müssen aber in details oder Übergabe stehen.
+Fehler (Exit 1) blocken Commit und Push. `--no-verify` nur in Notfällen, GitHub Action fängt das auf `main`. Warnungen dürfen, müssen aber in details oder Übergabe stehen.
 
 ---
 
