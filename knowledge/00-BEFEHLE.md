@@ -20,7 +20,8 @@ Bestehende Kapitelordner. Keine parallele Hierarchie.
   details.md      Hilfe, Beispiele, Prüfen
 ```
 
-Vorlage: [00-VORLAGE.md](00-VORLAGE.md).
+Skill (Pflicht): [../skill/SKILL.md](../skill/SKILL.md)  
+Vorlage: [00-VORLAGE.md](00-VORLAGE.md). Gate: `python3 skill/scripts/validate_wissen.py` — Exit 1 = kein Commit.
 
 - Katalog-ID zuerst ins [Befehlsregister](10-system/06-befehle.md), zeigt auf `angepasst.md`.
 - Ein Fakt im Original **einmal**. Angepasst verweist, wiederholt nicht den Buchtext.
@@ -56,7 +57,7 @@ Kurzfassung überschreiben: Inhalt nach `original.md` heben, alte Datei wird Zei
 2. VOLLTEXT-Welle Häkchen
 3. Befehlsregister nur bei neuer ID
 4. Übergabe Stand-Zeile
-5. Tote Links
+5. Validator: `python3 skill/scripts/validate_wissen.py` — bei Exit 1 nicht committen.
 6. Commit
 
 ## 6. Nicht tun

@@ -29,12 +29,14 @@ Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.
 ## Lies zuerst (neue Session)
 
 1. [NEUES-FENSTER.md](NEUES-FENSTER.md)
-2. [knowledge/00-BEFEHLE.md](knowledge/00-BEFEHLE.md)
-3. [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — Platzhalter → Buchtext
-4. [knowledge/00-QUELLEN.md](knowledge/00-QUELLEN.md)
-5. [knowledge/00-INDEX.md](knowledge/00-INDEX.md)
-6. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
-7. [knowledge/10-system/06-befehle.md](knowledge/10-system/06-befehle.md)
+2. [skill/SKILL.md](skill/SKILL.md) — Qualität, Gate
+3. [knowledge/00-BEFEHLE.md](knowledge/00-BEFEHLE.md)
+4. [knowledge/00-VORLAGE.md](knowledge/00-VORLAGE.md)
+5. [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
+6. [knowledge/00-QUELLEN.md](knowledge/00-QUELLEN.md)
+7. [knowledge/00-INDEX.md](knowledge/00-INDEX.md)
+8. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
+9. [knowledge/10-system/06-befehle.md](knowledge/10-system/06-befehle.md)
 
 ---
 

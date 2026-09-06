@@ -1,90 +1,98 @@
 ---
-name: pdf-to-interlinked-md
-description: Extract complete uncut content from large structured PDFs (especially rulebooks) into hierarchical interlinked Markdown files. Use when the user wants full PDF-to-Markdown conversion with cross-links, chapter splitting, or building a navigable knowledge base from a rulebook or long document.
+name: wfrp-wissen
+description: >
+  WFRP 4e Wissensbasis bauen und prüfen. Pflicht vor jeder Extraktion,
+  jedem Talent, jeder Karriere, jedem Volltext, Original/Angepasst/Details,
+  Verknüpfen, Befehlsregister, Buchseite, Qualität. Nicht für Website-UI
+  und nicht für Simulation. Triggers: extrahieren, volltext, original,
+  angepasst, details, talent, karriere, fähigkeit, verknüpfen, befehl,
+  buchseite, platzhalter, wissen, regelwerk, ungekürzt.
+metadata:
+  short-description: "WFRP MD: Original einfrieren, Angepasst+Details, Gate vor Commit"
+user-invocable: true
 ---
 
-# PDF to Interlinked Markdown
+# WFRP-Wissen — Qualität
 
-Convert large, structured PDFs into a clean, fully interlinked Markdown knowledge base. Preserve all textual content (ungekürzt). Split by logical chapters/sections. Create strong navigation and cross-references.
+Lies **vor dem ersten Schreiben** in dieser Session:
 
-## When to Use
+1. [knowledge/00-BEFEHLE.md](../knowledge/00-BEFEHLE.md)
+2. [knowledge/00-VORLAGE.md](../knowledge/00-VORLAGE.md)
+3. [knowledge/00-QUELLEN.md](../knowledge/00-QUELLEN.md)
+4. `references/qa-gate.md` (dieses Skill)
 
-- User provides a PDF (or document_id) and wants complete Markdown extraction
-- Building a rulebook knowledge base (e.g. WFRP, D&D, other RPGs)
-- User asks for "ungekürzt", "vollständig", "aufsplitten", "verlinken", "vernetzen"
-- Continuing or expanding an existing extraction folder (e.g. `wfrp-md/`)
+Danach erst Dateien anlegen. Nach jedem Block: Validator, dann Commit.
 
-## Core Workflow
+---
 
-1. **Analyze structure**
-   - Use `pdf_search` / `pdf_browse` to identify the table of contents and major headings.
-   - Map the document into a hierarchical folder + file plan.
+## Wann
 
-2. **Define output layout**
-   - Create (or reuse) a numbered folder structure that mirrors the book:
-     ```
-     output/
-     ├── 00-INDEX.md
-     ├── 01-chapter-name/
-     │   ├── 01-section.md
-     │   └── 02-section.md
-     ├── 02-...
-     └── ...
-     ```
-   - Keep existing folders when continuing previous work.
+Jede Mechanik aus dem Grundregelwerk. Jeder Platzhalter-Tausch. Jede neue Katalog-ID.
 
-3. **Extract uncut content**
-   - Browse relevant page ranges.
-   - Extract **full text**, tables, lists and important side content.
-   - Do **not** summarize or shorten body text.
-   - Preserve original headings, page references and terminology.
+Nicht: Website, UI, Simulation, Walkthrough nachrechnen.
 
-4. **Write Markdown files**
-   - One logical section (or sub-chapter) per file.
-   - Start every file with a clear H1 and source page reference.
-   - Use consistent heading levels (H1 = file title, H2/H3 = internal structure).
-   - Convert tables to proper Markdown tables.
+---
 
-5. **Create interlinking**
-   - Maintain a central `00-INDEX.md` with links to every major file.
-   - Add relative links between related files (e.g. `[Karrieren](../03-klassen-karrieren/03-karrieren-liste.md)`).
-   - Use "Siehe auch" / "Verwandte Abschnitte" blocks where concepts cross-reference.
-   - Keep link paths relative and stable.
+## Eine Mechanik = ein Ordner
 
-6. **Incremental saving**
-   - After every meaningful chunk, write the Markdown file immediately.
-   - Update the INDEX after each major addition.
-   - Re-zip the output folder when the user requests a download.
+```
+<slug>/
+  README.md
+  original.md     Buch. Nach Extraktion nicht anfassen.
+  angepasst.md    Projekt (Karte, Grau, Resolver, Befehl)
+  details.md      Hilfe, JSON-id, [prüfen], Fallen
+```
 
-## Output Conventions (WFRP-style / general rulebooks)
+Alte `name.md` bleibt **Zeiger** auf den Ordner.
 
-- Folders numbered and named after major parts (01-einfuehrung, 02-charaktere, …).
-- Filenames descriptive and numbered inside the folder.
-- German language preserved when the source is German.
-- Page numbers noted as `Quelle: S. XX` or `S. XX–YY`.
-- No invented content – only what is in the PDF.
+| Datei | Pflicht | Verboten |
+|-------|---------|----------|
+| original | `Quelle: S. xx`, `Status: Original, nicht anfassen`, `### Siehe auch` | `### Befehl`, Die Frist, Katalog, Engine, Befehlsregister |
+| angepasst | `### Befehl`, `### Siehe auch`, Link auf `original.md` | Buchtext noch einmal |
+| details | JSON-`id` wenn es eine gibt, `### Siehe auch` | Volltext des Originals |
+| README | Links auf die drei | Regeln erfinden |
 
-## Tools to Prefer
+Katalog-ID **zuerst** ins Befehlsregister, Ziel = `angepasst.md`.
 
-- `pdf_search` for locating sections and keywords
-- `pdf_browse` for reading concrete page ranges
-- `write_file` / `edit_file` for creating and updating Markdown
-- `bash` + `zip` when packaging for download
+---
 
-## Quality Rules
+## Buch holen
 
-- **Ungekürzt**: Full paragraphs and tables, not summaries.
-- **Structured**: Clear hierarchy and predictable file names.
-- **Linked**: INDEX + cross-links between related topics.
-- **Traceable**: Source page references kept.
-- **Incremental**: Save after each logical unit so progress is never lost.
+- WebP-Ordner, Mapping in `00-QUELLEN.md`. Datei `…_N.webp` = Buchseite **N − 1**.
+- Zitat = Fußzeile, nie Dateiname.
+- Visuell lesen. Kein OCR-Raten.
+- Unsicher: Original so lassen, in details `[prüfen am Buch S. xx]`.
+- EG: Zehner(Ziel) − Zehner(Wurf), Buch S. 151.
+- Kein PDF, kein WebP ins Git.
 
-## Example Trigger Phrases
+Rohkapitel (ganzer Abschnitt) zusätzlich unter `_roh/` ablegen und nicht umschreiben.
 
-- "Extrahiere das Kapitel X vollständig"
-- "Setze die Markdown-Erschließung fort"
-- "PDF ungekürzt in verlinkte Markdown-Dateien aufteilen"
-- "Vervollständige die fehlenden Kapitel"
-- "Baue die Wissensbasis aus dem Regelwerk weiter"
+---
 
-When the PDF is the WFRP Grundregelwerk, continue the existing structure under `knowledge/` unless the user specifies otherwise.
+## Nach jedem Block
+
+1. INDEX Hub-Link
+2. VOLLTEXT-Welle
+3. Befehlsregister nur bei neuer ID
+4. Übergabe Stand-Zeile
+5. Validator:
+
+```
+python3 skill/scripts/validate_wissen.py
+```
+
+Exit 0 = commitfähig. Exit 1 = Fehler beheben, nicht committen.
+
+6. Commit
+
+---
+
+## Gate (kurz)
+
+Vollständig: `references/qa-gate.md`.
+
+- Kein erfundener Regeltext.
+- Original nach dem Schreiben nicht „glätten“.
+- Angepasst wiederholt das Buch nicht.
+- Relative Links müssen existieren.
+- Platzhalter (`TODO`, `📝`) nur bewusst, in INDEX so markiert.

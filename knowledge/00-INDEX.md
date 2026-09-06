@@ -14,6 +14,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Befehle – Arbeitsregeln](00-BEFEHLE.md)
 - ✅ [Vorlage drei Dateien](00-VORLAGE.md)
 - ✅ [Volltext-Plan](00-VOLLTEXT.md)
+- ✅ [Skill wfrp-wissen](../skill/SKILL.md)
 - ✅ [Quellen](00-QUELLEN.md)
 - ✅ [Übergabe](00-UEBERGABE.md)
 - ✅ [Inhaltsverzeichnis-Abgleich](00-ABGLEICH-INHALTSVERZEICHNIS.md)
