@@ -27,14 +27,14 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 
 ## 02 – Charaktere
 - ✅ [Charaktererschaffung – Übersicht](02-charaktere/01-charaktererschaffung-uebersicht.md)
-- ✅ [Völker – Kurzübersicht](02-charaktere/02-voelker-kurz.md)
+- ✅ [Völker](02-charaktere/02-voelker-kurz.md) — 5 Originale S. 24–29, 36
 - 📝 [Klasse und Karriere – Einführung](02-charaktere/03-klasse-karriere-einfuehrung.md)
 - ✅ [Attribute](02-charaktere/04-attribute.md) — 10 Ordner
-- 📝 [Fähigkeiten und Talente – Startauswahl](02-charaktere/05-faehigkeiten-talente-start.md)
+- ✅ [Fähigkeiten und Talente – Startauswahl](02-charaktere/05-faehigkeiten-talente-start.md) — S. 35–36
 - 📝 [Ausrüstung und zusätzliche Details](02-charaktere/06-ausruestung-details.md)
 - 📝 [Gruppe, Charaktere zum Leben erwecken & Steigerungen](02-charaktere/07-gruppe-und-steigerungen.md)
 - 📝 [Erklärung des Charakterbogens](02-charaktere/08-charakterbogen.md)
-- ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) (5 Gerüste, Original offen)
+- ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) — 5 Originale
 
 ## 03 – Klassen und Karrieren
 - ✅ [Klassen und Karrieren – Übersicht](03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)

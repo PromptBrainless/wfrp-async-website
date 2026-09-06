@@ -1,46 +1,247 @@
 {
-  "quelle": "S. 33–36",
+  "quelle": "S. 24–29, 33–36",
   "wuerfel_werte": "2W10 + Basis. Tausch +25 EP, Zufall behalten +50 EP, 100 Punkte frei (4–18) + Basis ohne EP.",
   "voelker": {
     "mensch": {
       "name": "Mensch (Reikländer)",
-      "basis": {"KG":20,"BF":20,"ST":20,"WI":20,"I":20,"GW":20,"GS":20,"IN":20,"WK":20,"CH":20},
+      "basis": {
+        "KG": 20,
+        "BF": 20,
+        "ST": 20,
+        "WI": 20,
+        "I": 20,
+        "GW": 20,
+        "GS": 20,
+        "IN": 20,
+        "WK": 20,
+        "CH": 20
+      },
       "lp": "STB+2*WIB+WKB",
       "schicksal": 2,
       "zaehigkeit": 1,
       "zusaetzliche_punkte": 3,
       "bewegung": 4,
-      "faehigkeiten": ["anfuehren","besonnenheit","charme","feilschen","fernkampf.bogen","klatsch","nahkampf.standard","schaetzen","sprache.bretonisch","sprache.oedlaendisch","tierpflege","wissen.reikland"],
-      "talente": ["Einnehmendes Wesen oder Gerissenheit", "Unkenruf", "3 zufällige Talente"],
-      "wahl": "3 Fähigkeiten +5, 3 Fähigkeiten +3"
+      "faehigkeiten": [
+        "anfuehren",
+        "besonnenheit",
+        "charme",
+        "feilschen",
+        "fernkampf.bogen",
+        "klatsch",
+        "nahkampf.standard",
+        "schaetzen",
+        "sprache.bretonisch",
+        "sprache.oedlaendisch",
+        "tierpflege",
+        "wissen.reikland"
+      ],
+      "talente": [
+        "Einnehmendes Wesen oder Gerissenheit",
+        "Unkenruf",
+        "3 zufällige Talente"
+      ],
+      "wahl": "3 Fähigkeiten +5, 3 Fähigkeiten +3",
+      "original": true,
+      "seite": 25
     },
     "zwerg": {
       "name": "Zwerg",
-      "basis": {"KG":30,"BF":20,"ST":20,"WI":30,"I":20,"GW":10,"GS":30,"IN":20,"WK":40,"CH":10},
+      "basis": {
+        "KG": 30,
+        "BF": 20,
+        "ST": 20,
+        "WI": 30,
+        "I": 20,
+        "GW": 10,
+        "GS": 30,
+        "IN": 20,
+        "WK": 40,
+        "CH": 10
+      },
       "lp": "STB+2*WIB+WKB",
       "schicksal": 0,
       "zaehigkeit": 2,
       "zusaetzliche_punkte": 2,
-      "bewegung": 3
+      "bewegung": 3,
+      "faehigkeiten": [
+        "ausdauer",
+        "besonnenheit",
+        "einschuechtern",
+        "beruf",
+        "nahkampf.standard",
+        "schaetzen",
+        "sprache.khazalid",
+        "unterhalten.erzaehlen",
+        "wissen.geologie",
+        "wissen.metallurgie",
+        "wissen.zwerge",
+        "zechen"
+      ],
+      "talente": [
+        "Entschlossen oder Willensstärke",
+        "Lesen & Schreiben oder Unerbittlich",
+        "Magieresistenz",
+        "Nachtsicht",
+        "Stämmig"
+      ],
+      "wahl": "3 Fähigkeiten +5, 3 Fähigkeiten +3",
+      "original": true,
+      "seite": 25
     },
     "halbling": {
       "name": "Halbling",
-      "basis": {"KG":10,"BF":30,"ST":10,"WI":20,"I":20,"GW":20,"GS":30,"IN":20,"WK":30,"CH":30},
+      "basis": {
+        "KG": 10,
+        "BF": 30,
+        "ST": 10,
+        "WI": 20,
+        "I": 20,
+        "GW": 20,
+        "GS": 30,
+        "IN": 20,
+        "WK": 30,
+        "CH": 30
+      },
       "lp": "2*WIB+WKB",
       "schicksal": 0,
       "zaehigkeit": 2,
       "zusaetzliche_punkte": 3,
       "bewegung": 3,
-      "talent_pflicht": "Zierlich"
+      "talent_pflicht": "Zierlich",
+      "faehigkeiten": [
+        "ausweichen",
+        "charme",
+        "gluecksspiel",
+        "feilschen",
+        "fingerfertigkeit",
+        "beruf.koch",
+        "intuition",
+        "schleichen",
+        "sprache.mootlaendisch",
+        "wahrnehmung",
+        "wissen.reikland",
+        "zechen"
+      ],
+      "talente": [
+        "Nachtsicht",
+        "Resistenz (Chaos)",
+        "Scharfer Sinn (Geschmack)",
+        "Zierlich",
+        "2 zufällige Talente"
+      ],
+      "wahl": "3 Fähigkeiten +5, 3 Fähigkeiten +3",
+      "original": true,
+      "seite": 26
     },
     "elf": {
       "name": "Elf (Hoch- / Waldelf teilen Attributstabelle)",
-      "basis": {"KG":30,"BF":30,"ST":20,"WI":20,"I":40,"GW":30,"GS":30,"IN":30,"WK":30,"CH":20},
+      "basis": {
+        "KG": 30,
+        "BF": 30,
+        "ST": 20,
+        "WI": 20,
+        "I": 40,
+        "GW": 30,
+        "GS": 30,
+        "IN": 30,
+        "WK": 30,
+        "CH": 20
+      },
       "lp": "STB+2*WIB+WKB",
       "schicksal": 0,
       "zaehigkeit": 0,
       "zusaetzliche_punkte": 2,
-      "bewegung": 5
+      "bewegung": 5,
+      "original": true,
+      "seite": 27
+    },
+    "hochelf": {
+      "name": "Hochelf (Asur)",
+      "basis": {
+        "KG": 30,
+        "BF": 30,
+        "ST": 20,
+        "WI": 20,
+        "I": 40,
+        "GW": 30,
+        "GS": 30,
+        "IN": 30,
+        "WK": 30,
+        "CH": 20
+      },
+      "lp": "STB+2*WIB+WKB",
+      "schicksal": 0,
+      "zaehigkeit": 0,
+      "zusaetzliche_punkte": 2,
+      "bewegung": 5,
+      "faehigkeiten": [
+        "anfuehren",
+        "besonnenheit",
+        "fernkampf.bogen",
+        "musizieren",
+        "nahkampf.standard",
+        "navigation",
+        "schaetzen",
+        "schwimmen",
+        "segeln",
+        "sprache.eltharin",
+        "unterhalten.singen",
+        "wahrnehmung"
+      ],
+      "talente": [
+        "Gerissenheit oder Kühler Kopf",
+        "Lesen & Schreiben",
+        "Nachtsicht",
+        "Scharfer Sinn (Sicht)",
+        "Sechster Sinn oder Zweites Gesicht"
+      ],
+      "wahl": "3 Fähigkeiten +5, 3 Fähigkeiten +3",
+      "original": true,
+      "seite": 27
+    },
+    "waldelf": {
+      "name": "Waldelf (Asrai / Eonir)",
+      "basis": {
+        "KG": 30,
+        "BF": 30,
+        "ST": 20,
+        "WI": 20,
+        "I": 40,
+        "GW": 30,
+        "GS": 30,
+        "IN": 30,
+        "WK": 30,
+        "CH": 20
+      },
+      "lp": "STB+2*WIB+WKB",
+      "schicksal": 0,
+      "zaehigkeit": 0,
+      "zusaetzliche_punkte": 2,
+      "bewegung": 5,
+      "faehigkeiten": [
+        "athletik",
+        "ausdauer",
+        "einschuechtern",
+        "fernkampf.bogen",
+        "klettern",
+        "nahkampf.standard",
+        "sprache.eltharin",
+        "schleichen.laendlich",
+        "spurenlesen",
+        "ueberleben",
+        "unterhalten.singen",
+        "wahrnehmung"
+      ],
+      "talente": [
+        "Lesen & Schreiben oder Unverwüstlich",
+        "Nachtsicht",
+        "Robustheit oder Zweites Gesicht",
+        "Scharfer Sinn (Sicht)",
+        "Streuner"
+      ],
+      "wahl": "3 Fähigkeiten +5, 3 Fähigkeiten +3",
+      "original": true,
+      "seite": 28
     }
   },
   "karriere_start": {
@@ -49,8 +250,17 @@
     "talente": "1 der 4 Talente der ersten Stufe"
   },
   "bewegung_meter": {
-    "3": {"gehen": 6, "rennen": 12},
-    "4": {"gehen": 8, "rennen": 16},
-    "5": {"gehen": 10, "rennen": 20}
+    "3": {
+      "gehen": 6,
+      "rennen": 12
+    },
+    "4": {
+      "gehen": 8,
+      "rennen": 16
+    },
+    "5": {
+      "gehen": 10,
+      "rennen": 20
+    }
   }
 }

@@ -109,6 +109,8 @@ LP = Stärke-Bonus + (2 × Widerstands-Bonus) + Willenskraft-Bonus
 ### Siehe auch
 - [Charaktererschaffung – Übersicht](01-charaktererschaffung-uebersicht.md)
 - [Völker](02-voelker-kurz.md)
+- [Mensch](voelker/mensch/original.md) · [Zwerg](voelker/zwerg/original.md) · [Halbling](voelker/halbling/original.md) · [Hochelf](voelker/hochelf/original.md) · [Waldelf](voelker/waldelf/original.md)
+- [Startfähigkeiten](05-faehigkeiten-talente-start.md)
 - [Klassen und Karrieren](../03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
 - [Würfel und Grundmechanik](../05-regeln/01-wuerfel-und-grundmechanik.md)
 - [Kampf – Übersicht](../05-regeln/02-kampf-uebersicht.md)

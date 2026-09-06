@@ -14,7 +14,7 @@ Schema-Prosa: [../10-system/02-datenmodell.md](../10-system/02-datenmodell.md).
 | `qualities.json` | 20 Qualitäten + 6 Makel | S. 297–299 |
 | `conditions.json` | 12 Zustände inkl. Stapel, Ende, Folge; Original-Flag | S. 167–169 |
 | `weapons.json` | Nahkampf + Demo-relevante Fernkampf | S. 294–296 |
-| `species.json` | Völker-Attributstabelle, Start-Fähigkeiten/Talente | S. 33–36 |
+| `species.json` | 5 Völker: Basis, LP, Start-Fähigkeiten/Talente | S. 24–29, 33–36 |
 | `characters.json` | Greta, Otto, Kurt, Dieb | Demo, an Städter/Gehilfe gebunden |
 | `catalog.json` | Aktionskatalog v1 + Grau-Regeln | abgeleitet |
 | `scenes.json` | Basar + Gasse | Demo |

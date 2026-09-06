@@ -1,6 +1,6 @@
 # Halbling
 
-Quelle: S. 36
+Quelle: S. 26–27, 36
 
 - [Original](original.md) — Buch, unverändert
 - [Angepasst](angepasst.md) — Projekt

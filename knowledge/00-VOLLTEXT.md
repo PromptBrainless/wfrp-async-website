@@ -6,7 +6,7 @@ Vorlage: [00-VORLAGE.md](00-VORLAGE.md) · Befehle: [00-BEFEHLE.md](00-BEFEHLE.m
 
 **Simulation und UI sind kein Teil dieses Plans.**
 
-Stand: 2026-09-06 Abend · Originale mit Buchtext: **67 / 329** Gerüste.
+Stand: 2026-09-06 Abend · Originale mit Buchtext: **72 / 329** Gerüste.
 
 ---
 
@@ -77,9 +77,10 @@ Demo:
 
 ### Welle A — Charakter S. 24–45
 
-[ ] 0 / 5 Völker-Originale (Gerüste stehen)  
+[x] 5 / 5 Völker-Originale — [Hub](02-charaktere/02-voelker-kurz.md)  
+[x] Startfähigkeiten S. 35–36 — [05-faehigkeiten-talente-start.md](02-charaktere/05-faehigkeiten-talente-start.md)  
 [ ] 0 / 10 Attribut-Originale  
-[ ] Klasse/Karriere-Einführung, Startfähigkeiten, Ausrüstung, Bogen-Erklärung
+[ ] Klasse/Karriere-Einführung, Ausrüstung, Bogen-Erklärung
 
 ### Welle F–J — Rest Buch
 
@@ -93,9 +94,8 @@ Demo:
 
 ## Als Nächstes (Demo-Schnitt, Reihenfolge)
 
-1. [ ] 5 Völker S. 36 (Bogen-Start)
-2. [ ] Halunke (Kurt)
-3. [ ] Attribute S. 33–36, wenn Völker das brauchen
+1. [ ] Halunke (Kurt)
+2. [ ] Attribute S. 33–36, wenn der Bogen das braucht
 
 Nicht: Website. Nicht: Simulation nachrechnen.
 

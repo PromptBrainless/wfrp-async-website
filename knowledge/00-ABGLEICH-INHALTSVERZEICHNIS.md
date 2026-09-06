@@ -19,10 +19,10 @@ Stand: 2026-09-06 Abend. Häkchen der Wellen: [00-VOLLTEXT.md](00-VOLLTEXT.md).
 | Regelwerk | Unsere Datei | Status |
 |-----------|--------------|--------|
 | Charaktererschaffung (S. 24) | `02-charaktere/01-...` | ✅ |
-| Völker (S. 24) | `02-charaktere/02-voelker-kurz.md` | ✅ (Kurz) |
+| Völker (S. 24) | `02-charaktere/voelker/<slug>/` | ✅ 5 Originale |
 | Klasse und Karriere (S. 30) | `02-charaktere/03-klasse-karriere-einfuehrung.md` | ✅ Platzhalter |
 | Attribute (S. 33) | `02-charaktere/04-attribute.md` | ✅ |
-| Fähigkeiten und Talente Start (S. 35) | `02-charaktere/05-...` | ✅ Platzhalter |
+| Fähigkeiten und Talente Start (S. 35) | `02-charaktere/05-...` | ✅ S. 35–36 |
 | Ausrüstung + Zusätzliche Details (S. 37) | `02-charaktere/06-...` | ✅ Platzhalter |
 | Gruppe + Charaktere zum Leben erwecken + Steigerungen (S. 41–43) | `02-charaktere/07-...` | ✅ Platzhalter |
 | Erklärung des Charakterbogens (S. 44) | `02-charaktere/08-...` | ✅ Platzhalter |

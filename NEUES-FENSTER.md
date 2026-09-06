@@ -37,7 +37,7 @@ Liste und Häkchen: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
 - [x] 12 Zustände Original
 - [x] Städter + Kaufmann Original
 - [x] 8 Demo-Talente Original
-- [ ] Völker (5)
+- [x] 5 Völker Original
 - [ ] Halunke
 - [ ] restliche 159 Talente, 62 Karrieren, Attribute, Qualitäten
 

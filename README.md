@@ -44,7 +44,7 @@ Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.
 
 ## Stand
 
-Fortschritt: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — 67 / 329 Originale mit Buchtext.
+Fortschritt: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — 72 / 329 Originale mit Buchtext.
 
 Simulation und UI sind später. Nicht in dieser Arbeitsliste.
 

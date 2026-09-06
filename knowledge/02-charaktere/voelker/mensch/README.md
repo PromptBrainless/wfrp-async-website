@@ -1,6 +1,6 @@
-# Mensch
+# Mensch (Reikländer)
 
-Quelle: S. 36
+Quelle: S. 24–25, 36
 
 - [Original](original.md) — Buch, unverändert
 - [Angepasst](angepasst.md) — Projekt
