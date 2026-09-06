@@ -1,0 +1,51 @@
+{
+  "kampagne": {
+    "id": "der-ballen",
+    "titel": "Der Ballen",
+    "sc": ["greta"],
+    "tick": "mix",
+    "countdown_default_ms": 900000
+  },
+  "scenes": [
+    {
+      "id": "basar",
+      "ort": "Basar-Altquartier",
+      "modus": "sozial",
+      "anwesend": ["greta", "otto"],
+      "slText": "Vormittag. Der Altquartier-Basar dampft nach Kohl, nassem Tuch und Fisch. Otto steht hinter aufgestapelten Ballen, der Daumen schon am Preis. Eine Stadtwache lehnt am Pfeiler, gähnt.",
+      "ausloeser": "Otto sieht Gretas Tasche und sagt: „Sechs Schillinge, und ich bin schon gnädig.“",
+      "katalog": ["umschauen","intuition","reden","feilschen","bestechen","einschuechtern","klatsch","schleichen","gehen","warten","waffe_ziehen","glueck","mut","schicksal","zaehigkeit"],
+      "ausgaenge": [
+        { "id": "gasse", "label": "Gasse hinter dem Basar", "zu": "gasse" },
+        { "id": "hauptstrasse", "label": "Hauptstraße", "zu": null }
+      ],
+      "events": [
+        {
+          "id": "taschendieb",
+          "trigger": "erster sozialer Misserfolg",
+          "effekt": { "vergleich": ["dieb.fingerfertigkeit", "greta.wahrnehmung"], "geld_g": -4, "flag": "bestohlen" }
+        }
+      ]
+    },
+    {
+      "id": "gasse",
+      "ort": "Gasse hinter dem Basar",
+      "modus": "kampf",
+      "anwesend": ["greta", "kurt"],
+      "slText": "Gasse, acht Schritt, nass, Kellerabgang, Ausgang nur zurück zum Basar. Kurt an der Wand, offene Hände, sieht den Ballen.",
+      "ausloeser": "„Den Ballen. Her damit. Dann musst du nicht liegenbleiben.“",
+      "distanz_m": 4,
+      "gebunden": false,
+      "ueberraschung": false,
+      "katalog": ["umschauen","intuition","reden","feilschen","bestechen","einschuechtern","klatsch","schleichen","gehen","warten","waffe_ziehen","sturmangriff","angreifen","sprinten","fliehen","loesen","volle_abwehr","ausweichen","glueck","mut","schicksal","zaehigkeit"],
+      "ausgaenge": [{ "id": "basar", "label": "Zurück zum Basar", "zu": "basar" }],
+      "events": [
+        {
+          "id": "wache",
+          "trigger": "nach zweitem Kampftick",
+          "effekt": { "wacheEtaRunden": 2, "flag": "wache_naht" }
+        }
+      ]
+    }
+  ]
+}

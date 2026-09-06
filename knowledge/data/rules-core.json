@@ -1,0 +1,135 @@
+{
+  "quelle": "GRW 2. Auflage",
+  "wuerfel": {
+    "w10_null_ist": 10,
+    "w100_00_ist": 100,
+    "erfolg": "wurf <= zielwert",
+    "auto_erfolg": [1, 5],
+    "auto_misserfolg": [96, 100],
+    "eg_formel": "tens(zielwert) - tens(wurf)",
+    "eg_beispiel": { "ziel": 41, "wurf": 29, "eg": 2, "seite": 152 },
+    "schnelle_eg_v1": false,
+    "modifikator_aendert": "zielwert",
+    "pasch": "zehner == einer (11, 22, … 00)",
+    "wiederholung": "Ergebnis verwerfen, neu würfeln. Ein bereits wiederholter Wurf wird nicht erneut wiederholt.",
+    "vertauschen": "Zehner und Einer tauschen. Trefferzone = vertauschter Wurf.",
+    "vergleich": {
+      "sieger": "höhere EG; bei Gleichstand höherer Fähigkeitswert; sonst SL",
+      "finale_eg": "EG_sieger - EG_verlierer"
+    },
+    "schwierigkeit": {
+      "sehr-einfach": 60,
+      "einfach": 40,
+      "durchschnittlich": 20,
+      "herausfordernd": 0,
+      "schwierig": -10,
+      "schwer": -20,
+      "sehr-schwer": -30
+    },
+    "kampf_default_schwierigkeit": "herausfordernd"
+  },
+  "geld": {
+    "seite": 288,
+    "gk_in_s": 20,
+    "s_in_g": 12,
+    "gk_in_g": 240
+  },
+  "feilschen": {
+    "seite": 291,
+    "art": "vergleich",
+    "sieg": "Preis −10 %",
+    "verblueffender_erfolg_oder_verhandlungsgenie": "Preis −20 %",
+    "talent_verhandlungsgenie": {
+      "seite": 147,
+      "maximum": "CHB",
+      "effekt": "zusätzlich 10 % Preis ändern"
+    },
+    "v1_demo": "Listenpreis in Groschen, 10 % abrunden. 6 S → 65 G = 5 S 5 G. Simulation rundete auf 5 S."
+  },
+  "traglast": {
+    "seite": 293,
+    "max": "STB + WIB",
+    "klein_geld": "1 TP pro 200 Münzen"
+  },
+  "lebenspunkte": {
+    "seite": 34,
+    "formel": "STB + 2*WIB + WKB",
+    "halbling": "2*WIB + WKB (Talent Zierlich)"
+  },
+  "vorteile": {
+    "seite": 164,
+    "bonus_je": 10,
+    "gelten_fuer": ["kampf", "psychologie"],
+    "v1_obergrenze": "IB",
+    "verlust": ["vergleich verloren", "Zustand erlitten", "LP verloren", "Kampfende", "Lösen über Vorteilsvorsprung"]
+  },
+  "sturmangriff": {
+    "seite": 165,
+    "kosten": "B+H",
+    "voraussetzung": "nicht gebunden; Distanz >= Bewegung (m) und <= Rennen (Bewegung*4 m)",
+    "vorteil": "+1 Vorteil VOR dem Trefferwurf",
+    "handlung": "muss Nahkampf-Attacke sein"
+  },
+  "binden": {
+    "seite": 159,
+    "wann": "Sobald man sich im Nahkampf gegenseitig attackiert"
+  },
+  "loesen": {
+    "seite": 165,
+    "vorteilsvorsprung": "Vorteile auf 0, frei bewegen",
+    "sonst": "Vergleich Ausweichen vs. Nahkampf; Misserfolg: Gegner +1 Vorteil, keine Flucht ohne freie Attacke"
+  },
+  "flucht": {
+    "seite": 165,
+    "gegner": "+1 Vorteil und freie Attacke +20, ohne Verteidigung",
+    "danach": "herausfordernd Besonnenheit oder Demoralisiert"
+  },
+  "freie_handlung": {
+    "seite": 158,
+    "regel": "Was keinen Wurf braucht, kann frei sein. Ziehen einer Waffe: v1 frei."
+  },
+  "schaden": {
+    "seite": 159,
+    "formel": "Waffenschaden + finale EG",
+    "lp_verlust": "Schaden - (WIB + RP der Zone)",
+    "minimum_treffer": 1
+  },
+  "trefferzone": {
+    "seite": 159,
+    "methode": "Wurf vertauschen",
+    "tabelle": [
+      { "bis": 9, "zone": "Kopf" },
+      { "bis": 24, "zone": "Linker Arm" },
+      { "bis": 44, "zone": "Rechter Arm" },
+      { "bis": 79, "zone": "Körper" },
+      { "bis": 89, "zone": "Linkes Bein" },
+      { "bis": 100, "zone": "Rechtes Bein" }
+    ]
+  },
+  "glueck": {
+    "seite": 170,
+    "optionen": ["misslungenen Wurf wiederholen", "+1 EG nach dem Wurf", "Zugreihenfolge in dieser Runde wählen"],
+    "fenster": "nach eigenem Wurf, eigener Tick",
+    "v1_fremd": false,
+    "auffuellen": "zu Beginn jedes Spielabends auf aktuelles Schicksal"
+  },
+  "schicksal": {
+    "seite": 170,
+    "optionen": ["Nein, nicht heute (aus der Begegnung)", "Wie konnte das verfehlen (kein Schaden, weiterkämpfen)"],
+    "permanent": true
+  },
+  "mut": {
+    "seite": 171,
+    "optionen": ["Psychologie-Immun bis Ende nächster Runde", "Krit-Mods ignorieren bis Beginn nächster Runde", "1 Zustand entfernen; Niedergestreckt → +1 LP"]
+  },
+  "zaehigkeit": {
+    "seite": 171,
+    "optionen": ["Ich trotze Euch (keine Mutation)", "Ich werde nicht scheitern (Wurf wählen, Vergleich min. +1 EG)"],
+    "permanent": true
+  },
+  "initiative": {
+    "seite": 156,
+    "default": "I absteigend, Gleichstand GW, sonst Vergleich GW",
+    "v1": "Wert I, nicht ausgewürfelt"
+  }
+}

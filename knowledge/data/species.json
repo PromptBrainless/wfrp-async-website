@@ -1,0 +1,56 @@
+{
+  "quelle": "S. 33–36",
+  "wuerfel_werte": "2W10 + Basis. Tausch +25 EP, Zufall behalten +50 EP, 100 Punkte frei (4–18) + Basis ohne EP.",
+  "voelker": {
+    "mensch": {
+      "name": "Mensch (Reikländer)",
+      "basis": {"KG":20,"BF":20,"ST":20,"WI":20,"I":20,"GW":20,"GS":20,"IN":20,"WK":20,"CH":20},
+      "lp": "STB+2*WIB+WKB",
+      "schicksal": 2,
+      "zaehigkeit": 1,
+      "zusaetzliche_punkte": 3,
+      "bewegung": 4,
+      "faehigkeiten": ["anfuehren","besonnenheit","charme","feilschen","fernkampf.bogen","klatsch","nahkampf.standard","schaetzen","sprache.bretonisch","sprache.oedlaendisch","tierpflege","wissen.reikland"],
+      "talente": ["Einnehmendes Wesen oder Gerissenheit", "Unkenruf", "3 zufällige Talente"],
+      "wahl": "3 Fähigkeiten +5, 3 Fähigkeiten +3"
+    },
+    "zwerg": {
+      "name": "Zwerg",
+      "basis": {"KG":30,"BF":20,"ST":20,"WI":30,"I":20,"GW":10,"GS":30,"IN":20,"WK":40,"CH":10},
+      "lp": "STB+2*WIB+WKB",
+      "schicksal": 0,
+      "zaehigkeit": 2,
+      "zusaetzliche_punkte": 2,
+      "bewegung": 3
+    },
+    "halbling": {
+      "name": "Halbling",
+      "basis": {"KG":10,"BF":30,"ST":10,"WI":20,"I":20,"GW":20,"GS":30,"IN":20,"WK":30,"CH":30},
+      "lp": "2*WIB+WKB",
+      "schicksal": 0,
+      "zaehigkeit": 2,
+      "zusaetzliche_punkte": 3,
+      "bewegung": 3,
+      "talent_pflicht": "Zierlich"
+    },
+    "elf": {
+      "name": "Elf (Hoch- / Waldelf teilen Attributstabelle)",
+      "basis": {"KG":30,"BF":30,"ST":20,"WI":20,"I":40,"GW":30,"GS":30,"IN":30,"WK":30,"CH":20},
+      "lp": "STB+2*WIB+WKB",
+      "schicksal": 0,
+      "zaehigkeit": 0,
+      "zusaetzliche_punkte": 2,
+      "bewegung": 5
+    }
+  },
+  "karriere_start": {
+    "seite": 36,
+    "faehigkeiten": "40 Steigerungen auf die 8 Fähigkeiten der ersten Stufe, max 10 je Fähigkeit in diesem Schritt",
+    "talente": "1 der 4 Talente der ersten Stufe"
+  },
+  "bewegung_meter": {
+    "3": {"gehen": 6, "rennen": 12},
+    "4": {"gehen": 8, "rennen": 16},
+    "5": {"gehen": 10, "rennen": 20}
+  }
+}

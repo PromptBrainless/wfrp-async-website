@@ -1,0 +1,101 @@
+{
+  "hinweis": "Demo-Bögen. Greta ist Städter/Gehilfe (Silber 1); Krämerin ist die Städter-Tätigkeit im Buch S. 67, keine eigene Karriere.",
+  "characters": [
+    {
+      "id": "greta",
+      "name": "Greta Kohl",
+      "art": "pc",
+      "volk": "mensch",
+      "klasse": "buerger",
+      "karriere": "staedter",
+      "karrierestufe": 1,
+      "karrierestufe_name": "Gehilfe",
+      "status": { "tier": "silber", "rang": 1 },
+      "motivation": "Schulden des Vaters",
+      "attribute": { "KG": 31, "BF": 33, "ST": 32, "WI": 34, "I": 36, "GW": 31, "GS": 38, "IN": 41, "WK": 35, "CH": 42 },
+      "boni": { "KG": 3, "BF": 3, "ST": 3, "WI": 3, "I": 3, "GW": 3, "GS": 3, "IN": 4, "WK": 3, "CH": 4 },
+      "lp": { "aktuell": 12, "max": 12, "formel": "3+2*3+3" },
+      "bewegung": 4,
+      "rennen_m": 16,
+      "gehen_m": 8,
+      "schicksal": 3,
+      "glueck": 3,
+      "zaehigkeit": 3,
+      "mut": 3,
+      "vorteile": 0,
+      "vorteile_cap": 3,
+      "faehigkeiten": {
+        "feilschen": { "attr": "CH", "steigerungen": 5, "wert": 47 },
+        "charme": { "attr": "CH", "steigerungen": 3, "wert": 45 },
+        "wahrnehmung": { "attr": "I", "steigerungen": 5, "wert": 41 },
+        "intuition": { "attr": "I", "steigerungen": 3, "wert": 39 },
+        "ausweichen": { "attr": "GW", "steigerungen": 0, "wert": 31 },
+        "nahkampf": { "attr": "KG", "steigerungen": 0, "wert": 31, "spezialisierung": null },
+        "ausdauer": { "attr": "WI", "steigerungen": 0, "wert": 34 },
+        "besonnenheit": { "attr": "WK", "steigerungen": 0, "wert": 35 }
+      },
+      "ausbau_fehlt": ["heilen", "fernkampf", "fingerfertigkeit", "schaetzen"],
+      "talente": [],
+      "inventar": [
+        { "id": "dolch", "gezogen": false },
+        { "id": "tasche" }
+      ],
+      "waffe_gefuehrt": null,
+      "geld": { "gk": 0, "s": 8, "g": 14 },
+      "flags": ["schuldet_haken_2S"],
+      "zustaende": []
+    },
+    {
+      "id": "otto",
+      "name": "Otto Tuchhändler",
+      "art": "npc",
+      "volk": "mensch",
+      "klasse": "buerger",
+      "karriere": "kaufmann",
+      "karrierestufe": 1,
+      "karrierestufe_name": "Händler",
+      "status": { "tier": "silber", "rang": 1 },
+      "notiz_status": "Demo setzt Silber 1. Buch Händler ist Silber 2. SL-Kürzung, kein Karriereabschluss.",
+      "haltung": "neutral",
+      "will_preis_s": 6,
+      "attribute": { "KG": 28, "BF": 30, "ST": 30, "WI": 32, "I": 33, "GW": 30, "GS": 34, "IN": 36, "WK": 36, "CH": 38 },
+      "faehigkeiten": {
+        "feilschen": { "wert": 50 },
+        "charme": { "wert": 38 },
+        "besonnenheit": { "wert": 36 },
+        "wahrnehmung": { "wert": 33 }
+      },
+      "lp": { "aktuell": 11, "max": 11 },
+      "flags": []
+    },
+    {
+      "id": "kurt",
+      "name": "Kurt Raufbold",
+      "art": "npc",
+      "volk": "mensch",
+      "klasse": "gesetzlose",
+      "karriere": "halunke",
+      "karrierestufe": 1,
+      "status": { "tier": "messing", "rang": 2 },
+      "haltung": "will den Ballen",
+      "attribute": { "KG": 38, "BF": 30, "ST": 35, "WI": 32, "I": 30, "GW": 33, "GS": 30, "IN": 28, "WK": 28, "CH": 28 },
+      "boni": { "ST": 3, "WI": 3, "I": 3, "GW": 3, "WK": 2 },
+      "lp": { "aktuell": 11, "max": 11, "formel": "3+2*3+2" },
+      "bewegung": 4,
+      "faehigkeiten": {
+        "nahkampf": { "wert": 38, "spezialisierung": "waffenlos" },
+        "ausweichen": { "wert": 33 }
+      },
+      "waffe_gefuehrt": "waffenlos",
+      "psychologie": [],
+      "zustaende": []
+    },
+    {
+      "id": "dieb",
+      "name": "Taschendieb",
+      "art": "npc",
+      "nur_event": true,
+      "faehigkeiten": { "fingerfertigkeit": { "wert": 45 } }
+    }
+  ]
+}

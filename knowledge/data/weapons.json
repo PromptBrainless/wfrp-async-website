@@ -1,0 +1,16 @@
+{
+  "quelle": "S. 294–296",
+  "ohne_spezialisierung": "Qualitäten aus, Makel an. Trefferwurf gegen reines KG.",
+  "melee": [
+    {"id":"handwaffe","name":"Handwaffe","gruppe":"standard","preis":"1 GK","tp":1,"verfuegbarkeit":"verbreitet","laenge":"durchschnitt","schaden":"+STB+4","qualitaeten":[]},
+    {"id":"improvisiert","name":"Improvisierte Waffe","gruppe":"standard","preis":"keiner","tp":null,"verfuegbarkeit":"keine","laenge":"verschieden","schaden":"+STB+1","qualitaeten":["Stumpf"]},
+    {"id":"dolch","name":"Dolch","gruppe":"standard","preis":"16 S","tp":0,"verfuegbarkeit":"verbreitet","laenge":"sehr-kurz","schaden":"+STB+2","qualitaeten":[],"v1_demo":true},
+    {"id":"messer","name":"Messer","gruppe":"standard","preis":"8 S","tp":0,"verfuegbarkeit":"verbreitet","laenge":"sehr-kurz","schaden":"+STB+1","qualitaeten":[]},
+    {"id":"schild_buckler","name":"Schild (Buckler)","gruppe":"standard","preis":"18 S 2 G","tp":0,"verfuegbarkeit":"verbreitet","laenge":"persoenlich","schaden":"+STB+1","qualitaeten":["Defensiv","Schild 1","Stumpf"]},
+    {"id":"schild","name":"Schild","gruppe":"standard","preis":"2 GK","tp":1,"verfuegbarkeit":"verbreitet","laenge":"sehr-kurz","schaden":"+STB+2","qualitaeten":["Defensiv","Schild 2","Stumpf"]},
+    {"id":"schild_gross","name":"Schild (Groß)","gruppe":"standard","preis":"3 GK","tp":3,"verfuegbarkeit":"verbreitet","laenge":"sehr-kurz","schaden":"+STB+3","qualitaeten":["Defensiv","Schild 3","Stumpf"]},
+    {"id":"waffenlos","name":"Waffenlos","gruppe":"waffenlos","preis":"keiner","tp":0,"verfuegbarkeit":"keine","laenge":"persoenlich","schaden":"+STB+0","qualitaeten":["Stumpf"],"v1_demo":true},
+    {"id":"schlagring","name":"Schlagring","gruppe":"waffenlos","preis":"2 S 6 G","tp":0,"verfuegbarkeit":"verbreitet","laenge":"persoenlich","schaden":"+STB+2","qualitaeten":[]}
+  ],
+  "v1_nur": ["dolch", "waffenlos"]
+}

@@ -1,0 +1,121 @@
+{
+  "quelle": "S. 167–170",
+  "invarianten": {
+    "vorteile_auf_0": "Sobald irgendein Zustand erlitten wird, sofort alle Vorteile weg.",
+    "gleicher_zustand": "Effekte kumulativ (außer nicht-kumulativ).",
+    "verschiedene_zustaende": "Nur der schwerwiegendere Effekt zählt, wenn sie sich widersprechen.",
+    "mut": "1 Mutpunkt entfernt 1 Zustand; Niedergestreckt zusätzlich +1 LP."
+  },
+  "conditions": [
+    {
+      "id": "betaubt",
+      "name": "Betäubt",
+      "kumulativ": true,
+      "wuerfel": -10,
+      "keine_handlung": true,
+      "bewegung": "halb",
+      "nahkampf_gegner": "+1 Vorteil vor Trefferwurf",
+      "ende": "Ende der Runde: herausfordernd Ausdauer → 1+EG entfernen",
+      "danach": "erschoepft"
+    },
+    {
+      "id": "bewusstlos",
+      "name": "Bewusstlos",
+      "kumulativ": false,
+      "keine_aktion": true,
+      "keine_wahrnehmung": true,
+      "nahkampf": "Angreifer darf Ich-werde-nicht-scheitern ohne Zähigkeit",
+      "fernkampf": "Kernschussweite trifft automatisch",
+      "danach": ["erschoepft", "niedergestreckt"]
+    },
+    {
+      "id": "blutend",
+      "name": "Blutend",
+      "kumulativ": true,
+      "ende_runde": "-1 LP",
+      "infektion": -10,
+      "bei_0_lp": "bewusstlos + 10% Sterbechance je Stapel",
+      "entfernen": "Heilen 1+EG oder heilende Magie/Gebet 1 je geheiltem LP",
+      "danach": "erschoepft"
+    },
+    {
+      "id": "brennend",
+      "name": "Brennend",
+      "kumulativ": true,
+      "ende_runde": "1W10 Schaden − WIB − schlechteste RP, min. 1 LP; +1 Schaden je weiterem Stapel",
+      "entfernen": "Athletik 1+EG, Schwierigkeit situationsabhängig"
+    },
+    {
+      "id": "demoralisiert",
+      "name": "Demoralisiert",
+      "kumulativ": true,
+      "muss": "fliehen und verstecken",
+      "wuerfel": -10,
+      "wuerfel_gilt_nicht_fuer": ["fliehen", "verstecken"],
+      "gebunden": "kein Überwindungsversuch",
+      "ende": "ungebunden Ende Runde: Besonnenheit 1+EG; eine volle Runde außer Sicht −1",
+      "danach": "erschoepft"
+    },
+    {
+      "id": "erschoepft",
+      "name": "Erschöpft",
+      "kumulativ": true,
+      "wuerfel": -10,
+      "entfernen": "Rast (Dauer SL), Zauber oder göttliches Wirken"
+    },
+    {
+      "id": "ertaubt",
+      "name": "Ertaubt",
+      "kumulativ": true,
+      "wuerfel_gehoer": -10,
+      "seite_hinten": "+10 Trefferwurf, nicht kumulativ über Stapel",
+      "ende": "Ende jeder zweiten Runde −1"
+    },
+    {
+      "id": "geblendet",
+      "name": "Geblendet",
+      "kumulativ": true,
+      "wuerfel_sicht": -10,
+      "nahkampf_gegner": "+10 Trefferwurf",
+      "ende": "Ende jeder zweiten Runde −1"
+    },
+    {
+      "id": "gefesselt",
+      "name": "Gefesselt",
+      "kumulativ": true,
+      "keine_bewegung": true,
+      "wuerfel_bewegung": -10,
+      "handlung": "Vergleich ST → 1+EG entfernen"
+    },
+    {
+      "id": "niedergestreckt",
+      "name": "Niedergestreckt",
+      "kumulativ": false,
+      "aktion": "nur aufstehen oder halbe Bewegung kriechen; bei 0 LP nur kriechen",
+      "wuerfel_bewegung": -20,
+      "nahkampf_gegner": "+20 Trefferwurf",
+      "ende": "Aufstehen"
+    },
+    {
+      "id": "ueberrascht",
+      "name": "Überrascht",
+      "kumulativ": false,
+      "keine_bewegung": true,
+      "keine_handlung": true,
+      "keine_verteidigung": true,
+      "nahkampf_gegner": "+20 Trefferwurf",
+      "ende": "Ende der Runde oder nach erstem Angriffsversuch gegen dich"
+    },
+    {
+      "id": "vergiftet",
+      "name": "Vergiftet",
+      "kumulativ": true,
+      "ende_runde_lp": -1,
+      "wuerfel": -10,
+      "bei_0_lp": "keine LP-Regeneration bis alle Stapel weg",
+      "bewusstlos": "nach WIB Runden Ausdauer oder Tod",
+      "entfernen": "Ende Runde Ausdauer oder Heilen 1+EG",
+      "danach": "erschoepft"
+    }
+  ]
+}

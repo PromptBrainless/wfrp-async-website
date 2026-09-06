@@ -1,0 +1,32 @@
+# Abhängigkeiten und Build
+node_modules/
+dist/
+.output/
+.tanstack/
+.vite/
+*.tsbuildinfo
+
+# Umgebung
+.env
+.env.*
+!.env.example
+.node_modules.lock
+
+# Grok-Sandbox (nicht Projekt)
+.grok/
+AGENTS.md
+artifacts/
+screenshots/
+public/__grok/
+
+# Urheberrechtlich geschütztes Regelwerk — nie ins Repo
+attachments/*.pdf
+attachments/*.zip
+**/*Grundregelwerk*.pdf
+**/*Warhammer_Fantasy*.pdf
+
+# Editor / OS
+.DS_Store
+*.log
+.idea/
+.vscode/
