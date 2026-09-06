@@ -12,6 +12,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 
 ## Meta
 - ✅ [Befehle – Arbeitsregeln](00-BEFEHLE.md)
+- ✅ [Vorlage drei Dateien](00-VORLAGE.md)
 - ✅ [Volltext-Plan](00-VOLLTEXT.md)
 - ✅ [Quellen](00-QUELLEN.md)
 - ✅ [Übergabe](00-UEBERGABE.md)
@@ -46,24 +47,9 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 
 ## 04 – Fähigkeiten und Talente
 - ✅ [Struktur](04-faehigkeiten-talente/01-struktur.md)
-- ✅ [Fähigkeiten – Hauptliste](04-faehigkeiten-talente/02-faehigkeiten-liste.md)
+- ✅ [Fähigkeiten – Hauptliste](04-faehigkeiten-talente/02-faehigkeiten-liste.md) — 45 Ordner, je Original / Angepasst / Details
 - ✅ [Talente – Hauptliste](04-faehigkeiten-talente/03-talente-liste.md)
-
-### Einzelfähigkeiten (Katalog v1)
-- ✅ [Wahrnehmung](04-faehigkeiten-talente/faehigkeiten/wahrnehmung.md)
-- ✅ [Intuition](04-faehigkeiten-talente/faehigkeiten/intuition.md)
-- ✅ [Charme](04-faehigkeiten-talente/faehigkeiten/charme.md)
-- ✅ [Feilschen](04-faehigkeiten-talente/faehigkeiten/feilschen.md)
-- ✅ [Bestechen](04-faehigkeiten-talente/faehigkeiten/bestechen.md)
-- ✅ [Einschüchtern](04-faehigkeiten-talente/faehigkeiten/einschuechtern.md)
-- ✅ [Klatsch](04-faehigkeiten-talente/faehigkeiten/klatsch.md)
-- ✅ [Schleichen](04-faehigkeiten-talente/faehigkeiten/schleichen.md)
-- ✅ [Athletik](04-faehigkeiten-talente/faehigkeiten/athletik.md)
-- ✅ [Ausweichen](04-faehigkeiten-talente/faehigkeiten/ausweichen.md)
-- ✅ [Nahkampf](04-faehigkeiten-talente/faehigkeiten/nahkampf.md)
-- ✅ [Ausdauer](04-faehigkeiten-talente/faehigkeiten/ausdauer.md)
-- ✅ [Besonnenheit](04-faehigkeiten-talente/faehigkeiten/besonnenheit.md)
-- ✅ [Fingerfertigkeit](04-faehigkeiten-talente/faehigkeiten/fingerfertigkeit.md)
+- ✅ [Rohkapitel Fähigkeiten](04-faehigkeiten-talente/_roh/hauptliste-s118-131.md)
 
 ## 05 – Regeln
 - ✅ [Würfel und Grundmechanik](05-regeln/01-wuerfel-und-grundmechanik.md)

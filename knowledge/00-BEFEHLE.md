@@ -1,68 +1,65 @@
 # Befehle – wie diese Wissensbasis weitergeführt wird
 
-Verbindlich für jede Session. Liegt neben [00-INDEX.md](00-INDEX.md), [00-VOLLTEXT.md](00-VOLLTEXT.md) und [00-QUELLEN.md](00-QUELLEN.md).
+Verbindlich für jede Session.  
+[00-VORLAGE.md](00-VORLAGE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-QUELLEN.md](00-QUELLEN.md) · [00-INDEX.md](00-INDEX.md)
 
 Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.  
-**Simulation ist kein Auftrag.** Kein Walkthrough nachrechnen, bis der User das sagt.
+**Simulation ist kein Auftrag.**
 
 ---
 
-## 1. Eine Mechanik = eine Datei
+## 1. Eine Mechanik = ein Ordner, drei Dateien
 
-- Bestehende Kapitelordner nutzen. Keine parallele Hierarchie.
-- Datei: Titel, `Quelle: S. xx` (**Buchfußzeile**), dann der **Volltext der Mechanik** aus dem Buch (Regeln, Tabellen, Beispiele).
-- Danach immer:
+Bestehende Kapitelordner. Keine parallele Hierarchie.
 
 ```
-### Befehl
-- `aktions-id` — [Aktionskatalog](10-system/04-aktionskatalog-v1.md) / [Befehlsregister](10-system/06-befehle.md)
-- ohne Katalog-ID: `-` und Verweis auf die Buchdatei, die sie braucht
-
-### Siehe auch
-- relative Links zu verwandten Dateien
+<slug>/
+  README.md
+  original.md     Buch, nach Extraktion nicht anfassen
+  angepasst.md    Projekt (Katalog, Grau, Loop)
+  details.md      Hilfe, Beispiele, Prüfen
 ```
 
-- Jede neue Katalog-ID gehört **zuerst** ins [Befehlsregister](10-system/06-befehle.md), dann in den [Aktionskatalog](10-system/04-aktionskatalog-v1.md).
-- Jede ID zeigt auf die Buch-Datei, nicht umgekehrt erfinden.
+Vorlage: [00-VORLAGE.md](00-VORLAGE.md).
+
+- Katalog-ID zuerst ins [Befehlsregister](10-system/06-befehle.md), zeigt auf `angepasst.md`.
+- Ein Fakt im Original **einmal**. Angepasst verweist, wiederholt nicht den Buchtext.
 
 ## 2. Was wohin gehört
 
 | Inhalt | Ordner |
 |--------|--------|
-| Würfel, Kampf, Zustände, Schicksal, Wunden | `05-regeln/` |
-| Einzelne Fähigkeiten | `04-faehigkeiten-talente/faehigkeiten/` |
-| Einzelne Talente | `04-faehigkeiten-talente/talente/` |
-| Einzelne Karrieren | `03-klassen-karrieren/<klasse>/` |
-| Waffen, Preise, Feilschen am Markt | `08-einkauf/` |
-| Digitale Aktionen, Filter, Resolver | `10-system/` |
-| SL-Loop, Reisen, Events | `06-spielleiter/` |
-
-Ein Fakt steht **einmal**. Andere Dateien verlinken.
+| Fähigkeiten | `04-faehigkeiten-talente/faehigkeiten/<slug>/` |
+| Talente | `04-faehigkeiten-talente/talente/<slug>/` |
+| Karrieren | `03-klassen-karrieren/<klasse>/<slug>/` |
+| Völker | `02-charaktere/voelker/<slug>/` |
+| Waffen | `08-einkauf/waffen/<slug>/` |
+| Zustände | `05-regeln/zustaende/<slug>/` |
+| Digitale Aktionen | `10-system/` (kein Buch-Original) |
 
 ## 3. Reihenfolge
 
-Buchreihenfolge, Wellen in [00-VOLLTEXT.md](00-VOLLTEXT.md).  
-Platzhalter und Kurzfassungen ersetzen, nicht daneben eine zweite Datei anlegen.
+Wellen in [00-VOLLTEXT.md](00-VOLLTEXT.md). Buchreihenfolge.  
+Kurzfassung überschreiben: Inhalt nach `original.md` heben, alte Datei wird Zeiger.
 
 ## 4. Wie aus dem Buch holen
 
-- **Quelle:** WebP-Seiten, [00-QUELLEN.md](00-QUELLEN.md). Datei `…_N-compressed.webp` → Buchseite **N − 1**.
-- Zitat immer die **Buchfußzeile**.
-- **Volltext der Mechanik:** Regeln, Tabellen, Beispiele, Kosten, Stufen. Kunst, Kapiteltrenner, reines Setting-Flavor nur soweit die Datei es braucht (z. B. Brief Imperium = der Brief).
-- Unsicher: `[prüfen am Buch S. xx]`.
-- EG-Formel (Buch S. 151): Zehner(Ziel) − Zehner(Wurf).
+- WebP, sonst komprimiertes PDF. Mapping: [00-QUELLEN.md](00-QUELLEN.md).
+- Datei `…_N-compressed.webp` → Buchseite **N − 1**.
+- Original = Volltext. Angepasst = nur Projekt. Details = Hilfe.
+- Unsicher im Original: stehen lassen und in details `[prüfen am Buch S. xx]`.
+- EG (Buch S. 151): Zehner(Ziel) − Zehner(Wurf).
 
 ## 5. Nach jedem Block
 
-1. [00-INDEX.md](00-INDEX.md) 📝 → ✅
-2. [00-VOLLTEXT.md](00-VOLLTEXT.md) Häkchen in der Welle
-3. [10-system/06-befehle.md](10-system/06-befehle.md) nur wenn eine ID neu ist
-4. [00-UEBERGABE.md](00-UEBERGABE.md) Stand-Zeile
-5. Tote Links prüfen
+1. INDEX: Link auf den Hub
+2. VOLLTEXT-Welle Häkchen
+3. Befehlsregister nur bei neuer ID
+4. Übergabe Stand-Zeile
+5. Tote Links
 6. Commit
 
-## 6. Was diese Session nicht tut
+## 6. Nicht tun
 
-- Keine Website.
-- Keine Simulation, kein Walkthrough-Nachrechnen.
-- Kein PDF/WebP ins Git.
+Keine Website. Keine Simulation. Kein PDF/WebP ins Git.  
+Original nach der Extraktion nicht „glätten“.

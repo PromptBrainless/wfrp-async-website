@@ -23,7 +23,7 @@ Website, deutsch, asynchron, max. 10 Spieler, WFRP 4e.
 Spieler steuern Intention. SL bleibt Welt / Regeln / Geschichte.
 
 **Jetzt nicht:** Website. Simulation. Walkthrough nachrechnen.  
-**Jetzt ja:** Platzhalter gegen Buch-Volltext tauschen. Wellen in `00-VOLLTEXT.md`.
+**Jetzt ja:** Jede Mechanik einzeln: Original belassen, Angepasst + Details. Vorlage in `00-VORLAGE.md`.
 
 ## PDF / Buchseiten
 
@@ -33,8 +33,9 @@ Datei `…_N.webp` = Buchseite **N − 1**. Nie ins Git.
 ## Arbeitsregeln
 
 - Bestehende Ordner nicht umbauen
-- Eine Mechanik = eine Datei, `Quelle: S. xx` = Fußzeile
-- Volltext der Mechanik, keine Kurzfassung mehr
+- Eine Mechanik = ein Ordner: `original.md` (nicht anfassen) / `angepasst.md` / `details.md`
+- `Quelle: S. xx` = Buchfußzeile
+- Katalog-ID zeigt auf `angepasst.md`
 - Jede Datei endet mit `### Befehl` und `### Siehe auch`
 - Nach jedem Block: INDEX, VOLLTEXT-Welle, Übergabe, Commit
 - Keine erfundenen Regeln. Unsicher: `[prüfen am Buch S. xx]`

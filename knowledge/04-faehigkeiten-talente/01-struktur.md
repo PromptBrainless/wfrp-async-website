@@ -17,17 +17,17 @@ Fähigkeitswert = zugehöriger Spielwert + Anzahl der Steigerungen
 Eine Fähigkeit mit mehreren Spezialisierungen (z. B. Sprache, Wissen, Abrichten).  
 Jede Spezialisierung zählt als eigene Fähigkeit. Steigerungen werden pro Spezialisierung vergeben.
 
+Jede Fähigkeit hat einen Ordner: [Original](faehigkeiten/wahrnehmung/original.md) / [Angepasst](faehigkeiten/wahrnehmung/angepasst.md) / [Details](faehigkeiten/wahrnehmung/details.md). Liste: [02-faehigkeiten-liste.md](02-faehigkeiten-liste.md). Roh: [_roh/hauptliste-s118-131.md](_roh/hauptliste-s118-131.md).
+
 ## Vollständige Liste der Fähigkeiten
 
-### Grundfähigkeiten
-Anführen, Athletik, Ausdauer, Ausweichen, Besonnenheit, Bestechen, Charme, Einschüchtern, Fahren, Feilschen, Glücksspiel, Intuition, Klatsch, Klettern, Nahkampf, Navigation, Kunst, Reiten, Rudern, Tiere bezirzen, Überleben, Unterhalten, Wahrnehmung, Schleichen, Zechen
-
-### Ausbaufähigkeiten
-Abrichten, Artistik, Beruf, Beten, Fallen stellen, Fernkampf, Fingerfertigkeit, Geheimzeichen, Heilen, Kanalisieren, Musizieren, Nachforschen, Schätzen, Schlösser öffnen, Schwimmen, Segeln, Sprache, Spurenlesen, Tierpflege, Wissen
+Siehe [Hauptliste](02-faehigkeiten-liste.md) — nicht hier duplizieren.
 
 ---
 
 ### Siehe auch
 - [Fähigkeiten – Hauptliste](02-faehigkeiten-liste.md)
 - [Talente – Hauptliste](03-talente-liste.md)
+- [Vorlage](../00-VORLAGE.md)
 - [Attribute](../02-charaktere/04-attribute.md)
+
