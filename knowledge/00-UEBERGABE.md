@@ -1,7 +1,6 @@
 # Übergabe – WFRP asynchrone Website / Wissensbasis
 
-**Stand:** 2026-09-06, Drive-WebP als Lese-Quelle (Buchfußzeile = Datei−1). EG kanonisch S. 151.  
-**Nächster Schritt:** Charakterbogen-Felder, Zustandseinzeldateien nur wenn der Resolver sie braucht. **Keine Website**, bis User das sagt.
+**Stand:** 2026-09-06. Internes Entwicklungsrepo. Auftrag: Platzhalter → Volltext ([00-VOLLTEXT.md](00-VOLLTEXT.md)). Simulation und UI aus der Arbeitsliste.
 
 **Repo:** https://github.com/PromptBrainless/wfrp-async-website  
 **Arbeitsregeln:** [00-BEFEHLE.md](00-BEFEHLE.md) · **IDs:** [10-system/06-befehle.md](10-system/06-befehle.md)
@@ -88,11 +87,11 @@ Pfad: `/home/workdir/.grok/skills/pdf-to-interlinked-md/`
 
 1. **Deutsch** bleiben, Begriffe aus dem Buch beibehalten (KG, BF, Vorteile, Zustände, EG …).
 2. Neue Inhalte in **bestehende Dateien** schreiben, keine parallele Struktur erfinden.
-3. Jede Datei: Titel, `Quelle: S. xx`, am Ende `### Siehe auch` mit relativen Links.
-4. Nach jedem sinnvollen Block: INDEX aktualisieren, **ZIP** anbieten.
+3. Jede Datei: Titel, `Quelle: S. xx` (Buchfußzeile), Volltext, am Ende `### Befehl` und `### Siehe auch`.
+4. Nach jedem Block: INDEX, VOLLTEXT-Welle, Commit.
 5. Keine erfundenen Regeln. Unsicherheiten als `[prüfen am Buch S. xx]` markieren.
-6. Keine wortwörtliche Vollreproduktion des kompletten Regelwerks in einem Stück. Strukturierte, nachvollziehbare Extraktion mit Quellenangabe.
-7. PDF-Tools: `pdf_search` + `pdf_browse` auf Document-ID `QdpW4` (komprimierte lesbare Fassung) bevorzugen.
+6. Volltext der Mechanik in die bestehende Datei. Keine Parallel-Kurzfassung.
+7. Quelle: Drive-WebP, [00-QUELLEN.md](00-QUELLEN.md).
 
 ---
 
