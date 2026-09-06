@@ -1,6 +1,6 @@
 # Waffen und Rüstung
 
-Quelle: S. 293–296. Tabelle: [../../data/weapons.json](../../data/weapons.json).
+Quelle: S. 293–296. Tabelle: [../data/weapons.json](../data/weapons.json).
 
 Schaden der Waffe zählt **plus finale EG** (S. 159).  
 Ohne Steigerung in der Waffengruppe: Qualitäten aus, Makel an, Wurf gegen reines KG.
@@ -39,4 +39,10 @@ Rüstung v1: niemand in der Demo trägt welche. RP = 0.
 
 ### Siehe auch
 - [Ausrüstung und Preise](01-ausruestung-preise.md)
+- [Dolch](waffen/dolch.md)
+- [Waffenlos](waffen/waffenlos.md)
+- [Handwaffe](waffen/handwaffe.md)
+- [Qualitäten](waffen/qualitaeten.md)
+- [Traglast](07-traglast.md)
 - [Angreifen](../05-regeln/07-angreifen-schaden.md)
+- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf.md)

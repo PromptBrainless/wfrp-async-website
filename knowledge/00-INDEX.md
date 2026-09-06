@@ -56,12 +56,12 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Einschüchtern](04-faehigkeiten-talente/faehigkeiten/einschuechtern.md)
 - ✅ [Klatsch](04-faehigkeiten-talente/faehigkeiten/klatsch.md)
 - ✅ [Schleichen](04-faehigkeiten-talente/faehigkeiten/schleichen.md)
-- ⚠ [Athletik](04-faehigkeiten-talente/faehigkeiten/athletik.md)
-- ⚠ [Ausweichen](04-faehigkeiten-talente/faehigkeiten/ausweichen.md)
-- ⚠ [Nahkampf](04-faehigkeiten-talente/faehigkeiten/nahkampf.md)
-- ⚠ [Ausdauer](04-faehigkeiten-talente/faehigkeiten/ausdauer.md)
-- ⚠ [Besonnenheit](04-faehigkeiten-talente/faehigkeiten/besonnenheit.md)
-- ⚠ [Fingerfertigkeit](04-faehigkeiten-talente/faehigkeiten/fingerfertigkeit.md)
+- ✅ [Athletik](04-faehigkeiten-talente/faehigkeiten/athletik.md)
+- ✅ [Ausweichen](04-faehigkeiten-talente/faehigkeiten/ausweichen.md)
+- ✅ [Nahkampf](04-faehigkeiten-talente/faehigkeiten/nahkampf.md)
+- ✅ [Ausdauer](04-faehigkeiten-talente/faehigkeiten/ausdauer.md)
+- ✅ [Besonnenheit](04-faehigkeiten-talente/faehigkeiten/besonnenheit.md)
+- ✅ [Fingerfertigkeit](04-faehigkeiten-talente/faehigkeiten/fingerfertigkeit.md)
 
 ## 05 – Regeln
 - ✅ [Würfel und Grundmechanik](05-regeln/01-wuerfel-und-grundmechanik.md)
@@ -77,7 +77,8 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Korrumpierung](05-regeln/11-korrumpierung.md)
 - ✅ [Krankheiten und Infektionen](05-regeln/12-krankheiten.md)
 - ✅ [Psychologie](05-regeln/13-psychologie.md)
-- ⚠ [Initiative und Überraschung](05-regeln/14-initiative-ueberraschung.md)
+- ✅ [Initiative und Überraschung](05-regeln/14-initiative-ueberraschung.md)
+- ✅ [Hilflos und Überzahl](05-regeln/15-hilflos-ueberzahl.md)
 
 ## 06 – Spielleiter
 - ✅ [Kernrollen des SL](06-spielleiter/01-kernrollen-des-SL.md)
@@ -92,9 +93,17 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - 📝 [Politik und Ansiedlungen](07-reikland/03-politik-ansiedlungen.md)
 
 ## 08 – Einkauf
-- 📝 [Ausrüstung und Preise](08-einkauf/01-ausruestung-preise.md)
-- 📝 [Waffen und Rüstung](08-einkauf/02-waffen-ruestung.md)
+- ✅ [Ausrüstung und Preise](08-einkauf/01-ausruestung-preise.md)
+- ✅ [Waffen und Rüstung](08-einkauf/02-waffen-ruestung.md)
 - 📝 [Sonstige Ausrüstung](08-einkauf/03-sonstige-ausruestung.md)
+- ✅ [Geld](08-einkauf/04-geld.md)
+- ✅ [Verfügbarkeit](08-einkauf/05-verfuegbarkeit.md)
+- ✅ [Feilschen und Preis](08-einkauf/06-feilschen-preis.md)
+- ✅ [Traglast](08-einkauf/07-traglast.md)
+- ✅ [Dolch](08-einkauf/waffen/dolch.md)
+- ✅ [Waffenlos](08-einkauf/waffen/waffenlos.md)
+- ✅ [Handwaffe](08-einkauf/waffen/handwaffe.md)
+- ✅ [Qualitäten v1](08-einkauf/waffen/qualitaeten.md)
 
 ## 09 – Bestiarium
 - ✅ [Struktur](09-bestiarium/01-struktur.md)

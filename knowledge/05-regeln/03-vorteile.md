@@ -48,6 +48,6 @@ Vorteile gehen auch verloren, wenn man von Fernkampf- oder magischen Attacken ge
 
 ### Siehe auch
 - [Kampf – Übersicht](02-kampf-uebersicht.md)
-- [Zustände](04-zustaende.md)
+- [Zustände](05-zustaende.md)
 - [Attribute](../02-charaktere/04-attribute.md)
 - [Ablauf am Spieltisch](../06-spielleiter/02-ablauf-am-spieltisch.md)

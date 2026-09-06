@@ -40,3 +40,7 @@ Sobald man sich im Nahkampf gegenseitig attackiert, gelten beide als gebunden.
 - [Vorteile](03-vorteile.md)
 - [Kritische Treffer](04-kritische-treffer.md)
 - [Zustände](05-zustaende.md)
+- [Hilflos und Überzahl](15-hilflos-ueberzahl.md)
+- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf.md)
+- [Waffenlos / Stumpf](../08-einkauf/waffen/waffenlos.md)
+- [Befehlsregister](../10-system/06-befehle.md)

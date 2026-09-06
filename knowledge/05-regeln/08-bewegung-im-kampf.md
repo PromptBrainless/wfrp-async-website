@@ -42,4 +42,9 @@ Sobald man sich im Nahkampf gegenseitig attackiert.
 ### Siehe auch
 - [Vorteile](03-vorteile.md)
 - [Angreifen](07-angreifen-schaden.md)
-- [rules-core.json](../../data/rules-core.json)
+- [Initiative](14-initiative-ueberraschung.md)
+- [Athletik](../04-faehigkeiten-talente/faehigkeiten/athletik.md)
+- [Ausweichen](../04-faehigkeiten-talente/faehigkeiten/ausweichen.md)
+- [Besonnenheit](../04-faehigkeiten-talente/faehigkeiten/besonnenheit.md)
+- [Befehlsregister](../10-system/06-befehle.md)
+- [rules-core.json](../data/rules-core.json)

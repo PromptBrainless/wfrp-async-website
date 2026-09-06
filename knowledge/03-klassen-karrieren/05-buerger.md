@@ -25,7 +25,7 @@ Talente: Etikette (1), Gesellig, Unterschlagen, Verhandlungsgenie
 
 **Stadtrat – Silber 5** / **Bürgermeister – Gold 1** – nicht v1.
 
-Greta-Demo-Bogen nutzt die Zahlen aus [characters.json](../../data/characters.json), nicht 1:1 die 40 Startsteigerungen.
+Greta-Demo-Bogen nutzt die Zahlen aus [characters.json](../data/characters.json), nicht 1:1 die 40 Startsteigerungen.
 
 ## Kaufmann (S. 65) – Otto näher
 
@@ -47,4 +47,4 @@ Lehrling Messing 2, Handwerker Silber 1, Meister Silber 3, Gildenmeister Gold 1.
 ### Siehe auch
 - [Karrieren-Liste](03-karrieren-liste.md)
 - [Status](02-status-system.md)
-- [characters.json](../../data/characters.json)
+- [characters.json](../data/characters.json)

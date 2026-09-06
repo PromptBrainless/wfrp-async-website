@@ -23,6 +23,7 @@ Grau-Regel: Karten, die der Charakter kennt, aber jetzt nicht nutzen kann, bleib
 | `einschuechtern` | Einschüchtern | H | [Einschüchtern](../04-faehigkeiten-talente/faehigkeiten/einschuechtern.md) | vergleich (Besonnenheit) | S. 121 |
 | `klatsch` | Gerüchte | H | [Klatsch](../04-faehigkeiten-talente/faehigkeiten/klatsch.md) | standard | S. 124 |
 | `warten` | Abwarten | H | — | auto | S. 158 (Handlung opfern) |
+| `kaufen` | Kaufen | H | — dann Feilschen | auto + vergleich | S. 290–291 |
 
 Alte Katalog-MD schrieb `intuiton`. JSON und Register nutzen `intuition`.
 
@@ -91,20 +92,13 @@ Vollständige Liste: [../data/catalog.json](../data/catalog.json) Feld `grau`.
 
 ## IDs, die noch eine Buchdatei brauchen
 
-Einzeldatei fehlt, Katalog verweist schon darauf. Nicht erfinden — aus dem Buch ziehen.
+Die Katalog-Fähigkeiten und der Kampfzug v1 stehen. Als Nächstes nur, wenn eine neue ID kommt.
 
-| ID / Thema | Zieldatei | Status |
-|------------|-----------|--------|
-| Athletik | `04-faehigkeiten-talente/faehigkeiten/athletik.md` | fehlt |
-| Ausweichen | `04-faehigkeiten-talente/faehigkeiten/ausweichen.md` | fehlt |
-| Nahkampf | `04-faehigkeiten-talente/faehigkeiten/nahkampf.md` | fehlt |
-| Ausdauer | `04-faehigkeiten-talente/faehigkeiten/ausdauer.md` | fehlt |
-| Besonnenheit | `04-faehigkeiten-talente/faehigkeiten/besonnenheit.md` | fehlt |
-| Fingerfertigkeit | `04-faehigkeiten-talente/faehigkeiten/fingerfertigkeit.md` | fehlt |
-| Initiative / Überraschung | `05-regeln/14-initiative-ueberraschung.md` | verlinkt, Datei fehlt |
-| Bindung / Hilflos | Kampfzug-Dateien | dünn |
-| Dolch, waffenlos, Handwaffe | `08-einkauf/waffen/` | Ordner leer |
-| Verfügbarkeit Markt | `08-einkauf/01-ausruestung-preise.md` | Platzhalter |
+| Thema | Datei | Status |
+|-------|-------|--------|
+| Zustandstexte einzeln | `05-regeln/05-zustaende.md` bündelt 12 | OK gebündelt, Einzeldateien später |
+| Rüstung | `08-einkauf/` | Demo trägt keine |
+| Charakterbogen-Felder | `02-charaktere/08-charakterbogen.md` | Platzhalter |
 
 Nicht in v1, keine ID anlegen: Magie, Gebete, Ringen, Packen, Fernkampf ohne Waffe, Beruf, Heilen selbst.
 

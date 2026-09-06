@@ -11,6 +11,7 @@ Kosten: **F** frei · **B** Bewegung · **H** Handlung
 | intuition | Einschätzen | H | Intuition | beide |
 | reden | Ansprechen / Verhandeln | H | Charme | sozial |
 | feilschen | Handeln | H | Feilschen | Handel |
+| kaufen | Kaufen (Verfügbarkeit, dann Feilschen) | H | — / Feilschen | Handel |
 | bestechen | Bestechen | H | Bestechen | sozial |
 | einschuechtern | Einschüchtern | H | Einschüchtern | sozial |
 | klatsch | Gerüchte | H | Klatsch / CH | sozial |

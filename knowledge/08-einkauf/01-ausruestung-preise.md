@@ -35,6 +35,10 @@ Engine: Prozent in Groschen rechnen, nicht in ganzen Schillingen.
 6 S = 72 G − 10 % = 65 G = 5 S 5 G.
 
 ### Siehe auch
+- [Geld](04-geld.md)
+- [Verfügbarkeit](05-verfuegbarkeit.md)
+- [Feilschen und Preis](06-feilschen-preis.md)
+- [Traglast](07-traglast.md)
 - [Waffen](02-waffen-ruestung.md)
 - [Feilschen](../04-faehigkeiten-talente/faehigkeiten/feilschen.md)
-- [rules-core.json](../../data/rules-core.json)
+- [rules-core.json](../data/rules-core.json)

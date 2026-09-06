@@ -29,6 +29,5 @@ Gebunden: `schleichen` grau.
 
 - [Wahrnehmung](wahrnehmung.md)
 - [Überraschung](../../05-regeln/14-initiative-ueberraschung.md)
-- [Bindung](../../05-regeln/16-bindung-hilflos.md)
-- [Bewegung im Kampf](../../05-regeln/08-bewegung-im-kampf.md)
+- [Gebunden](../../05-regeln/08-bewegung-im-kampf.md)
 - [Zustände](../../05-regeln/05-zustaende.md)

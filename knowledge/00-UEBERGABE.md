@@ -1,10 +1,11 @@
 # Übergabe – WFRP asynchrone Website / Wissensbasis
 
-**Stand:** 2026-09-06, GitHub-Snapshot `PromptBrainless/wfrp-async-website`.  
-**Nächster Schritt:** Mechaniken einzeln in MD (Katalog-Fähigkeiten, Initiative, Waffen, Markt). **Keine Website**, bis der Katalog keine Platzhalter-Fähigkeiten mehr hat.
+**Stand:** 2026-09-06, nach Katalog-Fähigkeiten + Initiative + Markt. Repo `PromptBrainless/wfrp-async-website`.  
+**Nächster Schritt:** Charakterbogen-Felder, Zustandseinzeldateien nur wenn der Resolver sie braucht. **Keine Website**, bis User das sagt.
 
 **Repo:** https://github.com/PromptBrainless/wfrp-async-website  
 **Arbeitsregeln:** [00-BEFEHLE.md](00-BEFEHLE.md) · **IDs:** [10-system/06-befehle.md](10-system/06-befehle.md)
+
 
 ---
 

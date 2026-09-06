@@ -1,6 +1,6 @@
 # Fähigkeiten – Hauptliste
 
-Quelle: S. 118–131. Maschinentabelle: [../../data/skills.json](../../data/skills.json).
+Quelle: S. 118–131. Maschinentabelle: [../data/skills.json](../data/skills.json).
 
 Fähigkeitswert = Spielwert + Steigerungen.  
 Grund: auch ohne Steigerung. Ausbau: mindestens 1 Steigerung, sonst illegal (grau).  

@@ -6,6 +6,7 @@
     {"id":"intuition","label":"Einschätzen","kosten":"H","tab":"sozial","skill":"intuition","resolver":"standard","szenen":["sozial","kampf"]},
     {"id":"reden","label":"Ansprechen / Verhandeln","kosten":"H","tab":"sozial","skill":"charme","resolver":"vergleich","szenen":["sozial"],"notiz":"Buch: Vergleich Charme/Besonnenheit, außer Ziel empfänglich."},
     {"id":"feilschen","label":"Handeln","kosten":"H","tab":"sozial","skill":"feilschen","resolver":"vergleich","szenen":["handel"]},
+    {"id":"kaufen","label":"Kaufen","kosten":"H","tab":"sozial","skill":"feilschen","resolver":"vergleich","szenen":["handel"],"notiz":"Zuerst Verfügbarkeit S. 290, dann Feilschen S. 291."},
     {"id":"bestechen","label":"Bestechen","kosten":"H","tab":"sozial","skill":"bestechen","resolver":"standard","szenen":["sozial"]},
     {"id":"einschuechtern","label":"Einschüchtern","kosten":"H","tab":"sozial","skill":"einschuechtern","resolver":"vergleich","szenen":["sozial","kampf"]},
     {"id":"klatsch","label":"Gerüchte","kosten":"H","tab":"sozial","skill":"klatsch","resolver":"standard","szenen":["sozial"]},

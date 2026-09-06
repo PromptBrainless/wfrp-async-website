@@ -56,10 +56,13 @@ Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.
 ### Extraktion
 
 - Inhaltsverzeichnis als Dateibaum (Platzhalter oder Inhalt)
-- Regeln-Kern für v1 weitgehend (Würfel, Kampf, Vorteile, Kritisch, 12 Zustände, Schicksal, Schaden, Bewegung, Wunden, Heilung)
-- 8 Einzelfähigkeiten mit Befehl-Block: Wahrnehmung, Intuition, Charme, Feilschen, Bestechen, Einschüchtern, Klatsch, Schleichen
-- JSON: 45 Fähigkeiten, 12 Zustände, Waffen Demo, Völker, Charaktere (Greta/Otto/Kurt/Dieb), Katalog + Grau, Szenen, rules-core, Simulation-Trace
-- **Website-UI ist bewusst nicht gebaut.** User-Befehl: Mechanik und Datenbanken zuerst.
+- Regeln-Kern für v1: Würfel, Kampfzug (Initiative, Überraschung, Hilflos, Überzahl), Vorteile, Kritisch, 12 Zustände, Schicksal, Schaden, Bewegung, Wunden, Heilung
+- Katalog-Fähigkeiten als Einzeldateien: Wahrnehmung, Intuition, Charme, Feilschen, Bestechen, Einschüchtern, Klatsch, Schleichen, Athletik, Ausweichen, Nahkampf, Ausdauer, Besonnenheit, Fingerfertigkeit
+- Markt: Geld, Verfügbarkeit, Feilschen-Preis, Traglast
+- Waffen v1: Dolch, waffenlos (Stumpf), Handwaffe
+- JSON: 45 Fähigkeiten, 12 Zustände, Waffen, Völker, Charaktere, Katalog + Grau, Szenen, rules-core, Simulation-Trace
+- **Website-UI ist bewusst nicht gebaut.**
+
 
 ### Bewusst nicht v1
 
