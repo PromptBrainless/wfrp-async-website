@@ -43,16 +43,16 @@ Option „nur 01 / 96–00“ ist nicht v1-Default.
 - **Vertauschen:** Zehner und Einer tauschen (58 → 85). Trefferzone im Kampf: denselben Trick.
 - **Modifikator:** ändert den **Zielwert**, nicht den Würfel.
 
-## Dramatischer Wurf und Erfolgsgrade (S. 152)
+## Dramatischer Wurf und Erfolgsgrade (S. 151)
 
 EG = Zehnerstelle des **modifizierten Zielwerts** − Zehnerstelle des Wurfs.
 
-Beispiel Buch: Fähigkeit 41, Wurf 29 → 4 − 2 = **+2 EG**.  
+Beispiel Buch: Fähigkeit 45, Wurf 27 → 4 − 2 = **+2 EG**.  
 Beispiel Buch: Wahrnehmung 39, Wurf 82 → 3 − 8 = **−5 EG**.
 
-Option „Schnelle EG“ (bei Erfolg zählt die Zehnerstelle des Wurfs) ist nicht v1-Default.
+Option „Schnelle EG“ (bei Erfolg zählt die Zehnerstelle des Wurfs, Tabelle S. 152) ist nicht v1-Default.
 
-### Ergebnistabelle (S. 152)
+### Ergebnistabelle (S. 151)
 
 | EG | Ergebnis |
 |----|----------|

@@ -16,7 +16,7 @@ export function rollD100(rng: () => number = Math.random): number {
 }
 
 /**
- * Dramatischer Wurf, Buch S. 152.
+ * Dramatischer Wurf, Buch S. 151 (WebP-Datei 152).
  * EG = Zehner(Zielwert) − Zehner(Wurf). Nicht trunc((Ziel−Wurf)/10).
  * 01–05 immer Erfolg (EG mindestens +1), 96–00 immer Misserfolg (EG höchstens −1).
  */

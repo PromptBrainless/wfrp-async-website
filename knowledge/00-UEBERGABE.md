@@ -1,6 +1,6 @@
 # Übergabe – WFRP asynchrone Website / Wissensbasis
 
-**Stand:** 2026-09-06, nach Katalog-Fähigkeiten + Initiative + Markt. Repo `PromptBrainless/wfrp-async-website`.  
+**Stand:** 2026-09-06, Drive-WebP als Lese-Quelle (Buchfußzeile = Datei−1). EG kanonisch S. 151.  
 **Nächster Schritt:** Charakterbogen-Felder, Zustandseinzeldateien nur wenn der Resolver sie braucht. **Keine Website**, bis User das sagt.
 
 **Repo:** https://github.com/PromptBrainless/wfrp-async-website  

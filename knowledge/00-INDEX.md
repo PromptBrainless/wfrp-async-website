@@ -2,7 +2,7 @@
 
 Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete Auflage).
 
-**Lies zuerst:** [00-BEFEHLE.md](00-BEFEHLE.md) · [00-UEBERGABE.md](00-UEBERGABE.md) · [NEUES-FENSTER.md](../NEUES-FENSTER.md)
+**Lies zuerst:** [00-BEFEHLE.md](00-BEFEHLE.md) · [00-QUELLEN.md](00-QUELLEN.md) · [00-UEBERGABE.md](00-UEBERGABE.md) · [NEUES-FENSTER.md](../NEUES-FENSTER.md)
 
 **Abgleich:** [00-ABGLEICH-INHALTSVERZEICHNIS.md](00-ABGLEICH-INHALTSVERZEICHNIS.md)
 
@@ -12,6 +12,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 
 ## Meta
 - ✅ [Befehle – Arbeitsregeln](00-BEFEHLE.md)
+- ✅ [Quellen](00-QUELLEN.md)
 - ✅ [Übergabe](00-UEBERGABE.md)
 - ✅ [Inhaltsverzeichnis-Abgleich](00-ABGLEICH-INHALTSVERZEICHNIS.md)
 

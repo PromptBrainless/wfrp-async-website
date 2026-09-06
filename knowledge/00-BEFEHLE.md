@@ -46,10 +46,11 @@ Ein Fakt steht **einmal**. Andere Dateien verlinken.
 
 ## 4. Wie aus dem Buch holen
 
-- PDF-Seite ≈ Buchseite (GRW 2. Auflage).
+- **Bevorzugt:** WebP-Seiten im Drive-Ordner. Mapping: [00-QUELLEN.md](00-QUELLEN.md). Datei `…_N-compressed.webp` → Buchseite **N − 1** (Fußzeile).
+- Zitat immer die **Buchfußzeile**, nicht den Dateinamen.
 - Engine-Fakten ungekürzt. Beispiele behalten. Flavor kürzen.
 - Unsicher: `[prüfen am Buch S. xx]`.
-- EG-Formel: Zehner(Ziel) − Zehner(Wurf). Nicht die Simulations-Zahlen.
+- EG-Formel (Buch S. 151): Zehner(Ziel) − Zehner(Wurf). Nicht die Simulations-Zahlen.
 
 ## 5. Nach jedem Block
 
