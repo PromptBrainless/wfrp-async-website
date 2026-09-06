@@ -34,14 +34,14 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - 📝 [Ausrüstung und zusätzliche Details](02-charaktere/06-ausruestung-details.md)
 - 📝 [Gruppe, Charaktere zum Leben erwecken & Steigerungen](02-charaktere/07-gruppe-und-steigerungen.md)
 - 📝 [Erklärung des Charakterbogens](02-charaktere/08-charakterbogen.md)
-- ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) (5 Gerüste)
+- ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) (5 Gerüste, Original offen)
 
 ## 03 – Klassen und Karrieren
 - ✅ [Klassen und Karrieren – Übersicht](03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
 - ✅ [Status-System](03-klassen-karrieren/02-status-system.md)
 - ✅ [Karrieren-Liste](03-klassen-karrieren/03-karrieren-liste.md) — 64 Gerüste
 - 📝 [Akademiker](03-klassen-karrieren/04-akademiker.md)
-- 📝 [Bürger](03-klassen-karrieren/05-buerger.md) — Original: [Städter](03-klassen-karrieren/buerger/staedter/README.md) S. 67, [Kaufmann](03-klassen-karrieren/buerger/kaufmann/README.md) S. 65
+- 📝 [Bürger](03-klassen-karrieren/05-buerger.md) — Original: [Städter](03-klassen-karrieren/buerger/staedter/README.md) S. 67, [Kaufmann](03-klassen-karrieren/buerger/kaufmann/README.md) S. 65; Rest Gerüst
 - 📝 [Flussvolk](03-klassen-karrieren/06-flussvolk.md)
 - 📝 [Freisassen](03-klassen-karrieren/07-freisassen.md)
 - 📝 [Gesetzlose](03-klassen-karrieren/08-gesetzlose.md)

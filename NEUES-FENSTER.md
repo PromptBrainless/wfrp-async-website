@@ -28,6 +28,19 @@ Spieler steuern Intention. SL bleibt Welt / Regeln / Geschichte.
 **Jetzt nicht:** Website. Simulation. Walkthrough nachrechnen.  
 **Jetzt ja:** Jede Mechanik einzeln: Original belassen, Angepasst + Details. Vorlage in `00-VORLAGE.md`.
 
+## Fortschritt
+
+Liste und Häkchen: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
+
+- [x] 8 Integrationen vor der Masse
+- [x] 45 Fähigkeiten Original
+- [x] 12 Zustände Original
+- [x] Städter + Kaufmann Original
+- [x] 8 Demo-Talente Original
+- [ ] Völker (5)
+- [ ] Halunke
+- [ ] restliche 159 Talente, 62 Karrieren, Attribute, Qualitäten
+
 ## PDF / Buchseiten
 
 Drive-WebP, [knowledge/00-QUELLEN.md](knowledge/00-QUELLEN.md).  

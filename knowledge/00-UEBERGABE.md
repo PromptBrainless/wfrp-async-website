@@ -1,214 +1,113 @@
 # Übergabe – WFRP asynchrone Website / Wissensbasis
 
-**Stand:** 2026-09-06 Abend. Internes Entwicklungsrepo. 45 Fähigkeiten Original. Demo-Schnitt: Städter + Kaufmann, 8 Talente, 12 Zustände Original. Simulation und UI aus der Arbeitsliste.
+**Stand:** 2026-09-06 Abend. Internes Entwicklungsrepo.
+
+**Jetzt:** Buch → MD, drei Dateien je Mechanik. **Nicht:** Website, Simulation, Walkthrough.
 
 **Repo:** https://github.com/PromptBrainless/wfrp-async-website  
-**Arbeitsregeln:** [00-BEFEHLE.md](00-BEFEHLE.md) · **IDs:** [10-system/06-befehle.md](10-system/06-befehle.md)
+**Fortschritt:** [00-VOLLTEXT.md](00-VOLLTEXT.md)  
+**Arbeitsregeln:** [00-BEFEHLE.md](00-BEFEHLE.md) · **IDs:** [10-system/06-befehle.md](10-system/06-befehle.md) · **Skill:** [../skill/SKILL.md](../skill/SKILL.md)
 
+**Sprache:** Deutsch  
+**Regelwerk:** WFRP 4e GRW, 2. überarbeitete Auflage (Ulisses)
 
----
-
-**Sprache:** Deutsch (Quelle und Ziel)  
-**Regelwerk:** Warhammer Fantasy Roleplay 4. Edition, Grundregelwerk, 2. überarbeitete Auflage (Ulisses), PDF-Uploads `Zxhtd` / `QdpW4`
-
-Dieses Dokument ist die **vollständige Übergabe an eine neue Grok-Session**. Lies es zuerst, dann `00-INDEX.md` und `00-ABGLEICH-INHALTSVERZEICHNIS.md`.
+Lies zuerst: diese Datei → [NEUES-FENSTER.md](../NEUES-FENSTER.md) → `00-BEFEHLE` → `00-VOLLTEXT` → `00-INDEX`.
 
 ---
 
-## 1. Ziel des Gesamtprojekts
+## 1. Ziel (später)
 
-Eine **Website** (nicht App), in der Gruppen bis **10 Spieler asynchron** Warhammer Fantasy Roleplay 4e spielen.
-
-Kernidee (Sims-Loop):
+Website, Gruppen bis 10, asynchron, WFRP 4e. Spieler = Intention. SL = Welt / Regeln / Geschichte.
 
 ```
-Charakter ist an Ort XY
-    → Zustand des Charakters + Weltzustand
-    → verfügbare Aktionen (kontextsensitiv)
-    → Spieler wählt Intention
-    → System + SL lösen auf
-    → neuer Welt-/Charakterzustand
+Charakter an Ort XY
+    → Zustand + Welt
+    → Katalog (grau, nie löschen)
+    → Intention
+    → Engine + SL
+    → neuer Zustand
 ```
 
-Nicht das Ziel: Live-Video-Tisch oder reines Chat-Forum.  
-Ziel: tick-/szenenbasierter Zustandssync, SL-Override bleibt möglich.
+Das Regelwerk bleibt die Autorität.
 
 ---
 
-## 2. Was bereits existiert
+## 2. Was steht
 
-### 2.1 Wissensbasis
+Gerüste: **329** Ordner (`original` / `angepasst` / `details` / `README`).  
+Buchtext im Original: **67** (45 Fähigkeiten, 12 Zustände, 8 Demo-Talente, Städter, Kaufmann).
 
-Pfad: `/home/workdir/artifacts/wfrp-md/`
+| Block | Original |
+|-------|----------|
+| Fähigkeiten S. 118–131 | 45 / 45 |
+| Zustände S. 167–169 | 12 / 12 |
+| Demo-Talente | 8 / 167 |
+| Städter S. 67, Kaufmann S. 65 | 2 / 64 |
+| Völker, Attribute, Qualitäten, restliche Karrieren | Gerüst |
 
-- ca. **61 Markdown-Dateien**
-- Struktur deckt das **gesamte Inhaltsverzeichnis** ab (Platzhalter oder Inhalt)
-- Zentralnavigation: `00-INDEX.md` (✅ Inhalt / 📝 Platzhalter)
-- Inhaltsverzeichnis-Abgleich: `00-ABGLEICH-INHALTSVERZEICHNIS.md`
+Gate: `python3 skill/scripts/validate_wissen.py` · Hooks: `bash skill/scripts/install-hooks.sh`  
+Buchseiten: [00-QUELLEN.md](00-QUELLEN.md) · Datei N = Buch N−1. Kein Scan ins Git.
 
-### 2.2 Skill
-
-Pfad: `/home/workdir/.grok/skills/pdf-to-interlinked-md/`
-
-- `SKILL.md` – Workflow für PDF → vernetzte MD
-- `references/wfrp-chapter-map.md` – Kapitel-Mapping
-- `scripts/validate-extraction.sh` – leere Dateien / INDEX prüfen
-
-**Diese Skill immer verwenden**, wenn Regelwerk weiter extrahiert wird.
-
-### 2.3 Inhaltlich stark (nutzbar für Engine)
-
-- Grundprinzip + SL-Loop + Sims-Ableitung
-- Attribute inkl. Volkstabelle
-- Status-System + Karrieren-Liste (Namen)
-- Regeln-Kapitel weitgehend: Würfel, Kampfkern, Vorteile, Kritische Treffer, Zustände (12 Stück), Schicksal/Zähigkeit, Angreifen/Schaden, Bewegung, Verwundungen, Heilung, Korrumpierung, Krankheiten, Psychologie
-- Fähigkeiten: Struktur + Kernliste
-- Talente: Struktur + Kategorien (Einzeltalente noch nicht alle ausgeschrieben)
-
-### 2.4 Noch Platzhalter / dünn
-
-- Einzelne Karriere-Profile (Akademiker … Landvolk)
-- Fähigkeiten/Talente Einzeleinträge vollständig
-- Magie (Kapitel komplett)
-- Religion (Kapitel komplett)
-- Reikland, Einkauf, Bestiarium-Details
-- Reisen, Zwischen den Abenteuern
-- Brief bezüglich des Imperiums und Rest Charaktererschaffung-Schritte
-
-### 2.5 Füllstand (ehrlich)
-
-- **Struktur:** ~95 % des Inhaltsverzeichnisses als Dateien
-- **Echter Inhalt:** grob **15–25 %** des Buchs (Kernsysteme überproportional)
-- Viele Dateien sind bewusst **komprimiert-rekonstruktionsfähig**, nicht wortgleich ungekürzt. Grund: PDF-Text ist lang; priorisiert wurde Engine-Relevanz.
+Alte Zählung „61 Dateien / 15–25 %“ und Pfade unter `/home/workdir/artifacts/wfrp-md/` sind **obsolet**.
 
 ---
 
-## 3. Arbeitsregeln (verbindlich)
+## 3. Arbeitsregeln
 
-1. **Deutsch** bleiben, Begriffe aus dem Buch beibehalten (KG, BF, Vorteile, Zustände, EG …).
-2. Neue Inhalte in **bestehende Dateien** schreiben, keine parallele Struktur erfinden.
-3. Jede Datei: Titel, `Quelle: S. xx` (Buchfußzeile), Volltext, am Ende `### Befehl` und `### Siehe auch`.
-4. Nach jedem Block: INDEX, VOLLTEXT-Welle, Commit.
-5. Keine erfundenen Regeln. Unsicherheiten als `[prüfen am Buch S. xx]` markieren.
-6. Volltext der Mechanik in die bestehende Datei. Keine Parallel-Kurzfassung.
-7. Quelle: Drive-WebP, [00-QUELLEN.md](00-QUELLEN.md).
+1. Deutsch, Buchbegriffe (KG, BF, EG, Vorteile, Zustände).
+2. Bestehende Ordner. Keine parallele Hierarchie.
+3. `original.md`: Buch, `Status: Original, nicht anfassen`, **kein** `### Befehl`.
+4. `angepasst.md`: nur Projekt. `### Befehl` + Link auf Original. Katalog-ID zuerst ins Befehlsregister.
+5. Alle drei: `### Siehe auch`. Relative Links müssen existieren.
+6. Unsicher: Text stehen lassen, in details `[prüfen am Buch S. xx]`.
+7. Nach jedem Block: INDEX, VOLLTEXT-Häkchen, Validator, Commit.
 
 ---
 
-## 4. Dateikonventionen
+## 4. Konvention
 
 ```
-wfrp-md/
-├── 00-INDEX.md
-├── 00-ABGLEICH-INHALTSVERZEICHNIS.md
-├── 00-UEBERGABE.md          ← dieses Dokument
-├── 01-einfuehrung/
-├── 02-charaktere/
-├── 03-klassen-karrieren/
-├── 04-faehigkeiten-talente/
-├── 05-regeln/               ← Engine-Kern, am weitesten
-├── 06-spielleiter/
-├── 07-reikland/
-├── 08-einkauf/
-├── 09-bestiarium/
-├── 10-system/               ← abgeleitet, nicht aus dem Buch
-├── 11-religion/
-└── 12-magie/
+knowledge/<kapitel>/<slug>/
+  README.md
+  original.md
+  angepasst.md
+  details.md
 ```
 
-Links immer relativ: `../05-regeln/05-zustaende.md`
+Alte `name.md` = Zeiger. Daten: `knowledge/data/*.json`. Loop/Katalog: `knowledge/10-system/`.
 
 ---
 
-## 5. Abgeleitetes System (Website)
+## 5. Nächste Aufgabe
 
-Siehe `10-system/01-sims-prinzip-ableitung.md` und `10-system/02-datenmodell.md`.
+Siehe [00-VOLLTEXT.md](00-VOLLTEXT.md) — Als Nächstes:
 
-Geplante Entitäten:
+1. 5 Völker S. 36
+2. Halunke (Kurt)
+3. Attribute, wenn Völker das brauchen
 
-| Entität | Pflichtfelder (Minimum) |
-|---------|-------------------------|
-| Charakter | Volk, Klasse, Karriere+Stufe, 10 Werte + Boni, LP, Bewegung, Schicksal/Glück, Zähigkeit/Mut, Motivation, Fähigkeiten, Talente, Zustände[], Vorteile, Status |
-| Ort/Szene | id, Beschreibung, Flags, anwesende Charaktere, verfügbare Aktions-IDs |
-| Aktion | id, Label, Voraussetzungen, benötigte Fähigkeit, Schwierigkeit, Resolver-Typ, mögliche Ergebnisse |
-| Zustand | id, Stapelbarkeit, Effekte, Entfernungsregel |
-| Kreatur/NSC | wie Charakter + Traits |
-| Event | Trigger, Effekt auf Ort/Charakter |
-
-Kampf-Resolver-Priorität:
-
-1. Initiative / Überraschung  
-2. Aktion wählen (gebunden? Fernkampf? Bewegung?)  
-3. Vergleichender Wurf / Treffer  
-4. Vorteile ±  
-5. Schaden → LP → Kritisch?  
-6. Zustände anwenden (Vorteile fallen auf 0)  
-7. Psychologie / Schicksal-Override  
-
-Asynchron: Spieler setzen Intention in ihrem Tick; SL oder Engine löst, wenn alle relevanten Züge da sind oder Timeout.
+**Nicht tun:** Website, Simulation, neue Ordnerhierarchie, Magie/Religion vor dem Demo-Schnitt.
 
 ---
 
-## 6. Nächste Grok-Aufgaben (Priorität)
+## 6. Offene Entscheidungen (User)
 
-### P0 – Engine-fähig machen
-1. `10-system/02-datenmodell.md` zu einem konkreten Schema ausbauen (Felder, Enums für Zustände, Vorteile-Regeln als Pseudocode).
-2. Aktionskatalog v1: 20–30 Aktionen (Angreifen, Ausweichen, Lösen, Flucht, Heilen, Schleichen, Reden, Bestechen, Wahrnehmung, Rast …) mit Voraussetzungen aus den MD-Dateien.
-3. Eine Mini-Simulation (Text): 2 SC + 1 NSC in einer Taverne, 3 Ticks, Schwachstellen notieren.
-
-### P1 – Content nachziehen
-4. Magie-Regeln (Zauberwurf, Kanalisieren) – ohne alle Spruchlisten.
-5. 1–2 vollständige Karriere-Profile als Datenvorlage (z. B. Soldat + Gelehrter).
-6. Fähigkeiten-Einträge, die der Aktionskatalog braucht, ungekürzt nachziehen.
-
-### P2 – Setting / SL-Tools
-7. Reisen + Zwischen den Abenteuern  
-8. Bestiarium-Traits  
-9. Religion nur soweit für Priester-Aktionen nötig  
-
-### Nicht tun
-- Keine neue Ordnerhierarchie
-- Keine App-native Spezifikation (Website bleibt Ziel)
-- Keine Grafikpipeline, bevor das Datenmodell steht
+- Tick: festes Fenster vs. „wenn alle gezogen haben“
+- Vorteile-Obergrenze (Buch-Option)
+- Krankheiten im Live-Spiel
+- Magie in v1
 
 ---
 
-## 7. Prompt-Vorlage für die nächste Session
+## 7. Letzte Commits
 
-```
-Lies zuerst:
-- /home/workdir/artifacts/wfrp-md/00-UEBERGABE.md
-- /home/workdir/artifacts/wfrp-md/00-INDEX.md
-- /home/workdir/.grok/skills/pdf-to-interlinked-md/SKILL.md
+- `a75ac81` — 12 Zustände Original
+- `47f5141` — Städter, Kaufmann, 8 Talente Original
+- `80862c9` — Gerüste, Register, Gate
 
-Setze bei P0 fort: Datenmodell konkretisieren + Aktionskatalog v1.
-Regelquelle ist WFRP 4e GRW 2. Auflage. PDF-ID falls vorhanden: QdpW4.
-Nach jedem Block ZIP unter /home/workdir/artifacts/ ablegen.
-```
+### Siehe auch
 
----
+- [00-VOLLTEXT.md](00-VOLLTEXT.md)
+- [00-BEFEHLE.md](00-BEFEHLE.md)
+- [00-INDEX.md](00-INDEX.md)
 
-## 8. Qualitätssicherung
-
-```bash
-bash /home/workdir/.grok/skills/pdf-to-interlinked-md/scripts/validate-extraction.sh
-```
-
-Prüfen: keine leeren Dateien, INDEX existiert, relative Links nicht tot.
-
----
-
-## 9. Offene Entscheidungen (User)
-
-- Tick-Modell: festes Zeitfenster vs. „wenn alle gezogen haben“
-- Vorteile-Obergrenze: Buch-Option (Initiative-Bonus / fest 10) – noch nicht festgelegt
-- Krankheiten im Live-Spiel: an / optional / aus
-- Magie-Komplexität in v1: nur Niedere Magie oder volle Lehren
-
----
-
-*Übergabe erstellt für Grok-Building. Bei Fortsetzung dieses Dokument oben um „Stand / letzte Änderung“ ergänzen.*
-
-
-## 10. Letzte Änderung
-- 2026-09-06: Simulation 1 Charakter / Basar + Rauferei unter . 10 Schwachstellen dokumentiert.

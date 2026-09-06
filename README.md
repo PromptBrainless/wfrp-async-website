@@ -44,7 +44,7 @@ Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.
 
 ## Stand
 
-Wissensbasis folgt dem Inhaltsverzeichnis. Viele Dateien sind noch Platzhalter oder Kurzfassung. **Auftrag jetzt:** Platzhalter gegen Volltext aus den Buchseiten tauschen.
+Fortschritt: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — 67 / 329 Originale mit Buchtext.
 
 Simulation und UI sind später. Nicht in dieser Arbeitsliste.
 

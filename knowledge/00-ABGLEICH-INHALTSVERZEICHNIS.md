@@ -1,6 +1,6 @@
 # Abgleich: Inhaltsverzeichnis Regelwerk ↔ Markdown-Struktur
 
-Stand: aktueller Zwischenstand
+Stand: 2026-09-06 Abend. Häkchen der Wellen: [00-VOLLTEXT.md](00-VOLLTEXT.md).
 
 ## Legende
 - ✅ Vorhanden (Inhalt oder solider Platzhalter)
@@ -32,7 +32,7 @@ Stand: aktueller Zwischenstand
 |-----------|--------------|--------|
 | Klassen, Karrieren, Stufen, Wechsel, Status (S. 46–52) | `03-.../01` + `02` + `03` | ✅ |
 | Akademiker (S. 53–60) | `03-.../04-akademiker.md` | ✅ Platzhalter |
-| Bürger (S. 61–68) | `03-.../05-buerger.md` | ✅ Platzhalter |
+| Bürger (S. 61–68) | `03-.../05-buerger.md` + `buerger/` | ⚠️ Städter + Kaufmann Original, 6 Gerüst |
 | Flussvolk (S. 69–76) | `03-.../06-flussvolk.md` | ✅ Platzhalter |
 | Freisassen (S. 77–84) | `03-.../07-freisassen.md` | ✅ Platzhalter |
 | Gesetzlose (S. 85–92) | `03-.../08-gesetzlose.md` | ✅ Platzhalter |
@@ -43,8 +43,8 @@ Stand: aktueller Zwischenstand
 ## FÄHIGKEITEN UND TALENTE
 | Regelwerk | Unsere Datei | Status |
 |-----------|--------------|--------|
-| Fähigkeiten (S. 117–131) | `04-.../02-faehigkeiten-liste.md` | ✅ Platzhalter |
-| Talente (S. 132–148) | `04-.../03-talente-liste.md` | ✅ Platzhalter |
+| Fähigkeiten (S. 117–131) | `04-.../faehigkeiten/<slug>/` | ✅ 45 Originale |
+| Talente (S. 132–148) | `04-.../talente/<slug>/` | ⚠️ 8 / 167 Originale (Demo) |
 
 ## REGELN
 | Regelwerk | Unsere Datei | Status |
@@ -55,7 +55,7 @@ Stand: aktueller Zwischenstand
 | Kritische Treffer und Patzer (S. 159) | `05-regeln/04-...` | ✅ |
 | Vorteile (S. 164) | `05-regeln/03-...` | ✅ |
 | Bewegung im Kampf (S. 164–167) | `05-regeln/08-...` | ✅ Platzhalter |
-| Zustände (S. 167–170) | `05-regeln/05-...` | ✅ |
+| Zustände (S. 167–170) | `05-regeln/zustaende/<slug>/` | ✅ 12 Originale |
 | Schicksal & Zähigkeit (S. 170–172) | `05-regeln/06-...` | ✅ |
 | Verwundungen / Kritische Verletzungen (S. 172–181) | `05-regeln/09-verwundungen.md` | 📝 Platzhalter |
 | Heilung (S. 181) | `05-regeln/10-heilung.md` | 📝 Platzhalter |
