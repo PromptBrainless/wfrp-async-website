@@ -1,13 +1,20 @@
 # Blutend — Details / Hilfe
 
 JSON-`id`: `blutend`  
-Quelle: S. 167
+Quelle: S. 168 · [conditions.json](../../../data/conditions.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Sterbewurf nur bei 0 LP. Pasch auf dem Sterbewurf = −1 Stapel, nicht automatisch Überleben.
+- Bogen: `zustaende[]` = `{ id, stapel }`.
+- Irgendein Zustand: alle Vorteile weg. Mut: 1 Zustand (siehe S. 171).
+
+## Prüfen
+
+- [prüfen am Buch S. 168]
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
 - [Zustände-Hub](../../05-zustaende.md)
-- [Ausdauer](../../../04-faehigkeiten-talente/faehigkeiten/ausdauer/angepasst.md)

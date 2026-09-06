@@ -1,6 +1,6 @@
 # Erschöpft
 
-Quelle: S. 167
+Quelle: S. 168
 
 - [Original](original.md) — Buch, unverändert
 - [Angepasst](angepasst.md) — Projekt

@@ -62,7 +62,8 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Kampf – Übersicht](05-regeln/02-kampf-uebersicht.md)
 - ✅ [Vorteile](05-regeln/03-vorteile.md)
 - ✅ [Kritische Treffer und Patzer](05-regeln/04-kritische-treffer.md)
-- ✅ [Zustände](05-regeln/05-zustaende.md) — 12 Ordner
+- ✅ [Zustände](05-regeln/05-zustaende.md) — 12 Originale S. 167–169
+- ✅ [Roh Zustände](05-regeln/_roh/zustaende-s167-169.md)
 - ✅ [Schicksal & Zähigkeit](05-regeln/06-schicksal-zaehigkeit.md)
 - ✅ [Angreifen, Trefferzonen & Schaden](05-regeln/07-angreifen-schaden.md)
 - ✅ [Bewegung im Kampf](05-regeln/08-bewegung-im-kampf.md)

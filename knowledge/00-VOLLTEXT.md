@@ -64,6 +64,8 @@ Original: [Städter](03-klassen-karrieren/buerger/staedter/original.md) S. 67, [
 
 Regeln nachziehen, SL, Einkauf-Rest, Bestiarium, Religion, Magie, Reikland.
 
+Welle E angefangen: [Zustände](05-regeln/05-zustaende.md) — 12 Originale S. 167–169.
+
 ---
 
 ## Defaults

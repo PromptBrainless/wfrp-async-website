@@ -1,18 +1,29 @@
 # Demoralisiert — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 167)
+Quelle der Regeln: [original.md](original.md) (S. 168)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Das Buch nicht wiederholen.
 
+Zug gebunden: nur Fliehen/Verstecken. Andere H-Karten grau, Grund „Demoralisiert — fliehen“. Überwinden erst ungebunden, Besonnenheit, SL-Schwierigkeit.
 
+## Bogen
+
+`zustaende[]`: `{ id: "demoralisiert", stapel }`.
+
+## Grau
+
+`angreifen` und Sozial-Karten außer Fliehen/Schleichen: grau. `fliehen` / `schleichen` sichtbar.
 
 ### Befehl
 
-- keine Katalog-ID
+- `fliehen` — Fliehen · Kosten B — [Befehlsregister](../../../10-system/06-befehle.md)
+- `schleichen` — Schleichen · Kosten BH
+- `mut` — 1 Stapel weg · Kosten F
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Details](details.md)
 - [Zustände-Hub](../../05-zustaende.md)
-- [Ausdauer](../../../04-faehigkeiten-talente/faehigkeiten/ausdauer/angepasst.md)
+- [Besonnenheit](../../../04-faehigkeiten-talente/faehigkeiten/besonnenheit/angepasst.md)
+- [Schleichen](../../../04-faehigkeiten-talente/faehigkeiten/schleichen/angepasst.md)

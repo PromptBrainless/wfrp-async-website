@@ -1,6 +1,6 @@
 # Übergabe – WFRP asynchrone Website / Wissensbasis
 
-**Stand:** 2026-09-06 Abend. Internes Entwicklungsrepo. 45 Fähigkeiten Original. Demo-Schnitt: Städter + Kaufmann Original, 8 Talente Original. Simulation und UI aus der Arbeitsliste.
+**Stand:** 2026-09-06 Abend. Internes Entwicklungsrepo. 45 Fähigkeiten Original. Demo-Schnitt: Städter + Kaufmann, 8 Talente, 12 Zustände Original. Simulation und UI aus der Arbeitsliste.
 
 **Repo:** https://github.com/PromptBrainless/wfrp-async-website  
 **Arbeitsregeln:** [00-BEFEHLE.md](00-BEFEHLE.md) · **IDs:** [10-system/06-befehle.md](10-system/06-befehle.md)

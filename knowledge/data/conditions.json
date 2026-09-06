@@ -16,7 +16,9 @@
       "bewegung": "halb",
       "nahkampf_gegner": "+1 Vorteil vor Trefferwurf",
       "ende": "Ende der Runde: herausfordernd Ausdauer → 1+EG entfernen",
-      "danach": "erschoepft"
+      "danach": "erschoepft",
+      "seite": 167,
+      "original": true
     },
     {
       "id": "bewusstlos",
@@ -26,7 +28,12 @@
       "keine_wahrnehmung": true,
       "nahkampf": "Angreifer darf Ich-werde-nicht-scheitern ohne Zähigkeit",
       "fernkampf": "Kernschussweite trifft automatisch",
-      "danach": ["erschoepft", "niedergestreckt"]
+      "danach": [
+        "erschoepft",
+        "niedergestreckt"
+      ],
+      "seite": 167,
+      "original": true
     },
     {
       "id": "blutend",
@@ -36,14 +43,18 @@
       "infektion": -10,
       "bei_0_lp": "bewusstlos + 10% Sterbechance je Stapel",
       "entfernen": "Heilen 1+EG oder heilende Magie/Gebet 1 je geheiltem LP",
-      "danach": "erschoepft"
+      "danach": "erschoepft",
+      "seite": 168,
+      "original": true
     },
     {
       "id": "brennend",
       "name": "Brennend",
       "kumulativ": true,
       "ende_runde": "1W10 Schaden − WIB − schlechteste RP, min. 1 LP; +1 Schaden je weiterem Stapel",
-      "entfernen": "Athletik 1+EG, Schwierigkeit situationsabhängig"
+      "entfernen": "Athletik 1+EG, Schwierigkeit situationsabhängig",
+      "seite": 168,
+      "original": true
     },
     {
       "id": "demoralisiert",
@@ -51,17 +62,24 @@
       "kumulativ": true,
       "muss": "fliehen und verstecken",
       "wuerfel": -10,
-      "wuerfel_gilt_nicht_fuer": ["fliehen", "verstecken"],
+      "wuerfel_gilt_nicht_fuer": [
+        "fliehen",
+        "verstecken"
+      ],
       "gebunden": "kein Überwindungsversuch",
       "ende": "ungebunden Ende Runde: Besonnenheit 1+EG; eine volle Runde außer Sicht −1",
-      "danach": "erschoepft"
+      "danach": "erschoepft",
+      "seite": 168,
+      "original": true
     },
     {
       "id": "erschoepft",
       "name": "Erschöpft",
       "kumulativ": true,
       "wuerfel": -10,
-      "entfernen": "Rast (Dauer SL), Zauber oder göttliches Wirken"
+      "entfernen": "Rast (Dauer SL), Zauber oder göttliches Wirken",
+      "seite": 168,
+      "original": true
     },
     {
       "id": "ertaubt",
@@ -69,7 +87,9 @@
       "kumulativ": true,
       "wuerfel_gehoer": -10,
       "seite_hinten": "+10 Trefferwurf, nicht kumulativ über Stapel",
-      "ende": "Ende jeder zweiten Runde −1"
+      "ende": "Ende jeder zweiten Runde −1",
+      "seite": 169,
+      "original": true
     },
     {
       "id": "geblendet",
@@ -77,7 +97,9 @@
       "kumulativ": true,
       "wuerfel_sicht": -10,
       "nahkampf_gegner": "+10 Trefferwurf",
-      "ende": "Ende jeder zweiten Runde −1"
+      "ende": "Ende jeder zweiten Runde −1",
+      "seite": 169,
+      "original": true
     },
     {
       "id": "gefesselt",
@@ -85,7 +107,9 @@
       "kumulativ": true,
       "keine_bewegung": true,
       "wuerfel_bewegung": -10,
-      "handlung": "Vergleich ST → 1+EG entfernen"
+      "handlung": "Vergleich ST → 1+EG entfernen",
+      "seite": 169,
+      "original": true
     },
     {
       "id": "niedergestreckt",
@@ -94,7 +118,9 @@
       "aktion": "nur aufstehen oder halbe Bewegung kriechen; bei 0 LP nur kriechen",
       "wuerfel_bewegung": -20,
       "nahkampf_gegner": "+20 Trefferwurf",
-      "ende": "Aufstehen"
+      "ende": "Aufstehen",
+      "seite": 169,
+      "original": true
     },
     {
       "id": "ueberrascht",
@@ -104,7 +130,9 @@
       "keine_handlung": true,
       "keine_verteidigung": true,
       "nahkampf_gegner": "+20 Trefferwurf",
-      "ende": "Ende der Runde oder nach erstem Angriffsversuch gegen dich"
+      "ende": "Ende der Runde oder nach erstem Angriffsversuch gegen dich",
+      "seite": 169,
+      "original": true
     },
     {
       "id": "vergiftet",
@@ -115,7 +143,9 @@
       "bei_0_lp": "keine LP-Regeneration bis alle Stapel weg",
       "bewusstlos": "nach WIB Runden Ausdauer oder Tod",
       "entfernen": "Ende Runde Ausdauer oder Heilen 1+EG",
-      "danach": "erschoepft"
+      "danach": "erschoepft",
+      "seite": 169,
+      "original": true
     }
   ]
 }

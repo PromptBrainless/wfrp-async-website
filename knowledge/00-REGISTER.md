@@ -309,16 +309,16 @@ Ein `id` je Typ. Slug: Kleinbuchstaben, `ae/oe/ue/ss`, Klammern weg.
 |----|------|----|--------|
 | `betaubt` | Betäubt | 167 | [05-regeln/zustaende/betaubt](05-regeln/zustaende/betaubt/README.md) |
 | `bewusstlos` | Bewusstlos | 167 | [05-regeln/zustaende/bewusstlos](05-regeln/zustaende/bewusstlos/README.md) |
-| `blutend` | Blutend | 167 | [05-regeln/zustaende/blutend](05-regeln/zustaende/blutend/README.md) |
-| `brennend` | Brennend | 167 | [05-regeln/zustaende/brennend](05-regeln/zustaende/brennend/README.md) |
-| `demoralisiert` | Demoralisiert | 167 | [05-regeln/zustaende/demoralisiert](05-regeln/zustaende/demoralisiert/README.md) |
-| `erschoepft` | Erschöpft | 167 | [05-regeln/zustaende/erschoepft](05-regeln/zustaende/erschoepft/README.md) |
-| `ertaubt` | Ertaubt | 167 | [05-regeln/zustaende/ertaubt](05-regeln/zustaende/ertaubt/README.md) |
-| `geblendet` | Geblendet | 167 | [05-regeln/zustaende/geblendet](05-regeln/zustaende/geblendet/README.md) |
-| `gefesselt` | Gefesselt | 167 | [05-regeln/zustaende/gefesselt](05-regeln/zustaende/gefesselt/README.md) |
-| `niedergestreckt` | Niedergestreckt | 167 | [05-regeln/zustaende/niedergestreckt](05-regeln/zustaende/niedergestreckt/README.md) |
-| `ueberrascht` | Überrascht | 167 | [05-regeln/zustaende/ueberrascht](05-regeln/zustaende/ueberrascht/README.md) |
-| `vergiftet` | Vergiftet | 167 | [05-regeln/zustaende/vergiftet](05-regeln/zustaende/vergiftet/README.md) |
+| `blutend` | Blutend | 168 | [05-regeln/zustaende/blutend](05-regeln/zustaende/blutend/README.md) |
+| `brennend` | Brennend | 168 | [05-regeln/zustaende/brennend](05-regeln/zustaende/brennend/README.md) |
+| `demoralisiert` | Demoralisiert | 168 | [05-regeln/zustaende/demoralisiert](05-regeln/zustaende/demoralisiert/README.md) |
+| `erschoepft` | Erschöpft | 168 | [05-regeln/zustaende/erschoepft](05-regeln/zustaende/erschoepft/README.md) |
+| `ertaubt` | Ertaubt | 169 | [05-regeln/zustaende/ertaubt](05-regeln/zustaende/ertaubt/README.md) |
+| `geblendet` | Geblendet | 169 | [05-regeln/zustaende/geblendet](05-regeln/zustaende/geblendet/README.md) |
+| `gefesselt` | Gefesselt | 169 | [05-regeln/zustaende/gefesselt](05-regeln/zustaende/gefesselt/README.md) |
+| `niedergestreckt` | Niedergestreckt | 169 | [05-regeln/zustaende/niedergestreckt](05-regeln/zustaende/niedergestreckt/README.md) |
+| `ueberrascht` | Überrascht | 169 | [05-regeln/zustaende/ueberrascht](05-regeln/zustaende/ueberrascht/README.md) |
+| `vergiftet` | Vergiftet | 169 | [05-regeln/zustaende/vergiftet](05-regeln/zustaende/vergiftet/README.md) |
 
 ## Qualitäten (20)
 | id | Name | S. | Ordner |

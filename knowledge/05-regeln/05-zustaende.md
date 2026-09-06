@@ -1,117 +1,45 @@
 # Zustände
 
-Quelle: S. 167–170
+Quelle: S. 167–169
 
-## Grundregeln
+Kapitel-Hub. Einzelne Zustände je Ordner unter [zustaende/](zustaende/). Roh: [_roh/zustaende-s167-169.md](_roh/zustaende-s167-169.md).
 
-- Zustände repräsentieren negative Effekte, die dir im Abenteuer zustoßen.
-- **Sobald du irgendeinen Zustand erleidest, verlierst du sofort sämtliche Vorteile.**
-- Zustände können mit Mutpunkten entfernt werden.
+## Buch — allgemein (S. 167)
 
-## Mehrfache Zustände
+Zustände repräsentieren die Effekte von Dingen, die dir im Zuge deiner Abenteuer zustoßen. Du kannst Zustände auf einem Schmierzettel notieren oder Marker verwenden, um sie nachzuhalten. In der Beschreibung jedes Zustandes erfährst du, wie lang der Effekt üblicherweise anhält, wobei es jedoch möglich ist, dass bestimmte Ursachen eines Zustandes – seien es ein Zauber oder eine Kritische Verletzung – diese übliche Zeit modifizieren. **Beachte:** Wenn du irgendeinen Zustand erleidest, verlierst du sofort sämtliche Vorteile (siehe Seite 164).
 
-- Gleicher Zustand mehrfach → Effekte **kumulativ**.
-- Unterschiedliche Zustände gleichzeitig → nur der **schwerwiegendere** Effekt zählt.
+### Mehrfache Zustände
+
+Du kannst mehrfach Opfer des gleichen Zustandes werden; tatsächlich ist es so, dass dir das gleiche Ereignis mehrfache Zustände der gleichen Art bescheren kann. Wenn dies geschieht, sind sämtliche Effekte kumulativ. Solltest du also 3 *Blutend*-Zustände erleiden, musst du dir um den Verlust von 3 LP pro Runde Sorgen machen, und solltest du 3 *Erschöpft*-Zustände haben, hast du −30 auf alle Würfe. Du kannst außerdem unter mehreren unterschiedlichen Zuständen zur gleichen Zeit leiden. Wenn dies geschieht, sind die Effekte nicht kumulativ; du leidest lediglich unter dem schwerwiegenderen der beiden Zustände. Solltest du also *Erschöpft* und *Niedergestreckt* sein, würdest du nur −20 auf alle aktiven Würfe erleiden, nicht −30.
+
+### Zustände und Mut
+
+Ein Zustand kann mit Mutpunkten entfernt werden, weshalb Zustände zwar sehr einschränkend sind, sich mit etwas Sorgfalt aber relativ einfach im Zaum halten lassen (siehe Seite 171).
 
 ## Vollständige Liste
 
-Betäubt, Bewusstlos, Blutend, Brennend, Demoralisiert, Erschöpft, Ertaubt, Geblendet, Gefesselt, Niedergestreckt, Überrascht, Vergiftet
-
----
-
-## Hauptliste der Zustände
-
-### Betäubt
-- Keine Handlung, nur halbe Bewegung.
-- −10 auf alle Würfe.
-- Gegner im Nahkampf erhalten +1 Vorteil vor dem Trefferwurf.
-- Ende der Runde: herausfordernder (+0) Ausdauer-Wurf → 1 + EG Zustände entfernen.
-- Nach dem letzten → erhältst du *Erschöpft*.
-
-### Bewusstlos
-- Nichts tun möglich, keine Wahrnehmung.
-- Nahkampf-Angreifer profitieren von „Ich werde nicht scheitern!“ (ohne Zähigkeitspunkt).
-- Fernkampf in Kernschussweite trifft automatisch.
-- Nicht kumulativ.
-- Nach Aufheben → *Erschöpft* + *Niedergestreckt*.
-
-### Blutend
-- Ende jeder Runde: −1 LP (unabhängig von Modifikatoren).
-- −10 auf Würfe gegen Blutfäule / Infektionen.
-- Bei 0 LP: sofort *Bewusstlos* + 10 % Sterbechance pro Blutend-Zustand.
-- Entfernen: gelungener Heilen-Wurf (1 + EG) oder heilende Zauber/Gebete (1 pro geheiltem LP).
-- Nach dem letzten → *Erschöpft*.
-
-### Brennend
-- Ende jeder Runde: 1W10 Schaden − WI-Bonus − schlechteste Rüstung (min. 1 LP).
-- Jeder weitere Zustand: +1 Schaden.
-- Entfernen: Athletik-Wurf (1 + EG), Schwierigkeit situationsabhängig.
-
-### Demoralisiert
-- Muss fliehen und sich verstecken.
-- −10 auf alle Würfe, die nicht mit Fliehen/Verstecken zu tun haben.
-- Solange gebunden: kein Überwindungsversuch.
-- Ende der Runde (ungebunden): Besonnenheits-Wurf → 1 + EG entfernen.
-- Eine volle Runde außer Sicht → −1 Zustand.
-- Nach dem letzten → *Erschöpft*.
-
-### Erschöpft
-- −10 auf alle Würfe.
-- Entfernen: Rast, Zauber oder göttliches Wirken (Dauer nach Gruppenabsprache).
-
-### Ertaubt
-- −10 auf Würfe, die Gehör erfordern.
-- Gegner von der Seite/hinten: +10 auf Trefferwurf (nicht kumulativ).
-- Ende jeder zweiten Runde: −1 Zustand.
-
-### Geblendet
-- −10 auf Würfe, die Sicht erfordern.
-- Gegner im Nahkampf: +10 auf Trefferwurf.
-- Ende jeder zweiten Runde: −1 Zustand.
-
-### Gefesselt
-- Keine Bewegungsaktion.
-- −10 auf handlungsbezogene Bewegungs-Würfe.
-- Als Handlung: Vergleichender Stärke-Wurf → 1 + EG Zustände entfernen.
-
-### Niedergestreckt
-- Nur Aufstehen oder halbe Bewegung kriechen möglich.
-- −20 auf Bewegungs-Würfe.
-- Gegner im Nahkampf: +20 auf Trefferwurf.
-- Nicht kumulativ. Endet beim Aufstehen.
-
-### Überrascht
-- Keine Bewegung, keine Handlung, keine Verteidigung bei Vergleichenden Würfen.
-- Gegner im Nahkampf: +20 auf Trefferwurf.
-- Nicht kumulativ.
-- Endet am Ende der Runde oder nach dem ersten Angriffsversuch gegen dich.
-
-### Vergiftet
-- Ende jeder Runde: −1 LP + −10 auf alle Würfe.
-- Bei 0 LP: keine LP-Regeneration, bis alle Zustände weg sind.
-- Bei Bewusstlosigkeit: nach WI-Bonus Runden Ausdauer-Wurf oder Tod.
-- Ende der Runde: Ausdauer- oder Heilen-Wurf → 1 + EG entfernen.
-- Nach dem letzten → *Erschöpft*.
-
----
+| id | Zustand | S. | Original |
+|----|---------|----|----------|
+| `betaubt` | [Betäubt](zustaende/betaubt/README.md) | 167 | [original](zustaende/betaubt/original.md) |
+| `bewusstlos` | [Bewusstlos](zustaende/bewusstlos/README.md) | 167 | [original](zustaende/bewusstlos/original.md) |
+| `blutend` | [Blutend](zustaende/blutend/README.md) | 168 | [original](zustaende/blutend/original.md) |
+| `brennend` | [Brennend](zustaende/brennend/README.md) | 168 | [original](zustaende/brennend/original.md) |
+| `demoralisiert` | [Demoralisiert](zustaende/demoralisiert/README.md) | 168 | [original](zustaende/demoralisiert/original.md) |
+| `erschoepft` | [Erschöpft](zustaende/erschoepft/README.md) | 168 | [original](zustaende/erschoepft/original.md) |
+| `ertaubt` | [Ertaubt](zustaende/ertaubt/README.md) | 169 | [original](zustaende/ertaubt/original.md) |
+| `geblendet` | [Geblendet](zustaende/geblendet/README.md) | 169 | [original](zustaende/geblendet/original.md) |
+| `gefesselt` | [Gefesselt](zustaende/gefesselt/README.md) | 169 | [original](zustaende/gefesselt/original.md) |
+| `niedergestreckt` | [Niedergestreckt](zustaende/niedergestreckt/README.md) | 169 | [original](zustaende/niedergestreckt/original.md) |
+| `ueberrascht` | [Überrascht](zustaende/ueberrascht/README.md) | 169 | [original](zustaende/ueberrascht/original.md) |
+| `vergiftet` | [Vergiftet](zustaende/vergiftet/README.md) | 169 | [original](zustaende/vergiftet/original.md) |
 
 ### Siehe auch
+
 - [Vorteile](03-vorteile.md)
 - [Kritische Treffer](04-kritische-treffer.md)
 - [Kampf – Übersicht](02-kampf-uebersicht.md)
-- [Attribute](../02-charaktere/04-attribute.md)
 - [Schicksal & Zähigkeit](06-schicksal-zaehigkeit.md)
-## Ordner
-
-- [Betäubt](zustaende/betaubt/README.md)
-- [Bewusstlos](zustaende/bewusstlos/README.md)
-- [Blutend](zustaende/blutend/README.md)
-- [Brennend](zustaende/brennend/README.md)
-- [Demoralisiert](zustaende/demoralisiert/README.md)
-- [Erschöpft](zustaende/erschoepft/README.md)
-- [Ertaubt](zustaende/ertaubt/README.md)
-- [Geblendet](zustaende/geblendet/README.md)
-- [Gefesselt](zustaende/gefesselt/README.md)
-- [Niedergestreckt](zustaende/niedergestreckt/README.md)
-- [Überrascht](zustaende/ueberrascht/README.md)
-- [Vergiftet](zustaende/vergiftet/README.md)
+- [Verwundungen](09-verwundungen.md)
+- [conditions.json](../data/conditions.json)
+- [Bogen `zustaende`](../00-BOGEN.md)
+- [Redeschwall](../04-faehigkeiten-talente/talente/redeschwall/README.md)

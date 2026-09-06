@@ -517,7 +517,7 @@
       "typ": "condition",
       "id": "blutend",
       "name": "Blutend",
-      "seite": 167,
+      "seite": 168,
       "path": "05-regeln/zustaende/blutend",
       "kumulativ": true
     },
@@ -525,7 +525,7 @@
       "typ": "condition",
       "id": "brennend",
       "name": "Brennend",
-      "seite": 167,
+      "seite": 168,
       "path": "05-regeln/zustaende/brennend",
       "kumulativ": true
     },
@@ -533,7 +533,7 @@
       "typ": "condition",
       "id": "demoralisiert",
       "name": "Demoralisiert",
-      "seite": 167,
+      "seite": 168,
       "path": "05-regeln/zustaende/demoralisiert",
       "kumulativ": true
     },
@@ -541,7 +541,7 @@
       "typ": "condition",
       "id": "erschoepft",
       "name": "Erschöpft",
-      "seite": 167,
+      "seite": 168,
       "path": "05-regeln/zustaende/erschoepft",
       "kumulativ": true
     },
@@ -549,7 +549,7 @@
       "typ": "condition",
       "id": "ertaubt",
       "name": "Ertaubt",
-      "seite": 167,
+      "seite": 169,
       "path": "05-regeln/zustaende/ertaubt",
       "kumulativ": true
     },
@@ -557,7 +557,7 @@
       "typ": "condition",
       "id": "geblendet",
       "name": "Geblendet",
-      "seite": 167,
+      "seite": 169,
       "path": "05-regeln/zustaende/geblendet",
       "kumulativ": true
     },
@@ -565,7 +565,7 @@
       "typ": "condition",
       "id": "gefesselt",
       "name": "Gefesselt",
-      "seite": 167,
+      "seite": 169,
       "path": "05-regeln/zustaende/gefesselt",
       "kumulativ": true
     },
@@ -573,7 +573,7 @@
       "typ": "condition",
       "id": "niedergestreckt",
       "name": "Niedergestreckt",
-      "seite": 167,
+      "seite": 169,
       "path": "05-regeln/zustaende/niedergestreckt",
       "kumulativ": false
     },
@@ -581,7 +581,7 @@
       "typ": "condition",
       "id": "ueberrascht",
       "name": "Überrascht",
-      "seite": 167,
+      "seite": 169,
       "path": "05-regeln/zustaende/ueberrascht",
       "kumulativ": false
     },
@@ -589,7 +589,7 @@
       "typ": "condition",
       "id": "vergiftet",
       "name": "Vergiftet",
-      "seite": 167,
+      "seite": 169,
       "path": "05-regeln/zustaende/vergiftet",
       "kumulativ": true
     },
