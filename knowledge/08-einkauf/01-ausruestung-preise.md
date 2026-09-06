@@ -40,5 +40,5 @@ Engine: Prozent in Groschen rechnen, nicht in ganzen Schillingen.
 - [Feilschen und Preis](06-feilschen-preis.md)
 - [Traglast](07-traglast.md)
 - [Waffen](02-waffen-ruestung.md)
-- [Feilschen](../04-faehigkeiten-talente/faehigkeiten/feilschen.md)
+- [Feilschen](../04-faehigkeiten-talente/faehigkeiten/feilschen/angepasst.md)
 - [rules-core.json](../data/rules-core.json)

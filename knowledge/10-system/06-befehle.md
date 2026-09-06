@@ -15,13 +15,13 @@ Grau-Regel: Karten, die der Charakter kennt, aber jetzt nicht nutzen kann, bleib
 
 | ID | Label | Kosten | Fähigkeit | Resolver | Buch |
 |----|-------|--------|-----------|----------|------|
-| `umschauen` | Umschauen | H | [Wahrnehmung](../04-faehigkeiten-talente/faehigkeiten/wahrnehmung.md) | standard | S. 130–131 |
-| `intuition` | Einschätzen | H | [Intuition](../04-faehigkeiten-talente/faehigkeiten/intuition.md) | standard | S. 124 |
-| `reden` | Ansprechen / Verhandeln | H | [Charme](../04-faehigkeiten-talente/faehigkeiten/charme.md) | vergleich (Besonnenheit, außer empfänglich) | S. 121 |
-| `feilschen` | Handeln | H | [Feilschen](../04-faehigkeiten-talente/faehigkeiten/feilschen.md) | vergleich | S. 122, 291 |
-| `bestechen` | Bestechen | H | [Bestechen](../04-faehigkeiten-talente/faehigkeiten/bestechen.md) | standard | S. 120 |
-| `einschuechtern` | Einschüchtern | H | [Einschüchtern](../04-faehigkeiten-talente/faehigkeiten/einschuechtern.md) | vergleich (Besonnenheit) | S. 121 |
-| `klatsch` | Gerüchte | H | [Klatsch](../04-faehigkeiten-talente/faehigkeiten/klatsch.md) | standard | S. 124 |
+| `umschauen` | Umschauen | H | [Wahrnehmung](../04-faehigkeiten-talente/faehigkeiten/wahrnehmung/angepasst.md) | standard | S. 130–131 |
+| `intuition` | Einschätzen | H | [Intuition](../04-faehigkeiten-talente/faehigkeiten/intuition/angepasst.md) | standard | S. 124 |
+| `reden` | Ansprechen / Verhandeln | H | [Charme](../04-faehigkeiten-talente/faehigkeiten/charme/angepasst.md) | vergleich (Besonnenheit, außer empfänglich) | S. 121 |
+| `feilschen` | Handeln | H | [Feilschen](../04-faehigkeiten-talente/faehigkeiten/feilschen/angepasst.md) | vergleich | S. 122, 291 |
+| `bestechen` | Bestechen | H | [Bestechen](../04-faehigkeiten-talente/faehigkeiten/bestechen/angepasst.md) | standard | S. 120 |
+| `einschuechtern` | Einschüchtern | H | [Einschüchtern](../04-faehigkeiten-talente/faehigkeiten/einschuechtern/angepasst.md) | vergleich (Besonnenheit) | S. 121 |
+| `klatsch` | Gerüchte | H | [Klatsch](../04-faehigkeiten-talente/faehigkeiten/klatsch/angepasst.md) | standard | S. 124 |
 | `warten` | Abwarten | H | — | auto | S. 158 (Handlung opfern) |
 | `kaufen` | Kaufen | H | — dann Feilschen | auto + vergleich | S. 290–291 |
 
@@ -33,9 +33,9 @@ Alte Katalog-MD schrieb `intuiton`. JSON und Register nutzen `intuition`.
 
 | ID | Label | Kosten | Fähigkeit | Resolver | Buch |
 |----|-------|--------|-----------|----------|------|
-| `schleichen` | Schleichen | BH | [Schleichen](../04-faehigkeiten-talente/faehigkeiten/schleichen.md) | vergleich (Wahrnehmung) | S. 126 |
+| `schleichen` | Schleichen | BH | [Schleichen](../04-faehigkeiten-talente/faehigkeiten/schleichen/angepasst.md) | vergleich (Wahrnehmung) | S. 126 |
 | `gehen` | Ort verlassen | B | — | auto | S. 165 Bewegung |
-| `sprinten` | Sprinten | H | [Athletik](../04-faehigkeiten-talente/faehigkeiten/athletik.md) | standard | S. 119, 165 |
+| `sprinten` | Sprinten | H | [Athletik](../04-faehigkeiten-talente/faehigkeiten/athletik/angepasst.md) | standard | S. 119, 165 |
 | `aufstehen` | Aufstehen | B | — | auto | S. 169 *Niedergestreckt* |
 
 ---
@@ -44,9 +44,9 @@ Alte Katalog-MD schrieb `intuiton`. JSON und Register nutzen `intuition`.
 
 | ID | Label | Kosten | Fähigkeit | Resolver | Buch |
 |----|-------|--------|-----------|----------|------|
-| `angreifen` | Angreifen | H | [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf.md) | vergleich | S. 158–160 |
+| `angreifen` | Angreifen | H | [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md) | vergleich | S. 158–160 |
 | `sturmangriff` | Sturmangriff | BH | Nahkampf | vergleich; +1 Vorteil **vor** dem Wurf | S. 165 |
-| `ausweichen` | Ausweichen (Verteidigung) | F | [Ausweichen](../04-faehigkeiten-talente/faehigkeiten/ausweichen.md) | vergleich, keine eigene Handlung | S. 119, 158 |
+| `ausweichen` | Ausweichen (Verteidigung) | F | [Ausweichen](../04-faehigkeiten-talente/faehigkeiten/ausweichen/angepasst.md) | vergleich, keine eigene Handlung | S. 119, 158 |
 | `loesen` | Aus Bindung lösen | H | Ausweichen oder Nahkampf oder Vorteilsvorsprung | vergleich | S. 166 |
 | `fliehen` | Fliehen | B | Athletik | combat; Freie Attacke des Gegners | S. 165 |
 | `waffe_ziehen` | Waffe ziehen | F | — | auto | S. 158 Freie Handlung (v1-Annahme) |

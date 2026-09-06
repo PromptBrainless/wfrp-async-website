@@ -45,4 +45,4 @@ Rüstung v1: niemand in der Demo trägt welche. RP = 0.
 - [Qualitäten](waffen/qualitaeten.md)
 - [Traglast](07-traglast.md)
 - [Angreifen](../05-regeln/07-angreifen-schaden.md)
-- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf.md)
+- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md)

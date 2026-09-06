@@ -34,7 +34,7 @@ Preis senken, um Käufer zu finden: jede Halbierung der Forderung verbessert die
 
 ### Siehe auch
 
-- [Feilschen-Fähigkeit](../04-faehigkeiten-talente/faehigkeiten/feilschen.md)
+- [Feilschen-Fähigkeit](../04-faehigkeiten-talente/faehigkeiten/feilschen/angepasst.md)
 - [Verfügbarkeit](05-verfuegbarkeit.md)
 - [Geld](04-geld.md)
-- [Charme](../04-faehigkeiten-talente/faehigkeiten/charme.md)
+- [Charme](../04-faehigkeiten-talente/faehigkeiten/charme/angepasst.md)

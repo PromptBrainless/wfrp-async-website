@@ -4,7 +4,7 @@ Quelle: S. 294–296; Makel Stumpf S. 299
 
 | Feld | Wert |
 |------|------|
-| Gruppe | Waffenlos → [Nahkampf](../../04-faehigkeiten-talente/faehigkeiten/nahkampf.md) (Waffenlos) |
+| Gruppe | Waffenlos → [Nahkampf](../../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md) (Waffenlos) |
 | Preis | keiner |
 | TP | 0 |
 | Verfügbarkeit | keine |
@@ -33,4 +33,4 @@ Ohne Steigerung Waffenlos: reines KG, Qualitäten aus (keine), Makel an (Stumpf 
 - [Dolch](dolch.md)
 - [Qualitäten](qualitaeten.md)
 - [Angreifen](../../05-regeln/07-angreifen-schaden.md)
-- [Nahkampf](../../04-faehigkeiten-talente/faehigkeiten/nahkampf.md)
+- [Nahkampf](../../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md)

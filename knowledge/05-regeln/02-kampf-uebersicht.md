@@ -30,6 +30,6 @@ Quelle: S. 156 ff.
 - [Angreifen](07-angreifen-schaden.md)
 - [Bewegung im Kampf](08-bewegung-im-kampf.md)
 - [Hilflos und Überzahl](15-hilflos-ueberzahl.md)
-- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf.md)
+- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md)
 - [Befehlsregister](../10-system/06-befehle.md)
 - [Ablauf am Spieltisch](../06-spielleiter/02-ablauf-am-spieltisch.md)

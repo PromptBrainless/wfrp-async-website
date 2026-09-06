@@ -78,6 +78,6 @@ Initiative bleibt die Zugreihenfolge **innerhalb** der Auflösung. Spieler setze
 - [Bewegung im Kampf](08-bewegung-im-kampf.md)
 - [Angreifen](07-angreifen-schaden.md)
 - [Hilflos und Überzahl](15-hilflos-ueberzahl.md)
-- [Schleichen](../04-faehigkeiten-talente/faehigkeiten/schleichen.md)
-- [Wahrnehmung](../04-faehigkeiten-talente/faehigkeiten/wahrnehmung.md)
+- [Schleichen](../04-faehigkeiten-talente/faehigkeiten/schleichen/angepasst.md)
+- [Wahrnehmung](../04-faehigkeiten-talente/faehigkeiten/wahrnehmung/angepasst.md)
 - [Befehlsregister](../10-system/06-befehle.md)

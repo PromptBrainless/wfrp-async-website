@@ -58,4 +58,4 @@ Nicht v1. Fernkampf auf 3–6 / 7–12 / 13+ Ziele: +20 / +40 / +60, Treffer zuf
 - [Angreifen](07-angreifen-schaden.md)
 - [Zustände](05-zustaende.md)
 - [Würfel](01-wuerfel-und-grundmechanik.md)
-- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf.md)
+- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md)

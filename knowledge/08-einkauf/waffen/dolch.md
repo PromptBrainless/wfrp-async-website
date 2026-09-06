@@ -4,7 +4,7 @@ Quelle: S. 294–296
 
 | Feld | Wert |
 |------|------|
-| Gruppe | Standard → Fähigkeit [Nahkampf](../../04-faehigkeiten-talente/faehigkeiten/nahkampf.md) (Standard) |
+| Gruppe | Standard → Fähigkeit [Nahkampf](../../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md) (Standard) |
 | Preis | 16 S |
 | TP | 0 |
 | Verfügbarkeit | Verbreitet |

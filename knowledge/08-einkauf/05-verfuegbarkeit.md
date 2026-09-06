@@ -39,6 +39,6 @@ v1-Demo Basar: Verfügbarkeit SL-seitig. Ballen liegt auf dem Tisch → kein Wur
 
 - [Geld](04-geld.md)
 - [Feilschen-Preis](06-feilschen-preis.md)
-- [Feilschen-Fähigkeit](../04-faehigkeiten-talente/faehigkeiten/feilschen.md)
+- [Feilschen-Fähigkeit](../04-faehigkeiten-talente/faehigkeiten/feilschen/angepasst.md)
 - [Ausrüstung und Preise](01-ausruestung-preise.md)
 - [Befehlsregister](../10-system/06-befehle.md)
