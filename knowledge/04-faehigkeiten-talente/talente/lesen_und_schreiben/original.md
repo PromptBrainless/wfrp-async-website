@@ -5,13 +5,13 @@ Status: Original, nicht anfassen
 
 **Lesen & Schreiben**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** 1
 
-[prüfen am Buch S. 139]
-
+Du bist einer der Wenigen in der Alten Welt, die keine Analphabeten sind. Es wird davon ausgegangen, dass du jede Sprache lesen und schreiben kannst, die du als *Sprache* besitzt (sofern sie eine Schriftform hat).
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Sprache Original](../../faehigkeiten/sprache/original.md)

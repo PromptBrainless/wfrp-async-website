@@ -41,7 +41,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Status-System](03-klassen-karrieren/02-status-system.md)
 - ✅ [Karrieren-Liste](03-klassen-karrieren/03-karrieren-liste.md) — 64 Gerüste
 - 📝 [Akademiker](03-klassen-karrieren/04-akademiker.md)
-- 📝 [Bürger](03-klassen-karrieren/05-buerger.md)
+- 📝 [Bürger](03-klassen-karrieren/05-buerger.md) — Original: [Städter](03-klassen-karrieren/buerger/staedter/README.md) S. 67, [Kaufmann](03-klassen-karrieren/buerger/kaufmann/README.md) S. 65
 - 📝 [Flussvolk](03-klassen-karrieren/06-flussvolk.md)
 - 📝 [Freisassen](03-klassen-karrieren/07-freisassen.md)
 - 📝 [Gesetzlose](03-klassen-karrieren/08-gesetzlose.md)
@@ -52,8 +52,10 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 ## 04 – Fähigkeiten und Talente
 - ✅ [Struktur](04-faehigkeiten-talente/01-struktur.md)
 - ✅ [Fähigkeiten – Hauptliste](04-faehigkeiten-talente/02-faehigkeiten-liste.md) — 45 Ordner, je Original / Angepasst / Details
-- ✅ [Talente – Hauptliste](04-faehigkeiten-talente/03-talente-liste.md) — 167 Gerüste
+- ✅ [Talente – Hauptliste](04-faehigkeiten-talente/03-talente-liste.md) — 167 Gerüste, 8 Demo-Originale
 - ✅ [Rohkapitel Fähigkeiten](04-faehigkeiten-talente/_roh/hauptliste-s118-131.md)
+- ✅ [Roh Demo-Talente](04-faehigkeiten-talente/_roh/demo-talente-s134-146.md)
+- ✅ [Roh Kaufmann/Städter](03-klassen-karrieren/_roh/kaufmann-staedter-s65-67.md)
 
 ## 05 – Regeln
 - ✅ [Würfel und Grundmechanik](05-regeln/01-wuerfel-und-grundmechanik.md)

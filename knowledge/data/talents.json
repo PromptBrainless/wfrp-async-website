@@ -139,7 +139,12 @@
     {
       "id": "einnehmendes_wesen",
       "name": "Einnehmendes Wesen",
-      "seite": 134
+      "seite": 134,
+      "max": 1,
+      "bonus_anfang": {
+        "CH": 5
+      },
+      "original": true
     },
     {
       "id": "eiserner_wille",
@@ -164,7 +169,10 @@
     {
       "id": "etikette",
       "name": "Etikette",
-      "seite": 135
+      "seite": 135,
+      "max": "CH-Bonus",
+      "gruppiert": true,
+      "original": true
     },
     {
       "id": "fachwissen",
@@ -414,7 +422,9 @@
     {
       "id": "lesen_und_schreiben",
       "name": "Lesen & Schreiben",
-      "seite": 139
+      "seite": 139,
+      "max": 1,
+      "original": true
     },
     {
       "id": "lippenlesen",
@@ -529,7 +539,14 @@
     {
       "id": "redeschwall",
       "name": "Redeschwall",
-      "seite": 141
+      "seite": 141,
+      "max": "CH-Bonus",
+      "vergleich": [
+        "charme",
+        "intelligenz"
+      ],
+      "zustand": "betaubt",
+      "original": true
     },
     {
       "id": "reine_seele",
@@ -684,7 +701,10 @@
     {
       "id": "staemmig",
       "name": "Stämmig",
-      "seite": 144
+      "seite": 144,
+      "max": "ST-Bonus",
+      "traglast_pro_stufe": 2,
+      "original": true
     },
     {
       "id": "starke_beine",
@@ -699,7 +719,10 @@
     {
       "id": "strassenkatze",
       "name": "Straßenkatze",
-      "seite": 145
+      "seite": 145,
+      "max": "I-Bonus",
+      "zahlen_tauschen": "schleichen_stadt",
+      "original": true
     },
     {
       "id": "streuner",
@@ -739,7 +762,9 @@
     {
       "id": "unauffaellig",
       "name": "Unauffällig",
-      "seite": 146
+      "seite": 146,
+      "max": "CH-Bonus",
+      "original": true
     },
     {
       "id": "unaufhaltsam",
@@ -774,7 +799,10 @@
     {
       "id": "verhandlungsgenie",
       "name": "Verhandlungsgenie",
-      "seite": 146
+      "seite": 146,
+      "max": "CH-Bonus",
+      "feilschen_plus_prozent": 10,
+      "original": true
     },
     {
       "id": "verletzender_schlag",

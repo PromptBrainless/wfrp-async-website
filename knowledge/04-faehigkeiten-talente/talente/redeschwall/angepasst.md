@@ -2,9 +2,17 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 141)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Vergleich **Charme gegen Intelligenz**. Erfolg: [Betäubt](../../../05-regeln/zustaende/betaubt/angepasst.md) +1 je EG. Reden aufhören = Zustände weg. Einmal pro Person und Szene (SL darf länger sperren).
 
+## Bogen
 
+`talente[]`: `id` = `redeschwall`. Maximum = CH-Bonus.
+
+## Karte
+
+Noch keine Katalog-ID. Wenn eine kommt: zuerst ins Befehlsregister, Kosten H, Resolver vergleich, Tab sozial. Bis dahin SL-Intention über [reden](../../faehigkeiten/charme/angepasst.md).
+
+Otto Händler: verfügbar, nicht automatisch.
 
 ### Befehl
 
@@ -15,4 +23,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 - [Original](original.md)
 - [Details](details.md)
 - [Talente-Liste](../../03-talente-liste.md)
-- [Fähigkeiten](../../02-faehigkeiten-liste.md)
+- [Charme](../../faehigkeiten/charme/angepasst.md)
+- [Betäubt](../../../05-regeln/zustaende/betaubt/angepasst.md)
+- [Kaufmann](../../../03-klassen-karrieren/buerger/kaufmann/angepasst.md)

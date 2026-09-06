@@ -1,13 +1,20 @@
 # Straßenkatze — Details / Hilfe
 
 JSON-`id`: `strassenkatze`  
-Quelle: S. 145
+Quelle: S. 145 · [talents.json](../../../data/talents.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Zahlen tauschen = Einer und Zehner, nur wenn der Tausch gelingt.
+- Nicht dasselbe wie [Unauffällig](../unauffaellig/details.md) (Status, Offenheit).
+
+## Prüfen
+
+- [prüfen am Buch S. 145]
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
 - [Talente-Liste](../../03-talente-liste.md)
-- [Fähigkeiten](../../02-faehigkeiten-liste.md)
+- [Schleichen](../../faehigkeiten/schleichen/details.md)

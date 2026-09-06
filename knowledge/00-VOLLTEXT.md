@@ -52,9 +52,13 @@ Völker je eine Datei. Klasse/Karriere-Einführung, Startfähigkeiten, Ausrüstu
 
 `04-faehigkeiten-talente/talente/<slug>/` — 167 Gerüste stehen. Original füllen, nicht umbenennen.
 
+Demo-Schnitt Original: Etikette, Einnehmendes Wesen, Lesen & Schreiben, Redeschwall, Stämmig, Straßenkatze, Unauffällig, Verhandlungsgenie.
+
 ### Welle B — Karrieren
 
 Eine Datei je Karriere unter `03-klassen-karrieren/<klasse>/<slug>/` — 64 Gerüste. Bürger/Städter zuerst (Greta).
+
+Original: [Städter](03-klassen-karrieren/buerger/staedter/original.md) S. 67, [Kaufmann](03-klassen-karrieren/buerger/kaufmann/original.md) S. 65.
 
 ### Welle E–J
 

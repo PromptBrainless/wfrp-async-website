@@ -903,7 +903,7 @@
       "id": "handwerker",
       "name": "Handwerker",
       "klasse": "buerger",
-      "seite": 61,
+      "seite": 64,
       "path": "03-klassen-karrieren/buerger/handwerker"
     },
     {
@@ -911,7 +911,7 @@
       "id": "kaufmann",
       "name": "Kaufmann",
       "klasse": "buerger",
-      "seite": 61,
+      "seite": 65,
       "path": "03-klassen-karrieren/buerger/kaufmann"
     },
     {
@@ -919,7 +919,7 @@
       "id": "rattenfaenger",
       "name": "Rattenfänger",
       "klasse": "buerger",
-      "seite": 61,
+      "seite": 66,
       "path": "03-klassen-karrieren/buerger/rattenfaenger"
     },
     {
@@ -927,7 +927,7 @@
       "id": "staedter",
       "name": "Städter",
       "klasse": "buerger",
-      "seite": 61,
+      "seite": 67,
       "path": "03-klassen-karrieren/buerger/staedter"
     },
     {

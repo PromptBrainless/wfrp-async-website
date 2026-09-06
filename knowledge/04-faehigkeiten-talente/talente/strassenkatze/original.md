@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Straßenkatze**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Initiative-Bonus  
+**Würfe:** *Schleichen (Stadt)*
 
-[prüfen am Buch S. 145]
-
+Schattige Gassen sind dein zweites Zuhause. Wenn du *Schleichen (Stadt)* einsetzt, darfst du bei jedem misslungenen Wurf die Zahlen vertauschen, wenn dies zu einem Erfolg führt.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Schleichen Original](../../faehigkeiten/schleichen/original.md)

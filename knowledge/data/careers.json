@@ -71,25 +71,119 @@
       "id": "handwerker",
       "name": "Handwerker",
       "klasse": "buerger",
-      "seite": 61
+      "seite": 64
     },
     {
       "id": "kaufmann",
       "name": "Kaufmann",
       "klasse": "buerger",
-      "seite": 61
+      "seite": 65,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Händler",
+          "status": {
+            "tier": "silber",
+            "rang": 2
+          },
+          "talente": [
+            "einnehmendes_wesen",
+            "lesen_und_schreiben",
+            "redeschwall",
+            "verhandlungsgenie"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Kaufmann",
+          "status": {
+            "tier": "silber",
+            "rang": 5
+          }
+        },
+        {
+          "nr": 3,
+          "name": "Meisterhändler",
+          "status": {
+            "tier": "gold",
+            "rang": 1
+          }
+        },
+        {
+          "nr": 4,
+          "name": "Handelsfürst",
+          "status": {
+            "tier": "gold",
+            "rang": 3
+          }
+        }
+      ],
+      "original": "03-klassen-karrieren/buerger/kaufmann/original.md"
     },
     {
       "id": "rattenfaenger",
       "name": "Rattenfänger",
       "klasse": "buerger",
-      "seite": 61
+      "seite": 66
     },
     {
       "id": "staedter",
       "name": "Städter",
       "klasse": "buerger",
-      "seite": 61
+      "seite": 67,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Gehilfe",
+          "status": {
+            "tier": "silber",
+            "rang": 1
+          },
+          "talente": [
+            "etikette",
+            "staemmig",
+            "strassenkatze",
+            "unauffaellig"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Städter",
+          "status": {
+            "tier": "silber",
+            "rang": 2
+          }
+        },
+        {
+          "nr": 3,
+          "name": "Stadtrat",
+          "status": {
+            "tier": "silber",
+            "rang": 5
+          }
+        },
+        {
+          "nr": 4,
+          "name": "Bürgermeister",
+          "status": {
+            "tier": "gold",
+            "rang": 1
+          }
+        }
+      ],
+      "original": "03-klassen-karrieren/buerger/staedter/original.md"
     },
     {
       "id": "wachmann",

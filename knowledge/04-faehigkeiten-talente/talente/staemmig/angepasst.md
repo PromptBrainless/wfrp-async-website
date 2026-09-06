@@ -2,9 +2,13 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 144)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Kein Katalog. Traglast + `stufe × 2`. Würfe: Stärke beim Heben.
 
+## Bogen
 
+`talente[]`: `id` = `staemmig`. Maximum = ST-Bonus.
+
+Greta Gehilfe: verfügbar, nicht automatisch.
 
 ### Befehl
 
@@ -15,4 +19,5 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 - [Original](original.md)
 - [Details](details.md)
 - [Talente-Liste](../../03-talente-liste.md)
-- [Fähigkeiten](../../02-faehigkeiten-liste.md)
+- [Städter](../../../03-klassen-karrieren/buerger/staedter/angepasst.md)
+- [Attribut ST](../../../02-charaktere/attribute/st/angepasst.md)

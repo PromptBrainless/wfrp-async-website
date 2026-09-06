@@ -2,7 +2,7 @@
 
 Quelle: S. 132–147
 
-Gerüst: Name, Slug, Seite. Original folgt in Welle D.
+Gerüst: Name, Slug, Seite. Demo-Schnitt Original gefüllt: Etikette, Einnehmendes Wesen, Lesen & Schreiben, Redeschwall, Stämmig, Straßenkatze, Unauffällig, Verhandlungsgenie. Rest Welle D.
 
 | id | Talent | S. |
 |----|--------|----|

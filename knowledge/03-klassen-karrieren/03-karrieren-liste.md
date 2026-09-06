@@ -17,6 +17,8 @@ Gerüst je Karriere. Vollprofil folgt in Welle B.
 
 ## [Bürger](buerger/README.md) (S. 61)
 
+Volltext: [Kaufmann](buerger/kaufmann/original.md) S. 65, [Städter](buerger/staedter/original.md) S. 67.
+
 - [`agitator`](buerger/agitator/README.md) Agitator
 - [`bettler`](buerger/bettler/README.md) Bettler
 - [`ermittler`](buerger/ermittler/README.md) Ermittler

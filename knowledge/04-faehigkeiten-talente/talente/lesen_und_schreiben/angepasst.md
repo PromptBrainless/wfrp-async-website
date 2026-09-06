@@ -2,9 +2,13 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 139)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Kein Wurf. Ohne das Talent: Analphabet. Mit Talent: jede *Sprache*, die der Charakter hat, auch schriftlich (wenn die Sprache eine Schrift hat).
 
+## Bogen
 
+`talente[]`: `id` = `lesen_und_schreiben`, Maximum 1. Karten, die Schrift brauchen, grau ohne dieses Talent.
+
+Otto Händler: verfügbar, nicht automatisch. Greta Gehilfe: nicht auf der Stufe-1-Liste.
 
 ### Befehl
 
@@ -15,4 +19,5 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 - [Original](original.md)
 - [Details](details.md)
 - [Talente-Liste](../../03-talente-liste.md)
-- [Fähigkeiten](../../02-faehigkeiten-liste.md)
+- [Sprache](../../faehigkeiten/sprache/angepasst.md)
+- [Kaufmann](../../../03-klassen-karrieren/buerger/kaufmann/angepasst.md)

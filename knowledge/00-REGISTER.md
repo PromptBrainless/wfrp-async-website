@@ -250,10 +250,10 @@ Ein `id` je Typ. Slug: Kleinbuchstaben, `ae/oe/ue/ss`, Klammern weg.
 | `agitator` | Agitator | 61 | [03-klassen-karrieren/buerger/agitator](03-klassen-karrieren/buerger/agitator/README.md) |
 | `bettler` | Bettler | 61 | [03-klassen-karrieren/buerger/bettler](03-klassen-karrieren/buerger/bettler/README.md) |
 | `ermittler` | Ermittler | 61 | [03-klassen-karrieren/buerger/ermittler](03-klassen-karrieren/buerger/ermittler/README.md) |
-| `handwerker` | Handwerker | 61 | [03-klassen-karrieren/buerger/handwerker](03-klassen-karrieren/buerger/handwerker/README.md) |
-| `kaufmann` | Kaufmann | 61 | [03-klassen-karrieren/buerger/kaufmann](03-klassen-karrieren/buerger/kaufmann/README.md) |
-| `rattenfaenger` | Rattenfänger | 61 | [03-klassen-karrieren/buerger/rattenfaenger](03-klassen-karrieren/buerger/rattenfaenger/README.md) |
-| `staedter` | Städter | 61 | [03-klassen-karrieren/buerger/staedter](03-klassen-karrieren/buerger/staedter/README.md) |
+| `handwerker` | Handwerker | 64 | [03-klassen-karrieren/buerger/handwerker](03-klassen-karrieren/buerger/handwerker/README.md) |
+| `kaufmann` | Kaufmann | 65 | [03-klassen-karrieren/buerger/kaufmann](03-klassen-karrieren/buerger/kaufmann/README.md) |
+| `rattenfaenger` | Rattenfänger | 66 | [03-klassen-karrieren/buerger/rattenfaenger](03-klassen-karrieren/buerger/rattenfaenger/README.md) |
+| `staedter` | Städter | 67 | [03-klassen-karrieren/buerger/staedter](03-klassen-karrieren/buerger/staedter/README.md) |
 | `wachmann` | Wachmann | 61 | [03-klassen-karrieren/buerger/wachmann](03-klassen-karrieren/buerger/wachmann/README.md) |
 | `flussbewohner` | Flussbewohner | 69 | [03-klassen-karrieren/flussvolk/flussbewohner](03-klassen-karrieren/flussvolk/flussbewohner/README.md) |
 | `flussschiffer` | Flussschiffer | 69 | [03-klassen-karrieren/flussvolk/flussschiffer](03-klassen-karrieren/flussvolk/flussschiffer/README.md) |
