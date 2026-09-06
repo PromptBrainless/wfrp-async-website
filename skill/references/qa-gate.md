@@ -20,7 +20,9 @@ Fehler (Exit 1) blocken Commit und Push. `--no-verify` nur in Notfällen, GitHub
 6. Relativer Markdown-Link zeigt ins Leere
 7. Neue Katalog-ID in `angepasst.md` als `` `id` ``, fehlt im Befehlsregister
 8. PDF oder WebP unter `knowledge/` oder im Git-Index
-9. `original.md` kürzer als 200 Zeichen ohne `[prüfen am Buch`
+10. Register-ID ohne Ordner, oder doppelte `typ`+`id`
+11. Siehe-auch-Pflicht je Typ fehlt in `angepasst.md`
+12. `bogen.json` ohne `werte` / `boni` / `ressourcen`
 
 ## Warnungen
 

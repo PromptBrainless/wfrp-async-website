@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import subprocess
 import sys
@@ -40,10 +41,25 @@ MECHANIC_GLOBS = [
     "04-faehigkeiten-talente/faehigkeiten/*/",
     "04-faehigkeiten-talente/talente/*/",
     "02-charaktere/voelker/*/",
+    "02-charaktere/attribute/*/",
     "03-klassen-karrieren/*/*/",
     "05-regeln/zustaende/*/",
     "08-einkauf/waffen/*/",
+    "08-einkauf/qualitaeten/*/",
 ]
+
+REGISTER = KNOW / "data" / "register.json"
+
+SEE_MUST = {
+    "skill": re.compile(r"attribute/"),
+    "talent": re.compile(r"03-talente-liste"),
+    "career": re.compile(r"karrieren-liste"),
+    "condition": re.compile(r"05-zustaende"),
+    "qualitaet": re.compile(r"02-waffen-ruestung"),
+    "makel": re.compile(r"02-waffen-ruestung"),
+    "attr": re.compile(r"04-attribute"),
+    "volk": re.compile(r"02-voelker-kurz|04-attribute"),
+}
 
 
 class Report:
@@ -184,6 +200,45 @@ def check_binaries(r: Report) -> None:
             r.err(f"Medium im knowledge/: {p.relative_to(ROOT)}")
 
 
+def check_register(r: Report) -> None:
+    if not REGISTER.exists():
+        r.err("data/register.json fehlt")
+        return
+    data = json.loads(REGISTER.read_text(encoding="utf-8"))
+    seen: dict[tuple[str, str], str] = {}
+    for it in data.get("items", []):
+        typ, iid = it.get("typ", ""), it.get("id", "")
+        if not typ or not iid:
+            r.err("register: Eintrag ohne typ/id")
+            continue
+        key = (typ, iid)
+        if key in seen:
+            r.err(f"register: doppelte id {typ}/{iid}")
+        seen[key] = it.get("path", "")
+        path = it.get("path") or ""
+        if not path or path.endswith(".md"):
+            continue
+        folder = KNOW / path
+        if not folder.is_dir():
+            r.err(f"register {typ}/{iid}: Ordner fehlt {path}")
+            continue
+        ang = folder / "angepasst.md"
+        pat = SEE_MUST.get(typ)
+        if pat and ang.exists() and not pat.search(ang.read_text(encoding="utf-8")):
+            r.err(f"{path}/angepasst.md: Siehe-auch-Pflicht ({typ}) fehlt")
+
+
+def check_bogen(r: Report) -> None:
+    p = KNOW / "data" / "bogen.json"
+    if not p.exists():
+        r.err("data/bogen.json fehlt")
+        return
+    keys = json.loads(p.read_text(encoding="utf-8")).get("keys", {})
+    for need in ("werte", "boni", "ressourcen"):
+        if need not in keys:
+            r.err(f"bogen.json: keys.{need} fehlt")
+
+
 def check_staged(r: Report) -> None:
     try:
         out = subprocess.check_output(
@@ -234,6 +289,8 @@ def main() -> int:
             check_links(idx, r)
         if not BEFEHLE.exists():
             r.err("Befehlsregister fehlt")
+        check_register(r)
+        check_bogen(r)
 
     if args.staged:
         check_staged(r)

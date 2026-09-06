@@ -1,0 +1,75 @@
+{
+  "quelle": "S. 33–36",
+  "attributes": [
+    {
+      "id": "kg",
+      "kuerzel": "KG",
+      "name": "Kampfgeschick",
+      "bonus": "kgb",
+      "seite": 33
+    },
+    {
+      "id": "bf",
+      "kuerzel": "BF",
+      "name": "Ballistische Fertigkeit",
+      "bonus": "bfb",
+      "seite": 33
+    },
+    {
+      "id": "st",
+      "kuerzel": "ST",
+      "name": "Stärke",
+      "bonus": "stb",
+      "seite": 33
+    },
+    {
+      "id": "wi",
+      "kuerzel": "WI",
+      "name": "Widerstand",
+      "bonus": "wib",
+      "seite": 33
+    },
+    {
+      "id": "i",
+      "kuerzel": "I",
+      "name": "Initiative",
+      "bonus": "ib",
+      "seite": 33
+    },
+    {
+      "id": "gw",
+      "kuerzel": "GW",
+      "name": "Gewandtheit",
+      "bonus": "gwb",
+      "seite": 33
+    },
+    {
+      "id": "gs",
+      "kuerzel": "GS",
+      "name": "Geschicklichkeit",
+      "bonus": "gsb",
+      "seite": 34
+    },
+    {
+      "id": "in",
+      "kuerzel": "IN",
+      "name": "Intelligenz",
+      "bonus": "inb",
+      "seite": 34
+    },
+    {
+      "id": "wk",
+      "kuerzel": "WK",
+      "name": "Willenskraft",
+      "bonus": "wkb",
+      "seite": 34
+    },
+    {
+      "id": "ch",
+      "kuerzel": "CH",
+      "name": "Charisma",
+      "bonus": "chb",
+      "seite": 34
+    }
+  ]
+}

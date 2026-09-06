@@ -112,3 +112,15 @@ LP = Stärke-Bonus + (2 × Widerstands-Bonus) + Willenskraft-Bonus
 - [Klassen und Karrieren](../03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
 - [Würfel und Grundmechanik](../05-regeln/01-wuerfel-und-grundmechanik.md)
 - [Kampf – Übersicht](../05-regeln/02-kampf-uebersicht.md)
+## Einzelattribute
+
+- [`kg`](attribute/kg/README.md) Kampfgeschick (KG)
+- [`bf`](attribute/bf/README.md) Ballistische Fertigkeit (BF)
+- [`st`](attribute/st/README.md) Stärke (ST)
+- [`wi`](attribute/wi/README.md) Widerstand (WI)
+- [`i`](attribute/i/README.md) Initiative (I)
+- [`gw`](attribute/gw/README.md) Gewandtheit (GW)
+- [`gs`](attribute/gs/README.md) Geschicklichkeit (GS)
+- [`in`](attribute/in/README.md) Intelligenz (IN)
+- [`wk`](attribute/wk/README.md) Willenskraft (WK)
+- [`ch`](attribute/ch/README.md) Charisma (CH)

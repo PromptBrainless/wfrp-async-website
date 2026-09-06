@@ -1,0 +1,161 @@
+{
+  "quelle": "S. 297–299",
+  "qualities": [
+    {
+      "id": "ablenkend",
+      "name": "Ablenkend",
+      "art": "qualitaet",
+      "seite": 297
+    },
+    {
+      "id": "akkurat",
+      "name": "Akkurat",
+      "art": "qualitaet",
+      "seite": 297
+    },
+    {
+      "id": "betaubend",
+      "name": "Betäubend",
+      "art": "qualitaet",
+      "seite": 297
+    },
+    {
+      "id": "defensiv",
+      "name": "Defensiv",
+      "art": "qualitaet",
+      "seite": 297
+    },
+    {
+      "id": "durchbohrend",
+      "name": "Durchbohrend",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "durchschlagend",
+      "name": "Durchschlagend",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "fesselnd",
+      "name": "Fesselnd",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "klingenfaenger",
+      "name": "Klingenfänger",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "pistole",
+      "name": "Pistole",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "praezise",
+      "name": "Präzise",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "radius",
+      "name": "Radius",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "repetierend",
+      "name": "Repetierend",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "ruestungsbrechend",
+      "name": "Rüstungsbrechend",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "schiesspulver",
+      "name": "Schießpulver",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "schild",
+      "name": "Schild",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "schnell",
+      "name": "Schnell",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "umwickelnd",
+      "name": "Umwickelnd",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "unzerbrechlich",
+      "name": "Unzerbrechlich",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "verwundend",
+      "name": "Verwundend",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "wuchtig",
+      "name": "Wuchtig",
+      "art": "qualitaet",
+      "seite": 298
+    },
+    {
+      "id": "ermuedend",
+      "name": "Ermüdend",
+      "art": "makel",
+      "seite": 299
+    },
+    {
+      "id": "gefaehrlich",
+      "name": "Gefährlich",
+      "art": "makel",
+      "seite": 299
+    },
+    {
+      "id": "langsam",
+      "name": "Langsam",
+      "art": "makel",
+      "seite": 299
+    },
+    {
+      "id": "nachladen",
+      "name": "Nachladen",
+      "art": "makel",
+      "seite": 299
+    },
+    {
+      "id": "stumpf",
+      "name": "Stumpf",
+      "art": "makel",
+      "seite": 299
+    },
+    {
+      "id": "unpraezise",
+      "name": "Unpräzise",
+      "art": "makel",
+      "seite": 299
+    }
+  ]
+}

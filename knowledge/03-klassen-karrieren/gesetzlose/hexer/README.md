@@ -1,0 +1,7 @@
+# Hexer
+
+Quelle: S. 85
+
+- [Original](original.md) — Buch, unverändert
+- [Angepasst](angepasst.md) — Projekt
+- [Details](details.md) — Hilfe

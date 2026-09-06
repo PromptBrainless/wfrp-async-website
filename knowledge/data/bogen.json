@@ -1,0 +1,76 @@
+{
+  "quelle": "S. 33–36, 44–45",
+  "keys": {
+    "identitaet": [
+      "id",
+      "name",
+      "volk",
+      "klasse",
+      "karriere",
+      "karrierestufe",
+      "status_tier",
+      "status_rang",
+      "motivation"
+    ],
+    "werte": [
+      "kg",
+      "bf",
+      "st",
+      "wi",
+      "i",
+      "gw",
+      "gs",
+      "in",
+      "wk",
+      "ch"
+    ],
+    "boni": [
+      "kgb",
+      "bfb",
+      "stb",
+      "wib",
+      "ib",
+      "gwb",
+      "gsb",
+      "inb",
+      "wkb",
+      "chb"
+    ],
+    "ressourcen": [
+      "bewegung",
+      "lp",
+      "lp_max",
+      "schicksal",
+      "glueck",
+      "zaehigkeit",
+      "mut",
+      "vorteile",
+      "ep",
+      "traglast",
+      "traglast_max"
+    ],
+    "listen": [
+      "faehigkeiten",
+      "talente",
+      "zustaende",
+      "inventar",
+      "flags",
+      "gebunden_mit"
+    ],
+    "geld": [
+      "geld_gk",
+      "geld_s",
+      "geld_d"
+    ],
+    "kampf": [
+      "waffe_gefuehrt"
+    ]
+  },
+  "formeln": {
+    "bonus": "Zehnerstelle des Werts",
+    "lp_max": "stb + 2*wib + wkb (Halbling/Zierlich ohne stb)",
+    "traglast_max": "stb + wib",
+    "glueck_max": "schicksal (+ Glückspilz)",
+    "mut_max": "zaehigkeit (+ Willensstärke)"
+  }
+}

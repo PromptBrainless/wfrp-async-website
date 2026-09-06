@@ -40,3 +40,4 @@ Vergleich oder Standard, siehe Befehl.
 - [Original](original.md)
 - [Details](details.md)
 - [Struktur](../../01-struktur.md)
+- [Attribut I](../../../02-charaktere/attribute/i/angepasst.md)

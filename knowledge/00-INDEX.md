@@ -14,6 +14,8 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Befehle – Arbeitsregeln](00-BEFEHLE.md)
 - ✅ [Vorlage drei Dateien](00-VORLAGE.md)
 - ✅ [Volltext-Plan](00-VOLLTEXT.md)
+- ✅ [Register IDs](00-REGISTER.md)
+- ✅ [Bogen-Felder](00-BOGEN.md)
 - ✅ [Skill wfrp-wissen](../skill/SKILL.md)
 - ✅ [Quellen](00-QUELLEN.md)
 - ✅ [Übergabe](00-UEBERGABE.md)
@@ -27,16 +29,17 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Charaktererschaffung – Übersicht](02-charaktere/01-charaktererschaffung-uebersicht.md)
 - ✅ [Völker – Kurzübersicht](02-charaktere/02-voelker-kurz.md)
 - 📝 [Klasse und Karriere – Einführung](02-charaktere/03-klasse-karriere-einfuehrung.md)
-- ✅ [Attribute](02-charaktere/04-attribute.md)
+- ✅ [Attribute](02-charaktere/04-attribute.md) — 10 Ordner
 - 📝 [Fähigkeiten und Talente – Startauswahl](02-charaktere/05-faehigkeiten-talente-start.md)
 - 📝 [Ausrüstung und zusätzliche Details](02-charaktere/06-ausruestung-details.md)
 - 📝 [Gruppe, Charaktere zum Leben erwecken & Steigerungen](02-charaktere/07-gruppe-und-steigerungen.md)
 - 📝 [Erklärung des Charakterbogens](02-charaktere/08-charakterbogen.md)
+- ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) (5 Gerüste)
 
 ## 03 – Klassen und Karrieren
 - ✅ [Klassen und Karrieren – Übersicht](03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
 - ✅ [Status-System](03-klassen-karrieren/02-status-system.md)
-- ✅ [Karrieren-Liste](03-klassen-karrieren/03-karrieren-liste.md)
+- ✅ [Karrieren-Liste](03-klassen-karrieren/03-karrieren-liste.md) — 64 Gerüste
 - 📝 [Akademiker](03-klassen-karrieren/04-akademiker.md)
 - 📝 [Bürger](03-klassen-karrieren/05-buerger.md)
 - 📝 [Flussvolk](03-klassen-karrieren/06-flussvolk.md)
@@ -49,7 +52,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 ## 04 – Fähigkeiten und Talente
 - ✅ [Struktur](04-faehigkeiten-talente/01-struktur.md)
 - ✅ [Fähigkeiten – Hauptliste](04-faehigkeiten-talente/02-faehigkeiten-liste.md) — 45 Ordner, je Original / Angepasst / Details
-- ✅ [Talente – Hauptliste](04-faehigkeiten-talente/03-talente-liste.md)
+- ✅ [Talente – Hauptliste](04-faehigkeiten-talente/03-talente-liste.md) — 167 Gerüste
 - ✅ [Rohkapitel Fähigkeiten](04-faehigkeiten-talente/_roh/hauptliste-s118-131.md)
 
 ## 05 – Regeln
@@ -57,7 +60,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Kampf – Übersicht](05-regeln/02-kampf-uebersicht.md)
 - ✅ [Vorteile](05-regeln/03-vorteile.md)
 - ✅ [Kritische Treffer und Patzer](05-regeln/04-kritische-treffer.md)
-- ✅ [Zustände](05-regeln/05-zustaende.md)
+- ✅ [Zustände](05-regeln/05-zustaende.md) — 12 Ordner
 - ✅ [Schicksal & Zähigkeit](05-regeln/06-schicksal-zaehigkeit.md)
 - ✅ [Angreifen, Trefferzonen & Schaden](05-regeln/07-angreifen-schaden.md)
 - ✅ [Bewegung im Kampf](05-regeln/08-bewegung-im-kampf.md)
@@ -93,6 +96,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Waffenlos](08-einkauf/waffen/waffenlos.md)
 - ✅ [Handwaffe](08-einkauf/waffen/handwaffe.md)
 - ✅ [Qualitäten v1](08-einkauf/waffen/qualitaeten.md)
+- ✅ [Qualitäten-Gerüst](08-einkauf/qualitaeten/README.md) — 20 + 6 Makel
 
 ## 09 – Bestiarium
 - ✅ [Struktur](09-bestiarium/01-struktur.md)

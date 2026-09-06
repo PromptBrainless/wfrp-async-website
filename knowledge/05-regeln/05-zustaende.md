@@ -101,3 +101,17 @@ Betäubt, Bewusstlos, Blutend, Brennend, Demoralisiert, Erschöpft, Ertaubt, Geb
 - [Kampf – Übersicht](02-kampf-uebersicht.md)
 - [Attribute](../02-charaktere/04-attribute.md)
 - [Schicksal & Zähigkeit](06-schicksal-zaehigkeit.md)
+## Ordner
+
+- [Betäubt](zustaende/betaubt/README.md)
+- [Bewusstlos](zustaende/bewusstlos/README.md)
+- [Blutend](zustaende/blutend/README.md)
+- [Brennend](zustaende/brennend/README.md)
+- [Demoralisiert](zustaende/demoralisiert/README.md)
+- [Erschöpft](zustaende/erschoepft/README.md)
+- [Ertaubt](zustaende/ertaubt/README.md)
+- [Geblendet](zustaende/geblendet/README.md)
+- [Gefesselt](zustaende/gefesselt/README.md)
+- [Niedergestreckt](zustaende/niedergestreckt/README.md)
+- [Überrascht](zustaende/ueberrascht/README.md)
+- [Vergiftet](zustaende/vergiftet/README.md)

@@ -1,0 +1,2663 @@
+{
+  "quelle": "GRW 2. Auflage; IDs verbindlich",
+  "regeln": "slug = Name kleingeschrieben, Umlaute ae/oe/ue/ss, Klammern weg. Ein id je Typ.",
+  "items": [
+    {
+      "typ": "attr",
+      "id": "kg",
+      "name": "Kampfgeschick",
+      "kuerzel": "KG",
+      "seite": 33,
+      "path": "02-charaktere/attribute/kg",
+      "bonus": "kgb"
+    },
+    {
+      "typ": "attr",
+      "id": "bf",
+      "name": "Ballistische Fertigkeit",
+      "kuerzel": "BF",
+      "seite": 33,
+      "path": "02-charaktere/attribute/bf",
+      "bonus": "bfb"
+    },
+    {
+      "typ": "attr",
+      "id": "st",
+      "name": "Stärke",
+      "kuerzel": "ST",
+      "seite": 33,
+      "path": "02-charaktere/attribute/st",
+      "bonus": "stb"
+    },
+    {
+      "typ": "attr",
+      "id": "wi",
+      "name": "Widerstand",
+      "kuerzel": "WI",
+      "seite": 33,
+      "path": "02-charaktere/attribute/wi",
+      "bonus": "wib"
+    },
+    {
+      "typ": "attr",
+      "id": "i",
+      "name": "Initiative",
+      "kuerzel": "I",
+      "seite": 33,
+      "path": "02-charaktere/attribute/i",
+      "bonus": "ib"
+    },
+    {
+      "typ": "attr",
+      "id": "gw",
+      "name": "Gewandtheit",
+      "kuerzel": "GW",
+      "seite": 33,
+      "path": "02-charaktere/attribute/gw",
+      "bonus": "gwb"
+    },
+    {
+      "typ": "attr",
+      "id": "gs",
+      "name": "Geschicklichkeit",
+      "kuerzel": "GS",
+      "seite": 34,
+      "path": "02-charaktere/attribute/gs",
+      "bonus": "gsb"
+    },
+    {
+      "typ": "attr",
+      "id": "in",
+      "name": "Intelligenz",
+      "kuerzel": "IN",
+      "seite": 34,
+      "path": "02-charaktere/attribute/in",
+      "bonus": "inb"
+    },
+    {
+      "typ": "attr",
+      "id": "wk",
+      "name": "Willenskraft",
+      "kuerzel": "WK",
+      "seite": 34,
+      "path": "02-charaktere/attribute/wk",
+      "bonus": "wkb"
+    },
+    {
+      "typ": "attr",
+      "id": "ch",
+      "name": "Charisma",
+      "kuerzel": "CH",
+      "seite": 34,
+      "path": "02-charaktere/attribute/ch",
+      "bonus": "chb"
+    },
+    {
+      "typ": "skill",
+      "id": "abrichten",
+      "name": "Abrichten",
+      "attr": "IN",
+      "seite": 118,
+      "path": "04-faehigkeiten-talente/faehigkeiten/abrichten",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "anfuehren",
+      "name": "Anführen",
+      "attr": "CH",
+      "seite": 119,
+      "path": "04-faehigkeiten-talente/faehigkeiten/anfuehren",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "artistik",
+      "name": "Artistik",
+      "attr": "GW",
+      "seite": 119,
+      "path": "04-faehigkeiten-talente/faehigkeiten/artistik",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "athletik",
+      "name": "Athletik",
+      "attr": "GW",
+      "seite": 119,
+      "path": "04-faehigkeiten-talente/faehigkeiten/athletik",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "ausdauer",
+      "name": "Ausdauer",
+      "attr": "WI",
+      "seite": 119,
+      "path": "04-faehigkeiten-talente/faehigkeiten/ausdauer",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "ausweichen",
+      "name": "Ausweichen",
+      "attr": "GW",
+      "seite": 119,
+      "path": "04-faehigkeiten-talente/faehigkeiten/ausweichen",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "beruf",
+      "name": "Beruf",
+      "attr": "GS",
+      "seite": 120,
+      "path": "04-faehigkeiten-talente/faehigkeiten/beruf",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "besonnenheit",
+      "name": "Besonnenheit",
+      "attr": "WK",
+      "seite": 120,
+      "path": "04-faehigkeiten-talente/faehigkeiten/besonnenheit",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "bestechen",
+      "name": "Bestechen",
+      "attr": "CH",
+      "seite": 120,
+      "path": "04-faehigkeiten-talente/faehigkeiten/bestechen",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "beten",
+      "name": "Beten",
+      "attr": "CH",
+      "seite": 121,
+      "path": "04-faehigkeiten-talente/faehigkeiten/beten",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "charme",
+      "name": "Charme",
+      "attr": "CH",
+      "seite": 121,
+      "path": "04-faehigkeiten-talente/faehigkeiten/charme",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "einschuechtern",
+      "name": "Einschüchtern",
+      "attr": "ST",
+      "seite": 121,
+      "path": "04-faehigkeiten-talente/faehigkeiten/einschuechtern",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "fahren",
+      "name": "Fahren",
+      "attr": "GW",
+      "seite": 122,
+      "path": "04-faehigkeiten-talente/faehigkeiten/fahren",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "fallen_stellen",
+      "name": "Fallen stellen",
+      "attr": "GS",
+      "seite": 122,
+      "path": "04-faehigkeiten-talente/faehigkeiten/fallen_stellen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "feilschen",
+      "name": "Feilschen",
+      "attr": "CH",
+      "seite": 122,
+      "path": "04-faehigkeiten-talente/faehigkeiten/feilschen",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "fernkampf",
+      "name": "Fernkampf",
+      "attr": "BF",
+      "seite": 122,
+      "path": "04-faehigkeiten-talente/faehigkeiten/fernkampf",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "fingerfertigkeit",
+      "name": "Fingerfertigkeit",
+      "attr": "GS",
+      "seite": 123,
+      "path": "04-faehigkeiten-talente/faehigkeiten/fingerfertigkeit",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "geheimzeichen",
+      "name": "Geheimzeichen",
+      "attr": "IN",
+      "seite": 123,
+      "path": "04-faehigkeiten-talente/faehigkeiten/geheimzeichen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "gluecksspiel",
+      "name": "Glücksspiel",
+      "attr": "IN",
+      "seite": 123,
+      "path": "04-faehigkeiten-talente/faehigkeiten/gluecksspiel",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "heilen",
+      "name": "Heilen",
+      "attr": "IN",
+      "seite": 124,
+      "path": "04-faehigkeiten-talente/faehigkeiten/heilen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "intuition",
+      "name": "Intuition",
+      "attr": "I",
+      "seite": 124,
+      "path": "04-faehigkeiten-talente/faehigkeiten/intuition",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "kanalisieren",
+      "name": "Kanalisieren",
+      "attr": "WK",
+      "seite": 124,
+      "path": "04-faehigkeiten-talente/faehigkeiten/kanalisieren",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "klatsch",
+      "name": "Klatsch",
+      "attr": "CH",
+      "seite": 124,
+      "path": "04-faehigkeiten-talente/faehigkeiten/klatsch",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "klettern",
+      "name": "Klettern",
+      "attr": "ST",
+      "seite": 125,
+      "path": "04-faehigkeiten-talente/faehigkeiten/klettern",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "kunst",
+      "name": "Kunst",
+      "attr": "GS",
+      "seite": 125,
+      "path": "04-faehigkeiten-talente/faehigkeiten/kunst",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "musizieren",
+      "name": "Musizieren",
+      "attr": "GS",
+      "seite": 125,
+      "path": "04-faehigkeiten-talente/faehigkeiten/musizieren",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "nachforschen",
+      "name": "Nachforschen",
+      "attr": "IN",
+      "seite": 126,
+      "path": "04-faehigkeiten-talente/faehigkeiten/nachforschen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "nahkampf",
+      "name": "Nahkampf",
+      "attr": "KG",
+      "seite": 126,
+      "path": "04-faehigkeiten-talente/faehigkeiten/nahkampf",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "navigation",
+      "name": "Navigation",
+      "attr": "I",
+      "seite": 126,
+      "path": "04-faehigkeiten-talente/faehigkeiten/navigation",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "reiten",
+      "name": "Reiten",
+      "attr": "GW",
+      "seite": 126,
+      "path": "04-faehigkeiten-talente/faehigkeiten/reiten",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "rudern",
+      "name": "Rudern",
+      "attr": "ST",
+      "seite": 126,
+      "path": "04-faehigkeiten-talente/faehigkeiten/rudern",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "schaetzen",
+      "name": "Schätzen",
+      "attr": "IN",
+      "seite": 126,
+      "path": "04-faehigkeiten-talente/faehigkeiten/schaetzen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "schleichen",
+      "name": "Schleichen",
+      "attr": "GW",
+      "seite": 126,
+      "path": "04-faehigkeiten-talente/faehigkeiten/schleichen",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "schloesser_oeffnen",
+      "name": "Schlösser öffnen",
+      "attr": "GS",
+      "seite": 127,
+      "path": "04-faehigkeiten-talente/faehigkeiten/schloesser_oeffnen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "schwimmen",
+      "name": "Schwimmen",
+      "attr": "ST",
+      "seite": 127,
+      "path": "04-faehigkeiten-talente/faehigkeiten/schwimmen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "segeln",
+      "name": "Segeln",
+      "attr": "GW",
+      "seite": 127,
+      "path": "04-faehigkeiten-talente/faehigkeiten/segeln",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "sprache",
+      "name": "Sprache",
+      "attr": "IN",
+      "seite": 127,
+      "path": "04-faehigkeiten-talente/faehigkeiten/sprache",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "spurenlesen",
+      "name": "Spurenlesen",
+      "attr": "I",
+      "seite": 129,
+      "path": "04-faehigkeiten-talente/faehigkeiten/spurenlesen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "tiere_bezirzen",
+      "name": "Tiere bezirzen",
+      "attr": "WK",
+      "seite": 129,
+      "path": "04-faehigkeiten-talente/faehigkeiten/tiere_bezirzen",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "tierpflege",
+      "name": "Tierpflege",
+      "attr": "IN",
+      "seite": 129,
+      "path": "04-faehigkeiten-talente/faehigkeiten/tierpflege",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "ueberleben",
+      "name": "Überleben",
+      "attr": "IN",
+      "seite": 130,
+      "path": "04-faehigkeiten-talente/faehigkeiten/ueberleben",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "unterhalten",
+      "name": "Unterhalten",
+      "attr": "CH",
+      "seite": 130,
+      "path": "04-faehigkeiten-talente/faehigkeiten/unterhalten",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "wahrnehmung",
+      "name": "Wahrnehmung",
+      "attr": "I",
+      "seite": 130,
+      "path": "04-faehigkeiten-talente/faehigkeiten/wahrnehmung",
+      "art": "grund"
+    },
+    {
+      "typ": "skill",
+      "id": "wissen",
+      "name": "Wissen",
+      "attr": "IN",
+      "seite": 131,
+      "path": "04-faehigkeiten-talente/faehigkeiten/wissen",
+      "art": "ausbau"
+    },
+    {
+      "typ": "skill",
+      "id": "zechen",
+      "name": "Zechen",
+      "attr": "WI",
+      "seite": 131,
+      "path": "04-faehigkeiten-talente/faehigkeiten/zechen",
+      "art": "grund"
+    },
+    {
+      "typ": "condition",
+      "id": "betaubt",
+      "name": "Betäubt",
+      "seite": 167,
+      "path": "05-regeln/zustaende/betaubt",
+      "kumulativ": true
+    },
+    {
+      "typ": "condition",
+      "id": "bewusstlos",
+      "name": "Bewusstlos",
+      "seite": 167,
+      "path": "05-regeln/zustaende/bewusstlos",
+      "kumulativ": false
+    },
+    {
+      "typ": "condition",
+      "id": "blutend",
+      "name": "Blutend",
+      "seite": 167,
+      "path": "05-regeln/zustaende/blutend",
+      "kumulativ": true
+    },
+    {
+      "typ": "condition",
+      "id": "brennend",
+      "name": "Brennend",
+      "seite": 167,
+      "path": "05-regeln/zustaende/brennend",
+      "kumulativ": true
+    },
+    {
+      "typ": "condition",
+      "id": "demoralisiert",
+      "name": "Demoralisiert",
+      "seite": 167,
+      "path": "05-regeln/zustaende/demoralisiert",
+      "kumulativ": true
+    },
+    {
+      "typ": "condition",
+      "id": "erschoepft",
+      "name": "Erschöpft",
+      "seite": 167,
+      "path": "05-regeln/zustaende/erschoepft",
+      "kumulativ": true
+    },
+    {
+      "typ": "condition",
+      "id": "ertaubt",
+      "name": "Ertaubt",
+      "seite": 167,
+      "path": "05-regeln/zustaende/ertaubt",
+      "kumulativ": true
+    },
+    {
+      "typ": "condition",
+      "id": "geblendet",
+      "name": "Geblendet",
+      "seite": 167,
+      "path": "05-regeln/zustaende/geblendet",
+      "kumulativ": true
+    },
+    {
+      "typ": "condition",
+      "id": "gefesselt",
+      "name": "Gefesselt",
+      "seite": 167,
+      "path": "05-regeln/zustaende/gefesselt",
+      "kumulativ": true
+    },
+    {
+      "typ": "condition",
+      "id": "niedergestreckt",
+      "name": "Niedergestreckt",
+      "seite": 167,
+      "path": "05-regeln/zustaende/niedergestreckt",
+      "kumulativ": false
+    },
+    {
+      "typ": "condition",
+      "id": "ueberrascht",
+      "name": "Überrascht",
+      "seite": 167,
+      "path": "05-regeln/zustaende/ueberrascht",
+      "kumulativ": false
+    },
+    {
+      "typ": "condition",
+      "id": "vergiftet",
+      "name": "Vergiftet",
+      "seite": 167,
+      "path": "05-regeln/zustaende/vergiftet",
+      "kumulativ": true
+    },
+    {
+      "typ": "qualitaet",
+      "id": "ablenkend",
+      "name": "Ablenkend",
+      "seite": 297,
+      "path": "08-einkauf/qualitaeten/ablenkend"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "akkurat",
+      "name": "Akkurat",
+      "seite": 297,
+      "path": "08-einkauf/qualitaeten/akkurat"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "betaubend",
+      "name": "Betäubend",
+      "seite": 297,
+      "path": "08-einkauf/qualitaeten/betaubend"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "defensiv",
+      "name": "Defensiv",
+      "seite": 297,
+      "path": "08-einkauf/qualitaeten/defensiv"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "durchbohrend",
+      "name": "Durchbohrend",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/durchbohrend"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "durchschlagend",
+      "name": "Durchschlagend",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/durchschlagend"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "fesselnd",
+      "name": "Fesselnd",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/fesselnd"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "klingenfaenger",
+      "name": "Klingenfänger",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/klingenfaenger"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "pistole",
+      "name": "Pistole",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/pistole"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "praezise",
+      "name": "Präzise",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/praezise"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "radius",
+      "name": "Radius",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/radius"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "repetierend",
+      "name": "Repetierend",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/repetierend"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "ruestungsbrechend",
+      "name": "Rüstungsbrechend",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/ruestungsbrechend"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "schiesspulver",
+      "name": "Schießpulver",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/schiesspulver"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "schild",
+      "name": "Schild",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/schild"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "schnell",
+      "name": "Schnell",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/schnell"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "umwickelnd",
+      "name": "Umwickelnd",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/umwickelnd"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "unzerbrechlich",
+      "name": "Unzerbrechlich",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/unzerbrechlich"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "verwundend",
+      "name": "Verwundend",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/verwundend"
+    },
+    {
+      "typ": "qualitaet",
+      "id": "wuchtig",
+      "name": "Wuchtig",
+      "seite": 298,
+      "path": "08-einkauf/qualitaeten/wuchtig"
+    },
+    {
+      "typ": "makel",
+      "id": "ermuedend",
+      "name": "Ermüdend",
+      "seite": 299,
+      "path": "08-einkauf/qualitaeten/ermuedend"
+    },
+    {
+      "typ": "makel",
+      "id": "gefaehrlich",
+      "name": "Gefährlich",
+      "seite": 299,
+      "path": "08-einkauf/qualitaeten/gefaehrlich"
+    },
+    {
+      "typ": "makel",
+      "id": "langsam",
+      "name": "Langsam",
+      "seite": 299,
+      "path": "08-einkauf/qualitaeten/langsam"
+    },
+    {
+      "typ": "makel",
+      "id": "nachladen",
+      "name": "Nachladen",
+      "seite": 299,
+      "path": "08-einkauf/qualitaeten/nachladen"
+    },
+    {
+      "typ": "makel",
+      "id": "stumpf",
+      "name": "Stumpf",
+      "seite": 299,
+      "path": "08-einkauf/qualitaeten/stumpf"
+    },
+    {
+      "typ": "makel",
+      "id": "unpraezise",
+      "name": "Unpräzise",
+      "seite": 299,
+      "path": "08-einkauf/qualitaeten/unpraezise"
+    },
+    {
+      "typ": "volk",
+      "id": "mensch",
+      "name": "Mensch",
+      "seite": 36,
+      "path": "02-charaktere/voelker/mensch"
+    },
+    {
+      "typ": "volk",
+      "id": "zwerg",
+      "name": "Zwerg",
+      "seite": 36,
+      "path": "02-charaktere/voelker/zwerg"
+    },
+    {
+      "typ": "volk",
+      "id": "halbling",
+      "name": "Halbling",
+      "seite": 36,
+      "path": "02-charaktere/voelker/halbling"
+    },
+    {
+      "typ": "volk",
+      "id": "hochelf",
+      "name": "Hochelf",
+      "seite": 36,
+      "path": "02-charaktere/voelker/hochelf"
+    },
+    {
+      "typ": "volk",
+      "id": "waldelf",
+      "name": "Waldelf",
+      "seite": 36,
+      "path": "02-charaktere/voelker/waldelf"
+    },
+    {
+      "typ": "career",
+      "id": "advokat",
+      "name": "Advokat",
+      "klasse": "akademiker",
+      "seite": 53,
+      "path": "03-klassen-karrieren/akademiker/advokat"
+    },
+    {
+      "typ": "career",
+      "id": "apotheker",
+      "name": "Apotheker",
+      "klasse": "akademiker",
+      "seite": 53,
+      "path": "03-klassen-karrieren/akademiker/apotheker"
+    },
+    {
+      "typ": "career",
+      "id": "gelehrter",
+      "name": "Gelehrter",
+      "klasse": "akademiker",
+      "seite": 53,
+      "path": "03-klassen-karrieren/akademiker/gelehrter"
+    },
+    {
+      "typ": "career",
+      "id": "medicus",
+      "name": "Medicus",
+      "klasse": "akademiker",
+      "seite": 53,
+      "path": "03-klassen-karrieren/akademiker/medicus"
+    },
+    {
+      "typ": "career",
+      "id": "moench",
+      "name": "Mönch",
+      "klasse": "akademiker",
+      "seite": 53,
+      "path": "03-klassen-karrieren/akademiker/moench"
+    },
+    {
+      "typ": "career",
+      "id": "priester",
+      "name": "Priester",
+      "klasse": "akademiker",
+      "seite": 53,
+      "path": "03-klassen-karrieren/akademiker/priester"
+    },
+    {
+      "typ": "career",
+      "id": "technicus",
+      "name": "Technicus",
+      "klasse": "akademiker",
+      "seite": 53,
+      "path": "03-klassen-karrieren/akademiker/technicus"
+    },
+    {
+      "typ": "career",
+      "id": "zauberer",
+      "name": "Zauberer",
+      "klasse": "akademiker",
+      "seite": 53,
+      "path": "03-klassen-karrieren/akademiker/zauberer"
+    },
+    {
+      "typ": "career",
+      "id": "agitator",
+      "name": "Agitator",
+      "klasse": "buerger",
+      "seite": 61,
+      "path": "03-klassen-karrieren/buerger/agitator"
+    },
+    {
+      "typ": "career",
+      "id": "bettler",
+      "name": "Bettler",
+      "klasse": "buerger",
+      "seite": 61,
+      "path": "03-klassen-karrieren/buerger/bettler"
+    },
+    {
+      "typ": "career",
+      "id": "ermittler",
+      "name": "Ermittler",
+      "klasse": "buerger",
+      "seite": 61,
+      "path": "03-klassen-karrieren/buerger/ermittler"
+    },
+    {
+      "typ": "career",
+      "id": "handwerker",
+      "name": "Handwerker",
+      "klasse": "buerger",
+      "seite": 61,
+      "path": "03-klassen-karrieren/buerger/handwerker"
+    },
+    {
+      "typ": "career",
+      "id": "kaufmann",
+      "name": "Kaufmann",
+      "klasse": "buerger",
+      "seite": 61,
+      "path": "03-klassen-karrieren/buerger/kaufmann"
+    },
+    {
+      "typ": "career",
+      "id": "rattenfaenger",
+      "name": "Rattenfänger",
+      "klasse": "buerger",
+      "seite": 61,
+      "path": "03-klassen-karrieren/buerger/rattenfaenger"
+    },
+    {
+      "typ": "career",
+      "id": "staedter",
+      "name": "Städter",
+      "klasse": "buerger",
+      "seite": 61,
+      "path": "03-klassen-karrieren/buerger/staedter"
+    },
+    {
+      "typ": "career",
+      "id": "wachmann",
+      "name": "Wachmann",
+      "klasse": "buerger",
+      "seite": 61,
+      "path": "03-klassen-karrieren/buerger/wachmann"
+    },
+    {
+      "typ": "career",
+      "id": "flussbewohner",
+      "name": "Flussbewohner",
+      "klasse": "flussvolk",
+      "seite": 69,
+      "path": "03-klassen-karrieren/flussvolk/flussbewohner"
+    },
+    {
+      "typ": "career",
+      "id": "flussschiffer",
+      "name": "Flussschiffer",
+      "klasse": "flussvolk",
+      "seite": 69,
+      "path": "03-klassen-karrieren/flussvolk/flussschiffer"
+    },
+    {
+      "typ": "career",
+      "id": "flusswaechter",
+      "name": "Flusswächter",
+      "klasse": "flussvolk",
+      "seite": 69,
+      "path": "03-klassen-karrieren/flussvolk/flusswaechter"
+    },
+    {
+      "typ": "career",
+      "id": "lotse",
+      "name": "Lotse",
+      "klasse": "flussvolk",
+      "seite": 69,
+      "path": "03-klassen-karrieren/flussvolk/lotse"
+    },
+    {
+      "typ": "career",
+      "id": "schmuggler",
+      "name": "Schmuggler",
+      "klasse": "flussvolk",
+      "seite": 69,
+      "path": "03-klassen-karrieren/flussvolk/schmuggler"
+    },
+    {
+      "typ": "career",
+      "id": "seemann",
+      "name": "Seemann",
+      "klasse": "flussvolk",
+      "seite": 69,
+      "path": "03-klassen-karrieren/flussvolk/seemann"
+    },
+    {
+      "typ": "career",
+      "id": "stauer",
+      "name": "Stauer",
+      "klasse": "flussvolk",
+      "seite": 69,
+      "path": "03-klassen-karrieren/flussvolk/stauer"
+    },
+    {
+      "typ": "career",
+      "id": "strandraeuber",
+      "name": "Strandräuber",
+      "klasse": "flussvolk",
+      "seite": 69,
+      "path": "03-klassen-karrieren/flussvolk/strandraeuber"
+    },
+    {
+      "typ": "career",
+      "id": "bote",
+      "name": "Bote",
+      "klasse": "freisassen",
+      "seite": 77,
+      "path": "03-klassen-karrieren/freisassen/bote"
+    },
+    {
+      "typ": "career",
+      "id": "flagellant",
+      "name": "Flagellant",
+      "klasse": "freisassen",
+      "seite": 77,
+      "path": "03-klassen-karrieren/freisassen/flagellant"
+    },
+    {
+      "typ": "career",
+      "id": "hausierer",
+      "name": "Hausierer",
+      "klasse": "freisassen",
+      "seite": 77,
+      "path": "03-klassen-karrieren/freisassen/hausierer"
+    },
+    {
+      "typ": "career",
+      "id": "hexenjaeger",
+      "name": "Hexenjäger",
+      "klasse": "freisassen",
+      "seite": 77,
+      "path": "03-klassen-karrieren/freisassen/hexenjaeger"
+    },
+    {
+      "typ": "career",
+      "id": "kopfgeldjaeger",
+      "name": "Kopfgeldjäger",
+      "klasse": "freisassen",
+      "seite": 77,
+      "path": "03-klassen-karrieren/freisassen/kopfgeldjaeger"
+    },
+    {
+      "typ": "career",
+      "id": "kutscher",
+      "name": "Kutscher",
+      "klasse": "freisassen",
+      "seite": 77,
+      "path": "03-klassen-karrieren/freisassen/kutscher"
+    },
+    {
+      "typ": "career",
+      "id": "schausteller",
+      "name": "Schausteller",
+      "klasse": "freisassen",
+      "seite": 77,
+      "path": "03-klassen-karrieren/freisassen/schausteller"
+    },
+    {
+      "typ": "career",
+      "id": "strassenwaechter",
+      "name": "Straßenwächter",
+      "klasse": "freisassen",
+      "seite": 77,
+      "path": "03-klassen-karrieren/freisassen/strassenwaechter"
+    },
+    {
+      "typ": "career",
+      "id": "bandit",
+      "name": "Bandit",
+      "klasse": "gesetzlose",
+      "seite": 85,
+      "path": "03-klassen-karrieren/gesetzlose/bandit"
+    },
+    {
+      "typ": "career",
+      "id": "dieb",
+      "name": "Dieb",
+      "klasse": "gesetzlose",
+      "seite": 85,
+      "path": "03-klassen-karrieren/gesetzlose/dieb"
+    },
+    {
+      "typ": "career",
+      "id": "grabraeuber",
+      "name": "Grabräuber",
+      "klasse": "gesetzlose",
+      "seite": 85,
+      "path": "03-klassen-karrieren/gesetzlose/grabraeuber"
+    },
+    {
+      "typ": "career",
+      "id": "halunke",
+      "name": "Halunke",
+      "klasse": "gesetzlose",
+      "seite": 85,
+      "path": "03-klassen-karrieren/gesetzlose/halunke"
+    },
+    {
+      "typ": "career",
+      "id": "hehler",
+      "name": "Hehler",
+      "klasse": "gesetzlose",
+      "seite": 85,
+      "path": "03-klassen-karrieren/gesetzlose/hehler"
+    },
+    {
+      "typ": "career",
+      "id": "hexer",
+      "name": "Hexer",
+      "klasse": "gesetzlose",
+      "seite": 85,
+      "path": "03-klassen-karrieren/gesetzlose/hexer"
+    },
+    {
+      "typ": "career",
+      "id": "kuppler",
+      "name": "Kuppler",
+      "klasse": "gesetzlose",
+      "seite": 85,
+      "path": "03-klassen-karrieren/gesetzlose/kuppler"
+    },
+    {
+      "typ": "career",
+      "id": "scharlatan",
+      "name": "Scharlatan",
+      "klasse": "gesetzlose",
+      "seite": 85,
+      "path": "03-klassen-karrieren/gesetzlose/scharlatan"
+    },
+    {
+      "typ": "career",
+      "id": "adeliger",
+      "name": "Adeliger",
+      "klasse": "hoeflinge",
+      "seite": 93,
+      "path": "03-klassen-karrieren/hoeflinge/adeliger"
+    },
+    {
+      "typ": "career",
+      "id": "berater",
+      "name": "Berater",
+      "klasse": "hoeflinge",
+      "seite": 93,
+      "path": "03-klassen-karrieren/hoeflinge/berater"
+    },
+    {
+      "typ": "career",
+      "id": "diener",
+      "name": "Diener",
+      "klasse": "hoeflinge",
+      "seite": 93,
+      "path": "03-klassen-karrieren/hoeflinge/diener"
+    },
+    {
+      "typ": "career",
+      "id": "duellist",
+      "name": "Duellist",
+      "klasse": "hoeflinge",
+      "seite": 93,
+      "path": "03-klassen-karrieren/hoeflinge/duellist"
+    },
+    {
+      "typ": "career",
+      "id": "gesandter",
+      "name": "Gesandter",
+      "klasse": "hoeflinge",
+      "seite": 93,
+      "path": "03-klassen-karrieren/hoeflinge/gesandter"
+    },
+    {
+      "typ": "career",
+      "id": "kuenstler",
+      "name": "Künstler",
+      "klasse": "hoeflinge",
+      "seite": 93,
+      "path": "03-klassen-karrieren/hoeflinge/kuenstler"
+    },
+    {
+      "typ": "career",
+      "id": "meier",
+      "name": "Meier",
+      "klasse": "hoeflinge",
+      "seite": 93,
+      "path": "03-klassen-karrieren/hoeflinge/meier"
+    },
+    {
+      "typ": "career",
+      "id": "spion",
+      "name": "Spion",
+      "klasse": "hoeflinge",
+      "seite": 93,
+      "path": "03-klassen-karrieren/hoeflinge/spion"
+    },
+    {
+      "typ": "career",
+      "id": "gedungener",
+      "name": "Gedungener",
+      "klasse": "krieger",
+      "seite": 101,
+      "path": "03-klassen-karrieren/krieger/gedungener"
+    },
+    {
+      "typ": "career",
+      "id": "grubenkaempfer",
+      "name": "Grubenkämpfer",
+      "klasse": "krieger",
+      "seite": 101,
+      "path": "03-klassen-karrieren/krieger/grubenkaempfer"
+    },
+    {
+      "typ": "career",
+      "id": "kavallerist",
+      "name": "Kavallerist",
+      "klasse": "krieger",
+      "seite": 101,
+      "path": "03-klassen-karrieren/krieger/kavallerist"
+    },
+    {
+      "typ": "career",
+      "id": "kriegerpriester",
+      "name": "Kriegerpriester",
+      "klasse": "krieger",
+      "seite": 101,
+      "path": "03-klassen-karrieren/krieger/kriegerpriester"
+    },
+    {
+      "typ": "career",
+      "id": "ritter",
+      "name": "Ritter",
+      "klasse": "krieger",
+      "seite": 101,
+      "path": "03-klassen-karrieren/krieger/ritter"
+    },
+    {
+      "typ": "career",
+      "id": "slayer",
+      "name": "Slayer",
+      "klasse": "krieger",
+      "seite": 101,
+      "path": "03-klassen-karrieren/krieger/slayer"
+    },
+    {
+      "typ": "career",
+      "id": "soldat",
+      "name": "Soldat",
+      "klasse": "krieger",
+      "seite": 101,
+      "path": "03-klassen-karrieren/krieger/soldat"
+    },
+    {
+      "typ": "career",
+      "id": "waechter",
+      "name": "Wächter",
+      "klasse": "krieger",
+      "seite": 101,
+      "path": "03-klassen-karrieren/krieger/waechter"
+    },
+    {
+      "typ": "career",
+      "id": "bergmann",
+      "name": "Bergmann",
+      "klasse": "landvolk",
+      "seite": 109,
+      "path": "03-klassen-karrieren/landvolk/bergmann"
+    },
+    {
+      "typ": "career",
+      "id": "buettel",
+      "name": "Büttel",
+      "klasse": "landvolk",
+      "seite": 109,
+      "path": "03-klassen-karrieren/landvolk/buettel"
+    },
+    {
+      "typ": "career",
+      "id": "doerfler",
+      "name": "Dörfler",
+      "klasse": "landvolk",
+      "seite": 109,
+      "path": "03-klassen-karrieren/landvolk/doerfler"
+    },
+    {
+      "typ": "career",
+      "id": "heckenhexer",
+      "name": "Heckenhexer",
+      "klasse": "landvolk",
+      "seite": 109,
+      "path": "03-klassen-karrieren/landvolk/heckenhexer"
+    },
+    {
+      "typ": "career",
+      "id": "jaeger",
+      "name": "Jäger",
+      "klasse": "landvolk",
+      "seite": 109,
+      "path": "03-klassen-karrieren/landvolk/jaeger"
+    },
+    {
+      "typ": "career",
+      "id": "kraeuterkundiger",
+      "name": "Kräuterkundiger",
+      "klasse": "landvolk",
+      "seite": 109,
+      "path": "03-klassen-karrieren/landvolk/kraeuterkundiger"
+    },
+    {
+      "typ": "career",
+      "id": "kundschafter",
+      "name": "Kundschafter",
+      "klasse": "landvolk",
+      "seite": 109,
+      "path": "03-klassen-karrieren/landvolk/kundschafter"
+    },
+    {
+      "typ": "career",
+      "id": "mystiker",
+      "name": "Mystiker",
+      "klasse": "landvolk",
+      "seite": 109,
+      "path": "03-klassen-karrieren/landvolk/mystiker"
+    },
+    {
+      "typ": "talent",
+      "id": "ablenken",
+      "name": "Ablenken",
+      "seite": 132,
+      "path": "04-faehigkeiten-talente/talente/ablenken"
+    },
+    {
+      "typ": "talent",
+      "id": "absolutes_gehoer",
+      "name": "Absolutes Gehör",
+      "seite": 132,
+      "path": "04-faehigkeiten-talente/talente/absolutes_gehoer"
+    },
+    {
+      "typ": "talent",
+      "id": "anrufung",
+      "name": "Anrufung",
+      "seite": 132,
+      "path": "04-faehigkeiten-talente/talente/anrufung"
+    },
+    {
+      "typ": "talent",
+      "id": "arkane_magie",
+      "name": "Arkane Magie",
+      "seite": 132,
+      "path": "04-faehigkeiten-talente/talente/arkane_magie"
+    },
+    {
+      "typ": "talent",
+      "id": "artefakt_spueren",
+      "name": "Artefakt spüren",
+      "seite": 132,
+      "path": "04-faehigkeiten-talente/talente/artefakt_spueren"
+    },
+    {
+      "typ": "talent",
+      "id": "aethergespuer",
+      "name": "Äthergespür",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/aethergespuer"
+    },
+    {
+      "typ": "talent",
+      "id": "attraktiv",
+      "name": "Attraktiv",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/attraktiv"
+    },
+    {
+      "typ": "talent",
+      "id": "aufgeweckt",
+      "name": "Aufgeweckt",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/aufgeweckt"
+    },
+    {
+      "typ": "talent",
+      "id": "aufspringen",
+      "name": "Aufspringen",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/aufspringen"
+    },
+    {
+      "typ": "talent",
+      "id": "bastler",
+      "name": "Bastler",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/bastler"
+    },
+    {
+      "typ": "talent",
+      "id": "beaengstigend",
+      "name": "Beängstigend",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/beaengstigend"
+    },
+    {
+      "typ": "talent",
+      "id": "bedrohlich",
+      "name": "Bedrohlich",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/bedrohlich"
+    },
+    {
+      "typ": "talent",
+      "id": "beengter_kampf",
+      "name": "Beengter Kampf",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/beengter_kampf"
+    },
+    {
+      "typ": "talent",
+      "id": "beharrlich",
+      "name": "Beharrlich",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/beharrlich"
+    },
+    {
+      "typ": "talent",
+      "id": "beherzt",
+      "name": "Beherzt",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/beherzt"
+    },
+    {
+      "typ": "talent",
+      "id": "beidhaendiger_angriff",
+      "name": "Beidhändiger Angriff",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/beidhaendiger_angriff"
+    },
+    {
+      "typ": "talent",
+      "id": "beidhaendigkeit",
+      "name": "Beidhändigkeit",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/beidhaendigkeit"
+    },
+    {
+      "typ": "talent",
+      "id": "berserkerangriff",
+      "name": "Berserkerangriff",
+      "seite": 133,
+      "path": "04-faehigkeiten-talente/talente/berserkerangriff"
+    },
+    {
+      "typ": "talent",
+      "id": "betaeubender_schlag",
+      "name": "Betäubender Schlag",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/betaeubender_schlag"
+    },
+    {
+      "typ": "talent",
+      "id": "binnenschiffer",
+      "name": "Binnenschiffer",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/binnenschiffer"
+    },
+    {
+      "typ": "talent",
+      "id": "blaubluetig",
+      "name": "Blaublütig",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/blaubluetig"
+    },
+    {
+      "typ": "talent",
+      "id": "blitzschnelle_reflexe",
+      "name": "Blitzschnelle Reflexe",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/blitzschnelle_reflexe"
+    },
+    {
+      "typ": "talent",
+      "id": "buecherwurm",
+      "name": "Bücherwurm",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/buecherwurm"
+    },
+    {
+      "typ": "talent",
+      "id": "chaosmagie",
+      "name": "Chaosmagie",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/chaosmagie"
+    },
+    {
+      "typ": "talent",
+      "id": "chirurgie",
+      "name": "Chirurgie",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/chirurgie"
+    },
+    {
+      "typ": "talent",
+      "id": "distanzschuetze",
+      "name": "Distanzschütze",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/distanzschuetze"
+    },
+    {
+      "typ": "talent",
+      "id": "doppelzuengig",
+      "name": "Doppelzüngig",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/doppelzuengig"
+    },
+    {
+      "typ": "talent",
+      "id": "einnehmendes_wesen",
+      "name": "Einnehmendes Wesen",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/einnehmendes_wesen"
+    },
+    {
+      "typ": "talent",
+      "id": "eiserner_wille",
+      "name": "Eiserner Wille",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/eiserner_wille"
+    },
+    {
+      "typ": "talent",
+      "id": "entschlossen",
+      "name": "Entschlossen",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/entschlossen"
+    },
+    {
+      "typ": "talent",
+      "id": "entwaffnen",
+      "name": "Entwaffnen",
+      "seite": 134,
+      "path": "04-faehigkeiten-talente/talente/entwaffnen"
+    },
+    {
+      "typ": "talent",
+      "id": "erfahrener_reisender",
+      "name": "Erfahrener Reisender",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/erfahrener_reisender"
+    },
+    {
+      "typ": "talent",
+      "id": "etikette",
+      "name": "Etikette",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/etikette"
+    },
+    {
+      "typ": "talent",
+      "id": "fachwissen",
+      "name": "Fachwissen",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/fachwissen"
+    },
+    {
+      "typ": "talent",
+      "id": "fallensteller",
+      "name": "Fallensteller",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/fallensteller"
+    },
+    {
+      "typ": "talent",
+      "id": "feldscher",
+      "name": "Feldscher",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/feldscher"
+    },
+    {
+      "typ": "talent",
+      "id": "finte",
+      "name": "Finte",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/finte"
+    },
+    {
+      "typ": "talent",
+      "id": "fischer",
+      "name": "Fischer",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/fischer"
+    },
+    {
+      "typ": "talent",
+      "id": "flagellant",
+      "name": "Flagellant",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/flagellant"
+    },
+    {
+      "typ": "talent",
+      "id": "fliehen",
+      "name": "Fliehen",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/fliehen"
+    },
+    {
+      "typ": "talent",
+      "id": "flinke_finger",
+      "name": "Flinke Finger",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/flinke_finger"
+    },
+    {
+      "typ": "talent",
+      "id": "flinkes_ausweichen",
+      "name": "Flinkes Ausweichen",
+      "seite": 135,
+      "path": "04-faehigkeiten-talente/talente/flinkes_ausweichen"
+    },
+    {
+      "typ": "talent",
+      "id": "flusskundig",
+      "name": "Flusskundig",
+      "seite": 136,
+      "path": "04-faehigkeiten-talente/talente/flusskundig"
+    },
+    {
+      "typ": "talent",
+      "id": "freikletterer",
+      "name": "Freikletterer",
+      "seite": 136,
+      "path": "04-faehigkeiten-talente/talente/freikletterer"
+    },
+    {
+      "typ": "talent",
+      "id": "furchtlosigkeit",
+      "name": "Furchtlosigkeit",
+      "seite": 136,
+      "path": "04-faehigkeiten-talente/talente/furchtlosigkeit"
+    },
+    {
+      "typ": "talent",
+      "id": "gebieterisch",
+      "name": "Gebieterisch",
+      "seite": 136,
+      "path": "04-faehigkeiten-talente/talente/gebieterisch"
+    },
+    {
+      "typ": "talent",
+      "id": "geborener_krieger",
+      "name": "Geborener Krieger",
+      "seite": 136,
+      "path": "04-faehigkeiten-talente/talente/geborener_krieger"
+    },
+    {
+      "typ": "talent",
+      "id": "gedrillt",
+      "name": "Gedrillt",
+      "seite": 136,
+      "path": "04-faehigkeiten-talente/talente/gedrillt"
+    },
+    {
+      "typ": "talent",
+      "id": "gegenangriff",
+      "name": "Gegenangriff",
+      "seite": 136,
+      "path": "04-faehigkeiten-talente/talente/gegenangriff"
+    },
+    {
+      "typ": "talent",
+      "id": "geheime_identitaet",
+      "name": "Geheime Identität",
+      "seite": 136,
+      "path": "04-faehigkeiten-talente/talente/geheime_identitaet"
+    },
+    {
+      "typ": "talent",
+      "id": "genuegsam",
+      "name": "Genügsam",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/genuegsam"
+    },
+    {
+      "typ": "talent",
+      "id": "gerissenheit",
+      "name": "Gerissenheit",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/gerissenheit"
+    },
+    {
+      "typ": "talent",
+      "id": "geschickte_finger",
+      "name": "Geschickte Finger",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/geschickte_finger"
+    },
+    {
+      "typ": "talent",
+      "id": "gesellig",
+      "name": "Gesellig",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/gesellig"
+    },
+    {
+      "typ": "talent",
+      "id": "gespuer_fuer_aerger",
+      "name": "Gespür für Ärger",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/gespuer_fuer_aerger"
+    },
+    {
+      "typ": "talent",
+      "id": "glueckspilz",
+      "name": "Glückspilz",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/glueckspilz"
+    },
+    {
+      "typ": "talent",
+      "id": "guter_schwimmer",
+      "name": "Guter Schwimmer",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/guter_schwimmer"
+    },
+    {
+      "typ": "talent",
+      "id": "gut_vorbereitet",
+      "name": "Gut vorbereitet",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/gut_vorbereitet"
+    },
+    {
+      "typ": "talent",
+      "id": "halbweltgroesse",
+      "name": "Halbweltgröße",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/halbweltgroesse"
+    },
+    {
+      "typ": "talent",
+      "id": "handwerksgeschick",
+      "name": "Handwerksgeschick",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/handwerksgeschick"
+    },
+    {
+      "typ": "talent",
+      "id": "hart_im_nehmen",
+      "name": "Hart im Nehmen",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/hart_im_nehmen"
+    },
+    {
+      "typ": "talent",
+      "id": "hass",
+      "name": "Hass",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/hass"
+    },
+    {
+      "typ": "talent",
+      "id": "heilige_visionen",
+      "name": "Heilige Visionen",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/heilige_visionen"
+    },
+    {
+      "typ": "talent",
+      "id": "heiliger_hass",
+      "name": "Heiliger Hass",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/heiliger_hass"
+    },
+    {
+      "typ": "talent",
+      "id": "hexer",
+      "name": "Hexer",
+      "seite": 137,
+      "path": "04-faehigkeiten-talente/talente/hexer"
+    },
+    {
+      "typ": "talent",
+      "id": "imitator",
+      "name": "Imitator",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/imitator"
+    },
+    {
+      "typ": "talent",
+      "id": "inspirierend",
+      "name": "Inspirierend",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/inspirierend"
+    },
+    {
+      "typ": "talent",
+      "id": "instinktive_aussprache",
+      "name": "Instinktive Aussprache",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/instinktive_aussprache"
+    },
+    {
+      "typ": "talent",
+      "id": "intrigant",
+      "name": "Intrigant",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/intrigant"
+    },
+    {
+      "typ": "talent",
+      "id": "kampfrausch",
+      "name": "Kampfrausch",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/kampfrausch"
+    },
+    {
+      "typ": "talent",
+      "id": "kampfreflexe",
+      "name": "Kampfreflexe",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/kampfreflexe"
+    },
+    {
+      "typ": "talent",
+      "id": "kampfsinn",
+      "name": "Kampfsinn",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/kampfsinn"
+    },
+    {
+      "typ": "talent",
+      "id": "kampfzauberer",
+      "name": "Kampfzauberer",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/kampfzauberer"
+    },
+    {
+      "typ": "talent",
+      "id": "kartenkuenstler",
+      "name": "Kartenkünstler",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/kartenkuenstler"
+    },
+    {
+      "typ": "talent",
+      "id": "katzenfuessig",
+      "name": "Katzenfüßig",
+      "seite": 138,
+      "path": "04-faehigkeiten-talente/talente/katzenfuessig"
+    },
+    {
+      "typ": "talent",
+      "id": "klingenschlag",
+      "name": "Klingenschlag",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/klingenschlag"
+    },
+    {
+      "typ": "talent",
+      "id": "kriminell",
+      "name": "Kriminell",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/kriminell"
+    },
+    {
+      "typ": "talent",
+      "id": "kuehler_kopf",
+      "name": "Kühler Kopf",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/kuehler_kopf"
+    },
+    {
+      "typ": "talent",
+      "id": "kuenstlerisch",
+      "name": "Künstlerisch",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/kuenstlerisch"
+    },
+    {
+      "typ": "talent",
+      "id": "kunstreiter",
+      "name": "Kunstreiter",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/kunstreiter"
+    },
+    {
+      "typ": "talent",
+      "id": "leichtfuessigkeit",
+      "name": "Leichtfüßigkeit",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/leichtfuessigkeit"
+    },
+    {
+      "typ": "talent",
+      "id": "leidenschaftlicher_eifer",
+      "name": "Leidenschaftlicher Eifer",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/leidenschaftlicher_eifer"
+    },
+    {
+      "typ": "talent",
+      "id": "lesen_und_schreiben",
+      "name": "Lesen & Schreiben",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/lesen_und_schreiben"
+    },
+    {
+      "typ": "talent",
+      "id": "lippenlesen",
+      "name": "Lippenlesen",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/lippenlesen"
+    },
+    {
+      "typ": "talent",
+      "id": "lotse",
+      "name": "Lotse",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/lotse"
+    },
+    {
+      "typ": "talent",
+      "id": "maechtiger_schlag",
+      "name": "Mächtiger Schlag",
+      "seite": 139,
+      "path": "04-faehigkeiten-talente/talente/maechtiger_schlag"
+    },
+    {
+      "typ": "talent",
+      "id": "magiegespuer",
+      "name": "Magiegespür",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/magiegespuer"
+    },
+    {
+      "typ": "talent",
+      "id": "magieresistenz",
+      "name": "Magieresistenz",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/magieresistenz"
+    },
+    {
+      "typ": "talent",
+      "id": "magnum_opus",
+      "name": "Magnum Opus",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/magnum_opus"
+    },
+    {
+      "typ": "talent",
+      "id": "meisterhandwerker",
+      "name": "Meisterhandwerker",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/meisterhandwerker"
+    },
+    {
+      "typ": "talent",
+      "id": "meisterkaempfer",
+      "name": "Meisterkämpfer",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/meisterkaempfer"
+    },
+    {
+      "typ": "talent",
+      "id": "meisterredner",
+      "name": "Meisterredner",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/meisterredner"
+    },
+    {
+      "typ": "talent",
+      "id": "meisterschuetze",
+      "name": "Meisterschütze",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/meisterschuetze"
+    },
+    {
+      "typ": "talent",
+      "id": "messerstecher",
+      "name": "Messerstecher",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/messerstecher"
+    },
+    {
+      "typ": "talent",
+      "id": "mitreissender_anfuehrer",
+      "name": "Mitreißender Anführer",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/mitreissender_anfuehrer"
+    },
+    {
+      "typ": "talent",
+      "id": "nachtsicht",
+      "name": "Nachtsicht",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/nachtsicht"
+    },
+    {
+      "typ": "talent",
+      "id": "niedere_magie",
+      "name": "Niedere Magie",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/niedere_magie"
+    },
+    {
+      "typ": "talent",
+      "id": "numismatiker",
+      "name": "Numismatiker",
+      "seite": 140,
+      "path": "04-faehigkeiten-talente/talente/numismatiker"
+    },
+    {
+      "typ": "talent",
+      "id": "peitschenknallen",
+      "name": "Peitschenknallen",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/peitschenknallen"
+    },
+    {
+      "typ": "talent",
+      "id": "pharmazeut",
+      "name": "Pharmazeut",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/pharmazeut"
+    },
+    {
+      "typ": "talent",
+      "id": "praezisionsschuetze",
+      "name": "Präzisionsschütze",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/praezisionsschuetze"
+    },
+    {
+      "typ": "talent",
+      "id": "pulverschuetze",
+      "name": "Pulverschütze",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/pulverschuetze"
+    },
+    {
+      "typ": "talent",
+      "id": "rasender_angriff",
+      "name": "Rasender Angriff",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/rasender_angriff"
+    },
+    {
+      "typ": "talent",
+      "id": "raserei",
+      "name": "Raserei",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/raserei"
+    },
+    {
+      "typ": "talent",
+      "id": "raureiter",
+      "name": "Raureiter",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/raureiter"
+    },
+    {
+      "typ": "talent",
+      "id": "redeschwall",
+      "name": "Redeschwall",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/redeschwall"
+    },
+    {
+      "typ": "talent",
+      "id": "reine_seele",
+      "name": "Reine Seele",
+      "seite": 141,
+      "path": "04-faehigkeiten-talente/talente/reine_seele"
+    },
+    {
+      "typ": "talent",
+      "id": "resistenz",
+      "name": "Resistenz",
+      "seite": 142,
+      "path": "04-faehigkeiten-talente/talente/resistenz"
+    },
+    {
+      "typ": "talent",
+      "id": "rhetorik",
+      "name": "Rhetorik",
+      "seite": 142,
+      "path": "04-faehigkeiten-talente/talente/rhetorik"
+    },
+    {
+      "typ": "talent",
+      "id": "richtungssinn",
+      "name": "Richtungssinn",
+      "seite": 142,
+      "path": "04-faehigkeiten-talente/talente/richtungssinn"
+    },
+    {
+      "typ": "talent",
+      "id": "riposte",
+      "name": "Riposte",
+      "seite": 142,
+      "path": "04-faehigkeiten-talente/talente/riposte"
+    },
+    {
+      "typ": "talent",
+      "id": "robustheit",
+      "name": "Robustheit",
+      "seite": 142,
+      "path": "04-faehigkeiten-talente/talente/robustheit"
+    },
+    {
+      "typ": "talent",
+      "id": "scharfer_sinn",
+      "name": "Scharfer Sinn",
+      "seite": 142,
+      "path": "04-faehigkeiten-talente/talente/scharfer_sinn"
+    },
+    {
+      "typ": "talent",
+      "id": "scharfschuetze",
+      "name": "Scharfschütze",
+      "seite": 142,
+      "path": "04-faehigkeiten-talente/talente/scharfschuetze"
+    },
+    {
+      "typ": "talent",
+      "id": "schatten",
+      "name": "Schatten",
+      "seite": 142,
+      "path": "04-faehigkeiten-talente/talente/schatten"
+    },
+    {
+      "typ": "talent",
+      "id": "schildkaempfer",
+      "name": "Schildkämpfer",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schildkaempfer"
+    },
+    {
+      "typ": "talent",
+      "id": "schlangenmensch",
+      "name": "Schlangenmensch",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schlangenmensch"
+    },
+    {
+      "typ": "talent",
+      "id": "schmeichler",
+      "name": "Schmeichler",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schmeichler"
+    },
+    {
+      "typ": "talent",
+      "id": "schmierer",
+      "name": "Schmierer",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schmierer"
+    },
+    {
+      "typ": "talent",
+      "id": "schmutzig_kaempfen",
+      "name": "Schmutzig kämpfen",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schmutzig_kaempfen"
+    },
+    {
+      "typ": "talent",
+      "id": "schneller_schuetze",
+      "name": "Schneller Schütze",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schneller_schuetze"
+    },
+    {
+      "typ": "talent",
+      "id": "schnelles_nachladen",
+      "name": "Schnelles Nachladen",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schnelles_nachladen"
+    },
+    {
+      "typ": "talent",
+      "id": "schnellleser",
+      "name": "Schnellleser",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schnellleser"
+    },
+    {
+      "typ": "talent",
+      "id": "schnorrer",
+      "name": "Schnorrer",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/schnorrer"
+    },
+    {
+      "typ": "talent",
+      "id": "sechster_sinn",
+      "name": "Sechster Sinn",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/sechster_sinn"
+    },
+    {
+      "typ": "talent",
+      "id": "seebaer",
+      "name": "Seebär",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/seebaer"
+    },
+    {
+      "typ": "talent",
+      "id": "seemannsgang",
+      "name": "Seemannsgang",
+      "seite": 143,
+      "path": "04-faehigkeiten-talente/talente/seemannsgang"
+    },
+    {
+      "typ": "talent",
+      "id": "segen",
+      "name": "Segen",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/segen"
+    },
+    {
+      "typ": "talent",
+      "id": "sehr_stark",
+      "name": "Sehr stark",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/sehr_stark"
+    },
+    {
+      "typ": "talent",
+      "id": "sicherer_schuss",
+      "name": "Sicherer Schuss",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/sicherer_schuss"
+    },
+    {
+      "typ": "talent",
+      "id": "slayer",
+      "name": "Slayer",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/slayer"
+    },
+    {
+      "typ": "talent",
+      "id": "sorgfaeltiges_zielen",
+      "name": "Sorgfältiges Zielen",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/sorgfaeltiges_zielen"
+    },
+    {
+      "typ": "talent",
+      "id": "spiess_umdrehen",
+      "name": "Spieß umdrehen",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/spiess_umdrehen"
+    },
+    {
+      "typ": "talent",
+      "id": "sprachbegabung",
+      "name": "Sprachbegabung",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/sprachbegabung"
+    },
+    {
+      "typ": "talent",
+      "id": "sprinter",
+      "name": "Sprinter",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/sprinter"
+    },
+    {
+      "typ": "talent",
+      "id": "stahlkinn",
+      "name": "Stahlkinn",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/stahlkinn"
+    },
+    {
+      "typ": "talent",
+      "id": "staemmig",
+      "name": "Stämmig",
+      "seite": 144,
+      "path": "04-faehigkeiten-talente/talente/staemmig"
+    },
+    {
+      "typ": "talent",
+      "id": "starke_beine",
+      "name": "Starke Beine",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/starke_beine"
+    },
+    {
+      "typ": "talent",
+      "id": "starker_ruecken",
+      "name": "Starker Rücken",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/starker_ruecken"
+    },
+    {
+      "typ": "talent",
+      "id": "strassenkatze",
+      "name": "Straßenkatze",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/strassenkatze"
+    },
+    {
+      "typ": "talent",
+      "id": "streuner",
+      "name": "Streuner",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/streuner"
+    },
+    {
+      "typ": "talent",
+      "id": "tierverbundenheit",
+      "name": "Tierverbundenheit",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/tierverbundenheit"
+    },
+    {
+      "typ": "talent",
+      "id": "trittsicher",
+      "name": "Trittsicher",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/trittsicher"
+    },
+    {
+      "typ": "talent",
+      "id": "trunkenbold",
+      "name": "Trunkenbold",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/trunkenbold"
+    },
+    {
+      "typ": "talent",
+      "id": "tunnelratte",
+      "name": "Tunnelratte",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/tunnelratte"
+    },
+    {
+      "typ": "talent",
+      "id": "tuerentreter",
+      "name": "Türentreter",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/tuerentreter"
+    },
+    {
+      "typ": "talent",
+      "id": "turm_der_erinnerungen",
+      "name": "Turm der Erinnerungen",
+      "seite": 145,
+      "path": "04-faehigkeiten-talente/talente/turm_der_erinnerungen"
+    },
+    {
+      "typ": "talent",
+      "id": "unauffaellig",
+      "name": "Unauffällig",
+      "seite": 146,
+      "path": "04-faehigkeiten-talente/talente/unauffaellig"
+    },
+    {
+      "typ": "talent",
+      "id": "unaufhaltsam",
+      "name": "Unaufhaltsam",
+      "seite": 146,
+      "path": "04-faehigkeiten-talente/talente/unaufhaltsam"
+    },
+    {
+      "typ": "talent",
+      "id": "unerbittlich",
+      "name": "Unerbittlich",
+      "seite": 146,
+      "path": "04-faehigkeiten-talente/talente/unerbittlich"
+    },
+    {
+      "typ": "talent",
+      "id": "unerschuetterlich",
+      "name": "Unerschütterlich",
+      "seite": 146,
+      "path": "04-faehigkeiten-talente/talente/unerschuetterlich"
+    },
+    {
+      "typ": "talent",
+      "id": "unkenruf",
+      "name": "Unkenruf",
+      "seite": 146,
+      "path": "04-faehigkeiten-talente/talente/unkenruf"
+    },
+    {
+      "typ": "talent",
+      "id": "unterschlagen",
+      "name": "Unterschlagen",
+      "seite": 146,
+      "path": "04-faehigkeiten-talente/talente/unterschlagen"
+    },
+    {
+      "typ": "talent",
+      "id": "unverwuestlich",
+      "name": "Unverwüstlich",
+      "seite": 146,
+      "path": "04-faehigkeiten-talente/talente/unverwuestlich"
+    },
+    {
+      "typ": "talent",
+      "id": "verhandlungsgenie",
+      "name": "Verhandlungsgenie",
+      "seite": 146,
+      "path": "04-faehigkeiten-talente/talente/verhandlungsgenie"
+    },
+    {
+      "typ": "talent",
+      "id": "verletzender_schlag",
+      "name": "Verletzender Schlag",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/verletzender_schlag"
+    },
+    {
+      "typ": "talent",
+      "id": "verwandlungskuenstler",
+      "name": "Verwandlungskünstler",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/verwandlungskuenstler"
+    },
+    {
+      "typ": "talent",
+      "id": "waidmann",
+      "name": "Waidmann",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/waidmann"
+    },
+    {
+      "typ": "talent",
+      "id": "willensstaerke",
+      "name": "Willensstärke",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/willensstaerke"
+    },
+    {
+      "typ": "talent",
+      "id": "wohlhabend",
+      "name": "Wohlhabend",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/wohlhabend"
+    },
+    {
+      "typ": "talent",
+      "id": "wortgewandt",
+      "name": "Wortgewandt",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/wortgewandt"
+    },
+    {
+      "typ": "talent",
+      "id": "wuerfelkuenstler",
+      "name": "Würfelkünstler",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/wuerfelkuenstler"
+    },
+    {
+      "typ": "talent",
+      "id": "zahlengenie",
+      "name": "Zahlengenie",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/zahlengenie"
+    },
+    {
+      "typ": "talent",
+      "id": "zielsicherheit",
+      "name": "Zielsicherheit",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/zielsicherheit"
+    },
+    {
+      "typ": "talent",
+      "id": "zierlich",
+      "name": "Zierlich",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/zierlich"
+    },
+    {
+      "typ": "talent",
+      "id": "zusammenmischen",
+      "name": "Zusammenmischen",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/zusammenmischen"
+    },
+    {
+      "typ": "talent",
+      "id": "zweites_gesicht",
+      "name": "Zweites Gesicht",
+      "seite": 147,
+      "path": "04-faehigkeiten-talente/talente/zweites_gesicht"
+    },
+    {
+      "typ": "command",
+      "id": "umschauen",
+      "name": "Umschauen",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "intuition",
+      "name": "Einschätzen",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "reden",
+      "name": "Ansprechen",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "feilschen",
+      "name": "Handeln",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "bestechen",
+      "name": "Bestechen",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "einschuechtern",
+      "name": "Einschüchtern",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "klatsch",
+      "name": "Gerüchte",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "warten",
+      "name": "Abwarten",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "kaufen",
+      "name": "Kaufen",
+      "tab": "sozial",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "schleichen",
+      "name": "Schleichen",
+      "tab": "bewegung",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "gehen",
+      "name": "Ort verlassen",
+      "tab": "bewegung",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "sprinten",
+      "name": "Sprinten",
+      "tab": "bewegung",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "aufstehen",
+      "name": "Aufstehen",
+      "tab": "bewegung",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "angreifen",
+      "name": "Angreifen",
+      "tab": "kampf",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "sturmangriff",
+      "name": "Sturmangriff",
+      "tab": "kampf",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "ausweichen",
+      "name": "Ausweichen",
+      "tab": "kampf",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "loesen",
+      "name": "Aus Bindung lösen",
+      "tab": "kampf",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "fliehen",
+      "name": "Fliehen",
+      "tab": "kampf",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "waffe_ziehen",
+      "name": "Waffe ziehen",
+      "tab": "kampf",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "volle_abwehr",
+      "name": "In der Defensive",
+      "tab": "kampf",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "glueck",
+      "name": "Glück",
+      "tab": "ressourcen",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "mut",
+      "name": "Mut",
+      "tab": "ressourcen",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "schicksal",
+      "name": "Schicksal",
+      "tab": "ressourcen",
+      "path": "10-system/06-befehle.md"
+    },
+    {
+      "typ": "command",
+      "id": "zaehigkeit",
+      "name": "Zähigkeit",
+      "tab": "ressourcen",
+      "path": "10-system/06-befehle.md"
+    }
+  ]
+}

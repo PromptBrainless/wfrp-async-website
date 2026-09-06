@@ -41,3 +41,4 @@ Vergleich oder Standard, siehe Befehl.
 - [Original](original.md)
 - [Details](details.md)
 - [Struktur](../../01-struktur.md)
+- [Attribut KG](../../../02-charaktere/attribute/kg/angepasst.md)

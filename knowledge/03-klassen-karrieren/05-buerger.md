@@ -1,6 +1,8 @@
 # Bürger – Karrieren (Demo-relevant)
 
-Quelle: S. 61–68. Volle 8 Bürger-Karrieren existieren; hier die zwei, die die Demo braucht.
+Quelle: S. 61–68
+
+Ordner: [buerger/](buerger/README.md). Greta = [Städter](buerger/staedter/README.md) Gehilfe.
 
 Bürger-Karrieren: Agitator, Bettler, Ermittler, Handwerker, Kaufmann, Rattenfänger, Städter, Wachmann.
 

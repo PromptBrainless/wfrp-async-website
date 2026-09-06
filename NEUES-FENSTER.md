@@ -13,10 +13,12 @@ Internes Entwicklungsrepo, kein Fan-Projekt.
 3. [knowledge/00-BEFEHLE.md](knowledge/00-BEFEHLE.md)
 4. [knowledge/00-VORLAGE.md](knowledge/00-VORLAGE.md)
 5. [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
-6. [knowledge/00-QUELLEN.md](knowledge/00-QUELLEN.md)
-7. [knowledge/00-INDEX.md](knowledge/00-INDEX.md)
-8. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
-9. [knowledge/10-system/06-befehle.md](knowledge/10-system/06-befehle.md)
+6. [knowledge/00-REGISTER.md](knowledge/00-REGISTER.md)
+7. [knowledge/00-BOGEN.md](knowledge/00-BOGEN.md)
+8. [knowledge/00-QUELLEN.md](knowledge/00-QUELLEN.md)
+9. [knowledge/00-INDEX.md](knowledge/00-INDEX.md)
+10. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
+11. [knowledge/10-system/06-befehle.md](knowledge/10-system/06-befehle.md)
 
 ## Auftrag
 

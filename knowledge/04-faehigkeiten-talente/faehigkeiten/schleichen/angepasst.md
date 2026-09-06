@@ -39,3 +39,4 @@ Vergleich oder Standard, siehe Befehl.
 - [Original](original.md)
 - [Details](details.md)
 - [Struktur](../../01-struktur.md)
+- [Attribut GW](../../../02-charaktere/attribute/gw/angepasst.md)

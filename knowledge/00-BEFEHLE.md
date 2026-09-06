@@ -1,7 +1,7 @@
 # Befehle – wie diese Wissensbasis weitergeführt wird
 
 Verbindlich für jede Session.  
-[00-VORLAGE.md](00-VORLAGE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-QUELLEN.md](00-QUELLEN.md) · [00-INDEX.md](00-INDEX.md)
+[00-VORLAGE.md](00-VORLAGE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-QUELLEN.md](00-QUELLEN.md) · [00-REGISTER.md](00-REGISTER.md) · [00-BOGEN.md](00-BOGEN.md) · [00-INDEX.md](00-INDEX.md)
 
 Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.  
 **Simulation ist kein Auftrag.**
@@ -24,7 +24,10 @@ Skill (Pflicht): [../skill/SKILL.md](../skill/SKILL.md)
 Vorlage: [00-VORLAGE.md](00-VORLAGE.md). Gate: `python3 skill/scripts/validate_wissen.py` — Exit 1 = kein Commit.
 
 - Katalog-ID zuerst ins [Befehlsregister](10-system/06-befehle.md), zeigt auf `angepasst.md`.
+- Neue Entität: ID zuerst ins [Register](00-REGISTER.md) (`data/register.json`), gleicher Slug wie der Ordner.
+- Angepasst nennt nur [Bogen-Keys](00-BOGEN.md).
 - Ein Fakt im Original **einmal**. Angepasst verweist, wiederholt nicht den Buchtext.
+- Gerüst ohne Volltext: `python3 skill/scripts/generate_stubs.py` — überschreibt kein gefrorenes Original.
 
 ## 2. Was wohin gehört
 

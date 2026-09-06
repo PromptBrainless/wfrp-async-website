@@ -1,12 +1,10 @@
-# Akademiker – Karrieren
+# Akademiker
 
-Quelle: siehe Chapter-Map
+Quelle: S. 53–60
 
-**Status:** TODO – ungekürzt extrahieren
-
----
+Weiter: [Ordner](akademiker/README.md) — acht Karrieren als Gerüst.
 
 ### Siehe auch
+
 - [Klassen und Karrieren – Übersicht](01-klassen-und-karrieren-uebersicht.md)
 - [Karrieren-Liste](03-karrieren-liste.md)
-- [Status-System](02-status-system.md)

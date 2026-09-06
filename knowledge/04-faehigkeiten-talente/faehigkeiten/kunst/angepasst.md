@@ -39,3 +39,4 @@ Standardwurf, sofern der SL einen Wurf verlangt. Vergleich, wenn das Buch es so 
 - [Original](original.md)
 - [Details](details.md)
 - [Struktur](../../01-struktur.md)
+- [Attribut GS](../../../02-charaktere/attribute/gs/angepasst.md)

@@ -1,12 +1,10 @@
-# Flussvolk – Karrieren
+# Flussvolk
 
-Quelle: siehe Chapter-Map
+Quelle: S. 69–76
 
-**Status:** TODO – ungekürzt extrahieren
-
----
+Weiter: [Ordner](flussvolk/README.md) — acht Karrieren als Gerüst.
 
 ### Siehe auch
+
 - [Klassen und Karrieren – Übersicht](01-klassen-und-karrieren-uebersicht.md)
 - [Karrieren-Liste](03-karrieren-liste.md)
-- [Status-System](02-status-system.md)

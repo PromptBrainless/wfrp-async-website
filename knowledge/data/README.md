@@ -5,7 +5,13 @@ Schema-Prosa: [../10-system/02-datenmodell.md](../10-system/02-datenmodell.md).
 
 | Datei | Inhalt | Buch |
 |-------|--------|------|
+| `register.json` | Alle IDs (Attribut, Fähigkeit, Talent, Karriere, Zustand, Qualität, Befehl) | verbindlich |
+| `bogen.json` | Kanonische Charakterbogen-Keys | S. 33–36, 44–45 |
 | `skills.json` | Alle 45 Fähigkeiten, Attribut, Grund/Ausbau, gruppiert | S. 118–131 |
+| `talents.json` | 167 Talent-Slugs + Seite (Text folgt) | S. 132–147 |
+| `careers.json` | 64 Karriere-Slugs + Klasse (Profil folgt) | S. 53–116 |
+| `attributes.json` | 10 Spielwerte + Bonus-Key | S. 33–36 |
+| `qualities.json` | 20 Qualitäten + 6 Makel | S. 297–299 |
 | `conditions.json` | 12 Zustände inkl. Stapel, Ende, Folge | S. 167–170 |
 | `weapons.json` | Nahkampf + Demo-relevante Fernkampf | S. 294–296 |
 | `species.json` | Völker-Attributstabelle, Start-Fähigkeiten/Talente | S. 33–36 |

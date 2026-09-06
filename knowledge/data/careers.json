@@ -1,0 +1,389 @@
+{
+  "quelle": "S. 53–116",
+  "careers": [
+    {
+      "id": "advokat",
+      "name": "Advokat",
+      "klasse": "akademiker",
+      "seite": 53
+    },
+    {
+      "id": "apotheker",
+      "name": "Apotheker",
+      "klasse": "akademiker",
+      "seite": 53
+    },
+    {
+      "id": "gelehrter",
+      "name": "Gelehrter",
+      "klasse": "akademiker",
+      "seite": 53
+    },
+    {
+      "id": "medicus",
+      "name": "Medicus",
+      "klasse": "akademiker",
+      "seite": 53
+    },
+    {
+      "id": "moench",
+      "name": "Mönch",
+      "klasse": "akademiker",
+      "seite": 53
+    },
+    {
+      "id": "priester",
+      "name": "Priester",
+      "klasse": "akademiker",
+      "seite": 53
+    },
+    {
+      "id": "technicus",
+      "name": "Technicus",
+      "klasse": "akademiker",
+      "seite": 53
+    },
+    {
+      "id": "zauberer",
+      "name": "Zauberer",
+      "klasse": "akademiker",
+      "seite": 53
+    },
+    {
+      "id": "agitator",
+      "name": "Agitator",
+      "klasse": "buerger",
+      "seite": 61
+    },
+    {
+      "id": "bettler",
+      "name": "Bettler",
+      "klasse": "buerger",
+      "seite": 61
+    },
+    {
+      "id": "ermittler",
+      "name": "Ermittler",
+      "klasse": "buerger",
+      "seite": 61
+    },
+    {
+      "id": "handwerker",
+      "name": "Handwerker",
+      "klasse": "buerger",
+      "seite": 61
+    },
+    {
+      "id": "kaufmann",
+      "name": "Kaufmann",
+      "klasse": "buerger",
+      "seite": 61
+    },
+    {
+      "id": "rattenfaenger",
+      "name": "Rattenfänger",
+      "klasse": "buerger",
+      "seite": 61
+    },
+    {
+      "id": "staedter",
+      "name": "Städter",
+      "klasse": "buerger",
+      "seite": 61
+    },
+    {
+      "id": "wachmann",
+      "name": "Wachmann",
+      "klasse": "buerger",
+      "seite": 61
+    },
+    {
+      "id": "flussbewohner",
+      "name": "Flussbewohner",
+      "klasse": "flussvolk",
+      "seite": 69
+    },
+    {
+      "id": "flussschiffer",
+      "name": "Flussschiffer",
+      "klasse": "flussvolk",
+      "seite": 69
+    },
+    {
+      "id": "flusswaechter",
+      "name": "Flusswächter",
+      "klasse": "flussvolk",
+      "seite": 69
+    },
+    {
+      "id": "lotse",
+      "name": "Lotse",
+      "klasse": "flussvolk",
+      "seite": 69
+    },
+    {
+      "id": "schmuggler",
+      "name": "Schmuggler",
+      "klasse": "flussvolk",
+      "seite": 69
+    },
+    {
+      "id": "seemann",
+      "name": "Seemann",
+      "klasse": "flussvolk",
+      "seite": 69
+    },
+    {
+      "id": "stauer",
+      "name": "Stauer",
+      "klasse": "flussvolk",
+      "seite": 69
+    },
+    {
+      "id": "strandraeuber",
+      "name": "Strandräuber",
+      "klasse": "flussvolk",
+      "seite": 69
+    },
+    {
+      "id": "bote",
+      "name": "Bote",
+      "klasse": "freisassen",
+      "seite": 77
+    },
+    {
+      "id": "flagellant",
+      "name": "Flagellant",
+      "klasse": "freisassen",
+      "seite": 77
+    },
+    {
+      "id": "hausierer",
+      "name": "Hausierer",
+      "klasse": "freisassen",
+      "seite": 77
+    },
+    {
+      "id": "hexenjaeger",
+      "name": "Hexenjäger",
+      "klasse": "freisassen",
+      "seite": 77
+    },
+    {
+      "id": "kopfgeldjaeger",
+      "name": "Kopfgeldjäger",
+      "klasse": "freisassen",
+      "seite": 77
+    },
+    {
+      "id": "kutscher",
+      "name": "Kutscher",
+      "klasse": "freisassen",
+      "seite": 77
+    },
+    {
+      "id": "schausteller",
+      "name": "Schausteller",
+      "klasse": "freisassen",
+      "seite": 77
+    },
+    {
+      "id": "strassenwaechter",
+      "name": "Straßenwächter",
+      "klasse": "freisassen",
+      "seite": 77
+    },
+    {
+      "id": "bandit",
+      "name": "Bandit",
+      "klasse": "gesetzlose",
+      "seite": 85
+    },
+    {
+      "id": "dieb",
+      "name": "Dieb",
+      "klasse": "gesetzlose",
+      "seite": 85
+    },
+    {
+      "id": "grabraeuber",
+      "name": "Grabräuber",
+      "klasse": "gesetzlose",
+      "seite": 85
+    },
+    {
+      "id": "halunke",
+      "name": "Halunke",
+      "klasse": "gesetzlose",
+      "seite": 85
+    },
+    {
+      "id": "hehler",
+      "name": "Hehler",
+      "klasse": "gesetzlose",
+      "seite": 85
+    },
+    {
+      "id": "hexer",
+      "name": "Hexer",
+      "klasse": "gesetzlose",
+      "seite": 85
+    },
+    {
+      "id": "kuppler",
+      "name": "Kuppler",
+      "klasse": "gesetzlose",
+      "seite": 85
+    },
+    {
+      "id": "scharlatan",
+      "name": "Scharlatan",
+      "klasse": "gesetzlose",
+      "seite": 85
+    },
+    {
+      "id": "adeliger",
+      "name": "Adeliger",
+      "klasse": "hoeflinge",
+      "seite": 93
+    },
+    {
+      "id": "berater",
+      "name": "Berater",
+      "klasse": "hoeflinge",
+      "seite": 93
+    },
+    {
+      "id": "diener",
+      "name": "Diener",
+      "klasse": "hoeflinge",
+      "seite": 93
+    },
+    {
+      "id": "duellist",
+      "name": "Duellist",
+      "klasse": "hoeflinge",
+      "seite": 93
+    },
+    {
+      "id": "gesandter",
+      "name": "Gesandter",
+      "klasse": "hoeflinge",
+      "seite": 93
+    },
+    {
+      "id": "kuenstler",
+      "name": "Künstler",
+      "klasse": "hoeflinge",
+      "seite": 93
+    },
+    {
+      "id": "meier",
+      "name": "Meier",
+      "klasse": "hoeflinge",
+      "seite": 93
+    },
+    {
+      "id": "spion",
+      "name": "Spion",
+      "klasse": "hoeflinge",
+      "seite": 93
+    },
+    {
+      "id": "gedungener",
+      "name": "Gedungener",
+      "klasse": "krieger",
+      "seite": 101
+    },
+    {
+      "id": "grubenkaempfer",
+      "name": "Grubenkämpfer",
+      "klasse": "krieger",
+      "seite": 101
+    },
+    {
+      "id": "kavallerist",
+      "name": "Kavallerist",
+      "klasse": "krieger",
+      "seite": 101
+    },
+    {
+      "id": "kriegerpriester",
+      "name": "Kriegerpriester",
+      "klasse": "krieger",
+      "seite": 101
+    },
+    {
+      "id": "ritter",
+      "name": "Ritter",
+      "klasse": "krieger",
+      "seite": 101
+    },
+    {
+      "id": "slayer",
+      "name": "Slayer",
+      "klasse": "krieger",
+      "seite": 101
+    },
+    {
+      "id": "soldat",
+      "name": "Soldat",
+      "klasse": "krieger",
+      "seite": 101
+    },
+    {
+      "id": "waechter",
+      "name": "Wächter",
+      "klasse": "krieger",
+      "seite": 101
+    },
+    {
+      "id": "bergmann",
+      "name": "Bergmann",
+      "klasse": "landvolk",
+      "seite": 109
+    },
+    {
+      "id": "buettel",
+      "name": "Büttel",
+      "klasse": "landvolk",
+      "seite": 109
+    },
+    {
+      "id": "doerfler",
+      "name": "Dörfler",
+      "klasse": "landvolk",
+      "seite": 109
+    },
+    {
+      "id": "heckenhexer",
+      "name": "Heckenhexer",
+      "klasse": "landvolk",
+      "seite": 109
+    },
+    {
+      "id": "jaeger",
+      "name": "Jäger",
+      "klasse": "landvolk",
+      "seite": 109
+    },
+    {
+      "id": "kraeuterkundiger",
+      "name": "Kräuterkundiger",
+      "klasse": "landvolk",
+      "seite": 109
+    },
+    {
+      "id": "kundschafter",
+      "name": "Kundschafter",
+      "klasse": "landvolk",
+      "seite": 109
+    },
+    {
+      "id": "mystiker",
+      "name": "Mystiker",
+      "klasse": "landvolk",
+      "seite": 109
+    }
+  ]
+}

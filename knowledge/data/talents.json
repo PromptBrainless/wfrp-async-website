@@ -1,0 +1,840 @@
+{
+  "quelle": "S. 132–147",
+  "talents": [
+    {
+      "id": "ablenken",
+      "name": "Ablenken",
+      "seite": 132
+    },
+    {
+      "id": "absolutes_gehoer",
+      "name": "Absolutes Gehör",
+      "seite": 132
+    },
+    {
+      "id": "anrufung",
+      "name": "Anrufung",
+      "seite": 132
+    },
+    {
+      "id": "arkane_magie",
+      "name": "Arkane Magie",
+      "seite": 132
+    },
+    {
+      "id": "artefakt_spueren",
+      "name": "Artefakt spüren",
+      "seite": 132
+    },
+    {
+      "id": "aethergespuer",
+      "name": "Äthergespür",
+      "seite": 133
+    },
+    {
+      "id": "attraktiv",
+      "name": "Attraktiv",
+      "seite": 133
+    },
+    {
+      "id": "aufgeweckt",
+      "name": "Aufgeweckt",
+      "seite": 133
+    },
+    {
+      "id": "aufspringen",
+      "name": "Aufspringen",
+      "seite": 133
+    },
+    {
+      "id": "bastler",
+      "name": "Bastler",
+      "seite": 133
+    },
+    {
+      "id": "beaengstigend",
+      "name": "Beängstigend",
+      "seite": 133
+    },
+    {
+      "id": "bedrohlich",
+      "name": "Bedrohlich",
+      "seite": 133
+    },
+    {
+      "id": "beengter_kampf",
+      "name": "Beengter Kampf",
+      "seite": 133
+    },
+    {
+      "id": "beharrlich",
+      "name": "Beharrlich",
+      "seite": 133
+    },
+    {
+      "id": "beherzt",
+      "name": "Beherzt",
+      "seite": 133
+    },
+    {
+      "id": "beidhaendiger_angriff",
+      "name": "Beidhändiger Angriff",
+      "seite": 133
+    },
+    {
+      "id": "beidhaendigkeit",
+      "name": "Beidhändigkeit",
+      "seite": 133
+    },
+    {
+      "id": "berserkerangriff",
+      "name": "Berserkerangriff",
+      "seite": 133
+    },
+    {
+      "id": "betaeubender_schlag",
+      "name": "Betäubender Schlag",
+      "seite": 134
+    },
+    {
+      "id": "binnenschiffer",
+      "name": "Binnenschiffer",
+      "seite": 134
+    },
+    {
+      "id": "blaubluetig",
+      "name": "Blaublütig",
+      "seite": 134
+    },
+    {
+      "id": "blitzschnelle_reflexe",
+      "name": "Blitzschnelle Reflexe",
+      "seite": 134
+    },
+    {
+      "id": "buecherwurm",
+      "name": "Bücherwurm",
+      "seite": 134
+    },
+    {
+      "id": "chaosmagie",
+      "name": "Chaosmagie",
+      "seite": 134
+    },
+    {
+      "id": "chirurgie",
+      "name": "Chirurgie",
+      "seite": 134
+    },
+    {
+      "id": "distanzschuetze",
+      "name": "Distanzschütze",
+      "seite": 134
+    },
+    {
+      "id": "doppelzuengig",
+      "name": "Doppelzüngig",
+      "seite": 134
+    },
+    {
+      "id": "einnehmendes_wesen",
+      "name": "Einnehmendes Wesen",
+      "seite": 134
+    },
+    {
+      "id": "eiserner_wille",
+      "name": "Eiserner Wille",
+      "seite": 134
+    },
+    {
+      "id": "entschlossen",
+      "name": "Entschlossen",
+      "seite": 134
+    },
+    {
+      "id": "entwaffnen",
+      "name": "Entwaffnen",
+      "seite": 134
+    },
+    {
+      "id": "erfahrener_reisender",
+      "name": "Erfahrener Reisender",
+      "seite": 135
+    },
+    {
+      "id": "etikette",
+      "name": "Etikette",
+      "seite": 135
+    },
+    {
+      "id": "fachwissen",
+      "name": "Fachwissen",
+      "seite": 135
+    },
+    {
+      "id": "fallensteller",
+      "name": "Fallensteller",
+      "seite": 135
+    },
+    {
+      "id": "feldscher",
+      "name": "Feldscher",
+      "seite": 135
+    },
+    {
+      "id": "finte",
+      "name": "Finte",
+      "seite": 135
+    },
+    {
+      "id": "fischer",
+      "name": "Fischer",
+      "seite": 135
+    },
+    {
+      "id": "flagellant",
+      "name": "Flagellant",
+      "seite": 135
+    },
+    {
+      "id": "fliehen",
+      "name": "Fliehen",
+      "seite": 135
+    },
+    {
+      "id": "flinke_finger",
+      "name": "Flinke Finger",
+      "seite": 135
+    },
+    {
+      "id": "flinkes_ausweichen",
+      "name": "Flinkes Ausweichen",
+      "seite": 135
+    },
+    {
+      "id": "flusskundig",
+      "name": "Flusskundig",
+      "seite": 136
+    },
+    {
+      "id": "freikletterer",
+      "name": "Freikletterer",
+      "seite": 136
+    },
+    {
+      "id": "furchtlosigkeit",
+      "name": "Furchtlosigkeit",
+      "seite": 136
+    },
+    {
+      "id": "gebieterisch",
+      "name": "Gebieterisch",
+      "seite": 136
+    },
+    {
+      "id": "geborener_krieger",
+      "name": "Geborener Krieger",
+      "seite": 136
+    },
+    {
+      "id": "gedrillt",
+      "name": "Gedrillt",
+      "seite": 136
+    },
+    {
+      "id": "gegenangriff",
+      "name": "Gegenangriff",
+      "seite": 136
+    },
+    {
+      "id": "geheime_identitaet",
+      "name": "Geheime Identität",
+      "seite": 136
+    },
+    {
+      "id": "genuegsam",
+      "name": "Genügsam",
+      "seite": 137
+    },
+    {
+      "id": "gerissenheit",
+      "name": "Gerissenheit",
+      "seite": 137
+    },
+    {
+      "id": "geschickte_finger",
+      "name": "Geschickte Finger",
+      "seite": 137
+    },
+    {
+      "id": "gesellig",
+      "name": "Gesellig",
+      "seite": 137
+    },
+    {
+      "id": "gespuer_fuer_aerger",
+      "name": "Gespür für Ärger",
+      "seite": 137
+    },
+    {
+      "id": "glueckspilz",
+      "name": "Glückspilz",
+      "seite": 137
+    },
+    {
+      "id": "guter_schwimmer",
+      "name": "Guter Schwimmer",
+      "seite": 137
+    },
+    {
+      "id": "gut_vorbereitet",
+      "name": "Gut vorbereitet",
+      "seite": 137
+    },
+    {
+      "id": "halbweltgroesse",
+      "name": "Halbweltgröße",
+      "seite": 137
+    },
+    {
+      "id": "handwerksgeschick",
+      "name": "Handwerksgeschick",
+      "seite": 137
+    },
+    {
+      "id": "hart_im_nehmen",
+      "name": "Hart im Nehmen",
+      "seite": 137
+    },
+    {
+      "id": "hass",
+      "name": "Hass",
+      "seite": 137
+    },
+    {
+      "id": "heilige_visionen",
+      "name": "Heilige Visionen",
+      "seite": 137
+    },
+    {
+      "id": "heiliger_hass",
+      "name": "Heiliger Hass",
+      "seite": 137
+    },
+    {
+      "id": "hexer",
+      "name": "Hexer",
+      "seite": 137
+    },
+    {
+      "id": "imitator",
+      "name": "Imitator",
+      "seite": 138
+    },
+    {
+      "id": "inspirierend",
+      "name": "Inspirierend",
+      "seite": 138
+    },
+    {
+      "id": "instinktive_aussprache",
+      "name": "Instinktive Aussprache",
+      "seite": 138
+    },
+    {
+      "id": "intrigant",
+      "name": "Intrigant",
+      "seite": 138
+    },
+    {
+      "id": "kampfrausch",
+      "name": "Kampfrausch",
+      "seite": 138
+    },
+    {
+      "id": "kampfreflexe",
+      "name": "Kampfreflexe",
+      "seite": 138
+    },
+    {
+      "id": "kampfsinn",
+      "name": "Kampfsinn",
+      "seite": 138
+    },
+    {
+      "id": "kampfzauberer",
+      "name": "Kampfzauberer",
+      "seite": 138
+    },
+    {
+      "id": "kartenkuenstler",
+      "name": "Kartenkünstler",
+      "seite": 138
+    },
+    {
+      "id": "katzenfuessig",
+      "name": "Katzenfüßig",
+      "seite": 138
+    },
+    {
+      "id": "klingenschlag",
+      "name": "Klingenschlag",
+      "seite": 139
+    },
+    {
+      "id": "kriminell",
+      "name": "Kriminell",
+      "seite": 139
+    },
+    {
+      "id": "kuehler_kopf",
+      "name": "Kühler Kopf",
+      "seite": 139
+    },
+    {
+      "id": "kuenstlerisch",
+      "name": "Künstlerisch",
+      "seite": 139
+    },
+    {
+      "id": "kunstreiter",
+      "name": "Kunstreiter",
+      "seite": 139
+    },
+    {
+      "id": "leichtfuessigkeit",
+      "name": "Leichtfüßigkeit",
+      "seite": 139
+    },
+    {
+      "id": "leidenschaftlicher_eifer",
+      "name": "Leidenschaftlicher Eifer",
+      "seite": 139
+    },
+    {
+      "id": "lesen_und_schreiben",
+      "name": "Lesen & Schreiben",
+      "seite": 139
+    },
+    {
+      "id": "lippenlesen",
+      "name": "Lippenlesen",
+      "seite": 139
+    },
+    {
+      "id": "lotse",
+      "name": "Lotse",
+      "seite": 139
+    },
+    {
+      "id": "maechtiger_schlag",
+      "name": "Mächtiger Schlag",
+      "seite": 139
+    },
+    {
+      "id": "magiegespuer",
+      "name": "Magiegespür",
+      "seite": 140
+    },
+    {
+      "id": "magieresistenz",
+      "name": "Magieresistenz",
+      "seite": 140
+    },
+    {
+      "id": "magnum_opus",
+      "name": "Magnum Opus",
+      "seite": 140
+    },
+    {
+      "id": "meisterhandwerker",
+      "name": "Meisterhandwerker",
+      "seite": 140
+    },
+    {
+      "id": "meisterkaempfer",
+      "name": "Meisterkämpfer",
+      "seite": 140
+    },
+    {
+      "id": "meisterredner",
+      "name": "Meisterredner",
+      "seite": 140
+    },
+    {
+      "id": "meisterschuetze",
+      "name": "Meisterschütze",
+      "seite": 140
+    },
+    {
+      "id": "messerstecher",
+      "name": "Messerstecher",
+      "seite": 140
+    },
+    {
+      "id": "mitreissender_anfuehrer",
+      "name": "Mitreißender Anführer",
+      "seite": 140
+    },
+    {
+      "id": "nachtsicht",
+      "name": "Nachtsicht",
+      "seite": 140
+    },
+    {
+      "id": "niedere_magie",
+      "name": "Niedere Magie",
+      "seite": 140
+    },
+    {
+      "id": "numismatiker",
+      "name": "Numismatiker",
+      "seite": 140
+    },
+    {
+      "id": "peitschenknallen",
+      "name": "Peitschenknallen",
+      "seite": 141
+    },
+    {
+      "id": "pharmazeut",
+      "name": "Pharmazeut",
+      "seite": 141
+    },
+    {
+      "id": "praezisionsschuetze",
+      "name": "Präzisionsschütze",
+      "seite": 141
+    },
+    {
+      "id": "pulverschuetze",
+      "name": "Pulverschütze",
+      "seite": 141
+    },
+    {
+      "id": "rasender_angriff",
+      "name": "Rasender Angriff",
+      "seite": 141
+    },
+    {
+      "id": "raserei",
+      "name": "Raserei",
+      "seite": 141
+    },
+    {
+      "id": "raureiter",
+      "name": "Raureiter",
+      "seite": 141
+    },
+    {
+      "id": "redeschwall",
+      "name": "Redeschwall",
+      "seite": 141
+    },
+    {
+      "id": "reine_seele",
+      "name": "Reine Seele",
+      "seite": 141
+    },
+    {
+      "id": "resistenz",
+      "name": "Resistenz",
+      "seite": 142
+    },
+    {
+      "id": "rhetorik",
+      "name": "Rhetorik",
+      "seite": 142
+    },
+    {
+      "id": "richtungssinn",
+      "name": "Richtungssinn",
+      "seite": 142
+    },
+    {
+      "id": "riposte",
+      "name": "Riposte",
+      "seite": 142
+    },
+    {
+      "id": "robustheit",
+      "name": "Robustheit",
+      "seite": 142
+    },
+    {
+      "id": "scharfer_sinn",
+      "name": "Scharfer Sinn",
+      "seite": 142
+    },
+    {
+      "id": "scharfschuetze",
+      "name": "Scharfschütze",
+      "seite": 142
+    },
+    {
+      "id": "schatten",
+      "name": "Schatten",
+      "seite": 142
+    },
+    {
+      "id": "schildkaempfer",
+      "name": "Schildkämpfer",
+      "seite": 143
+    },
+    {
+      "id": "schlangenmensch",
+      "name": "Schlangenmensch",
+      "seite": 143
+    },
+    {
+      "id": "schmeichler",
+      "name": "Schmeichler",
+      "seite": 143
+    },
+    {
+      "id": "schmierer",
+      "name": "Schmierer",
+      "seite": 143
+    },
+    {
+      "id": "schmutzig_kaempfen",
+      "name": "Schmutzig kämpfen",
+      "seite": 143
+    },
+    {
+      "id": "schneller_schuetze",
+      "name": "Schneller Schütze",
+      "seite": 143
+    },
+    {
+      "id": "schnelles_nachladen",
+      "name": "Schnelles Nachladen",
+      "seite": 143
+    },
+    {
+      "id": "schnellleser",
+      "name": "Schnellleser",
+      "seite": 143
+    },
+    {
+      "id": "schnorrer",
+      "name": "Schnorrer",
+      "seite": 143
+    },
+    {
+      "id": "sechster_sinn",
+      "name": "Sechster Sinn",
+      "seite": 143
+    },
+    {
+      "id": "seebaer",
+      "name": "Seebär",
+      "seite": 143
+    },
+    {
+      "id": "seemannsgang",
+      "name": "Seemannsgang",
+      "seite": 143
+    },
+    {
+      "id": "segen",
+      "name": "Segen",
+      "seite": 144
+    },
+    {
+      "id": "sehr_stark",
+      "name": "Sehr stark",
+      "seite": 144
+    },
+    {
+      "id": "sicherer_schuss",
+      "name": "Sicherer Schuss",
+      "seite": 144
+    },
+    {
+      "id": "slayer",
+      "name": "Slayer",
+      "seite": 144
+    },
+    {
+      "id": "sorgfaeltiges_zielen",
+      "name": "Sorgfältiges Zielen",
+      "seite": 144
+    },
+    {
+      "id": "spiess_umdrehen",
+      "name": "Spieß umdrehen",
+      "seite": 144
+    },
+    {
+      "id": "sprachbegabung",
+      "name": "Sprachbegabung",
+      "seite": 144
+    },
+    {
+      "id": "sprinter",
+      "name": "Sprinter",
+      "seite": 144
+    },
+    {
+      "id": "stahlkinn",
+      "name": "Stahlkinn",
+      "seite": 144
+    },
+    {
+      "id": "staemmig",
+      "name": "Stämmig",
+      "seite": 144
+    },
+    {
+      "id": "starke_beine",
+      "name": "Starke Beine",
+      "seite": 145
+    },
+    {
+      "id": "starker_ruecken",
+      "name": "Starker Rücken",
+      "seite": 145
+    },
+    {
+      "id": "strassenkatze",
+      "name": "Straßenkatze",
+      "seite": 145
+    },
+    {
+      "id": "streuner",
+      "name": "Streuner",
+      "seite": 145
+    },
+    {
+      "id": "tierverbundenheit",
+      "name": "Tierverbundenheit",
+      "seite": 145
+    },
+    {
+      "id": "trittsicher",
+      "name": "Trittsicher",
+      "seite": 145
+    },
+    {
+      "id": "trunkenbold",
+      "name": "Trunkenbold",
+      "seite": 145
+    },
+    {
+      "id": "tunnelratte",
+      "name": "Tunnelratte",
+      "seite": 145
+    },
+    {
+      "id": "tuerentreter",
+      "name": "Türentreter",
+      "seite": 145
+    },
+    {
+      "id": "turm_der_erinnerungen",
+      "name": "Turm der Erinnerungen",
+      "seite": 145
+    },
+    {
+      "id": "unauffaellig",
+      "name": "Unauffällig",
+      "seite": 146
+    },
+    {
+      "id": "unaufhaltsam",
+      "name": "Unaufhaltsam",
+      "seite": 146
+    },
+    {
+      "id": "unerbittlich",
+      "name": "Unerbittlich",
+      "seite": 146
+    },
+    {
+      "id": "unerschuetterlich",
+      "name": "Unerschütterlich",
+      "seite": 146
+    },
+    {
+      "id": "unkenruf",
+      "name": "Unkenruf",
+      "seite": 146
+    },
+    {
+      "id": "unterschlagen",
+      "name": "Unterschlagen",
+      "seite": 146
+    },
+    {
+      "id": "unverwuestlich",
+      "name": "Unverwüstlich",
+      "seite": 146
+    },
+    {
+      "id": "verhandlungsgenie",
+      "name": "Verhandlungsgenie",
+      "seite": 146
+    },
+    {
+      "id": "verletzender_schlag",
+      "name": "Verletzender Schlag",
+      "seite": 147
+    },
+    {
+      "id": "verwandlungskuenstler",
+      "name": "Verwandlungskünstler",
+      "seite": 147
+    },
+    {
+      "id": "waidmann",
+      "name": "Waidmann",
+      "seite": 147
+    },
+    {
+      "id": "willensstaerke",
+      "name": "Willensstärke",
+      "seite": 147
+    },
+    {
+      "id": "wohlhabend",
+      "name": "Wohlhabend",
+      "seite": 147
+    },
+    {
+      "id": "wortgewandt",
+      "name": "Wortgewandt",
+      "seite": 147
+    },
+    {
+      "id": "wuerfelkuenstler",
+      "name": "Würfelkünstler",
+      "seite": 147
+    },
+    {
+      "id": "zahlengenie",
+      "name": "Zahlengenie",
+      "seite": 147
+    },
+    {
+      "id": "zielsicherheit",
+      "name": "Zielsicherheit",
+      "seite": 147
+    },
+    {
+      "id": "zierlich",
+      "name": "Zierlich",
+      "seite": 147
+    },
+    {
+      "id": "zusammenmischen",
+      "name": "Zusammenmischen",
+      "seite": 147
+    },
+    {
+      "id": "zweites_gesicht",
+      "name": "Zweites Gesicht",
+      "seite": 147
+    }
+  ]
+}

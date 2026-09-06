@@ -26,4 +26,4 @@ Schild (Wert), Defensiv — nur wenn jemand ein Schild führt. Nicht Demo.
 
 - [Waffenlos](waffenlos.md)
 - [Angreifen](../../05-regeln/07-angreifen-schaden.md)
-- [weapons.json](../../data/weapons.json)
+Einzelqualitäten: [Ordner](../qualitaeten/README.md).
