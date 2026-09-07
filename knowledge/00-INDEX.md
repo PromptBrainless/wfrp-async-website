@@ -37,6 +37,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Gruppe, Charaktere zum Leben erwecken & Steigerungen](02-charaktere/07-gruppe-und-steigerungen.md)
 - ✅ [Erklärung des Charakterbogens](02-charaktere/08-charakterbogen.md)
 - ✅ [Anfänger-Hilfe Erschaffung](02-charaktere/09-anfaenger-hilfe.md)
+- ✅ [Erschaffung — Gesprächsleitfaden](02-charaktere/10-erschaffung-gespraech.md)
 - ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) — 5 Originale
 
 ## 03 – Klassen und Karrieren
