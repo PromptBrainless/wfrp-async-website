@@ -43,6 +43,7 @@ Liste und Häkchen: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
 - [x] Bürger 8/8
 - [x] Primer Erschaffung + Welt/Glaube — [09-anfaenger-hilfe](knowledge/02-charaktere/09-anfaenger-hilfe.md)
 - [x] Gesprächsleitfaden 🔴 Schritte 0–9 — [10-erschaffung-gespraech](knowledge/02-charaktere/10-erschaffung-gespraech.md)
+- [x] Antworten auf alle 🔴-Fragen — [11-erschaffung-antworten](knowledge/02-charaktere/11-erschaffung-antworten.md)
 - [ ] P2 Talent-Einsatz der 8 Demo-Talente, dann Stufe-1-Originale
 
 ## PDF / Buchseiten

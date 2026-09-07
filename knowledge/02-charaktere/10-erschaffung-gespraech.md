@@ -7,7 +7,7 @@ Zwei Schichten. **Gespräch** fragt, ob erklärt werden muss. **Wahl** ist nur B
 
 Reihenfolge im Gespräch: zuerst **0) PnP**, dann die neun Schritte. Nicht umgekehrt (Volk ohne PnP verwirrt).
 
-Antworten nicht erfinden. Welt: [Alte Welt](../01-einfuehrung/03-die-alte-welt.md). Mechanik: jeweiliger Hub.
+Antworten nicht erfinden. Vollständige Antworten: [11-erschaffung-antworten.md](11-erschaffung-antworten.md). Welt: [Alte Welt](../01-einfuehrung/03-die-alte-welt.md). Mechanik: jeweiliger Hub.
 
 ---
 
@@ -205,6 +205,7 @@ Nach diesem Leitfaden, ohne das restliche Buch: PnP vs. Computerspiel; warum mei
 
 ### Siehe auch
 
+- [Antworten auf alle 🔴-Fragen](11-erschaffung-antworten.md)
 - [Anfänger-Hilfe (kurz)](09-anfaenger-hilfe.md)
 - [Neun Schritte](01-charaktererschaffung-uebersicht.md)
 - [Bogen](../00-BOGEN.md)
