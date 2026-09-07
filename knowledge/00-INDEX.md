@@ -39,7 +39,8 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Anfänger-Hilfe Erschaffung](02-charaktere/09-anfaenger-hilfe.md)
 - ✅ [Erschaffung — Gesprächsleitfaden](02-charaktere/10-erschaffung-gespraech.md)
 - ✅ [Erschaffung — Checkliste 🔴](02-charaktere/12-erschaffung-checkliste.md)
-- ✅ [Erschaffung — Antworten 🔴](02-charaktere/11-erschaffung-antworten.md)
+- ✅ [Erschaffung — Antworten-Index 🔴](02-charaktere/11-erschaffung-antworten.md)
+- ✅ [Erschaffung — 39 Erklärungen (Compendium)](02-charaktere/erschaffung/README.md)
 - ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) — 5 Originale
 
 ## 03 – Klassen und Karrieren

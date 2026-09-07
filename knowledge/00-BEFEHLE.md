@@ -37,6 +37,7 @@ Vorlage: [00-VORLAGE.md](00-VORLAGE.md). Gate: `python3 skill/scripts/validate_w
 | Talente | `04-faehigkeiten-talente/talente/<slug>/` |
 | Karrieren | `03-klassen-karrieren/<klasse>/<slug>/` |
 | Völker | `02-charaktere/voelker/<slug>/` |
+| Gesprächs-Erklärung Erschaffung | `02-charaktere/erschaffung/<nr>-<slug>.md` — kein Original-Ordner, Projekttext. Befehle: `erkläre <thema>` in [README](02-charaktere/erschaffung/README.md) |
 | Waffen | `08-einkauf/waffen/<slug>/` |
 | Zustände | `05-regeln/zustaende/<slug>/` |
 | Digitale Aktionen | `10-system/` (kein Buch-Original) |
