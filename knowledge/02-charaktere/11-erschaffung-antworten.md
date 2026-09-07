@@ -7,7 +7,7 @@ Nicht erfinden. Originale nicht ersetzen.
 
 ---
 
-## 0) PnP
+## 0) PnP 🔴
 
 **Ist dir bekannt, was ein Pen-and-Paper-Rollenspiel ist?**  
 Ein Gesprächsspiel. Einer beschreibt die Welt (Spielleiter, SL). Die anderen spielen je eine Figur (Spielercharakter, SC). Zehnseitige Würfel (W10, W100) entscheiden unsichere Handlungen. Es gibt kein „Game Over“-Menü und oft keinen vorgeschriebenen Sieg.
@@ -35,7 +35,7 @@ Wenn ja: wir prüfen, ob Volk + Klasse + Karriere sie tragen. Wenn nein: würfel
 
 ---
 
-## 1) Volk
+## 1) Volk 🔴
 
 **Ist dir die Alte Welt bekannt?**  
 Kontinent mit Imperium der Menschen, Provinzen, Flüssen, dunklen Wäldern. Die Demo: **Reikland**, Hauptstadt **Altdorf**, Imperator Karl-Franz I. Sigmar ist Gründer und Schutzgott. Chaos und Magie existieren; der SL bringt sie, wenn die Szene es braucht.
@@ -68,7 +68,7 @@ Originale: [Völker](02-voelker-kurz.md)
 
 ---
 
-## 2) Klasse, Karriere, Status, Geld, Rang
+## 2) Klasse, Karriere, Status, Geld, Rang 🔴
 
 **Was ist eine Klasse?**  
 Sozialer Herkunftsraum, nicht eine „Klasse“ wie im Computerspiel (kein Hit-Die). Sie begrenzt, welche acht Karrieren offenstehen. Grober Status-Korridor.
@@ -124,7 +124,7 @@ Ansehen *innerhalb* Messing/Silber/Gold. Silber 2 (Otto) ist „besserer Händle
 
 ---
 
-## 3) Attribute
+## 3) Attribute 🔴
 
 **Kennst du Attribute aus Computerspielen?**  
 Ähnliche Idee, andere Skala. Hier ist **30** ein durchschnittlicher Mensch, **40** kennt man, **60+** die Besten. Du würfelst nicht „gegen 20“, du würfelst W100 **unter** den Wert.
@@ -177,7 +177,7 @@ Beispiele Demo: Greta „nicht wieder auf der Straße“. Otto „der nächste H
 
 ---
 
-## 4) Fähigkeiten und Talente
+## 4) Fähigkeiten und Talente 🔴
 
 **Fähigkeit** = geübtes Feld an einem Spielwert (Klettern an ST: 38+8=46).  
 **Talent** = Sonderregel (Etikette nur in *einer* sozialen Gruppe; Verhandlungsgenie am Preis).
@@ -199,7 +199,7 @@ Talent der Stufe 1: **eines** aus vier. Erst wählen, wenn klar ist, wann es in 
 
 ---
 
-## 5) Ausrüstung und Geld
+## 5) Ausrüstung und Geld 🔴
 
 **Zwei Pakete.** Klasse = Alltag (Bürger: Kleidung, Umhang, Hut, Dolch, Beutel, Tasche + Mahlzeit). Karriere Stufe 1 = Beruf (Städter: möbliertes Zimmer, Stiefel, …). Gesetzlose: Gugel **oder** Maske.
 
@@ -211,7 +211,7 @@ Startgeld: siehe Währung. Optional Kapitel 11 vor Spielbeginn einkaufen; Demo k
 
 ---
 
-## 6) Details
+## 6) Details 🔴
 
 **Namen.** Mensch: Vor- + Nachname (Adhemar, Beatrix; Bauer, Schmidt, von …). Zwerg: Vor- + Familie/Klan (-sson, -sdottir). Elf: Generator S. 39. Halbling: Geburts- + Klan, oft Kurzform (Anni, Max); Klane Graufeld, Brandyschluck, …
 
@@ -227,7 +227,7 @@ Startgeld: siehe Währung. Optional Kapitel 11 vor Spielbeginn einkaufen; Demo k
 
 ---
 
-## 7) Gruppe
+## 7) Gruppe 🔴
 
 Ihr kennt euch schon **oder** der SL führt euch im ersten Abenteuer zusammen. Beides Buch (S. 41). Beispiele: gleiche Gasse, Flussbarke, Tempel, Basar, Schuld.
 
@@ -237,7 +237,7 @@ Demo: Greta (Städterin/Gehilfe, Silber 1), Otto (Kaufmann/Händler, Silber 2), 
 
 ---
 
-## 8) Zehn Fragen
+## 8) Zehn Fragen 🔴
 
 Nicht als Mauer. Drei reichen zum Start. Währenddessen Fähigkeiten ändern: Buch erlaubt das (S. 42). Psychologie (S. 190) nur mit SL; die meisten starten ohne.
 
@@ -258,7 +258,7 @@ Frage 1 → `herkunft`. Frage 8 → `gott`, wenn leer.
 
 ---
 
-## 9) Steigerungen
+## 9) Steigerungen 🔴
 
 Ausgeben ist erlaubt, nicht Pflicht. Nur **diese** Karrierestufe: 3 Werte, 8 Fähigkeiten, 4 Talente.
 
