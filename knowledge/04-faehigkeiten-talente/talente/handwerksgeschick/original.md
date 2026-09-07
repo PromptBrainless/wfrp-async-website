@@ -3,15 +3,16 @@
 Quelle: S. 137
 Status: Original, nicht anfassen
 
-**Handwerksgeschick**
+**Handwerksgeschick (Beruf)**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Geschicklichkeits-Bonus  
+**Würfe:** *Beruf (Beruf)*
 
-[prüfen am Buch S. 137]
-
+Du hast wahres kreatives Talent. Dieses Talent fügt jeder Karriere, in die du wechselst, die entsprechende *Berufs*-Fähigkeit hinzu. Wenn sich diese bereits in der entsprechenden Karriere befindet, kannst du die zugehörige *Berufs*-Fähigkeit stattdessen für 5 EP weniger pro Steigerung verbessern.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Beruf Original](../../faehigkeiten/beruf/original.md)

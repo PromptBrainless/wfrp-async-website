@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Bedrohlich**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Stärke-Bonus  
+**Würfe:** *Einschüchtern*
 
-[prüfen am Buch S. 133]
-
+Du hast eine bedrohliche Ausstrahlung. Wenn du die Fähigkeit *Einschüchtern* verwendest, erhältst du zusätzliche EG in Höhe deiner Stufe in *Bedrohlich*.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Einschüchtern Original](../../faehigkeiten/einschuechtern/original.md)

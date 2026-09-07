@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Beharrlich**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Widerstands-Bonus  
+**Würfe:** *Ausdauer*-Würfe zum Ertragen von Anstrengungen
 
-[prüfen am Buch S. 133]
-
+Du gibst niemals auf, egal wie anstrengend etwas ist. Du verdoppelst die Zeit, die dir ein erfolgreicher *Ausdauer*-Wurf erlaubt, Anstrengungen durchzuhalten. Anstrengungen im Sinne dieses Talentes wären langes Reiten, schlimme Witterung, Rituale und ähnliche Aktivitäten.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Ausdauer Original](../../faehigkeiten/ausdauer/original.md)

@@ -2,7 +2,7 @@
 
 Quelle: S. 132–147
 
-Gerüst: Name, Slug, Seite. Demo-Schnitt Original gefüllt: Etikette, Einnehmendes Wesen, Lesen & Schreiben, Redeschwall, Stämmig, Straßenkatze, Unauffällig, Verhandlungsgenie. Rest Welle D.
+Gerüst: Name, Slug, Seite. Originale: 8 Demo plus Bürger-Stufe-1 und Kurt-Stufe-1. Rest Welle D.
 
 | id | Talent | S. |
 |----|--------|----|

@@ -6,7 +6,7 @@ Vorlage: [00-VORLAGE.md](00-VORLAGE.md) · Befehle: [00-BEFEHLE.md](00-BEFEHLE.m
 
 **Simulation und UI sind kein Teil dieses Plans.**
 
-Stand: 2026-09-07 · Originale mit Buchtext: **89 / 329** Gerüste.
+Stand: 2026-09-07 · Originale mit Buchtext: **107 / 329** Gerüste.
 
 ---
 
@@ -95,8 +95,9 @@ Demo:
 ## Als Nächstes (Demo-Schnitt, Reihenfolge)
 
 0. [x] [Prompt Erschaffung + Weltwissen](02-charaktere/PROMPT-erschaffung-weltwissen.txt) — **P1 Primer** + **39 Einzel-Erklärungen** ([erschaffung/](02-charaktere/erschaffung/README.md))
-1. [ ] Talente der Bürger-Stufe-1, die noch Gerüst sind (außer den 8 Demo-Talenten)
-2. [ ] nächste Klasse nach Bürger — Flussvolk S. 69–76 oder Akademiker S. 53–60
+1. [x] 8 Demo-Talente: Einsatz in der Spielwelt (`details.md`)
+2. [x] Talente der Bürger-Stufe-1 + Kurt-Stufe-1 Originale (18)
+3. [ ] nächste Klasse nach Bürger — Flussvolk S. 69–76 oder Akademiker S. 53–60
 
 Nicht: Website. Nicht: Simulation nachrechnen.
 

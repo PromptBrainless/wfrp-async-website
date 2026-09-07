@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Künstlerisch**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Geschicklichkeits-Bonus  
+**Würfe:** *Kunst*
 
-[prüfen am Buch S. 139]
-
+Du besitzt ein natürliches Talent für Künstlerisches und kannst mit nichts als etwas Zeit und geeignetem Material präzise Skizzen erstellen. Diese Befähigung kann im Spiel vielerlei Anwendung finden, zum Beispiel wenn du ein präzises Fahndungsbild skizzieren oder akkurate Darstellungen in einem Reisejournal gestalten möchtest, wobei die Festlegung der sich daraus ergebenden Vorteile beim SL liegt. Zudem fügt dieses Talent jeder Karriere, in die du wechselst, die Fähigkeit *Kunst (1 nach Wahl)* hinzu. Wenn sich bereits eine *Kunst*-Fähigkeit in der entsprechenden Karriere befindet, kannst du die entsprechende *Kunst*-Fähigkeit stattdessen für 5 EP weniger pro Steigerung verbessern.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Kunst Original](../../faehigkeiten/kunst/original.md)

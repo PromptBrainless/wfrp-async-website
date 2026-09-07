@@ -46,7 +46,9 @@ Liste und Häkchen: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
 - [x] Checkliste 🔴 — [12](knowledge/02-charaktere/12-erschaffung-checkliste.md)
 - [x] 39 Einzel-Erklärungen (Compendium) — [erschaffung/](knowledge/02-charaktere/erschaffung/README.md)
 - [x] UI-Orientierung A–C: Station 0 Welt, PnP-Gate, Erklär-Panel, W100, Herkunft, Bogen-Silhouette — [Plan](knowledge/10-system/08-ui-orientierung.md)
-- [ ] P2 Talent-Einsatz der 8 Demo-Talente, dann Stufe-1-Originale
+- [x] P2 Talent-Einsatz der 8 Demo-Talente
+- [x] P3 Stufe-1-Originale Bürger + Kurt (18)
+- [ ] Nächste Klasse (Flussvolk oder Akademiker) oder Angepasst der 18 Originale
 
 ## PDF / Buchseiten
 

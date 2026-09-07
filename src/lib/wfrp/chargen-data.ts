@@ -456,7 +456,7 @@ export const CAREERS: CareerDef[] = [
       name: "Rekrut der Wache",
       status: { tier: "messing", rank: 3 },
       skills: ["ausdauer", "ausweichen", "athletik", "gluecksspiel", "klettern", "nahkampf", "wahrnehmung", "zechen"],
-      talents: ["Beharrlich", "Betäubender Schlag", "Gedrift", "Robustheit"],
+      talents: ["Beharrlich", "Betäubender Schlag", "Gedrillt", "Robustheit"],
       gear: ["Handwaffe", "Gambeson", "Uniform"],
       plus: ["KG", "ST", "CH"],
     },

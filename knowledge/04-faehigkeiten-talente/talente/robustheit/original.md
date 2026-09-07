@@ -5,13 +5,13 @@ Status: Original, nicht anfassen
 
 **Robustheit**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Widerstands-Bonus
 
-[prüfen am Buch S. 142]
-
+Du erhältst eine permanente Erhöhung deiner Lebenspunkte in Höhe deines Widerstands-Bonus. Wenn sich dein Widerstands-Bonus erhöht, erhöht sich auch die Anzahl der LP, die *Robustheit* gewährt.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [LP](../../../02-charaktere/erschaffung/15-lp-max.md)

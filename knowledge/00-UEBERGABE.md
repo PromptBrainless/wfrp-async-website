@@ -25,7 +25,7 @@ Das Regelwerk bleibt die Autorität.
 
 ## 2. Was steht
 
-Gerüste: **329** Ordner. Buchtext im Original: **89** (45 Fähigkeiten, 12 Zustände, 8 Demo-Talente, 5 Völker, 10 Attribute, 8 Bürger, Halunke).
+Gerüste: **329** Ordner. Buchtext im Original: **107** (45 Fähigkeiten, 12 Zustände, 8 Demo-Talente, 18 Stufe-1 Bürger/Kurt, 5 Völker, 10 Attribute, 8 Bürger, Halunke).
 
 Gate: `python3 skill/scripts/validate_wissen.py`
 
@@ -33,13 +33,14 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 
 ## 5. Nächste Aufgabe
 
-1. P2: „Einsatz in der Spielwelt“ in den 8 Demo-Talenten (`details.md`)
-2. P3: Originale der fehlenden Stufe-1-Talente (Bürger + Kurt)
-3. Erst danach nächste Klasse
+1. [x] P2: Einsatz in der Spielwelt, 8 Demo-Talente
+2. [x] P3: Originale Bürger-Stufe-1 + Kurt-Stufe-1 (18 Talente)
+3. Nächste Klasse: Flussvolk S. 69–76 oder Akademiker S. 53–60
+4. Oder: Angepasst/Details der 18 neuen Originale
 
 Gespräch: [10](02-charaktere/10-erschaffung-gespraech.md) — Welt zuerst, dann PnP. Erklärungen einzeln: [erschaffung/](02-charaktere/erschaffung/README.md) (`erkläre <thema>`).
 
-**Nicht tun:** Website, Simulation, Kult-Vollkapitel vor P2.
+**Nicht tun:** Simulation, Kult-Vollkapitel vor der nächsten Klasse.
 
 ---
 
