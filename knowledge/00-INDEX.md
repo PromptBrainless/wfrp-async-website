@@ -127,6 +127,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Befehlsregister](10-system/06-befehle.md)
 - ✅ [Vollständigkeit](10-system/06-vollstaendigkeit.md)
 - ✅ [Simulation Buch-Rechnung](10-system/07-simulation-buch-rechnung.md)
+- ✅ [UI Orientierung Erschaffung](10-system/08-ui-orientierung.md)
 
 ## 11 – Religion und Glaube
 - 📝 [Übersicht](11-religion/01-uebersicht.md)
