@@ -44,7 +44,7 @@ Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.
 
 ## Stand
 
-Fortschritt: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — **107 / 329** Originale mit Buchtext.
+Fortschritt: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — **115 / 329** Originale mit Buchtext.
 
 Oberfläche in Arbeit (Pergament auf dem Pult): Start, Erschaffung (11 Stationen), Bogen, Demo-Tisch. Simulation bleibt hintan. Buch bleibt die Autorität.
 

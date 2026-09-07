@@ -25,7 +25,7 @@ Das Regelwerk bleibt die Autorität.
 
 ## 2. Was steht
 
-Gerüste: **329** Ordner. Buchtext im Original: **107** (45 Fähigkeiten, 12 Zustände, 8 Demo-Talente, 18 Stufe-1 Bürger/Kurt, 5 Völker, 10 Attribute, 8 Bürger, Halunke).
+Gerüste: **329** Ordner. Buchtext im Original: **115** (45 Fähigkeiten, 12 Zustände, 26 Talente Demo/Stufe-1, 5 Völker, 10 Attribute, 8 Bürger, Halunke, 8 Flussvolk).
 
 Gate: `python3 skill/scripts/validate_wissen.py`
 
@@ -35,8 +35,8 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 
 1. [x] P2: Einsatz in der Spielwelt, 8 Demo-Talente
 2. [x] P3: Originale Bürger-Stufe-1 + Kurt-Stufe-1 (18 Talente)
-3. Nächste Klasse: Flussvolk S. 69–76 oder Akademiker S. 53–60
-4. Oder: Angepasst/Details der 18 neuen Originale
+3. [x] Flussvolk S. 69–76 (8 Originale)
+4. Akademiker S. 53–60 oder Schema-Symbole Flussvolk gegen Karte prüfen
 
 Gespräch: [10](02-charaktere/10-erschaffung-gespraech.md) — Welt zuerst, dann PnP. Erklärungen einzeln: [erschaffung/](02-charaktere/erschaffung/README.md) (`erkläre <thema>`).
 

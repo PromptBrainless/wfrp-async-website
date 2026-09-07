@@ -1,10 +1,20 @@
 # Strandräuber — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 69)
+Quelle der Regeln: [original.md](original.md) (S. 76)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Stufe 1: **Frachtplünderer**, Messing 2.
 
+## Bogen
 
+Keys: `klasse` = `flussvolk`, `karriere` = `strandraeuber`, `karrierestufe` = 1, `karrierestufe_name` = Frachtplünderer, `status.tier` = messing, `status.rang` = 2.
+
+## Talente Stufe 1
+
+Verfügbar, nicht automatisch alle auf dem Bogen: Fischer, Kriminell, Starker Rücken, Türentreter.
+
+## Karte
+
+Keine eigene Katalogkarte. Karriere filtert, welche Fähigkeiten/Talente der Charakter **kennen** darf.
 
 ### Befehl
 
@@ -14,5 +24,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 
 - [Original](original.md)
 - [Details](details.md)
-- [Flussvolk](../../flussvolk/README.md)
+- [Flussvolk](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
+- [Status](../../02-status-system.md)

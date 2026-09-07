@@ -6,7 +6,7 @@ Vorlage: [00-VORLAGE.md](00-VORLAGE.md) · Befehle: [00-BEFEHLE.md](00-BEFEHLE.m
 
 **Simulation und UI sind kein Teil dieses Plans.**
 
-Stand: 2026-09-07 · Originale mit Buchtext: **107 / 329** Gerüste.
+Stand: 2026-09-07 · Originale mit Buchtext: **115 / 329** Gerüste.
 
 ---
 
@@ -53,12 +53,13 @@ Hub: [05-zustaende.md](05-regeln/05-zustaende.md) · Roh: [\_roh/zustaende-s167-
 
 ### Welle B — Karrieren S. 53–116
 
-[x] 9 / 64 Originale
+[x] 17 / 64 Originale
 
 - [x] [Städter](03-klassen-karrieren/buerger/staedter/original.md) S. 67 (Greta = Gehilfe)
 - [x] [Kaufmann](03-klassen-karrieren/buerger/kaufmann/original.md) S. 65 (Otto = Händler)
 - [x] [Halunke](03-klassen-karrieren/gesetzlose/halunke/original.md) S. 88 (Kurt = Schläger)
 - [x] restliche 6 Bürger — Klasse Bürger 8/8
+- [x] Flussvolk 8/8 — S. 69–76
 
 ### Welle D — Talente S. 132–147
 
@@ -97,7 +98,8 @@ Demo:
 0. [x] [Prompt Erschaffung + Weltwissen](02-charaktere/PROMPT-erschaffung-weltwissen.txt) — **P1 Primer** + **39 Einzel-Erklärungen** ([erschaffung/](02-charaktere/erschaffung/README.md))
 1. [x] 8 Demo-Talente: Einsatz in der Spielwelt (`details.md`)
 2. [x] Talente der Bürger-Stufe-1 + Kurt-Stufe-1 Originale (18)
-3. [ ] nächste Klasse nach Bürger — Flussvolk S. 69–76 oder Akademiker S. 53–60
+3. [x] nächste Klasse nach Bürger — Flussvolk S. 69–76
+4. [ ] Akademiker S. 53–60 oder Angepasst/Details der Flussvolk-Talente
 
 Nicht: Website. Nicht: Simulation nachrechnen.
 
