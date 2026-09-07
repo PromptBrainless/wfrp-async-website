@@ -20,6 +20,32 @@ Abgeleitet (Zehnerstelle, LP-Max, …) nicht speichern, außer als Cache.
 | `status_tier` | messing \| silber \| gold | S. 49 |
 | `status_rang` | 1–8 | S. 49 |
 | `motivation` | string | S. 34, 44 |
+| `karrierestufe_name` | string | S. 47 (Gehilfe, Händler, …) |
+
+## Aussehen, Herkunft, Glauben, Ziele
+
+Buch fragt sie in Schritt 6–8. Keine eigenen Regeln, nur Felder. Motivation bleibt Mut (S. 34); Ziele sind EP (S. 40).
+
+| Key | Typ | Buch |
+|-----|-----|------|
+| `alter` | Zahl | S. 39 |
+| `groesse_cm` | Zahl | S. 40 |
+| `augen` | string | S. 40 |
+| `haar` | string | S. 40 |
+| `bart` | string, optional | S. 39 |
+| `gemuet` | ein Satz | S. 37 (keine Tabelle) |
+| `herkunft` | string | S. 42 Frage 1 |
+| `gott` | slug oder Name | S. 42 Frage 8, S. 202 |
+| `ziel_kurz` | string | S. 40 |
+| `ziel_lang` | string | S. 40 |
+| `ziel_geheim` | ja/nein | S. 41 Ruchlose Pläne |
+| `gruppe_name` | string | S. 44 |
+| `gruppe_ziel_kurz` | string | S. 41 |
+| `gruppe_ziel_lang` | string | S. 41 |
+| `ep_ausgegeben` | Zahl | S. 44 |
+| `ep_gesamt` | Zahl | S. 44 |
+
+`ep` bleibt die unausgegebene Menge. Glauben-Primer: [11-religion/04-glauben-bei-der-erschaffung.md](11-religion/04-glauben-bei-der-erschaffung.md).
 
 ## Zehn Spielwerte
 
@@ -77,3 +103,4 @@ Keys klein, Anzeige groß. Bonus = Zehnerstelle, Key = Wert + `b`.
 - [Register](00-REGISTER.md)
 - [Attribute-Hub](02-charaktere/04-attribute.md)
 - [Erklärung des Bogens](02-charaktere/08-charakterbogen.md)
+- [Anfänger-Hilfe](02-charaktere/09-anfaenger-hilfe.md)

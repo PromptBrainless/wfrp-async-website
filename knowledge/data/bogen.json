@@ -10,7 +10,28 @@
       "karrierestufe",
       "status_tier",
       "status_rang",
-      "motivation"
+      "motivation",
+      "karrierestufe_name"
+    ],
+    "aussehen_hintergrund": [
+      "alter",
+      "groesse_cm",
+      "augen",
+      "haar",
+      "bart",
+      "gemuet",
+      "herkunft",
+      "gott"
+    ],
+    "ziele_gruppe_ep": [
+      "ziel_kurz",
+      "ziel_lang",
+      "ziel_geheim",
+      "gruppe_name",
+      "gruppe_ziel_kurz",
+      "gruppe_ziel_lang",
+      "ep_ausgegeben",
+      "ep_gesamt"
     ],
     "werte": [
       "kg",

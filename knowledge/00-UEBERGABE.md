@@ -33,13 +33,11 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 
 ## 5. Nächste Aufgabe
 
-Prompt: [PROMPT-erschaffung-weltwissen.txt](02-charaktere/PROMPT-erschaffung-weltwissen.txt)
-
-1. Primer für Neulinge (Alte Welt, Glauben bei der Erschaffung, Alltag Reikland, Anfänger-Hilfe)
-2. Talent-Einsatz in details.md (8 Demo-Talente, dann Stufe-1 Bürger)
+1. P2: „Einsatz in der Spielwelt“ in den 8 Demo-Talenten (`details.md`)
+2. P3: Originale der fehlenden Stufe-1-Talente (Bürger + Kurt)
 3. Erst danach nächste Klasse
 
-**Nicht tun:** Website, Simulation, Magie/Religion-Vollkapitel vor dem Primer.
+**Nicht tun:** Website, Simulation, Kult-Vollkapitel vor P2.
 
 ---
 

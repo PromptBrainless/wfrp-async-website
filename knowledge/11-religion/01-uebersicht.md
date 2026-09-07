@@ -13,5 +13,6 @@ Kapitel umfasst:
 ---
 
 ### Siehe auch
+- [Glauben bei der Erschaffung](04-glauben-bei-der-erschaffung.md) — Primer, nicht Volltext
 - [Klassen und Karrieren](../03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
 - [Fähigkeiten & Talente](../04-faehigkeiten-talente/01-struktur.md)

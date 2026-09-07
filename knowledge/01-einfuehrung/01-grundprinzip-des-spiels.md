@@ -39,6 +39,8 @@ Spieler können aber auch völlig andere Ziele verfolgen – der SL muss dann im
 ---
 
 ### Siehe auch
+- [Die Alte Welt](03-die-alte-welt.md)
+- [Anfänger-Hilfe Erschaffung](../02-charaktere/09-anfaenger-hilfe.md)
 - [Kernrollen des Spielleiters](../06-spielleiter/01-kernrollen-des-SL.md)
 - [Ablauf am Spieltisch](../06-spielleiter/02-ablauf-am-spieltisch.md)
 - [Sims-Prinzip-Ableitung](../10-system/01-sims-prinzip-ableitung.md)

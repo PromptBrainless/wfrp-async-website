@@ -25,6 +25,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 ## 01 – Einführung
 - ✅ [Grundprinzip des Spiels](01-einfuehrung/01-grundprinzip-des-spiels.md)
 - 📝 [Brief bezüglich des Imperiums](01-einfuehrung/02-brief-imperium.md)
+- ✅ [Die Alte Welt — Primer](01-einfuehrung/03-die-alte-welt.md)
 
 ## 02 – Charaktere
 - ✅ [Charaktererschaffung – Übersicht](02-charaktere/01-charaktererschaffung-uebersicht.md)
@@ -35,6 +36,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Ausrüstung und zusätzliche Details](02-charaktere/06-ausruestung-details.md)
 - ✅ [Gruppe, Charaktere zum Leben erwecken & Steigerungen](02-charaktere/07-gruppe-und-steigerungen.md)
 - ✅ [Erklärung des Charakterbogens](02-charaktere/08-charakterbogen.md)
+- ✅ [Anfänger-Hilfe Erschaffung](02-charaktere/09-anfaenger-hilfe.md)
 - ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) — 5 Originale
 
 ## 03 – Klassen und Karrieren
@@ -90,6 +92,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - 📝 [Übersicht](07-reikland/01-uebersicht.md)
 - 📝 [Landschaft](07-reikland/02-landschaft.md)
 - 📝 [Politik und Ansiedlungen](07-reikland/03-politik-ansiedlungen.md)
+- ✅ [Leben im Reikland — Primer](07-reikland/04-leben-im-reikland.md)
 
 ## 08 – Einkauf
 - ✅ [Ausrüstung und Preise](08-einkauf/01-ausruestung-preise.md)
@@ -125,6 +128,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - 📝 [Übersicht](11-religion/01-uebersicht.md)
 - 📝 [Die Kulte](11-religion/02-kulte.md)
 - 📝 [Segnungen und Wunder](11-religion/03-segnungen-wunder.md)
+- ✅ [Glauben bei der Erschaffung](11-religion/04-glauben-bei-der-erschaffung.md)
 
 ## 12 – Magie
 - 📝 [Übersicht](12-magie/01-uebersicht.md)

@@ -71,6 +71,8 @@ Charakter
   karriere, karrierestufe
   status: { tier: StatusTier, rang: 1..8 }
   motivation: string
+  # Aussehen/Herkunft/Gott/Ziele: Keys in 00-BOGEN.md (alter, herkunft, gott, ziel_kurz, …)
+  karrierestufe_name?: string
   attribute: Record<Attr, 0..100+>
   faehigkeiten: [{
     id,               # "feilschen" | "nahkampf.waffenlos" | "wahrnehmung"

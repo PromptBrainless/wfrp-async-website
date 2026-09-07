@@ -2,6 +2,8 @@
 
 Quelle: S. 24 ff.
 
+Spieler ohne Vorwissen: [Anfänger-Hilfe](09-anfaenger-hilfe.md) · [Alte Welt](../01-einfuehrung/03-die-alte-welt.md) · [Glauben](../11-religion/04-glauben-bei-der-erschaffung.md)
+
 ## Die 9 Schritte
 
 1. **Völker** (S. 24)
