@@ -11,7 +11,8 @@
       "status_tier",
       "status_rang",
       "motivation",
-      "karrierestufe_name"
+      "karrierestufe_name",
+      "karriereweg"
     ],
     "aussehen_hintergrund": [
       "alter",
@@ -68,7 +69,8 @@
       "vorteile",
       "ep",
       "traglast",
-      "traglast_max"
+      "traglast_max",
+      "korrumpierung"
     ],
     "listen": [
       "faehigkeiten",
@@ -78,10 +80,23 @@
       "flags",
       "gebunden_mit"
     ],
+    "bogen_rueckseite": [
+      "psychologie",
+      "mutationen",
+      "rp_kopf",
+      "rp_arm_r",
+      "rp_arm_l",
+      "rp_koerper",
+      "rp_bein_r",
+      "rp_bein_l",
+      "rp_schild",
+      "zauber_gebete",
+      "suende"
+    ],
     "geld": [
       "geld_gk",
       "geld_s",
-      "geld_d"
+      "geld_g"
     ],
     "kampf": [
       "waffe_gefuehrt"

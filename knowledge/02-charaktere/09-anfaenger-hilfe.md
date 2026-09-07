@@ -2,7 +2,7 @@
 
 Spielerseite der neun Schritte. Mechanik bleibt in den Hubs und Originalen. Hier: was du wählst, warum es in der Welt zählt.
 
-**Gespräch mit Verzweigung (🔴):** [Erschaffung — Gesprächsleitfaden](10-erschaffung-gespraech.md) — zuerst PnP, dann die neun Schritte, inkl. Status / Währung / Rang / W100 / Motivation.
+**Gespräch mit Verzweigung (🔴):** [Leitfaden](10-erschaffung-gespraech.md) · [Checkliste mit Notizen](12-erschaffung-checkliste.md) — **Welt (Volk) zuerst**, danach PnP, dann Profession.
 
 Vorher eine Seite Welt: [Die Alte Welt](../01-einfuehrung/03-die-alte-welt.md).
 
@@ -93,6 +93,7 @@ Wenn du nur diese Datei plus Alte Welt plus Glauben gelesen hast, solltest du sa
 ### Siehe auch
 
 - [Gesprächsleitfaden 🔴](10-erschaffung-gespraech.md)
+- [Checkliste 🔴 vervollständigt](12-erschaffung-checkliste.md)
 - [Antworten vollständig](11-erschaffung-antworten.md)
 - [Neun Schritte](01-charaktererschaffung-uebersicht.md)
 - [Bogen-Felder](../00-BOGEN.md)

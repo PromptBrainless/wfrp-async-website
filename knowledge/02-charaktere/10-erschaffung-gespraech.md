@@ -1,23 +1,13 @@
 # Erschaffung — Gesprächsleitfaden
 
 Quelle der Regeln: S. 24–45.  
-Quelle der 🔴-Fragen: Spieler-Paste Schritte 1–3, Projekt Schritte 0 und 4–9. Jeder Schritt trägt 🔴. Antworten: [11-erschaffung-antworten.md](11-erschaffung-antworten.md).
+Quelle der 🔴-Notizen: Spieler-Checkliste, vervollständigt in [12-erschaffung-checkliste.md](12-erschaffung-checkliste.md). Antworten: [11-erschaffung-antworten.md](11-erschaffung-antworten.md).
 
 Zwei Schichten. **Gespräch** fragt, ob erklärt werden muss. **Wahl** ist nur Buch. Originale bleiben unangetastet.
 
-Reihenfolge im Gespräch: zuerst **0) PnP**, dann die neun Schritte. Nicht umgekehrt (Volk ohne PnP verwirrt).
+Reihenfolge: **Volk (Welt) zuerst**, danach PnP, dann Profession. Nicht PnP vor der Welt.
 
 Antworten nicht erfinden. Vollständige Antworten: [11-erschaffung-antworten.md](11-erschaffung-antworten.md). Welt: [Alte Welt](../01-einfuehrung/03-die-alte-welt.md). Mechanik: jeweiliger Hub.
-
----
-
-## 0) PnP 🔴
-
-(Ist dir bekannt, was ein Pen-and-Paper-Rollenspiel (PnP) ist? Hast du schon einmal Pen & Paper gespielt? Kennst du den Unterschied zwischen einem Computerspiel und einem PnP? Weißt du, welche Aufgabe der Spielleiter übernimmt? Weißt du, welche Aufgabe die Spieler übernehmen? Ist dir bekannt, dass es oft keine festen Lösungswege gibt? Möchtest du eine kurze Erklärung erhalten? Möchtest du wissen, wie wir digitale Hilfsmittel für die Charaktererstellung nutzen? Soll dein Charakter möglichst nah an deiner Persönlichkeit sein oder völlig anders? Möchtest du einen klassischen Helden, Antihelden oder etwas dazwischen spielen? Hast du bereits eine grobe Charakteridee?)
-
-**Erklärung, wenn nötig.** Ein Spieler ist SL und beschreibt die Welt. Die anderen spielen je eine Figur. Es gibt oft keinen vorgeschriebenen Sieg. Würfel entscheiden unsichere Handlungen, der SL die Welt. Digital helfen wir nur beim Anlegen und Rechnen — die Figur bleibt deine. Avatar = Spielercharakter, nicht ein zweites Ich aus einem Computerspiel.
-
-Buch: [Grundprinzip](../01-einfuehrung/01-grundprinzip-des-spiels.md)
 
 ---
 
@@ -32,6 +22,14 @@ Buch: [Grundprinzip](../01-einfuehrung/01-grundprinzip-des-spiels.md)
 **Erklärung, wenn nötig.** Die Demo spielt im Reikland. Menschen sind die Mehrheit, ehren oft Sigmar, ohne Priester zu sein. Zwerge, Halblinge, Elfen sind sichtbar fremd — lies die „Ansichten“ im Völker-Original, nicht nur die Zahlen. Mensch ist nicht „langweilig“, sondern der Default der Welt.
 
 - [Völker](02-voelker-kurz.md) · [Mensch](voelker/mensch/original.md) · [Alte Welt](../01-einfuehrung/03-die-alte-welt.md)
+
+### Danach PnP 🔴
+
+(Dir wurde nun ein wenig mehr über die Welt erzählt. Weißt du, was ein Pen-&-Paper-Rollenspiel ist? Ich erkläre es dir — und was wir mit digitalen Hilfsmitteln daraus machen. Wir erstellen dir einen persönlich zugeschnittenen Charakter, Avatar genannt. Dafür braucht deine Figur eine Profession — oder du lässt würfeln.)
+
+**Erklärung.** SL beschreibt die Welt, Spieler eine Figur. Kein festes Skript. Digital: Anlegen und Rechnen. Avatar = SC. Profession = nächster Schritt.
+
+Buch: [Grundprinzip](../01-einfuehrung/01-grundprinzip-des-spiels.md)
 
 ---
 
@@ -184,6 +182,7 @@ Nach diesem Leitfaden: PnP vs. Computerspiel; warum meist Menschen; Klasse ≠ K
 
 ### Siehe auch
 
+- [Checkliste mit 🔴-Notizen](12-erschaffung-checkliste.md)
 - [Antworten auf alle 🔴-Fragen](11-erschaffung-antworten.md)
 - [Anfänger-Hilfe (kurz)](09-anfaenger-hilfe.md)
 - [Neun Schritte](01-charaktererschaffung-uebersicht.md)

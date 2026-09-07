@@ -37,7 +37,7 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 2. P3: Originale der fehlenden Stufe-1-Talente (Bürger + Kurt)
 3. Erst danach nächste Klasse
 
-Gesprächsleitfaden: [10-erschaffung-gespraech.md](02-charaktere/10-erschaffung-gespraech.md)
+Gesprächsleitfaden: [10-erschaffung-gespraech.md](02-charaktere/10-erschaffung-gespraech.md) — Welt zuerst, dann PnP. Checkliste: [12-erschaffung-checkliste.md](02-charaktere/12-erschaffung-checkliste.md).
 
 **Nicht tun:** Website, Simulation, Kult-Vollkapitel vor P2.
 

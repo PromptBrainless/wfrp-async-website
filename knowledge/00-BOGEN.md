@@ -21,6 +21,7 @@ Abgeleitet (Zehnerstelle, LP-Max, …) nicht speichern, außer als Cache.
 | `status_rang` | 1–8 | S. 49 |
 | `motivation` | string | S. 34, 44 |
 | `karrierestufe_name` | string | S. 47 (Gehilfe, Händler, …) |
+| `karriereweg` | string | S. 344 Blatt, start leer / aktuelle Karriere |
 
 ## Aussehen, Herkunft, Glauben, Ziele
 
@@ -79,6 +80,19 @@ Keys klein, Anzeige groß. Bonus = Zehnerstelle, Key = Wert + `b`.
 | `ep` | unausgegebene |
 | `traglast` | Summe Inventar |
 | `traglast_max` | `stb + wib` (+ Stämmig / Starker Rücken) |
+| `korrumpierung` | aktuell, Start 0 (S. 182) |
+
+## Bogen-Rückseite, in den 9 Schritten nicht gefragt
+
+Start leer bzw. 0. Blatt S. 345.
+
+| Key | Typ | Buch |
+|-----|-----|------|
+| `psychologie` | string | S. 190, meist leer |
+| `mutationen` | string[] | S. 183 |
+| `rp_kopf` `rp_arm_r` `rp_arm_l` `rp_koerper` `rp_bein_r` `rp_bein_l` `rp_schild` | Zahl | S. 45 Silhouette |
+| `zauber_gebete` | Liste | S. 45, nur Magie/Glaube |
+| `suende` | Zahl | S. 45 |
 
 ## Listen
 
@@ -95,7 +109,7 @@ Keys klein, Anzeige groß. Bonus = Zehnerstelle, Key = Wert + `b`.
 
 | Key | |
 |-----|--|
-| `geld_gk` `geld_s` `geld_d` | 12 d = 1 S, 20 S = 1 GK |
+| `geld_gk` `geld_s` `geld_g` | 12 G = 1 S, 20 S = 1 GK. **Kein Pfennig, kein `geld_d`.** |
 | `waffe_gefuehrt` | Gegenstand-`id` |
 
 ### Siehe auch
@@ -104,3 +118,4 @@ Keys klein, Anzeige groß. Bonus = Zehnerstelle, Key = Wert + `b`.
 - [Attribute-Hub](02-charaktere/04-attribute.md)
 - [Erklärung des Bogens](02-charaktere/08-charakterbogen.md)
 - [Anfänger-Hilfe](02-charaktere/09-anfaenger-hilfe.md)
+- [Checkliste 🔴](02-charaktere/12-erschaffung-checkliste.md)

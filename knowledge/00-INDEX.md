@@ -38,6 +38,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Erklärung des Charakterbogens](02-charaktere/08-charakterbogen.md)
 - ✅ [Anfänger-Hilfe Erschaffung](02-charaktere/09-anfaenger-hilfe.md)
 - ✅ [Erschaffung — Gesprächsleitfaden](02-charaktere/10-erschaffung-gespraech.md)
+- ✅ [Erschaffung — Checkliste 🔴](02-charaktere/12-erschaffung-checkliste.md)
 - ✅ [Erschaffung — Antworten 🔴](02-charaktere/11-erschaffung-antworten.md)
 - ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) — 5 Originale
 
