@@ -45,7 +45,7 @@ Liste und Häkchen: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
 - [x] Gesprächsleitfaden 🔴 — Welt zuerst, dann PnP — [10](knowledge/02-charaktere/10-erschaffung-gespraech.md)
 - [x] Checkliste 🔴 — [12](knowledge/02-charaktere/12-erschaffung-checkliste.md)
 - [x] 39 Einzel-Erklärungen (Compendium) — [erschaffung/](knowledge/02-charaktere/erschaffung/README.md)
-- [ ] UI-Orientierung A: Station 0 Welt, PnP-Gate, Erklär-Panel — [Plan](knowledge/10-system/08-ui-orientierung.md)
+- [x] UI-Orientierung A–C: Station 0 Welt, PnP-Gate, Erklär-Panel, W100, Herkunft, Bogen-Silhouette — [Plan](knowledge/10-system/08-ui-orientierung.md)
 - [ ] P2 Talent-Einsatz der 8 Demo-Talente, dann Stufe-1-Originale
 
 ## PDF / Buchseiten

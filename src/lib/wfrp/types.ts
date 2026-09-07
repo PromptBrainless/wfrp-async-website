@@ -120,6 +120,20 @@ export interface Character {
   flags: string[];
   kind: "pc" | "npc" | "spectator";
   attitude?: string;
+  details?: {
+    age?: number;
+    heightCm?: number;
+    eyes?: string;
+    hair?: string;
+    shortGoal?: string;
+    longGoal?: string;
+    herkunft?: string;
+    gott?: string;
+    bart?: string;
+    secretGoal?: string;
+    xpCurrent?: number;
+    xpTotal?: number;
+  };
 }
 
 export interface Exit {

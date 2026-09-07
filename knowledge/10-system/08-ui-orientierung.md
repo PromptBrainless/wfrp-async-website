@@ -3,7 +3,7 @@
 Quelle: Gespräch [10](../02-charaktere/10-erschaffung-gespraech.md), Erklärungen [erschaffung/](../02-charaktere/erschaffung/README.md), Bogen [00-BOGEN.md](../00-BOGEN.md).  
 Kein neues Regelwissen. Engine erfindet nichts. Simulation bleibt aus.
 
-Stand heute: der Wizard unter `/erschaffung` ist ein **9-Schritt-Form**, das mit der Volk-Karte beginnt. Die 🔴-Schicht (Welt, PnP, `erkläre`) fehlt. EP-Badge ist das auffälligste Element — für Neulinge das Falsche.
+Stand: A–C umgesetzt in `/erschaffung`, Startseite, Bogen.
 
 ---
 

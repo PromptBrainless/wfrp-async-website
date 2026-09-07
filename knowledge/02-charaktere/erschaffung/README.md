@@ -3,7 +3,7 @@
 Jede 🔴-Stelle der Charaktererschaffung hat **eine** Datei.
 Gespräch, Checkliste und Antworten **verweisen** hierher — Text nicht dreimal pflegen.
 Später: Compendium aus diesem Ordner zusammenziehen.
-UI: [Orientierungsplan](../../10-system/08-ui-orientierung.md).
+UI: [Orientierungsplan](../../10-system/08-ui-orientierung.md) — Stationen in `/erschaffung`, Texte aus diesem Ordner.
 
 Das sind **Projekt-Erklärungen** (Gespräch mit Neulingen). Buch-Volltext bleibt in
 `original.md` der Mechanik-Ordner. Hier nichts erfinden, das dem Buch widerspricht.
