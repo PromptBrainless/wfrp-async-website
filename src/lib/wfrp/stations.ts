@@ -14,19 +14,22 @@ export type StationId =
 export const STATIONS: {
   id: StationId;
   label: string;
+  why: string;
   explain: string[];
 }[] = [
-  { id: "welt", label: "Welt", explain: ["01-welt-und-voelker"] },
-  { id: "volk", label: "Volk", explain: ["01-welt-und-voelker"] },
-  { id: "pnp", label: "Spiel", explain: ["02-pnp"] },
+  { id: "welt", label: "Welt", why: "Zuhören, noch nicht wählen.", explain: ["01-welt-und-voelker"] },
+  { id: "volk", label: "Volk", why: "Kultur und Ort. Zahlen danach.", explain: ["01-welt-und-voelker"] },
+  { id: "pnp", label: "Spiel", why: "Was digital ist, was der SL bleibt.", explain: ["02-pnp"] },
   {
     id: "karriere",
     label: "Karriere",
+    why: "Klasse ist Herkunft, Karriere der Beruf.",
     explain: ["03-klasse", "04-karriere", "05-status", "06-waehrung", "07-rang"],
   },
   {
     id: "werte",
     label: "Werte",
+    why: "Zehn Attribute, dann Schicksal.",
     explain: [
       "08-attribute",
       "09-w100",
@@ -41,6 +44,7 @@ export const STATIONS: {
   {
     id: "faehigkeiten",
     label: "Fähigkeiten",
+    why: "Was du kannst, und ein Talent.",
     explain: [
       "16-faehigkeit-und-talent",
       "17-zufaellige-talente",
@@ -51,16 +55,23 @@ export const STATIONS: {
   {
     id: "ausruestung",
     label: "Ausrüstung",
+    why: "Pakete und Startgeld folgen der Karriere.",
     explain: ["20-ausruestung", "21-gugel-oder-maske", "22-startgeld", "23-traglast"],
   },
   {
     id: "details",
     label: "Details",
+    why: "Name, Alter, Aussehen, Ziele.",
     explain: ["24-alter-aussehen", "25-bart", "26-ziele"],
   },
-  { id: "gruppe", label: "Gruppe", explain: ["27-gruppe"] },
-  { id: "leben", label: "Leben", explain: ["28-zehn-fragen", "39-psychologie"] },
-  { id: "xp", label: "EP", explain: ["29-steigerungen-ep"] },
+  { id: "gruppe", label: "Gruppe", why: "Überspringbar — der SL führt zusammen.", explain: ["27-gruppe"] },
+  {
+    id: "leben",
+    label: "Leben",
+    why: "Mindestens drei Fragen. Herkunft aus der Liste.",
+    explain: ["28-zehn-fragen", "39-psychologie"],
+  },
+  { id: "xp", label: "EP", why: "Optional. Der Bogen wartet.", explain: ["29-steigerungen-ep"] },
 ];
 
 export const STATION_IDS = STATIONS.map((s) => s.id);

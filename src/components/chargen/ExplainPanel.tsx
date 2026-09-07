@@ -24,7 +24,7 @@ export function ExplainPanel({
   return (
     <aside className={cn("flex flex-col gap-3", className)} hidden={open === false}>
       <div className="flex items-center justify-between gap-2">
-        <p className="font-display text-xs uppercase tracking-[0.18em] text-muted">Erklärung</p>
+        <p className="font-display text-xs uppercase tracking-mark text-muted">Erklärung</p>
         {onClose ? (
           <button type="button" className="min-h-11 px-2 text-muted" onClick={onClose} aria-label="Schließen">
             <X className="size-4" />
@@ -49,7 +49,7 @@ export function ExplainPanel({
         </div>
       ) : null}
       <h3 className="font-display text-lg leading-snug">{current.title}</h3>
-      <div className="space-y-3 text-sm leading-relaxed text-fg">
+      <div className="space-y-3 text-sm leading-relaxed">
         {current.paras.map((p) => (
           <p key={p.slice(0, 48)}>{p}</p>
         ))}

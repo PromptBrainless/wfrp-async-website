@@ -44,9 +44,9 @@ Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.
 
 ## Stand
 
-Fortschritt: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — 72 / 329 Originale mit Buchtext.
+Fortschritt: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — **107 / 329** Originale mit Buchtext.
 
-Simulation und UI sind später. Nicht in dieser Arbeitsliste.
+Oberfläche in Arbeit (Pergament auf dem Pult): Start, Erschaffung (11 Stationen), Bogen, Demo-Tisch. Simulation bleibt hintan. Buch bleibt die Autorität.
 
 Git-Hooks (Qualität): einmal `bash skill/scripts/install-hooks.sh`. Danach blocken `pre-commit` / `pre-push` kaputtes Wissen und Buchscans. CI: `.github/workflows/wissen.yml`.
 
@@ -68,7 +68,10 @@ knowledge/
   04-faehigkeiten-talente/faehigkeiten/
   10-system/                    Loop, Katalog, Datenmodell (abgeleitet)
   data/                         JSON, später
-src/lib/wfrp/                   Engine-Kern, kein UI
+src/lib/wfrp/                   Engine-Kern
+src/components/chargen/         Erschaffung
+src/components/game/            Bogen, Tisch, SL
+src/routes/                     Start, Erschaffung, Bogen, Tisch, SL
 ```
 
 ---

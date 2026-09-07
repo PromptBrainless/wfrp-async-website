@@ -28,7 +28,7 @@ export const CATALOG: ActionDef[] = [
     summary: "Den Ort und die Leute mit den Augen abtasten.",
   },
   {
-    id: "intuiton",
+    id: "intuition",
     label: "Einschätzen",
     cost: "H",
     tab: "sozial",
@@ -80,6 +80,15 @@ export const CATALOG: ActionDef[] = [
     skill: "klatsch",
     resolver: "simple",
     summary: "In der Menge nach Geschichten und Preisen fischen.",
+  },
+  {
+    id: "kaufen",
+    label: "Kaufen",
+    cost: "H",
+    tab: "sozial",
+    skill: "feilschen",
+    resolver: "opposed",
+    summary: "Zuerst zahlen, dann Feilschen um den Preis. Verfügbarkeit entscheidet der SL.",
   },
   {
     id: "schleichen",

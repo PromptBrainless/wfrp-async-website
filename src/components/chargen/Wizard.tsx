@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useNavigate } from "@tanstack/react-router";
+import { Link, useNavigate } from "@tanstack/react-router";
 import { BookOpen, ChevronLeft, ChevronRight, Dices, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ATTRS, type Attr } from "@/lib/wfrp/types";
@@ -45,6 +45,7 @@ export function ChargenWizard() {
   const station = draft.station ?? "welt";
   const idx = STATION_IDS.indexOf(station);
   const [sheet, setSheet] = useState(false);
+  const meta = STATIONS[idx] ?? STATIONS[0]!;
   const canNext = stationReady(station);
   const last = station === "xp";
 
@@ -60,94 +61,120 @@ export function ChargenWizard() {
   }
 
   return (
-    <div className="space-y-5">
-      <header className="flex flex-wrap items-end justify-between gap-3">
-        <div>
-          <p className="font-display text-xs uppercase tracking-[0.2em] text-muted">
-            Station {idx + 1} von {STATION_IDS.length}
-          </p>
-          <h1 className="font-display text-3xl">Charaktererschaffung</h1>
-          <p className="mt-1 max-w-xl text-sm text-muted">
-            Erst die Welt, dann das Spiel, dann die Figur. Eine Wahl pro Station. Erklärung rechts — oder „Erklären“.
-          </p>
-        </div>
-        <div className="flex items-center gap-2">
-          <div className="rounded-md border border-border bg-raised px-3 py-2 text-center">
-            <div className="font-display text-[10px] uppercase tracking-widest text-muted">Bonus-EP</div>
-            <div className="font-display text-lg tabular-nums">{ep}</div>
-          </div>
-          <Button variant="outline" size="sm" className="lg:hidden" onClick={() => setSheet(true)}>
-            <BookOpen className="size-4" />
-            Erklären
-          </Button>
-          <Button variant="ghost" size="sm" onClick={reset}>
-            <RotateCcw className="size-4" />
-            Neu
-          </Button>
-        </div>
-      </header>
+    <div className="desk min-h-dvh">
+      <img src="/images/desk.jpg" alt="" className="desk-photo" width={1792} height={1008} />
+      <div className="desk-veil desk-veil-read" aria-hidden />
 
-      <nav className="flex gap-1 overflow-x-auto pb-1" aria-label="Stationen">
-        {STATIONS.map((s, i) => {
-          const reached = i <= idx;
-          return (
-            <button
-              key={s.id}
-              type="button"
-              onClick={() => reached && setStation(s.id)}
-              className={cn(
-                "min-h-11 shrink-0 rounded-sm px-3 text-xs tracking-wide",
-                s.id === station ? "bg-primary text-primary-fg" : reached ? "bg-raised text-fg" : "text-faint",
-              )}
-            >
-              {s.label}
-            </button>
-          );
-        })}
-      </nav>
+      <div className="relative z-10 mx-auto flex h-dvh max-w-6xl flex-col gap-4 px-4 py-5">
+        <header className="flex flex-wrap items-center justify-between gap-3">
+          <div>
+            <Link to="/" className="font-display text-sm tracking-wide text-fg">
+              Die Frist
+            </Link>
+            <p className="mt-1 text-sm text-muted">{meta.why}</p>
+          </div>
+          <div className="flex items-center gap-2">
+            <p className="px-2 font-display text-xs text-muted">
+              Bonus-EP <span className="tabular-nums text-fg">{ep}</span>
+            </p>
+            <Button variant="outline" size="sm" className="lg:hidden" onClick={() => setSheet(true)}>
+              <BookOpen className="size-4" />
+              Erklären
+            </Button>
+            <Button variant="ghost" size="sm" onClick={reset}>
+              <RotateCcw className="size-4" />
+              Neu
+            </Button>
+          </div>
+        </header>
 
-      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_20rem]">
-        <div className="sheet">
-          <div className="sheet-inner space-y-5">
-            {station === "welt" && <StationWelt />}
-            {station === "volk" && <StepVolk />}
-            {station === "pnp" && <StationPnP />}
-            {station === "karriere" && <StepKarriere />}
-            {station === "werte" && <StepWerte />}
-            {station === "faehigkeiten" && <StepFaehigkeiten />}
-            {station === "ausruestung" && <StepAusruestung />}
-            {station === "details" && <StepDetails />}
-            {station === "gruppe" && <StepGruppe />}
-            {station === "leben" && <StepLeben />}
-            {station === "xp" && <StepXp />}
-          </div>
+        <nav className="flex gap-1 overflow-x-auto pb-1 lg:hidden" aria-label="Stationen">
+          {STATIONS.map((s, i) => {
+            const reached = i <= idx;
+            const current = s.id === station;
+            return (
+              <button
+                key={s.id}
+                type="button"
+                onClick={() => reached && setStation(s.id)}
+                className={cn(
+                  "min-h-11 shrink-0 rounded-sm px-3 font-display text-xs tracking-wide",
+                  current ? "bg-primary text-primary-fg" : reached ? "text-fg" : "text-faint",
+                )}
+              >
+                {current ? s.label : i + 1}
+              </button>
+            );
+          })}
+        </nav>
+
+        <div className="grid min-h-0 flex-1 grid-rows-1 gap-4 lg:grid-cols-[11rem_minmax(0,1fr)_20rem]">
+          <nav className="path-rail hidden min-h-0 overflow-y-auto lg:flex" aria-label="Stationen">
+            {STATIONS.map((s, i) => {
+              const reached = i <= idx;
+              return (
+                <button
+                  key={s.id}
+                  type="button"
+                  data-current={s.id === station}
+                  data-reached={reached}
+                  disabled={!reached}
+                  onClick={() => reached && setStation(s.id)}
+                >
+                  <span className="n">{i + 1}</span>
+                  <span>{s.label}</span>
+                </button>
+              );
+            })}
+          </nav>
+
+          <article className="blatt blatt-wide flex h-full min-h-0 flex-col overflow-hidden">
+            <div className="blatt-inner min-h-0 flex-1 overflow-y-auto">
+              {station === "welt" && <StationWelt />}
+              {station === "volk" && <StepVolk />}
+              {station === "pnp" && <StationPnP />}
+              {station === "karriere" && <StepKarriere />}
+              {station === "werte" && <StepWerte />}
+              {station === "faehigkeiten" && <StepFaehigkeiten />}
+              {station === "ausruestung" && <StepAusruestung />}
+              {station === "details" && <StepDetails />}
+              {station === "gruppe" && <StepGruppe />}
+              {station === "leben" && <StepLeben />}
+              {station === "xp" && <StepXp />}
+            </div>
+          </article>
+
+          <aside className="blatt blatt-wide hidden h-full min-h-0 flex-col overflow-hidden lg:flex">
+            <div className="blatt-inner min-h-0 flex-1 overflow-y-auto">
+              <ExplainPanel key={station} station={station} />
+            </div>
+          </aside>
         </div>
-        <div className="sheet hidden lg:block">
-          <div className="sheet-inner">
-            <ExplainPanel key={station} station={station} />
+
+        {sheet ? (
+          <div className="fixed inset-0 z-40 lg:hidden">
+            <button type="button" className="absolute inset-0 bg-shade/70" onClick={() => setSheet(false)} aria-label="Schließen" />
+            <div className="absolute inset-x-0 bottom-0 max-h-[80dvh] overflow-y-auto p-3">
+              <div className="blatt blatt-wide">
+                <div className="blatt-inner">
+                  <ExplainPanel key={station} station={station} onClose={() => setSheet(false)} />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        ) : null}
+
+        <footer className="chargen-bar">
+          <Button variant="outline" disabled={idx === 0} onClick={() => setStation(STATION_IDS[idx - 1]!)}>
+            <ChevronLeft className="size-4" />
+            Zurück
+          </Button>
+          <Button variant="wax" disabled={!canNext} onClick={next}>
+            {last ? "Auf den Bogen" : "Weiter"}
+            <ChevronRight className="size-4" />
+          </Button>
+        </footer>
       </div>
-
-      {sheet ? (
-        <div className="fixed inset-0 z-40 lg:hidden">
-          <button type="button" className="absolute inset-0 bg-bg/70" onClick={() => setSheet(false)} aria-label="Schließen" />
-          <div className="absolute inset-x-0 bottom-0 max-h-[80dvh] overflow-y-auto rounded-t-xl border border-border bg-surface p-4">
-            <ExplainPanel key={station} station={station} onClose={() => setSheet(false)} />
-          </div>
-        </div>
-      ) : null}
-
-      <footer className="flex items-center justify-between gap-3">
-        <Button variant="outline" disabled={idx === 0} onClick={() => setStation(STATION_IDS[idx - 1]!)}>
-          <ChevronLeft className="size-4" />
-          Zurück
-        </Button>
-        <Button variant="wax" disabled={!canNext} onClick={next}>
-          {last ? "Auf den Bogen" : "Weiter"}
-          <ChevronRight className="size-4" />
-        </Button>
-      </footer>
     </div>
   );
 }
