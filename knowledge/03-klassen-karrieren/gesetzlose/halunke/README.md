@@ -1,7 +1,9 @@
 # Halunke
 
-Quelle: S. 85
+Quelle: S. 88
 
 - [Original](original.md) — Buch, unverändert
 - [Angepasst](angepasst.md) — Projekt
 - [Details](details.md) — Hilfe
+
+Kurt = Schläger. Klasse: [Gesetzlose](../README.md).

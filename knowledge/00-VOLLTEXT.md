@@ -6,7 +6,7 @@ Vorlage: [00-VORLAGE.md](00-VORLAGE.md) · Befehle: [00-BEFEHLE.md](00-BEFEHLE.m
 
 **Simulation und UI sind kein Teil dieses Plans.**
 
-Stand: 2026-09-06 Abend · Originale mit Buchtext: **72 / 329** Gerüste.
+Stand: 2026-09-07 · Originale mit Buchtext: **73 / 329** Gerüste.
 
 ---
 
@@ -53,11 +53,11 @@ Hub: [05-zustaende.md](05-regeln/05-zustaende.md) · Roh: [\_roh/zustaende-s167-
 
 ### Welle B — Karrieren S. 53–116
 
-[ ] 2 / 64 Originale
+[ ] 3 / 64 Originale
 
 - [x] [Städter](03-klassen-karrieren/buerger/staedter/original.md) S. 67 (Greta = Gehilfe)
 - [x] [Kaufmann](03-klassen-karrieren/buerger/kaufmann/original.md) S. 65 (Otto = Händler)
-- [ ] Halunke (Kurt) — Klasse Gesetzlose
+- [x] [Halunke](03-klassen-karrieren/gesetzlose/halunke/original.md) S. 88 (Kurt = Schläger)
 - [ ] restliche 6 Bürger, dann übrige Klassen
 
 ### Welle D — Talente S. 132–147
@@ -80,7 +80,7 @@ Demo:
 [x] 5 / 5 Völker-Originale — [Hub](02-charaktere/02-voelker-kurz.md)  
 [x] Startfähigkeiten S. 35–36 — [05-faehigkeiten-talente-start.md](02-charaktere/05-faehigkeiten-talente-start.md)  
 [ ] 0 / 10 Attribut-Originale  
-[ ] Klasse/Karriere-Einführung, Ausrüstung, Bogen-Erklärung
+[x] Klasse/Karriere-Einführung, Ausrüstung, Bogen-Erklärung — Hubs S. 30–32 / 37–45
 
 ### Welle F–J — Rest Buch
 
@@ -94,8 +94,8 @@ Demo:
 
 ## Als Nächstes (Demo-Schnitt, Reihenfolge)
 
-1. [ ] Halunke (Kurt)
-2. [ ] Attribute S. 33–36, wenn der Bogen das braucht
+1. [ ] Attribute S. 33–36 — 10 Originale, wenn der Bogen das braucht
+2. [ ] restliche 6 Bürger (Agitator bis Wachmann, ohne Städter/Kaufmann)
 
 Nicht: Website. Nicht: Simulation nachrechnen.
 

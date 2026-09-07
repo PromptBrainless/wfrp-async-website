@@ -1,6 +1,6 @@
 # Kontext für ein neues Fenster
 
-Datum: 2026-09-06  
+Datum: 2026-09-07  
 Repo: https://github.com/PromptBrainless/wfrp-async-website  
 Workspace: `/workspace`
 
@@ -38,8 +38,9 @@ Liste und Häkchen: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
 - [x] Städter + Kaufmann Original
 - [x] 8 Demo-Talente Original
 - [x] 5 Völker Original
-- [ ] Halunke
-- [ ] restliche 159 Talente, 62 Karrieren, Attribute, Qualitäten
+- [x] Halunke (Kurt)
+- [ ] Attribute S. 33–36
+- [ ] restliche 159 Talente, 61 Karrieren, Qualitäten
 
 ## PDF / Buchseiten
 

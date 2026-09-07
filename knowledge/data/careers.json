@@ -309,7 +309,53 @@
       "id": "halunke",
       "name": "Halunke",
       "klasse": "gesetzlose",
-      "seite": 85
+      "seite": 88,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Schläger",
+          "status": {
+            "tier": "messing",
+            "rang": 3
+          },
+          "talente": [
+            "bedrohlich",
+            "etikette",
+            "kriminell",
+            "maechtiger_schlag"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Halunke",
+          "status": {
+            "tier": "messing",
+            "rang": 5
+          }
+        },
+        {
+          "nr": 3,
+          "name": "Bandenführer",
+          "status": {
+            "tier": "silber",
+            "rang": 3
+          }
+        },
+        {
+          "nr": 4,
+          "name": "Pate",
+          "status": {
+            "tier": "silber",
+            "rang": 5
+          }
+        }
+      ],
+      "original": "03-klassen-karrieren/gesetzlose/halunke/original.md"
     },
     {
       "id": "hehler",

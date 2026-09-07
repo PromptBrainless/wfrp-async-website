@@ -80,7 +80,14 @@ Beispiel: Stärke 39 → Stärke-Bonus (STB) 3; Willenskraft 51 → Willenskraft
 3. Neu würfeln oder 100 Punkte frei verteilen (min. 4, max. 18 pro Wert) + Modifikatoren.  
    → Keine EP.
 
+## Werte steigern (Erschaffung, S. 35)
+
+Blättere zu deiner Karriere und schau dir das Steigerungsprofil an. Drei Werte sind mit **+** markiert (ohne Bronze/Silber/Gold-Hintergrund). Du kannst **insgesamt bis zu 5 Steigerungen** deiner Wahl auf diese Werte verteilen.
+
+Wert-Steigerungen werden zum anfänglichen Wert addiert: Geschicklichkeit 25 + 5 Steigerungen = 30.
+
 ## Lebenspunkte (LP)
+
 
 LP = Stärke-Bonus + (2 × Widerstands-Bonus) + Willenskraft-Bonus  
 (bei Halblingen bereits durch Talent *Zierlich* angepasst).
@@ -104,16 +111,6 @@ LP = Stärke-Bonus + (2 × Widerstands-Bonus) + Willenskraft-Bonus
 | 4        | 8 m   | 16 m   |
 | 5        | 10 m  | 20 m   |
 
----
-
-### Siehe auch
-- [Charaktererschaffung – Übersicht](01-charaktererschaffung-uebersicht.md)
-- [Völker](02-voelker-kurz.md)
-- [Mensch](voelker/mensch/original.md) · [Zwerg](voelker/zwerg/original.md) · [Halbling](voelker/halbling/original.md) · [Hochelf](voelker/hochelf/original.md) · [Waldelf](voelker/waldelf/original.md)
-- [Startfähigkeiten](05-faehigkeiten-talente-start.md)
-- [Klassen und Karrieren](../03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
-- [Würfel und Grundmechanik](../05-regeln/01-wuerfel-und-grundmechanik.md)
-- [Kampf – Übersicht](../05-regeln/02-kampf-uebersicht.md)
 ## Einzelattribute
 
 - [`kg`](attribute/kg/README.md) Kampfgeschick (KG)
@@ -126,3 +123,12 @@ LP = Stärke-Bonus + (2 × Widerstands-Bonus) + Willenskraft-Bonus
 - [`in`](attribute/in/README.md) Intelligenz (IN)
 - [`wk`](attribute/wk/README.md) Willenskraft (WK)
 - [`ch`](attribute/ch/README.md) Charisma (CH)
+
+### Siehe auch
+- [Charaktererschaffung – Übersicht](01-charaktererschaffung-uebersicht.md)
+- [Völker](02-voelker-kurz.md)
+- [Mensch](voelker/mensch/original.md) · [Zwerg](voelker/zwerg/original.md) · [Halbling](voelker/halbling/original.md) · [Hochelf](voelker/hochelf/original.md) · [Waldelf](voelker/waldelf/original.md)
+- [Startfähigkeiten](05-faehigkeiten-talente-start.md)
+- [Klassen und Karrieren](../03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
+- [Würfel und Grundmechanik](../05-regeln/01-wuerfel-und-grundmechanik.md)
+- [Kampf – Übersicht](../05-regeln/02-kampf-uebersicht.md)

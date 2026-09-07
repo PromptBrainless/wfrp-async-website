@@ -52,6 +52,8 @@ Volltext: [Kaufmann](buerger/kaufmann/original.md) S. 65, [Städter](buerger/sta
 
 ## [Gesetzlose](gesetzlose/README.md) (S. 85)
 
+Volltext: [Halunke](gesetzlose/halunke/original.md) S. 88 (Kurt = Schläger).
+
 - [`bandit`](gesetzlose/bandit/README.md) Bandit
 - [`dieb`](gesetzlose/dieb/README.md) Dieb
 - [`grabraeuber`](gesetzlose/grabraeuber/README.md) Grabräuber

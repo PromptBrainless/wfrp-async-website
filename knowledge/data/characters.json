@@ -1,5 +1,5 @@
 {
-  "hinweis": "Demo-Bögen. Greta ist Städter/Gehilfe (Silber 1); Krämerin ist die Städter-Tätigkeit im Buch S. 67, keine eigene Karriere.",
+  "hinweis": "Demo-Bögen. Greta = Städter/Gehilfe (Silber 1). Otto = Kaufmann/Händler (Buch Silber 2, Demo Silber 1). Kurt = Halunke/Schläger (Buch Messing 3, Demo Messing 2).",
   "characters": [
     {
       "id": "greta",
@@ -211,6 +211,7 @@
       "klasse": "gesetzlose",
       "karriere": "halunke",
       "karrierestufe": 1,
+      "karrierestufe_name": "Schläger",
       "status": {
         "tier": "messing",
         "rang": 2
@@ -252,7 +253,22 @@
       },
       "waffe_gefuehrt": "waffenlos",
       "psychologie": [],
-      "zustaende": []
+      "zustaende": [],
+      "talente_karriere_stufe1": [
+        {
+          "id": "bedrohlich"
+        },
+        {
+          "id": "etikette"
+        },
+        {
+          "id": "kriminell"
+        },
+        {
+          "id": "maechtiger_schlag"
+        }
+      ],
+      "hinweis_talente": "Schläger-Liste. Nicht automatisch alle. Buch-Status Messing 3, Demo Messing 2."
     },
     {
       "id": "dieb",

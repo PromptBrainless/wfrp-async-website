@@ -274,7 +274,7 @@ Ein `id` je Typ. Slug: Kleinbuchstaben, `ae/oe/ue/ss`, Klammern weg.
 | `bandit` | Bandit | 85 | [03-klassen-karrieren/gesetzlose/bandit](03-klassen-karrieren/gesetzlose/bandit/README.md) |
 | `dieb` | Dieb | 85 | [03-klassen-karrieren/gesetzlose/dieb](03-klassen-karrieren/gesetzlose/dieb/README.md) |
 | `grabraeuber` | Grabräuber | 85 | [03-klassen-karrieren/gesetzlose/grabraeuber](03-klassen-karrieren/gesetzlose/grabraeuber/README.md) |
-| `halunke` | Halunke | 85 | [03-klassen-karrieren/gesetzlose/halunke](03-klassen-karrieren/gesetzlose/halunke/README.md) |
+| `halunke` | Halunke | 88 | [03-klassen-karrieren/gesetzlose/halunke](03-klassen-karrieren/gesetzlose/halunke/README.md) |
 | `hehler` | Hehler | 85 | [03-klassen-karrieren/gesetzlose/hehler](03-klassen-karrieren/gesetzlose/hehler/README.md) |
 | `hexer` | Hexer | 85 | [03-klassen-karrieren/gesetzlose/hexer](03-klassen-karrieren/gesetzlose/hexer/README.md) |
 | `kuppler` | Kuppler | 85 | [03-klassen-karrieren/gesetzlose/kuppler](03-klassen-karrieren/gesetzlose/kuppler/README.md) |

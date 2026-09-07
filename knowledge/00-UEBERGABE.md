@@ -1,6 +1,6 @@
 # Übergabe – WFRP asynchrone Website / Wissensbasis
 
-**Stand:** 2026-09-06 Abend. Internes Entwicklungsrepo.
+**Stand:** 2026-09-07. Internes Entwicklungsrepo.
 
 **Jetzt:** Buch → MD, drei Dateien je Mechanik. **Nicht:** Website, Simulation, Walkthrough.
 
@@ -25,7 +25,7 @@ Das Regelwerk bleibt die Autorität.
 
 ## 2. Was steht
 
-Gerüste: **329** Ordner. Buchtext im Original: **72** (45 Fähigkeiten, 12 Zustände, 8 Demo-Talente, 5 Völker, Städter, Kaufmann).
+Gerüste: **329** Ordner. Buchtext im Original: **73** (45 Fähigkeiten, 12 Zustände, 8 Demo-Talente, 5 Völker, Städter, Kaufmann, Halunke).
 
 Gate: `python3 skill/scripts/validate_wissen.py`
 
@@ -33,8 +33,8 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 
 ## 5. Nächste Aufgabe
 
-1. Halunke (Kurt)
-2. Attribute, wenn der Bogen das braucht
+1. Attribute S. 33–36, zehn Originale, wenn der Bogen das braucht
+2. restliche 6 Bürger
 
 **Nicht tun:** Website, Simulation, Magie/Religion vor dem Demo-Schnitt.
 
@@ -42,7 +42,9 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 
 ## 7. Letzte Commits
 
-- Völker S. 24–29 / 36 (diese Session)
+- Halunke S. 88 (Kurt = Schläger) — diese Session
+- Welle A Hubs Schritte 2 und 5–9
+- Völker S. 24–29 / 36
 - `a7316f4` — Fortschrittsliste
 - `a75ac81` — 12 Zustände
 - `47f5141` — Städter, Kaufmann, 8 Talente

@@ -28,12 +28,12 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 ## 02 – Charaktere
 - ✅ [Charaktererschaffung – Übersicht](02-charaktere/01-charaktererschaffung-uebersicht.md)
 - ✅ [Völker](02-charaktere/02-voelker-kurz.md) — 5 Originale S. 24–29, 36
-- 📝 [Klasse und Karriere – Einführung](02-charaktere/03-klasse-karriere-einfuehrung.md)
+- ✅ [Klasse und Karriere – Einführung](02-charaktere/03-klasse-karriere-einfuehrung.md)
 - ✅ [Attribute](02-charaktere/04-attribute.md) — 10 Ordner
 - ✅ [Fähigkeiten und Talente – Startauswahl](02-charaktere/05-faehigkeiten-talente-start.md) — S. 35–36
-- 📝 [Ausrüstung und zusätzliche Details](02-charaktere/06-ausruestung-details.md)
-- 📝 [Gruppe, Charaktere zum Leben erwecken & Steigerungen](02-charaktere/07-gruppe-und-steigerungen.md)
-- 📝 [Erklärung des Charakterbogens](02-charaktere/08-charakterbogen.md)
+- ✅ [Ausrüstung und zusätzliche Details](02-charaktere/06-ausruestung-details.md)
+- ✅ [Gruppe, Charaktere zum Leben erwecken & Steigerungen](02-charaktere/07-gruppe-und-steigerungen.md)
+- ✅ [Erklärung des Charakterbogens](02-charaktere/08-charakterbogen.md)
 - ✅ [Völker-Ordner](02-charaktere/voelker/mensch/README.md) — 5 Originale
 
 ## 03 – Klassen und Karrieren
@@ -44,7 +44,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - 📝 [Bürger](03-klassen-karrieren/05-buerger.md) — Original: [Städter](03-klassen-karrieren/buerger/staedter/README.md) S. 67, [Kaufmann](03-klassen-karrieren/buerger/kaufmann/README.md) S. 65; Rest Gerüst
 - 📝 [Flussvolk](03-klassen-karrieren/06-flussvolk.md)
 - 📝 [Freisassen](03-klassen-karrieren/07-freisassen.md)
-- 📝 [Gesetzlose](03-klassen-karrieren/08-gesetzlose.md)
+- 📝 [Gesetzlose](03-klassen-karrieren/08-gesetzlose.md) — Original: [Halunke](03-klassen-karrieren/gesetzlose/halunke/README.md) S. 88; Rest Gerüst
 - 📝 [Höflinge](03-klassen-karrieren/09-hoeflinge.md)
 - 📝 [Krieger](03-klassen-karrieren/10-krieger.md)
 - 📝 [Landvolk](03-klassen-karrieren/11-landvolk.md)
@@ -56,6 +56,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Rohkapitel Fähigkeiten](04-faehigkeiten-talente/_roh/hauptliste-s118-131.md)
 - ✅ [Roh Demo-Talente](04-faehigkeiten-talente/_roh/demo-talente-s134-146.md)
 - ✅ [Roh Kaufmann/Städter](03-klassen-karrieren/_roh/kaufmann-staedter-s65-67.md)
+- ✅ [Roh Halunke](03-klassen-karrieren/_roh/halunke-s88.md)
 
 ## 05 – Regeln
 - ✅ [Würfel und Grundmechanik](05-regeln/01-wuerfel-und-grundmechanik.md)
