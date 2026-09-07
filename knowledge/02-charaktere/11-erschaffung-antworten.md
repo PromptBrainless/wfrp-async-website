@@ -1,13 +1,13 @@
 # Erschaffung — Antworten auf alle 🔴-Fragen
 
 Quelle: Buch S. 6–8, 24–45, 49–52, 149–153, 170–171, 202–204, 266–268, 288–303.  
-Die Fragen stehen in [10-erschaffung-gespraech.md](10-erschaffung-gespraech.md). Hier die Antworten, die der Assistent gibt, **wenn** jemand „erklär das“ sagt. Ja/Nein-Fragen an den Spieler bleiben seine; wir liefern die Erklärung.
+Die Fragen stehen in [10-erschaffung-gespraech.md](10-erschaffung-gespraech.md) und [12-erschaffung-checkliste.md](12-erschaffung-checkliste.md). Reihenfolge: **Volk zuerst**, dann PnP. Hier die Antworten, die der Assistent gibt, **wenn** jemand „erklär das“ sagt.
 
 Nicht erfinden. Originale nicht ersetzen.
 
 ---
 
-## 0) PnP 🔴
+## 0) PnP 🔴 — nach dem Volk, nicht davor
 
 **Ist dir bekannt, was ein Pen-and-Paper-Rollenspiel ist?**  
 Ein Gesprächsspiel. Einer beschreibt die Welt (Spielleiter, SL). Die anderen spielen je eine Figur (Spielercharakter, SC). Zehnseitige Würfel (W10, W100) entscheiden unsichere Handlungen. Es gibt kein „Game Over“-Menü und oft keinen vorgeschriebenen Sieg.
@@ -270,14 +270,29 @@ Sparen heißt: erste Steigerung im Spiel, wenn du weißt, was die Gruppe wirklic
 
 ---
 
-## Nicht wählen
+## Nicht in den neun Schritten wählen 🔴
 
-LP aktuell = Max. Glück = Schicksal. Mut = Zähigkeit. Vorteile, Zustände, Korrumpierung, RP je Zone, Zauber/Gebete, Flags: leer bis das Spiel sie füllt. Geführte Waffe darf der Dolch aus dem Paket sein.
+LP aktuell = Max. Glück = Schicksal. Mut = Zähigkeit.
+
+**Vorteile** 🔴 — Kampf-Oberhand (S. 164). Marker. v1-Cap = IB. Jeder Zustand löscht sie. Start 0. [Vorteile](../05-regeln/03-vorteile.md)
+
+**Zustände** 🔴 — S. 167–169 (Blutend, Erschöpft, …). Gleicher Zustand stapelt. Mut kann einen entfernen. Start leer. [Zustände](../05-regeln/05-zustaende.md)
+
+**Korrumpierung / Mutation** 🔴 — S. 182. Seele und Chaos. Start 0 / leer. Keine offene Wahl. [Korrumpierung](../05-regeln/11-korrumpierung.md)
+
+**Rüstung je Zone** 🔴 — Silhouette S. 45. Start 0 außer getragene Rüstung.
+
+**Geführte Waffe** 🔴 — darf der Dolch aus dem Paket sein.
+
+**Zauber / Gebete / Sünde** 🔴 — nur Magie/Glaube. Gerüst. Start leer / 0.
+
+**Flags, Bindungen** 🔴 — Frist, Demo-Gruppe. Start leer, außer der SL setzt sie.
 
 ---
 
 ### Siehe auch
 
+- [Checkliste 🔴](12-erschaffung-checkliste.md)
 - [Gesprächsleitfaden](10-erschaffung-gespraech.md)
 - [Anfänger-Hilfe](09-anfaenger-hilfe.md)
 - [Bogen](../00-BOGEN.md)

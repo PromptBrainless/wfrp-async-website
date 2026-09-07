@@ -80,13 +80,19 @@ Methode: 1. Wurf **+50 EP** · aus drei Würfen **+25 EP** · frei **0 EP**. Ver
 (Möchtest du eine Erklärung der Attribute erhalten? Hast du bereits Erfahrung mit Rollenspielen? Kennst du Attribute aus Computerspielen? Möchtest du alle Attribute einzeln erklärt bekommen? Möchtest du Beispiele aus dem Spielalltag sehen? Möchtest du erfahren, welche Fähigkeiten von welchem Attribut abhängen? Möchtest du wissen, welche Attribute für deine Karriere besonders wichtig sind? Für jedes Attribut: Wofür wird es genutzt? Wie oft kommt es im Spiel vor? Welche Fähigkeiten hängen davon ab? Welche Talente profitieren davon? Welche Charaktertypen benötigen hohe Werte? Welche Nachteile entstehen bei niedrigen Werten? Welche Situationen im Abenteuer werden dadurch beeinflusst?)
 
 **Wahl.** KG BF ST WI I GW GS IN WK CH.  
-Methode: Würfe behalten **+50 EP** · tauschen **+25 EP** · neu oder 100 Punkte (4–18) **0 EP**. Dann Volks-Modifikator (Mensch: 2W10+20 überall).
-
-5 freie Steigerungen nur auf die drei mit **+** markierten Karrierewerte (ohne Stufen-Hintergrund).
-
-Schicksal und Zähigkeit laut Volk, plus Extra-Punkte (Mensch 3, Zwerg 2, Halbling 3, Elf 2) auf eines von beiden.
+Methode: Würfe behalten **+50 EP** · tauschen **+25 EP** · neu oder 100 Punkte (4–18) **0 EP**.
 
 **Erklärung.** 30 ≈ durchschnittlicher Mensch. 40 kennt man. Der **Bonus** ist die Zehnerstelle (ST 32 → STB 3). LP, Traglast, Glück, Mut kommen daraus, du wählst sie nicht. Einzeltexte: [Attribute](04-attribute.md)
+
+### Volks-Modifikator 🔴
+
+(Mensch überall 2W10+20 — und die anderen?)
+
+**Erklärung.** Nach den Würfen anwenden. Tabelle: [Attribute](04-attribute.md). Dann 5 freie Steigerungen 🔴 nur auf die drei Karriere-**+**.
+
+### Schicksal 🔴 / Zähigkeit 🔴
+
+Start laut Volk. Extra-Punkte (Mensch 3, Zwerg 2, Halbling 3, Elf 2) auf eines von beiden. Glück startet = Schicksal. Mut startet = Zähigkeit. [Schicksal](../05-regeln/06-schicksal-zaehigkeit.md)
 
 ### W100 🔴
 
@@ -101,6 +107,12 @@ Schicksal und Zähigkeit laut Volk, plus Extra-Punkte (Mensch 3, Zwerg 2, Halbli
 (Was treibt deinen Charakter an? Was würde er niemals aufgeben? Wofür würde er Risiken eingehen? Was möchte er erreichen? Was fürchtet er? Was liebt er? Welche Person oder Idee gibt ihm Kraft? Warum steht er morgens auf?)
 
 **Wahl.** Ein Wort oder kurzer Satz. Das ist **nicht** das langfristige Ziel (das kommt in Schritt 6 und gibt EP). Motivation holt **Mut** zurück, wenn du sie ausspielst.
+
+Beispiele: nicht wieder auf der Straße · der nächste Handel · Respekt in der Gasse.
+
+### LP-Max 🔴
+
+Abgeleitet: STB + (2×WIB) + WKB. Halbling ohne STB. Start voll. Nicht wählen.
 
 ---
 
@@ -128,7 +140,11 @@ Schicksal und Zähigkeit laut Volk, plus Extra-Punkte (Mensch 3, Zwerg 2, Halbli
 
 **Wahl.** Klassenpaket + Karrierepaket Stufe 1 + Startgeld laut Status.
 
-**Erklärung.** Zimmer bleibt in der Stadt. Dolch ist in der Stadt normal, Handwaffe sieht die Wache. Startgeld: Messing 2W10×Rang G · Silber 1W10×Rang S · Gold 1×Rang GK. Hungerleider 0. Traglast-Max = STB+WIB. [Ausrüstung](06-ausruestung-details.md)
+**Erklärung.** Zimmer bleibt in der Stadt. Dolch ist in der Stadt normal, Handwaffe sieht die Wache. Startgeld: Messing 2W10×Rang G · Silber 1W10×Rang S · Gold 1×Rang GK. Hungerleider 0. Traglast-Max = STB+WIB.
+
+**Gugel oder Maske** 🔴 nur Gesetzlose: eines, nicht beides. Gugel unauffällig, Maske sichtbar gesetzlos.
+
+[Ausrüstung](06-ausruestung-details.md)
 
 ---
 
@@ -138,7 +154,7 @@ Schicksal und Zähigkeit laut Volk, plus Extra-Punkte (Mensch 3, Zwerg 2, Halbli
 
 **Wahl.** Name, Alter, Größe, Augen, Haar, optional Bart, `gemuet`, `herkunft`, `gott`, `ziel_kurz`, `ziel_lang`, `ziel_geheim`.
 
-**Erklärung.** Kosmetik würfeln oder wählen. Motivation = Mut. Ziele = EP (+50 / +500). Sigmar nicht automatisch eintragen. [Glauben](../11-religion/04-glauben-bei-der-erschaffung.md) · [Leben im Reikland](../07-reikland/04-leben-im-reikland.md)
+**Erklärung.** Kosmetik würfeln oder wählen. Alter-Tabelle: Mensch 15+W10, Zwerg 15+10W10, Elf 30+10W10, Halbling 15+5W10. Bart 🔴 bei Mensch/Zwerg optional; bei Zwergen Ehre. Motivation = Mut. Ziele = EP (+50 / +500). Geheim 🔴 erlaubt. Sigmar nicht automatisch eintragen. [Glauben](../11-religion/04-glauben-bei-der-erschaffung.md) · [Leben im Reikland](../07-reikland/04-leben-im-reikland.md)
 
 ---
 
@@ -158,7 +174,7 @@ Schicksal und Zähigkeit laut Volk, plus Extra-Punkte (Mensch 3, Zwerg 2, Halbli
 
 (1. Woher kommst du? 2. Wie ist deine Familie? 3. Wie war deine Kindheit? 4. Warum hast du dein Zuhause verlassen? 5. Wer sind deine besten Freunde? 6. Was ist dein größter Wunsch? 7. Schönste und schlimmste Erinnerung? 8. Religiöse Überzeugungen? 9. Wem oder welcher Sache gegenüber bist du loyal? 10. Warum ziehst du los, um Abenteuer zu erleben?)
 
-**Erklärung.** Keine Mauer. Mindestens drei. Frage 1 → `herkunft`, Frage 8 → `gott`. Psychologie S. 190, meist ohne. Bonus-EP → Schritt 9.
+**Erklärung.** Keine Mauer. Mindestens drei. Frage 1 → `herkunft` (**Karte/Ortsliste**, wer die Welt nicht kennt). Frage 8 → `gott`. Psychologie S. 190, meist ohne. Bonus-EP → Schritt 9.
 
 ---
 
@@ -170,9 +186,17 @@ Schicksal und Zähigkeit laut Volk, plus Extra-Punkte (Mensch 3, Zwerg 2, Halbli
 
 ---
 
-## Nicht in den neun Schritten wählen
+## Nicht in den neun Schritten wählen 🔴
 
-Starten leer bzw. voll (LP = Max, Glück = Schicksal, Mut = Zähigkeit): aktuelle LP, Glück, Mut, Vorteile, Zustände, Korrumpierung, Rüstung je Zone, geführte Waffe, Zauber/Gebete, Flags, Bindungen.
+Starten leer bzw. voll (LP = Max, Glück = Schicksal, Mut = Zähigkeit). Trotzdem kurz erklären:
+
+- **Vorteile** 🔴 Kampf-Oberhand, Start 0, Zustand löscht sie. [Vorteile](../05-regeln/03-vorteile.md)
+- **Zustände** 🔴 S. 167, Start leer. [Zustände](../05-regeln/05-zustaende.md)
+- **Korrumpierung / Mutation** 🔴 S. 182, Start 0. [Korrumpierung](../05-regeln/11-korrumpierung.md)
+- **Rüstung je Zone** 🔴 Silhouette S. 45, Start 0
+- **geführte Waffe** 🔴 darf der Dolch sein
+- **Zauber / Gebete / Sünde** 🔴 nur Magie/Glaube, Gerüst
+- **Flags, Bindungen** 🔴 Projekt / Demo
 
 ---
 

@@ -91,15 +91,23 @@ Lebenshaltung: etwa die Hälfte des Status **pro Tag** in der Statuswährung.
 
 **Anweisung.** Nach den Würfen (oder 100-Punkte) den Volks-Modifikator anwenden. Mensch 2W10+20 überall. Zwerg KG/WI/GS +30, WK +40, GW/CH +10. Halbling BF/GS/CH +30, KG/ST +10. Elf I +40, viele +30, CH +20. Tabelle: [Attribute](04-attribute.md)
 
-Dann **5 freie Steigerungen** nur auf die drei mit **+** (ohne Stufen-Hintergrund).
+Dann **5 freie Steigerungen** 🔴 nur auf die drei mit **+** (ohne Stufen-Hintergrund).
+
+**Anweisung.** Eine Steigerung = +1 auf diesen Wert. Nur die drei Karriere-**+**. Nicht auf die anderen sieben. Nicht die Stufen-Hintergrundwerte (die stehen weiter hinten auf der Karriereseite).
 
 ### Schicksal 🔴
 
-**Anweisung.** Start laut Volk: Mensch 2, Zwerg 0, Halbling 0, Elf 0. Schicksal vermeidet das Schlimmste (S. 170). Glück startet = Schicksal und wird verbraucht, bevor Schicksal dran ist.
+**Anweisung.** Start laut Volk: Mensch 2, Zwerg 0, Halbling 0, Elf 0. Schicksal = Bestimmung. Glück startet = Schicksal.
+
+Glück ausgeben (S. 170–171): Wurf wiederholen · +1 EG · am Rundenanfang den Zug wählen.  
+Schicksal ausgeben: **Nein, nicht heute** (überleben, bewusstlos) oder **Wie konnte das verfehlen** (Schaden entgehen). Schicksal kommt fast nie zurück.
 
 ### Zähigkeit 🔴
 
-**Anweisung.** Start laut Volk: Mensch 1, Zwerg 2, Halbling 2, Elf 0. Zähigkeit = Durchhaltevermögen. Mut startet = Zähigkeit, kommt über Motivation zurück (S. 171).
+**Anweisung.** Start laut Volk: Mensch 1, Zwerg 2, Halbling 2, Elf 0. Zähigkeit = Entschlossenheit. Mut startet = Zähigkeit, kommt über Motivation zurück.
+
+Mut: Psychologie ignorieren · kritische Modifikatoren ignorieren · 1 Zustand entfernen.  
+Zähigkeit: keine Mutation/Korrumpierung **oder** Wurfergebnis selbst wählen.
 
 Zusätzliche Punkte auf Schicksal **oder** Zähigkeit: Mensch 3, Zwerg 2, Halbling 3, Elf 2.
 
@@ -113,36 +121,42 @@ Beispiele: nicht wieder auf der Straße · der nächste Handel · Respekt in der
 
 ### Abgeleitet, nicht wählen 🔴
 
-Boni = Zehnerstelle (ST 32 → STB 3).  
-**LP-Max** = STB + (2×WIB) + WKB (Halbling/Zierlich ohne STB).  
+Boni = Zehnerstelle (ST 32 → STB 3). Die Boni speicherst du nicht extra, außer als Cache.
+
+**LP-Max** 🔴. Lebenspunkte: wie viel Verletzung du aushältst, bevor du umfällst. Formel STB + (2×WIB) + WKB. Halbling und Talent Zierlich: ohne STB. Aktuelle LP starten = Max. Du wählst die Zahl nicht.
+
 Glück = Schicksal. Mut = Zähigkeit.
 
 ---
 
-## 4. Fähigkeiten und Talente
+## 4. Fähigkeiten und Talente 🔴
+
+🔴 Unterschied Fähigkeit / Talent? Grund vs. Ausbau? Darf jeder Charme ohne Training? Warum nicht Lesen?
+
+**Anweisung.** Fähigkeit = geübtes Feld am Spielwert (Klettern ST 38 + 8 = 46). Talent = Sonderregel. **Grund:** jeder darf würfeln, auch 0 Steigerungen (Charme, Wahrnehmung). **Ausbau:** nur mit mind. 1 Steigerung (Lesen, Fernkampf, Sprachen außer Reikspiel, Magie, Beruf). Reikspiel nicht wählen.
 
 ### Volk
 
 - 3 Fähigkeiten à +5 aus der Volksliste
 - 3 Fähigkeiten à +3 aus der Volksliste
-- Talente laut Volk (bei „oder“: eines)
+- Talente laut Volk (bei „oder“: **eines**, nicht beide umsonst)
 
 ### Zufällige Talente 🔴
 
-**Anweisung.** Nur wenn die Liste es sagt. Mensch: 3× Tabelle S. 36. Doppel → neu würfeln. Kann nützlich oder schräg sein; beides spielbar. Nicht frei ersetzen.
+**Anweisung.** Nur wenn die Liste es sagt. Mensch: 3× Tabelle S. 36.
+
+**Doppel** 🔴. Fällt dasselbe Talent nochmal, neu würfeln. Nicht behalten und nicht durch Wunsch ersetzen.
 
 ### Spezialisierung 🔴
 
-**Anweisung.** Gruppierte Fähigkeiten sind mehrere Felder. Nahkampf *Standard* ≠ *Waffenlos*. Sprache *Bretonisch* ≠ *Ödländisch*. Etikette *Dienstboten*. Ohne Spezialisierung, wo das Buch eine verlangt, gilt die Fähigkeit nicht.
+**Anweisung.** Gruppierte Fähigkeiten sind mehrere Felder. Nahkampf *Standard* ≠ *Waffenlos*. Sprache *Bretonisch* ≠ *Ödländisch*. Etikette *Dienstboten*. Ohne die verlangte Spezialisierung gilt die Fähigkeit nicht.
 
-Reikspiel: **nicht** wählen, jeder im Imperium kann es.
-
-### Karriere Stufe 1
+### Karriere Stufe 1 🔴
 
 - 40 Steigerungen auf die 8 Startfähigkeiten, **in diesem Block** max. 10
-- 1 Talent aus den 4 der Stufe 1 (Spezialisierung wo nötig)
+- 1 Talent aus den 4 der Stufe 1 (Spezialisierung wo nötig: Etikette Dienstboten, Handwerksgeschick)
 
-Die 10 gelten nicht gegen schon geholte Volks-Punkte.
+**Anweisung.** 40 reicht für 8×5 — das ist später Voraussetzung zum Karriereabschluss (S. 48). Die 10 gelten nicht gegen schon geholte Volks-Punkte. Talent erst wählen, wenn klar ist, wann es in der Szene greift.
 
 ---
 
@@ -152,23 +166,23 @@ Die 10 gelten nicht gegen schon geholte Volks-Punkte.
 
 **Anweisung.** Zwei Pakete.
 
-**Klassen-Paket.** Akademiker: Kleidung, Dolch, Beutel, Tasche + Schreibzeug + 1W10 Pergament. Bürger: Kleidung, Umhang, Hut, Dolch, Beutel, Tasche + Mahlzeit. Flussvolk: … Schnapsflasche. Freisassen: Rucksack, Zünder, Decke, Ration. Gesetzlose: **Gugel oder Maske** 🔴, Dolch, Kerzen, Zündhölzer. Höflinge: Edle Gewandung, Pinzette, Ohrlöffel, Kamm. Krieger: Handwaffe, Dolch. Landvolk: Ration.
+**Klassen-Paket.** Akademiker: Kleidung, Dolch, Beutel, Tasche + Schreibzeug + 1W10 Pergament. Bürger: Kleidung, Umhang, Hut, Dolch, Beutel, Tasche + Mahlzeit. Flussvolk: Schnapsflasche. Freisassen: Rucksack, Zünder, Decke, Ration. Höflinge: Edle Gewandung, Pinzette, Ohrlöffel, Kamm. Krieger: Handwaffe, Dolch. Landvolk: Ration.
+
+**Gesetzlose: Gugel oder Maske** 🔴. Eines von beiden, nicht beides umsonst. Gugel = unauffällig auf der Straße. Maske = klar gesetzlos, nützt beim Verbergen der Identität, die Wache sieht Absicht.
 
 **Karriere-Paket Stufe 1** 🔴. Steht auf der Karriereseite (Städter: möbliertes Zimmer, feste Stiefel, …). Zimmer bleibt in der Stadt, nicht im Rucksack.
 
 ### Startgeld 🔴
 
-| Rang | Formel |
-|------|--------|
-| Messing | 2W10 × Rang **Groschen** |
-| Silber | 1W10 × Rang **Schilling** |
-| Gold | 1 × Rang **Krone** |
+🔴 Messing: 2W10 × Rang **Groschen**. 🔴 Silber: 1W10 × Rang **Schilling**. 🔴 Gold: 1 × Rang **Krone**.
 
-Hungerleider Messing **0** → 0 Geld. Optional Kapitel 11 einkaufen.
+**Anweisung.** Die Formel nutzt den **Rang** (die Zahl), nicht den Statusnamen. Silber 1 (Greta): 1W10 S. Silber 2 (Otto): 2W10 S. Messing 3: 6W10 G. Gold 1: 1 GK. Hungerleider Messing **0** → 0 Geld.
+
+Optional Kapitel 11 einkaufen. Demo kann das lassen.
 
 ### Traglast 🔴
 
-**Abgeleitet.** Traglast = Summe Inventar. Max = STB + WIB (Talente können heben). Rucksack zählt am Körper.
+**Abgeleitet.** Traglast = Summe der Tragpunkte im Inventar. Max = STB + WIB (Talente Stämmig / Starker Rücken können heben). Rucksack zählt am Körper (S. 301). Über Max: Abzüge, SL entscheidet.
 
 ---
 
@@ -176,10 +190,21 @@ Hungerleider Messing **0** → 0 Geld. Optional Kapitel 11 einkaufen.
 
 Name: Mensch Vor- + Nachname · Zwerg Vor- + Klan · Elf Generator · Halbling Geburts- + Klan, oft Kurzform.
 
-Alter 🔴 Würfel oder wählen (Mensch 15+W10).  
-Körpergröße Würfel oder wählen; bei 10 extra W10.  
-Augen 2W10; Elfen zweimal. Haar 2W10.  
-Bart 🔴 optional Mensch/Zwerg, Farbe.
+### Alter 🔴
+
+Würfeln oder wählen, beides legal.
+
+| Mensch | Zwerg | Elf | Halbling |
+|--------|-------|-----|----------|
+| 15+W10 | 15+10W10 | 30+10W10 | 15+5W10 |
+
+### Größe, Augen, Haar
+
+Größe: Mensch 150+(2W10×2,5) cm; bei einer 10 extra W10. Augen 2W10; Elfen **zweimal** (gemischte Farben). Haar 2W10.
+
+### Bart 🔴
+
+Optional bei Mensch und Zwerg, mit Farbe. Bei Zwergen ist der Bart Status und Ehre — rasieren wäre Schande (Völker-Original). Halblinge bartlos. Elfen selten.
 
 Gemüt: freier Satz, keine Tabelle. Ambitionen = die zwei Ziele.
 
@@ -189,20 +214,23 @@ Gemüt: freier Satz, keine Tabelle. Ambitionen = die zwei Ziele.
 
 Beispiele: die Miete · den Stand halten · die Wache beruhigen · die Schuld bei Otto · ein Wort an die Herrin · den nächsten Handel · nicht auffliegen.
 
-Langfristig: Monate/Jahre/nie. **+500 EP** oder Charakter zur Ruhe. Beispiele: eigenes Haus · Gildemeister · die Familie aus dem Messing holen · nie wieder dienen.
+### Langfristiges Ziel 🔴
 
-Geheim 🔴 Ruchlose Pläne (S. 41): Ziel vor der Gruppe verbergen — erlaubt.
+Monate/Jahre/nie. **+500 EP** oder Charakter zur Ruhe. Beispiele: eigenes Haus · Gildemeister · die Familie aus dem Messing holen · nie wieder dienen.
+
+### Geheim 🔴
+
+Ruchlose Pläne (S. 41): Ziel vor der Gruppe verbergen — erlaubt. Der SL kennt es.
 
 ---
 
 ## 7. Gruppe 🔴
 
-Wie kennt ihr euch? (frei / SL-Einstieg)  
-Gruppenname (Bogen S. 44)  
-Kurz- und langfristiges Gruppenziel  
-Namen der Begleiter
+**Wahl.** Wie kennt ihr euch? (frei / SL-Einstieg) · `gruppe_name` · kurz- und langfristiges Gruppenziel · Namen der Begleiter.
 
-Persönliche Ziele ≠ Gruppenziele, dürfen sich ergänzen.
+**Anweisung.** Persönliche Ziele ≠ Gruppenziele, dürfen sich ergänzen. Kurz +50 EP für alle, lang +500 oder Ruhestand. Spannungen erlaubt, permanente Kehlerei nicht. Demo: Greta, Otto, Kurt.
+
+Beispiele, wie ihr euch kennt: gleiche Gasse · Flussbarke · Tempel · Basar · Schuld · die Wache hat euch in denselben Keller gesperrt.
 
 ---
 
@@ -240,31 +268,55 @@ Danach: Bonus-EP ausgeben? → Schritt 9.
 
 Optional. Nur aktuelle Karrierestufe: 3 Werte, 8 Fähigkeiten, 4 Talente.
 
-Kosten S. 43: Werte 0–5 = 25 EP, Fähigkeiten 10 EP, Talent 100 + 100×schon gelernt.  
-Karrierewechsel bei Erschaffung selten (100 / 200 / +100 andere Klasse).
+**Anweisung.** Ausgeben ist erlaubt, nicht Pflicht. Sparen heißt: du weißt nach der ersten Szene, was die Gruppe wirklich würfelt.
+
+Kosten S. 43: Werte 0–5 Steigerungen = 25 EP je, Fähigkeiten 10 EP, Talent 100 + 100×schon gelernt.  
+Karrierewechsel bei Erschaffung selten (100 abgeschlossen / 200 nicht / +100 andere Klasse).
 
 EP-Quellen: Volk 0 oder 20 · Karriere 0 / 25 / 50 · Attribute 0 / 25 / 50.
 
 ---
 
-## Auf dem Bogen, in den 9 Schritten nicht gefragt
+## Auf dem Bogen, in den 9 Schritten nicht gefragt 🔴
 
-Leer bzw. 0, bis das Spiel sie füllt:
+Leer bzw. 0, bis das Spiel sie füllt. Trotzdem erklären, damit der Bogen nicht wie ein Fehler aussieht.
 
-| Feld | Key | 🔴 Anweisung |
-|------|-----|----------------|
-| aktuelle LP | `lp` | start = `lp_max` |
-| Glück / Mut | `glueck` `mut` | start = Schicksal / Zähigkeit |
-| Vorteile 🔴 | `vorteile` | Kampf-Vorteil, Obergrenze IB. Start 0 |
-| Zustände 🔴 | `zustaende` | S. 167–169. Start leer |
-| Korrumpierung / Mutation 🔴 | `korrumpierung` `mutationen` | S. 182. Start 0 / leer |
-| Rüstung je Zone 🔴 | `rp_kopf` `rp_arm_r` `rp_arm_l` `rp_koerper` `rp_bein_r` `rp_bein_l` `rp_schild` | Silhouette S. 45. Start 0 außer getragene Rüstung |
-| geführte Waffe 🔴 | `waffe_gefuehrt` | darf der Dolch aus dem Paket sein |
-| Zauber / Gebete 🔴 | `zauber_gebete` | nur Priester, Zauberer, … Gerüst |
-| Sünde | `suende` | Bogen-Rückseite, Magie/Glaube |
-| Flags, Bindungen 🔴 | `flags` `gebunden_mit` | Projekt: Frist-Haken, Demo-Bindungen |
-| Karriereweg | `karriereweg` | Blatt S. 344, start leer / aktuelle Karriere |
-| Psychologie | `psychologie` | S. 190, meist leer |
+### Vorteile 🔴
+
+Kampf-Oberhand (S. 164). Marker. v1-Obergrenze = IB. Jeder Zustand löscht alle Vorteile. **Start 0.**
+
+### Zustände 🔴
+
+S. 167–169: Blutend, Erschöpft, Niedergestreckt, … Stapelbar gleicher Art. Mut kann einen entfernen. **Start leer.**
+
+### Korrumpierung / Mutation 🔴
+
+S. 182–183. Punkte, wenn die Seele dem Chaos näher kommt. Zu viele → Mutation. **Start 0 / leer.** Keine offene Spielerwahl.
+
+### Rüstung je Zone 🔴
+
+Silhouette S. 45: Kopf 01–09, Arme, Körper 45–79, Beine, Schild. RP nur wo Rüstung sitzt. **Start 0**, außer getragene Rüstung aus dem Paket (Krieger-Handwaffe ist keine Rüstung).
+
+### Geführte Waffe 🔴
+
+Was in der Hand ist. Darf der Dolch (oder die Handwaffe der Krieger) aus dem Paket sein. Sonst leer.
+
+### Zauber / Gebete 🔴
+
+Nur Priester, Zauberer, Hexer, Mystiker. Gerüst, nicht Demo. **Start leer.**
+
+### Sünde 🔴
+
+Feld auf der Bogen-Rückseite. Magie/Glaube. **Start 0.**
+
+### Flags, Bindungen 🔴
+
+Projekt: Frist-Haken, `gebunden_mit` (Demo: Greta–Otto–Kurt). **Start leer**, außer der SL setzt sie.
+
+### Karriereweg / Psychologie
+
+`karriereweg`: Blatt S. 344, start aktuelle Karriere oder leer.  
+`psychologie` S. 190: Phobie, Freundschaft, … die meisten starten ohne.
 
 ---
 
