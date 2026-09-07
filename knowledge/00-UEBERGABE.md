@@ -33,10 +33,13 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 
 ## 5. Nächste Aufgabe
 
-1. Talente der Bürger-Stufe-1, die noch Gerüst sind
-2. Nächste Klasse: Flussvolk oder Akademiker
+Prompt: [PROMPT-erschaffung-weltwissen.txt](02-charaktere/PROMPT-erschaffung-weltwissen.txt)
 
-**Nicht tun:** Website, Simulation, Magie/Religion vor dem Demo-Schnitt.
+1. Primer für Neulinge (Alte Welt, Glauben bei der Erschaffung, Alltag Reikland, Anfänger-Hilfe)
+2. Talent-Einsatz in details.md (8 Demo-Talente, dann Stufe-1 Bürger)
+3. Erst danach nächste Klasse
+
+**Nicht tun:** Website, Simulation, Magie/Religion-Vollkapitel vor dem Primer.
 
 ---
 

@@ -20,6 +20,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Quellen](00-QUELLEN.md)
 - ✅ [Übergabe](00-UEBERGABE.md)
 - ✅ [Inhaltsverzeichnis-Abgleich](00-ABGLEICH-INHALTSVERZEICHNIS.md)
+- ✅ [Prompt: Erschaffung + Weltwissen](02-charaktere/PROMPT-erschaffung-weltwissen.txt)
 
 ## 01 – Einführung
 - ✅ [Grundprinzip des Spiels](01-einfuehrung/01-grundprinzip-des-spiels.md)

@@ -41,6 +41,7 @@ Liste und Häkchen: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
 - [x] Halunke (Kurt)
 - [x] 10 Attribute Original S. 33–34
 - [x] Bürger 8/8
+- [ ] Primer Erschaffung + Welt/Glaube/Talent-Einsatz — [PROMPT](knowledge/02-charaktere/PROMPT-erschaffung-weltwissen.txt)
 - [ ] Talente der neuen Karrieren (Stufe 1), restliche Klassen, Qualitäten
 
 ## PDF / Buchseiten

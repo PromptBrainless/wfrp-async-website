@@ -94,6 +94,7 @@ Demo:
 
 ## Als Nächstes (Demo-Schnitt, Reihenfolge)
 
+0. [ ] [Prompt Erschaffung + Weltwissen](02-charaktere/PROMPT-erschaffung-weltwissen.txt) — Primer für Neulinge (Welt, Glaube, Talent-Einsatz), dann erst weitere Klassen
 1. [ ] Talente der Bürger-Stufe-1, die noch Gerüst sind (außer den 8 Demo-Talenten)
 2. [ ] nächste Klasse nach Bürger — Flussvolk S. 69–76 oder Akademiker S. 53–60
 

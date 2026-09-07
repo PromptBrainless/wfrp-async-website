@@ -38,3 +38,4 @@ Quelle: S. 24 ff.
 - [Klassen und Karrieren – Übersicht](../03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
 - [Karrieren-Liste](../03-klassen-karrieren/03-karrieren-liste.md)
 - [Status-System](../03-klassen-karrieren/02-status-system.md)
+- [Prompt: Erschaffung mit Spielwelt](PROMPT-erschaffung-weltwissen.txt)
