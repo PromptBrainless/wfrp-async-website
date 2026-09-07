@@ -53,25 +53,180 @@
       "id": "agitator",
       "name": "Agitator",
       "klasse": "buerger",
-      "seite": 61
+      "seite": 61,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Pamphleteverteiler",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "gesellig",
+            "lesen_und_schreiben",
+            "redeschwall",
+            "schnorrer"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Agitator",
+          "tier": "messing",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Aufwiegler",
+          "tier": "messing",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Demagoge",
+          "tier": "messing",
+          "rang": 5
+        }
+      ],
+      "original": "03-klassen-karrieren/buerger/agitator/original.md"
     },
     {
       "id": "bettler",
       "name": "Bettler",
       "klasse": "buerger",
-      "seite": 61
+      "seite": 62,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Hungerleider",
+          "tier": "messing",
+          "rang": 0,
+          "talente": [
+            "genuegsam",
+            "resistenz",
+            "schnorrer",
+            "unverwuestlich"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Bettler",
+          "tier": "messing",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Meisterbettler",
+          "tier": "messing",
+          "rang": 4
+        },
+        {
+          "nr": 4,
+          "name": "König der Bettler",
+          "tier": "silber",
+          "rang": 2
+        }
+      ],
+      "original": "03-klassen-karrieren/buerger/bettler/original.md"
     },
     {
       "id": "ermittler",
       "name": "Ermittler",
       "klasse": "buerger",
-      "seite": 61
+      "seite": 63,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Schnüffler",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "aufgeweckt",
+            "lesen_und_schreiben",
+            "strassenkatze",
+            "unauffaellig"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Ermittler",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Meisterermittler",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Detektiv",
+          "tier": "silber",
+          "rang": 5
+        }
+      ],
+      "original": "03-klassen-karrieren/buerger/ermittler/original.md"
     },
     {
       "id": "handwerker",
       "name": "Handwerker",
       "klasse": "buerger",
-      "seite": 64
+      "seite": 64,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Handwerkerlehrling",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "handwerksgeschick",
+            "kuenstlerisch",
+            "sehr_stark",
+            "starker_ruecken"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Handwerker",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 3,
+          "name": "Meisterhandwerker",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Gildenmeister",
+          "tier": "gold",
+          "rang": 1
+        }
+      ],
+      "original": "03-klassen-karrieren/buerger/handwerker/original.md"
     },
     {
       "id": "kaufmann",
@@ -130,7 +285,45 @@
       "id": "rattenfaenger",
       "name": "Rattenfänger",
       "klasse": "buerger",
-      "seite": 66
+      "seite": 66,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Rattenjäger",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "betaeubender_schlag",
+            "maechtiger_schlag",
+            "nachtsicht",
+            "resistenz"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Rattenfänger",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 3,
+          "name": "Kanalwächter",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 4,
+          "name": "Schädlingsbekämpfer",
+          "tier": "silber",
+          "rang": 3
+        }
+      ],
+      "original": "03-klassen-karrieren/buerger/rattenfaenger/original.md"
     },
     {
       "id": "staedter",
@@ -189,7 +382,46 @@
       "id": "wachmann",
       "name": "Wachmann",
       "klasse": "buerger",
-      "seite": 61
+      "seite": 68,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Rekrut der Wache",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "beharrlich",
+            "betaeubender_schlag",
+            "gedrillt",
+            "robustheit"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Wachmann",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 3,
+          "name": "Weibel der Wache",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Hauptmann der Wache",
+          "tier": "gold",
+          "rang": 1
+        }
+      ],
+      "original": "03-klassen-karrieren/buerger/wachmann/original.md"
     },
     {
       "id": "flussbewohner",

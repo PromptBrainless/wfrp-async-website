@@ -17,7 +17,7 @@ Gerüst je Karriere. Vollprofil folgt in Welle B.
 
 ## [Bürger](buerger/README.md) (S. 61)
 
-Volltext: [Kaufmann](buerger/kaufmann/original.md) S. 65, [Städter](buerger/staedter/original.md) S. 67.
+Volltext: Klasse [Bürger](buerger/README.md) 8/8 — [Kaufmann](buerger/kaufmann/original.md) S. 65, [Städter](buerger/staedter/original.md) S. 67, plus Agitator, Bettler, Ermittler, Handwerker, Rattenfänger, Wachmann.
 
 - [`agitator`](buerger/agitator/README.md) Agitator
 - [`bettler`](buerger/bettler/README.md) Bettler

@@ -25,7 +25,7 @@ Das Regelwerk bleibt die Autorität.
 
 ## 2. Was steht
 
-Gerüste: **329** Ordner. Buchtext im Original: **73** (45 Fähigkeiten, 12 Zustände, 8 Demo-Talente, 5 Völker, Städter, Kaufmann, Halunke).
+Gerüste: **329** Ordner. Buchtext im Original: **89** (45 Fähigkeiten, 12 Zustände, 8 Demo-Talente, 5 Völker, 10 Attribute, 8 Bürger, Halunke).
 
 Gate: `python3 skill/scripts/validate_wissen.py`
 
@@ -33,8 +33,8 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 
 ## 5. Nächste Aufgabe
 
-1. Attribute S. 33–36, zehn Originale, wenn der Bogen das braucht
-2. restliche 6 Bürger
+1. Talente der Bürger-Stufe-1, die noch Gerüst sind
+2. Nächste Klasse: Flussvolk oder Akademiker
 
 **Nicht tun:** Website, Simulation, Magie/Religion vor dem Demo-Schnitt.
 
@@ -42,7 +42,8 @@ Gate: `python3 skill/scripts/validate_wissen.py`
 
 ## 7. Letzte Commits
 
-- Halunke S. 88 (Kurt = Schläger) — diese Session
+- Bürger 8/8 plus 10 Attribute S. 33–34 — diese Session
+- Halunke S. 88 (Kurt = Schläger)
 - Welle A Hubs Schritte 2 und 5–9
 - Völker S. 24–29 / 36
 - `a7316f4` — Fortschrittsliste

@@ -1,9 +1,12 @@
 # Charisma — Details / Hilfe
 
 JSON-`id`: `ch`  
-Quelle: S. 34
+Quelle: S. 34 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige CH, Key `ch`, Bonus-Key `chb`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 

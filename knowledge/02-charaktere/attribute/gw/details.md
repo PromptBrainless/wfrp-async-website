@@ -1,9 +1,12 @@
 # Gewandtheit — Details / Hilfe
 
 JSON-`id`: `gw`  
-Quelle: S. 33
+Quelle: S. 34 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige GW, Key `gw`, Bonus-Key `gwb`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 

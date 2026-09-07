@@ -39,8 +39,9 @@ Liste und Häkchen: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
 - [x] 8 Demo-Talente Original
 - [x] 5 Völker Original
 - [x] Halunke (Kurt)
-- [ ] Attribute S. 33–36
-- [ ] restliche 159 Talente, 61 Karrieren, Qualitäten
+- [x] 10 Attribute Original S. 33–34
+- [x] Bürger 8/8
+- [ ] Talente der neuen Karrieren (Stufe 1), restliche Klassen, Qualitäten
 
 ## PDF / Buchseiten
 

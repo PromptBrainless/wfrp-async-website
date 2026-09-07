@@ -5,13 +5,11 @@ Status: Original, nicht anfassen
 
 **Geschicklichkeit (GS)**
 
-Feinmotorik. Musik, Handwerk, Fingerfertigkeit, Taschendiebstahl.
-
-[prüfen am Buch S. 34]
-
+Dein feinmotorisches Geschick mit den Händen, wie es beim Spielen von Musikinstrumenten oder bei handwerklichen Dingen erforderlich ist. Dies hilft dir auch in Sachen Fingerfertigkeit oder bei Taschendiebstählen.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Attribute-Hub Originalkontext](../../04-attribute.md)

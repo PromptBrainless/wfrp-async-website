@@ -1,9 +1,12 @@
 # Geschicklichkeit — Details / Hilfe
 
 JSON-`id`: `gs`  
-Quelle: S. 34
+Quelle: S. 34 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige GS, Key `gs`, Bonus-Key `gsb`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 

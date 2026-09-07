@@ -1,9 +1,12 @@
 # Intelligenz — Details / Hilfe
 
 JSON-`id`: `in`  
-Quelle: S. 34
+Quelle: S. 34 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige IN, Key `in`, Bonus-Key `inb`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 

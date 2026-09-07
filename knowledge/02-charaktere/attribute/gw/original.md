@@ -1,17 +1,15 @@
 # Gewandtheit — Original
 
-Quelle: S. 33
+Quelle: S. 34
 Status: Original, nicht anfassen
 
 **Gewandtheit (GW)**
 
-Koordination und Behändigkeit. Rennen, Reiten, Verstecken, Ausweichen.
-
-[prüfen am Buch S. 33]
-
+Deine physische Koordination und deine körperliche Behändigkeit. Die Gewandtheit ist auch die Basis für Dinge wie Rennen, Reiten oder Verstecken und wird genutzt, um im Nahkampf Treffern auszuweichen.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Attribute-Hub Originalkontext](../../04-attribute.md)

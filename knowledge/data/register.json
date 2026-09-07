@@ -887,7 +887,7 @@
       "id": "bettler",
       "name": "Bettler",
       "klasse": "buerger",
-      "seite": 61,
+      "seite": 62,
       "path": "03-klassen-karrieren/buerger/bettler"
     },
     {
@@ -895,7 +895,7 @@
       "id": "ermittler",
       "name": "Ermittler",
       "klasse": "buerger",
-      "seite": 61,
+      "seite": 63,
       "path": "03-klassen-karrieren/buerger/ermittler"
     },
     {
@@ -935,7 +935,7 @@
       "id": "wachmann",
       "name": "Wachmann",
       "klasse": "buerger",
-      "seite": 61,
+      "seite": 68,
       "path": "03-klassen-karrieren/buerger/wachmann"
     },
     {

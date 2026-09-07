@@ -18,6 +18,8 @@ AGENTS.md
 artifacts/
 screenshots/
 public/__grok/
+.vercel/
+.project_id
 
 # Urheberrechtlich geschütztes Regelwerk — nie ins Repo
 attachments/*.pdf

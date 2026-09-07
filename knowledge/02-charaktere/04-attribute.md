@@ -80,6 +80,10 @@ Beispiel: Stärke 39 → Stärke-Bonus (STB) 3; Willenskraft 51 → Willenskraft
 3. Neu würfeln oder 100 Punkte frei verteilen (min. 4, max. 18 pro Wert) + Modifikatoren.  
    → Keine EP.
 
+**Moment! Das ist nicht fair!** — Nicht alle Völker sind nach der Erschaffung zahlenmäßig gleich. Ein Elf hat deutliche Vorteile bei den Werten; jedes Volk hat Vor- und Nachteile, die nicht immer in der Zahlentabelle stehen. Buch S. 33.
+
+Roh der zehn Einzeltexte: [_roh/attribute-s33-34.md](_roh/attribute-s33-34.md)
+
 ## Werte steigern (Erschaffung, S. 35)
 
 Blättere zu deiner Karriere und schau dir das Steigerungsprofil an. Drei Werte sind mit **+** markiert (ohne Bronze/Silber/Gold-Hintergrund). Du kannst **insgesamt bis zu 5 Steigerungen** deiner Wahl auf diese Werte verteilen.

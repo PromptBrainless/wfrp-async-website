@@ -1,9 +1,12 @@
 # Initiative — Details / Hilfe
 
 JSON-`id`: `i`  
-Quelle: S. 33
+Quelle: S. 34 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige I, Key `i`, Bonus-Key `ib`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 

@@ -6,7 +6,7 @@ Ordner: [buerger/](buerger/README.md). Greta = [Städter](buerger/staedter/READM
 
 Bürger-Karrieren: Agitator, Bettler, Ermittler, Handwerker, Kaufmann, Rattenfänger, Städter, Wachmann.
 
-Volltext Original: [Städter S. 67](buerger/staedter/original.md), [Kaufmann S. 65](buerger/kaufmann/original.md).
+Volltext Original: Klasse komplett — [Ordner](buerger/README.md), acht Dateien unter `buerger/*/original.md`.
 
 ## Städter (S. 67) – Greta
 
@@ -28,9 +28,9 @@ Otto in der Demo: Silber 1, Feilschen 50. Buch Händler ist Silber 2. Markiert a
 
 Projektfassung: [angepasst](buerger/kaufmann/angepasst.md).
 
-## Handwerker (S. 64) – nur Anker
+## Handwerker (S. 64)
 
-Lehrling Messing 2, Handwerker Silber 1, Meister Silber 3, Gildenmeister Gold 1. Original noch Gerüst.
+Lehrling Messing 2, Handwerker Silber 1, Meister Silber 3, Gildenmeister Gold 1. [Original](buerger/handwerker/original.md).
 
 ### Siehe auch
 - [Karrieren-Liste](03-karrieren-liste.md)

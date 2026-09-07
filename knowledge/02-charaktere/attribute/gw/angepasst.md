@@ -1,8 +1,8 @@
 # Gewandtheit — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 33)
+Quelle der Regeln: [original.md](original.md) (S. 34)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Buchtext nicht wiederholen. Bogen-Key und Bonus, sonst Verweis.
 
 | | |
 |--|--|
@@ -10,6 +10,12 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 | Bonus | `gwb` |
 | Anzeige | GW |
 
+Bonus = Zehnerstelle. LP und andere Ableitungen speichert der Bogen nicht, außer als Cache ([00-BOGEN.md](../../../00-BOGEN.md)).
+
+Fähigkeiten, die diesen Wert nutzen (Auswahl):
+
+- [Ausweichen](../../../04-faehigkeiten-talente/faehigkeiten/ausweichen/angepasst.md)
+- [Athletik](../../../04-faehigkeiten-talente/faehigkeiten/athletik/angepasst.md)
 
 ### Befehl
 

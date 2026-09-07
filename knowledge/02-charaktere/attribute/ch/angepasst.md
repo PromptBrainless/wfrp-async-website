@@ -2,7 +2,7 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 34)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Buchtext nicht wiederholen. Bogen-Key und Bonus, sonst Verweis.
 
 | | |
 |--|--|
@@ -10,6 +10,13 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 | Bonus | `chb` |
 | Anzeige | CH |
 
+Bonus = Zehnerstelle. LP und andere Ableitungen speichert der Bogen nicht, außer als Cache ([00-BOGEN.md](../../../00-BOGEN.md)).
+
+Fähigkeiten, die diesen Wert nutzen (Auswahl):
+
+- [Charme](../../../04-faehigkeiten-talente/faehigkeiten/charme/angepasst.md)
+- [Anführen](../../../04-faehigkeiten-talente/faehigkeiten/anfuehren/angepasst.md)
+- [Bestechen](../../../04-faehigkeiten-talente/faehigkeiten/bestechen/angepasst.md)
 
 ### Befehl
 

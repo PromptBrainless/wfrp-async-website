@@ -1,9 +1,12 @@
 # Widerstand — Details / Hilfe
 
 JSON-`id`: `wi`  
-Quelle: S. 33
+Quelle: S. 34 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige WI, Key `wi`, Bonus-Key `wib`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 

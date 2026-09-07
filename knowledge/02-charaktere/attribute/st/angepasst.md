@@ -1,8 +1,8 @@
 # Stärke — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 33)
+Quelle der Regeln: [original.md](original.md) (S. 34)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Buchtext nicht wiederholen. Bogen-Key und Bonus, sonst Verweis.
 
 | | |
 |--|--|
@@ -10,6 +10,12 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 | Bonus | `stb` |
 | Anzeige | ST |
 
+Bonus = Zehnerstelle. LP und andere Ableitungen speichert der Bogen nicht, außer als Cache ([00-BOGEN.md](../../../00-BOGEN.md)).
+
+Fähigkeiten, die diesen Wert nutzen (Auswahl):
+
+- [Klettern](../../../04-faehigkeiten-talente/faehigkeiten/klettern/angepasst.md)
+- [Schwimmen](../../../04-faehigkeiten-talente/faehigkeiten/schwimmen/angepasst.md)
 
 ### Befehl
 

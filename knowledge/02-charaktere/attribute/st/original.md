@@ -1,17 +1,15 @@
 # Stärke — Original
 
-Quelle: S. 33
+Quelle: S. 34
 Status: Original, nicht anfassen
 
 **Stärke (ST)**
 
-Schaden im Nahkampf, Heben, Schwimmen, Klettern.
-
-[prüfen am Buch S. 33]
-
+Wie viel Schaden du im Nahkampf verursachst, wie viel Gewicht du heben kannst und wie gut du in Dingen wie Schwimmen oder Klettern bist.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Attribute-Hub Originalkontext](../../04-attribute.md)

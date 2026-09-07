@@ -1,9 +1,12 @@
 # Ballistische Fertigkeit — Details / Hilfe
 
 JSON-`id`: `bf`  
-Quelle: S. 33
+Quelle: S. 33 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige BF, Key `bf`, Bonus-Key `bfb`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 

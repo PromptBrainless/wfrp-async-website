@@ -1,9 +1,12 @@
 # Kampfgeschick — Details / Hilfe
 
 JSON-`id`: `kg`  
-Quelle: S. 33
+Quelle: S. 33 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige KG, Key `kg`, Bonus-Key `kgb`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 

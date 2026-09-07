@@ -1,9 +1,12 @@
 # Stärke — Details / Hilfe
 
 JSON-`id`: `st`  
-Quelle: S. 33
+Quelle: S. 34 · [attributes.json](../../../data/attributes.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Anzeige ST, Key `st`, Bonus-Key `stb`.
+- Mensch-Durchschnitt laut Hub S. 33: 30.
 
 ### Siehe auch
 
