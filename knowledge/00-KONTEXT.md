@@ -1,6 +1,6 @@
 # Kontext — eine Struktur
 
-Stand: 2026-09-08. Dies ist die **eine** Wahrheit für neue Sessions.  
+Stand: 2026-09-08, Abend. Dies ist die **eine** Wahrheit für neue Sessions.  
 Sicherung als Kleist-Bild: [kleist-stand.jpg](../public/images/context/kleist-stand.jpg)  
 Presse: [00-KONTEXT-kleist.txt](00-KONTEXT-kleist.txt) · Script: `python3 scripts/kleist-snapshot.py`
 
@@ -23,15 +23,15 @@ WFRP 4e GRW 2. Auflage. Spieler: Intention + eigener W100. SL: Leitung, keine Fi
 
 ## Kampagne 1
 
-Fünf Spieler, Plätze leer. Ort: **Drosselau** (5 Viertel, 13 Gassen, 69 Häuser). Graf nicht in der Stadt. Erste Szene: **zu**, bis der SL eine Gasse öffnet. Demo (Basar, Otto, Kurt) raus. Stadt nicht verlassen.
+Fünf Plätze (`platz-1` … `platz-5`), noch leer. Ort: **Drosselau** (5 Viertel, 13 Gassen, 69 Häuser). Graf nicht in der Stadt. Erste Szene: **zu**, bis der SL eine Gasse öffnet. Demo raus. Stadt nicht verlassen.
 
-## Wissen
+## Gerät (Stand `d565ade`)
 
-329 / 329 Gerüste. Register 353 IDs. JSON zählt; die Engine liest TypeScript, nicht die JSON. Drosselau dreifach: MD, JSON, `drosselau.ts`.
+JSON treibt Katalog und Fähigkeiten. 64×4 Karriere-Fähigkeiten. Spezialisierung eigene Zeile. Talente nur aus `angepasst.md` (Straßenkatze, Verhandlungsgenie, Einnehmendes Wesen). Journal: Welt/Intention, keine Würfelplatte. Trigger: SL zieht → Log → Ins Leben. `autoChat` tot.
 
 ## Nächster Schritt (Mensch, nicht Engine)
 
-Fünf Charaktere **oder** erste Gasse öffnen.
+Fünf Bögen auf die Plätze **oder** erste Gasse öffnen.
 
 ## Nicht
 

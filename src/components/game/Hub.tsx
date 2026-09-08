@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ICONS } from "@/lib/wfrp/icons";
 import { useTisch } from "@/lib/wfrp/store";
+import { anyPcHasFlag } from "@/lib/wfrp/seats";
 import type { SceneHint } from "@/lib/wfrp/types";
 import { cn } from "@/lib/utils";
 
@@ -33,7 +34,7 @@ export function Hub() {
       <ul className="grid gap-3 sm:grid-cols-2">
         {visible.map((scene) => {
           const blocked = scene.prerequisites.some(
-            (flag) => !campaign.worldFlags.includes(flag) && !campaign.characters.greta.flags.includes(flag),
+            (flag) => !campaign.worldFlags.includes(flag) && !anyPcHasFlag(campaign, flag),
           );
           return (
             <li key={scene.id} className={cn("hub-card", !scene.opened && "is-closed")}>

@@ -4,6 +4,7 @@ import { actionAsk, CATALOG_BY_ID } from "@/lib/wfrp/catalog";
 import { filterCatalog } from "@/lib/wfrp/grey";
 import { formatRollLine } from "@/lib/wfrp/resolve";
 import { useTisch } from "@/lib/wfrp/store";
+import { activePc } from "@/lib/wfrp/seats";
 import { DIFFICULTY_LABEL, type DifficultyId } from "@/lib/wfrp/types";
 import { cn } from "@/lib/utils";
 
@@ -30,15 +31,17 @@ export function Composer({ onMore }: { onMore: () => void }) {
   const win = campaign.fortune;
   const scene = campaign.scenes[campaign.currentSceneId];
   const sl = role === "sl";
-  const actor = viewId === "welt" ? campaign.characters.greta : (campaign.characters[viewId] ?? campaign.characters.greta);
+  const actor = activePc(campaign, viewId);
   const cast = ["welt", ...scene.present.filter((id) => campaign.characters[id]?.kind === "npc")];
 
   const views = useMemo(
     () =>
-      filterCatalog(actor, scene, {
-        fortuneOpen: campaign.phase === "fortune",
-        ownRollOpen: campaign.lastRoll?.characterId === actor.id && campaign.phase === "fortune",
-      }),
+      actor
+        ? filterCatalog(actor, scene, {
+            fortuneOpen: campaign.phase === "fortune",
+            ownRollOpen: campaign.lastRoll?.characterId === actor.id && campaign.phase === "fortune",
+          })
+        : [],
     [actor, scene, campaign.phase, campaign.lastRoll],
   );
 
@@ -146,9 +149,9 @@ export function Composer({ onMore }: { onMore: () => void }) {
 
   const myRoll =
     pendingRoll &&
-    (sl ? viewId === pendingRoll.characterId : pendingRoll.characterId === actor.id && actor.kind === "pc");
+    (sl ? viewId === pendingRoll.characterId : pendingRoll.characterId === actor?.id && actor?.kind === "pc");
   if (myRoll && pendingRoll) {
-    const who = campaign.characters[pendingRoll.characterId]?.name ?? actor.name;
+    const who = campaign.characters[pendingRoll.characterId]?.name ?? actor?.name ?? "jemand";
     const skill = CATALOG_BY_ID[pendingRoll.actionId];
     return (
       <footer className="play-foot">
@@ -164,7 +167,7 @@ export function Composer({ onMore }: { onMore: () => void }) {
     );
   }
 
-  if (pending && !sl && pending.intention.characterId === actor.id) {
+  if (pending && !sl && pending.intention.characterId === actor?.id) {
     return (
       <footer className="play-foot">
         <p className="text-sm text-ink-muted">Die Absicht liegt beim Spielleiter.</p>
@@ -173,7 +176,7 @@ export function Composer({ onMore }: { onMore: () => void }) {
   }
 
   const asWorld = sl && viewId === "welt";
-  const who = asWorld ? "die Welt" : actor.name.split(" ")[0];
+  const who = asWorld ? "die Welt" : (actor?.name.split(" ")[0] ?? "jemand");
 
   return (
     <footer className="play-foot">

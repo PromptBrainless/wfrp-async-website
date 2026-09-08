@@ -7,6 +7,7 @@ import { canWalkTo, distanceBetween, foeId, pinById, tokenPlace } from "./moveme
 import { addBeat } from "./journal";
 import { applyCombatOutcome, applySocialOutcome, nowEntry, pushProtocol, rollSimple } from "./resolve";
 import { createCampaign } from "./seed";
+import { activePc, claimSeat, filledPcs, SEAT_IDS } from "./seats";
 import type {
   Campaign,
   Character,
@@ -19,7 +20,7 @@ import type {
   WorkPane,
 } from "./types";
 
-const PC_ID = "greta";
+const PC_ID = "platz-1";
 
 type Store = {
   campaign: Campaign;
@@ -499,18 +500,18 @@ export const useTisch = create<Store>()((set, get) => ({
     });
   },
   drawWeapon: () => {
-    const { campaign } = get();
-    const greta = campaign.characters.greta;
-    if (!greta) return;
+    const { campaign, viewId } = get();
+    const actor = activePc(campaign, viewId);
+    if (!actor) return;
     const scene = currentScene(campaign);
     set({
       campaign: {
         ...campaign,
         characters: {
           ...campaign.characters,
-          greta: {
-            ...greta,
-            inventory: greta.inventory.map((i) => (i.weapon ? { ...i, weapon: { ...i.weapon, drawn: true } } : i)),
+          [actor.id]: {
+            ...actor,
+            inventory: actor.inventory.map((i) => (i.weapon ? { ...i, weapon: { ...i.weapon, drawn: true } } : i)),
           },
         },
         scenes: {
@@ -518,8 +519,8 @@ export const useTisch = create<Store>()((set, get) => ({
           [scene.id]: pushProtocol(
             scene,
             nowEntry("world", "Waffe ziehen", "Die Waffe ist gezogen.", undefined, {
-              portrait: greta.portrait,
-              speaker: "greta",
+              portrait: actor.portrait,
+              speaker: actor.id,
               icon: "waffe",
             }),
           ),
@@ -529,31 +530,31 @@ export const useTisch = create<Store>()((set, get) => ({
     });
   },
   spendResolve: () => {
-    const { campaign } = get();
-    const greta = campaign.characters.greta;
-    if (!greta || greta.resolve <= 0 || greta.conditions.length === 0) return;
-    const [first, ...rest] = greta.conditions;
+    const { campaign, viewId } = get();
+    const actor = activePc(campaign, viewId);
+    if (!actor || actor.resolve <= 0 || actor.conditions.length === 0) return;
+    const [first, ...rest] = actor.conditions;
     const scene = currentScene(campaign);
     set({
       campaign: {
         ...campaign,
         characters: {
           ...campaign.characters,
-          greta: {
-            ...greta,
-            resolve: greta.resolve - 1,
+          [actor.id]: {
+            ...actor,
+            resolve: actor.resolve - 1,
             conditions: rest,
             wounds:
               first.id === "niedergestreckt"
-                ? { ...greta.wounds, current: Math.min(greta.wounds.max, greta.wounds.current + 1) }
-                : greta.wounds,
+                ? { ...actor.wounds, current: Math.min(actor.wounds.max, actor.wounds.current + 1) }
+                : actor.wounds,
           },
         },
         scenes: {
           ...campaign.scenes,
           [scene.id]: pushProtocol(
             scene,
-            nowEntry("world", "Mut", `Zustand ${first.id} abgestoßen.`, undefined, { portrait: greta.portrait, icon: "person" }),
+            nowEntry("world", "Mut", `Zustand ${first.id} abgestoßen.`, undefined, { portrait: actor.portrait, icon: "person" }),
           ),
         },
       },
@@ -586,13 +587,11 @@ export const useTisch = create<Store>()((set, get) => ({
       lastDraw: null,
     }),
   addCharacter: (c) =>
-    set((s) => ({
-      campaign: {
-        ...s.campaign,
-        characters: { ...s.campaign.characters, [c.id]: c },
-      },
-      viewId: c.id,
-    })),
+    set((s) => {
+      const claimed = claimSeat(s.campaign, c);
+      if (!claimed) return s;
+      return { campaign: claimed.campaign, viewId: claimed.id };
+    }),
   selectToken: (id) => set({ selectedTokenId: id, selectedJournalId: id }),
   selectJournal: (id) => set({ selectedJournalId: id }),
   selectPlace: (id) => {
@@ -890,5 +889,6 @@ export const useTisch = create<Store>()((set, get) => ({
 }));
 
 export function moneyLabel(c: Campaign) {
-  return formatMoney(c.characters.greta.money);
+  const pc = filledPcs(c)[0] ?? activePc(c, SEAT_IDS[0]);
+  return pc ? formatMoney(pc.money) : "—";
 }

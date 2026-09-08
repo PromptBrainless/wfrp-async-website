@@ -3,6 +3,8 @@ import { Map, ScrollText } from "lucide-react";
 import { formatMoney } from "@/lib/wfrp/money";
 import { tokenPlace } from "@/lib/wfrp/movement";
 import { useTisch } from "@/lib/wfrp/store";
+import { activePc, isSeatEmpty, SEAT_IDS } from "@/lib/wfrp/seats";
+import { cn } from "@/lib/utils";
 
 function formatFrist(endsAt: number, now: number): string {
   const ms = endsAt - now;
@@ -28,7 +30,7 @@ export function CharHead({
   const role = useTisch((s) => s.role);
   const scene = campaign.scenes[campaign.currentSceneId];
   const sl = role === "sl";
-  const pc = campaign.characters.greta;
+  const pc = activePc(campaign, viewId);
   const who = sl ? null : (campaign.characters[viewId] ?? pc);
   const inspect = sl
     ? viewId !== "welt"
@@ -61,6 +63,8 @@ export function CharHead({
             {sl ? scene.locationName : (pin?.label ?? scene.locationName)}
             {" · "}
             {formatFrist(campaign.countdownEndsAt, now)}
+            {" · "}
+            {SEAT_IDS.filter((id) => !isSeatEmpty(campaign.characters[id])).length}/5
           </p>
         </div>
       </button>

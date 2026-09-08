@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { canCharge, canWalkTo, distanceBetween, pinById, runM, tokenPlace, walkM, whereLine } from "@/lib/wfrp/movement";
 import { useTisch } from "@/lib/wfrp/store";
+import { activePc } from "@/lib/wfrp/seats";
 import { cn } from "@/lib/utils";
 
 export function MapBoard() {
@@ -14,11 +15,12 @@ export function MapBoard() {
   const selectAction = useTisch((s) => s.selectAction);
   const revealFog = useTisch((s) => s.revealFog);
   const revealPin = useTisch((s) => s.revealPin);
+  const viewId = useTisch((s) => s.viewId);
   const scene = campaign.scenes[campaign.currentSceneId];
   const board = scene.board;
   const sl = role === "sl";
-  const greta = campaign.characters.greta;
-  const here = tokenPlace(board, "greta");
+  const actor = activePc(campaign, viewId);
+  const here = actor ? tokenPlace(board, actor.id) : undefined;
   const focusId = selectedPlace ?? here;
   const focus = focusId ? pinById(board, focusId) : undefined;
 
@@ -33,7 +35,7 @@ export function MapBoard() {
         </div>
         <p className="text-xs text-ink-muted">
           {board.widthM} m quer
-          {greta ? ` · B ${greta.movement} · Gehen ${walkM(greta.movement)} m · Rennen ${runM(greta.movement)} m` : ""}
+          {actor ? ` · B ${actor.movement} · Gehen ${walkM(actor.movement)} m · Rennen ${runM(actor.movement)} m` : ""}
         </p>
       </header>
       <div className="map-viewport map-still">
@@ -100,14 +102,14 @@ export function MapBoard() {
         <p className="map-range">
           Distanz {scene.combat.distanceM} m
           {scene.combat.engaged ? " · gebunden" : " · nicht gebunden"}
-          {canCharge(greta.movement, scene.combat.distanceM) ? " · Sturmangriff möglich" : ""}
+          {actor && canCharge(actor.movement, scene.combat.distanceM) ? " · Sturmangriff möglich" : ""}
         </p>
       ) : null}
       <ul className="place-list">
         {places.map((p) => {
           const meters = here ? distanceBetween(board, here, p.id) : null;
           const at = here === p.id;
-          const walkOk = meters == null || canWalkTo(greta.movement, meters, scene.mode === "kampf");
+          const walkOk = meters == null || canWalkTo(actor?.movement ?? 0, meters, scene.mode === "kampf");
           return (
             <li key={p.id}>
               <button

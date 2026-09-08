@@ -10,6 +10,7 @@ import { ZustandPane } from "./ZustandPane";
 import { actionAsk } from "@/lib/wfrp/catalog";
 import { filterCatalog } from "@/lib/wfrp/grey";
 import { useTisch } from "@/lib/wfrp/store";
+import { activePc } from "@/lib/wfrp/seats";
 import { cn } from "@/lib/utils";
 
 type Flap = "blatt" | "karte" | "sl" | "mehr" | null;
@@ -23,19 +24,21 @@ export function PlayScreen() {
   const viewId = useTisch((s) => s.viewId);
   const campaign = useTisch((s) => s.campaign);
   const scene = campaign.scenes[campaign.currentSceneId];
-  const actor = campaign.characters[viewId] ?? campaign.characters.greta;
+  const actor = activePc(campaign, viewId);
 
   const views = useMemo(
     () =>
-      filterCatalog(actor, scene, {
-        fortuneOpen: campaign.phase === "fortune",
-        ownRollOpen: false,
-      }),
+      actor
+        ? filterCatalog(actor, scene, {
+            fortuneOpen: campaign.phase === "fortune",
+            ownRollOpen: false,
+          })
+        : [],
     [actor, scene, campaign.phase],
   );
 
   const title =
-    flap === "blatt" ? actor.name : flap === "karte" ? "Ort" : flap === "sl" ? "Werkzeuge" : flap === "mehr" ? "Weitere Handlungen" : "";
+    flap === "blatt" ? (actor?.name ?? "Blatt") : flap === "karte" ? "Ort" : flap === "sl" ? "Werkzeuge" : flap === "mehr" ? "Weitere Handlungen" : "";
 
   const openSl = () => {
     setRole("sl");

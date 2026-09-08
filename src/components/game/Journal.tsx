@@ -37,7 +37,7 @@ export function Journal() {
         <article className="mt-3 border-t border-ink/15 pt-3">
           <p className="font-display text-sm text-ink">{open.title}</p>
           <p className="mt-2 text-sm leading-relaxed text-ink-muted">{open.body}</p>
-          {open.kind === "bogen" && open.characterId === "greta" ? (
+          {open.kind === "bogen" && open.characterId && campaign.characters[open.characterId]?.kind === "pc" ? (
             <Button asChild variant="ink" size="sm" className="mt-3">
               <Link to="/bogen">Zum Bogen</Link>
             </Button>

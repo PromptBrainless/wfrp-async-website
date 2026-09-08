@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import { ActionCard } from "./ActionCard";
 import { filterCatalog } from "@/lib/wfrp/grey";
 import { useTisch } from "@/lib/wfrp/store";
+import { activePc } from "@/lib/wfrp/seats";
 import type { ActionTab } from "@/lib/wfrp/types";
 import { cn } from "@/lib/utils";
 
@@ -14,19 +15,22 @@ const TABS: { id: ActionTab; label: string }[] = [
 
 export function ActionTabs() {
   const campaign = useTisch((s) => s.campaign);
+  const viewId = useTisch((s) => s.viewId);
   const selected = useTisch((s) => s.selectedAction);
   const select = useTisch((s) => s.selectAction);
-  const greta = campaign.characters.greta;
+  const actor = activePc(campaign, viewId);
   const scene = campaign.scenes[campaign.currentSceneId];
   const [tab, setTab] = useState<ActionTab>("sozial");
 
   const views = useMemo(
     () =>
-      filterCatalog(greta, scene, {
-        fortuneOpen: campaign.phase === "fortune",
-        ownRollOpen: campaign.lastRoll?.characterId === "greta" && campaign.phase === "fortune",
-      }),
-    [greta, scene, campaign.phase, campaign.lastRoll],
+      actor
+        ? filterCatalog(actor, scene, {
+            fortuneOpen: campaign.phase === "fortune",
+            ownRollOpen: campaign.lastRoll?.characterId === actor.id && campaign.phase === "fortune",
+          })
+        : [],
+    [actor, scene, campaign.phase, campaign.lastRoll],
   );
 
   const shown = views.filter((v) => v.def.tab === tab);
