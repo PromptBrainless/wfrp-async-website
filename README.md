@@ -42,7 +42,8 @@ Charakter an Ort
 2. [knowledge/00-KONTEXT.md](knowledge/00-KONTEXT.md) — eine Wahrheit · [Kleist-Bild](public/images/context/kleist-stand.jpg)
 3. [knowledge/00-UEBERGABE.md](knowledge/00-UEBERGABE.md)
 4. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
-5. [knowledge/10-system/16-kampagne-1.md](knowledge/10-system/16-kampagne-1.md)
+5. [BACKLOG.md](BACKLOG.md) — Epics und Tickets auf GitHub
+6. [knowledge/10-system/16-kampagne-1.md](knowledge/10-system/16-kampagne-1.md)
 6. [knowledge/07-reikland/drosselau/README.md](knowledge/07-reikland/drosselau/README.md)
 
 ---
