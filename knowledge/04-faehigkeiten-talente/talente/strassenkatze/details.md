@@ -10,7 +10,7 @@ Quelle: S. 145 · [talents.json](../../../data/talents.json)
 
 ## Einsatz in der Spielwelt
 
-der Spielercharakter kennt die Gassen hinterm Basar: wo die Wache nicht hinsieht, wo man an der Mauer entlanggeht. *Schleichen (Stadt)* — nicht Wald, nicht offener Markt bei Tag mit leeren Händen.
+der Spielercharakter kennt die Gassen von Drosselau: wo die Wache nicht hinsieht, wo man an der Mauer entlanggeht. *Schleichen (Stadt)* — nicht Wald, nicht der Marktplatz bei Tag mit leeren Händen.
 
 Zahlen tauschen: Wurf 54, Ziel 45 → 45 trifft. Nur Stadt, nur wenn der Tausch wirklich hilft.
 

@@ -23,7 +23,7 @@ Drei konkrete Brüche:
 - **Mehrere Orte für eine Frage.** „Wer bin ich?“ liegt auf `/bogen`, im Zustand-Reiter, im Tracker und im Token. „Was kann ich tun?“ liegt in Tabs, grauen Karten und im Chat.
 - **Tutorial fehlt.** Die Erschaffung erklärt das Buch. Niemand erklärt das *Gerät*: eine Handlung wählen, warten, würfeln, lesen.
 
-Wissen und Demo-Daten bleiben. Wegwerfen heißt: die Möbel, nicht das Regelwerk.
+Wissen bleibt. Demo-Daten (Basar, Otto, Kurt) sind raus. Wegwerfen hieß: die Möbel, nicht das Regelwerk.
 
 ---
 
@@ -36,7 +36,7 @@ Nicht klonen. Muster ziehen.
 | **Owlbear Rodeo** | Eine Fläche. Link teilen. Kein Tutorial nötig, weil fast nichts da ist. | Ein Spielschirm. Kein zweites Konzept vor der ersten Handlung. |
 | **D&D Beyond** | Oben immer: Gesicht, Name, Klasse, Lebenspunkte. Fähigkeiten sind eine Liste, Antippen würfelt. Premade-Helden mit einem Klick. | Charakterkopf immer sichtbar. Premade der Spielercharakter ist der Einstieg, nicht die Erschaffung. |
 | **Rolegate** | Asynchroner Chat. Drei Sorten: beschreiben, sagen, außerhalb. Tempo der Runde steht da. Kurzes Tutorial. | Der Faden *ist* das Spiel. Sorten klar. Pace/Frist sichtbar, nicht versteckt. |
-| **Quest Portal** | Tutorials unter zwei Minuten, **eine** Handlung pro Clip. „Figur anlegen“ ist ein Schritt, kein Seminar. | Erste Szene *ist* das Tutorial. Kein Handbuch vor dem Basar. |
+| **Quest Portal** | Tutorials unter zwei Minuten, **eine** Handlung pro Clip. „Figur anlegen“ ist ein Schritt, kein Seminar. | Erste Szene *ist* das Tutorial. Kein Handbuch vor der ersten Gasse. |
 | **Alchemy** | Lobby, dann eine benannte Hauptansicht. Ressourcen in einer Leiste. | Erst eintreten, dann spielen. LP/Glück/Mut in einer Leiste, nicht auf drei Blättern. |
 | **Disco Elysium / BG3** (nur Darstellung) | Du siehst immer, wer du bist. Fähigkeiten sind Verben. Die erste Stunde führt, sie dozieren nicht. | Handlungen als Sätze („Mit ein Händler feilschen“), nicht als Katalog-IDs. |
 
@@ -52,7 +52,7 @@ Nach dem Neubau gibt es genau drei Oberflächen. Jede beantwortet eine Frage. Me
 
 Zwei große Dinge, sonst nichts.
 
-1. **Mit der Spielercharakter den Basar betreten** (Premade, sofort spielen). 
+1. **Kampagne 1 betreten** — Drosselau, fünf Plätze, Szene zu (SL öffnet). 
 2. **Eigene Figur** — später, und dann kurz: Gesicht, Name, Herkunft, was du tagsüber tust. Die neun Buchschritte bleiben im Wissen, nicht als Wizard vor der ersten Szene.
 
 Kein SL-Eingang auf diesem Schirm. Kein „Tisch / Bogen / Erschaffung“ gleichwertig.
@@ -89,17 +89,17 @@ Kein eigenes Universum. Vom Leben aus auf, wieder zu.
 
 ### SL
 
-Derselbe Schirm Leben. Der Kopf sagt Spielleiter, nicht ein Händler. Unten: **wer spricht im Leben** (Welt, ein Händler, Wache) — Stempel auf der nächsten Zeile. Ottos Bogen und Ottos Wurf sind Klappen und Werkzeuge, kein Sitz. der Spielercharakter bleibt der Spieler. Log, Bibliothek, Tracker hinter der Schriftrolle. Kein zweites Layout.
+Derselbe Schirm Leben. Der Kopf sagt Spielleiter, nicht Holtz. Unten: **wer spricht im Leben** (Welt, NSC, Wache) — Stempel auf der nächsten Zeile. NSC-Bogen und NSC-Wurf sind Klappen und Werkzeuge, kein Sitz. Der Spielercharakter bleibt der Spieler. Log, Bibliothek, Tracker hinter der Schriftrolle. Kein zweites Layout.
 
 ---
 
 ## 4. Tutorial, ohne Handbuch
 
-Die erste Szene ist der Basar, fest verdrahtet.
+Die erste Szene ist eine Gasse in Drosselau, **vom SL geöffnet**, nicht fest verdrahtet.
 
 | Beat | Was der Einsteiger lernt |
 |------|--------------------------|
-| ein Händler steht am Stand, nennt einen Preis | Lesen |
+| Die Welt nennt den Ort (eine Gasse, ein Haus) | Lesen |
 | Drei Sätze zur Wahl (feilschen / nach dem Tuch fragen / gehen) | Handeln ist wählen, nicht tippen |
 | SL fordert Feilschen, Ziel sichtbar | Der SL entscheidet, ob gewürfelt wird |
 | Spieler drückt Würfeln, Platte zeigt die Rechnung | Vertrauen ins System |
@@ -130,15 +130,15 @@ Was bleibt als Daten, unsichtbar bis der SL es braucht: Zonen, Distanzen, Biblio
 
 ### Gate A — Grunddaten für den Neubau
 
-Sauber heißt: **eine Wahrheit**, **eine Sprache**, **die Demo-Szene vollständig**. Nicht: das ganze Buch.
+Sauber heißt: **eine Wahrheit**, **eine Sprache**, **Drosselau vollständig**. Nicht: das ganze Buch extra.
 
 - [x] Ein Vokabular. Start, Chat, Bogen sagen: Spieler würfelt, SL deutet, Bewegung ist B. 
-- [x] Alltagsleute, Wache auf der Bühne; Bogenfelder vorhanden. 
-- [x] Basar: Ort, Zonen, Distanzen, Auslöser, Katalog in Sätzen, Grau-Gründe auf Deutsch. 
+- [x] Alltagsleute, Wache in der Bibliothek; Bogenfelder vorhanden. 
+- [x] Drosselau: 13 Gassen, 69 Häuser, Auslöser am Haus, Katalog in Sätzen. 
 - [x] Würfelrechnung: Fähigkeit, Schwierigkeit, Ziel, W100, EG, acht Bänder. Eine Platte im Faden. 
 - [x] Tutorial-Skript: Lesen → Handlung → Würfeln → Rechnung. Die Welt antwortet als NSC. 
 - [x] Charakterkopf: Portrait, Name, LP, Glück, Geld, Ort/Frist. 
-- [x] Widersprüche gestrichen: keine Engine-Stimme, kein Auto-ein Händler, kein Taschendieb von selbst. 
+- [x] Widersprüche gestrichen: keine Engine-Stimme, kein Auto-NSC, kein Ereignis von selbst. 
 - [x] Recap-Satz und Frist am Kopf überall sichtbar und mit Journal verdrahtet. 
 - [ ] Push (Nachricht, wenn die Frist läuft) — später, nicht im Gerät.
 

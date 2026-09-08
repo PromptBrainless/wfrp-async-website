@@ -384,7 +384,7 @@ Mehrere Kampagnen dürfen parallel existieren. Eine Person kann SL in der einen 
 
 ---
 
-## 8. Demo-Datensatz (Basar + Rauferei)
+## 8. Archiv: alter Demo-Datensatz (nicht Kampagne 1)
 
 Fakten aus der Simulation, Werte die das Buch braucht. EG in der Simulation nicht 1:1 übernehmen.
 

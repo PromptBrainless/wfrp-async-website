@@ -1,6 +1,6 @@
 # Drosselau
 
-Ort von Kampagne 1. Marktflecken im Reikland. 13 Gassen, 69 Gebäude.
+Ort von Kampagne 1. Marktflecken im Reikland. 5 Viertel, 13 Gassen, 69 Gebäude. Szene zu.
 
 - [Original](original.md) — Verzeichnis, unverändert
 - [Angepasst](angepasst.md) — Kampagne, Währung, keine Szene

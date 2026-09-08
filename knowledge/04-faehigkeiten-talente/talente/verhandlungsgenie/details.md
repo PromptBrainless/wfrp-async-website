@@ -11,9 +11,9 @@ Quelle: S. 146 · [talents.json](../../../data/talents.json)
 
 ## Einsatz in der Spielwelt
 
-ein Händler (Händler) kennt den Preis, bevor er lächelt. Feilschen würfelt den Handel; Verhandlungsgenie schiebt 10 % extra. Am Altquartier-Basar: Tuch, Korn, der Ballen. Nicht Almosen, nicht Tempelopfer.
+ein Kaufmann kennt den Preis, bevor er lächelt. Feilschen würfelt den Handel; Verhandlungsgenie schiebt 10 % extra. Am Markt in Drosselau: Tuch, Korn, der Karren. Nicht Almosen, nicht Tempelopfer.
 
-der Spielercharakter kauft für den Laden ein, feilscht selten um den Verkaufspreis — das ist Ottos Job. ein Schläger „verhandelt“ mit Einschüchtern; das Talent gilt dort nicht.
+der Spielercharakter kauft für den Laden ein, feilscht selten um den Verkaufspreis — das ist Holtz' Job. Einschüchtern ist ein anderes Talent; Verhandlungsgenie gilt dort nicht.
 
 SL darf unter den Einkaufspreis nicht verkaufen lassen (Buch-Anmerkung). Gilde und Zoll im Reikland setzen oft harte Untergrenzen — das ist Status und Gesetz, nicht Charisma.
 

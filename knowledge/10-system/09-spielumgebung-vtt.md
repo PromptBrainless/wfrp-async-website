@@ -78,7 +78,7 @@ Inkarnate erzeugt Welt-, Stadt-, Innen- und Battlemaps. Export PNG/WebP, hohe Au
 
 Nicht: Inkarnate einbetten. Nicht: jeden Baum selbst stempeln in der Engine.
 
-Demo braucht **eine** Altdorf-Gasse / Basar-Karte, nicht zwanzig.
+Kampagne 1 braucht die Karten von **Drosselau** (Stadt, Viertel, Gassen), nicht zwanzig andere Städte.
 
 ---
 
@@ -128,7 +128,7 @@ Kein zweites System. Eine Leiste, zwei Beschriftungen.
 
 ## Reihenfolge, wenn wir den Tisch umbauen
 
-Nicht alles auf einmal. Jeder Schritt muss mit dem bestehenden Seed (Basar/Gasse, der Spielercharakter) wieder zusammensetzbar sein.
+Nicht alles auf einmal. Jeder Schritt muss mit Kampagne 1 (Drosselau, fünf Plätze, Szene zu) zusammenpassen.
 
 1. Karte als Szenengrund (ein Bild, Token-Punkte, Pins)
 2. Tracker/Checkliste (I-Liste + Intention-Status)

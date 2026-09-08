@@ -94,7 +94,7 @@ Roh: [\_roh/talente-s132-147.md](04-faehigkeiten-talente/_roh/talente-s132-147.m
 ## Als Nächstes (Buchreihenfolge)
 
 0. [x] [Prompt Erschaffung + Weltwissen](02-charaktere/PROMPT-erschaffung-weltwissen.txt) — **P1 Primer** + **39 Einzel-Erklärungen** ([erschaffung/](02-charaktere/erschaffung/README.md))
-1. [x] 8 Demo-Talente: Einsatz in der Spielwelt (`details.md`)
+1. [x] 8 Beispiel-Talente (Buch-Auswahl): Einsatz in der Spielwelt (`details.md`)
 2. [x] Talente der Bürger-Stufe-1 + ein Schläger-Stufe-1 Originale (18)
 3. [x] nächste Klasse nach Bürger — Flussvolk S. 69–76
 4. [x] Akademiker S. 53–60
@@ -103,7 +103,7 @@ Roh: [\_roh/talente-s132-147.md](04-faehigkeiten-talente/_roh/talente-s132-147.m
 7. [x] Welle D: Talente S. 132–147 — **167/167**
 8. [x] Qualitäten / Makel S. 297–299 — **26/26**
 9. [x] Religion S. 202–228 und Magie S. 229–257 — Rohkapitel + Hubs
-10. [x] Kampagne 1, 5 Spieler — Plätze leer, Ort fehlt
+10. [x] Kampagne 1, 5 Spieler — Plätze leer, Ort Drosselau
 11. [x] Restbuch als Roh + Hubs: Schicksal, Zwischen, SL, Reikland, Einkauf, Bestiarium
 12. [x] Ort Kampagne 1: Drosselau (13 Gassen). Szene zu.
 

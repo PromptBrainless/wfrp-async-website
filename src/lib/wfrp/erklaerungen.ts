@@ -163,7 +163,6 @@ export const ERKLAERUNGEN: Erklaerung[] = [
  "Das ist nicht das kurz- oder langfristige Ziel aus Schritt 6. Ziele geben EP, wenn du sie erreichst. Motivation gibt Mut, wenn du danach handelst.",
  "Leitfragen (der Spieler antwortet, wir speichern ein Wort): Was gäbe er nie auf? Wofür Risiko? Was fürchtet oder liebt er? Wer oder welche Idee gibt Kraft? Warum steht er morgens auf?",
  "Beispiele: nicht wieder auf der Straße · der nächste Handel · Respekt in der Gasse · die Familie ernähren · nie wieder Hunger · das Buch zu Ende schreiben · Rache aufschieben · Sigmars Tempel sehen.",
- "Demo: der Spielercharakter „nicht wieder auf der Straße“. ein Händler „der nächste Handel“. ein Schläger „Respekt in der Gasse“."
  ]
  },
  {
@@ -305,11 +304,10 @@ export const ERKLAERUNGEN: Erklaerung[] = [
  "title": "Gruppe",
  "paras": [
  "Ihr kennt euch schon, oder der Spielleiter führt euch im ersten Abenteuer zusammen. Beides ist Buch.",
- "Beispiele, wie ihr euch kennt: gleiche Gasse · dieselbe Flussbarke · derselbe Tempel · Basar · eine gemeinsame Schuld · die Wache hat euch in denselben Keller gesperrt.",
+ "Beispiele, wie ihr euch kennt: gleiche Gasse in Drosselau · derselbe Tempel · eine gemeinsame Schuld · die Wache hat euch in denselben Keller gesperrt.",
  "Gruppenname steht auf dem Bogen (S. 44). Nützlich, nicht Pflicht.",
  "Gruppenziele sind nicht die persönlichen Ziele. Sie dürfen sich ergänzen, sollen nicht identisch sein. Kurzfristig +50 EP für alle, langfristig +500 oder Ruhestand.",
- "Spannungen sind erlaubt (ein Händler will Handel, ein Schläger will Respekt, der Spielercharakter will die Miete). Permanente Kehlerei sprengt den Tisch.",
- "Demo: der Spielercharakter Städterin/Gehilfe Silber 1, ein Händler Kaufmann/Händler Silber 2, ein Schläger Halunke/Schläger. Flags und Bindungen können die drei schon verknüpfen."
+ "Spannungen sind erlaubt (ein Kaufmann will Handel, ein Tagelöhner will Respekt, jemand will die Miete). Permanente Kehlerei sprengt den Tisch.",
  ]
  },
  {

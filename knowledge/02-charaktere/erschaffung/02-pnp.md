@@ -27,7 +27,7 @@ weder SL noch Buch. Die Figur bleibt deine. „Avatar“ heißt hier
 Spielercharakter — nicht Computerspiel-Ich.
 
 Held oder Antiheld: beides legal. WFRP belohnt keine reinen Helden. Die
-Demo (Alltagsleute) sind Alltagsleute, keine Ritter. Antiheld heißt:
+Alltagsleute von Drosselau sind Alltagsleute, keine Ritter. Antiheld heißt:
 ehrgeizig, ängstlich, gierig — nicht „Chaos anbeten“.
 
 Ohne grobe Idee: würfeln ist erlaubt und gibt EP. Mit Idee: wir prüfen,

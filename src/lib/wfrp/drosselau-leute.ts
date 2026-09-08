@@ -1,4 +1,4 @@
-/** Leute von Drosselau. Nur Verzeichnis. Keine Vornamen, keine Bögen. */
+/** Leute von Drosselau. Verzeichnis + Stammbäume. Keine Bögen, bis der SL zieht. */
 
 export type GroupKind = "gilde" | "kult" | "wache" | "rat" | "clique" | "informell" | "graf";
 
@@ -41,7 +41,7 @@ export const GROUPS: GroupDef[] = [
     name: "Rat von Drosselau",
     kind: "rat",
     seat: { streetId: "marktplatz", nr: 6 },
-    note: "Bürgermeisteramt und Stadtrat. Keine Namen.",
+    note: "Bürgermeister Helmuth Talbeck, Stadtrat Reiner Stein.",
   },
   {
     id: "kaufleute",

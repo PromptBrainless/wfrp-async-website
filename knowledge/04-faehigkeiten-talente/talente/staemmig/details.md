@@ -6,13 +6,13 @@ Quelle: S. 144 · [talents.json](../../../data/talents.json)
 ## Hilfe
 
 - Traglast basiert auf Stärke-Bonus; dieses Talent addiert `2` pro Stufe **darauf**.
-- Demo hat kaum Last. Relevant sobald Inventar zählt.
+- Traglast zählt, sobald Inventar zählt.
 
 ## Einsatz in der Spielwelt
 
 Stufe 1 (Gehilfe) schleppt Töpfe, Säcke, den Ballen für ein Händler. Stämmig heißt: der Rücken hält den Arbeitstag, nicht „schlägt härter“. Kampf bleibt KG und ST.
 
-Am Basar siehst du es: wer die Kiste allein die Gasse hochbringt, wer zweimal läuft. ein Schläger trägt oft weniger, trifft aber härter ([Mächtiger Schlag](../maechtiger_schlag/details.md) ist ein anderes Talent).
+Am Markt siehst du es: wer die Kiste allein die Gasse hochbringt, wer zweimal läuft. Ein Tagelöhner trägt oft weniger, trifft aber härter ([Mächtiger Schlag](../maechtiger_schlag/details.md) ist ein anderes Talent).
 
 Zwerge haben Stämmig oft als Volks-Talent: Gestalt, nicht Beruf. der Spielercharakter hat es als Karriere.
 

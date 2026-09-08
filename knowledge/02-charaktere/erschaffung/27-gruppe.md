@@ -8,7 +8,7 @@ Ihr kennt euch schon, **oder** der Spielleiter führt euch im ersten
 Abenteuer zusammen. Beides ist Buch.
 
 Beispiele, wie ihr euch kennt: gleiche Gasse · dieselbe Flussbarke ·
-derselbe Tempel · Basar · eine gemeinsame Schuld · die Wache hat euch
+derselbe Tempel · gleiche Gasse in Drosselau · eine gemeinsame Schuld · die Wache hat euch
 in denselben Keller gesperrt.
 
 **Gruppenname** steht auf dem Bogen (S. 44). Nützlich, nicht Pflicht.

@@ -216,12 +216,6 @@ export function applyCombatOutcome(campaign: Campaign, roll: RollResult): Campai
   let scn = pushProtocol(scene, diceBeat);
 
   if ((roll.actionId === "sturmangriff" || roll.actionId === "angreifen") && roll.success) {
-    const foeId = actor?.id === "kurt" ? "greta" : "kurt";
-    const foe = next.characters[foeId];
-    if (foe) {
-      const dmg = Math.max(1, 3);
-      next.characters[foeId] = { ...foe, wounds: { ...foe.wounds, current: Math.max(0, foe.wounds.current - dmg) }, engaged: true };
-    }
     if (actor) next.characters[actor.id] = { ...next.characters[actor.id], engaged: true };
     scn = {
       ...scn,

@@ -30,7 +30,7 @@ function SlPage() {
           <h1 className="mt-4 font-display text-4xl text-ink">{DROSSELAU.name}</h1>
           <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink-muted">
             Stadt → Viertel → Gasse → Haus → Haushalt. {DROSSELAU_SCENE_COUNT} Szenen, alle zu.{" "}
-            {GROUPS.length} Gruppen, ohne Vornamen.
+            {GROUPS.length} Gruppen, 42 Stammbäume.
           </p>
           <ul className="mt-6 space-y-1 text-sm text-ink">
             <li>Spieler: 5, Plätze leer</li>

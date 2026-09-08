@@ -10,7 +10,7 @@ Chaos, Magie und Monster existieren. Der SL sagt, wann sie in der Szene vorkomme
 
 ## Die fünf Völker in einem Satz
 
-- **Mensch (Reikländer):** Mehrheit. Kurzlebig, ehrgeizig, oft Sigmar. Demo: Alltagsleute.
+- **Mensch (Reikländer):** Mehrheit. Kurzlebig, ehrgeizig, oft Sigmar. Kampagne 1: Alltagsleute in Drosselau.
 - **Zwerg:** Ahnen, Handwerk, Grudges. Keine Zauberei. Runen und Maschinen.
 - **Halbling:** Moot, Essen, oft übersehen. Menschliche Götter plus Hauskulte.
 - **Hochelf:** selten, fremd, Handel und Distanz.

@@ -397,7 +397,7 @@ export const useTisch = create<Store>()((set, get) => ({
                     ? "feilschen"
                     : "besonnenheit"
                 : undefined,
-            opposedId: def.resolver === "combat" ? "kurt" : def.resolver === "opposed" ? "otto" : undefined,
+            opposedId: undefined,
             askedAt: Date.now(),
           },
           phase: "ready",

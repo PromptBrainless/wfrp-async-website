@@ -64,7 +64,7 @@ Ziele dürfen vor der Gruppe geheim bleiben (Ruchlose Pläne, S. 41).
 
 ## Schritt 7 — Gruppe
 
-Wie kennt ihr euch? Basar, Flussbarke, gleiche Gasse, gleicher Tempel — oder der SL führt euch im ersten Abenteuer zusammen.
+Wie kennt ihr euch? Gleiche Gasse in Drosselau, gleicher Tempel — oder der SL führt euch im ersten Abenteuer zusammen.
 
 Persönliches Ziel ≠ Gruppenziel. Demo-Haken: Alltagsleute.
 

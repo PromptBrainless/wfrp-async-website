@@ -499,7 +499,7 @@ export function CharacterSheet() {
                   <section className="grid gap-4 sm:grid-cols-2">
                     <div className="rounded-md border border-dashed border-border p-3">
                       <h2 className="font-display text-sm uppercase tracking-widest text-muted">Zauber / Gebete / Sünde</h2>
-                      <p className="mt-2 text-sm text-muted">Nur Magie und Kult. Demo startet leer. Sünde 0.</p>
+                      <p className="mt-2 text-sm text-muted">Nur Magie und Kult. Leer, bis der Bogen sie trägt. Sünde 0.</p>
                     </div>
                     <div className="rounded-md border border-dashed border-border p-3">
                       <h2 className="font-display text-sm uppercase tracking-widest text-muted">Korrumpierung / Psychologie</h2>

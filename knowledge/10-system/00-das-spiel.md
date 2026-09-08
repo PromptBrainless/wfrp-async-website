@@ -1,9 +1,11 @@
 # Das Spiel – verbindliche Beschreibung
 
-Stand: 2026-09-06 
-Quellen: GRW 2. Auflage S. 6–7, 33–36, 149–191, 192–201, 259–262; Projektvision Push/Countdown; Aktionskatalog v1; Simulation Basar + Rauferei.
+Stand: 2026-09-08 
+Quellen: GRW 2. Auflage S. 6–7, 33–36, 149–191, 192–201, 259–262; Projektvision Push/Countdown; Aktionskatalog v1.
 
 Das ist die Beschreibung **des Spiels**, nicht der späteren Infrastruktur. KI, Kartenmodul, Chat und App hängen später daran. Sie ändern den Loop nicht. Möbel des Tisches: [09-spielumgebung-vtt.md](09-spielumgebung-vtt.md).
+
+Kampagne 1: [16-kampagne-1.md](16-kampagne-1.md). Ort: [Drosselau](../07-reikland/drosselau/README.md). Die alte Basar-Simulation ist Archiv, nicht der Tisch.
 
 ---
 
@@ -13,7 +15,7 @@ Warhammer Fantasy Roleplay 4. Edition, Grundregelwerk 2. überarbeitete Auflage.
 
 Eine Gruppe spielt in der Alten Welt. Jeder Spieler steuert einen Spielercharakter (SC). Ein Mensch ist Spielleiter (SL). Der SL ist die Welt, die Regeln, die Geschichte und der Anführer am Tisch (S. 259).
 
-Das Medium ist nicht der gemeinsame Abend am Tisch, sondern eine **asynchrone Szene mit Countdown**. Spieler müssen nicht gleichzeitig online sein. Bis zu zehn SC in einer Kampagne.
+Das Medium ist nicht der gemeinsame Abend am Tisch, sondern eine **asynchrone Szene mit Countdown**. Spieler müssen nicht gleichzeitig online sein. Kampagne 1: **fünf** SC. Der SL ist keine sechste Figur.
 
 Das Regelwerk bleibt die Autorität. Die Website übersetzt den Tisch-Loop, sie ersetzt ihn nicht.
 
@@ -29,18 +31,18 @@ Steuert genau einen SC. Sagt, was der Charakter **unternehmen will**. Sieht nur,
 
 ### Spielleiter
 
-Der SL ist **Leitung**, keine Figur am Tisch. Er sitzt nicht als ein Händler, nicht als der Spielercharakter.
+Der SL ist **Leitung**, keine Figur am Tisch. Er sitzt nicht als Kaufmann Holtz und nicht als Torwache Helm.
 
 - Beschreibt Ort, Sinne, Auslöser (als Welt). 
-- Leiht NSCs Stimme und Würfel: ein Händler spricht, ein Händler wirft — der Stempel auf dem Beat ist ein Händler, der Mensch dahinter bleibt SL. 
+- Leiht NSCs Stimme und Würfel: Wilhelm Holtz spricht, Arne Helm wirft — der Stempel auf dem Beat ist der NSC, der Mensch dahinter bleibt SL. 
 - Entscheidet, ob eine Handlung automatisch gelingt, scheitert oder einen Wurf braucht (S. 259). 
 - Wählt Fähigkeit, Schwierigkeit, Wer vergleicht mit wem. 
-- Deutet das Würfelergebnis in die Welt. Die Deutung darf Ottos Mund sein; sie macht den SL nicht zu ein Händler. 
-- Wirft vorbereitete Abenteuer-Ereignisse ein (S. 262). 
+- Deutet das Würfelergebnis in die Welt. Die Deutung darf Holtz' Mund sein; sie macht den SL nicht zum Gildemeister. 
+- Wirft vorbereitete Abenteuer-Ereignisse ein (S. 262). Sie feuern nicht von selbst. 
 - Sorgt dafür, dass jeder SC in der Szene vorkommt. 
 - Darf Regeln situativ straffen, wenn etwas zu lange dauert – das Buch erlaubt das.
 
-der Spielercharakter ist der Sitz des Spielers. Der SL nimmt ihn nicht ein. Ottos Bogen, Ottos Wurf, Ottos Zeile ins Leben sind **Werkzeuge der Leitung**, kein zweiter Spielerplatz.
+Der Spielercharakter ist der Sitz des Spielers. Der SL nimmt ihn nicht ein. Ein NSC-Bogen und ein NSC-Wurf sind **Werkzeuge der Leitung**, kein zweiter Spielerplatz.
 
 ### Engine (System)
 
@@ -376,9 +378,11 @@ Das ist WFRP am Tisch. Das Countdown-System ist nur der Weg, das zu tun, ohne da
 
 ### Siehe auch
 
+- [Kampagne 1](16-kampagne-1.md)
+- [Drosselau](../07-reikland/drosselau/README.md)
 - [Sims-Prinzip-Ableitung](01-sims-prinzip-ableitung.md)
 - [Datenmodell](02-datenmodell.md)
-- [Simulation Basar + Rauferei](03-simulation-basar-rauferei.md)
+- [Simulation Basar + Rauferei](03-simulation-basar-rauferei.md) — Archiv
 - [Aktionskatalog v1](04-aktionskatalog-v1.md)
 - [Grundprinzip des Spiels](../01-einfuehrung/01-grundprinzip-des-spiels.md)
 - [Kernrollen des SL](../06-spielleiter/01-kernrollen-des-SL.md)

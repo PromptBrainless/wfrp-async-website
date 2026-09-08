@@ -8,7 +8,7 @@ Quelle: S. 123 · Tabelle: [../../../data/skills.json](../../../data/skills.json
 - Fähigkeitswert = Spielwert + Steigerungen.
 - Beispiele und Tabellen stehen im [Original](original.md), hier nicht noch einmal abschreiben.
 - SL bleibt Welt: Fähigkeit, Schwierigkeit, wer vergleicht.
-- Engine-Notiz: Demo-Event Taschendieb. Ausbau: ohne Steigerung illegal.
+- Engine-Notiz: Taschendieb nur, wenn der SL das Ereignis zieht. Ausbau: ohne Steigerung illegal.
 
 ## Prüfen
 

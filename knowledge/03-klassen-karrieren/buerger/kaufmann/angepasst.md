@@ -2,7 +2,7 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 65)
 
-ein Händler Tuchhändler ist **Händler** (Stufe 1 der Karriere). Buch-Status Händler: Silber 2. Demo setzt Silber 1 — SL-Kürzung, kein Karriereabschluss.
+Die Karriere **Händler** ist Stufe 1 Kaufmann. Buch-Status: Silber 2. In Drosselau tragen die Kaufleute den Status ihres Hauses (Holtz Silber 5, Voss Silber 4) — das ist der Haushalt, nicht die Karrierestufe.
 
 ## Bogen
 
@@ -16,7 +16,7 @@ Nicht automatisch alle auf dem Bogen.
 
 ## Karte
 
-Keine eigene Katalogkarte. Basar nutzt [Feilschen](../../../04-faehigkeiten-talente/faehigkeiten/feilschen/angepasst.md).
+Keine eigene Katalogkarte. Markt nutzt [Feilschen](../../../04-faehigkeiten-talente/faehigkeiten/feilschen/angepasst.md).
 
 ### Befehl
 

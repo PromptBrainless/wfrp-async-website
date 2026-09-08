@@ -44,7 +44,7 @@ Stand: 2026-09-06 Abend. Häkchen der Wellen: [00-VOLLTEXT.md](00-VOLLTEXT.md).
 | Regelwerk | Unsere Datei | Status |
 |-----------|--------------|--------|
 | Fähigkeiten (S. 117–131) | `04-.../faehigkeiten/<slug>/` | ✅ 45 Originale |
-| Talente (S. 132–148) | `04-.../talente/<slug>/` | ⚠️ 8 / 167 Originale (Demo) |
+| Talente (S. 132–148) | `04-.../talente/<slug>/` | ✅ 167 / 167 Originale |
 
 ## REGELN
 | Regelwerk | Unsere Datei | Status |

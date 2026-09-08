@@ -23,9 +23,9 @@ Stehen im Original. Nicht auslösen, bis der SL eine Szene öffnet.
 
 ## Prüfen
 
-- [ ] Zoll in Groschen, nicht Pfennigen
-- [ ] Keine Demo-NSCs mit Namen, bis der SL sie nennt
-- [x] Gruppen und Haushalte aus dem Verzeichnis, ohne Vornamen
+- [x] Zoll in Groschen, nicht Pfennigen
+- [x] Stammbäume und Register liegen; keine Demo-NSCs (Otto/Kurt)
+- [x] Gruppen und Haushalte aus dem Verzeichnis, mit Namen; keine Bögen
 
 ### Siehe auch
 

@@ -1,35 +1,33 @@
 # Drosselau — Gruppen und Haushalte
 
-Quelle: S. — Verzeichnis Kampagne 1. Keine erfundenen Vornamen.
+Quelle: S. — Verzeichnis Kampagne 1. Stammbäume: [haushalte/README.md](haushalte/README.md). Register: [bewohnerregister.md](bewohnerregister.md).
 
-Fünfte Lage: **Leute**. Hängen am Haus, gehören der Kampagne (Bibliothek), nicht der Szene.
+Fünfte Lage: **Leute**. Hängen am Haus, gehören der Kampagne (Bibliothek), nicht der Szene. Keine Bögen, bis der SL zieht.
 
 ## Gruppen
 
-| Gruppe | Art | Sitz |
-|--------|-----|------|
-| Reichsgraf | Lehnsherr, abwesend | Schreiberstube handelt in seinem Namen |
-| Rat | Amt | Ratshaus |
-| Kaufmannsgilde | Gilde | Markt 1, Meister in der Gildengasse |
-| Handwerkerzunft | Gilde | Markt 2, Lager und Archiv Gildengasse |
-| Stadtwache | Wache | Zollhaus, ein Wächter in der Torstraße |
-| Sigmar | Kult | Tempel |
-| Morr | Kult | Kapelle + Totengräber |
-| Ulric | Kult, klein | die beiden Schmiedegesellen |
-| Ranald | informell | Taverne, Zeichen am Ring |
-| Bettlerclique | Clique | Bettelgasse 3 |
+| Gruppe | Art | Sitz | Köpfe |
+|--------|-----|------|-------|
+| Reichsgraf | Lehnsherr, abwesend | Siegel bei Feder, Markt 5 | Albrecht von Grünberg |
+| Rat | Amt | Ratshaus Markt 6 | Talbeck, Stein |
+| Kaufmannsgilde | Gilde | Markt 1, Meister Gildengasse 2 | Holtz, Voss, Heller, Bode |
+| Handwerkerzunft | Sammelzunft | Markt 2, Lager und Archiv Gildengasse | Hammer, Stahl, Tuch, Schneider, … |
+| Stadtwache | Wache | Zollhaus Tor 1 | Helm; Stahl beliefert |
+| Sigmar | Kult | Tempel Markt 3 | Keil, Novize Jost |
+| Morr | Kult | Kapelle Morrgasse 2 | Ewig, Gruft |
+| Ulric | Kult, klein | Schmiedezeile 4 | Eisen |
+| Ranald | informell | Taverne + Zeichen am Ring | Stube |
+| Bettlerclique | Clique | Bettelgasse 3 | Krumm, Fips, Auge |
 
 ## Haushalte
 
-Nur was das Verzeichnis hergibt. Eine **Familie** ist ein Haushalt mit Rolle, kein Stammbaum.
+42 Stammbäume. Die einzige ausdrücklich so genannte Familie im Original-Verzeichnis: **Schneider** (Weberweg).
 
-Die einzige ausdrücklich genannte Familie: **Schneiderfamilie** (Weberweg).
+Werkstatt und Wohnhaus derselben Leute sind ein Haushalt (Karr, Bode, Wurzel, Tuch, Schneider, Hammer, Leder, Ton, Stube).
 
-Werkstatt und Wohnhaus derselben Leute sind ein Haushalt (Fuhrunternehmer, Krämer, Webermeister, Gerbermeister, Töpfer, Wirt der Taverne).
+Zwei Kaufleute am Markt: Holtz (Markt 7) und Voss (Markt 8) — zwei Häuser.
 
-Zwei Kaufleute am Markt: zwei Haushalte, bis der SL sie zusammenlegt.
-
-Stammbäume, vollständig: [haushalte/README.md](haushalte/README.md). Jahr 2512 IZ. Keine Bögen.
+Vollständige Leiter: [Stadtverzeichnis](stadt-verzeichnis.md).
 
 ### Siehe auch
 

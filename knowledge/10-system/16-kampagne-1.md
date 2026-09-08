@@ -8,7 +8,7 @@ Gesetzt vom Menschen: **Kampagne 1**, **5 Spieler**, **Ort: Drosselau**.
 - Fünf Spielercharaktere. Jeder steuert genau einen SC.
 - Der SL ist Leitung, keine sechste Figur, kein NSC-Platz.
 - Keine Demo. Keine vorgefertigten Bögen.
-- **Ort: Drosselau** — Stadt → 5 Viertel → 13 Gassen → 69 Häuser. [Szenen](17-drosselau-szenen.md).
+- **Ort: Drosselau** — Stadt → 5 Viertel → 13 Gassen → 69 Häuser. [Szenen](17-drosselau-szenen.md). [Verzeichnis](../07-reikland/drosselau/stadt-verzeichnis.md). [Register](../07-reikland/drosselau/bewohnerregister.md).
 - **Erste Szene: zu.** Kein Auslöser, bis der SL eine Gasse öffnet.
 
 ## Was das für die Frist heißt

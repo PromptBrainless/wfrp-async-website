@@ -4,7 +4,6 @@ import { useTisch } from "@/lib/wfrp/store";
 
 export function SlDesk() {
   const campaign = useTisch((s) => s.campaign);
-  const go = useTisch((s) => s.goScene);
   const fire = useTisch((s) => s.fireEvent);
   const force = useTisch((s) => s.forceCountdown);
   const addLog = useTisch((s) => s.addLog);
@@ -56,12 +55,6 @@ export function SlDesk() {
         </p>
         {pending ? <p className="mt-1 text-sm">Offen: {pending.intention.actionId}</p> : null}
         <div className="mt-3 flex flex-wrap gap-2">
-          <Button size="sm" variant="ink" onClick={() => go("basar")}>
-            Basar
-          </Button>
-          <Button size="sm" variant="ink" onClick={() => go("gasse")}>
-            Gasse
-          </Button>
           <Button size="sm" variant="quiet" onClick={force}>
             Frist jetzt
           </Button>

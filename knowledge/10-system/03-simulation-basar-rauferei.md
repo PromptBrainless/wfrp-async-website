@@ -1,4 +1,6 @@
-# Simulation: Basar und Rauferei
+# Simulation: Basar und Rauferei (Archiv)
+
+**Nicht Kampagne 1.** Walkthrough einer alten Probe. Der Tisch ist Drosselau, Szene zu.
 
 **Lesen mit:** [05-simulation-vs-buch.md](05-simulation-vs-buch.md). 
 Die Würfelzahlen hier sind Walkthrough. Die Engine rechnet EG nach Buch S. 152.

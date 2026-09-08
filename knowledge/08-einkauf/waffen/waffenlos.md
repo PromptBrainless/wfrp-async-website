@@ -12,7 +12,7 @@ Quelle: S. 294–296; Makel Stumpf S. 299
 | Schaden | +STB+0 |
 | Qualitäten / Makel | **Stumpf** |
 
-v1-Demo: Kurts einzige Waffe. Immer „gezogen“.
+Immer „gezogen“, wenn keine Waffe in der Hand ist.
 
 ## Stumpf (S. 299)
 
