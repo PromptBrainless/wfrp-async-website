@@ -359,7 +359,14 @@ export function buildDrosselauScenes(): Record<string, Scene> {
       teaser: `${street.houses.length} Gebäude. Wege: ${street.neighbors.map((n) => byId[n].name).join(", ")}.`,
       exits,
       locationFlags: ["drosselau", "viertel-" + street.quartier, "gasse", street.id],
-      events: [],
+      events: street.houses.flatMap((h) =>
+        (h.events ?? []).map((ev) => ({
+          ...ev,
+          id: `${h.nr}-${ev.id}`,
+          label: `${h.name}: ${ev.label}`,
+          hint: `${ev.hint} · Nr. ${h.nr}. Nur der SL zieht.`,
+        })),
+      ),
     });
 
     for (const house of street.houses) {

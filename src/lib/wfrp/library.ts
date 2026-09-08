@@ -1,6 +1,6 @@
 import type { EncounterTable, LootTable, NpcPoolEntry } from "./types";
 
-/** Bibliothek der Kampagne. Kein Demo-Pool. NSCs liegen in drosselau-leute. Tabellen feuern nie von selbst. */
+/** Bibliothek der Kampagne. Kein Demo-Pool. NSCs liegen in drosselau-leute. Tabellen: SL zieht, Log zuerst, nie autoChat. */
 export const NPC_POOL: NpcPoolEntry[] = [];
 
 export const ENCOUNTER_TABLES: EncounterTable[] = [];

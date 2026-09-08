@@ -112,11 +112,13 @@ export function Tracker() {
                 {!p.revealed ? " (SL)" : ""}
               </li>
             ))}
-          {scene.events.map((e) => (
-            <li key={e.id}>
-              {e.fired ? "Ereignis ausgelöst" : "Vorbereitet"}: {e.label}
-            </li>
-          ))}
+          {sl
+            ? scene.events.map((e) => (
+                <li key={e.id}>
+                  {e.fired ? "Gezogen" : "Keim"}: {e.label}
+                </li>
+              ))
+            : null}
         </ul>
       ) : (
         <p className="mt-3 text-xs text-ink-muted">

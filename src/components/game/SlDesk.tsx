@@ -5,6 +5,9 @@ import { useTisch } from "@/lib/wfrp/store";
 export function SlDesk() {
   const campaign = useTisch((s) => s.campaign);
   const fire = useTisch((s) => s.fireEvent);
+  const publish = useTisch((s) => s.publishLastTable);
+  const discard = useTisch((s) => s.discardDraw);
+  const lastDraw = useTisch((s) => s.lastDraw);
   const force = useTisch((s) => s.forceCountdown);
   const addLog = useTisch((s) => s.addLog);
   const scene = campaign.scenes[campaign.currentSceneId];
@@ -61,21 +64,42 @@ export function SlDesk() {
         </div>
       </section>
 
+      {lastDraw ? (
+        <section className="rounded-md border border-primary/40 bg-raised p-3">
+          <p className="font-display text-sm">Gezogen — noch nicht in der Welt</p>
+          <p className="mt-1 text-sm">{lastDraw.title}</p>
+          <p className="mt-1 text-xs text-ink-muted">{lastDraw.body}</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            <Button size="sm" variant="wax" onClick={publish}>
+              Ins Leben
+            </Button>
+            <Button size="sm" variant="quiet" onClick={discard}>
+              Verwerfen
+            </Button>
+          </div>
+        </section>
+      ) : null}
+
       <section>
-        <p className="font-display text-sm">Ereignisse</p>
-        <ul className="mt-2 space-y-3">
-          {scene.events.map((e) => (
-            <li key={e.id} className="flex items-center justify-between gap-3">
-              <div>
-                <div className="text-sm">{e.label}</div>
-                <div className="text-xs text-ink-muted">{e.hint}</div>
-              </div>
-              <Button size="sm" variant="ink" disabled={e.fired} onClick={() => fire(e.id)}>
-                {e.fired ? "Ausgelöst" : "Einwerfen"}
-              </Button>
-            </li>
-          ))}
-        </ul>
+        <p className="font-display text-sm">Trigger dieser Gasse</p>
+        <p className="mt-1 text-xs text-ink-muted">Nur du ziehst. Öffnen der Szene zündet nichts.</p>
+        {scene.events.length === 0 ? (
+          <p className="mt-2 text-sm text-ink-muted">Keine vorbereiteten Keime an diesem Ort.</p>
+        ) : (
+          <ul className="mt-2 space-y-3">
+            {scene.events.map((e) => (
+              <li key={e.id} className="flex items-center justify-between gap-3">
+                <div>
+                  <div className="text-sm">{e.label}</div>
+                  <div className="text-xs text-ink-muted">{e.hint}</div>
+                </div>
+                <Button size="sm" variant="ink" disabled={e.fired} onClick={() => fire(e.id)}>
+                  {e.fired ? "Gezogen" : "Ziehen"}
+                </Button>
+              </li>
+            ))}
+          </ul>
+        )}
       </section>
 
       <section>

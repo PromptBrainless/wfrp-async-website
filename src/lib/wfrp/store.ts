@@ -30,7 +30,7 @@ type Store = {
   difficulty: DifficultyId;
   desk: DeskView;
   pane: WorkPane;
-  lastTableBeat: { title: string; body: string; auto: boolean } | null;
+  lastDraw: { title: string; body: string; eventId?: string } | null;
   setRole: (role: Role) => void;
   setView: (id: string) => void;
   selectAction: (id: string | null) => void;
@@ -52,6 +52,7 @@ type Store = {
   drawWeapon: () => void;
   spendResolve: () => void;
   fireEvent: (id: string) => void;
+  discardDraw: () => void;
   forceCountdown: () => void;
   reset: () => void;
   addCharacter: (c: Character) => void;
@@ -126,7 +127,7 @@ export const useTisch = create<Store>()((set, get) => ({
   difficulty: "durchschnittlich",
   desk: "szene",
   pane: "aktion",
-  lastTableBeat: null,
+  lastDraw: null,
   selectedTokenId: null,
   selectedJournalId: null,
   selectedPlaceId: null,
@@ -563,22 +564,13 @@ export const useTisch = create<Store>()((set, get) => ({
     const { campaign } = get();
     const scene = currentScene(campaign);
     const ev = scene.events.find((e) => e.id === id);
+    if (!ev || ev.fired) return;
     set({
-      campaign: withLog(
-        {
-          ...campaign,
-          scenes: {
-            ...campaign.scenes,
-            [scene.id]: {
-              ...pushProtocol(scene, nowEntry("event", ev?.label ?? "SL-Ereignis", ev?.hint ?? id, undefined, { icon: "ereignis" })),
-              events: scene.events.map((e) => (e.id === id ? { ...e, fired: true } : e)),
-            },
-          },
-        },
-        slEntry("intervene", ev?.label ?? id, ev?.hint ?? id),
-      ),
+      campaign: withLog(campaign, slEntry("table", ev.label, ev.hint, { tableId: ev.id })),
+      lastDraw: { title: ev.label, body: ev.hint, eventId: ev.id },
     });
   },
+  discardDraw: () => set({ lastDraw: null }),
   forceCountdown: () => set((s) => ({ campaign: { ...s.campaign, countdownEndsAt: Date.now() } })),
   reset: () =>
     set({
@@ -591,7 +583,7 @@ export const useTisch = create<Store>()((set, get) => ({
       selectedPlaceId: null,
       desk: "szene",
       pane: "aktion",
-      lastTableBeat: null,
+      lastDraw: null,
     }),
   addCharacter: (c) =>
     set((s) => ({
@@ -848,80 +840,45 @@ export const useTisch = create<Store>()((set, get) => ({
   },
   rollEncounter: (tableId) => {
     const table = ENCOUNTER_TABLES.find((t) => t.id === tableId);
-    if (!table) return;
+    if (!table || table.rows.length === 0) return;
     const { campaign } = get();
-    const auto = campaign.tableMarks[tableId] ?? table.autoChat;
     const row = rollWeighted(table.rows);
-    const beat = { title: row.label, body: row.body, auto };
     const logged = withLog(campaign, slEntry("table", `${table.label}: ${row.label}`, row.body, { tableId }));
-    if (auto) {
-      const scene = currentScene(logged);
-      set({
-        campaign: {
-          ...logged,
-          scenes: {
-            ...logged.scenes,
-            [scene.id]: pushProtocol(scene, nowEntry("event", row.label, row.body, undefined, { icon: "ereignis" })),
-          },
-        },
-        lastTableBeat: beat,
-      });
-    } else {
-      set({ campaign: logged, lastTableBeat: beat });
-    }
+    set({ campaign: logged, lastDraw: { title: row.label, body: row.body } });
   },
   rollLoot: (tableId) => {
     const table = LOOT_TABLES.find((t) => t.id === tableId);
-    if (!table) return;
+    if (!table || table.rows.length === 0) return;
     const { campaign } = get();
-    const auto = campaign.tableMarks[tableId] ?? table.autoChat;
     const row = rollWeighted(table.rows);
-    const beat = { title: row.label, body: `${row.itemName}${row.pennies ? ` · ${row.pennies} Groschen` : ""}`, auto };
-    const logged = withLog(campaign, slEntry("table", `${table.label}: ${row.label}`, beat.body, { tableId }));
-    if (auto) {
-      const scene = currentScene(logged);
-      set({
-        campaign: {
-          ...logged,
-          scenes: {
-            ...logged.scenes,
-            [scene.id]: pushProtocol(scene, nowEntry("event", row.label, beat.body, undefined, { icon: "fund" })),
-          },
-        },
-        lastTableBeat: beat,
-      });
-    } else {
-      set({ campaign: logged, lastTableBeat: beat });
-    }
+    const body = `${row.itemName}${row.pennies ? ` · ${row.pennies} Groschen` : ""}`;
+    const logged = withLog(campaign, slEntry("table", `${table.label}: ${row.label}`, body, { tableId }));
+    set({ campaign: logged, lastDraw: { title: row.label, body } });
   },
   publishLastTable: () => {
-    const { campaign, lastTableBeat } = get();
-    if (!lastTableBeat) return;
+    const { campaign, lastDraw } = get();
+    if (!lastDraw) return;
     const scene = currentScene(campaign);
-    set({
-      campaign: withLog(
-        {
-          ...campaign,
-          scenes: {
-            ...campaign.scenes,
-            [scene.id]: pushProtocol(
-              scene,
-              nowEntry("event", lastTableBeat.title, lastTableBeat.body, undefined, { icon: "ereignis" }),
-            ),
-          },
+    const beat = nowEntry("event", lastDraw.title, lastDraw.body, undefined, { icon: "ereignis" });
+    let next = addBeat(campaign, scene.id, beat);
+    if (lastDraw.eventId) {
+      const scn = next.scenes[scene.id];
+      next = {
+        ...next,
+        scenes: {
+          ...next.scenes,
+          [scn.id]: { ...scn, events: scn.events.map((e) => (e.id === lastDraw.eventId ? { ...e, fired: true } : e)) },
         },
-        slEntry("into-leben", lastTableBeat.title, lastTableBeat.body),
-      ),
-      lastTableBeat: { ...lastTableBeat, auto: true },
+      };
+    }
+    set({
+      campaign: withLog(next, slEntry("into-leben", lastDraw.title, lastDraw.body)),
+      lastDraw: null,
     });
   },
-  setTableAuto: (tableId, autoChat) =>
-    set((s) => ({
-      campaign: {
-        ...s.campaign,
-        tableMarks: { ...s.campaign.tableMarks, [tableId]: autoChat },
-      },
-    })),
+  setTableAuto: () => {
+    /* autoChat ist tot. Tabellen feuern nie von selbst. */
+  },
   addSlNote: (title, body) =>
     set((s) => ({
       campaign: withLog(s.campaign, slEntry("intervene", title, body)),
