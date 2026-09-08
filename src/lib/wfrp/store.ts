@@ -4,6 +4,7 @@ import { effectiveTarget, formatSl } from "./dice";
 import { ENCOUNTER_TABLES, LOOT_TABLES, rollWeighted } from "./library";
 import { formatMoney } from "./money";
 import { canWalkTo, distanceBetween, foeId, pinById, tokenPlace } from "./movement";
+import { addBeat } from "./journal";
 import { applyCombatOutcome, applySocialOutcome, nowEntry, pushProtocol, rollSimple } from "./resolve";
 import { createCampaign } from "./seed";
 import type {
@@ -156,10 +157,7 @@ export const useTisch = create<Store>()((set, get) => ({
         });
     set({
       campaign: withLog(
-        {
-          ...campaign,
-          scenes: { ...campaign.scenes, [scene.id]: pushProtocol(scene, entry) },
-        },
+        addBeat(campaign, scene.id, entry),
         slEntry("write", asWorld ? "Welt" : actor.name, text, { protocolId: entry.id }),
       ),
       note: "",
@@ -302,37 +300,24 @@ export const useTisch = create<Store>()((set, get) => ({
       note,
       submittedAt: Date.now(),
     };
-    set({
-      campaign: {
+    const intentBeat = nowEntry("intent", def.label, note || `${actor.name} will ${def.label}.`, undefined, {
+      portrait: actor.portrait,
+      speaker: actor.id,
+      placeId: get().selectedPlaceId ?? undefined,
+      icon: "intention",
+    });
+    const withIntent = addBeat(
+      {
         ...campaign,
         intentions: { ...campaign.intentions, [actor.id]: intention },
         pending: { intention, difficulty: get().difficulty, editedNarrative: "" },
         phase: "ready",
-        scenes: {
-          ...campaign.scenes,
-          [scene.id]: pushProtocol(
-            scene,
-            nowEntry("intent", def.label, note || `${actor.name} will ${def.label}.`, undefined, {
-              portrait: actor.portrait,
-              speaker: actor.id,
-              placeId: get().selectedPlaceId ?? undefined,
-              icon: "intention",
-            }),
-          ),
-        },
-        journalNotes: [
-          ...campaign.journalNotes,
-          {
-            id: crypto.randomUUID(),
-            at: Date.now(),
-            sceneId: scene.id,
-            title: def.label,
-            body: note || `${actor.name} will ${def.label}.`,
-            npcNames: [],
-            openQuestion: `Wurf oder automatisches Gelingen für ${def.label}?`,
-          },
-        ],
       },
+      scene.id,
+      intentBeat,
+    );
+    set({
+      campaign: withIntent,
       selectedAction: null,
       note: "",
     });

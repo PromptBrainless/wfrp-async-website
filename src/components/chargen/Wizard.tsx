@@ -26,8 +26,10 @@ import {
   finalAttributes,
   plusAdvancesUsed,
   pointBuyValid,
+  stageOf,
   woundsMax,
 } from "@/lib/wfrp/chargen";
+import { skillLabel } from "@/lib/wfrp/config";
 import { useChargen } from "@/lib/wfrp/chargen-store";
 import { useTisch } from "@/lib/wfrp/store";
 import { STATION_IDS, STATIONS, GOETTER, type StationId } from "@/lib/wfrp/stations";
@@ -316,7 +318,7 @@ function StepKarriere() {
 
   const three = draft.careerRolls.slice(0, 3);
   const career = draft.careerId ? CAREER_BY_ID[draft.careerId] : null;
-  const status = career?.stage1?.status;
+  const status = career ? stageOf(career).status : undefined;
 
   return (
     <div className="space-y-4">
@@ -356,7 +358,7 @@ function StepKarriere() {
 
       {status ? (
         <p className="rounded-md border border-border bg-raised px-3 py-2 text-sm">
-          Folgt: {career?.stage1?.name} · {status.tier} {status.rank} · Startgeld{" "}
+          Folgt: {career ? stageOf(career).name : ""} · {status.tier} {status.rank} · Startgeld{" "}
           {status.tier === "messing" ? `2W10×${status.rank} G` : status.tier === "silber" ? `1W10×${status.rank} S` : `${status.rank} GK`}
         </p>
       ) : null}
@@ -405,7 +407,7 @@ function StepWerte() {
   if (!draft.speciesId) return null;
   const sp = SPECIES[draft.speciesId];
   const career = draft.careerId ? CAREER_BY_ID[draft.careerId] : null;
-  const plus = career?.stage1?.plus ?? [];
+  const plus = career ? stageOf(career).plus : [];
   const finals = finalAttributes(draft.speciesId, draft.attrRaw, draft.attrAdvances);
   const buyState = pointBuyValid(draft.attrRaw);
   const left = extraLeft(draft);
@@ -552,8 +554,9 @@ function StepFaehigkeiten() {
   if (!draft.speciesId) return null;
   const sp = SPECIES[draft.speciesId];
   const career = draft.careerId ? CAREER_BY_ID[draft.careerId] : null;
-  const careerSkills = career?.stage1?.skills ?? draft.manualSkills;
-  const careerTalents = career?.stage1?.talents ?? [];
+  const stage = career ? stageOf(career) : null;
+  const careerSkills = stage?.skills.length ? stage.skills : draft.manualSkills;
+  const careerTalents = stage?.talents ?? [];
   const left = 40 - careerAdvanceSum(draft);
 
   return (
@@ -658,11 +661,10 @@ function StepFaehigkeiten() {
         ) : null}
         <div className="mt-3 space-y-2">
           {careerSkills.map((id) => {
-            const def = SKILL_BY_ID[id];
             const n = draft.careerAdv[id] ?? 0;
             return (
               <div key={id} className="flex items-center justify-between gap-3">
-                <span className="text-sm">{def?.label ?? id}</span>
+                <span className="text-sm">{skillLabel(id)}</span>
                 <span className="flex items-center gap-2">
                   <button type="button" className="min-h-9 px-3" onClick={() => setAdv(id, n - 1)}>
                     -
@@ -701,7 +703,8 @@ function StepAusruestung() {
   const setHood = useChargen((s) => s.setHood);
   const career = draft.careerId ? CAREER_BY_ID[draft.careerId] : null;
   if (!career) return null;
-  const status = career.stage1?.status;
+  const stage = stageOf(career);
+  const status = stage.status;
   const gesetzlos = career.klasse === "gesetzlose";
   return (
     <div className="space-y-4">
@@ -724,7 +727,7 @@ function StepAusruestung() {
             {g === "Gugel oder Maske" ? (draft.hood === "maske" ? "Maske" : "Gugel") : g}
           </li>
         ))}
-        {(career.stage1?.gear ?? []).map((g) => (
+        {stage.gear.map((g) => (
           <li key={g} className="rounded-sm border border-border bg-raised px-3 py-2">
             {g}
           </li>
@@ -882,8 +885,9 @@ function StepXp() {
   const bump = useChargen((s) => s.bumpAdvance);
   const ep = bonusEp(draft);
   const career = draft.careerId ? CAREER_BY_ID[draft.careerId] : null;
-  const plus = career?.stage1?.plus ?? [];
-  const skills = career?.stage1?.skills ?? draft.manualSkills;
+  const stage = career ? stageOf(career) : null;
+  const plus = stage?.plus ?? [];
+  const skills = stage?.skills.length ? stage.skills : draft.manualSkills;
 
   return (
     <div className="space-y-4">

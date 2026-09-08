@@ -1,4 +1,4 @@
-import { CATALOG_BY_ID, SKILL_LABEL } from "./catalog";
+import { CATALOG_BY_ID, skillLabel } from "./catalog";
 import {
   capAdvantage,
   conditionPenalty,
@@ -14,6 +14,7 @@ import {
   successLevels,
 } from "./dice";
 import { ICON_FROM_KIND, type IconKind } from "./icons";
+import { applyTalentToRoll, bargainExtra } from "./talents";
 import { DIFFICULTY_MOD } from "./types";
 import type {
   Campaign,
@@ -96,16 +97,19 @@ export function rollSimple(
   const adv = combat ? capAdvantage(character) * 10 : 0;
   const diff = DIFFICULTY_MOD[difficulty];
   const target = effectiveTarget(character, skillId, difficulty, { combat });
-  const roll = rollD100();
+  const raw = rollD100();
+  const applied = applyTalentToRoll(character, skillId, target, raw);
+  const roll = applied.roll;
   const sl = successLevels(target, roll);
   const success = isSuccess(target, roll);
   const doubles = isDoubles(roll);
+  const extra = bargainExtra(character, actionId, success);
   return {
     id: crypto.randomUUID(),
     characterId: character.id,
     actionId,
     skillId,
-    skillLabel: SKILL_LABEL[skillId] ?? skillId,
+    skillLabel: skillLabel(skillId),
     skillValue: skillVal,
     target,
     roll,
@@ -116,7 +120,7 @@ export function rollSimple(
     conditionMod: cond,
     advantageMod: adv,
     doubles,
-    band: egBand(sl, success),
+    band: extra ? `${egBand(sl, success)} · Verhandlungsgenie ±${extra} %` : egBand(sl, success),
     critical: combat && doubles && success,
     fumble: combat && doubles && !success,
     location: combat ? hitLocation(roll) : undefined,
@@ -136,8 +140,10 @@ export function rollOpposed(
 ): RollResult {
   const aTarget = effectiveTarget(actor, actorSkill, difficulty, { combat });
   const bTarget = effectiveTarget(other, otherSkill, "herausfordernd", { combat });
-  const aRoll = rollD100();
-  const bRoll = rollD100();
+  const aApplied = applyTalentToRoll(actor, actorSkill, aTarget, rollD100());
+  const bApplied = applyTalentToRoll(other, otherSkill, bTarget, rollD100());
+  const aRoll = aApplied.roll;
+  const bRoll = bApplied.roll;
   const aSl = successLevels(aTarget, aRoll);
   const bSl = successLevels(bTarget, bRoll);
   const success = isSuccess(aTarget, aRoll);
@@ -148,7 +154,7 @@ export function rollOpposed(
     characterId: actor.id,
     actionId,
     skillId: actorSkill,
-    skillLabel: SKILL_LABEL[actorSkill] ?? actorSkill,
+    skillLabel: skillLabel(actorSkill),
     skillValue: skillValue(actor, actorSkill),
     target: aTarget,
     roll: aRoll,
@@ -156,7 +162,7 @@ export function rollOpposed(
     opposed: {
       name: other.name,
       skillId: otherSkill,
-      skillLabel: SKILL_LABEL[otherSkill] ?? otherSkill,
+      skillLabel: skillLabel(otherSkill),
       target: bTarget,
       roll: bRoll,
       sl: bSl,
@@ -199,7 +205,7 @@ export function applySocialOutcome(campaign: Campaign, roll: RollResult): Campai
     scenes: { ...campaign.scenes, [scn.id]: scn },
     lastRoll: roll,
   };
-  return appendJournal(next, scn, formatRollLine(roll), actor?.name);
+  return next;
 }
 
 export function applyCombatOutcome(campaign: Campaign, roll: RollResult): Campaign {
@@ -225,23 +231,7 @@ export function applyCombatOutcome(campaign: Campaign, roll: RollResult): Campai
 
   next.scenes[scn.id] = scn;
   next.lastRoll = roll;
-  return appendJournal(next, scn, formatRollLine(roll), actor?.name);
-}
-
-function appendJournal(campaign: Campaign, scene: Scene, body: string, npc?: string): Campaign {
-  const last = scene.protocol[scene.protocol.length - 1];
-  const names = new Set(campaign.journalNotes.flatMap((n) => n.npcNames));
-  if (npc) names.add(npc);
-  const note = {
-    id: crypto.randomUUID(),
-    at: Date.now(),
-    sceneId: scene.id,
-    title: last?.title ?? scene.title,
-    body,
-    npcNames: [...names],
-    sourceProtocolId: last?.id,
-  };
-  return { ...campaign, journalNotes: [...campaign.journalNotes, note] };
+  return next;
 }
 
 export { nowEntry, plateFrom };

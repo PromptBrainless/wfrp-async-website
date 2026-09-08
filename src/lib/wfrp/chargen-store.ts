@@ -18,6 +18,7 @@ import {
   rollHeight,
   rollName,
   rollSpecies,
+  stageOf,
   rollUniqueTalents,
   twoD10,
   type ChargenDraft,
@@ -101,7 +102,7 @@ export const useChargen = create<Store>()((set, get) => ({
     set((s) => {
       const career = CAREER_BY_ID[id];
       const adv: Record<string, number> = {};
-      const skills = career?.stage1?.skills ?? s.draft.manualSkills;
+      const skills = career ? stageOf(career).skills : s.draft.manualSkills;
       for (const sk of skills) adv[sk] = s.draft.careerAdv[sk] ?? 0;
       return {
         draft: {
@@ -185,7 +186,7 @@ export const useChargen = create<Store>()((set, get) => ({
   rollMoney: () =>
     set((s) => {
       const career = s.draft.careerId ? CAREER_BY_ID[s.draft.careerId] : null;
-      const status = career?.stage1?.status ?? { tier: "messing" as const, rank: 1 };
+      const status = career ? stageOf(career).status : { tier: "messing" as const, rank: 1 };
       return { draft: { ...s.draft, money: moneyFromStatus(status.tier, status.rank) } };
     }),
   setName: (v) => set((s) => ({ draft: { ...s.draft, name: v } })),

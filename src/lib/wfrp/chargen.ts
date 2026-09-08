@@ -1,6 +1,8 @@
 import type { Attr, Character, Money } from "./types";
 import { ATTRS } from "./types";
 import { bonus } from "./dice";
+import { ATTR_OF_SKILL, CAREER_BY_ID as JSON_CAREERS, skillRoot } from "./config";
+import { talentAttrBonus } from "./talents";
 import {
   CAREER_BY_ID,
   CAREERS,
@@ -25,6 +27,18 @@ import {
   type CareerDef,
   type SpeciesId,
 } from "./chargen-data";
+
+export function stageOf(career: CareerDef) {
+  const json = JSON_CAREERS[career.id]?.stufen[0];
+  return {
+    name: career.stage1?.name ?? json?.name ?? career.name,
+    status: career.stage1?.status ?? (json ? { tier: json.tier, rank: json.rang } : { tier: "messing" as const, rank: 1 }),
+    skills: career.stage1?.skills ?? json?.faehigkeiten ?? [],
+    talents: career.stage1?.talents ?? [],
+    gear: career.stage1?.gear ?? [],
+    plus: career.stage1?.plus ?? [],
+  };
+}
 
 export function d10(rng = Math.random): number {
   return 1 + Math.floor(rng() * 10);
@@ -331,18 +345,22 @@ export function draftToCharacter(d: ChargenDraft): Character | null {
   const career = CAREER_BY_ID[d.careerId];
   if (!career) return null;
   const attrs = finalAttributes(d.speciesId, d.attrRaw, d.attrAdvances);
+  const talents = allTalents(d);
+  attrs.CH += talentAttrBonus({ talents }, "CH");
   const adv = skillAdvances(d);
   const skills: Record<string, number> = {};
   for (const [id, n] of Object.entries(adv)) {
     const def = SKILL_BY_ID[id];
-    const attrVal = def ? attrs[def.attr] : 0;
-    skills[sheetSkillId(id)] = skillTotal(attrVal, n);
+    const attrKey = def?.attr ?? ATTR_OF_SKILL[skillRoot(id)];
+    const attrVal = attrKey ? attrs[attrKey] : 0;
+    skills[id] = skillTotal(attrVal, n);
   }
   const lp = woundsMax(attrs, sp.lpHalbling);
   const fate = sp.schicksal + d.fateExtra;
   const res = sp.zaehigkeit + d.resExtra;
-  const status = career.stage1?.status ?? { tier: "messing" as const, rank: 1 };
-  const gear = [...CLASS_GEAR[career.klasse], ...(career.stage1?.gear ?? [])].map((name) => {
+  const stage = stageOf(career);
+  const status = stage.status;
+  const gear = [...CLASS_GEAR[career.klasse], ...stage.gear].map((name) => {
     if (name === "Gugel oder Maske") return d.hood === "maske" ? "Maske" : "Gugel";
     return name;
   });
@@ -352,13 +370,13 @@ export function draftToCharacter(d: ChargenDraft): Character | null {
     name: d.name.trim(),
     species: d.speciesId,
     className: CLASS_LABEL[career.klasse],
-    career: career.stage1 ? `${career.name} · ${career.stage1.name}` : career.name,
+    career: `${career.name} · ${stage.name}`,
     careerLevel: 1,
     status,
     motivation: d.motivation || "—",
     attributes: attrs,
     skills,
-    talents: allTalents(d),
+    talents,
     wounds: { current: lp, max: lp },
     movement: sp.bewegung,
     fate,
