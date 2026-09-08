@@ -12,6 +12,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 
 ## Meta
 - ✅ [Kontext — eine Struktur](00-KONTEXT.md) — Sicherung: [Kleist-Bild](../public/images/context/kleist-stand.jpg)
+- ✅ [NOTICE.md](../NOTICE.md) — Recht, kein Foundry, kein Fan-Release
 - ✅ [Befehle – Arbeitsregeln](00-BEFEHLE.md)
 - ✅ [Vorlage drei Dateien](00-VORLAGE.md)
 - ✅ [Volltext-Plan](00-VOLLTEXT.md)

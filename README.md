@@ -1,42 +1,49 @@
-# WFRP Async Website
+# Die Frist
 
-Internes Entwicklungsrepository. Asynchrone Website für **Warhammer Fantasy Roleplay 4. Edition** (Grundregelwerk, 2. überarbeitete Auflage).
+Privates Arbeitsrepo. Asynchrones **Warhammer Fantasy Roleplay 4e** (Ulisses, Grundregelwerk 2. überarbeitete Auflage).
 
-**Kampagne 1:** fünf Spieler, Ort **Drosselau**, erste Szene zu.  
-**Repo:** [PromptBrainless/wfrp-async-website](https://github.com/PromptBrainless/wfrp-async-website) (privat)
+**Kampagne 1:** fünf Spieler · Ort **Drosselau** · erste Szene zu.  
+**GitHub:** [PromptBrainless/wfrp-async-website](https://github.com/PromptBrainless/wfrp-async-website) — privat, kein Fan-Release.
 
-Kein Fan-Projekt nach außen. Die Umsetzung liegt beim Entwicklungsteam dieses Repos.
+Spieler setzt Intention und wirft den W100. Der SL ist Leitung, keine Figur. Die Engine spricht nicht.
 
 ---
 
-## Ziel
+## GitHub — was hier liegt, was nicht
 
-Sims-Loop, nicht Live-Tisch:
+| Im Repo | Nicht im Repo |
+|---------|----------------|
+| Loop, Wissen als MD (Original / angepasst / details) | PDFs, Scans, Drive-Dateien |
+| Drosselau (Stadt, Stammbäume, Register) | Foundry-System, Foundry-Module, Compendium-Packs |
+| App (`src/`), Katalog, Seed ohne Demo | Wiki-Abschriften, Abenteuer-PDFs Dritter |
+| Kleist-Sicherung des Stands | VTT-Token-Logik, fremde Kampf-Engine |
+
+Marken: Games Workshop, Cubicle 7, Ulisses. Siehe [NOTICE.md](NOTICE.md).
+
+---
+
+## Loop
 
 ```
-Charakter an Ort XY
-  → Zustand des Charakters + Weltzustand
-  → gefilterter Aktionskatalog (Karten ausgegraut, nie gelöscht)
-  → Spieler wählt Intention
-  → Spieler würfelt den W100, Glück-Fenster nach eigenem Wurf
-  → SL deutet in die Welt
+Charakter an Ort
+  → Zustand + Welt
+  → Katalog (Karten grau, nie gelöscht)
+  → Intention
+  → Spieler-W100; Glück nur nach eigenem Wurf
+  → SL deutet
   → neuer Zustand
 ```
 
-Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln, keine Stimmen, keine Zufallsinhalte.
-
 ---
 
-## Lies zuerst (neue Session)
+## Lies zuerst
 
 1. [NEUES-FENSTER.md](NEUES-FENSTER.md)
-2. [knowledge/00-KONTEXT.md](knowledge/00-KONTEXT.md) — eine Wahrheit; [Kleist-Sicherung](public/images/context/kleist-stand.jpg)
+2. [knowledge/00-KONTEXT.md](knowledge/00-KONTEXT.md) — eine Wahrheit · [Kleist-Bild](public/images/context/kleist-stand.jpg)
 3. [knowledge/00-UEBERGABE.md](knowledge/00-UEBERGABE.md)
-3. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
-4. [knowledge/10-system/16-kampagne-1.md](knowledge/10-system/16-kampagne-1.md)
-5. [knowledge/07-reikland/drosselau/README.md](knowledge/07-reikland/drosselau/README.md)
-6. [skill/SKILL.md](skill/SKILL.md)
-7. [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
+4. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
+5. [knowledge/10-system/16-kampagne-1.md](knowledge/10-system/16-kampagne-1.md)
+6. [knowledge/07-reikland/drosselau/README.md](knowledge/07-reikland/drosselau/README.md)
 
 ---
 
@@ -44,49 +51,27 @@ Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln, keine Sti
 
 | Schicht | Stand |
 |---------|--------|
-| Buch-Wissen | 329 / 329 Gerüste + Rohkapitel |
+| Buch-Wissen | 329 / 329 Gerüste |
 | Kampagne | 1 · 5 leere Plätze · Drosselau |
-| Stadt | 5 Viertel, 13 Gassen, 69 Häuser, 42 Stammbäume, Bewohnerregister |
+| Stadt | 5 Viertel, 13 Gassen, 69 Häuser, 42 Stammbäume |
 | Szene | alle zu, bis der SL eine Gasse öffnet |
-| Demo (Basar / Otto / Kurt) | raus |
+| Demo | raus |
 
 Nächster Schritt: fünf Charaktere **oder** erste Gasse (SL öffnet).
 
-Git-Hooks: `bash skill/scripts/install-hooks.sh`. Kein PDF, keine Scans ins Git.
+Hooks: `bash skill/scripts/install-hooks.sh`
 
 ---
 
-## Repo-Struktur
+## Struktur
 
 ```
-README.md
-NEUES-FENSTER.md
-knowledge/                      Buch + Kampagne
-  07-reikland/drosselau/        Stadt, Leute, Register, Karten-Prompts
-  10-system/                    Loop, Frist, Kampagne 1
-src/lib/wfrp/                   Engine (Drosselau-Graph, Seed ohne Demo)
-src/routes/                     Start, Erschaffung, Bogen, Tisch, SL
+knowledge/                 Buch + Kampagne
+  07-reikland/drosselau/   Stadt
+  10-system/               Loop, Frist
+src/lib/wfrp/              Engine (kein Demo-Seed)
+src/routes/                Start, Erschaffung, Bogen, Tisch, SL
+scripts/kleist-snapshot.py Sicherung als Bild
 ```
 
----
-
-## EG-Formel (kanonisch)
-
-Buch S. 151, `src/lib/wfrp/dice.ts`:
-
-```
-EG = Zehnerstelle(Zielwert) − Zehnerstelle(Wurf)
-01–05 immer Erfolg (EG mindestens +1)
-96–00 immer Misserfolg (EG höchstens −1)
-00 auf dem W100 = 100
-```
-
----
-
-## Lizenz / Recht
-
-Internes Arbeitsmittel. Privates Repository.
-
-Warhammer, Warhammer Fantasy Roleplay und zugehörige Marken bleiben bei den Rechteinhabern (Games Workshop, Cubicle 7, Ulisses). Die MD-Dateien sind die Arbeitsabschrift für diese Umsetzung, keine Veröffentlichung nach außen.
-
-Kein PDF und keine Scans ins Git.
+EG (Buch S. 151, `src/lib/wfrp/dice.ts`): Zehner(Ziel) − Zehner(Wurf). 01–05 Erfolg, 96–00 Misserfolg, 00 = 100.

@@ -26,6 +26,13 @@ attachments/*.pdf
 attachments/*.zip
 **/*Grundregelwerk*.pdf
 **/*Warhammer_Fantasy*.pdf
+*.pdf
+
+# Fremdsysteme — nie ins Repo
+foundry/
+**/wfrp4e.zip
+wiki-dump/
+compendium-import/
 
 # Editor / OS
 .DS_Store
