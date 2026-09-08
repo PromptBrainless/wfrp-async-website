@@ -1,4 +1,4 @@
-import { AUSBAU_IDS, CATALOG } from "./config";
+import { AUSBAU_IDS, CATALOG, skillRoot } from "./config";
 import { canCharge, tokenPlace, runM } from "./movement";
 import type { ActionView, Character, Scene } from "./types";
 
@@ -44,7 +44,12 @@ export function filterCatalog(
         reason = "Nur Aufstehen oder kriechen.";
       } else if (stunned && (def.cost === "H" || def.cost === "BH") && def.id !== "mut") {
         reason = "Betäubt — keine Handlung.";
-      } else if (def.skill && AUSBAU_IDS.has(def.skill) && character.skills[def.skill] == null) {
+      } else if (
+        def.skill &&
+        AUSBAU_IDS.has(skillRoot(def.skill)) &&
+        character.skills[def.skill] == null &&
+        character.skills[skillRoot(def.skill)] == null
+      ) {
         reason = "Nicht ausgebildet.";
       } else if (def.id === "aufstehen" && !prone) {
         reason = "Stehst.";

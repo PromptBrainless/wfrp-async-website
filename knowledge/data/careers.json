@@ -24,25 +24,53 @@
             "lesen_und_schreiben",
             "redeschwall",
             "schnellleser"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "feilschen",
+            "nachforschen",
+            "sprache.klassisch",
+            "wissen.gesetze",
+            "wissen.theologie",
+            "wahrnehmung",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Advokat",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "geheimzeichen.gilde",
+            "intuition",
+            "klatsch",
+            "sprache.gildenzunge"
+          ]
         },
         {
           "nr": 3,
           "name": "Rechtsgelehrter",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "kunst.schreiben",
+            "unterhalten.reden_halten",
+            "einschuechtern",
+            "wissen.wahl"
+          ]
         },
         {
           "nr": 4,
           "name": "Richter",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "besonnenheit",
+            "wissen.wahl"
+          ]
         }
       ]
     },
@@ -69,25 +97,53 @@
             "handwerksgeschick",
             "lesen_und_schreiben",
             "zusammenmischen"
+          ],
+          "faehigkeiten": [
+            "beruf.apotheker",
+            "beruf.giftmischer",
+            "heilen",
+            "sprache.klassisch",
+            "wissen.chemie",
+            "wissen.medizin",
+            "wissen.pflanzen",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Apotheker",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "charme",
+            "feilschen",
+            "klatsch",
+            "sprache.gildenzunge",
+            "wahrnehmung",
+            "wissen.naturwissenschaft"
+          ]
         },
         {
           "nr": 3,
           "name": "Apotheker-Meister",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "anfuehren",
+            "geheimzeichen.gilde",
+            "intuition",
+            "nachforschen"
+          ]
         },
         {
           "nr": 4,
           "name": "Hofapotheker",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "einschuechtern",
+            "reiten.pferd"
+          ]
         }
       ]
     },
@@ -115,25 +171,53 @@
             "lesen_und_schreiben",
             "trunkenbold",
             "zahlengenie"
+          ],
+          "faehigkeiten": [
+            "feilschen",
+            "gluecksspiel",
+            "klatsch",
+            "nachforschen",
+            "sprache.klassisch",
+            "unterhalten.erzaehlen",
+            "wissen.wahl",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Gelehrter",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "beruf.wahl",
+            "intuition",
+            "kunst.schreiben",
+            "sprache.wahl",
+            "wahrnehmung",
+            "wissen.wahl"
+          ]
         },
         {
           "nr": 3,
           "name": "Dozent",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "einschuechtern",
+            "sprache.wahl",
+            "unterhalten.vorlesung",
+            "wissen.wahl"
+          ]
         },
         {
           "nr": 4,
           "name": "Professor",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "unterhalten.rhetorik",
+            "wissen.wahl"
+          ]
         }
       ]
     },
@@ -160,25 +244,53 @@
             "buecherwurm",
             "feldscher",
             "lesen_und_schreiben"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "bestechen",
+            "besonnenheit",
+            "fahren",
+            "fingerfertigkeit",
+            "klatsch",
+            "heilen",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Medicus",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "beruf.bader",
+            "charme",
+            "feilschen",
+            "sprache.gildenzunge",
+            "wissen.anatomie",
+            "wissen.medizin"
+          ]
         },
         {
           "nr": 3,
           "name": "Doktor",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "einschuechtern",
+            "nachforschen",
+            "zechen"
+          ]
         },
         {
           "nr": 4,
           "name": "Hofarzt",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "artistik.tanzen",
+            "wissen.adelige"
+          ]
         }
       ]
     },
@@ -202,25 +314,53 @@
             "lesen_und_schreiben",
             "segen",
             "schnorrer"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "besonnenheit",
+            "beten",
+            "heilen",
+            "klatsch",
+            "kunst.kalligraphie",
+            "unterhalten.erzaehlen",
+            "wissen.theologie"
           ]
         },
         {
           "nr": 2,
           "name": "Mönch",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "beruf.brauer",
+            "beruf.kraeuterkundiger",
+            "beruf.winzer",
+            "charme",
+            "nachforschen",
+            "nahkampf.wahl"
+          ]
         },
         {
           "nr": 3,
           "name": "Abt",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "anfuehren",
+            "wahrnehmung",
+            "wissen.ort_region",
+            "wissen.politik"
+          ]
         },
         {
           "nr": 4,
           "name": "Generaloberer",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "sprache.wahl",
+            "wissen.wahl"
+          ]
         }
       ]
     },
@@ -244,25 +384,53 @@
             "heilige_visionen",
             "lesen_und_schreiben",
             "segen"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "besonnenheit",
+            "beten",
+            "intuition",
+            "nachforschen",
+            "wissen.theologie",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Priester",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "charme",
+            "einschuechtern",
+            "heilen",
+            "klatsch",
+            "nahkampf.standard",
+            "unterhalten.erzaehlen"
+          ]
         },
         {
           "nr": 3,
           "name": "Hohepriester",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "anfuehren",
+            "kunst.schreiben",
+            "unterhalten.reden_halten",
+            "wissen.heraldik"
+          ]
         },
         {
           "nr": 4,
           "name": "Lektor",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "sprache.wahl",
+            "wissen.politik"
+          ]
         }
       ]
     },
@@ -288,25 +456,53 @@
             "lesen_und_schreiben",
             "kuenstlerisch",
             "pulverschuetze"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "beruf.technicus",
+            "besonnenheit",
+            "fernkampf.schiesspulver",
+            "sprache.klassisch",
+            "wissen.technicus",
+            "wahrnehmung",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Technicus",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "ausweichen",
+            "fahren",
+            "fernkampf.technicus",
+            "nachforschen",
+            "navigation",
+            "sprache.gildenzunge"
+          ]
         },
         {
           "nr": 3,
           "name": "Meistertechnicus",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "anfuehren",
+            "geheimzeichen.gilde",
+            "reiten.pferd",
+            "sprache.khazalid"
+          ]
         },
         {
           "nr": 4,
           "name": "Hoftechnicus",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "sprache.wahl",
+            "wissen.wahl"
+          ]
         }
       ]
     },
@@ -332,25 +528,53 @@
             "lesen_und_schreiben",
             "niedere_magie",
             "zweites_gesicht"
+          ],
+          "faehigkeiten": [
+            "ausweichen",
+            "intuition",
+            "kanalisieren.1_wind",
+            "nahkampf.standard",
+            "nahkampf.stangenwaffe",
+            "sprache.magick",
+            "wissen.magie",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Zauberer",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "besonnenheit",
+            "charme",
+            "einschuechtern",
+            "klatsch",
+            "sprache.schlachtenzunge",
+            "sprache.wahl"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterzauberer",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "reiten.pferd",
+            "tierpflege",
+            "schaetzen",
+            "wissen.kriegsfuehrung"
+          ]
         },
         {
           "nr": 4,
           "name": "Erzmagier",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "sprache.wahl",
+            "wissen.wahl"
+          ]
         }
       ]
     },
@@ -375,25 +599,53 @@
             "lesen_und_schreiben",
             "redeschwall",
             "schnorrer"
+          ],
+          "faehigkeiten": [
+            "beruf.drucker",
+            "bestechen",
+            "charme",
+            "kunst.schreiben",
+            "feilschen",
+            "klatsch",
+            "wissen.politik",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Agitator",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "anfuehren",
+            "ausweichen",
+            "besonnenheit",
+            "gluecksspiel",
+            "intuition",
+            "unterhalten.erzaehlen"
+          ]
         },
         {
           "nr": 3,
           "name": "Aufwiegler",
           "tier": "messing",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "athletik",
+            "einschuechtern",
+            "nahkampf.waffenlos",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 4,
           "name": "Demagoge",
           "tier": "messing",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "reiten.pferd",
+            "wissen.heraldik"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/buerger/agitator/original.md"
@@ -419,25 +671,53 @@
             "resistenz",
             "schnorrer",
             "unverwuestlich"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "ausweichen",
+            "besonnenheit",
+            "charme",
+            "intuition",
+            "schleichen.stadt",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Bettler",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "feilschen",
+            "fingerfertigkeit",
+            "klatsch",
+            "unterhalten.schauspielerei",
+            "unterhalten.wahl",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterbettler",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "anfuehren",
+            "geheimzeichen.vagabunden",
+            "tiere_bezirzen",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 4,
           "name": "König der Bettler",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "bestechen",
+            "einschuechtern"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/buerger/bettler/original.md"
@@ -464,25 +744,53 @@
             "lesen_und_schreiben",
             "strassenkatze",
             "unauffaellig"
+          ],
+          "faehigkeiten": [
+            "besonnenheit",
+            "charme",
+            "intuition",
+            "klatsch",
+            "klettern",
+            "schleichen.stadt",
+            "spurenlesen",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Ermittler",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "ausweichen",
+            "fingerfertigkeit",
+            "nahkampf.waffenlos",
+            "schloesser_oeffnen",
+            "wissen.gesetze",
+            "zechen"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterermittler",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "anfuehren",
+            "bestechen",
+            "schaetzen",
+            "wissen.wahl"
+          ]
         },
         {
           "nr": 4,
           "name": "Detektiv",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "einschuechtern",
+            "wissen.wahl"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/buerger/ermittler/original.md"
@@ -510,25 +818,53 @@
             "kuenstlerisch",
             "sehr_stark",
             "starker_ruecken"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "athletik",
+            "beruf.wahl",
+            "besonnenheit",
+            "schaetzen",
+            "schleichen.stadt",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Handwerker",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "charme",
+            "feilschen",
+            "klatsch",
+            "sprache.gildenzunge",
+            "wahrnehmung",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterhandwerker",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "anfuehren",
+            "geheimzeichen.gilde",
+            "intuition",
+            "nachforschen"
+          ]
         },
         {
           "nr": 4,
           "name": "Gildenmeister",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "bestechen",
+            "einschuechtern"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/buerger/handwerker/original.md"
@@ -557,6 +893,16 @@
             "lesen_und_schreiben",
             "redeschwall",
             "verhandlungsgenie"
+          ],
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "fahren",
+            "gluecksspiel",
+            "feilschen",
+            "klatsch",
+            "tierpflege",
+            "zechen"
           ]
         },
         {
@@ -565,7 +911,15 @@
           "status": {
             "tier": "silber",
             "rang": 5
-          }
+          },
+          "faehigkeiten": [
+            "intuition",
+            "schaetzen",
+            "sprache.wahl",
+            "sprache.gildenzunge",
+            "wahrnehmung",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
@@ -573,7 +927,13 @@
           "status": {
             "tier": "gold",
             "rang": 1
-          }
+          },
+          "faehigkeiten": [
+            "besonnenheit",
+            "geheimzeichen.gilde",
+            "navigation",
+            "sprache.klassisch"
+          ]
         },
         {
           "nr": 4,
@@ -581,7 +941,11 @@
           "status": {
             "tier": "gold",
             "rang": 3
-          }
+          },
+          "faehigkeiten": [
+            "einschuechtern",
+            "wissen.wahl"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/buerger/kaufmann/original.md"
@@ -607,25 +971,53 @@
             "maechtiger_schlag",
             "nachtsicht",
             "resistenz"
+          ],
+          "faehigkeiten": [
+            "abrichten.hund",
+            "athletik",
+            "ausdauer",
+            "fernkampf.schleuder",
+            "nahkampf.standard",
+            "schleichen.untergrund_oder_stadt",
+            "tiere_bezirzen",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Rattenfänger",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "fallen_stellen",
+            "feilschen",
+            "klatsch",
+            "tierpflege",
+            "wahrnehmung",
+            "wissen.gift"
+          ]
         },
         {
           "nr": 3,
           "name": "Kanalwächter",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "ausweichen",
+            "besonnenheit",
+            "fernkampf.handarmbrust",
+            "klettern"
+          ]
         },
         {
           "nr": 4,
           "name": "Schädlingsbekämpfer",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "anfuehren",
+            "spurenlesen"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/buerger/rattenfaenger/original.md"
@@ -654,6 +1046,16 @@
             "staemmig",
             "strassenkatze",
             "unauffaellig"
+          ],
+          "faehigkeiten": [
+            "ausweichen",
+            "charme",
+            "fahren",
+            "feilschen",
+            "gluecksspiel",
+            "klatsch",
+            "klettern",
+            "zechen"
           ]
         },
         {
@@ -662,7 +1064,15 @@
           "status": {
             "tier": "silber",
             "rang": 2
-          }
+          },
+          "faehigkeiten": [
+            "bestechen",
+            "intuition",
+            "musizieren.wahl",
+            "nahkampf.waffenlos",
+            "schaetzen",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
@@ -670,7 +1080,13 @@
           "status": {
             "tier": "silber",
             "rang": 5
-          }
+          },
+          "faehigkeiten": [
+            "besonnenheit",
+            "nachforschen",
+            "wahrnehmung",
+            "wissen.gesetze"
+          ]
         },
         {
           "nr": 4,
@@ -678,7 +1094,11 @@
           "status": {
             "tier": "gold",
             "rang": 1
-          }
+          },
+          "faehigkeiten": [
+            "einschuechtern",
+            "wissen.politik"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/buerger/staedter/original.md"
@@ -705,25 +1125,53 @@
             "betaeubender_schlag",
             "gedrillt",
             "robustheit"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "athletik",
+            "gluecksspiel",
+            "klettern",
+            "nahkampf.wahl",
+            "wahrnehmung",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Wachmann",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "besonnenheit",
+            "charme",
+            "einschuechtern",
+            "intuition",
+            "klatsch",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Weibel der Wache",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "unterhalten.erzaehlen",
+            "feilschen",
+            "anfuehren",
+            "wissen.gesetze"
+          ]
         },
         {
           "nr": 4,
           "name": "Hauptmann der Wache",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "wissen.politik",
+            "reiten.pferd"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/buerger/wachmann/original.md"
@@ -732,49 +1180,489 @@
       "id": "flussbewohner",
       "name": "Flussbewohner",
       "klasse": "flussvolk",
-      "seite": 69
+      "seite": 69,
+      "original": "03-klassen-karrieren/flussvolk/flussbewohner/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Jungspund",
+          "tier": "messing",
+          "rang": 2,
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "athletik",
+            "klatsch",
+            "rudern",
+            "schwimmen",
+            "ueberleben",
+            "zechen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Flussbewohner",
+          "tier": "messing",
+          "rang": 3,
+          "faehigkeiten": [
+            "gluecksspiel",
+            "fallen_stellen",
+            "fernkampf.fesseln",
+            "fernkampf.werfen",
+            "wissen.flusswege",
+            "wissen.ort_region"
+          ]
+        },
+        {
+          "nr": 3,
+          "name": "Flussweiser",
+          "tier": "messing",
+          "rang": 5,
+          "faehigkeiten": [
+            "charme",
+            "intuition",
+            "nahkampf.stangenwaffe",
+            "wahrnehmung"
+          ]
+        },
+        {
+          "nr": 4,
+          "name": "Flussältester",
+          "tier": "silber",
+          "rang": 2,
+          "faehigkeiten": [
+            "unterhalten.erzaehlen",
+            "wissen.volkskunde"
+          ]
+        }
+      ]
     },
     {
       "id": "flussschiffer",
       "name": "Flussschiffer",
       "klasse": "flussvolk",
-      "seite": 69
+      "seite": 69,
+      "original": "03-klassen-karrieren/flussvolk/flussschiffer/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Deckratte",
+          "tier": "silber",
+          "rang": 1,
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "klatsch",
+            "nahkampf.waffenlos",
+            "rudern",
+            "segeln",
+            "schwimmen",
+            "zechen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Flussschiffer",
+          "tier": "silber",
+          "rang": 2,
+          "faehigkeiten": [
+            "athletik",
+            "feilschen",
+            "intuition",
+            "unterhalten.erzaehlen",
+            "wahrnehmung",
+            "wissen.flusswege"
+          ]
+        },
+        {
+          "nr": 3,
+          "name": "Bootsmann",
+          "tier": "silber",
+          "rang": 3,
+          "faehigkeiten": [
+            "beruf.bootsbauer",
+            "heilen",
+            "klettern",
+            "unterhalten.singen"
+          ]
+        },
+        {
+          "nr": 4,
+          "name": "Barkenmeister",
+          "tier": "silber",
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "navigation"
+          ]
+        }
+      ]
     },
     {
       "id": "flusswaechter",
       "name": "Flusswächter",
       "klasse": "flussvolk",
-      "seite": 69
+      "seite": 69,
+      "original": "03-klassen-karrieren/flussvolk/flusswaechter/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Flussrekrut",
+          "tier": "silber",
+          "rang": 1,
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "athletik",
+            "nahkampf.standard",
+            "rudern",
+            "schwimmen",
+            "segeln",
+            "wahrnehmung"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Flusswächter",
+          "tier": "silber",
+          "rang": 2,
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "einschuechtern",
+            "fernkampf.schiesspulver",
+            "klatsch",
+            "wissen.flusswege"
+          ]
+        },
+        {
+          "nr": 3,
+          "name": "Flussklinge",
+          "tier": "silber",
+          "rang": 4,
+          "faehigkeiten": [
+            "anfuehren",
+            "besonnenheit",
+            "intuition",
+            "klettern"
+          ]
+        },
+        {
+          "nr": 4,
+          "name": "Flussoffizier",
+          "tier": "gold",
+          "rang": 1,
+          "faehigkeiten": [
+            "navigation",
+            "wissen.gesetze"
+          ]
+        }
+      ]
     },
     {
       "id": "lotse",
       "name": "Lotse",
       "klasse": "flussvolk",
-      "seite": 69
+      "seite": 69,
+      "original": "03-klassen-karrieren/flussvolk/lotse/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Flusskundiger",
+          "tier": "messing",
+          "rang": 4,
+          "faehigkeiten": [
+            "klatsch",
+            "intuition",
+            "rudern",
+            "schwimmen",
+            "wahrnehmung",
+            "wissen.flusswege",
+            "wissen.ort_region",
+            "zechen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Lotse",
+          "tier": "silber",
+          "rang": 1,
+          "faehigkeiten": [
+            "besonnenheit",
+            "charme",
+            "nahkampf.standard",
+            "navigation",
+            "unterhalten.erzaehlen",
+            "sprache.wahl"
+          ]
+        },
+        {
+          "nr": 3,
+          "name": "Navigator",
+          "tier": "silber",
+          "rang": 3,
+          "faehigkeiten": [
+            "einschuechtern",
+            "feilschen",
+            "wissen.ort_region",
+            "wissen.wracks"
+          ]
+        },
+        {
+          "nr": 4,
+          "name": "Meisternavigator",
+          "tier": "silber",
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "segeln"
+          ]
+        }
+      ]
     },
     {
       "id": "schmuggler",
       "name": "Schmuggler",
       "klasse": "flussvolk",
-      "seite": 69
+      "seite": 69,
+      "original": "03-klassen-karrieren/flussvolk/schmuggler/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Flussstrolch",
+          "tier": "messing",
+          "rang": 2,
+          "faehigkeiten": [
+            "athletik",
+            "besonnenheit",
+            "bestechen",
+            "rudern",
+            "schleichen.land_oder_stadt",
+            "schwimmen",
+            "segeln",
+            "zechen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Schmuggler",
+          "tier": "messing",
+          "rang": 3,
+          "faehigkeiten": [
+            "feilschen",
+            "geheimzeichen.schmuggler",
+            "klatsch",
+            "nahkampf.standard",
+            "wahrnehmung",
+            "wissen.ort_region"
+          ]
+        },
+        {
+          "nr": 3,
+          "name": "Meisterschmuggler",
+          "tier": "messing",
+          "rang": 5,
+          "faehigkeiten": [
+            "einschuechtern",
+            "intuition",
+            "schaetzen",
+            "wissen.flusswege"
+          ]
+        },
+        {
+          "nr": 4,
+          "name": "König der Schmuggler",
+          "tier": "silber",
+          "rang": 2,
+          "faehigkeiten": [
+            "sprache.wahl",
+            "anfuehren"
+          ]
+        }
+      ]
     },
     {
       "id": "seemann",
       "name": "Seemann",
       "klasse": "flussvolk",
-      "seite": 69
+      "seite": 69,
+      "original": "03-klassen-karrieren/flussvolk/seemann/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Landratte",
+          "tier": "silber",
+          "rang": 1,
+          "faehigkeiten": [
+            "gluecksspiel",
+            "klatsch",
+            "klettern",
+            "nahkampf.waffenlos",
+            "rudern",
+            "schwimmen",
+            "segeln",
+            "zechen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Seemann",
+          "tier": "silber",
+          "rang": 3,
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "athletik",
+            "nahkampf.standard",
+            "unterhalten.singen",
+            "sprache.wahl"
+          ]
+        },
+        {
+          "nr": 3,
+          "name": "Bootsmann",
+          "tier": "silber",
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "beruf.zimmermann",
+            "besonnenheit",
+            "wahrnehmung"
+          ]
+        },
+        {
+          "nr": 4,
+          "name": "Schiffsmeister",
+          "tier": "gold",
+          "rang": 2,
+          "faehigkeiten": [
+            "charme",
+            "navigation"
+          ]
+        }
+      ]
     },
     {
       "id": "stauer",
       "name": "Stauer",
       "klasse": "flussvolk",
-      "seite": 69
+      "seite": 69,
+      "original": "03-klassen-karrieren/flussvolk/stauer/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Dockarbeiter",
+          "tier": "messing",
+          "rang": 3,
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "athletik",
+            "klatsch",
+            "klettern",
+            "nahkampf.standard",
+            "schwimmen",
+            "zechen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Stauer",
+          "tier": "silber",
+          "rang": 1,
+          "faehigkeiten": [
+            "bestechen",
+            "einschuechtern",
+            "gluecksspiel",
+            "schleichen.stadt",
+            "unterhalten.erzaehlen",
+            "wahrnehmung"
+          ]
+        },
+        {
+          "nr": 3,
+          "name": "Vormann",
+          "tier": "silber",
+          "rang": 3,
+          "faehigkeiten": [
+            "besonnenheit",
+            "schaetzen",
+            "intuition",
+            "anfuehren"
+          ]
+        },
+        {
+          "nr": 4,
+          "name": "Hafenmeister",
+          "tier": "silber",
+          "rang": 5,
+          "faehigkeiten": [
+            "charme",
+            "wissen.steuern"
+          ]
+        }
+      ]
     },
     {
       "id": "strandraeuber",
       "name": "Strandräuber",
       "klasse": "flussvolk",
-      "seite": 69
+      "seite": 69,
+      "original": "03-klassen-karrieren/flussvolk/strandraeuber/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Frachtplünderer",
+          "tier": "messing",
+          "rang": 2,
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "klettern",
+            "nahkampf.standard",
+            "rudern",
+            "schwimmen",
+            "ueberleben",
+            "zechen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Strandräuber",
+          "tier": "messing",
+          "rang": 3,
+          "faehigkeiten": [
+            "bestechen",
+            "besonnenheit",
+            "fallen_stellen",
+            "intuition",
+            "navigation",
+            "wahrnehmung"
+          ]
+        },
+        {
+          "nr": 3,
+          "name": "Flusspirat",
+          "tier": "messing",
+          "rang": 5,
+          "faehigkeiten": [
+            "einschuechtern",
+            "fernkampf.armbrust",
+            "klatsch",
+            "schleichen.land"
+          ]
+        },
+        {
+          "nr": 4,
+          "name": "Strandräuberkapitän",
+          "tier": "silber",
+          "rang": 2,
+          "faehigkeiten": [
+            "anfuehren",
+            "wissen.flusswege"
+          ]
+        }
+      ]
     },
     {
       "id": "bote",
@@ -800,25 +1688,53 @@
             "flinkes_ausweichen",
             "leichtfuessigkeit",
             "sprinter"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "ausweichen",
+            "klatsch",
+            "klettern",
+            "nahkampf.waffenlos",
+            "navigation",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Bote",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "besonnenheit",
+            "charme",
+            "nahkampf.standard",
+            "reiten.pferd",
+            "tierpflege",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Kurier",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "bestechen",
+            "tiere_bezirzen",
+            "ueberleben",
+            "zechen"
+          ]
         },
         {
           "nr": 4,
           "name": "Kurier-Meister",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "einschuechtern"
+          ]
         }
       ]
     },
@@ -842,25 +1758,53 @@
             "genuegsam",
             "lesen_und_schreiben",
             "raserei"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "einschuechtern",
+            "heilen",
+            "intuition",
+            "nahkampf.flegel",
+            "ueberleben",
+            "wissen.sigmar"
           ]
         },
         {
           "nr": 2,
           "name": "Flagellant",
           "tier": "messing",
-          "rang": 0
+          "rang": 0,
+          "faehigkeiten": [
+            "athletik",
+            "besonnenheit",
+            "fernkampf.schleuder",
+            "kunst.ikonen",
+            "sprache.klassisch",
+            "wissen.imperium"
+          ]
         },
         {
           "nr": 3,
           "name": "Büßer",
           "tier": "messing",
-          "rang": 0
+          "rang": 0,
+          "faehigkeiten": [
+            "charme",
+            "sprache.wahl",
+            "wahrnehmung",
+            "wissen.theologie"
+          ]
         },
         {
           "nr": 4,
           "name": "Untergangsprophet",
           "tier": "messing",
-          "rang": 0
+          "rang": 0,
+          "faehigkeiten": [
+            "anfuehren",
+            "unterhalten.reden_halten"
+          ]
         }
       ]
     },
@@ -886,25 +1830,53 @@
             "fischer",
             "fliehen",
             "streuner"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "charme",
+            "feilschen",
+            "intuition",
+            "klatsch",
+            "schleichen.land_oder_stadt",
+            "ueberleben",
+            "unterhalten.erzaehlen"
           ]
         },
         {
           "nr": 2,
           "name": "Hausierer",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "beruf.bastler",
+            "reiten.pferd",
+            "schaetzen",
+            "tiere_bezirzen",
+            "tierpflege",
+            "zechen"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterhausierer",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "einschuechtern",
+            "fahren",
+            "sprache.wahl",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 4,
           "name": "Wanderkrämer",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "wissen.geographie",
+            "wissen.ort_region"
+          ]
         }
       ]
     },
@@ -928,25 +1900,53 @@
             "entschlossen",
             "kuehler_kopf",
             "lesen_und_schreiben"
+          ],
+          "faehigkeiten": [
+            "charme",
+            "einschuechtern",
+            "intuition",
+            "heilen",
+            "nahkampf.waffenlos",
+            "wahrnehmung",
+            "wissen.folter",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Hexenjäger",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "besonnenheit",
+            "fernkampf.wahl",
+            "klatsch",
+            "nahkampf.standard",
+            "reiten.pferd",
+            "wissen.hexer"
+          ]
         },
         {
           "nr": 3,
           "name": "Inquisitor",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "ausdauer",
+            "wissen.gesetze",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 4,
           "name": "Hexenjäger-Hauptmann",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "wissen.chaos",
+            "wissen.politik"
+          ]
         }
       ]
     },
@@ -974,25 +1974,53 @@
             "einnehmendes_wesen",
             "schatten",
             "tuerentreter"
+          ],
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "feilschen",
+            "intuition",
+            "klatsch",
+            "nahkampf.standard",
+            "ueberleben",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Kopfgeldjäger",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "einschuechtern",
+            "fernkampf.armbrust",
+            "fernkampf.fesselnd",
+            "spurenlesen"
+          ]
         },
         {
           "nr": 3,
           "name": "Meister Kopfgeldjäger",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "klettern",
+            "reiten.pferd",
+            "schwimmen",
+            "tierpflege"
+          ]
         },
         {
           "nr": 4,
           "name": "Kopfgeldjäger-Hauptmann",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "fahren",
+            "wissen.gesetze"
+          ]
         }
       ]
     },
@@ -1018,25 +2046,53 @@
             "erfahrener_reisender",
             "kunstreiter",
             "tierverbundenheit"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "fahren",
+            "fernkampf.fesselnd",
+            "klettern",
+            "tierpflege",
+            "tiere_bezirzen",
+            "wahrnehmung",
+            "reiten.pferd"
           ]
         },
         {
           "nr": 2,
           "name": "Kutscher",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "fernkampf.schiesspulver",
+            "intuition",
+            "klatsch",
+            "navigation",
+            "wissen.ort_region",
+            "zechen"
+          ]
         },
         {
           "nr": 3,
           "name": "Kutschmeister",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "abrichten.pferd",
+            "einschuechtern",
+            "sprache.wahl",
+            "wissen.routen"
+          ]
         },
         {
           "nr": 4,
           "name": "Linienmeister",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "charme"
+          ]
         }
       ]
     },
@@ -1064,25 +2120,53 @@
             "einnehmendes_wesen",
             "imitator",
             "rhetorik"
+          ],
+          "faehigkeiten": [
+            "artistik.wahl",
+            "athletik",
+            "charme",
+            "feilschen",
+            "fingerfertigkeit",
+            "klatsch",
+            "musizieren.wahl",
+            "unterhalten.wahl"
           ]
         },
         {
           "nr": 2,
           "name": "Schausteller",
           "tier": "messing",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "artistik.wahl",
+            "fernkampf.werfen",
+            "nahkampf.standard",
+            "musizieren.wahl",
+            "reiten.wahl",
+            "unterhalten.wahl"
+          ]
         },
         {
           "nr": 3,
           "name": "Troubadour",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "abrichten.wahl",
+            "kunst.schreiben",
+            "sprache.wahl",
+            "tierpflege"
+          ]
         },
         {
           "nr": 4,
           "name": "Ensembleleiter",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "anfuehren",
+            "fahren"
+          ]
         }
       ]
     },
@@ -1107,25 +2191,53 @@
             "meisterschuetze",
             "numismatiker",
             "unterschlagen"
+          ],
+          "faehigkeiten": [
+            "bestechen",
+            "feilschen",
+            "fernkampf.armbrust",
+            "gluecksspiel",
+            "klatsch",
+            "nahkampf.standard",
+            "wahrnehmung",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Straßenwächter",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "ausdauer",
+            "einschuechtern",
+            "intuition",
+            "tierpflege",
+            "reiten.pferd",
+            "ueberleben"
+          ]
         },
         {
           "nr": 3,
           "name": "Straßenweibel",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "anfuehren",
+            "athletik",
+            "charme",
+            "fernkampf.schiesspulver"
+          ]
         },
         {
           "nr": 4,
           "name": "Straßenhauptmann",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "navigation",
+            "wissen.imperium"
+          ]
         }
       ]
     },
@@ -1153,25 +2265,53 @@
             "kampfsinn",
             "kriminell",
             "streuner"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "besonnenheit",
+            "einschuechtern",
+            "gluecksspiel",
+            "nahkampf.standard",
+            "ueberleben",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Bandit",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "ausweichen",
+            "fernkampf.bogen",
+            "heilen",
+            "schleichen.land",
+            "wahrnehmung",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Räuberhauptmann",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "anfuehren",
+            "intuition",
+            "klatsch",
+            "reiten.pferd"
+          ]
         },
         {
           "nr": 4,
           "name": "Banditenkönig",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "charme",
+            "wissen.imperium"
+          ]
         }
       ]
     },
@@ -1197,25 +2337,53 @@
             "fliehen",
             "kriminell",
             "strassenkatze"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "athletik",
+            "besonnenheit",
+            "intuition",
+            "klettern",
+            "schleichen.stadt",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Dieb",
           "tier": "messing",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "fingerfertigkeit",
+            "geheimzeichen.diebeszinken",
+            "klatsch",
+            "schaetzen",
+            "schloesser_oeffnen",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterdieb",
           "tier": "messing",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "bestechen",
+            "einschuechtern",
+            "fernkampf.armbrust",
+            "gluecksspiel"
+          ]
         },
         {
           "nr": 4,
           "name": "Einbrecherkönig",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "charme",
+            "fallen_stellen"
+          ]
         }
       ]
     },
@@ -1240,25 +2408,53 @@
             "kriminell",
             "starker_ruecken",
             "strassenkatze"
+          ],
+          "faehigkeiten": [
+            "ausweichen",
+            "besonnenheit",
+            "fahren",
+            "intuition",
+            "klatsch",
+            "klettern",
+            "schleichen.wahl",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Grabräuber",
           "tier": "messing",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "ausdauer",
+            "bestechen",
+            "feilschen",
+            "nahkampf.standard",
+            "schaetzen",
+            "wissen.medizin"
+          ]
         },
         {
           "nr": 3,
           "name": "Raubgräber",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "fallen_stellen",
+            "nachforschen",
+            "schloesser_oeffnen",
+            "wissen.geschichte"
+          ]
         },
         {
           "nr": 4,
           "name": "Schatzjäger",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "beruf.technicus",
+            "navigation"
+          ]
         }
       ]
     },
@@ -1285,6 +2481,16 @@
             "etikette",
             "kriminell",
             "maechtiger_schlag"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "besonnenheit",
+            "einschuechtern",
+            "nahkampf.waffenlos",
+            "schleichen.stadt",
+            "wissen.ort_region",
+            "zechen"
           ]
         },
         {
@@ -1293,7 +2499,15 @@
           "status": {
             "tier": "messing",
             "rang": 5
-          }
+          },
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "schaetzen",
+            "klatsch",
+            "nahkampf.standard",
+            "sprache.estalisch_oder_tileanisch"
+          ]
         },
         {
           "nr": 3,
@@ -1301,7 +2515,13 @@
           "status": {
             "tier": "silber",
             "rang": 3
-          }
+          },
+          "faehigkeiten": [
+            "anfuehren",
+            "fernkampf.armbrust",
+            "intuition",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 4,
@@ -1309,7 +2529,11 @@
           "status": {
             "tier": "silber",
             "rang": 5
-          }
+          },
+          "faehigkeiten": [
+            "wissen.gesetze",
+            "wissen.politik"
+          ]
         }
       ],
       "original": "03-klassen-karrieren/gesetzlose/halunke/original.md"
@@ -1336,25 +2560,53 @@
             "kartenkuenstler",
             "strassenkatze",
             "verhandlungsgenie"
+          ],
+          "faehigkeiten": [
+            "ausweichen",
+            "charme",
+            "feilschen",
+            "gluecksspiel",
+            "klatsch",
+            "nahkampf.standard",
+            "schaetzen",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Hehler",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "beruf.graveur",
+            "besonnenheit",
+            "einschuechtern",
+            "geheimzeichen.diebeszinken",
+            "intuition",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterhehler",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "bestechen",
+            "unterhalten.erzaehlen",
+            "wissen.kunst",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 4,
           "name": "Schwarzmarktbaron",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "nachforschen",
+            "wissen.heraldik"
+          ]
         }
       ]
     },
@@ -1378,25 +2630,53 @@
             "instinktive_aussprache",
             "kriminell",
             "niedere_magie"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "besonnenheit",
+            "einschuechtern",
+            "fingerfertigkeit",
+            "kanalisieren",
+            "klatsch",
+            "schleichen.land",
+            "sprache.magick"
           ]
         },
         {
           "nr": 2,
           "name": "Hexer",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "ausweichen",
+            "beruf.kraeuterkundiger",
+            "intuition",
+            "nahkampf.stangenwaffe",
+            "tiere_bezirzen",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 3,
           "name": "Drudner",
           "tier": "messing",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "feilschen",
+            "wissen.schwarze_magie"
+          ]
         },
         {
           "nr": 4,
           "name": "Hexenmeister",
           "tier": "messing",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "wissen.magie",
+            "wissen.daemonologie"
+          ]
         }
       ]
     },
@@ -1422,25 +2702,53 @@
             "gesellig",
             "redeschwall",
             "strassenkatze"
+          ],
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "einschuechtern",
+            "feilschen",
+            "gluecksspiel",
+            "klatsch",
+            "unterhalten.wahl",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Kuppler",
           "tier": "messing",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "intuition",
+            "nahkampf.standard",
+            "wahrnehmung",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Zuhälter",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "besonnenheit",
+            "schaetzen",
+            "sprache.wahl",
+            "wissen.gesetze"
+          ]
         },
         {
           "nr": 4,
           "name": "Ludenkönig",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "anfuehren",
+            "wissen.heraldik"
+          ]
         }
       ]
     },
@@ -1466,25 +2774,53 @@
             "glueckspilz",
             "kartenkuenstler",
             "wuerfelkuenstler"
+          ],
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "feilschen",
+            "fingerfertigkeit",
+            "gluecksspiel",
+            "klatsch",
+            "unterhalten.erzaehlen",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Scharlatan",
           "tier": "messing",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "ausweichen",
+            "besonnenheit",
+            "intuition",
+            "schaetzen",
+            "unterhalten.schauspielerei",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 3,
           "name": "Hochstapler",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "geheimzeichen.diebeszinken",
+            "schloesser_oeffnen",
+            "sprache.diebeszunge",
+            "wissen.heraldik"
+          ]
         },
         {
           "nr": 4,
           "name": "Lügenbaron",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "nachforschen",
+            "wissen.genealogie"
+          ]
         }
       ]
     },
@@ -1511,25 +2847,53 @@
             "etikette",
             "glueckspilz",
             "lesen_und_schreiben"
+          ],
+          "faehigkeiten": [
+            "anfuehren",
+            "bestechen",
+            "einschuechtern",
+            "gluecksspiel",
+            "musizieren.wahl",
+            "nahkampf.fechten",
+            "wissen.heraldik",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Adeliger",
           "tier": "gold",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "charme",
+            "klatsch",
+            "nahkampf.parade",
+            "reiten.pferd",
+            "sprache.klassisch",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Edler",
           "tier": "gold",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "sprache.wahl",
+            "intuition",
+            "wissen.politik",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 4,
           "name": "Fürst",
           "tier": "gold",
-          "rang": 7
+          "rang": 7,
+          "faehigkeiten": [
+            "wissen.wahl",
+            "spurenlesen"
+          ]
         }
       ]
     },
@@ -1557,25 +2921,53 @@
             "gesellig",
             "lesen_und_schreiben",
             "unauffaellig"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "bestechen",
+            "feilschen",
+            "klatsch",
+            "sprache.klassisch",
+            "wahrnehmung",
+            "wissen.politik",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Berater",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "besonnenheit",
+            "charme",
+            "gluecksspiel",
+            "intuition",
+            "schaetzen",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Ratgeber",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "anfuehren",
+            "sprache.wahl",
+            "unterhalten.erzaehlen",
+            "wissen.wahl"
+          ]
         },
         {
           "nr": 4,
           "name": "Kanzler",
           "tier": "gold",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "wissen.heraldik",
+            "reiten.pferd"
+          ]
         }
       ]
     },
@@ -1601,25 +2993,53 @@
             "starker_ruecken",
             "unauffaellig",
             "willensstaerke"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "ausweichen",
+            "fahren",
+            "intuition",
+            "klettern",
+            "schleichen.wahl",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Diener",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "feilschen",
+            "gluecksspiel",
+            "klatsch",
+            "schaetzen",
+            "tierpflege",
+            "zechen"
+          ]
         },
         {
           "nr": 3,
           "name": "Kammerdiener",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "besonnenheit",
+            "charme",
+            "einschuechtern",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 4,
           "name": "Hausdiener",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "anfuehren",
+            "nahkampf.standard"
+          ]
         }
       ]
     },
@@ -1645,25 +3065,53 @@
             "ablenken",
             "finte",
             "flinkes_ausweichen"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "ausweichen",
+            "heilen",
+            "intuition",
+            "sprache.klassisch",
+            "nahkampf.wahl",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Duellist",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "beruf.buechsenmacher",
+            "besonnenheit",
+            "charme",
+            "gluecksspiel",
+            "fernkampf.schiesspulver",
+            "nahkampf.parade"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterduellant",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "anfuehren",
+            "artistik.akrobatik",
+            "einschuechtern",
+            "nahkampf.standard"
+          ]
         },
         {
           "nr": 4,
           "name": "Schiedskämpfer",
           "tier": "gold",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "nahkampf.wahl",
+            "wissen.gesetze"
+          ]
         }
       ]
     },
@@ -1691,25 +3139,53 @@
             "etikette",
             "lesen_und_schreiben",
             "redeschwall"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "ausweichen",
+            "charme",
+            "fahren",
+            "intuition",
+            "reiten.pferd",
+            "rudern"
           ]
         },
         {
           "nr": 2,
           "name": "Gesandter",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "besonnenheit",
+            "bestechen",
+            "feilschen",
+            "klatsch",
+            "kunst.schreiben",
+            "wissen.politik"
+          ]
         },
         {
           "nr": 3,
           "name": "Diplomat",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "anfuehren",
+            "einschuechtern",
+            "navigation",
+            "sprache.wahl"
+          ]
         },
         {
           "nr": 4,
           "name": "Botschafter",
           "tier": "gold",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "sprache.wahl",
+            "wissen.wahl"
+          ]
         }
       ]
     },
@@ -1737,25 +3213,53 @@
             "beharrlich",
             "kuenstlerisch",
             "starker_ruecken"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "besonnenheit",
+            "klatsch",
+            "kunst.wahl",
+            "schaetzen",
+            "schleichen.stadt",
+            "wahrnehmung",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Künstler",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "beruf.kunstbedarf",
+            "feilschen",
+            "gluecksspiel",
+            "klettern",
+            "intuition",
+            "sprache.klassisch"
+          ]
         },
         {
           "nr": 3,
           "name": "Meisterkünstler",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "charme",
+            "wissen.kunst",
+            "wissen.heraldik"
+          ]
         },
         {
           "nr": 4,
           "name": "Maestro",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "nachforschen",
+            "reiten.pferd"
+          ]
         }
       ]
     },
@@ -1782,25 +3286,53 @@
             "bedrohlich",
             "betaeubender_schlag",
             "nachtsicht"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "besonnenheit",
+            "intuition",
+            "tiere_bezirzen",
+            "wahrnehmung",
+            "wissen.ort_region",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Meier",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "fernkampf.bogen",
+            "nahkampf.standard",
+            "reiten.pferd",
+            "schwimmen",
+            "tierpflege",
+            "ueberleben"
+          ]
         },
         {
           "nr": 3,
           "name": "Seneschall",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "anfuehren",
+            "bestechen",
+            "charme",
+            "klatsch"
+          ]
         },
         {
           "nr": 4,
           "name": "Schultheiß",
           "tier": "gold",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "schaetzen",
+            "sprache.wahl"
+          ]
         }
       ]
     },
@@ -1828,25 +3360,53 @@
             "redeschwall",
             "schatten",
             "trunkenbold"
+          ],
+          "faehigkeiten": [
+            "bestechen",
+            "besonnenheit",
+            "charme",
+            "feilschen",
+            "gluecksspiel",
+            "klatsch",
+            "schleichen.wahl",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Spion",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "fingerfertigkeit",
+            "geheimzeichen.wahl",
+            "intuition",
+            "klettern",
+            "nahkampf.standard",
+            "unterhalten.schauspielerei"
+          ]
         },
         {
           "nr": 3,
           "name": "Agent",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "abrichten.taube",
+            "anfuehren",
+            "tierpflege",
+            "sprache.wahl"
+          ]
         },
         {
           "nr": 4,
           "name": "Meisterspion",
           "tier": "gold",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "nachforschen",
+            "wissen.wahl"
+          ]
         }
       ]
     },
@@ -1872,25 +3432,53 @@
             "geborener_krieger",
             "messerstecher",
             "schmutzig_kaempfen"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "ausweichen",
+            "einschuechtern",
+            "feilschen",
+            "unterhalten.provozieren",
+            "klatsch",
+            "nahkampf.wahl"
           ]
         },
         {
           "nr": 2,
           "name": "Gedungener",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "bestechen",
+            "charme",
+            "intuition",
+            "nahkampf.standard",
+            "reiten.pferd",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 3,
           "name": "Meuchler",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "klettern",
+            "besonnenheit",
+            "fernkampf.werfen",
+            "navigation"
+          ]
         },
         {
           "nr": 4,
           "name": "Assassine",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "fernkampf.armbrust",
+            "unterhalten.schauspielerei"
+          ]
         }
       ]
     },
@@ -1918,25 +3506,53 @@
             "schmutzig_kaempfen",
             "spiess_umdrehen",
             "stahlkinn"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "athletik",
+            "besonnenheit",
+            "einschuechtern",
+            "gluecksspiel",
+            "nahkampf.wahl",
+            "nahkampf.waffenlos"
           ]
         },
         {
           "nr": 2,
           "name": "Grubenkämpfer",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "feilschen",
+            "fernkampf.fesselnd",
+            "intuition",
+            "nahkampf.flegel_oder_zweihaendig",
+            "nahkampf.standard",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 3,
           "name": "Grubenveteran",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "artistik.kampf",
+            "klatsch",
+            "wissen.anatomie",
+            "zechen"
+          ]
         },
         {
           "nr": 4,
           "name": "Grubenlegende",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "charme",
+            "fernkampf.wahl"
+          ]
         }
       ]
     },
@@ -1962,25 +3578,53 @@
             "kampfsinn",
             "peitschenknallen",
             "raureiter"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "nahkampf.standard",
+            "reiten.pferd",
+            "sprache.schlachtenzunge",
+            "tiere_bezirzen",
+            "tierpflege",
+            "ueberleben",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Kavallerist",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "besonnenheit",
+            "charme",
+            "fernkampf.schiesspulver",
+            "klatsch",
+            "nahkampf.kavallerie",
+            "zechen"
+          ]
         },
         {
           "nr": 3,
           "name": "Rossweibel",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "anfuehren",
+            "einschuechtern",
+            "intuition",
+            "wissen.kriegfuehrung"
+          ]
         },
         {
           "nr": 4,
           "name": "Kavallerieoffizier",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "gluecksspiel",
+            "wissen.heraldik"
+          ]
         }
       ]
     },
@@ -2004,25 +3648,53 @@
             "lesen_und_schreiben",
             "segen",
             "willensstaerke"
+          ],
+          "faehigkeiten": [
+            "anfuehren",
+            "ausdauer",
+            "ausweichen",
+            "besonnenheit",
+            "beten",
+            "heilen",
+            "nahkampf.wahl",
+            "wissen.theologie"
           ]
         },
         {
           "nr": 2,
           "name": "Kriegerpriester",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "charme",
+            "einschuechtern",
+            "fernkampf.wahl",
+            "nahkampf.wahl",
+            "unterhalten.reden_halten",
+            "sprache.schlachtenzunge"
+          ]
         },
         {
           "nr": 3,
           "name": "Feldpriester",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "intuition",
+            "reiten.pferd",
+            "tierpflege",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 4,
           "name": "Priestergeneral",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "wissen.kriegfuehrung",
+            "zechen"
+          ]
         }
       ]
     },
@@ -2048,25 +3720,53 @@
             "geborener_krieger",
             "raureiter",
             "staemmig"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "beruf.hufschmied",
+            "heilen",
+            "nahkampf.kavallerie",
+            "reiten.pferd",
+            "tiere_bezirzen",
+            "tierpflege",
+            "wissen.heraldik"
           ]
         },
         {
           "nr": 2,
           "name": "Ritter",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "besonnenheit",
+            "einschuechtern",
+            "nahkampf.wahl",
+            "sprache.schlachtenzunge"
+          ]
         },
         {
           "nr": 3,
           "name": "Erster Ritter",
           "tier": "gold",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "anfuehren",
+            "charme",
+            "wissen.kriegfuehrung",
+            "zechen"
+          ]
         },
         {
           "nr": 4,
           "name": "Ritter des Inneren Zirkels",
           "tier": "gold",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "geheimzeichen.ritterorden",
+            "wissen.wahl"
+          ]
         }
       ]
     },
@@ -2090,25 +3790,53 @@
             "furchtlosigkeit",
             "raserei",
             "slayer"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "besonnenheit",
+            "gluecksspiel",
+            "heilen",
+            "nahkampf.standard",
+            "wissen.trolle",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Riesenslayer",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "einschuechtern",
+            "nahkampf.zweihaendig",
+            "schaetzen",
+            "sprache.schlachtenzunge",
+            "ueberleben",
+            "wissen.riesen"
+          ]
         },
         {
           "nr": 3,
           "name": "Drachenslayer",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "fernkampf.werfen",
+            "unterhalten.erzaehlen",
+            "wahrnehmung",
+            "wissen.drachen"
+          ]
         },
         {
           "nr": 4,
           "name": "Dämonenslayer",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "intuition",
+            "wissen.chaos"
+          ]
         }
       ]
     },
@@ -2136,25 +3864,53 @@
             "meisterschuetze",
             "starker_ruecken",
             "wuerfelkuenstler"
+          ],
+          "faehigkeiten": [
+            "athletik",
+            "ausdauer",
+            "ausweichen",
+            "besonnenheit",
+            "klettern",
+            "sprache.schlachtenzunge",
+            "nahkampf.standard",
+            "musizieren.trommel_oder_floete"
           ]
         },
         {
           "nr": 2,
           "name": "Soldat",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "fernkampf.wahl",
+            "gluecksspiel",
+            "klatsch",
+            "nahkampf.wahl",
+            "ueberleben",
+            "zechen"
+          ]
         },
         {
           "nr": 3,
           "name": "Feldweibel",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "heilen",
+            "intuition",
+            "wahrnehmung"
+          ]
         },
         {
           "nr": 4,
           "name": "Offizier",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "navigation",
+            "wissen.kriegfuehrung"
+          ]
         }
       ]
     },
@@ -2182,25 +3938,53 @@
             "betaeubender_schlag",
             "etikette",
             "wuerfelkuenstler"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "gluecksspiel",
+            "intuition",
+            "klatsch",
+            "nahkampf.standard",
+            "unterhalten.erzaehlen",
+            "wahrnehmung",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Wächter",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "athletik",
+            "besonnenheit",
+            "ausweichen",
+            "einschuechtern",
+            "nahkampf.stangenwaffe",
+            "fernkampf.bogen"
+          ]
         },
         {
           "nr": 3,
           "name": "Ehrenwächter",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "heilen",
+            "nahkampf.zweihaendig",
+            "sprache.schlachtenzunge",
+            "wissen.etikette"
+          ]
         },
         {
           "nr": 4,
           "name": "Wachoffizier",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "wissen.kriegfuehrung"
+          ]
         }
       ]
     },
@@ -2226,25 +4010,53 @@
             "staemmig",
             "streuner",
             "trittsicher"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "besonnenheit",
+            "intuition",
+            "nahkampf.zweihaendig",
+            "schwimmen",
+            "ueberleben",
+            "wahrnehmung",
+            "wissen.ort_region"
           ]
         },
         {
           "nr": 2,
           "name": "Bergmann",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "beruf.sprengmeister",
+            "geheimzeichen.bergleute",
+            "klettern",
+            "nahkampf.standard",
+            "schaetzen",
+            "zechen"
+          ]
         },
         {
           "nr": 3,
           "name": "Steiger",
           "tier": "messing",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "beruf.technicus",
+            "klatsch",
+            "schleichen.untergrund",
+            "wissen.geologie"
+          ]
         },
         {
           "nr": 4,
           "name": "Minenaufseher",
           "tier": "silber",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "anfuehren",
+            "charme"
+          ]
         }
       ]
     },
@@ -2270,25 +4082,53 @@
             "numismatiker",
             "starker_ruecken",
             "unterschlagen"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "ausweichen",
+            "besonnenheit",
+            "einschuechtern",
+            "feilschen",
+            "klatsch",
+            "nahkampf.standard",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Büttel",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "anfuehren",
+            "bestechen",
+            "charme",
+            "intuition",
+            "schaetzen",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Vogt",
           "tier": "gold",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "navigation",
+            "reiten.pferd",
+            "tierpflege",
+            "wissen.heraldik"
+          ]
         },
         {
           "nr": 4,
           "name": "Magistrat",
           "tier": "gold",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "sprache.klassisch",
+            "wissen.gesetze"
+          ]
         }
       ]
     },
@@ -2314,25 +4154,53 @@
             "starker_ruecken",
             "streuner",
             "willensstaerke"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "athletik",
+            "klatsch",
+            "nahkampf.waffenlos",
+            "tierpflege",
+            "ueberleben",
+            "wissen.ort_region",
+            "zechen"
           ]
         },
         {
           "nr": 2,
           "name": "Dörfler",
           "tier": "messing",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "ausweichen",
+            "beruf.wahl",
+            "fahren",
+            "feilschen",
+            "nahkampf.standard",
+            "unterhalten.erzaehlen"
+          ]
         },
         {
           "nr": 3,
           "name": "Dorfschulze",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "anfuehren",
+            "bestechen",
+            "charme",
+            "einschuechtern"
+          ]
         },
         {
           "nr": 4,
           "name": "Dorfältester",
           "tier": "silber",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "intuition",
+            "wissen.geschichte"
+          ]
         }
       ]
     },
@@ -2356,25 +4224,53 @@
             "niedere_magie",
             "streuner",
             "trittsicher"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "intuition",
+            "kanalisieren",
+            "sprache.magick",
+            "ueberleben",
+            "wahrnehmung",
+            "wissen.kraeuter",
+            "wissen.volkskunde"
           ]
         },
         {
           "nr": 2,
           "name": "Heckenhexer",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "beruf.gluecksbringer",
+            "beruf.kraeuterkundiger",
+            "besonnenheit",
+            "heilen",
+            "klatsch",
+            "wissen.ort_region"
+          ]
         },
         {
           "nr": 3,
           "name": "Heckenmagus",
           "tier": "messing",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "feilschen",
+            "wissen.geister",
+            "wissen.genealogie",
+            "wissen.magie"
+          ]
         },
         {
           "nr": 4,
           "name": "Heckenweiser",
           "tier": "messing",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "beten",
+            "einschuechtern"
+          ]
         }
       ]
     },
@@ -2402,25 +4298,53 @@
             "streuner",
             "trittsicher",
             "fallensteller"
+          ],
+          "faehigkeiten": [
+            "tiere_bezirzen",
+            "klettern",
+            "ausdauer",
+            "wissen.tiere",
+            "ueberleben",
+            "wahrnehmung",
+            "fernkampf.schleuder",
+            "fallen_stellen"
           ]
         },
         {
           "nr": 2,
           "name": "Jäger",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "besonnenheit",
+            "intuition",
+            "nahkampf.standard",
+            "fernkampf.bogen",
+            "geheimzeichen.jaeger",
+            "schleichen.land"
+          ]
         },
         {
           "nr": 3,
           "name": "Fährtenleser",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "navigation",
+            "reiten.pferd",
+            "schwimmen",
+            "spurenlesen"
+          ]
         },
         {
           "nr": 4,
           "name": "Jagdmeister",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "tierpflege",
+            "abrichten.wahl"
+          ]
         }
       ]
     },
@@ -2447,25 +4371,53 @@
             "scharfer_sinn",
             "streuner",
             "trittsicher"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "beruf.kraeuterkundiger",
+            "klettern",
+            "schwimmen",
+            "tiere_bezirzen",
+            "ueberleben",
+            "wahrnehmung",
+            "wissen.kraeuter"
           ]
         },
         {
           "nr": 2,
           "name": "Kräuterkundiger",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "besonnenheit",
+            "feilschen",
+            "heilen",
+            "klatsch",
+            "wissen.ort_region",
+            "zechen"
+          ]
         },
         {
           "nr": 3,
           "name": "Kräutermeister",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "anfuehren",
+            "beruf.giftmischer",
+            "intuition",
+            "wissen.medizin"
+          ]
         },
         {
           "nr": 4,
           "name": "Kräuterweiser",
           "tier": "silber",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "fahren",
+            "navigation"
+          ]
         }
       ]
     },
@@ -2493,25 +4445,53 @@
             "richtungssinn",
             "streuner",
             "trittsicher"
+          ],
+          "faehigkeiten": [
+            "ausdauer",
+            "klatsch",
+            "klettern",
+            "nahkampf.standard",
+            "tiere_bezirzen",
+            "ueberleben",
+            "wahrnehmung",
+            "wissen.ort_region"
           ]
         },
         {
           "nr": 2,
           "name": "Kundschafter",
           "tier": "messing",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "athletik",
+            "fernkampf.bogen",
+            "navigation",
+            "reiten.pferd",
+            "schleichen.land",
+            "spurenlesen"
+          ]
         },
         {
           "nr": 3,
           "name": "Pfadfinder",
           "tier": "silber",
-          "rang": 1
+          "rang": 1,
+          "faehigkeiten": [
+            "feilschen",
+            "geheimzeichen.jaeger",
+            "schwimmen",
+            "tierpflege"
+          ]
         },
         {
           "nr": 4,
           "name": "Erkunder",
           "tier": "silber",
-          "rang": 5
+          "rang": 5,
+          "faehigkeiten": [
+            "beruf.kartograph",
+            "sprache.wahl"
+          ]
         }
       ]
     },
@@ -2536,25 +4516,53 @@
             "einnehmendes_wesen",
             "glueckspilz",
             "zweites_gesicht"
+          ],
+          "faehigkeiten": [
+            "ausweichen",
+            "charme",
+            "feilschen",
+            "fingerfertigkeit",
+            "intuition",
+            "klatsch",
+            "unterhalten.vorhersagungen",
+            "wahrnehmung"
           ]
         },
         {
           "nr": 2,
           "name": "Mystiker",
           "tier": "messing",
-          "rang": 2
+          "rang": 2,
+          "faehigkeiten": [
+            "besonnenheit",
+            "bestechen",
+            "einschuechtern",
+            "unterhalten.prophetie",
+            "schaetzen",
+            "wissen.astrologie"
+          ]
         },
         {
           "nr": 3,
           "name": "Weiser",
           "tier": "messing",
-          "rang": 3
+          "rang": 3,
+          "faehigkeiten": [
+            "kunst.schreiben",
+            "sprache.wahl",
+            "tiere_bezirzen",
+            "unterhalten.erzaehlen"
+          ]
         },
         {
           "nr": 4,
           "name": "Hellseher",
           "tier": "messing",
-          "rang": 4
+          "rang": 4,
+          "faehigkeiten": [
+            "kanalisieren.azyr",
+            "wissen.prophetie"
+          ]
         }
       ]
     }

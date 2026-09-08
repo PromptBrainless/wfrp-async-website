@@ -9,7 +9,7 @@ Schema-Prosa: [../10-system/02-datenmodell.md](../10-system/02-datenmodell.md).
 | `bogen.json` | Kanonische Charakterbogen-Keys | S. 33–36, 44–45 |
 | `skills.json` | Alle 45 Fähigkeiten — **treibt** Labels, Attribut, Ausbau | S. 118–131 |
 | `talents.json` | 167 Talent-Slugs + Seite | S. 132–147 |
-| `careers.json` | 64 Karriere-Slugs + Klasse | S. 53–116 |
+| `careers.json` | 64 Karrieren, 4 Stufen inkl. Fähigkeiten | S. 53–116 |
 | `attributes.json` | 10 Spielwerte + Bonus-Key | S. 33–36 |
 | `qualities.json` | 20 Qualitäten + 6 Makel | S. 297–299 |
 | `conditions.json` | 12 Zustände inkl. Stapel, Ende, Folge | S. 167–169 |

@@ -1,7 +1,8 @@
 /** Eine Quelle: knowledge/data/*.json. Kein zweites Katalog-Array in TypeScript. */
 import catalogJson from "../../../knowledge/data/catalog.json";
+import careersJson from "../../../knowledge/data/careers.json";
 import skillsJson from "../../../knowledge/data/skills.json";
-import type { ActionCost, ActionDef, ActionTab, Attr, ResolverKind } from "./types";
+import type { ActionCost, ActionDef, ActionTab, Attr, ResolverKind, StatusTier } from "./types";
 
 type JsonResolver = "standard" | "vergleich" | "auto" | "resource" | "combat" | "move" | "simple" | "opposed";
 
@@ -83,3 +84,65 @@ export function actionAsk(def: ActionDef): string {
 export const SOCIAL_FAIL_IDS = new Set(["reden", "feilschen", "bestechen", "einschuechtern", "klatsch"]);
 
 export const KOSTEN_LABEL = catalogJson.kosten as Record<string, string>;
+
+export interface CareerStufe {
+  nr: number;
+  name: string;
+  tier: StatusTier;
+  rang: number;
+  faehigkeiten: string[];
+  talente?: string[];
+}
+
+export interface CareerRow {
+  id: string;
+  name: string;
+  klasse: string;
+  seite: number;
+  stufen: CareerStufe[];
+}
+
+export const CAREERS: CareerRow[] = careersJson.careers as CareerRow[];
+export const CAREER_BY_ID: Record<string, CareerRow> = Object.fromEntries(CAREERS.map((c) => [c.id, c]));
+
+export function skillRoot(id: string): string {
+  const i = id.indexOf(".");
+  return i === -1 ? id : id.slice(0, i);
+}
+
+export function skillSpecSlug(id: string): string | undefined {
+  const i = id.indexOf(".");
+  return i === -1 ? undefined : id.slice(i + 1);
+}
+
+function prettySpec(slug: string): string {
+  if (slug === "wahl") return "nach Wahl";
+  return slug.replace(/_/g, " ");
+}
+
+export function skillLabel(id: string): string {
+  const root = skillRoot(id);
+  const spec = skillSpecSlug(id);
+  const name = SKILL_LABEL[root] ?? root;
+  return spec ? `${name} (${prettySpec(spec)})` : name;
+}
+
+export function careerForName(raw: string): CareerRow | undefined {
+  const t = raw.toLowerCase();
+  return CAREERS.find((c) => t === c.id || t.startsWith(c.id) || t.includes(c.name.toLowerCase()));
+}
+
+/** Fähigkeiten der Stufen 1..level, inkl. Spezialisierungen. */
+export function careerSkillIds(careerIdOrName: string, level: number): string[] {
+  const row = CAREER_BY_ID[careerIdOrName] ?? careerForName(careerIdOrName);
+  if (!row) return [];
+  const cap = Math.min(4, Math.max(1, level || 1));
+  const out: string[] = [];
+  for (const st of row.stufen) {
+    if (st.nr > cap) break;
+    for (const id of st.faehigkeiten ?? []) {
+      if (!out.includes(id)) out.push(id);
+    }
+  }
+  return out;
+}

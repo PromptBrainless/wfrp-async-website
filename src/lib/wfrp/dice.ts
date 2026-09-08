@@ -1,4 +1,4 @@
-import { ATTR_OF_SKILL } from "./config";
+import { ATTR_OF_SKILL, skillRoot } from "./config";
 import type { Character, DifficultyId } from "./types";
 import { DIFFICULTY_MOD } from "./types";
 
@@ -61,7 +61,9 @@ export function conditionPenalty(character: Character): number {
 
 export function skillValue(character: Character, skillId: string): number {
   if (character.skills[skillId] != null) return character.skills[skillId];
-  const attr = ATTR_OF_SKILL[skillId];
+  const root = skillRoot(skillId);
+  if (root !== skillId && character.skills[root] != null) return character.skills[root];
+  const attr = ATTR_OF_SKILL[root];
   return attr ? character.attributes[attr] : 0;
 }
 

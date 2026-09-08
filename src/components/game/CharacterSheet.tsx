@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { ATTRS, type Attr, type Character, type StatusTier } from "@/lib/wfrp/types";
 import { bonus } from "@/lib/wfrp/dice";
+import { ATTR_OF_SKILL, SKILLS, SKILLS_BY_ID, careerSkillIds, skillLabel, skillRoot } from "@/lib/wfrp/config";
 import { useTisch } from "@/lib/wfrp/store";
 import { cn } from "@/lib/utils";
 import { ArmorSilhouette } from "./ArmorSilhouette";
@@ -47,40 +48,6 @@ const CONDITION: Record<string, string> = {
   ueberrascht: "Überrascht",
   vergiftet: "Vergiftet",
 };
-
-const GRUND: { id: string; attr: Attr; label: string }[] = [
-  { id: "anfuehren", attr: "CH", label: "Anführen" },
-  { id: "athletik", attr: "GW", label: "Athletik" },
-  { id: "ausdauer", attr: "WI", label: "Ausdauer" },
-  { id: "ausweichen", attr: "GW", label: "Ausweichen" },
-  { id: "besonnenheit", attr: "WK", label: "Besonnenheit" },
-  { id: "bestechen", attr: "CH", label: "Bestechen" },
-  { id: "charme", attr: "CH", label: "Charme" },
-  { id: "einschuechtern", attr: "ST", label: "Einschüchtern" },
-  { id: "fahren", attr: "GW", label: "Fahren" },
-  { id: "feilschen", attr: "CH", label: "Feilschen" },
-  { id: "gluecksspiel", attr: "IN", label: "Glücksspiel" },
-  { id: "intuition", attr: "I", label: "Intuition" },
-  { id: "klatsch", attr: "CH", label: "Klatsch" },
-  { id: "klettern", attr: "ST", label: "Klettern" },
-  { id: "nahkampf", attr: "KG", label: "Nahkampf" },
-  { id: "navigation", attr: "I", label: "Navigation" },
-  { id: "reiten", attr: "GW", label: "Reiten" },
-  { id: "rudern", attr: "ST", label: "Rudern" },
-  { id: "schleichen", attr: "GW", label: "Schleichen" },
-  { id: "tiere_bezirzen", attr: "WK", label: "Tiere bezirzen" },
-  { id: "ueberleben", attr: "IN", label: "Überleben" },
-  { id: "unterhalten", attr: "CH", label: "Unterhalten" },
-  { id: "wahrnehmung", attr: "I", label: "Wahrnehmung" },
-  { id: "zechen", attr: "WI", label: "Zechen" },
-];
-
-const AUSBAU: { id: string; attr: Attr; label: string }[] = [
-  { id: "fingerfertigkeit", attr: "GS", label: "Fingerfertigkeit" },
-  { id: "fernkampf", attr: "BF", label: "Fernkampf" },
-  { id: "heilen", attr: "IN", label: "Heilen" },
-  { id: "schaetzen", attr: "IN", label: "Schätzen" },
-];
 
 function Field({ label, value, empty }: { label: string; value: string; empty?: boolean }) {
   return (
@@ -131,17 +98,29 @@ export function CharacterSheet() {
   const wkb = c ? bonus(c.attributes.WK) : 0;
   const lpFormula = `${stb} + 2×${wib} + ${wkb}`;
   const encMax = stb + wib;
-  const grund = c ? GRUND.map((s) => skillRow(c, s.id, s.attr, s.label)) : [];
-  const known = new Set([...GRUND, ...AUSBAU].map((s) => s.id));
+  const careerIds = c ? careerSkillIds(c.career, c.careerLevel) : [];
+  const extraIds = c
+    ? Object.keys(c.skills).filter((id) => id.includes(".") || !SKILLS.some((s) => s.id === id))
+    : [];
+  const specIds = [...new Set([...careerIds.filter((id) => id.includes(".")), ...extraIds])];
+  const specRow = (id: string) => {
+    const root = skillRoot(id);
+    const attr = (ATTR_OF_SKILL[root] ?? "IN") as Attr;
+    return skillRow(c!, id, attr, skillLabel(id));
+  };
+  const isGrundSpec = (id: string) => SKILLS_BY_ID[skillRoot(id)]?.art !== "ausbau";
+  const grund = c
+    ? [
+        ...SKILLS.filter((s) => s.art === "grund").map((s) => skillRow(c, s.id, s.attr as Attr, s.name)),
+        ...specIds.filter(isGrundSpec).map(specRow),
+      ]
+    : [];
   const ausbau = c
     ? [
-        ...AUSBAU.map((s) => skillRow(c, s.id, s.attr, s.label)).filter((s) => s.trained),
-        ...Object.keys(c.skills)
-          .filter((id) => !known.has(id) && !GRUND.some((g) => g.id === id))
-          .map((id) => {
-            const hit = AUSBAU.find((s) => s.id === id);
-            return skillRow(c, id, hit?.attr ?? "IN", hit?.label ?? id);
-          }),
+        ...SKILLS.filter((s) => s.art === "ausbau")
+          .map((s) => skillRow(c, s.id, s.attr as Attr, s.name))
+          .filter((s) => s.trained || careerIds.some((id) => skillRoot(id) === s.id)),
+        ...specIds.filter((id) => !isGrundSpec(id)).map(specRow),
       ]
     : [];
   const lost = c ? Math.max(0, c.wounds.max - c.wounds.current) : 0;
@@ -330,7 +309,9 @@ export function CharacterSheet() {
 
                   <section>
                     <h2 className="font-display text-sm uppercase tracking-widest text-muted">Grundfähigkeiten</h2>
-                    <p className="mt-1 text-xs text-muted">Wert = Spielwert + Steigerungen. Ohne Steigerung legal.</p>
+                    <p className="mt-1 text-xs text-muted">
+                      Wert = Spielwert + Steigerungen. Gruppierte Spezialisierung ist eigene Zeile (Nahkampf (Standard)).
+                    </p>
                     <div className="mt-3 grid gap-x-6 sm:grid-cols-2">
                       <SkillTable rows={grund.slice(0, 12)} />
                       <SkillTable rows={grund.slice(12)} />
