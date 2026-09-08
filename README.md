@@ -1,9 +1,9 @@
 # Die Frist
 
-Privates Arbeitsrepo. Asynchrones **Warhammer Fantasy Roleplay 4e** (Ulisses, Grundregelwerk 2. überarbeitete Auflage).
+Arbeitsrepo. Asynchrones **Warhammer Fantasy Roleplay 4e** (Ulisses, Grundregelwerk 2. überarbeitete Auflage).
 
 **Kampagne 1:** fünf Spieler · Ort **Drosselau** · erste Szene zu.  
-**GitHub:** [PromptBrainless/wfrp-async-website](https://github.com/PromptBrainless/wfrp-async-website) — privat, kein Fan-Release.
+**GitHub:** [PromptBrainless/wfrp-async-website](https://github.com/PromptBrainless/wfrp-async-website) — öffentlich, kein Fan-Release, keine PDFs.
 
 Spieler setzt Intention und wirft den W100. Der SL ist Leitung, keine Figur. Die Engine spricht nicht.
 

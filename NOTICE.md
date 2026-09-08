@@ -1,6 +1,6 @@
 # Hinweis — Recht und Herkunft
 
-Dieses Repository ist **privat**. Es ist kein Fan-Release, kein Foundry-Modul, kein VTT.
+Dieses Repository ist öffentlich als Arbeitsstand. Es ist kein Fan-Release, kein Foundry-Modul, kein VTT.
 
 **Warhammer**, **Warhammer Fantasy Roleplay** und zugehörige Namen, Welten und Regeln bleiben bei den Rechteinhabern:
 
