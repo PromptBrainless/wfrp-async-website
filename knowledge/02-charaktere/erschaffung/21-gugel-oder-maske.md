@@ -1,6 +1,6 @@
 # Gugel oder Maske
 
-Quelle: Klassenpaket Gesetzlose, S. 37.  
+Quelle: Klassenpaket Gesetzlose, S. 37. 
 Nur Klasse Gesetzlose.
 
 ## Erklärung
@@ -15,7 +15,7 @@ für Halunken, die durch die Stadt müssen.
 Einschüchtern, Ranald). Die Wache sieht Absicht. In der Taverne aufsetzen
 ist eine Ansage.
 
-Kurt (Halunke) in der Demo: eher Gugel, wenn er tagsüber bei Greta in der
+Halunke : eher Gugel, wenn er tagsüber bei der Spielercharakter in der
 Gasse steht; Maske, wenn die Frist nachts zuschlägt.
 
 ### Siehe auch

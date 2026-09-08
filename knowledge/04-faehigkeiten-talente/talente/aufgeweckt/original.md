@@ -5,8 +5,7 @@ Status: Original, nicht anfassen
 
 **Aufgeweckt**
 
-**Maximum:** 1
-
+**Maximum:** 1  
 Auf deinen Anfangswert für das Attribut Initiative erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.
 
 ### Siehe auch
@@ -14,4 +13,4 @@ Auf deinen Anfangswert für das Attribut Initiative erhältst du einen permanent
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
-- [Attribut I Original](../../../02-charaktere/attribute/i/original.md)
+- [Talente-Liste](../../03-talente-liste.md)

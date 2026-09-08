@@ -66,7 +66,7 @@ Ziele dürfen vor der Gruppe geheim bleiben (Ruchlose Pläne, S. 41).
 
 Wie kennt ihr euch? Basar, Flussbarke, gleiche Gasse, gleicher Tempel — oder der SL führt euch im ersten Abenteuer zusammen.
 
-Persönliches Ziel ≠ Gruppenziel. Demo-Haken: Greta, Otto, Kurt.
+Persönliches Ziel ≠ Gruppenziel. Demo-Haken: Alltagsleute.
 
 - Hub: [Gruppe](07-gruppe-und-steigerungen.md)
 

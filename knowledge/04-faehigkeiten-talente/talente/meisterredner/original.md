@@ -5,13 +5,12 @@ Status: Original, nicht anfassen
 
 **Meisterredner**
 
-Maximum und Würfe stehen im Buch.
-
-[prüfen am Buch S. 140]
-
+**Maximum:** Charisma-Bonus  
+Du bist darin geübt, die Massen zu bewegen. Du erhältst EG in Höhe deiner Stufe in Meisterredner auf Charme-Würfe, wenn du vor einer Menschgenmenge eine Rede hältst.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

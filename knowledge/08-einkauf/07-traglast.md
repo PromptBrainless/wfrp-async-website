@@ -4,8 +4,8 @@ Quelle: S. 293
 
 Jeder Gegenstand hat Traglastpunkte (TP), meist 0–3. Maximum ohne Abzug: **STB + WÜB**. Durchschnittlicher Mensch: 6.
 
-Kleine Gegenstände: grob 1 TP pro 200 Münzen.  
-Übergroß (4 TP, Fass, Sattel): nur einen, beide Hände.  
+Kleine Gegenstände: grob 1 TP pro 200 Münzen. 
+Übergroß (4 TP, Fass, Sattel): nur einen, beide Hände. 
 Getragen (Rüstung, Kleidung, Schmuck): TP −1, oft 0 am Körper.
 
 Lasttiere ignorieren STB+WÜB; Mensch-Passagier zählt als 10 TP.
@@ -25,7 +25,7 @@ Bewegungs-Abzüge sofort, weg wenn Last runter. Erschöpfung durch Reisen: Ende 
 
 Beispiele: 0 Messer/Münzen; 1 Schwert/Tasche; 2 Zweihänder/Rucksack; 3 Hellebarde/Fass.
 
-v1-Demo: Greta Dolch TP 0, Kurt waffenlos TP 0. Traglast greift erst, wenn Inventar wächst.
+v1-Demo: der Spielercharakter Dolch TP 0, ein Schläger waffenlos TP 0. Traglast greift erst, wenn Inventar wächst.
 
 ### Befehl
 

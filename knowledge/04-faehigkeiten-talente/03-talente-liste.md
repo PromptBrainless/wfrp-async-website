@@ -2,7 +2,7 @@
 
 Quelle: S. 132–147
 
-Gerüst: Name, Slug, Seite. Originale: 8 Demo plus Bürger-Stufe-1 und Kurt-Stufe-1. Rest Welle D.
+Gerüst: Name, Slug, Seite. Originale: 167 / 167, S. 132–147.
 
 | id | Talent | S. |
 |----|--------|----|

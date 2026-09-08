@@ -12,7 +12,7 @@ Vergleich **Charme gegen Intelligenz**. Erfolg: [Betäubt](../../../05-regeln/zu
 
 Noch keine Katalog-ID. Wenn eine kommt: zuerst ins Befehlsregister, Kosten H, Resolver vergleich, Tab sozial. Bis dahin SL-Intention über [reden](../../faehigkeiten/charme/angepasst.md).
 
-Otto Händler: verfügbar, nicht automatisch.
+ein Händler Händler: verfügbar, nicht automatisch.
 
 ### Befehl
 

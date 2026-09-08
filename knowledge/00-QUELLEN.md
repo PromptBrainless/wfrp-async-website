@@ -33,10 +33,16 @@ Visuell lesen. Zitat immer **Buchfußzeile**.
 | 110–117 | 109–116 | Landvolk | `03-klassen-karrieren/landvolk/` |
 | 119–132 | 118–131 | Fähigkeiten | `04-faehigkeiten-talente/faehigkeiten/` |
 | 133–148 | 132–147 | Talente | `04-faehigkeiten-talente/talente/` |
-| 150–173 | 149–172 | Regeln, EG, Kampf, Zustände | `05-regeln/` |
+| 150–173 | 149–172 | Regeln, EG, Kampf, Zustände, Schicksal | `05-regeln/` |
 | 168–171 | 167–170 | Zustände | `05-regeln/zustaende/` |
-| 289–300 | 288–299 | Einkauf, Waffen, Qualitäten | `08-einkauf/` |
+| 171–173 | 170–172 | Schicksal & Zähigkeit | `05-regeln/_roh/schicksal-s170-172.md` |
+| 174–192 | 173–191 | Krit, Heilung, Psychologie | `05-regeln/_roh/krit-heilung-psychologie-s173-191.md` |
+| 193–202 | 192–201 | Zwischen den Abenteuern | `06-spielleiter/_roh/zwischen-s192-201.md` |
+| 259–266 | 258–265 | Der Spielleiter, Reisen, EP | `06-spielleiter/_roh/sl-s258-265.md` |
+| 267–288 | 266–287 | Das glorreiche Reikland | `07-reikland/_roh/reikland-s266-287.md` |
+| 289–310 | 288–309 | Einkauf, Waffen, Listen | `08-einkauf/_roh/einkauf-s288-309.md` |
 | 298–300 | 297–299 | Qualitäten / Makel | `08-einkauf/qualitaeten/` |
+| 311–354 | 310–353 | Bestiarium + Register | `09-bestiarium/_roh/bestiarium-s310-353.md` |
 
 Stichprobe geprüft: Datei 119 = Buch 118; Datei 152 = Buch 151; Datei 300 = Buch 299 (Stumpf).
 
@@ -47,6 +53,10 @@ WebP-Lücken (oft Kunst): z. B. 121, 124, 125, 132, 157 — dort JPG oder Voll-P
 Komprimiertes PDF in der Session. `pypdf` oft um 1 Seite verschoben. Bei Konflikt gewinnt das Bild.
 
 Voll-PDF Drive `1POdvD6YhNyD6L3h0Sm_rtn6LKKtIjjQV` nur wenn Bild fehlt.
+
+## Zweite Quelle — Miniaturenspiel (nur Namen)
+
+[4th.whfb.app](https://4th.whfb.app) = Warhammer Fantasy **Battle** 4e. Abgelegt unter [13-battle-index](13-battle-index/README.md). Keine WFRP-Zahlen. Kein PDF ins Git.
 
 ### Siehe auch
 

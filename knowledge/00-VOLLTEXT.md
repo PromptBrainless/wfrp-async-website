@@ -6,7 +6,7 @@ Vorlage: [00-VORLAGE.md](00-VORLAGE.md) · Befehle: [00-BEFEHLE.md](00-BEFEHLE.m
 
 **Simulation und UI sind kein Teil dieses Plans.**
 
-Stand: 2026-09-07 · Originale mit Buchtext: **115 / 329** Gerüste.
+Stand: 2026-09-08 · Originale mit Buchtext: **329 / 329** Gerüste (Karrieren, Talente, Qualitäten, Fähigkeiten, Völker, Attribute, Zustände).
 
 ---
 
@@ -43,65 +43,71 @@ Gerüste: `python3 skill/scripts/generate_stubs.py` (füllt kein gefrorenes Orig
 
 ### Welle C — Fähigkeiten S. 118–131
 
-[x] 45 / 45 Originale  
+[x] 45 / 45 Originale 
 Roh: [\_roh/hauptliste-s118-131.md](04-faehigkeiten-talente/_roh/hauptliste-s118-131.md)
 
 ### Welle E — Zustände S. 167–169
 
-[x] 12 / 12 Originale  
+[x] 12 / 12 Originale 
 Hub: [05-zustaende.md](05-regeln/05-zustaende.md) · Roh: [\_roh/zustaende-s167-169.md](05-regeln/_roh/zustaende-s167-169.md)
 
 ### Welle B — Karrieren S. 53–116
 
-[x] 17 / 64 Originale
+[x] 64 / 64 Originale — alle acht Klassen S. 53–116
 
-- [x] [Städter](03-klassen-karrieren/buerger/staedter/original.md) S. 67 (Greta = Gehilfe)
-- [x] [Kaufmann](03-klassen-karrieren/buerger/kaufmann/original.md) S. 65 (Otto = Händler)
-- [x] [Halunke](03-klassen-karrieren/gesetzlose/halunke/original.md) S. 88 (Kurt = Schläger)
-- [x] restliche 6 Bürger — Klasse Bürger 8/8
+- [x] Akademiker 8/8 — S. 53–60
+- [x] Bürger 8/8 — S. 61–68
 - [x] Flussvolk 8/8 — S. 69–76
+- [x] Freisassen 8/8 — S. 77–84
+- [x] Gesetzlose 8/8 — S. 85–92
+- [x] Höflinge 8/8 — S. 93–100
+- [x] Krieger 8/8 — S. 101–108
+- [x] Landvolk 8/8 — S. 109–116
 
 ### Welle D — Talente S. 132–147
 
-[ ] 8 / 167 Originale
-
-Demo:
-
-- [x] Einnehmendes Wesen S. 134
-- [x] Etikette S. 135
-- [x] Lesen & Schreiben S. 139
-- [x] Redeschwall S. 141
-- [x] Stämmig S. 144
-- [x] Straßenkatze S. 145
-- [x] Unauffällig S. 146
-- [x] Verhandlungsgenie S. 146
+[x] 167 / 167 Originale 
+Roh: [\_roh/talente-s132-147.md](04-faehigkeiten-talente/_roh/talente-s132-147.md)
 
 ### Welle A — Charakter S. 24–45
 
-[x] 5 / 5 Völker-Originale — [Hub](02-charaktere/02-voelker-kurz.md)  
-[x] Startfähigkeiten S. 35–36 — [05-faehigkeiten-talente-start.md](02-charaktere/05-faehigkeiten-talente-start.md)  
-[x] 10 / 10 Attribut-Originale — [Hub](02-charaktere/04-attribute.md)  
+[x] 5 / 5 Völker-Originale — [Hub](02-charaktere/02-voelker-kurz.md) 
+[x] Startfähigkeiten S. 35–36 — [05-faehigkeiten-talente-start.md](02-charaktere/05-faehigkeiten-talente-start.md) 
+[x] 10 / 10 Attribut-Originale — [Hub](02-charaktere/04-attribute.md) 
 [x] Klasse/Karriere-Einführung, Ausrüstung, Bogen-Erklärung — Hubs S. 30–32 / 37–45
 
 ### Welle F–J — Rest Buch
 
-[ ] Schicksal & Zähigkeit S. 170–171 (Kapiteldatei dünn, kein 3-Datei-Ordner)  
-[ ] Qualitäten / Makel 0 / 26  
-[ ] Waffen-Ordner über Demo hinaus  
-[ ] SL: Reisen, Zwischen den Abenteuern  
-[ ] Religion, Magie, Reikland, Bestiarium
+[x] Schicksal & Zähigkeit S. 170–172 — Roh + Hub  
+[x] Krit / Heilung / Psychologie S. 173–191 — Roh  
+[x] Qualitäten / Makel 26 / 26 — S. 297–299  
+[x] Waffen-Tabellen S. 294–295 + Einkauf-Roh S. 288–309  
+[x] SL: Reisen, EP — Roh S. 258–265  
+[x] Zwischen den Abenteuern S. 192–201 — Roh  
+[x] Religion S. 202–228 — Roh + Hubs  
+[x] Magie S. 229–257 — Roh + Hubs  
+[x] Reikland S. 266–287 — Roh + Hubs  
+[x] Bestiarium S. 310–353 — Roh + Hubs
 
 ---
 
-## Als Nächstes (Demo-Schnitt, Reihenfolge)
+## Als Nächstes (Buchreihenfolge)
 
 0. [x] [Prompt Erschaffung + Weltwissen](02-charaktere/PROMPT-erschaffung-weltwissen.txt) — **P1 Primer** + **39 Einzel-Erklärungen** ([erschaffung/](02-charaktere/erschaffung/README.md))
 1. [x] 8 Demo-Talente: Einsatz in der Spielwelt (`details.md`)
-2. [x] Talente der Bürger-Stufe-1 + Kurt-Stufe-1 Originale (18)
+2. [x] Talente der Bürger-Stufe-1 + ein Schläger-Stufe-1 Originale (18)
 3. [x] nächste Klasse nach Bürger — Flussvolk S. 69–76
-4. [ ] Akademiker S. 53–60 oder Angepasst/Details der Flussvolk-Talente
+4. [x] Akademiker S. 53–60
+5. [x] Freisassen, restliche Gesetzlose, Höflinge S. 77–100
+6. [x] Krieger + Landvolk S. 101–116 — **64/64 Karrieren**
+7. [x] Welle D: Talente S. 132–147 — **167/167**
+8. [x] Qualitäten / Makel S. 297–299 — **26/26**
+9. [x] Religion S. 202–228 und Magie S. 229–257 — Rohkapitel + Hubs
+10. [x] Kampagne 1, 5 Spieler — Plätze leer, Ort fehlt
+11. [x] Restbuch als Roh + Hubs: Schicksal, Zwischen, SL, Reikland, Einkauf, Bestiarium
+12. [x] Ort Kampagne 1: Drosselau (13 Gassen). Szene zu.
 
-Nicht: Website. Nicht: Simulation nachrechnen.
+Buch-Wissen liegt. Kampagne 1 in Drosselau. Erste Szene öffnet der Mensch.
 
 ---
 

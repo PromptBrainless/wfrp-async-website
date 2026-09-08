@@ -12,7 +12,7 @@ Das Reikland ist die reichste Provinz des Imperiums: Fluss, Wald, Hügel, Berge.
 
 **Wald und Straße.** Der Reikwald gilt als „sicher“ — bis du die Straße verlässt. Banditen, umgestürzte Kutschen, wenig Straßenwächter. Abseits: Dinge, über die Schäfer nicht laut sprechen.
 
-Berge (Graues Gebirge): Zwergenwehrstädte, Minen, Orks. Nicht der Default-Start der Demo.
+Berge (Graues Gebirge): Zwergenwehrstädte, Minen, Orks. Nicht der Default-Start des Spiels.
 
 ## Status im Laden
 
@@ -20,9 +20,9 @@ Messing / Silber / Gold + Zahl kommt aus der Karrierestufe, nicht aus dem Geldbe
 
 - **Messing 0** (Hungerleider): Startgeld 0. Die Wache hat keine Sympathie.
 - **Messing 3:** ein paar Groschen, du wirst geduldet.
-- **Silber 1** (Greta, Gehilfe): Lohn, möbliertes Zimmer, die Krämerin zieht zerbrochene Töpfe vom Lohn ab.
-- **Silber 2** (Otto, Händler): Karren, Gilde in Sicht.
-- **Gold:** Adel, Gildenmeister, Hauptmann — nicht der Demo-Start.
+- **Silber 1** (Gehilfe, Silber 1): Lohn, möbliertes Zimmer, die Krämerin zieht zerbrochene Töpfe vom Lohn ab.
+- **Silber 2** (ein Händler, Händler): Karren, Gilde in Sicht.
+- **Gold:** Adel, Gildenmeister, Hauptmann — nicht des Spiels-Start.
 
 Wer den Hut zieht, wer Trinkgeld gibt, wer „Ihr“ sagt: das ist Status, nicht Charisma allein. Talent [Etikette](../04-faehigkeiten-talente/talente/etikette/angepasst.md) greift in **einer** sozialen Gruppe.
 
@@ -32,6 +32,7 @@ Ein Ort reicht: Altdorf, Übersreik, Bögenhafen, Dorf am Reik, Flussbarke, Wald
 
 ### Siehe auch
 
+- [Roh Reikland](_roh/reikland-s266-287.md)
 - [Reikland-Übersicht](01-uebersicht.md)
 - [Landschaft](02-landschaft.md)
 - [Status](../03-klassen-karrieren/02-status-system.md)

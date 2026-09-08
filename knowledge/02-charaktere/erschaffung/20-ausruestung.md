@@ -1,6 +1,6 @@
 # Ausrüstung — zwei Pakete
 
-Quelle: S. 37–38. [Ausrüstung](../06-ausruestung-details.md).  
+Quelle: S. 37–38. [Ausrüstung](../06-ausruestung-details.md). 
 Schritt 5. Bogen: Inventar, `waffe_gefuehrt`.
 
 ## Erklärung
@@ -26,7 +26,7 @@ Inventar = was du **trägst**. Dolch in der Stadt ist normal. Eine
 **Handwaffe** (1 GK, Krieger-Paket) sieht die Wache — das ist legal für
 Krieger, auffällig für Gehilfen. Gambeson ist keine Ritterplatte.
 
-Optional Kapitel 11 vor Spielbeginn einkaufen. Die Demo kann das lassen.
+Optional Kapitel 11 vor Spielbeginn einkaufen. Optional.
 
 ### Siehe auch
 

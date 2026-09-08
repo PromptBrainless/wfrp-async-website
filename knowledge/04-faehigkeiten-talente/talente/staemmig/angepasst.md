@@ -8,7 +8,7 @@ Kein Katalog. Traglast + `stufe × 2`. Würfe: Stärke beim Heben.
 
 `talente[]`: `id` = `staemmig`. Maximum = ST-Bonus.
 
-Greta Gehilfe: verfügbar, nicht automatisch.
+Stufe 1 (Gehilfe): verfügbar, nicht automatisch.
 
 ### Befehl
 

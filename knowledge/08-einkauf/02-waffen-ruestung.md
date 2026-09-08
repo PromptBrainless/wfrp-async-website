@@ -1,21 +1,13 @@
 # Waffen und Rüstung
 
-Quelle: S. 293–296. Tabelle: [../data/weapons.json](../data/weapons.json).
+Quelle: S. 293–296  
+Roh: [_roh/einkauf-s288-309.md](_roh/einkauf-s288-309.md)  
+Qualitäten: [qualitaeten/README.md](qualitaeten/README.md)
 
 Schaden der Waffe zählt **plus finale EG** (S. 159).  
-Ohne Steigerung in der Waffengruppe: Qualitäten aus, Makel an, Wurf gegen reines KG.
+Ohne Steigerung in der Waffengruppe: Qualitäten aus, Makel an, Wurf gegen reines KG oder BF.
 
-## v1-Demo
-
-| Waffe | Gruppe | Länge | Schaden | Qualitäten | Preis |
-|-------|--------|-------|---------|------------|-------|
-| Dolch | Standard | Sehr kurz | +STB+2 | — | 16 S, TP 0 |
-| Waffenlos | Waffenlos | Persönlich | +STB+0 | Stumpf | — |
-
-Greta: Dolch, Start nicht gezogen. Ziehen ist v1 freie Handlung (S. 158).  
-Kurt: waffenlos.
-
-## Nahkampf Standard (Auszug)
+## Nahkampf (Auszug S. 294)
 
 | Waffe | Preis | TP | Länge | Schaden | Qualitäten |
 |-------|-------|----|-------|---------|------------|
@@ -24,25 +16,25 @@ Kurt: waffenlos.
 | Dolch | 16 S | 0 | Sehr kurz | +STB+2 | — |
 | Messer | 8 S | 0 | Sehr kurz | +STB+1 | — |
 | Schild | 2 GK | 1 | Sehr kurz | +STB+2 | Defensiv, Schild 2, Stumpf |
+| Rapier | 5 GK | 1 | Lang | +STB+4 | Durchbohrend, Schnell |
+| Speer (2H) | 15 S | 2 | Sehr lang | +STB+4 | Durchbohrend |
+| Waffenlos | — | 0 | Persönlich | +STB+0 | Stumpf |
 
-Handwaffe = Oberbegriff für Schwert, Axt, Hammer, Streitkolben, kurzen Speer.
+Vollständige Listen (Kavallerie, Fechten, Flegel, Parade, Stangenwaffe, Zweihändig, Fernkampf) im Roh S. 294–295.
 
-Lanze: zählt als improvisiert, wenn in der Runde kein Sturmangriff (S. 294).
+## Fernkampf (Auszug S. 295)
 
-## Gruppen-Sonderregeln (S. 296)
+| Waffe | Preis | Reichweite | Schaden | Qualitäten |
+|-------|-------|------------|---------|------------|
+| Bogen (2H) | 4 GK | 50 | +STB+3 | — |
+| Armbrust (2H) | 5 GK | 60 | +9 | Nachladen 1 |
+| Pistole | 8 GK | 20 | +8 | Pistole, Nachladen 1 |
+| Schleuder | 1 S | 60 | +6 | — |
 
-- **Flegel** ohne Steigerung: zusätzlich Gefährlich, übrige Qualitäten tot.
-- **Kavallerie** vom Boden: 2H zählen als Zweihandwaffe.
-- **Parade:** Defensiv-Waffe, kein −20 für die nichtdominante Hand.
-
-Rüstung v1: niemand in der Demo trägt welche. RP = 0.
+Rüstung: Format und Schaden an Rüstteilen S. 299, im Qualitäten-Roh und Einkauf-Roh.
 
 ### Siehe auch
-- [Ausrüstung und Preise](01-ausruestung-preise.md)
-- [Dolch](waffen/dolch.md)
-- [Waffenlos](waffen/waffenlos.md)
-- [Handwaffe](waffen/handwaffe.md)
-- [Qualitäten](waffen/qualitaeten.md)
+
+- [Qualitäten und Makel](qualitaeten/README.md)
+- [Einkauf Roh](_roh/einkauf-s288-309.md)
 - [Traglast](07-traglast.md)
-- [Angreifen](../05-regeln/07-angreifen-schaden.md)
-- [Nahkampf](../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md)

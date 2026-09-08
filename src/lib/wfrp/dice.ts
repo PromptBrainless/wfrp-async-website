@@ -100,6 +100,56 @@ export function formatSl(sl: number): string {
   return "0 EG";
 }
 
+export function egBand(sl: number, success: boolean): string {
+  if (success) {
+    if (sl >= 6) return "Verblüffender Erfolg";
+    if (sl >= 4) return "Beeindruckender Erfolg";
+    if (sl >= 2) return "Erfolg";
+    return "Knapper Erfolg";
+  }
+  if (sl <= -6) return "Verblüffendes Scheitern";
+  if (sl <= -4) return "Beeindruckendes Scheitern";
+  if (sl <= -2) return "Scheitern";
+  return "Knappes Scheitern";
+}
+
+export function formatDiceNumbers(r: {
+  skillLabel: string;
+  skillValue: number;
+  difficultyMod: number;
+  conditionMod: number;
+  advantageMod: number;
+  target: number;
+  roll: number;
+  sl: number;
+  band: string;
+  doubles?: boolean;
+  critical?: boolean;
+  fumble?: boolean;
+  location?: string;
+  opposed?: { name: string; skillLabel?: string; target: number; roll: number; sl: number; band?: string };
+  proxy?: boolean;
+}): string {
+  const lines = [
+    `${r.skillLabel} ${r.skillValue}`,
+    `Schwierigkeit ${r.difficultyMod >= 0 ? `+${r.difficultyMod}` : r.difficultyMod}`,
+    r.conditionMod ? `Zustände ${r.conditionMod}` : "Zustände —",
+    r.advantageMod ? `Vorteile +${r.advantageMod}` : "Vorteile —",
+    `Ziel ${r.target}`,
+    `Wurf ${r.roll}`,
+    `${formatSl(r.sl)} · ${r.band}`,
+  ];
+  if (r.doubles) lines.push(r.critical ? "Pasch · kritischer Treffer" : r.fumble ? "Pasch · Patzer" : "Pasch");
+  if (r.location) lines.push(`Zone ${r.location}`);
+  if (r.opposed) {
+    lines.push(
+      `gegen ${r.opposed.name} ${r.opposed.skillLabel ?? ""} Ziel ${r.opposed.target} · Wurf ${r.opposed.roll} · ${formatSl(r.opposed.sl)}${r.opposed.band ? ` · ${r.opposed.band}` : ""}`.replace(/\s+/g, " "),
+    );
+  }
+  if (r.proxy) lines.push("in Vertretung");
+  return lines.join(" · ");
+}
+
 /** Trefferzone: Würfel vertauschen, S. 159. */
 export function hitLocation(roll: number): string {
   const n = roll === 100 ? 0 : roll;

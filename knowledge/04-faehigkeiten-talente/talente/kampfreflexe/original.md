@@ -5,13 +5,12 @@ Status: Original, nicht anfassen
 
 **Kampfreflexe**
 
-Maximum und Würfe stehen im Buch.
-
-[prüfen am Buch S. 138]
-
+**Maximum:** Initiative-Bonus  
+Du reagierst blitzschnell. Addiere für jede Stufe in diesem Talent 10 zu deiner Initiative, wenn es um die Bestimmung der Kampf-Initiative geht.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

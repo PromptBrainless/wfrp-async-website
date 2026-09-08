@@ -1,10 +1,10 @@
 # Spion — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 93)
+Quelle der Regeln: [original.md](original.md) (S. 100)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Keine Katalogkarte. Die Karriere filtert, welche Fähigkeiten und Talente der Charakter kennen darf.
 
-
+Stufe 1: **Informant**, Messing 3. Bogen-Keys: `klasse` = `hoeflinge`, `karriere` = `spion`, `karrierestufe` = 1.
 
 ### Befehl
 
@@ -14,5 +14,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 
 - [Original](original.md)
 - [Details](details.md)
-- [Höflinge](../../hoeflinge/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
+- [Status](../../02-status-system.md)

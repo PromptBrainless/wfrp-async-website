@@ -1,13 +1,20 @@
 # Gelehrter — Details / Hilfe
 
 JSON-`id`: `gelehrter`  
-Quelle: S. 53
+Quelle: S. 55 · [careers.json](../../../data/careers.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Stufe 1 heißt **Student** (Messing 3).
+- Schema-Symbole gegen die Karte S. 55 gehalten.
+
+## Prüfen
+
+- [prüfen am Buch S. 55] Karriereschema-Symbole und Ausrüstungslisten gegen die Karte.
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
-- [Akademiker](../../akademiker/README.md)
+- [Akademiker](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)

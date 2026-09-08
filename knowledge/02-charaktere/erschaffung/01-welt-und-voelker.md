@@ -1,12 +1,12 @@
 # Welt und Völker
 
-Quelle: S. 24–29, 36. Primer: [Alte Welt](../../01-einfuehrung/03-die-alte-welt.md).  
+Quelle: S. 24–29, 36. Primer: [Alte Welt](../../01-einfuehrung/03-die-alte-welt.md). 
 Schritt 1. Bogen: `volk`, `bewegung`.
 
 ## Erklärung
 
 Die Alte Welt ist ein Kontinent mit Königreichen, Wäldern, Gebirgen und Flüssen.
-Die Demo spielt im **Reikland**, einer Provinz des Imperiums der Menschen.
+Das Spiel beginnt oft im **Reikland**, einer Provinz des Imperiums der Menschen.
 Hauptstadt ist **Altdorf**. Imperator ist **Karl-Franz I.** Der Schutzgott der
 Reikländer ist **Sigmar**, der das Imperium gegründet hat. Chaos und Magie
 existieren; der Spielleiter bringt sie, wenn die Szene es braucht — nicht

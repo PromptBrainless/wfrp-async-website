@@ -2,13 +2,13 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 67)
 
-Greta Kohl ist **Gehilfe**, Silber 1. Tätigkeit im Buch: Krämer — nicht Kaufmann.
+Stufe 1 heißt **Gehilfe**, Silber 1. Tätigkeit im Buch: Krämer — nicht Kaufmann.
 
 ## Bogen
 
 Keys: `klasse` = `buerger`, `karriere` = `staedter`, `karrierestufe` = 1, `karrierestufe_name` = Gehilfe, `status.tier` = silber, `status.rang` = 1.
 
-Demo-Zahlen stehen in [characters.json](../../../data/characters.json), nicht die 40 Startsteigerungen der Erschaffung.
+Startwerte kommen aus der Erschaffung (40 Steigerungen), nicht aus einem vorgefertigten Bogen.
 
 ## Talente Stufe 1
 

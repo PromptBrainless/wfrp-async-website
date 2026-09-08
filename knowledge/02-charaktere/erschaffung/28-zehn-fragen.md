@@ -14,25 +14,25 @@ Dorf, Waldsaum). Interaktive Karte ist UI später. Bis dahin:
 
 1. **Woher kommst du?** Füllt `herkunft`.
 2. **Wie ist deine Familie?** Gilde, Dienst, niemand mit Silberstatus,
-   Klan (Zwerg/Halbling), Sippe tot oder weit weg.
+ Klan (Zwerg/Halbling), Sippe tot oder weit weg.
 3. **Wie war deine Kindheit?** Stadtlärm, Tempel, Fluss, Waldsaum —
-   an Herkunft koppeln.
+ an Herkunft koppeln.
 4. **Warum hast du dein Zuhause verlassen?** Lohn, Schuld, Wache,
-   Handel, Auftrag, Langeweile.
+ Handel, Auftrag, Langeweile.
 5. **Wer sind deine besten Freunde?** Die Gruppe, die Gasse, niemand
-   Zuverlässiges.
+ Zuverlässiges.
 6. **Was ist dein größter Wunsch?** Darf das langfristige Ziel wiederholen.
 7. **Schönste und schlimmste Erinnerung?** Ein Bild, kein Aufsatz.
 8. **Religiöse Überzeugungen?** Liste der zehn Konklave-Götter.
-   Default-Angebot Sigmar, **nicht automatisch**. Füllt `gott`.
-   [Glauben](../../11-religion/04-glauben-bei-der-erschaffung.md)
+ Default-Angebot Sigmar, **nicht automatisch**. Füllt `gott`.
+ [Glauben](../../11-religion/04-glauben-bei-der-erschaffung.md)
 9. **Wem oder welcher Sache gegenüber loyal?** Gilde, Blut, wer zahlt,
-   niemand.
+ niemand.
 10. **Warum ziehst du los, um Abenteuer zu erleben?** Geld, Flucht,
-    Auftrag, die anderen ziehen schon, die Frist.
+ Auftrag, die anderen ziehen schon, die Frist.
 
-Muster Demo (nicht erzwingen): Greta Altdorfer Gasse / Dienst; Otto Markt;
-Kurt die Gasse. Glaube: Sigmar am Feiertag, Ranald wenn niemand hinschaut.
+Muster (nicht erzwingen): der Spielercharakter Altdorfer Gasse / Dienst; ein Händler Markt;
+ein Schläger die Gasse. Glaube: Sigmar am Feiertag, Ranald wenn niemand hinschaut.
 
 Option: eine psychologische Eigenschaft (S. 190). Die meisten starten ohne.
 Danach: Bonus-EP ausgeben? → [Schritt 9](29-steigerungen-ep.md).

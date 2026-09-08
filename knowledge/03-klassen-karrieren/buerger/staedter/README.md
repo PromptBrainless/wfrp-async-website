@@ -6,4 +6,4 @@ Quelle: S. 67
 - [Angepasst](angepasst.md) — Projekt
 - [Details](details.md) — Hilfe
 
-Greta = Gehilfe. Klasse: [Bürger](../README.md).
+der Spielercharakter = Gehilfe. Klasse: [Bürger](../README.md).

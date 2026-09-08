@@ -8,7 +8,7 @@ Keine eigene Katalogkarte. Wirkt auf [Charme](../../faehigkeiten/charme/angepass
 
 `talente[]`: `id` = `etikette`, `spez` Pflicht (Dienstboten, Gildenmitglieder, …). Maximum = CH-Bonus.
 
-Greta Gehilfe: Spezialisierung **Dienstboten**. Otto als Kaufmann Stufe 2: **Gildenmitglieder**.
+Stufe 1 (Gehilfe): Spezialisierung **Dienstboten**. Kaufmann Stufe 2: **Gildenmitglieder**.
 
 ## Grau
 

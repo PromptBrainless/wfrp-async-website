@@ -8,7 +8,7 @@ Das Regelwerk bleibt die Autorität (Spielbeschreibung §1). Wo die Simulation Z
 
 ## Erfolgsgrade
 
-**Buch S. 152 (Default):**  
+**Buch S. 152 (Default):** 
 EG = Zehnerstelle des (modifizierten) Fähigkeitswerts − Zehnerstelle des Wurfs.
 
 Beispiel im Buch: Reiten 41, Wurf 29 → 4 − 2 = **+2 EG**.
@@ -19,8 +19,8 @@ Beispiel im Buch: Reiten 41, Wurf 29 → 4 − 2 = **+2 EG**.
 |--------|------|------|-----|------|--------|
 | Umschauen | 41 | 27 | +1 EG | **+2 EG** | Erfolg bleibt |
 | Reden | 45 | 62 | −1 EG | **−2 EG** | Misserfolg bleibt |
-| Feilschen Greta | 47 | 33 | +1 EG | +1 EG | gleich |
-| Feilschen Otto | 50 | 71 | −2 EG | −2 EG | gleich |
+| Feilschen der Spielercharakter | 47 | 33 | +1 EG | +1 EG | gleich |
+| Feilschen ein Händler | 50 | 71 | −2 EG | −2 EG | gleich |
 
 Option „Schnelle EG“ (S. 152: bei Erfolg zählt die Zehnerstelle des Wurfs) ist ein anderes Verfahren und ebenfalls nicht das, was die Simulation benutzt. v1 verwendet den **Default**.
 
@@ -32,7 +32,7 @@ Option „Schnelle EG“ (S. 152: bei Erfolg zählt die Zehnerstelle des Wurfs) 
 
 **Simulation Entscheidung 5:** Vergleich 31 vs. 38, ohne +10, danach „Vorteile 2“. Das ist Walkthrough-Kürzung.
 
-Engine: Vorteil aus Sturmangriff sitzt vor dem Vergleich, sofern die Distanz stimmt (Ziel mindestens Bewegung in m entfernt, innerhalb Rennen-Reichweite, nicht schon gebunden). Greta B 4 → Rennen 16 m, Distanz 4 m → legal.
+Engine: Vorteil aus Sturmangriff sitzt vor dem Vergleich, sofern die Distanz stimmt (Ziel mindestens Bewegung in m entfernt, innerhalb Rennen-Reichweite, nicht schon gebunden). der Spielercharakter B 4 → Rennen 16 m, Distanz 4 m → legal.
 
 ---
 
@@ -46,7 +46,7 @@ Spielbeschreibung §7 zitiert S. 162 / SL-Notiz S. 260 so, als gäbe es im Kampf
 
 **Buch S. 260 „Kein Widerstand“:** Wenn Kombattanten den Vergleich **verweigern**, weil sie Angst vor einem schlechten Wurf haben, gelten sie als *Hilflos*. Das ist eine SL-Notiz gegen das Ausweichen vor der Mechanik, keine Abschaffung des Vergleichs.
 
-Die Simulation selbst würfelt Kurt gegen Greta. Engine: Vergleich ist der Default. Hilflos nur bei Bewusstlos / Überrascht ohne Verteidigung / SL-Setzung.
+Die Simulation selbst würfelt ein Schläger gegen der Spielercharakter. Engine: Vergleich ist der Default. Hilflos nur bei Bewusstlos / Überrascht ohne Verteidigung / SL-Setzung.
 
 ---
 
@@ -55,8 +55,8 @@ Die Simulation selbst würfelt Kurt gegen Greta. Engine: Vergleich ist der Defau
 Buch S. 159 und Waffentabelle S. 294:
 
 ```
-Schaden     = Waffenschaden + EG          # Dolch +STB+2, waffenlos +STB+0
-LP-Verlust  = Schaden − (WIB + RP)        # Treffer immer mindestens 1 LP
+Schaden = Waffenschaden + EG # Dolch +STB+2, waffenlos +STB+0
+LP-Verlust = Schaden − (WIB + RP) # Treffer immer mindestens 1 LP
 ```
 
 Simulation „3+2+1=6 − 3 = 3 LP“ ist STB 3 + Dolch +2 + 1 EG − WIB 3. Die **Formel** stimmt, sobald die EG aus dem Buch kommen. Mit Buch-EG beim Umschauen ändert sich dort nichts am Schaden; im Kampf schon, wenn der Sturmangriff +10 den Vergleich verschiebt.

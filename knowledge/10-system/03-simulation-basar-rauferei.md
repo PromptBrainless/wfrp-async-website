@@ -1,6 +1,6 @@
 # Simulation: Basar und Rauferei
 
-**Lesen mit:** [05-simulation-vs-buch.md](05-simulation-vs-buch.md).  
+**Lesen mit:** [05-simulation-vs-buch.md](05-simulation-vs-buch.md). 
 Die Würfelzahlen hier sind Walkthrough. Die Engine rechnet EG nach Buch S. 152.
 
 Format an jeder Stelle:
@@ -21,14 +21,14 @@ Katalog: [04-aktionskatalog-v1.md](04-aktionskatalog-v1.md)
 
 - **Welt:** Basar Altquartier, danach Gasse. Gerüche, Lärm, Preise, zwei NSC.
 - **Regeln:** Sozialwürfe ohne Vorteile-Reset. Kampf erst in Szene 2. Glück/Mut/Schicksal immer anbietbar, sobald ein Wurf oder Zustand da ist.
-- **Geschichte:** Greta braucht Tuchballen unter 6 Schillingen. Flag vorbereitet: Taschendieb nach dem ersten sozialen Misserfolg. Zweite vorbereitete Szene: Kurt wartet in der Gasse, wenn Greta mit Ballen `gehen` wählt.
+- **Geschichte:** der Spielercharakter braucht Tuchballen unter 6 Schillingen. Flag vorbereitet: Taschendieb nach dem ersten sozialen Misserfolg. Zweite vorbereitete Szene: ein Schläger wartet in der Gasse, wenn der Spielercharakter mit Ballen `gehen` wählt.
 - **Anführer:** Nur 1 SC – niemand muss an der Reihe vorbeigeschoben werden.
 
 ## Vorbereitete NSC
 
-**Otto Tuchhändler** – Silber 1, Feilschen 50, Charme 38, Besonnenheit 36, Wahrnehmung 33. Will 6 S. Haltung start: neutral.
+**ein Händler Tuchhändler** – Silber 1, Feilschen 50, Charme 38, Besonnenheit 36, Wahrnehmung 33. Will 6 S. Haltung start: neutral.
 
-**Kurt Raufbold** – Messing 2, KG 38, Ausweichen 33, ST 35 (SB 3), WI 32 (WÜB 3), I 30, LP 11, waffenlos. Haltung: will den Ballen.
+**ein Schläger Raufbold** – Messing 2, KG 38, Ausweichen 33, ST 35 (SB 3), WI 32 (WÜB 3), I 30, LP 11, waffenlos. Haltung: will den Ballen.
 
 **Dieb (nur Event)** – Fingerfertigkeit 45. Kein voller NSC-Bogen.
 
@@ -43,7 +43,7 @@ Katalog: [04-aktionskatalog-v1.md](04-aktionskatalog-v1.md)
 
 # Charakter in die Welt setzen
 
-**Greta Kohl**, Menschin, Bürgerin, Krämerin Stufe 1, Status Silber 1.
+**der Spielercharakter**, Menschin, Bürgerin, Krämerin Stufe 1, Status Silber 1.
 Motivation: Schulden des Vaters.
 
 KG 31 · BF 33 · ST 32 · WI 34 · I 36 · GW 31 · GS 38 · IN 41 · WK 35 · CH 42
@@ -63,28 +63,28 @@ Ort: **Basar-Altquartier**, vor Ottos Stand.
 
 ## SL – Szenerie
 
-Vormittag. Der Altquartier-Basar dampft nach Kohl, nassem Tuch und Fisch. Otto steht hinter aufgestapelten Ballen, der Daumen schon am Preis. Eine Stadtwache lehnt am Pfeiler, gähnt. Zwischen den Gängen schieben sich Leute. Otto verlangt **6 Schillinge** für den Ballen, den Greta braucht.
+Vormittag. Der Altquartier-Basar dampft nach Kohl, nassem Tuch und Fisch. ein Händler steht hinter aufgestapelten Ballen, der Daumen schon am Preis. Eine Stadtwache lehnt am Pfeiler, gähnt. Zwischen den Gängen schieben sich Leute. ein Händler verlangt **6 Schillinge** für den Ballen, den der Spielercharakter braucht.
 
-Auslöser: Otto sieht Gretas Tasche und sagt: „Sechs Schillinge, und ich bin schon gnädig.“
+Auslöser: ein Händler sieht die Tasche des Spielercharakters und sagt: „Sechs Schillinge, und ich bin schon gnädig.“
 
 ## Charakter in der Szene
 
-Greta steht frontal am Stand, nicht im Kampf, ungebunden, bei Bewusstsein, Dolch verstaut. Geld reicht für 6 S, Ziel ist weniger.
+der Spielercharakter steht frontal am Stand, nicht im Kampf, ungebunden, bei Bewusstsein, Dolch verstaut. Geld reicht für 6 S, Ziel ist weniger.
 
 ## Entscheidung 1 – alle implementierten Möglichkeiten
 
 Gefiltert aus Katalog v1 (Kampfaktionen aus, weil kein Feind):
 
 1. `umschauen` – Handlung – Wahrnehmung
-2. `intuiton` – Handlung – Intuition (Otto lesen)
+2. `intuiton` – Handlung – Intuition (ein Händler lesen)
 3. `reden` – Handlung – Charme
-4. `feilschen` – Handlung – Feilschen vs. Otto 50
+4. `feilschen` – Handlung – Feilschen vs. ein Händler 50
 5. `bestechen` – Handlung – Bestechen (Geld einsetzen)
 6. `einschuechtern` – Handlung – Einschüchtern (Status-Risiko, Wache sieht zu)
-7. `klatsch` – Handlung – Gerüchte über Otto / Preise
+7. `klatsch` – Handlung – Gerüchte über ein Händler / Preise
 8. `schleichen` – unsinnig bei offenem Stand, aber implementiert → erlaubt, SL setzt sehr schwer
 9. `gehen` – Gasse oder anderer Stand
-10. `warten` – Otto oder die Menge beobachten
+10. `warten` – ein Händler oder die Menge beobachten
 11. `waffe_ziehen` – technisch frei, eskaliert die Szene
 12. Ressourcen jetzt **grau**: `glueck` / `mut` / `schicksal` / `zaehigkeit` – kein Wurf und kein Zustand offen
 
@@ -94,7 +94,7 @@ Nicht angeboten: Sturmangriff, Angreifen, Lösen, Fliehen, Sprinten, Volle Abweh
 
 **SL – Regeln:** Wahrnehmung +0. Wurf gegen 41. Ergebnis 27 → Erfolg, +1 EG.
 
-**SL – Konsequenz:** Otto schwitzt, Blick zu einem zweiten Preiszettel unter der Theke. Die Ware ist weniger wert als 6 S. Flag `otto_nervoes`.
+**SL – Konsequenz:** ein Händler schwitzt, Blick zu einem zweiten Preiszettel unter der Theke. Die Ware ist weniger wert als 6 S. Flag `otto_nervoes`.
 
 ---
 
@@ -119,7 +119,7 @@ Zustand unverändert: LP 12, Vorteile 0, Ort Basar, Flag `otto_nervoes`.
 
 **SL:** Einfacher Charme-Wurf +0. 45, Wurf 62 → Misserfolg, −1 EG.
 
-**SL – Konsequenz:** Otto wird kurz angebunden.
+**SL – Konsequenz:** ein Händler wird kurz angebunden.
 **SL – Event:** Taschendieb. Fingerfertigkeit 45 vs. Wahrnehmung 41. Dieb +1 EG. **4 Groschen weg.** Flag `bestohlen`.
 Nach dem Charme-Wurf wäre `glueck` erlaubt gewesen. Nicht gewählt. Fenster schließt.
 
@@ -143,7 +143,7 @@ Nach dem Charme-Wurf wäre `glueck` erlaubt gewesen. Nicht gewählt. Fenster sch
 
 ### Gewählt: `feilschen` Zielpreis 4 S
 
-**SL:** Vergleich 47 vs. 50. Greta 33 (+1 EG), Otto 71 (−2 EG). Greta gewinnt.
+**SL:** Vergleich 47 vs. 50. der Spielercharakter 33 (+1 EG), ein Händler 71 (−2 EG). der Spielercharakter gewinnt.
 Formel v1: Nachlass, nicht unter halbem Preis. 6 S → **5 S**.
 Geld: 3 S + 10 Groschen. Flag `ballen_gekauft`.
 
@@ -166,7 +166,7 @@ Geld: 3 S + 10 Groschen. Flag `ballen_gekauft`.
 
 ### Gewählt: `gehen` → Gasse hinter dem Basar
 
-**SL – Ereignis:** Kurt steht dort. Szenenwechsel.
+**SL – Ereignis:** ein Schläger steht dort. Szenenwechsel.
 
 ---
 
@@ -174,7 +174,7 @@ Geld: 3 S + 10 Groschen. Flag `ballen_gekauft`.
 
 ## SL – Szenerie
 
-Gasse, acht Schritt, nass, Kellerabgang, Ausgang nur zurück zum Basar. Kurt an der Wand, offene Hände, sieht den Ballen.
+Gasse, acht Schritt, nass, Kellerabgang, Ausgang nur zurück zum Basar. ein Schläger an der Wand, offene Hände, sieht den Ballen.
 
 Auslöser: „Den Ballen. Her damit. Dann musst du nicht liegenbleiben.“
 
@@ -182,17 +182,17 @@ Distanz 4 m. Nicht gebunden. Keine Überraschung.
 
 ## Charakter in der Szene
 
-Greta, Ballen unter dem Arm, Dolch verstaut, LP 12, Vorteile 0, Glück 3, Mut 3, Schicksal 3.
+der Spielercharakter, Ballen unter dem Arm, Dolch verstaut, LP 12, Vorteile 0, Glück 3, Mut 3, Schicksal 3.
 Zustände: keine. Flags: `ballen_gekauft`, `bestohlen`, `otto_nervoes`.
 
 ## Entscheidung 5 – alle implementierten Möglichkeiten
 
-Kampf und Sozial, weil Kurt noch redet.
+Kampf und Sozial, weil ein Schläger noch redet.
 
 1. `umschauen`
 2. `intuiton`
 3. `reden`
-4. `feilschen` (SL sehr schwer – Kurt kauft nicht)
+4. `feilschen` (SL sehr schwer – ein Schläger kauft nicht)
 5. `bestechen`
 6. `einschuechtern`
 7. `klatsch` (SL −20)
@@ -211,16 +211,16 @@ Kampf und Sozial, weil Kurt noch redet.
 
 ### Gewählt: `waffe_ziehen` + `sturmangriff`
 
-**SL:** Ziehen frei. Sturmangriff Bewegung+Handlung. Initiative Greta 36 vor Kurt 30.
-+1 Vorteil, gebunden. Vergleich 31 vs. 38. Greta Erfolg +1 EG, Kurt Misserfolg. Vorteile 2.
-Schaden 3+2+1=6 − 3 = 3 LP. Kurt 8/11.
-Kurt `angreifen` waffenlos, +2 EG, 5 − 3 = 2 LP. Greta **10/12**. Kurt Vorteile 1.
+**SL:** Ziehen frei. Sturmangriff Bewegung+Handlung. Initiative der Spielercharakter 36 vor ein Schläger 30.
++1 Vorteil, gebunden. Vergleich 31 vs. 38. der Spielercharakter Erfolg +1 EG, ein Schläger Misserfolg. Vorteile 2.
+Schaden 3+2+1=6 − 3 = 3 LP. ein Schläger 8/11.
+ein Schläger `angreifen` waffenlos, +2 EG, 5 − 3 = 2 LP. der Spielercharakter **10/12**. ein Schläger Vorteile 1.
 
 ---
 
 ## Entscheidung 6
 
-Greta LP 10, Vorteile 2, gebunden, Dolch in der Hand.
+der Spielercharakter LP 10, Vorteile 2, gebunden, Dolch in der Hand.
 
 1. `umschauen`
 2. `intuiton`
@@ -234,7 +234,7 @@ Greta LP 10, Vorteile 2, gebunden, Dolch in der Hand.
 10. `sturmangriff` ausgegraut (gebunden)
 11. `angreifen`
 12. `sprinten` ausgegraut
-13. `fliehen` + Freie Attacke +20 für Kurt
+13. `fliehen` + Freie Attacke +20 für ein Schläger
 14. `loesen` (Vorteile 2>1 → ohne Wurf)
 15. `volle_abwehr`
 16. `ausweichen` als Verteidigung gegen Kurts nächsten Schlag
@@ -245,8 +245,8 @@ Greta LP 10, Vorteile 2, gebunden, Dolch in der Hand.
 
 ### Gewählt: `angreifen`
 
-**SL:** +10 je Vorteil → +20. Erfolg +2 EG. Schaden 7 − 3 = 4 LP. Kurt **4/11**. Greta Vorteile 3.
-Kurt trifft noch einmal: Greta **8/12**.
+**SL:** +10 je Vorteil → +20. Erfolg +2 EG. Schaden 7 − 3 = 4 LP. ein Schläger **4/11**. der Spielercharakter Vorteile 3.
+ein Schläger trifft noch einmal: der Spielercharakter **8/12**.
 
 ---
 
@@ -278,7 +278,7 @@ Kurt trifft noch einmal: Greta **8/12**.
 ### Gewählt: `loesen`
 
 **SL:** Vorteilsvorsprung → lösen ohne Wurf. Vorteile 0. Distanz 6 m. Nicht gebunden.
-Kurt hat kein Psychologie-Trait → bleibt stehen, rückt nicht nach.
+ein Schläger hat kein Psychologie-Trait → bleibt stehen, rückt nicht nach.
 
 ---
 
@@ -288,7 +288,7 @@ Nicht gebunden, Wache naht, Distanz 6 m, Dolch offen.
 
 1. `umschauen`
 2. `intuiton`
-3. `reden` (Kurt oder Wache)
+3. `reden` (ein Schläger oder Wache)
 4. `feilschen`
 5. `bestechen`
 6. `einschuechtern`
@@ -307,7 +307,7 @@ Nicht gebunden, Wache naht, Distanz 6 m, Dolch offen.
 
 ### Gewählt: `gehen` zum Basar
 
-**SL:** Kurt bleibt. Wache sieht gezogenen Dolch → Flag `wache_hat_gesehen`. Kein Verhaftungswurf in v1. Szene Ende.
+**SL:** ein Schläger bleibt. Wache sieht gezogenen Dolch → Flag `wache_hat_gesehen`. Kein Verhaftungswurf in v1. Szene Ende.
 
 ---
 

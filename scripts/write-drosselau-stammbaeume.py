@@ -1,0 +1,569 @@
+#!/usr/bin/env python3
+"""Kampagne-1 Stammbäume: MD + JSON. Jahr 2512 IZ."""
+from pathlib import Path
+import json
+
+NOW = 2512
+ROOT = Path("/workspace/knowledge/07-reikland/drosselau/haushalte")
+JSON_PATH = Path("/workspace/knowledge/data/drosselau-stammbaeume.json")
+
+# member: name, born, died, role, rel, note
+# tree is a list of members; rel describes link to head
+
+FAMILIES = [
+  {
+    "id": "von-gruenberg", "slug": "von-gruenberg", "surname": "von Grünberg",
+    "kind": "graf", "status": "Gold 3", "groups": ["graf"],
+    "home": None, "work": "Schreiberstube handelt in seinem Namen",
+    "note": "Lehnsherr. Sitzt nicht in Drosselau.",
+    "members": [
+      {"name": "Albrecht von Grünberg", "born": 2461, "role": "Reichsgraf", "rel": "Haupt", "note": "abwesend"},
+      {"name": "Irmina von Grünberg", "born": 2468, "role": "Gemahlin", "rel": "Frau", "note": "abwesend"},
+      {"name": "Ludolf von Grünberg", "born": 2490, "role": "Erbe", "rel": "Sohn", "note": "abwesend"},
+    ],
+  },
+  {
+    "id": "talbeck", "slug": "talbeck", "surname": "Talbeck",
+    "kind": "familie", "status": "Silber 5", "groups": ["rat"],
+    "home": "Ratshaus (Amt, Wohnung ungenannt)", "work": "Marktplatz 6",
+    "note": "Bürgermeister. Wohnhaus nicht im Verzeichnis — Amt ist der Sitz.",
+    "members": [
+      {"name": "Helmuth Talbeck", "born": 2466, "role": "Bürgermeister", "rel": "Haupt"},
+      {"name": "Mathilde Talbeck", "born": 2470, "role": "Frau des Bürgermeisters", "rel": "Frau"},
+      {"name": "Johann Talbeck", "born": 2494, "role": "Sohn, Schreibergehilfe", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "stein", "slug": "stein", "surname": "Stein",
+    "kind": "familie", "status": "Silber 3", "groups": ["rat"],
+    "home": "Marktplatz 9", "work": "Rat",
+    "note": "Stadtrat.",
+    "members": [
+      {"name": "Reiner Stein", "born": 2464, "role": "Stadtrat", "rel": "Haupt"},
+      {"name": "Klara Stein", "born": 2469, "role": "Haushalt", "rel": "Frau"},
+      {"name": "Anike Stein", "born": 2496, "role": "Tochter", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "holtz", "slug": "holtz", "surname": "Holtz",
+    "kind": "familie", "status": "Silber 5", "groups": ["kaufleute", "rat"],
+    "home": "Gildengasse 2 (Meister) · Marktplatz 7 (Sohn)", "work": "Kaufmannsgilde",
+    "note": "Ein Stamm, zwei Häuser. Gildemeister und der Kaufmann am Markt 7.",
+    "members": [
+      {"name": "Wilhelm Holtz", "born": 2458, "role": "Gildemeister der Kaufleute", "rel": "Haupt"},
+      {"name": "Elsa Holtz", "born": 2462, "role": "Frau des Meisters", "rel": "Frau", "note": "tot 2508, Fieber"},
+      {"name": "Berthold Holtz", "born": 2482, "role": "Kaufmann, Markt 7", "rel": "Sohn"},
+      {"name": "Saskia Holtz", "born": 2485, "role": "Frau Bertholds", "rel": "Schwiegertochter"},
+      {"name": "Emmerich Holtz", "born": 2506, "role": "Kind", "rel": "Enkel"},
+      {"name": "Liese Holtz", "born": 2509, "role": "Kind", "rel": "Enkelin"},
+    ],
+  },
+  {
+    "id": "voss", "slug": "voss", "surname": "Voss",
+    "kind": "familie", "status": "Silber 4", "groups": ["kaufleute"],
+    "home": "Marktplatz 8", "work": "Handel",
+    "note": "Zweiter wohlhabender Kaufmann. Nicht Haus Holtz.",
+    "members": [
+      {"name": "Kaspar Voss", "born": 2471, "role": "Kaufmann", "rel": "Haupt"},
+      {"name": "Hilda Voss", "born": 2474, "role": "führt die Bücher", "rel": "Frau"},
+      {"name": "Pieter Voss", "born": 2497, "role": "Sohn, auf der Reik unterwegs", "rel": "Sohn", "note": "selten in der Stadt"},
+    ],
+  },
+  {
+    "id": "feder", "slug": "feder", "surname": "Feder",
+    "kind": "familie", "status": "Silber 2", "groups": ["graf", "rat"],
+    "home": "Marktplatz 5 (Stube)", "work": "Schreiberstube",
+    "note": "Notar im Namen des Grafen.",
+    "members": [
+      {"name": "Leopold Feder", "born": 2473, "role": "Notar", "rel": "Haupt"},
+      {"name": "Agnes Feder", "born": 2478, "role": "kopiert Verträge", "rel": "Schwester"},
+    ],
+  },
+  {
+    "id": "heller", "slug": "heller", "surname": "Heller",
+    "kind": "familie", "status": "Silber 3", "groups": ["kaufleute"],
+    "home": "Marktplatz 4", "work": "Wechselstube",
+    "note": "Goldkronen, Schillinge, Groschen.",
+    "members": [
+      {"name": "Magnus Heller", "born": 2468, "role": "Geldwechsler", "rel": "Haupt"},
+      {"name": "Ute Heller", "born": 2472, "role": "zählt mit", "rel": "Frau"},
+    ],
+  },
+  {
+    "id": "keil", "slug": "keil", "surname": "Keil",
+    "kind": "amt", "status": "Silber 2", "groups": ["sigmar"],
+    "home": "Sigmarstempel", "work": "Marktplatz 3",
+    "note": "Priesterschaft. Kein zweites Wohnhaus im Verzeichnis.",
+    "members": [
+      {"name": "Vater Brant Keil", "born": 2459, "role": "Priester Sigmars", "rel": "Haupt"},
+      {"name": "Novize Jost", "born": 2493, "role": "Novize", "rel": "Schüler", "note": "kein Keil, Findelkind"},
+    ],
+  },
+  {
+    "id": "eckert", "slug": "eckert", "surname": "Eckert",
+    "kind": "familie", "status": "Silber 1", "groups": ["kaufleute"],
+    "home": "Gildengasse 3", "work": "Gilde",
+    "note": "Gildeschreiber.",
+    "members": [
+      {"name": "Franz Eckert", "born": 2476, "role": "Gildeschreiber", "rel": "Haupt"},
+      {"name": "Nela Eckert", "born": 2479, "role": "Haushalt", "rel": "Frau"},
+      {"name": "Timo Eckert", "born": 2503, "role": "Kind", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "karr", "slug": "karr", "surname": "Karr",
+    "kind": "familie", "status": "Silber 1", "groups": [],
+    "home": "Torstraße 5", "work": "Vorstadtring 3, Schuppen",
+    "note": "Fuhrunternehmer. Karren und Zugtiere.",
+    "members": [
+      {"name": "Hannes Karr", "born": 2472, "role": "Fuhrunternehmer", "rel": "Haupt"},
+      {"name": "Berta Karr", "born": 2475, "role": "hält den Schuppen", "rel": "Frau"},
+      {"name": "Ulf Karr", "born": 2498, "role": "fährt mit", "rel": "Sohn"},
+      {"name": "Mina Karr", "born": 2504, "role": "Kind", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "krug", "slug": "krug", "surname": "Krug",
+    "kind": "familie", "status": "Silber 1", "groups": [],
+    "home": "Torstraße 2", "work": "Gasthaus Zum Wanderer",
+    "note": "Nicht Haus Stube (Taverne).",
+    "members": [
+      {"name": "Detlef Krug", "born": 2469, "role": "Wirt", "rel": "Haupt"},
+      {"name": "Mara Krug", "born": 2473, "role": "Wirtin", "rel": "Frau"},
+      {"name": "Ben Krug", "born": 2499, "role": "Zapfer", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "stube", "slug": "stube", "surname": "Stube",
+    "kind": "familie", "status": "Messing 5", "groups": ["ranald"],
+    "home": "Schlemmergasse 3", "work": "Schlemmergasse 1, Taverne",
+    "note": "Hinterzimmer: Ranald-Schrein. Wissen nicht alle Gäste.",
+    "members": [
+      {"name": "Rolf Stube", "born": 2470, "role": "Wirt", "rel": "Haupt"},
+      {"name": "Janna Stube", "born": 2474, "role": "zapft, hält das Hinterzimmer", "rel": "Frau"},
+      {"name": "Nils Stube", "born": 2500, "role": "läuft Küche", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "laib", "slug": "laib", "surname": "Laib",
+    "kind": "familie", "status": "Silber 1", "groups": ["handwerk"],
+    "home": "Torstraße 3", "work": "Bäckerei",
+    "note": "",
+    "members": [
+      {"name": "Gerd Laib", "born": 2471, "role": "Bäcker", "rel": "Haupt"},
+      {"name": "Hanne Laib", "born": 2474, "role": "backt mit", "rel": "Frau"},
+      {"name": "Lina Laib", "born": 2502, "role": "Kind", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "metz", "slug": "metz", "surname": "Metz",
+    "kind": "familie", "status": "Silber 1", "groups": ["handwerk"],
+    "home": "Torstraße 4", "work": "Fleischerei",
+    "note": "",
+    "members": [
+      {"name": "Konrad Metz", "born": 2467, "role": "Fleischer", "rel": "Haupt"},
+      {"name": "Rita Metz", "born": 2470, "role": "Laden", "rel": "Frau"},
+      {"name": "Jan Metz", "born": 2495, "role": "Geselle, Sohn", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "docht", "slug": "docht", "surname": "Docht",
+    "kind": "familie", "status": "Messing 4", "groups": ["sigmar"],
+    "home": "Torstraße 7", "work": "Kramladen",
+    "note": "Kerzen, Seile, Sigmar-Amulette.",
+    "members": [
+      {"name": "Ewald Docht", "born": 2475, "role": "Krämer", "rel": "Haupt"},
+      {"name": "Sigrid Docht", "born": 2478, "role": "Laden", "rel": "Frau"},
+    ],
+  },
+  {
+    "id": "helm", "slug": "helm", "surname": "Helm",
+    "kind": "familie", "status": "Silber 1", "groups": ["wache"],
+    "home": "Torstraße 8", "work": "Stadtwache / Zoll",
+    "note": "Ein Wächterhaus. Kollegen am Zoll sind Dienst, nicht Blut.",
+    "members": [
+      {"name": "Arne Helm", "born": 2474, "role": "Stadtwächter", "rel": "Haupt"},
+      {"name": "Dora Helm", "born": 2477, "role": "Haushalt", "rel": "Frau"},
+      {"name": "Finn Helm", "born": 2505, "role": "Kind", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "hammer", "slug": "hammer", "surname": "Hammer",
+    "kind": "familie", "status": "Silber 2", "groups": ["handwerk"],
+    "home": "Schmiedezeile 3", "work": "Schmiedezeile 1, Hufschmiede",
+    "note": "Lehrling Nagel ist der Neffe, wohnt Schmiedezeile 6.",
+    "members": [
+      {"name": "Bodo Hammer", "born": 2465, "role": "Hufschmied, Meister", "rel": "Haupt"},
+      {"name": "Gerda Hammer", "born": 2468, "role": "Haushalt", "rel": "Frau"},
+      {"name": "Ilse Hammer", "born": 2494, "role": "Tochter, verheiratet nach Bögenhafen", "rel": "Tochter", "note": "nicht in Drosselau"},
+    ],
+  },
+  {
+    "id": "nagel", "slug": "nagel", "surname": "Nagel",
+    "kind": "familie", "status": "Messing 3", "groups": ["handwerk"],
+    "home": "Schmiedezeile 6", "work": "Hufschmiede (bei Hammer)",
+    "note": "Lehrling. Schwestersohn von Bodo Hammer.",
+    "members": [
+      {"name": "Timo Nagel", "born": 2494, "role": "Schmiedelehrling", "rel": "Haupt"},
+    ],
+  },
+  {
+    "id": "stahl", "slug": "stahl", "surname": "Stahl",
+    "kind": "familie", "status": "Silber 2", "groups": ["handwerk", "wache"],
+    "home": "Schmiedezeile 2 (Werkstatt, Wohnung ungenannt)", "work": "Waffenschmiede",
+    "note": "Beliefert die Wache. Kein extra Wohnhaus im Verzeichnis.",
+    "members": [
+      {"name": "Ulrich Stahl", "born": 2463, "role": "Waffenschmied", "rel": "Haupt"},
+      {"name": "Kathe Stahl", "born": 2466, "role": "härtet mit", "rel": "Frau"},
+    ],
+  },
+  {
+    "id": "eisen", "slug": "eisen", "surname": "Eisen",
+    "kind": "familie", "status": "Messing 4", "groups": ["handwerk", "ulric"],
+    "home": "Schmiedezeile 4", "work": "bei Stahl und Hammer",
+    "note": "Zwei Brüder, beide Ulric.",
+    "members": [
+      {"name": "Wulf Eisen", "born": 2480, "role": "Schmiedegeselle", "rel": "Haupt"},
+      {"name": "Mark Eisen", "born": 2483, "role": "Schmiedegeselle", "rel": "Bruder"},
+    ],
+  },
+  {
+    "id": "tuch", "slug": "tuch", "surname": "Tuch",
+    "kind": "familie", "status": "Silber 2", "groups": ["handwerk"],
+    "home": "Weberweg 3", "work": "Weberweg 1, Weberei",
+    "note": "",
+    "members": [
+      {"name": "Otto wait no"},
+    ],
+  },
+]
+
+# fix tuch - I accidentally left Otto. Rewrite remaining families cleanly below.
+del FAMILIES[-1]
+
+FAMILIES += [
+  {
+    "id": "tuch", "slug": "tuch", "surname": "Tuch",
+    "kind": "familie", "status": "Silber 2", "groups": ["handwerk"],
+    "home": "Weberweg 3", "work": "Weberweg 1, Weberei",
+    "note": "",
+    "members": [
+      {"name": "Master line: Eberhard Tuch", "born": 2464, "role": "Webermeister", "rel": "Haupt"},
+    ],
+  },
+]
+# clean tuch members
+FAMILIES[-1]["members"] = [
+  {"name": "Eberhard Tuch", "born": 2464, "role": "Webermeister", "rel": "Haupt"},
+  {"name": "Lotte Tuch", "born": 2467, "role": "webt mit", "rel": "Frau"},
+  {"name": "Rike Tuch", "born": 2492, "role": "Gesellin, Tochter", "rel": "Tochter"},
+]
+
+FAMILIES += [
+  {
+    "id": "schneider", "slug": "schneider", "surname": "Schneider",
+    "kind": "familie", "status": "Silber 1", "groups": ["handwerk"],
+    "home": "Weberweg 4", "work": "Weberweg 2, Schneiderei",
+    "note": "Die einzige im Verzeichnis ausdrücklich so genannte Familie.",
+    "members": [
+      {"name": "Else Schneider", "born": 2476, "role": "Meisterin", "rel": "Haupt"},
+      {"name": "Pieter Schneider", "born": 2474, "role": "Geselle, Mann", "rel": "Mann"},
+      {"name": "Lena Schneider", "born": 2498, "role": "hilft im Laden", "rel": "Tochter"},
+      {"name": "Karl Schneider", "born": 2501, "role": "Lehrling, Sohn", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "beize", "slug": "beize", "surname": "Beize",
+    "kind": "familie", "status": "Messing 5", "groups": ["handwerk"],
+    "home": "Weberweg 5", "work": "Färberwerkstatt",
+    "note": "Werkstatt, kein zweites Wohnhaus.",
+    "members": [
+      {"name": "Niko Beize", "born": 2477, "role": "Färber", "rel": "Haupt"},
+      {"name": "Wera Beize", "born": 2480, "role": "färbt mit", "rel": "Frau"},
+    ],
+  },
+  {
+    "id": "bode", "slug": "bode", "surname": "Bode",
+    "kind": "familie", "status": "Silber 1", "groups": ["kaufleute"],
+    "home": "Krämerstraße 3", "work": "Krämerstraße 1",
+    "note": "Gemischtwaren.",
+    "members": [
+      {"name": "Hartmut Bode", "born": 2470, "role": "Krämer", "rel": "Haupt"},
+      {"name": "Ida Bode", "born": 2473, "role": "Laden", "rel": "Frau"},
+      {"name": "Paul Bode", "born": 2500, "role": "läuft Boten", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "wurzel", "slug": "wurzel", "surname": "Wurzel",
+    "kind": "familie", "status": "Messing 5", "groups": [],
+    "home": "Krämerstraße 4", "work": "Krämerstraße 2, Kräuterhandlung",
+    "note": "Unter dem Ladentisch. Keim. Feuert nicht von selbst.",
+    "members": [
+      {"name": "Maren Wurzel", "born": 2472, "role": "Kräuterhändlerin", "rel": "Haupt"},
+      {"name": "Jette Wurzel", "born": 2496, "role": "Tochter, kennt den Laden", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "blatt", "slug": "blatt", "surname": "Blatt",
+    "kind": "familie", "status": "Silber 1", "groups": ["handwerk"],
+    "home": "Krämerstraße 5", "work": "Buchbinderei",
+    "note": "",
+    "members": [
+      {"name": "Simon Blatt", "born": 2474, "role": "Buchbinder", "rel": "Haupt"},
+      {"name": "Eva Blatt", "born": 2478, "role": "heftet mit", "rel": "Frau"},
+    ],
+  },
+  {
+    "id": "leder", "slug": "leder", "surname": "Leder",
+    "kind": "familie", "status": "Silber 1", "groups": ["handwerk"],
+    "home": "Gerbergasse 2", "work": "Gerbergasse 1",
+    "note": "Die Gesellen Gerb sind Lohn, nicht Söhne.",
+    "members": [
+      {"name": "Dietrich Leder", "born": 2462, "role": "Gerbermeister", "rel": "Haupt"},
+      {"name": "Hedwig Leder", "born": 2465, "role": "Haushalt", "rel": "Frau"},
+    ],
+  },
+  {
+    "id": "gerb", "slug": "gerb", "surname": "Gerb",
+    "kind": "familie", "status": "Messing 3", "groups": ["handwerk"],
+    "home": "Gerbergasse 3", "work": "Gerberei",
+    "note": "Zwei Brüder. Krankheiten kursieren. Kein Automat.",
+    "members": [
+      {"name": "Lutz Gerb", "born": 2481, "role": "Gerbergeselle", "rel": "Haupt"},
+      {"name": "Enno Gerb", "born": 2484, "role": "Gerbergeselle", "rel": "Bruder"},
+    ],
+  },
+  {
+    "id": "ton", "slug": "ton", "surname": "Ton",
+    "kind": "familie", "status": "Silber 1", "groups": ["handwerk"],
+    "home": "Töpfergasse 2", "work": "Töpfergasse 1",
+    "note": "Lehrling Asche ist nicht der Sohn.",
+    "members": [
+      {"name": "Meinhard Ton", "born": 2468, "role": "Töpfer", "rel": "Haupt"},
+      {"name": "Birgit Ton", "born": 2471, "role": "dreht mit", "rel": "Frau"},
+      {"name": "Ada Ton", "born": 2499, "role": "Tochter", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "asche", "slug": "asche", "surname": "Asche",
+    "kind": "familie", "status": "Messing 2", "groups": ["handwerk"],
+    "home": "Töpfergasse 3", "work": "Töpferei",
+    "note": "Lehrling.",
+    "members": [
+      {"name": "Jori Asche", "born": 2495, "role": "Töpferlehrling", "rel": "Haupt"},
+    ],
+  },
+  {
+    "id": "gruft", "slug": "gruft", "surname": "Gruft",
+    "kind": "familie", "status": "Messing 3", "groups": ["morr"],
+    "home": "Morrgasse 1", "work": "Friedhof",
+    "note": "Im Dienst des Morr-Kultes.",
+    "members": [
+      {"name": "Silas Gruft", "born": 2466, "role": "Totengräber", "rel": "Haupt"},
+      {"name": "Odila Gruft", "born": 2470, "role": "wäscht die Toten", "rel": "Frau"},
+    ],
+  },
+  {
+    "id": "ewig", "slug": "ewig", "surname": "Ewig",
+    "kind": "amt", "status": "Silber 1", "groups": ["morr"],
+    "home": "Morrgasse 2", "work": "Morr-Kapelle",
+    "note": "Trauerfeiern. Ritus gegen Untote.",
+    "members": [
+      {"name": "Schwester Miren Ewig", "born": 2460, "role": "Priesterin Morrs", "rel": "Haupt"},
+    ],
+  },
+  {
+    "id": "linde", "slug": "linde", "surname": "Linde",
+    "kind": "betrieb", "status": "Messing 5", "groups": [],
+    "home": "Schlemmergasse 2", "work": "Vergnügungshaus",
+    "note": "Kein zweites Wohnhaus.",
+    "members": [
+      {"name": "Thea Linde", "born": 2473, "role": "führt das Haus", "rel": "Haupt"},
+      {"name": "Kira Linde", "born": 2494, "role": "Tochter, bedient", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "blau", "slug": "blau", "surname": "Blau",
+    "kind": "familie", "status": "Messing 2", "groups": [],
+    "home": "Vorstadtring 4", "work": "Wäsche für die Stadt",
+    "note": "",
+    "members": [
+      {"name": "Greta wait"},
+    ],
+  },
+]
+
+del FAMILIES[-1]
+FAMILIES += [
+  {
+    "id": "blau", "slug": "blau", "surname": "Blau",
+    "kind": "familie", "status": "Messing 2", "groups": [],
+    "home": "Vorstadtring 4", "work": "Wäsche",
+    "note": "",
+    "members": [
+      {"name": "Hilde Blau", "born": 2476, "role": "Wäscherin", "rel": "Haupt"},
+      {"name": "Anni Blau", "born": 2500, "role": "Tochter, hilft", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "moos", "slug": "moos", "surname": "Moos",
+    "kind": "familie", "status": "Messing 1", "groups": [],
+    "home": "Vorstadtring 2", "work": "Tagelohn",
+    "note": "Vor Jahren aus dem Sumpfland geflohen.",
+    "members": [
+      {"name": "Jaan Moos", "born": 2478, "role": "Tagelöhner", "rel": "Haupt"},
+      {"name": "Sanna Moos", "born": 2481, "role": "Tagelohn", "rel": "Frau"},
+      {"name": "Birk Moos", "born": 2504, "role": "Kind", "rel": "Sohn"},
+    ],
+  },
+  {
+    "id": "laus", "slug": "laus", "surname": "—",
+    "kind": "familie", "status": "Messing 0", "groups": [],
+    "home": "Vorstadtring 1", "work": "Betteln",
+    "note": "Kein Familienname. Wird Laus genannt.",
+    "members": [
+      {"name": "Laus", "born": 2482, "role": "Bettler", "rel": "Haupt"},
+    ],
+  },
+  {
+    "id": "staub", "slug": "staub", "surname": "Staub",
+    "kind": "familie", "status": "Messing 2", "groups": [],
+    "home": "Torstraße 6", "work": "Tagelohn",
+    "note": "",
+    "members": [
+      {"name": "Rudi Staub", "born": 2477, "role": "Tagelöhner", "rel": "Haupt"},
+      {"name": "Nadja Staub", "born": 2480, "role": "Tagelohn", "rel": "Frau"},
+      {"name": "Kilian Staub", "born": 2503, "role": "Kind", "rel": "Sohn"},
+      {"name": "Fine Staub", "born": 2507, "role": "Kind", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "karg", "slug": "karg", "surname": "Karg",
+    "kind": "familie", "status": "Messing 1", "groups": [],
+    "home": "Bettelgasse 1", "work": "Tagelohn",
+    "note": "",
+    "members": [
+      {"name": "Wenzel Karg", "born": 2475, "role": "Tagelöhner", "rel": "Haupt"},
+      {"name": "Ulla Karg", "born": 2478, "role": "Tagelohn", "rel": "Frau"},
+      {"name": "Pia Karg", "born": 2502, "role": "Kind", "rel": "Tochter"},
+    ],
+  },
+  {
+    "id": "hesse", "slug": "hesse", "surname": "Hesse",
+    "kind": "familie", "status": "Messing 1", "groups": [],
+    "home": "Bettelgasse 2", "work": "—",
+    "note": "Alte Witwe.",
+    "members": [
+      {"name": "Magda Hesse", "born": 2448, "role": "Witwe", "rel": "Haupt"},
+      {"name": "Ewald Hesse", "born": 2444, "died": 2501, "role": "Mann, tot", "rel": "Mann", "note": "tot"},
+    ],
+  },
+  {
+    "id": "clique", "slug": "clique", "surname": "—",
+    "kind": "clique", "status": "Messing 0", "groups": ["bettlerclique"],
+    "home": "Bettelgasse 3", "work": "Betteln",
+    "note": "Keine Blutsfamilie. Munkeln über Kulte. Keim.",
+    "members": [
+      {"name": "Krumm", "born": 2470, "role": "spricht für die Clique", "rel": "Haupt"},
+      {"name": "Fips", "born": 2488, "role": "läuft", "rel": "Gefährte"},
+      {"name": "Auge", "born": 2465, "role": "hält die Hütte", "rel": "Gefährtin"},
+    ],
+  },
+  {
+    "id": "duenn", "slug": "duenn", "surname": "Dünn",
+    "kind": "familie", "status": "Messing 1", "groups": [],
+    "home": "Bettelgasse 7", "work": "Tagelohn",
+    "note": "",
+    "members": [
+      {"name": "Ivo Dünn", "born": 2480, "role": "Tagelöhner", "rel": "Haupt"},
+    ],
+  },
+  {
+    "id": "unken", "slug": "unken", "surname": "Unken",
+    "kind": "familie", "status": "—", "groups": [],
+    "home": "Rattenwinkel 1, verlassen", "work": "—",
+    "note": "Letzter Bewohner vor Jahren spurlos. Stammbaum tot oder verschwunden. Keim.",
+    "members": [
+      {"name": "Abel Unken", "born": 2460, "role": "letzte bekannte Person", "rel": "Haupt", "note": "verschwunden 2506"},
+      {"name": "Mira Unken", "born": 2464, "role": "Frau", "rel": "Frau", "note": "verschwunden 2506"},
+    ],
+  },
+]
+
+
+def age(m):
+    if m.get("died"):
+        return f"†{m['died']}"
+    if m.get("note") in ("tot",) or "tot" in m.get("role", ""):
+        return f"†{m.get('died', '?')}"
+    if "verschwunden" in (m.get("note") or ""):
+        return f"* {m['born']}, verschwunden"
+    return f"{NOW - m['born']} J. (*{m['born']})"
+
+
+def md(fam):
+    lines = [
+        f"# Haus {fam['surname']}" if fam['surname'] != "—" else f"# {fam['members'][0]['name']}",
+        "",
+        "Quelle: S. — Kampagne 1, Drosselau. Kein GRW-Text.",
+        "",
+        f"**{fam['status']}** · {fam['kind']}  ",
+        f"Wohnen: {fam['home']}  ",
+        f"Arbeit: {fam['work']}  ",
+        f"Gruppen: {', '.join(fam['groups']) if fam['groups'] else '—'}",
+        "",
+    ]
+    if fam["note"]:
+        lines += [fam["note"], ""]
+    lines += ["## Stammbaum", "", "| Person | Verwandt | Rolle | Alter |", "|--------|----------|-------|-------|"]
+    for m in fam["members"]:
+        lines.append(f"| {m['name']} | {m['rel']} | {m['role']} | {age(m)} |")
+    lines += [
+        "",
+        "Keine Werte, bis der SL die Person zieht. Die Engine spricht nicht.",
+        "",
+        "### Siehe auch",
+        "",
+        "- [Leute](../leute.md)",
+        "- [Haushalte README](README.md)",
+        "- [Szenengraph](../../../10-system/17-drosselau-szenen.md)",
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def main():
+    ids = [f["id"] for f in FAMILIES]
+    assert len(ids) == len(set(ids)), ids
+    ROOT.mkdir(parents=True, exist_ok=True)
+    JSON_PATH.parent.mkdir(parents=True, exist_ok=True)
+    for fam in FAMILIES:
+        (ROOT / f"{fam['slug']}.md").write_text(md(fam), encoding="utf-8")
+    readme = [
+        "# Haushalte von Drosselau",
+        "",
+        f"Quelle: S. — Kampagne 1. {len(FAMILIES)} Stammbäume. Jahr 2512 IZ.",
+        "",
+        "Vollständige MDs. Keine Bögen. Graf sitzt nicht in der Stadt.",
+        "",
+        "| Haus | Status | Sitz |",
+        "|------|--------|------|",
+    ]
+    for fam in FAMILIES:
+        label = fam["surname"] if fam["surname"] != "—" else fam["members"][0]["name"]
+        readme.append(f"| [{label}]({fam['slug']}.md) | {fam['status']} | {fam['home']} |")
+    readme += [
+        "",
+        "### Siehe auch",
+        "",
+        "- [Leute](../leute.md)",
+        "- [Original-Verzeichnis](../original.md)",
+        "",
+    ]
+    (ROOT / "README.md").write_text("\n".join(readme), encoding="utf-8")
+    JSON_PATH.write_text(json.dumps({"jahr": NOW, "familien": FAMILIES}, ensure_ascii=False, indent=2), encoding="utf-8")
+    print("families", len(FAMILIES), "files", len(list(ROOT.glob("*.md"))))
+
+
+if __name__ == "__main__":
+    main()

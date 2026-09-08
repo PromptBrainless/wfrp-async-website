@@ -39,6 +39,7 @@ Es ist möglich, einen Patzer zu würfeln und trotzdem mehr EG als der Gegner zu
 ---
 
 ### Siehe auch
+- [Roh Krit / Heilung / Psychologie](_roh/krit-heilung-psychologie-s173-191.md)
 - [Kampf – Übersicht](02-kampf-uebersicht.md)
 - [Vorteile](03-vorteile.md)
 - [Zustände](05-zustaende.md)

@@ -1,10 +1,10 @@
 # Medicus — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 53)
+Quelle der Regeln: [original.md](original.md) (S. 56)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Keine Katalogkarte. Die Karriere filtert, welche Fähigkeiten und Talente der Charakter kennen darf.
 
-
+Stufe 1: **Medicus-Lehrling**, Messing 4. Bogen-Keys: `klasse` = `akademiker`, `karriere` = `medicus`, `karrierestufe` = 1.
 
 ### Befehl
 
@@ -14,5 +14,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 
 - [Original](original.md)
 - [Details](details.md)
-- [Akademiker](../../akademiker/README.md)
+- [Akademiker](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
+- [Status](../../02-status-system.md)

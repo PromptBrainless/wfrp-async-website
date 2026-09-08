@@ -120,6 +120,7 @@ export interface Character {
   flags: string[];
   kind: "pc" | "npc" | "spectator";
   attitude?: string;
+  portrait?: string;
   details?: {
     age?: number;
     heightCm?: number;
@@ -142,13 +143,64 @@ export interface Exit {
   toScene: string;
 }
 
+export type IconKind =
+  | "welt"
+  | "ort"
+  | "person"
+  | "waffe"
+  | "fund"
+  | "wurf"
+  | "ereignis"
+  | "journal"
+  | "sl"
+  | "intention";
+
+export type SceneHint = "ruhig" | "angespannt" | "gefaehrlich";
+
+export interface OpposedPlate {
+  name: string;
+  skillLabel: string;
+  target: number;
+  roll: number;
+  sl: number;
+  band: string;
+}
+
+export interface DicePlate {
+  actorName: string;
+  skillLabel: string;
+  skillValue: number;
+  difficulty: DifficultyId;
+  difficultyMod: number;
+  conditionMod: number;
+  advantageMod: number;
+  target: number;
+  roll: number;
+  sl: number;
+  band: string;
+  success: boolean;
+  doubles: boolean;
+  critical?: boolean;
+  fumble?: boolean;
+  location?: string;
+  opposed?: OpposedPlate;
+  proxy?: boolean;
+}
+
 export interface ProtocolEntry {
   id: string;
   at: number;
-  kind: "world" | "rules" | "event" | "system";
+  kind: "world" | "rules" | "event" | "system" | "intent" | "sl";
   title: string;
   body: string;
   numbers?: string;
+  secret?: boolean;
+  image?: string;
+  portrait?: string;
+  placeId?: string;
+  speaker?: string;
+  icon?: IconKind;
+  dice?: DicePlate;
 }
 
 export interface PreparedEvent {
@@ -158,12 +210,60 @@ export interface PreparedEvent {
   fired: boolean;
 }
 
+export type TurnPhase = "bewegung" | "schuss" | "nahkampf" | "magie";
+
 export interface CombatState {
   round: number;
   initiative: string[];
   distanceM: number;
   engaged: boolean;
   watchEta: number | null;
+  acted: string[];
+  turnPhase: TurnPhase;
+  initRoll?: Record<string, number>;
+}
+
+export interface MapToken {
+  id: string;
+  placeId: string;
+}
+
+export interface MapPin {
+  id: string;
+  x: number;
+  y: number;
+  label: string;
+  kind: "exit" | "nsc" | "fund" | "hinweis" | "stand";
+  journalId?: string;
+  revealed: boolean;
+  toScene?: string;
+}
+
+export interface FogRegion {
+  id: string;
+  x: number;
+  y: number;
+  w: number;
+  h: number;
+  revealed: boolean;
+}
+
+export interface SceneBoard {
+  image: string;
+  widthM: number;
+  tokens: MapToken[];
+  pins: MapPin[];
+  distances: Record<string, Record<string, number>>;
+  fog: FogRegion[];
+}
+
+export interface JournalCard {
+  id: string;
+  title: string;
+  body: string;
+  kind: "bogen" | "nsc" | "fund" | "ort";
+  shared: boolean;
+  characterId?: string;
 }
 
 export interface Scene {
@@ -172,6 +272,11 @@ export interface Scene {
   locationName: string;
   slText: string;
   trigger: string;
+  teaser: string;
+  difficultyHint: SceneHint;
+  prerequisites: string[];
+  maxPlayers: number;
+  opened: boolean;
   mode: SceneMode;
   present: string[];
   exits: Exit[];
@@ -181,6 +286,8 @@ export interface Scene {
   events: PreparedEvent[];
   combat: CombatState | null;
   countdownMs: number;
+  board: SceneBoard;
+  journal: JournalCard[];
 }
 
 export interface Intention {
@@ -199,20 +306,31 @@ export interface RollResult {
   actionId: string;
   skillId: string;
   skillLabel: string;
+  skillValue: number;
   target: number;
   roll: number;
   sl: number;
   opposed?: {
     name: string;
     skillId: string;
+    skillLabel: string;
     target: number;
-  roll: number;
+    roll: number;
     sl: number;
+    band: string;
   };
   success: boolean;
   winnerId?: string;
   difficulty: DifficultyId;
   modifier: number;
+  conditionMod: number;
+  advantageMod: number;
+  doubles: boolean;
+  band: string;
+  critical?: boolean;
+  fumble?: boolean;
+  location?: string;
+  proxy?: boolean;
 }
 
 export interface FortuneWindow {
@@ -239,6 +357,97 @@ export type Phase =
   | "fortune"
   | "ended";
 
+export type DeskView = "hub" | "szene";
+
+export type WorkPane = "aktion" | "zustand";
+
+export interface JournalNote {
+  id: string;
+  at: number;
+  sceneId: string;
+  title: string;
+  body: string;
+  npcNames: string[];
+  openQuestion?: string;
+  sourceProtocolId?: string;
+}
+
+export type SlLogKind =
+  | "open-scene"
+  | "close-scene"
+  | "ask-roll"
+  | "proxy-roll"
+  | "auto"
+  | "table"
+  | "reveal"
+  | "share"
+  | "write"
+  | "delete"
+  | "intervene"
+  | "into-leben";
+
+export interface SlLogEntry {
+  id: string;
+  at: number;
+  kind: SlLogKind;
+  title: string;
+  body: string;
+  tableId?: string;
+  protocolId?: string;
+}
+
+export interface PendingPlayerRoll {
+  characterId: string;
+  actionId: string;
+  skillId: string;
+  difficulty: DifficultyId;
+  opposedSkill?: string;
+  opposedId?: string;
+  askedAt: number;
+}
+
+export interface NpcPoolEntry {
+  id: string;
+  characterId: string;
+  tags: string[];
+  blurb: string;
+}
+
+export interface EncounterRow {
+  weight: number;
+  id: string;
+  label: string;
+  body: string;
+}
+
+export interface EncounterTable {
+  id: string;
+  label: string;
+  autoChat: boolean;
+  placeIds: string[];
+  rows: EncounterRow[];
+}
+
+export interface LootRow {
+  weight: number;
+  id: string;
+  label: string;
+  itemName: string;
+  pennies: number;
+}
+
+export interface LootTable {
+  id: string;
+  label: string;
+  autoChat: boolean;
+  rows: LootRow[];
+}
+
+export interface TableMark {
+  tableId: string;
+  autoChat: boolean;
+}
+
 export interface Campaign {
   id: string;
   title: string;
@@ -249,11 +458,15 @@ export interface Campaign {
   worldFlags: string[];
   intentions: Record<string, Intention>;
   pending: PendingResolution | null;
+  pendingPlayerRoll: PendingPlayerRoll | null;
   fortune: FortuneWindow | null;
   phase: Phase;
   countdownEndsAt: number;
   lastRoll: RollResult | null;
   endedSummary: string | null;
+  slLog: SlLogEntry[];
+  journalNotes: JournalNote[];
+  tableMarks: Record<string, boolean>;
 }
 
 export interface ActionDef {
@@ -264,6 +477,7 @@ export interface ActionDef {
   skill?: string;
   resolver: ResolverKind;
   summary: string;
+  ask?: string;
 }
 
 export interface ActionView {

@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Türentreter**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Stärke-Bonus  
+**Würfe:** Nahkampf beim Durchbrechen oder Zerstören unbelebter
 
-[prüfen am Buch S. 145]
-
+Objekte Du bist ein Experte darin, Türen aufzubrechen und dir gewaltsam Zutritt zu verschaffen. Du erhältst für jede Stufe in diesem Talent +1 Schaden, wenn es um Schäden gegen unbelebte Objekte wie Fenster, Truhen, Türen oder Ähnliches geht.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

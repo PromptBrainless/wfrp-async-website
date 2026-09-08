@@ -1,9 +1,9 @@
 # UI — geführte Orientierung (Erschaffung + Bogen)
 
-Quelle: Gespräch [10](../02-charaktere/10-erschaffung-gespraech.md), Erklärungen [erschaffung/](../02-charaktere/erschaffung/README.md), Bogen [00-BOGEN.md](../00-BOGEN.md).  
+Quelle: Gespräch [10](../02-charaktere/10-erschaffung-gespraech.md), Erklärungen [erschaffung/](../02-charaktere/erschaffung/README.md), Bogen [00-BOGEN.md](../00-BOGEN.md). 
 Kein neues Regelwissen. Engine erfindet nichts. Simulation bleibt aus.
 
-Stand: A–C umgesetzt in `/erschaffung`, Startseite, Bogen.
+Stand: A–C umgesetzt in `/erschaffung`, Startseite, Bogen. Tisch/SL: [09-spielumgebung-vtt.md](09-spielumgebung-vtt.md).
 
 ---
 
@@ -43,13 +43,13 @@ Drei Spalten, eine Aufgabe.
 
 ```
 ┌─────────────┬──────────────────────────┬─────────────────────┐
-│ Pfad        │ Station (Wahl)           │ Erklärung 🔴        │
-│ 0 Welt      │ eine Frage, eine Aktion  │ Datei 01…39         │
-│ 1 Volk      │                          │ „Mehr“ klappt Buch- │
-│ · PnP       │                          │ Hub auf, nicht Chat │
-│ 2 Karriere  │                          │                     │
-│ …           │                          │                     │
-│ 9 EP        │                          │                     │
+│ Pfad │ Station (Wahl) │ Erklärung 🔴 │
+│ 0 Welt │ eine Frage, eine Aktion │ Datei 01…39 │
+│ 1 Volk │ │ „Mehr“ klappt Buch- │
+│ · PnP │ │ Hub auf, nicht Chat │
+│ 2 Karriere │ │ │
+│ … │ │ │
+│ 9 EP │ │ │
 └─────────────┴──────────────────────────┴─────────────────────┘
 ```
 
@@ -86,7 +86,7 @@ Abgeleitete Zahlen (Bewegung, Stufe-1-Name, Status, Boni, LP-Max, Glück, Mut, S
 - Text kommt aus den 39 MDs, **gebaut** nach `src/lib/wfrp/erklaerungen.ts` (Generator, nicht von Hand duplizieren).
 - Pro Station eine Default-Datei. Unter-Themen als Tabs oder „Weiterlesen“: Status, Währung, Rang unter Karriere — nicht alle drei gleichzeitig.
 - Button **Erklären** / **Schon klar** — merkt `localStorage` je Station.
-- Kein Chat-Bot. Kein erfundenes Beispiel außer Demo Greta/Otto/Kurt, wo die MD sie nennt.
+- Kein Chat-Bot. Kein erfundenes Beispiel außer Demo der Spielercharakter/ein Händler/ein Schläger, wo die MD sie nennt.
 - Links „Buch“ öffnen den Hub (Völker-Original, Attribut-Original), nicht Wikipedia.
 
 Befehl analog zum Assistenten: die UI *ist* `erkläre <thema>` für die aktuelle Station.
@@ -123,7 +123,7 @@ Bogen-Ansicht später: Zonen wie Blatt S. 344 (Identität, Werte-Tabelle Anfang/
 Drei Wege, nicht vier gleichwertige Rollen:
 
 1. **Figur anlegen** → Station 0
-2. **Demo spielen (Greta)** → Tisch, nur wenn man die Welt nicht anlegen will
+2. **Demo spielen (der Spielercharakter)** → Tisch, nur wenn man die Welt nicht anlegen will
 3. **Spielleiter** → SL, sekundär
 
 „Allein am Tisch“ entfällt oder wird Demo.

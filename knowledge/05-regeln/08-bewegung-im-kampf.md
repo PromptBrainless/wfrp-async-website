@@ -20,7 +20,7 @@ Nicht gebunden. Bewegungsaktion = Sturmangriff, Handlung **muss** Nahkampf-Attac
 
 Ziel mindestens **Bewegung in Metern** entfernt und innerhalb Rennen-Reichweite → **+1 Vorteil vor dem Trefferwurf**.
 
-Greta B 4, Distanz 4 m, Rennen 16 m → legal.
+der Spielercharakter B 4, Distanz 4 m, Rennen 16 m → legal.
 
 ## Lösen (S. 165)
 

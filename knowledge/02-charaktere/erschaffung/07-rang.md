@@ -1,6 +1,6 @@
 # Rang (die Zahl)
 
-Quelle: S. 49–52.  
+Quelle: S. 49–52. 
 Teil von `status`.
 
 ## Erklärung
@@ -8,7 +8,7 @@ Teil von `status`.
 Die **Zahl** ist Ansehen *innerhalb* von Messing, Silber oder Gold — nicht
 der Rangname selbst.
 
-Silber 2 (Otto) ist ein „besserer Bürger“ als Silber 1 (Greta). Beide stehen
+Silber 2 ist ein „besserer Bürger“ als Silber 1 (der Spielercharakter). Beide stehen
 unter **jedem** Gold, auch Gold 1. Messing 5 bleibt unter Silber 1.
 
 Höhere Zahl: mehr Kredit beim Krämer, teurerer erwarteter Lebensstil, mehr

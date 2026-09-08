@@ -1,6 +1,6 @@
 # Straßenkatze — Details / Hilfe
 
-JSON-`id`: `strassenkatze`  
+JSON-`id`: `strassenkatze` 
 Quelle: S. 145 · [talents.json](../../../data/talents.json)
 
 ## Hilfe
@@ -10,13 +10,13 @@ Quelle: S. 145 · [talents.json](../../../data/talents.json)
 
 ## Einsatz in der Spielwelt
 
-Greta kennt die Gassen hinterm Basar: wo die Wache nicht hinsieht, wo man an der Mauer entlanggeht. *Schleichen (Stadt)* — nicht Wald, nicht offener Markt bei Tag mit leeren Händen.
+der Spielercharakter kennt die Gassen hinterm Basar: wo die Wache nicht hinsieht, wo man an der Mauer entlanggeht. *Schleichen (Stadt)* — nicht Wald, nicht offener Markt bei Tag mit leeren Händen.
 
 Zahlen tauschen: Wurf 54, Ziel 45 → 45 trifft. Nur Stadt, nur wenn der Tausch wirklich hilft.
 
-Kurt kann dasselbe in seiner Gasse. Otto eher nicht: Händler stehen, sie schleichen nicht.
+ein Schläger kann dasselbe in seiner Gasse. ein Händler eher nicht: Händler stehen, sie schleichen nicht.
 
-Unauffällig ist der Diener in der Stube, den Gold ignoriert. Straßenkatze ist die Gasse bei Nacht. Beide bei Greta auf der Liste — verschiedene Szenen.
+Unauffällig ist der Diener in der Stube, den Gold ignoriert. Straßenkatze ist die Gasse bei Nacht. Beide bei der Spielercharakter auf der Liste — verschiedene Szenen.
 
 Ranald (Glück, Diebe) ist Gerücht, kein Zwang. [Glauben](../../../11-religion/04-glauben-bei-der-erschaffung.md).
 

@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Distanzschütze**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** 4  
+**Würfe:** Fernkampf (lange und extreme Reichweite)
 
-[prüfen am Buch S. 134]
-
+Bezüglich deiner Schießkünste ist die Distanz kaum noch von Belang, denn du triffst ferne Ziele ebenso leicht wie nahe. Du erhältst keine Abzüge für Schüsse über lange Reichweite und nur die Hälfte der Abzüge bei Schüssen über extreme Reichweite.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

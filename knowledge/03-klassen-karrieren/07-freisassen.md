@@ -2,7 +2,7 @@
 
 Quelle: S. 77–84
 
-Weiter: [Ordner](freisassen/README.md) — acht Karrieren als Gerüst.
+Weiter: [Ordner](freisassen/README.md) — acht Karrieren, Originale gefüllt.
 
 ### Siehe auch
 

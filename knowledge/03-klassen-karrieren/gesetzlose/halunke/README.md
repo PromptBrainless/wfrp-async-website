@@ -6,4 +6,4 @@ Quelle: S. 88
 - [Angepasst](angepasst.md) — Projekt
 - [Details](details.md) — Hilfe
 
-Kurt = Schläger. Klasse: [Gesetzlose](../README.md).
+ein Schläger = Schläger. Klasse: [Gesetzlose](../README.md).

@@ -1,6 +1,6 @@
 # Pen-and-Paper, digital
 
-Quelle: S. 6–8. **Nach** der Welt, nicht davor.  
+Quelle: S. 6–8. **Nach** der Welt, nicht davor. 
 Kein Bogen-Feld.
 
 ## Erklärung
@@ -27,7 +27,7 @@ weder SL noch Buch. Die Figur bleibt deine. „Avatar“ heißt hier
 Spielercharakter — nicht Computerspiel-Ich.
 
 Held oder Antiheld: beides legal. WFRP belohnt keine reinen Helden. Die
-Demo (Greta, Otto, Kurt) sind Alltagsleute, keine Ritter. Antiheld heißt:
+Demo (Alltagsleute) sind Alltagsleute, keine Ritter. Antiheld heißt:
 ehrgeizig, ängstlich, gierig — nicht „Chaos anbeten“.
 
 Ohne grobe Idee: würfeln ist erlaubt und gibt EP. Mit Idee: wir prüfen,

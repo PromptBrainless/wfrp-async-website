@@ -1,17 +1,24 @@
 import { CATALOG_BY_ID, SKILL_LABEL } from "./catalog";
 import {
+  capAdvantage,
+  conditionPenalty,
+  egBand,
   effectiveTarget,
+  formatDiceNumbers,
   formatSl,
   hitLocation,
+  isDoubles,
   isSuccess,
   rollD100,
   skillValue,
   successLevels,
 } from "./dice";
-import { addPennies, formatMoney } from "./money";
+import { ICON_FROM_KIND, type IconKind } from "./icons";
+import { DIFFICULTY_MOD } from "./types";
 import type {
   Campaign,
   Character,
+  DicePlate,
   DifficultyId,
   ProtocolEntry,
   RollResult,
@@ -23,12 +30,56 @@ function nowEntry(
   title: string,
   body: string,
   numbers?: string,
+  extra?: Partial<
+    Pick<ProtocolEntry, "secret" | "image" | "portrait" | "placeId" | "speaker" | "icon" | "dice">
+  >,
 ): ProtocolEntry {
-  return { id: crypto.randomUUID(), at: Date.now(), kind, title, body, numbers };
+  return {
+    id: crypto.randomUUID(),
+    at: Date.now(),
+    kind,
+    title,
+    body,
+    numbers,
+    icon: extra?.icon ?? ICON_FROM_KIND[kind],
+    ...extra,
+  };
 }
 
 export function pushProtocol(scene: Scene, entry: ProtocolEntry): Scene {
   return { ...scene, protocol: [...scene.protocol, entry] };
+}
+
+function plateFrom(r: RollResult, actorName: string): DicePlate {
+  return {
+    actorName,
+    skillLabel: r.skillLabel,
+    skillValue: r.skillValue,
+    difficulty: r.difficulty,
+    difficultyMod: r.modifier,
+    conditionMod: r.conditionMod,
+    advantageMod: r.advantageMod,
+    target: r.target,
+    roll: r.roll,
+    sl: r.sl,
+    band: r.band,
+    success: r.success,
+    doubles: r.doubles,
+    critical: r.critical,
+    fumble: r.fumble,
+    location: r.location,
+    opposed: r.opposed
+      ? {
+          name: r.opposed.name,
+          skillLabel: r.opposed.skillLabel,
+          target: r.opposed.target,
+          roll: r.opposed.roll,
+          sl: r.opposed.sl,
+          band: r.opposed.band,
+        }
+      : undefined,
+    proxy: r.proxy,
+  };
 }
 
 export function rollSimple(
@@ -36,24 +87,40 @@ export function rollSimple(
   actionId: string,
   difficulty: DifficultyId,
   combat = false,
+  proxy = false,
 ): RollResult {
   const def = CATALOG_BY_ID[actionId];
   const skillId = def?.skill ?? "wahrnehmung";
+  const skillVal = skillValue(character, skillId);
+  const cond = conditionPenalty(character);
+  const adv = combat ? capAdvantage(character) * 10 : 0;
+  const diff = DIFFICULTY_MOD[difficulty];
   const target = effectiveTarget(character, skillId, difficulty, { combat });
   const roll = rollD100();
   const sl = successLevels(target, roll);
+  const success = isSuccess(target, roll);
+  const doubles = isDoubles(roll);
   return {
     id: crypto.randomUUID(),
     characterId: character.id,
     actionId,
     skillId,
     skillLabel: SKILL_LABEL[skillId] ?? skillId,
+    skillValue: skillVal,
     target,
     roll,
     sl,
-    success: isSuccess(target, roll),
+    success,
     difficulty,
-    modifier: 0,
+    modifier: diff,
+    conditionMod: cond,
+    advantageMod: adv,
+    doubles,
+    band: egBand(sl, success),
+    critical: combat && doubles && success,
+    fumble: combat && doubles && !success,
+    location: combat ? hitLocation(roll) : undefined,
+    proxy,
   };
 }
 
@@ -65,6 +132,7 @@ export function rollOpposed(
   otherSkill: string,
   difficulty: DifficultyId,
   combat = false,
+  proxy = false,
 ): RollResult {
   const aTarget = effectiveTarget(actor, actorSkill, difficulty, { combat });
   const bTarget = effectiveTarget(other, otherSkill, "herausfordernd", { combat });
@@ -72,171 +140,114 @@ export function rollOpposed(
   const bRoll = rollD100();
   const aSl = successLevels(aTarget, aRoll);
   const bSl = successLevels(bTarget, bRoll);
+  const success = isSuccess(aTarget, aRoll);
   const actorWins = aSl > bSl || (aSl === bSl && aRoll < bRoll);
+  const doubles = isDoubles(aRoll);
   return {
     id: crypto.randomUUID(),
     characterId: actor.id,
     actionId,
     skillId: actorSkill,
     skillLabel: SKILL_LABEL[actorSkill] ?? actorSkill,
+    skillValue: skillValue(actor, actorSkill),
     target: aTarget,
     roll: aRoll,
     sl: aSl,
     opposed: {
       name: other.name,
       skillId: otherSkill,
+      skillLabel: SKILL_LABEL[otherSkill] ?? otherSkill,
       target: bTarget,
       roll: bRoll,
       sl: bSl,
+      band: egBand(bSl, isSuccess(bTarget, bRoll)),
     },
     success: actorWins,
     winnerId: actorWins ? actor.id : other.id,
     difficulty,
-    modifier: 0,
+    modifier: DIFFICULTY_MOD[difficulty],
+    conditionMod: conditionPenalty(actor),
+    advantageMod: combat ? capAdvantage(actor) * 10 : 0,
+    doubles,
+    band: egBand(aSl, success),
+    critical: combat && doubles && success,
+    fumble: combat && doubles && !success,
+    location: combat ? hitLocation(aRoll) : undefined,
+    proxy,
   };
 }
 
 export function formatRollLine(r: RollResult): string {
-  const base = `${r.skillLabel} ${r.target} · Wurf ${r.roll} · ${formatSl(r.sl)}`;
-  if (!r.opposed) return base;
-  return `${base}  vs  ${r.opposed.name} ${r.opposed.target} · ${r.opposed.roll} · ${formatSl(r.opposed.sl)}`;
+  return formatDiceNumbers({ ...r, difficultyMod: r.modifier });
 }
 
 export function applySocialOutcome(campaign: Campaign, roll: RollResult): Campaign {
   const scene = campaign.scenes[campaign.currentSceneId];
-  const greta = campaign.characters.greta;
-  let next = { ...campaign, characters: { ...campaign.characters }, scenes: { ...campaign.scenes } };
-  const SOCIAL_FAIL = new Set(["reden", "feilschen", "bestechen", "einschuechtern", "klatsch", "kaufen"]);
-
-  let body: string;
-  if (roll.actionId === "umschauen") {
-    body = roll.success
-      ? "Greta sieht den Preis in Ottos Gesicht: er will sechs, würde bei vier noch nicken. Die Wache gähnt, hört nicht hin."
-      : "Die Menge schiebt, Dampf und Stimmen. Mehr als Ottos erhobenen Daumen bekommt Greta nicht mit.";
-  } else if (roll.actionId === "feilschen" || roll.actionId === "kaufen") {
-    if (roll.success) {
-      next.characters.greta = {
-        ...greta,
-        money: addPennies(greta.money, -4 * 12),
-        flags: [...greta.flags, "ballen_gekauft"],
-        inventory: [...greta.inventory, { id: "ballen", name: "Wollballen" }],
-      };
-      body = `Otto knurrt, lässt aber mit sich reden. Vier Schillinge. Greta hat noch ${formatMoney(next.characters.greta.money)}.`;
-    } else {
-      body = "Otto schüttelt den Kopf. „Sechs, oder du kannst weitergehen.“";
-    }
-  } else if (roll.actionId === "reden") {
-    body = roll.success
-      ? "Otto lacht kurz. Die Schultern sinken. Er ist zu haben, wenn der Preis stimmt."
-      : "Otto faltet die Arme. „Waren sind Waren. Gefühle verkaufe ich nicht.“";
-  } else {
-    body = roll.success
-      ? "Die Menge weicht einen halben Schritt. Otto spürt, dass hier jemand nicht nur guckt."
-      : "Niemand rückt. Otto bleibt hinter den Ballen.";
-  }
-
-  let scn = pushProtocol(scene, nowEntry("world", CATALOG_BY_ID[roll.actionId]?.label ?? roll.actionId, body, formatRollLine(roll)));
-
-  if (!roll.success && SOCIAL_FAIL.has(roll.actionId)) {
-    const evt = scn.events.find((e) => e.id === "taschendieb");
-    if (evt && !evt.fired) {
-      const diebTarget = 45;
-      const gretaTarget = skillValue(greta, "wahrnehmung");
-      const dRoll = rollD100();
-      const gRoll = rollD100();
-      const dSl = successLevels(diebTarget, dRoll);
-      const gSl = successLevels(gretaTarget, gRoll);
-      const stolen = dSl > gSl;
-      scn = {
-        ...scn,
-        events: scn.events.map((e) => (e.id === "taschendieb" ? { ...e, fired: true } : e)),
-      };
-      if (stolen) {
-        const g = next.characters.greta;
-        next.characters.greta = {
-          ...g,
-          money: addPennies(g.money, -4),
-          flags: [...g.flags, "bestohlen"],
-        };
-        scn = pushProtocol(
-          scn,
-          nowEntry(
-            "event",
-            "Eine Hand in der Menge",
-            "Etwas zupft an Gretas Beutel. Als sie greift, sind vier Groschen weg.",
-            `Taschendieb Fingerfertigkeit ${diebTarget} · ${dRoll} ${formatSl(dSl)} vs Wahrnehmung ${gretaTarget} · ${gRoll} ${formatSl(gSl)}`,
-          ),
-        );
-      } else {
-        scn = pushProtocol(
-          scn,
-          nowEntry(
-            "event",
-            "Eine Hand in der Menge",
-            "Greta spürt den Ruck am Beutel und dreht sich. Der Junge ist schon in der Menge.",
-            `Taschendieb ${dRoll} ${formatSl(dSl)} vs Wahrnehmung ${gRoll} ${formatSl(gSl)}`,
-          ),
-        );
-      }
-    }
-  }
-
-  next.scenes[scn.id] = scn;
-  next.lastRoll = roll;
-  return next;
+  const actor = campaign.characters[roll.characterId];
+  const plate = plateFrom(roll, actor?.name ?? "Wurf");
+  const scn = pushProtocol(
+    scene,
+    nowEntry("rules", CATALOG_BY_ID[roll.actionId]?.label ?? roll.actionId, `${actor?.name ?? "Jemand"} wirft.`, formatRollLine(roll), {
+      portrait: actor?.portrait,
+      speaker: actor?.id,
+      icon: "wurf",
+      dice: plate,
+    }),
+  );
+  const next: Campaign = {
+    ...campaign,
+    scenes: { ...campaign.scenes, [scn.id]: scn },
+    lastRoll: roll,
+  };
+  return appendJournal(next, scn, formatRollLine(roll), actor?.name);
 }
 
 export function applyCombatOutcome(campaign: Campaign, roll: RollResult): Campaign {
   const scene = campaign.scenes[campaign.currentSceneId];
-  const greta = campaign.characters.greta;
-  const kurt = campaign.characters.kurt;
-  let next = { ...campaign, characters: { ...campaign.characters }, scenes: { ...campaign.scenes } };
-  const loc = hitLocation(roll.roll);
+  const actor = campaign.characters[roll.characterId];
+  const plate = plateFrom(roll, actor?.name ?? "Wurf");
+  const diceBeat = nowEntry("rules", CATALOG_BY_ID[roll.actionId]?.label ?? "Wurf", `${actor?.name ?? "Jemand"} wirft.`, formatRollLine(roll), {
+    portrait: actor?.portrait,
+    speaker: actor?.id,
+    icon: "wurf",
+    dice: plate,
+  });
+  let next: Campaign = { ...campaign, characters: { ...campaign.characters }, scenes: { ...campaign.scenes } };
+  let scn = pushProtocol(scene, diceBeat);
 
-  if (roll.actionId === "sturmangriff" || roll.actionId === "angreifen") {
-    const engaged = true;
-    next.characters.greta = { ...greta, engaged, advantage: roll.actionId === "sturmangriff" ? greta.advantage + 1 : greta.advantage };
-    next.characters.kurt = { ...kurt, engaged };
-    const scn: Scene = {
-      ...scene,
-      combat: scene.combat ? { ...scene.combat, engaged, distanceM: 0 } : scene.combat,
-    };
-    if (roll.success) {
-      const dmg = Math.max(1, 3 + (roll.sl > 0 ? 0 : 0));
-      const k = next.characters.kurt;
-      const wounds = Math.max(0, k.wounds.current - dmg);
-      next.characters.kurt = { ...k, wounds: { ...k.wounds, current: wounds }, advantage: 0 };
-      next.scenes[scn.id] = pushProtocol(
-        scn,
-        nowEntry(
-          "world",
-          "Schlag",
-          `Greta trifft (${loc}). Kurt taumelt, ${dmg} LP.`,
-          formatRollLine(roll),
-        ),
-      );
-    } else {
-      next.characters.greta = { ...next.characters.greta, advantage: 0 };
-      next.scenes[scn.id] = pushProtocol(
-        scn,
-        nowEntry("world", "Schlag", `Kurt pariert. Nichts sitzt (${loc}).`, formatRollLine(roll)),
-      );
+  if ((roll.actionId === "sturmangriff" || roll.actionId === "angreifen") && roll.success) {
+    const foeId = actor?.id === "kurt" ? "greta" : "kurt";
+    const foe = next.characters[foeId];
+    if (foe) {
+      const dmg = Math.max(1, 3);
+      next.characters[foeId] = { ...foe, wounds: { ...foe.wounds, current: Math.max(0, foe.wounds.current - dmg) }, engaged: true };
     }
-  } else if (roll.actionId === "fliehen") {
-    next.scenes[scene.id] = pushProtocol(
-      scene,
-      nowEntry("world", "Fliehen", "Greta reißt sich los und stolpert zurück zum Basar.", formatRollLine(roll)),
-    );
-    next.currentSceneId = "basar";
-    next.characters.greta = { ...greta, engaged: false };
-  } else {
-    next.scenes[scene.id] = pushProtocol(
-      scene,
-      nowEntry("world", CATALOG_BY_ID[roll.actionId]?.label ?? "Handlung", roll.success ? "Es gelingt." : "Es misslingt.", formatRollLine(roll)),
-    );
+    if (actor) next.characters[actor.id] = { ...next.characters[actor.id], engaged: true };
+    scn = {
+      ...scn,
+      combat: scn.combat ? { ...scn.combat, engaged: true, distanceM: 0 } : scn.combat,
+    };
   }
+
+  next.scenes[scn.id] = scn;
   next.lastRoll = roll;
-  return next;
+  return appendJournal(next, scn, formatRollLine(roll), actor?.name);
 }
 
-export { nowEntry };
+function appendJournal(campaign: Campaign, scene: Scene, body: string, npc?: string): Campaign {
+  const last = scene.protocol[scene.protocol.length - 1];
+  const names = new Set(campaign.journalNotes.flatMap((n) => n.npcNames));
+  if (npc) names.add(npc);
+  const note = {
+    id: crypto.randomUUID(),
+    at: Date.now(),
+    sceneId: scene.id,
+    title: last?.title ?? scene.title,
+    body,
+    npcNames: [...names],
+    sourceProtocolId: last?.id,
+  };
+  return { ...campaign, journalNotes: [...campaign.journalNotes, note] };
+}
+
+export { nowEntry, plateFrom };

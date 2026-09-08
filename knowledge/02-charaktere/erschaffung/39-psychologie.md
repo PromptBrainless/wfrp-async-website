@@ -1,6 +1,6 @@
 # Psychologie
 
-Quelle: S. 190. [Psychologie](../../05-regeln/13-psychologie.md).  
+Quelle: S. 190. [Psychologie](../../05-regeln/13-psychologie.md). 
 Bogen: `psychologie`. Option in Schritt 8.
 
 ## Erklärung
@@ -13,7 +13,7 @@ Nicht dasselbe wie Gemüt (freier Satz) und nicht dasselbe wie Motivation
 (Mut). Eine Phobie vor Ratten ist eine Regel; „ängstlich“ im Gemüt ist
 Flavour.
 
-Mit dem Spielleiter absprechen. Demo startet ohne.
+Mit dem Spielleiter absprechen. Start ohne, bis der SL es braucht.
 
 ### Siehe auch
 

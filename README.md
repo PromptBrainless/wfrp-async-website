@@ -17,7 +17,7 @@ Charakter an Ort XY
   → Zustand des Charakters + Weltzustand
   → gefilterter Aktionskatalog (Karten ausgegraut, nie gelöscht)
   → Spieler wählt Intention
-  → Engine würfelt, Glück-Fenster nach eigenem Wurf
+  → Spieler würfelt den W100, Glück-Fenster nach eigenem Wurf
   → SL deutet in die Welt
   → neuer Zustand
 ```

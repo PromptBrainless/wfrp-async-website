@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Intrigant**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Intelligenz-Bonus  
+**Würfe:** Intelligenz-Würfe bei der Nutzung dieses Talentes
 
-[prüfen am Buch S. 138]
-
+Du bist politisch höchst geschickt und vermutest hinter jeder Ecke Verschwörungen. Einmal pro Spielabend kannst du dem SL eine einzelne Frage bezüglich der politischen Situation oder des Beziehungsgeflechts innerhalb einer sozialen Gruppe stellen; der SL führt dann einen verdeckten Intelligenz-Wurf durch und teilt dir deine Beobachtungen mit, orientiert an den erzielten EG.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

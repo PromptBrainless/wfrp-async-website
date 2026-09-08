@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Lippenlesen**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Initiative-Bonus  
+**Würfe:** W ahrnehmungs-Würfe, die dieses Talent betreffen
 
-[prüfen am Buch S. 139]
-
+Du kannst verstehen, was Leute sagen, indem du einfach nur ihre Lippen beobachtest; du musst sie nicht hören können. Wenn du einen freien Blick zur unteren Gesichtshälfte des Sprechenden hast, kannst du mit einem W ahrnehmungs-Wurf versuchen zu verstehen, was er sagt.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

@@ -5,13 +5,12 @@ Status: Original, nicht anfassen
 
 **Unaufhaltsam**
 
-Maximum und Würfe stehen im Buch.
-
-[prüfen am Buch S. 146]
-
+**Maximum:** Widerstands-Bonus  
+Es braucht viel, um dich zu erledigen. Du kannst die LP-Verluste eines einzelnen Blutend-Zustandes ignorieren. Für jede weitere Stufe in diesem Talent kannst du die LP-Verluste eines weiteren Blutend-Zustandes ignorieren.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

@@ -14,7 +14,7 @@ Oberbegriff für alle einhändigen Standardwaffen, die sich unterscheiden, nach 
 | Schaden | +STB+4 |
 | Qualitäten / Makel | — |
 
-Nicht in der Demo-Startausrüstung. Katalog erlaubt sie, sobald jemand eine führt.
+Nicht -Startausrüstung. Katalog erlaubt sie, sobald jemand eine führt.
 
 ### Befehl
 

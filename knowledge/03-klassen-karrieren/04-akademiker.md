@@ -2,7 +2,7 @@
 
 Quelle: S. 53–60
 
-Weiter: [Ordner](akademiker/README.md) — acht Karrieren als Gerüst.
+Weiter: [Ordner](akademiker/README.md) — acht Karrieren, Originale gefüllt.
 
 ### Siehe auch
 

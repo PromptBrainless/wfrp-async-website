@@ -3,15 +3,13 @@
 Quelle: S. 297
 Status: Original, nicht anfassen
 
-**Akkurat** (qualitaet)
+**Akkurat** (qualität)
 
-Buch S. 297.
-
-[prüfen am Buch S. 297]
-
+Die Waffe ist so akkurat, dass man leichter mit ihr trifft. Du erhältst einen Bonus von +10 bei jedem Schuss mit dieser Waffe.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Waffen-Qualitäten](../README.md)

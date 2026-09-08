@@ -250,7 +250,7 @@ def check_staged(r: Report) -> None:
         return
     names = [n.decode("utf-8", "replace") for n in out.split(b"\0") if n]
     for n in names:
-        if n.startswith("public/images/"):
+        if n.startswith("public/images/") or n.startswith("public/maps/") or n.startswith("public/tokens/"):
             continue
         if FORBIDDEN_STAGED.search(n):
             r.err(f"staged verboten (Buch/Scan): {n}")

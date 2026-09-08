@@ -2,7 +2,7 @@
 
 Quelle: S. 101–108
 
-Weiter: [Ordner](krieger/README.md) — acht Karrieren als Gerüst.
+Weiter: [Ordner](krieger/README.md) — acht Karrieren, Originale gefüllt.
 
 ### Siehe auch
 

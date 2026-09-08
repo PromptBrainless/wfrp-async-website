@@ -1,6 +1,6 @@
 # Aktionskatalog v1 – als „implementiert“ für Simulationen
 
-Nur Aktionen, die aus bereits extrahierten Regeln ableitbar sind.  
+Nur Aktionen, die aus bereits extrahierten Regeln ableitbar sind. 
 Kosten: **F** frei · **B** Bewegung · **H** Handlung
 
 ## Immer (wenn bei Bewusstsein und nicht *Niedergestreckt*/*Betäubt*)
@@ -46,4 +46,4 @@ Kosten: **F** frei · **B** Bewegung · **H** Handlung
 | *Blutend* | `heilen_lassen` wenn Heiler/NSC da |
 | LP 0 | `schicksal` oder bewusstlos werden |
 
-Nicht in v1: Magie, Gebete, Ringen, Fernkampf ohne Waffe, Beruf, Heilen selbst (Greta hat die Ausbaufähigkeit nicht).
+Nicht in v1: Magie, Gebete, Ringen, Fernkampf ohne Waffe, Beruf, Heilen selbst (der Spielercharakter hat die Ausbaufähigkeit nicht).

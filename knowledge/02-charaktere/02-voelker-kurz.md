@@ -30,10 +30,10 @@ Dein Charakter wird entweder ein Mensch, Zwerg, Halbling, Hochelf oder Waldelf s
 | `hochelf` | [Hochelf](voelker/hochelf/README.md) | S. 27–28 | S. 36 |
 | `waldelf` | [Waldelf](voelker/waldelf/README.md) | S. 28–29 | S. 36 |
 
-Attribute-Tabelle (alle Völker): [04-attribute.md](04-attribute.md).  
+Attribute-Tabelle (alle Völker): [04-attribute.md](04-attribute.md). 
 3+5 / 3+3 und Zufällige Talente: [05-faehigkeiten-talente-start.md](05-faehigkeiten-talente-start.md).
 
-Demo: Greta und Otto sind Menschen.
+Demo: der Spielercharakter und ein Händler sind Menschen.
 
 ### Siehe auch
 

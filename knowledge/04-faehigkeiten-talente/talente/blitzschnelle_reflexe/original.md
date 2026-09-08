@@ -5,13 +5,12 @@ Status: Original, nicht anfassen
 
 **Blitzschnelle Reflexe**
 
-Maximum und Würfe stehen im Buch.
-
-[prüfen am Buch S. 134]
-
+**Maximum:** 1  
+Auf deinen Anfangswert für das Attribut Gewandtheit erhältst du einen permanenten Bonus von +5, der nicht bezüglich deiner Steigerungen zählt.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

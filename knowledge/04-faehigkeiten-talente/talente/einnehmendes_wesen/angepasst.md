@@ -8,7 +8,7 @@ Kein Wurf, keine Karte. Permanent **+5 auf den CH-Anfangswert**, zählt nicht al
 
 `werte.CH` um 5 höher als ohne das Talent. `talente[]`: `id` = `einnehmendes_wesen`, Maximum 1.
 
-Otto Händler: verfügbar, nicht automatisch.
+ein Händler Händler: verfügbar, nicht automatisch.
 
 ### Befehl
 

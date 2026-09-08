@@ -1,6 +1,6 @@
 # Demoralisiert — Details / Hilfe
 
-JSON-`id`: `demoralisiert`  
+JSON-`id`: `demoralisiert` 
 Quelle: S. 168 · [conditions.json](../../../data/conditions.json)
 
 ## Hilfe

@@ -2,7 +2,7 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 88)
 
-Kurt Raufbold ist **Schläger** (Stufe 1). Buch-Status Schläger: Messing 3. Demo setzt Messing 2 — SL-Kürzung, kein Karriereabschluss.
+ein Schläger Raufbold ist **Schläger** (Stufe 1). Buch-Status Schläger: Messing 3. Demo setzt Messing 2 — SL-Kürzung, kein Karriereabschluss.
 
 ## Bogen
 

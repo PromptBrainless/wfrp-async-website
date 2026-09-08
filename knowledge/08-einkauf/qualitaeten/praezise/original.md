@@ -3,15 +3,13 @@
 Quelle: S. 298
 Status: Original, nicht anfassen
 
-**Präzise** (qualitaet)
+**Präzise** (qualität)
 
-Buch S. 298.
-
-[prüfen am Buch S. 298]
-
+Mit dieser Waffe lässt sich sehr genau treffen. Du erhältst einen Bonus von +1 EG auf jeden gelungenen Wurf bei der Attacke mit dieser Waffe.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Waffen-Qualitäten](../README.md)

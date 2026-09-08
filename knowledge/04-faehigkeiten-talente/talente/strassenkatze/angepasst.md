@@ -8,7 +8,7 @@ Kein Katalog. Bei misslungenem [Schleichen (Stadt)](../../faehigkeiten/schleiche
 
 `talente[]`: `id` = `strassenkatze`. Maximum = I-Bonus.
 
-Greta Gehilfe: verfügbar. Gasse/Basar: Stadt.
+Stufe 1 (Gehilfe): verfügbar. Gasse/Basar: Stadt.
 
 ## Grau
 

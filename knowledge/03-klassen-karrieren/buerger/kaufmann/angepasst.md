@@ -2,7 +2,7 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 65)
 
-Otto Tuchhändler ist **Händler** (Stufe 1 der Karriere). Buch-Status Händler: Silber 2. Demo setzt Silber 1 — SL-Kürzung, kein Karriereabschluss.
+ein Händler Tuchhändler ist **Händler** (Stufe 1 der Karriere). Buch-Status Händler: Silber 2. Demo setzt Silber 1 — SL-Kürzung, kein Karriereabschluss.
 
 ## Bogen
 

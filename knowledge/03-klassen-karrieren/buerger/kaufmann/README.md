@@ -6,4 +6,4 @@ Quelle: S. 65
 - [Angepasst](angepasst.md) — Projekt
 - [Details](details.md) — Hilfe
 
-Otto = Händler. Klasse: [Bürger](../README.md).
+ein Händler = Händler. Klasse: [Bürger](../README.md).

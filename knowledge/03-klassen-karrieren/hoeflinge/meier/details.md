@@ -1,13 +1,20 @@
 # Meier — Details / Hilfe
 
 JSON-`id`: `meier`  
-Quelle: S. 93
+Quelle: S. 99 · [careers.json](../../../data/careers.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Stufe 1 heißt **Verwalter** (Silber 1).
+- Schema-Symbole gegen die Karte S. 99 gehalten.
+
+## Prüfen
+
+- [prüfen am Buch S. 99] Karriereschema-Symbole und Ausrüstungslisten gegen die Karte.
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
-- [Höflinge](../../hoeflinge/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)

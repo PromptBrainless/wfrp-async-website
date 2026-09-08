@@ -11,17 +11,17 @@ Stand, an den dieser Prompt andockt: Commit-Linie Bürger 8/8 + 10 Attribute + H
 Das ist der Auftragstext für die nächste Arbeitssession (einfügen als
 Initiativ-Prompt). Lies danach im Repo, in dieser Reihenfolge:
 
-  NEUES-FENSTER.md
-  skill/SKILL.md
-  knowledge/00-BEFEHLE.md
-  knowledge/00-VORLAGE.md
-  knowledge/00-VOLLTEXT.md
-  knowledge/00-QUELLEN.md
-  knowledge/02-charaktere/01-charaktererschaffung-uebersicht.md
-  knowledge/10-system/00-das-spiel.md
+ NEUES-FENSTER.md
+ skill/SKILL.md
+ knowledge/00-BEFEHLE.md
+ knowledge/00-VORLAGE.md
+ knowledge/00-VOLLTEXT.md
+ knowledge/00-QUELLEN.md
+ knowledge/02-charaktere/01-charaktererschaffung-uebersicht.md
+ knowledge/10-system/00-das-spiel.md
 
 Dann erst Dateien anlegen. Gate vor jedem Commit:
-  python3 skill/scripts/validate_wissen.py
+ python3 skill/scripts/validate_wissen.py
 Kein Commit bei Exit 1. Kein PDF, kein WebP ins Git.
 
 ================================================================================
@@ -31,10 +31,10 @@ Kein Commit bei Exit 1. Kein PDF, kein WebP ins Git.
 Die neun Schritte der Charaktererschaffung stehen mechanisch. Überarbeite sie
 so, dass ein Spieler OHNE Warhammer-Vorwissen an jedem Schritt versteht:
 
-  — in welcher Welt er landet,
-  — was die Wahl (Volk, Klasse, Karriere, Talent, Gott, Status) im Reikland
-    sozial bedeutet,
-  — wann das gewählte Talent später am Tisch / in der Szene greift.
+ — in welcher Welt er landet,
+ — was die Wahl (Volk, Klasse, Karriere, Talent, Gott, Status) im Reikland
+ sozial bedeutet,
+ — wann das gewählte Talent später am Tisch / in der Szene greift.
 
 Nicht die Erschaffung neu erfinden. Welt, Religion und Talent-Einsatz
 DARANHÄNGEN. Buch bleibt Autorität.
@@ -46,32 +46,32 @@ DARANHÄNGEN. Buch bleibt Autorität.
 Mechanik und Dateigerüst sind gesetzt. Vorhandenes Original nicht umschreiben.
 
 Erschaffung (Kapitel 2)
-  9 Schritte in 01-charaktererschaffung-uebersicht.md
-  5 Völker: original.md vollständig (S. 24–29, 36)
-  Klasse/Karriere-Einführung, Attribute-Hub, Startfähigkeiten,
-  Ausrüstung+Details, Gruppe/Steigerungen, Bogen-Erklärung: Hubs S. 30–45
-  10 Spielwerte: original.md S. 33–34, Bogen-Keys in angepasst.md
+ 9 Schritte in 01-charaktererschaffung-uebersicht.md
+ 5 Völker: original.md vollständig (S. 24–29, 36)
+ Klasse/Karriere-Einführung, Attribute-Hub, Startfähigkeiten,
+ Ausrüstung+Details, Gruppe/Steigerungen, Bogen-Erklärung: Hubs S. 30–45
+ 10 Spielwerte: original.md S. 33–34, Bogen-Keys in angepasst.md
 
 Karrieren
-  Bürger 8/8 Originale S. 61–68 (Greta = Städter/Gehilfe, Otto = Kaufmann/Händler)
-  Halunke S. 88 (Kurt = Schläger)
-  Rest 55 Karrieren: Gerüst, nicht vordrängeln
+ Bürger 8/8 Originale S. 61–68 (der Spielercharakter = Städter/Gehilfe, ein Händler = Kaufmann/Händler)
+ Halunke S. 88 (ein Schläger = Schläger)
+ Rest 55 Karrieren: Gerüst, nicht vordrängeln
 
 Fähigkeiten / Talente / Kampf
-  45 Fähigkeiten Original
-  8 Demo-Talente Original (Etikette, Einnehmendes Wesen, Lesen & Schreiben,
-    Redeschwall, Stämmig, Straßenkatze, Unauffällig, Verhandlungsgenie)
-  12 Zustände Original
-  159 Talent-Ordner als Gerüst
+ 45 Fähigkeiten Original
+ 8 Demo-Talente Original (Etikette, Einnehmendes Wesen, Lesen & Schreiben,
+ Redeschwall, Stämmig, Straßenkatze, Unauffällig, Verhandlungsgenie)
+ 12 Zustände Original
+ 159 Talent-Ordner als Gerüst
 
 Loop (nicht Gegenstand dieser Welle)
-  10-system/00-das-spiel.md — Spieler = Intention, SL = Welt/Regeln/Geschichte
-  Simulation und UI sind KEIN Auftrag.
+ 10-system/00-das-spiel.md — Spieler = Intention, SL = Welt/Regeln/Geschichte
+ Simulation und UI sind KEIN Auftrag.
 
 Drei-Datei-Regel je Mechanik bleibt:
-  original.md   Buch, nach Extraktion nicht anfassen
-  angepasst.md  Projekt, Loop, Bogen-Keys, ### Befehl
-  details.md    Hilfe, JSON-id, [prüfen], BEISPIELE, ab jetzt: Welt-Einsatz
+ original.md Buch, nach Extraktion nicht anfassen
+ angepasst.md Projekt, Loop, Bogen-Keys, ### Befehl
+ details.md Hilfe, JSON-id, [prüfen], BEISPIELE, ab jetzt: Welt-Einsatz
 
 Katalog-ID nur in angepasst.md. Siehe-auch Pflicht. Angepasst wiederholt
 das Buch nicht.
@@ -83,28 +83,28 @@ das Buch nicht.
 Was ein Neuling heute bekommt: Zahlen, Tabellen, Karriereweg, Talentnamen.
 Was ihm fehlt, um eine Wahl zu TREFFEN:
 
-  1. Wo spielt das? (Alte Welt, Imperium, Reikland, Altdorf — nicht „Fantasy“.)
-  2. Wer sind die Völker FÜREINANDER? (Vorurteile stehen schon in den
-     Völker-Originalen — sie müssen an Schritt 1 der Erschaffung sichtbar
-     werden, nicht nur im Ordner.)
-  3. Klasse ist kein D&D-Archetyp. Bürger, Gesetzlose, Akademiker sind
-     soziale Schichten plus Lebensweg. Status (Messing/Silber/Gold + Rang)
-     ist Geld, Ansehen und wer dich duzt.
-  4. Karriere ist ein Beruf mit vier Stufen, kein Prestige-Class-Baum.
-     „Halunke“ ist Stufe 2; man STARTET als Schläger.
-  5. Talent ist kein Feat-Einkauf. Es ist eine spezielle Fertigkeit, die
-     in einer sozialen Gruppe, einer Situation oder gegen eine Gefahr greift.
-     Neulinge brauchen: Wann merke ich das im Spiel? Was sieht der SL?
-  6. Religion ist Alltag, nicht Charakterklasse. Die meisten Reikländer
-     ehren Sigmar, ohne Priester zu sein. Ein Gott bei der Erschaffung ist
-     Flavour + Motivationshaken, außer die Karriere IST Kult (Kriegerpriester,
-     Priester — die sind noch Gerüst).
-  7. Chaos, Magie, Skaven: existieren. Der Neuling braucht eine ehrliche
-     Warnung in Alltagssprache, keinen Bestiarium-Dump und keine spoilernden
-     Geheimnisse, die der SL den Spielern vorenthält.
-  8. Namen, Alter, Haar, Ziele, Motivation (S. 34, 37–43) sind der Moment,
-     an dem der Charakter zur Person wird. Dafür braucht es Welt-Beispiele
-     (Altdorf, Übersreik, Fluss, Gilde, Tempel), nicht nur Tabellen.
+ 1. Wo spielt das? (Alte Welt, Imperium, Reikland, Altdorf — nicht „Fantasy“.)
+ 2. Wer sind die Völker FÜREINANDER? (Vorurteile stehen schon in den
+ Völker-Originalen — sie müssen an Schritt 1 der Erschaffung sichtbar
+ werden, nicht nur im Ordner.)
+ 3. Klasse ist kein D&D-Archetyp. Bürger, Gesetzlose, Akademiker sind
+ soziale Schichten plus Lebensweg. Status (Messing/Silber/Gold + Rang)
+ ist Geld, Ansehen und wer dich duzt.
+ 4. Karriere ist ein Beruf mit vier Stufen, kein Prestige-Class-Baum.
+ „Halunke“ ist Stufe 2; man STARTET als Schläger.
+ 5. Talent ist kein Feat-Einkauf. Es ist eine spezielle Fertigkeit, die
+ in einer sozialen Gruppe, einer Situation oder gegen eine Gefahr greift.
+ Neulinge brauchen: Wann merke ich das im Spiel? Was sieht der SL?
+ 6. Religion ist Alltag, nicht Charakterklasse. Die meisten Reikländer
+ ehren Sigmar, ohne Priester zu sein. Ein Gott bei der Erschaffung ist
+ Flavour + Motivationshaken, außer die Karriere IST Kult (Kriegerpriester,
+ Priester — die sind noch Gerüst).
+ 7. Chaos, Magie, Skaven: existieren. Der Neuling braucht eine ehrliche
+ Warnung in Alltagssprache, keinen Bestiarium-Dump und keine spoilernden
+ Geheimnisse, die der SL den Spielern vorenthält.
+ 8. Namen, Alter, Haar, Ziele, Motivation (S. 34, 37–43) sind der Moment,
+ an dem der Charakter zur Person wird. Dafür braucht es Welt-Beispiele
+ (Altdorf, Übersreik, Fluss, Gilde, Tempel), nicht nur Tabellen.
 
 Das Buch verteilt das Wissen: vorne Erschaffung, hinten Religion (S. 202–228)
 und Reikland (ca. S. 266–300). Der Neuling darf das nicht selbst zusammensuchen.
@@ -117,21 +117,21 @@ Kapitel, statt Religion und Setting in den Charakterbogen zu kippen.
 
 Ein Spieler, der nie Warhammer gelesen hat, kann nach den 9 Schritten sagen:
 
-  „Ich bin Greta Kohl, Mensch aus dem Reikland, Gehilfe (Städter, Silber 1).
-   Ich glaube an Sigmar, weil das hier jeder tut, der nicht ausdrücklich
-   etwas anderes sagt. Etikette (Dienstboten) heißt: im Hinterzimmer der
-   Krämerin weiß ich, wie man mit Laufburschen und Mägden spricht — Otto
-   als Gilden-Kaufmann merkt, dass ich keine Gildenzunge habe.
-   Motivation: Schulden des Vaters. Kurzfristiges Ziel: den Ballen vor
-   Kurt retten.“
+ „Ich bin der Spielercharakter, Mensch aus dem Reikland, Gehilfe (Städter, Silber 1).
+ Ich glaube an Sigmar, weil das hier jeder tut, der nicht ausdrücklich
+ etwas anderes sagt. Etikette (Dienstboten) heißt: im Hinterzimmer der
+ Krämerin weiß ich, wie man mit Laufburschen und Mägden spricht — ein Händler
+ als Gilden-Kaufmann merkt, dass ich keine Gildenzunge habe.
+ Motivation: Schulden des Vaters. Kurzfristiges Ziel: den Ballen vor
+ ein Schläger retten.“
 
 Dafür braucht jeder Schritt:
 
-  A. Buchregel (schon da, Original)
-  B. Eine kurze Welt-Erklärung in angepasst.md oder in einem Primer-Hub
-     (unsere Worte, kein zweites Original)
-  C. 1–3 konkrete Bilder aus dem Reikland (details.md)
-  D. Links auf Original der verwandten Mechanik (Volk, Karriere, Talent, Kult)
+ A. Buchregel (schon da, Original)
+ B. Eine kurze Welt-Erklärung in angepasst.md oder in einem Primer-Hub
+ (unsere Worte, kein zweites Original)
+ C. 1–3 konkrete Bilder aus dem Reikland (details.md)
+ D. Links auf Original der verwandten Mechanik (Volk, Karriere, Talent, Kult)
 
 Keine Wand aus Lore vor Schritt 1. Die Welt kommt IM Schritt, wenn die
 Wahl sie braucht. Maximal ein kurzer Primer VOR Schritt 1 (eine Seite).
@@ -143,176 +143,176 @@ Wahl sie braucht. Maximal ein kurzer Primer VOR Schritt 1 (eine Seite).
 Keine parallele Hierarchie. Bestehende Ordner.
 
 5.1 Primer für Neulinge (Hubs, kein 3-Datei-Zwang, außer eine Mechanik
-    entsteht). Alle mit ### Siehe auch.
+ entsteht). Alle mit ### Siehe auch.
 
-  knowledge/01-einfuehrung/03-die-alte-welt.md
-      Was die Alte Welt ist, Imperium, Reikland, Altdorf, die fünf Völker
-      in einem Absatz je. Quelle: S. 6–8, 24–29, Reikland-Kapitel.
-      Kein Bestiarium. Chaos nur: es gibt verbotene Kulte, der SL sagt,
-      wann sie auftauchen.
+ knowledge/01-einfuehrung/03-die-alte-welt.md
+ Was die Alte Welt ist, Imperium, Reikland, Altdorf, die fünf Völker
+ in einem Absatz je. Quelle: S. 6–8, 24–29, Reikland-Kapitel.
+ Kein Bestiarium. Chaos nur: es gibt verbotene Kulte, der SL sagt,
+ wann sie auftauchen.
 
-  knowledge/02-charaktere/09-anfaenger-hilfe.md
-      Wegweiser entlang der 9 Schritte. Pro Schritt: was du wählst, warum
-      es in der Welt zählt, Link auf Hub + Original. Das ist die
-      SPIELERSEITE der Erschaffung.
+ knowledge/02-charaktere/09-anfaenger-hilfe.md
+ Wegweiser entlang der 9 Schritte. Pro Schritt: was du wählst, warum
+ es in der Welt zählt, Link auf Hub + Original. Das ist die
+ SPIELERSEITE der Erschaffung.
 
-  knowledge/11-religion/04-glauben-bei-der-erschaffung.md
-      Nur was zur Erschaffung nötig ist. Nicht Gebete/Wunder/Sündenpunkte
-      (das bleibt 11-religion/03, weiterhin Gerüst bis extrahiert).
-      Inhalt:
-        — Die meisten Menschen im Reikland: Sigmar
-        — Ulric, Shallya, Morr, Verena, Myrmidia, Ranald, Taal/Rhya, Manann
-          je 2–4 Sätze: wofür der Gott steht, wer ihn ehrt, was ein Laie tut
-        — Zwerg: Ahnen, nicht menschliche Götter
-        — Halbling: oft menschliche Götter plus eigene Hauskulte
-        — Elfen: eigene Götter, Distanz zum Sigmar-Kult
-        — Chaosgötter: nicht wählbar als offener Glaube; Hinweis an den SL
-      Quelle: S. 202 ff. Visuell lesen. Original der Kulte später in eigenen
-      Ordnern; dieser Hub darf kurzer Projekttext sein und auf Originale
-      zeigen, sobald sie existieren.
-      Solange Kulte Gerüst sind: Hub mit [prüfen am Buch S. xx], keine
-      erfundenen Domänen.
+ knowledge/11-religion/04-glauben-bei-der-erschaffung.md
+ Nur was zur Erschaffung nötig ist. Nicht Gebete/Wunder/Sündenpunkte
+ (das bleibt 11-religion/03, weiterhin Gerüst bis extrahiert).
+ Inhalt:
+ — Die meisten Menschen im Reikland: Sigmar
+ — Ulric, Shallya, Morr, Verena, Myrmidia, Ranald, Taal/Rhya, Manann
+ je 2–4 Sätze: wofür der Gott steht, wer ihn ehrt, was ein Laie tut
+ — Zwerg: Ahnen, nicht menschliche Götter
+ — Halbling: oft menschliche Götter plus eigene Hauskulte
+ — Elfen: eigene Götter, Distanz zum Sigmar-Kult
+ — Chaosgötter: nicht wählbar als offener Glaube; Hinweis an den SL
+ Quelle: S. 202 ff. Visuell lesen. Original der Kulte später in eigenen
+ Ordnern; dieser Hub darf kurzer Projekttext sein und auf Originale
+ zeigen, sobald sie existieren.
+ Solange Kulte Gerüst sind: Hub mit [prüfen am Buch S. xx], keine
+ erfundenen Domänen.
 
-  knowledge/07-reikland/04-leben-im-reikland.md
-      Alltag für die Erschaffung: Stadt vs. Fluss vs. Wald, Gilden,
-      Wache, Bettlerkönige, Status (wer gibt Trinkgeld, wer zieht den Hut).
-      Quelle: Reikland-Kapitel + Status S. 49 + Klassen-Flavour S. 30–32.
-      Nicht die ganze Provinz-Gazetteer.
+ knowledge/07-reikland/04-leben-im-reikland.md
+ Alltag für die Erschaffung: Stadt vs. Fluss vs. Wald, Gilden,
+ Wache, Bettlerkönige, Status (wer gibt Trinkgeld, wer zieht den Hut).
+ Quelle: Reikland-Kapitel + Status S. 49 + Klassen-Flavour S. 30–32.
+ Nicht die ganze Provinz-Gazetteer.
 
 5.2 Erschaffungs-Hubs ERWEITERN (nicht ersetzen)
 
-  01-charaktererschaffung-uebersicht.md
-      Oben Link auf 09-anfaenger-hilfe.md und 03-die-alte-welt.md.
-      Die 9 Schritte behalten.
+ 01-charaktererschaffung-uebersicht.md
+ Oben Link auf 09-anfaenger-hilfe.md und 03-die-alte-welt.md.
+ Die 9 Schritte behalten.
 
-  Pro Schritt-Hub (02-voelker-kurz, 03-klasse-karriere-einfuehrung,
-  04-attribute, 05-faehigkeiten-talente-start, 06-ausruestung-details,
-  07-gruppe-und-steigerungen, 08-charakterbogen):
-      Abschnitt „Für Neulinge“: 5–12 Sätze Welt, dann Links.
-      Kein Buchtext kopieren.
+ Pro Schritt-Hub (02-voelker-kurz, 03-klasse-karriere-einfuehrung,
+ 04-attribute, 05-faehigkeiten-talente-start, 06-ausruestung-details,
+ 07-gruppe-und-steigerungen, 08-charakterbogen):
+ Abschnitt „Für Neulinge“: 5–12 Sätze Welt, dann Links.
+ Kein Buchtext kopieren.
 
-  Völker angepasst.md (5 Dateien)
-      Abschnitt „Im Reikland“: was Nachbarn über dich sagen (verweist auf
-      Ansichten im Original, wiederholt sie nicht). Was der Neuling bei
-      der Wahl dieses Volks in der Gruppe auslöst.
+ Völker angepasst.md (5 Dateien)
+ Abschnitt „Im Reikland“: was Nachbarn über dich sagen (verweist auf
+ Ansichten im Original, wiederholt sie nicht). Was der Neuling bei
+ der Wahl dieses Volks in der Gruppe auslöst.
 
-  Karrieren angepasst.md (Bürger 8 + Halunke zuerst)
-      Abschnitt „Leben“: eine Szene (Laden, Gosse, Wachstube, Gilde, Kanal).
-      Abschnitt „Talent-Einsatz Stufe 1“: die 4 Talente mit je einem
-      Satz „wann das in der Szene passiert“, Link auf Talent-details.
+ Karrieren angepasst.md (Bürger 8 + Halunke zuerst)
+ Abschnitt „Leben“: eine Szene (Laden, Gosse, Wachstube, Gilde, Kanal).
+ Abschnitt „Talent-Einsatz Stufe 1“: die 4 Talente mit je einem
+ Satz „wann das in der Szene passiert“, Link auf Talent-details.
 
 5.3 Talente — PFLICHTBLOCK in details.md
 
-  Neue Überschrift, nach „Hilfe“, vor „Prüfen“:
+ Neue Überschrift, nach „Hilfe“, vor „Prüfen“:
 
-      ## Einsatz in der Spielwelt
+ ## Einsatz in der Spielwelt
 
-      - Wann es der Spieler MERKT (Alltag, Basar, Wache, Tempel, Nacht)
-      - Was der SL sieht / wann er es anbietet, ohne zu verraten
-      - Eine Grenze (wann es NICHT greift) — Etikette-Dienstboten vs. Gilde
-        ist das Muster (steht schon in etikette/details.md)
-      - Verweis auf Fähigkeit, die oft danebenliegt
-      - Kein zweites Original, keine erfundenen Boni
+ - Wann es der Spieler MERKT (Alltag, Basar, Wache, Tempel, Nacht)
+ - Was der SL sieht / wann er es anbietet, ohne zu verraten
+ - Eine Grenze (wann es NICHT greift) — Etikette-Dienstboten vs. Gilde
+ ist das Muster (steht schon in etikette/details.md)
+ - Verweis auf Fähigkeit, die oft danebenliegt
+ - Kein zweites Original, keine erfundenen Boni
 
-  Reihenfolge der Talent-Welle (erst Original extrahieren, DANN Einsatz):
+ Reihenfolge der Talent-Welle (erst Original extrahieren, DANN Einsatz):
 
-    Schon Original, nur Einsatz nachziehen:
-      etikette, einnehmendes_wesen, lesen_und_schreiben, redeschwall,
-      staemmig, strassenkatze, unauffaellig, verhandlungsgenie
+ Schon Original, nur Einsatz nachziehen:
+ etikette, einnehmendes_wesen, lesen_und_schreiben, redeschwall,
+ staemmig, strassenkatze, unauffaellig, verhandlungsgenie
 
-    Original fehlt, für Bürger-Stufe-1 + Kurt nötig
-    (Buch S. 132–147 visuell, Datei N = Buchseite+1):
-      gesellig, schnorrer, genuegsam, resistenz, unverwuestlich,
-      aufgeweckt, handwerksgeschick, kuenstlerisch, sehr_stark,
-      starker_ruecken, bedrohlich, kriminell, maechtiger_schlag,
-      betaeubender_schlag, nachtsicht, beharrlich, gedrillt, robustheit
+ Original fehlt, für Bürger-Stufe-1 + ein Schläger nötig
+ (Buch S. 132–147 visuell, Datei N = Buchseite+1):
+ gesellig, schnorrer, genuegsam, resistenz, unverwuestlich,
+ aufgeweckt, handwerksgeschick, kuenstlerisch, sehr_stark,
+ starker_ruecken, bedrohlich, kriminell, maechtiger_schlag,
+ betaeubender_schlag, nachtsicht, beharrlich, gedrillt, robustheit
 
-    Ein Talent = ein Ordner. Original einfrieren, angepasst Loop,
-    details Hilfe + Einsatz. Nicht 18 Originale in einer Datei.
+ Ein Talent = ein Ordner. Original einfrieren, angepasst Loop,
+ details Hilfe + Einsatz. Nicht 18 Originale in einer Datei.
 
 ================================================================================
 6. DIE 9 SCHRITTE — WELTWISSEN JE SCHRITT
 ================================================================================
 
-Schritt 1  Volk (S. 24)
-  Neuling: fünf Völker, nicht „Rassen mit Boni“. Mensch = Mehrheit im
-  Reikland, Sigmar, kurze Lebenszeit, Anfälligkeit für Korrumpierung.
-  Zwerg = Ahnen, Grudges, keine Zauberei, Runen. Halbling = Moot,
-  Essen, oft übersehen. Hochelf / Waldelf = selten, fremd, eigener
-  Blick auf Sterbliche. Tabelle 01–90 Mensch: das IST die Welt, kein
-  Balancing-Fehler.
-  Liefern: Primer-Absatz + Link Völker-Original (Ansichten vorlesen lassen).
+Schritt 1 Volk (S. 24)
+ Neuling: fünf Völker, nicht „Rassen mit Boni“. Mensch = Mehrheit im
+ Reikland, Sigmar, kurze Lebenszeit, Anfälligkeit für Korrumpierung.
+ Zwerg = Ahnen, Grudges, keine Zauberei, Runen. Halbling = Moot,
+ Essen, oft übersehen. Hochelf / Waldelf = selten, fremd, eigener
+ Blick auf Sterbliche. Tabelle 01–90 Mensch: das IST die Welt, kein
+ Balancing-Fehler.
+ Liefern: Primer-Absatz + Link Völker-Original (Ansichten vorlesen lassen).
 
-Schritt 2  Klasse und Karriere (S. 30)
-  Klasse = woher du kommst. Karriere = was du den Tag über tust.
-  Status Messing/Silber/Gold = wer mit dir spricht, was du in der Taverne
-  zahlen kannst, ob die Wache dich duzt. Hungerleider Messing 0 = kein
-  Startgeld, das ist Absicht.
-  Stufe 1 hat einen ANDEREN Namen als die Karriere (Gehilfe, Händler,
-  Schläger, Pamphleteverteiler …).
-  Liefern: ein Satz pro Bürger-Klasse im Anfänger-Hub, Link Karriere-Original.
+Schritt 2 Klasse und Karriere (S. 30)
+ Klasse = woher du kommst. Karriere = was du den Tag über tust.
+ Status Messing/Silber/Gold = wer mit dir spricht, was du in der Taverne
+ zahlen kannst, ob die Wache dich duzt. Hungerleider Messing 0 = kein
+ Startgeld, das ist Absicht.
+ Stufe 1 hat einen ANDEREN Namen als die Karriere (Gehilfe, Händler,
+ Schläger, Pamphleteverteiler …).
+ Liefern: ein Satz pro Bürger-Klasse im Anfänger-Hub, Link Karriere-Original.
 
-Schritt 3  Attribute (S. 33–34)
-  Zehn Werte in Alltagssprache (steht im Original). Plus: was 30 vs. 40
-  im Reikland heißt (Durchschnitt vs. „man kennt dich dafür“).
-  Motivation hier anlegen (S. 34) — Beispiele aus dem Buch (Gustavus,
-  Clothilde, Edda) plus ein Reikland-Alltagsbeispiel (Schulden, Ehre,
-  Neugier, Hunger). Mut kommt von Motivation, nicht von Heldentum-Posing.
+Schritt 3 Attribute (S. 33–34)
+ Zehn Werte in Alltagssprache (steht im Original). Plus: was 30 vs. 40
+ im Reikland heißt (Durchschnitt vs. „man kennt dich dafür“).
+ Motivation hier anlegen (S. 34) — Beispiele aus dem Buch (Gustavus,
+ Clothilde, Edda) plus ein Reikland-Alltagsbeispiel (Schulden, Ehre,
+ Neugier, Hunger). Mut kommt von Motivation, nicht von Heldentum-Posing.
 
-Schritt 4  Fähigkeiten und Talente (S. 35–36)
-  Grundfähigkeit = jeder kann würfeln. Ausbau = nur mit Steigerung.
-  Reikspiel kann jeder im Imperium, nicht wählen.
-  40 Karriere-Steigerungen, max. 10 in diesem Block.
-  EIN Talent aus der Stufe-1-Liste. Hier den Einsatz-Text zeigen,
-  bevor der Spieler klickt — sonst wählt er den coolen Namen.
-  Zufallstalent-Tabelle: wenn der Neuling würfelt, Satz „was das im
-  Laden / auf der Straße heißt“.
+Schritt 4 Fähigkeiten und Talente (S. 35–36)
+ Grundfähigkeit = jeder kann würfeln. Ausbau = nur mit Steigerung.
+ Reikspiel kann jeder im Imperium, nicht wählen.
+ 40 Karriere-Steigerungen, max. 10 in diesem Block.
+ EIN Talent aus der Stufe-1-Liste. Hier den Einsatz-Text zeigen,
+ bevor der Spieler klickt — sonst wählt er den coolen Namen.
+ Zufallstalent-Tabelle: wenn der Neuling würfelt, Satz „was das im
+ Laden / auf der Straße heißt“.
 
-Schritt 5  Ausrüstung (S. 37)
-  Klasse gibt den Alltagskram, Karriere den Berufskram, Status das Geld.
-  Was ein Dolch vs. eine Handwaffe in der Stadt bedeutet (Wache, Gesetz).
-  Gambeson ist keine Ritterrüstung.
+Schritt 5 Ausrüstung (S. 37)
+ Klasse gibt den Alltagskram, Karriere den Berufskram, Status das Geld.
+ Was ein Dolch vs. eine Handwaffe in der Stadt bedeutet (Wache, Gesetz).
+ Gambeson ist keine Ritterrüstung.
 
-Schritt 6  Details (S. 37–40)
-  Name, Alter, Haar, Augen, Größe, Gemüt, Ziele.
-  Mensch: Vor- und Nachname. Zwerg/Halbling/Elf: Generatoren aus dem
-  Buch (Roh 06, nicht erfinden).
-  Kurzfristiges vs. langfristiges Ziel + Gruppenziel (S. 41).
-  Gott / Kult hier ANDROCKEN (Link Glauben-bei-der-Erschaffung), nicht
-  als Pflichtfeld für Nicht-Priester.
+Schritt 6 Details (S. 37–40)
+ Name, Alter, Haar, Augen, Größe, Gemüt, Ziele.
+ Mensch: Vor- und Nachname. Zwerg/Halbling/Elf: Generatoren aus dem
+ Buch (Roh 06, nicht erfinden).
+ Kurzfristiges vs. langfristiges Ziel + Gruppenziel (S. 41).
+ Gott / Kult hier ANDROCKEN (Link Glauben-bei-der-Erschaffung), nicht
+ als Pflichtfeld für Nicht-Priester.
 
-Schritt 7  Gruppe (S. 41)
-  Wie kennt ihr euch? Basar, Flussbarke, gleicher Tempel, gleiche Gasse.
-  Spannungen ok, gegenseitiges Abstechen nicht.
-  Demo-Haken: Greta, Otto, Kurt — Schulden, Ballen, Schläger.
+Schritt 7 Gruppe (S. 41)
+ Wie kennt ihr euch? Basar, Flussbarke, gleicher Tempel, gleiche Gasse.
+ Spannungen ok, gegenseitiges Abstechen nicht.
+ Demo-Haken: Alltagsleute — Schulden, Ballen, Schläger.
 
-Schritt 8  Zum Leben erwecken (S. 42)
-  Eine Anekdote, eine Angst, eine Gewohnheit. Keine Aufsatzpflicht.
-  3 Fragen reichen: Wovor läufst du? Wem schuldest du etwas? Wen rufst
-  du, wenn die Wache kommt — Sigmar, die Gilde, niemanden?
+Schritt 8 Zum Leben erwecken (S. 42)
+ Eine Anekdote, eine Angst, eine Gewohnheit. Keine Aufsatzpflicht.
+ 3 Fragen reichen: Wovor läufst du? Wem schuldest du etwas? Wen rufst
+ du, wenn die Wache kommt — Sigmar, die Gilde, niemanden?
 
-Schritt 9  Steigerungen (S. 43)
-  EP aus Zufall (Volk, Karriere, Attribute). Noch nichts ausgeben müssen.
-  Nur sagen: später Talente 100+100 n, Karrierewechsel 100/200.
+Schritt 9 Steigerungen (S. 43)
+ EP aus Zufall (Volk, Karriere, Attribute). Noch nichts ausgeben müssen.
+ Nur sagen: später Talente 100+100 n, Karrierewechsel 100/200.
 
 ================================================================================
 7. RELIGION — GRENZE DIESER WELLE
 ================================================================================
 
 JA, jetzt
-  Primer „Glauben bei der Erschaffung“
-  Pro Volk ein Satz, welchen Kult ein Laie kennt
-  Sigmar als Default-Reikländer, ohne Priester-Zwang
-  Ranald für Halunken/Bettler als Gerücht, nicht als Zwang
-  Shallya / Morr als Alltagsgötter (Geburt, Tod, Krankheit)
-  Verweis auf Beten-Fähigkeit (Original existiert), ohne Wunder-Listen
+ Primer „Glauben bei der Erschaffung“
+ Pro Volk ein Satz, welchen Kult ein Laie kennt
+ Sigmar als Default-Reikländer, ohne Priester-Zwang
+ Ranald für Halunken/Bettler als Gerücht, nicht als Zwang
+ Shallya / Morr als Alltagsgötter (Geburt, Tod, Krankheit)
+ Verweis auf Beten-Fähigkeit (Original existiert), ohne Wunder-Listen
 
 NEIN, jetzt nicht
-  Ganze Kult-Ordner 8×3 Dateien, bevor der Primer steht
-  Segnungen, Wunder, Sündenpunkte, Zorn der Götter ausspielen
-  Chaos-Götter als Spielerwahl
-  Magie-Kapitel, Wind Ulgu, Akademien — außer ein Satz im Agitator-Original
-    (steht schon), der verlinkt werden darf
+ Ganze Kult-Ordner 8×3 Dateien, bevor der Primer steht
+ Segnungen, Wunder, Sündenpunkte, Zorn der Götter ausspielen
+ Chaos-Götter als Spielerwahl
+ Magie-Kapitel, Wind Ulgu, Akademien — außer ein Satz im Agitator-Original
+ (steht schon), der verlinkt werden darf
 
 Wenn du einen Kult extraierst: eigener Ordner unter 11-religion/kulte/<slug>/
 mit Original S. 202 ff. Nicht in die Erschaffungs-Hubs kleben.
@@ -323,43 +323,43 @@ mit Original S. 202 ff. Nicht in die Erschaffungs-Hubs kleben.
 
 - Du, Gegenwart, konkret. Kein Lexikonstil.
 - Ein Bild schlägt drei Adjektive. („Der Wachmann duzt dich nicht, wenn
-  du Silber trägst.“)
+ du Silber trägst.“)
 - Keine Meme, keine 40k-Scherze, keine erfundenen Götter.
 - Deutsche Buchbegriffe behalten: Fähigkeit, Talent, Schicksal, Zähigkeit,
-  Mut, Vorteil, Karriere, Stufe, Messing, Silber, Gold.
+ Mut, Vorteil, Karriere, Stufe, Messing, Silber, Gold.
 - Warhammer-Eigennamen aus dem Buch: Sigmar, Reikland, Altdorf, Übersreik,
-  Ulgu, Skaven — nicht anglisieren, nicht neu schreiben.
+ Ulgu, Skaven — nicht anglisieren, nicht neu schreiben.
 - Spoiler: Skaven „existieren angeblich nicht“ ist Welt, darf in
-  Rattenfänger-details stehen (Buch S. 66 sagt das). Nicht in den
-  Anfänger-Primer der Erschaffung, außer der Spieler DIESE Karriere wählt.
+ Rattenfänger-details stehen (Buch S. 66 sagt das). Nicht in den
+ Anfänger-Primer der Erschaffung, außer der Spieler DIESE Karriere wählt.
 
 ================================================================================
 9. ARBEITSREIHENFOLGE (LIEFERUNG)
 ================================================================================
 
 Welle P1 — Gerüst der Hilfe (keine Massen-Extraktion)
-  01-einfuehrung/03-die-alte-welt.md
-  02-charaktere/09-anfaenger-hilfe.md
-  11-religion/04-glauben-bei-der-erschaffung.md  (kurz, [prüfen] wo unsicher)
-  07-reikland/04-leben-im-reikland.md
-  Links in 01-charaktererschaffung-uebersicht.md, 00-INDEX.md, 00-VOLLTEXT.md
-  Commit: „Primer: Erschaffung für Neulinge (Welt / Glaube / Alltag)“
+ 01-einfuehrung/03-die-alte-welt.md
+ 02-charaktere/09-anfaenger-hilfe.md
+ 11-religion/04-glauben-bei-der-erschaffung.md (kurz, [prüfen] wo unsicher)
+ 07-reikland/04-leben-im-reikland.md
+ Links in 01-charaktererschaffung-uebersicht.md, 00-INDEX.md, 00-VOLLTEXT.md
+ Commit: „Primer: Erschaffung für Neulinge (Welt / Glaube / Alltag)“
 
 Welle P2 — Einsatz-Texte der 8 Demo-Talente (Original schon da)
-  details.md um „Einsatz in der Spielwelt“ ergänzen
-  angepasst.md nur, wenn ein Bogen-Hinweis fehlt
-  Commit: „Welle D+: Talent-Einsatz Demo-Schnitt“
+ details.md um „Einsatz in der Spielwelt“ ergänzen
+ angepasst.md nur, wenn ein Bogen-Hinweis fehlt
+ Commit: „Welle D+: Talent-Einsatz Demo-Schnitt“
 
 Welle P3 — Originale der fehlenden Stufe-1-Talente (Liste in 5.3)
-  Visuell aus S. 132–147, drei Dateien, Gate, Commit in Blöcken zu 4–6
+ Visuell aus S. 132–147, drei Dateien, Gate, Commit in Blöcken zu 4–6
 
 Welle P4 — Karrieren angepasst „Leben“ + Talent-Einsatz-Links
-  Bürger 8 + Halunke. Original nicht anfassen.
+ Bürger 8 + Halunke. Original nicht anfassen.
 
 Welle P5 — Schritt-Hubs „Für Neulinge“ (die sieben Hubs in Kapitel 2)
 
 Danach erst: nächste Klasse (Flussvolk oder Akademiker) ODER Kult-Originale,
-je nachdem, was der Demo-Schnitt braucht. Demo bleibt Mensch + Städter +
+je nachdem, was des Spiels-Schnitt braucht. Demo bleibt Mensch + Städter +
 Kaufmann + Halunke, bis der SL anderes freigibt.
 
 Nach jedem Block: INDEX, VOLLTEXT-Häkchen, Übergabe-Stand, Validator, Commit.
@@ -370,8 +370,8 @@ Push auf main.
 ================================================================================
 
 - visuell aus dem Buch, Mapping 00-QUELLEN.md (Datei N = Buchseite − 1? 
-  Fußzeile = Quelle. Im Zweifel 00-QUELLEN.md, nicht raten.)
-  Bekannt: PDF-Seite = Buchseite + 1 (Halunke Buch 88 = PDF 89).
+ Fußzeile = Quelle. Im Zweifel 00-QUELLEN.md, nicht raten.)
+ Bekannt: PDF-Seite = Buchseite + 1 (Halunke Buch 88 = PDF 89).
 - Unsicher: Original so lassen, in details.md [prüfen am Buch S. xx]
 - Kein erfundener Regeltext, keine erfundenen Boni, keine erfundenen Götter
 - Angepasst nicht länger machen, indem man das Original kopiert
@@ -387,7 +387,7 @@ Push auf main.
 - 167 Talente auf einmal
 - Religion-Kapitel ungekürzt in die Erschaffung kippen
 - Originale „glätten“ oder an den Primer anpassen
-- 05-buerger.md überschreiben (Greta-Anker)
+- 05-buerger.md überschreiben (der Spielercharakter-Anker)
 - Parallelordner / englische Dateinamen / neue Katalog-IDs ohne Register
 - PDF oder Scans committen
 - Spielerwürfel über das Ergebnis hinweg (steht in Das Spiel — nicht ändern)
@@ -398,9 +398,9 @@ Push auf main.
 
 Wenn du diesen Prompt ausführst, ist die erste sichtbare Lieferung:
 
-  1. Die vier Primer/Hilfe-Dateien aus Welle P1, verknüpft
-  2. INDEX + VOLLTEXT + UEBERGABE + NEUES-FENSTER aktualisiert
-  3. Gate grün, Commit, Push
+ 1. Die vier Primer/Hilfe-Dateien aus Welle P1, verknüpft
+ 2. INDEX + VOLLTEXT + UEBERGABE + NEUES-FENSTER aktualisiert
+ 3. Gate grün, Commit, Push
 
 Erst danach P2 (Talent-Einsatz der 8, die schon Original haben).
 Nicht P1 und P3 mischen.
@@ -410,14 +410,14 @@ Nicht P1 und P3 mischen.
 ================================================================================
 
 Ein Mensch ohne Vorwissen liest nur
-  09-anfaenger-hilfe.md + 03-die-alte-welt.md + 04-glauben-bei-der-erschaffung.md
+ 09-anfaenger-hilfe.md + 03-die-alte-welt.md + 04-glauben-bei-der-erschaffung.md
 und kann beantworten:
 
-  — Wo spielt das, in einem Satz?
-  — Warum sind die meisten SC Menschen?
-  — Was ist der Unterschied zwischen Klasse, Karriere und Stufe-1-Name?
-  — Was bedeutet Silber 1 im Laden?
-  — Muss ich Priester sein, um Sigmar zu ehren?
-  — Was tut Etikette (Dienstboten), das Charme allein nicht tut?
+ — Wo spielt das, in einem Satz?
+ — Warum sind die meisten SC Menschen?
+ — Was ist der Unterschied zwischen Klasse, Karriere und Stufe-1-Name?
+ — Was bedeutet Silber 1 im Laden?
+ — Muss ich Priester sein, um Sigmar zu ehren?
+ — Was tut Etikette (Dienstboten), das Charme allein nicht tut?
 
 Wenn eine Antwort fehlt oder Regel erfindet: nachziehen, nicht „fertig“.

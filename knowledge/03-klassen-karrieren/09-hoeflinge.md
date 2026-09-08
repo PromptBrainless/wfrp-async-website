@@ -1,8 +1,8 @@
-# Hoeflinge
+# Höflinge
 
 Quelle: S. 93–100
 
-Weiter: [Ordner](hoeflinge/README.md) — acht Karrieren als Gerüst.
+Weiter: [Ordner](hoeflinge/README.md) — acht Karrieren, Originale gefüllt.
 
 ### Siehe auch
 

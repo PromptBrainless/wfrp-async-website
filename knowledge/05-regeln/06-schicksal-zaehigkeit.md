@@ -1,47 +1,41 @@
 # Schicksal & Zähigkeit
 
-Quelle: S. 171–172
+Quelle: S. 170–172  
+Roh: [_roh/schicksal-s170-172.md](_roh/schicksal-s170-172.md)
 
-## Überblick
+Schicksal und Zähigkeit repräsentieren, was dich besonders macht: Gunst der Götter oder schlicht Glück.
 
-- **Schicksal** = Bestimmung / göttliche Gunst → abgeleitete **Glückspunkte**
-- **Zähigkeit** = innere Entschlossenheit → abgeleitete **Mutpunkte**
+- **Schicksal** → abgeleitete **Glückspunkte**
+- **Zähigkeit** → abgeleitete **Mutpunkte**
 
-Glücks- und Mutpunkte regenerieren sich.  
-Schicksal- und Zähigkeitspunkte werden permanent ausgegeben.
+Glück und Mut regenerieren. Schicksal und Zähigkeit werden permanent ausgegeben.
 
-## Glückspunkte ausgeben
+## Glück ausgeben
 
 - Einen misslungenen Wurf wiederholen
 - Nach dem Würfeln +1 EG addieren
 - Am Anfang der Runde entscheiden, wann man am Zug ist (unabhängig von Initiative)
 
-## Schicksalspunkte ausgeben
+## Schicksal ausgeben
 
-- **Nein, nicht heute!** → Charakter fällt besinnungslos aus dem Geschehen, überlebt aber sicher.
-- **Wie konnte das verfehlen?** → Charakter entgeht dem Schaden auf absurde Weise und kann weiterkämpfen.
+- **Nein, nicht heute!** — besinnungslos aus dem Geschehen, überlebt
+- **Wie konnte das verfehlen?** — entgeht dem Schaden auf absurde Weise, kann weiterkämpfen
 
-## Mutpunkte ausgeben
+## Mut ausgeben
 
 - Bis zum Ende der nächsten Runde immun gegen Psychologie
-- Bis zum Beginn der nächsten Runde alle Modifikatoren einer Kritischen Verletzung ignorieren
+- Bis zum Beginn der nächsten Runde Modifikatoren einer Kritischen Verletzung ignorieren
 - 1 Zustand entfernen (bei *Niedergestreckt* zusätzlich +1 LP)
 
-## Zähigkeitspunkte ausgeben
+## Zähigkeit ausgeben
 
-- **Ich trotze Euch!** → Keine Mutation / keine Korrumpierungspunkte
-- **Ich werde nicht scheitern!** → Wurfergebnis selbst wählen (mind. +1 EG bei Vergleichenden Würfen, Trefferzone wählbar bei Kritischen Treffern)
+- Dem Einfluss des Chaos trotzen (Korrumpierungspunkte bleiben)
+- Weitere Optionen im Roh
 
-## Regeneration
-
-- Glückspunkte: zu Beginn jedes Spielabends voll zurück (entsprechend aktuellem Schicksal)
-- Mutpunkte: entsprechend aktueller Zähigkeit
-- Neue Schicksals-/Zähigkeitspunkte: sehr selten, meist nur für extreme Heldentaten am Ende wichtiger Abenteuer
-
----
+Erhalten: siehe Roh und [SL: EP und Schicksal vergeben](../06-spielleiter/_roh/sl-s258-265.md).
 
 ### Siehe auch
-- [Attribute](../02-charaktere/04-attribute.md)
+
+- [Roh Schicksal](_roh/schicksal-s170-172.md)
 - [Zustände](05-zustaende.md)
-- [Vorteile](03-vorteile.md)
-- [Kampf – Übersicht](02-kampf-uebersicht.md)
+- [Korrumpierung](11-korrumpierung.md)

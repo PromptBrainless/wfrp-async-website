@@ -2,9 +2,9 @@
 
 Quelle der Regeln: [original.md](original.md) (S. 77)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Keine Katalogkarte. Die Karriere filtert, welche Fähigkeiten und Talente der Charakter kennen darf.
 
-
+Stufe 1: **Meldeläufer**, Messing 3. Bogen-Keys: `klasse` = `freisassen`, `karriere` = `bote`, `karrierestufe` = 1.
 
 ### Befehl
 
@@ -14,5 +14,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 
 - [Original](original.md)
 - [Details](details.md)
-- [Freisassen](../../freisassen/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
+- [Status](../../02-status-system.md)

@@ -1,19 +1,19 @@
 # Etikette — Details / Hilfe
 
-JSON-`id`: `etikette`  
+JSON-`id`: `etikette` 
 Quelle: S. 135 · [talents.json](../../../data/talents.json)
 
 ## Hilfe
 
 - Eine Spezialisierung pro Stufe. Mehrfach kaufbar bis CH-Bonus.
 - SL darf Charisma-Würfe modifizieren, muss aber nicht — oft reines Rollenspiel.
-- Dienstboten ≠ Krämer-Kunden. Greta im Laden gegenüber Otto: nicht automatisch Etikette.
+- Dienstboten ≠ Krämer-Kunden. der Spielercharakter im Laden gegenüber ein Händler: nicht automatisch Etikette.
 
 ## Einsatz in der Spielwelt
 
-Greta (Gehilfe) nimmt **Dienstboten**. Hinter der Theke, in der Küche, am Hintereingang der Gilde: wer den Hut zieht, wer „Ihr“ sagt, wer die Schürze nicht in den Laden trägt. Die Wache und die Krämerin merken, ob sie dazugehört.
+Stufe 1 (Gehilfe) nimmt **Dienstboten**. Hinter der Theke, in der Küche, am Hintereingang der Gilde: wer den Hut zieht, wer „Ihr“ sagt, wer die Schürze nicht in den Laden trägt. Die Wache und die Krämerin merken, ob sie dazugehört.
 
-Otto als Händler später: **Gildenmitglieder**. Kurt Stufe 1: **Kriminelle** — andere Gruppe, andere Zeichen, andere Beleidigungen.
+Kaufmann Stufe 2: **Gildenmitglieder**. Halunke Stufe 1: **Kriminelle** — andere Gruppe, andere Zeichen, andere Beleidigungen.
 
 Ohne das Talent in der Gruppe wirkst du unsicher. Das ist Alltag im Reikland, kein Zauber. Kleidung und Verhalten müssen passen; zerlumpt in der Gildenhalle hilft Dienstboten-Etikette nicht.
 

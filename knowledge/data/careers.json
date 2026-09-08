@@ -5,49 +5,354 @@
       "id": "advokat",
       "name": "Advokat",
       "klasse": "akademiker",
-      "seite": 53
+      "seite": 53,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/akademiker/advokat/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Student der Juristerei",
+          "tier": "messing",
+          "rang": 4,
+          "talente": [
+            "etikette",
+            "lesen_und_schreiben",
+            "redeschwall",
+            "schnellleser"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Advokat",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Rechtsgelehrter",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Richter",
+          "tier": "gold",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "apotheker",
       "name": "Apotheker",
       "klasse": "akademiker",
-      "seite": 53
+      "seite": 54,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/akademiker/apotheker/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Apotheker-Lehrling",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "etikette",
+            "handwerksgeschick",
+            "lesen_und_schreiben",
+            "zusammenmischen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Apotheker",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 3,
+          "name": "Apotheker-Meister",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Hofapotheker",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "gelehrter",
       "name": "Gelehrter",
       "klasse": "akademiker",
-      "seite": 53
+      "seite": 55,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/akademiker/gelehrter/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Student",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "gerissenheit",
+            "lesen_und_schreiben",
+            "trunkenbold",
+            "zahlengenie"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Gelehrter",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Dozent",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Professor",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "medicus",
       "name": "Medicus",
       "klasse": "akademiker",
-      "seite": 53
+      "seite": 56,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/akademiker/medicus/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Medicus-Lehrling",
+          "tier": "messing",
+          "rang": 4,
+          "talente": [
+            "betaeubender_schlag",
+            "buecherwurm",
+            "feldscher",
+            "lesen_und_schreiben"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Medicus",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Doktor",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Hofarzt",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "moench",
       "name": "Mönch",
       "klasse": "akademiker",
-      "seite": 53
+      "seite": 57,
+      "voelker": [
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/akademiker/moench/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Novize",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "genuegsam",
+            "lesen_und_schreiben",
+            "segen",
+            "schnorrer"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Mönch",
+          "tier": "messing",
+          "rang": 4
+        },
+        {
+          "nr": 3,
+          "name": "Abt",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 4,
+          "name": "Generaloberer",
+          "tier": "silber",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "priester",
       "name": "Priester",
       "klasse": "akademiker",
-      "seite": 53
+      "seite": 58,
+      "voelker": [
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/akademiker/priester/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Initiat",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "einnehmendes_wesen",
+            "heilige_visionen",
+            "lesen_und_schreiben",
+            "segen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Priester",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 3,
+          "name": "Hohepriester",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Lektor",
+          "tier": "gold",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "technicus",
       "name": "Technicus",
       "klasse": "akademiker",
-      "seite": 53
+      "seite": 59,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/akademiker/technicus/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Technicus-Student",
+          "tier": "messing",
+          "rang": 4,
+          "talente": [
+            "bastler",
+            "lesen_und_schreiben",
+            "kuenstlerisch",
+            "pulverschuetze"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Technicus",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Meistertechnicus",
+          "tier": "silber",
+          "rang": 4
+        },
+        {
+          "nr": 4,
+          "name": "Hoftechnicus",
+          "tier": "gold",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "zauberer",
       "name": "Zauberer",
       "klasse": "akademiker",
-      "seite": 53
+      "seite": 60,
+      "voelker": [
+        "hochelf",
+        "mensch",
+        "waldelf"
+      ],
+      "original": "03-klassen-karrieren/akademiker/zauberer/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Zauberlehrling",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "aethergespuer",
+            "lesen_und_schreiben",
+            "niedere_magie",
+            "zweites_gesicht"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Zauberer",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Meisterzauberer",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Erzmagier",
+          "tier": "gold",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "agitator",
@@ -475,67 +780,487 @@
       "id": "bote",
       "name": "Bote",
       "klasse": "freisassen",
-      "seite": 77
+      "seite": 77,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/freisassen/bote/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Meldeläufer",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "fliehen",
+            "flinkes_ausweichen",
+            "leichtfuessigkeit",
+            "sprinter"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Bote",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 3,
+          "name": "Kurier",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Kurier-Meister",
+          "tier": "silber",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "flagellant",
       "name": "Flagellant",
       "klasse": "freisassen",
-      "seite": 77
+      "seite": 78,
+      "voelker": [
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/freisassen/flagellant/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Zelot",
+          "tier": "messing",
+          "rang": 0,
+          "talente": [
+            "berserkerangriff",
+            "genuegsam",
+            "lesen_und_schreiben",
+            "raserei"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Flagellant",
+          "tier": "messing",
+          "rang": 0
+        },
+        {
+          "nr": 3,
+          "name": "Büßer",
+          "tier": "messing",
+          "rang": 0
+        },
+        {
+          "nr": 4,
+          "name": "Untergangsprophet",
+          "tier": "messing",
+          "rang": 0
+        }
+      ]
     },
     {
       "id": "hausierer",
       "name": "Hausierer",
       "klasse": "freisassen",
-      "seite": 77
+      "seite": 79,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/freisassen/hausierer/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Vagabund",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "bastler",
+            "fischer",
+            "fliehen",
+            "streuner"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Hausierer",
+          "tier": "messing",
+          "rang": 4
+        },
+        {
+          "nr": 3,
+          "name": "Meisterhausierer",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Wanderkrämer",
+          "tier": "silber",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "hexenjaeger",
       "name": "Hexenjäger",
       "klasse": "freisassen",
-      "seite": 77
+      "seite": 80,
+      "voelker": [
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/freisassen/hexenjaeger/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Verhörspezialist",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "bedrohlich",
+            "entschlossen",
+            "kuehler_kopf",
+            "lesen_und_schreiben"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Hexenjäger",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Inquisitor",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Hexenjäger-Hauptmann",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "kopfgeldjaeger",
       "name": "Kopfgeldjäger",
       "klasse": "freisassen",
-      "seite": 77
+      "seite": 81,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/freisassen/kopfgeldjaeger/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Diebesfänger",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "betaeubender_schlag",
+            "einnehmendes_wesen",
+            "schatten",
+            "tuerentreter"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Kopfgeldjäger",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Meister Kopfgeldjäger",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Kopfgeldjäger-Hauptmann",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "kutscher",
       "name": "Kutscher",
       "klasse": "freisassen",
-      "seite": 77
+      "seite": 82,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/freisassen/kutscher/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Postillon",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "beharrlich",
+            "erfahrener_reisender",
+            "kunstreiter",
+            "tierverbundenheit"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Kutscher",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Kutschmeister",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Linienmeister",
+          "tier": "silber",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "schausteller",
       "name": "Schausteller",
       "klasse": "freisassen",
-      "seite": 77
+      "seite": 83,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/freisassen/schausteller/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Straßenkünstler",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "attraktiv",
+            "einnehmendes_wesen",
+            "imitator",
+            "rhetorik"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Schausteller",
+          "tier": "messing",
+          "rang": 5
+        },
+        {
+          "nr": 3,
+          "name": "Troubadour",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Ensembleleiter",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "strassenwaechter",
       "name": "Straßenwächter",
       "klasse": "freisassen",
-      "seite": 77
+      "seite": 84,
+      "voelker": [
+        "halbling",
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/freisassen/strassenwaechter/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Zöllner",
+          "tier": "messing",
+          "rang": 5,
+          "talente": [
+            "kuehler_kopf",
+            "meisterschuetze",
+            "numismatiker",
+            "unterschlagen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Straßenwächter",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Straßenweibel",
+          "tier": "silber",
+          "rang": 4
+        },
+        {
+          "nr": 4,
+          "name": "Straßenhauptmann",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "bandit",
       "name": "Bandit",
       "klasse": "gesetzlose",
-      "seite": 85
+      "seite": 85,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/gesetzlose/bandit/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Brigant",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "fliehen",
+            "kampfsinn",
+            "kriminell",
+            "streuner"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Bandit",
+          "tier": "messing",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Räuberhauptmann",
+          "tier": "messing",
+          "rang": 4
+        },
+        {
+          "nr": 4,
+          "name": "Banditenkönig",
+          "tier": "silber",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "dieb",
       "name": "Dieb",
       "klasse": "gesetzlose",
-      "seite": 85
+      "seite": 86,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/gesetzlose/dieb/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Beutelschneider",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "betaeubender_schlag",
+            "fliehen",
+            "kriminell",
+            "strassenkatze"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Dieb",
+          "tier": "messing",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Meisterdieb",
+          "tier": "messing",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Einbrecherkönig",
+          "tier": "silber",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "grabraeuber",
       "name": "Grabräuber",
       "klasse": "gesetzlose",
-      "seite": 85
+      "seite": 87,
+      "voelker": [
+        "halbling",
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/gesetzlose/grabraeuber/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Leichendieb",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "fliehen",
+            "kriminell",
+            "starker_ruecken",
+            "strassenkatze"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Grabräuber",
+          "tier": "messing",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Raubgräber",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Schatzjäger",
+          "tier": "silber",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "halunke",
@@ -593,169 +1318,1245 @@
       "id": "hehler",
       "name": "Hehler",
       "klasse": "gesetzlose",
-      "seite": 85
+      "seite": 89,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/gesetzlose/hehler/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Trödler",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "gesellig",
+            "kartenkuenstler",
+            "strassenkatze",
+            "verhandlungsgenie"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Hehler",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Meisterhehler",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Schwarzmarktbaron",
+          "tier": "silber",
+          "rang": 4
+        }
+      ]
     },
     {
       "id": "hexer",
       "name": "Hexer",
       "klasse": "gesetzlose",
-      "seite": 85
+      "seite": 90,
+      "voelker": [
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/gesetzlose/hexer/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Hexling",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "bedrohlich",
+            "instinktive_aussprache",
+            "kriminell",
+            "niedere_magie"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Hexer",
+          "tier": "messing",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Drudner",
+          "tier": "messing",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Hexenmeister",
+          "tier": "messing",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "kuppler",
       "name": "Kuppler",
       "klasse": "gesetzlose",
-      "seite": 85
+      "seite": 91,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/gesetzlose/kuppler/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Stricher",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "attraktiv",
+            "gesellig",
+            "redeschwall",
+            "strassenkatze"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Kuppler",
+          "tier": "messing",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Zuhälter",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Ludenkönig",
+          "tier": "silber",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "scharlatan",
       "name": "Scharlatan",
       "klasse": "gesetzlose",
-      "seite": 85
+      "seite": 92,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/gesetzlose/scharlatan/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Schwindler",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "etikette",
+            "glueckspilz",
+            "kartenkuenstler",
+            "wuerfelkuenstler"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Scharlatan",
+          "tier": "messing",
+          "rang": 5
+        },
+        {
+          "nr": 3,
+          "name": "Hochstapler",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 4,
+          "name": "Lügenbaron",
+          "tier": "silber",
+          "rang": 4
+        }
+      ]
     },
     {
       "id": "adeliger",
       "name": "Adeliger",
       "klasse": "hoeflinge",
-      "seite": 93
+      "seite": 93,
+      "voelker": [
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/hoeflinge/adeliger/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Adelsspross",
+          "tier": "gold",
+          "rang": 1,
+          "talente": [
+            "blaubluetig",
+            "etikette",
+            "glueckspilz",
+            "lesen_und_schreiben"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Adeliger",
+          "tier": "gold",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Edler",
+          "tier": "gold",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Fürst",
+          "tier": "gold",
+          "rang": 7
+        }
+      ]
     },
     {
       "id": "berater",
       "name": "Berater",
       "klasse": "hoeflinge",
-      "seite": 93
+      "seite": 94,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/hoeflinge/berater/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Referent",
+          "tier": "silber",
+          "rang": 2,
+          "talente": [
+            "etikette",
+            "gesellig",
+            "lesen_und_schreiben",
+            "unauffaellig"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Berater",
+          "tier": "silber",
+          "rang": 4
+        },
+        {
+          "nr": 3,
+          "name": "Ratgeber",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Kanzler",
+          "tier": "gold",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "diener",
       "name": "Diener",
       "klasse": "hoeflinge",
-      "seite": 93
+      "seite": 95,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/hoeflinge/diener/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Lakai",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "staemmig",
+            "starker_ruecken",
+            "unauffaellig",
+            "willensstaerke"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Diener",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Kammerdiener",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Hausdiener",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "duellist",
       "name": "Duellist",
       "klasse": "hoeflinge",
-      "seite": 93
+      "seite": 96,
+      "voelker": [
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/hoeflinge/duellist/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Fechter",
+          "tier": "silber",
+          "rang": 3,
+          "talente": [
+            "klingenschlag",
+            "ablenken",
+            "finte",
+            "flinkes_ausweichen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Duellist",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 3,
+          "name": "Meisterduellant",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Schiedskämpfer",
+          "tier": "gold",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "gesandter",
       "name": "Gesandter",
       "klasse": "hoeflinge",
-      "seite": 93
+      "seite": 97,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/hoeflinge/gesandter/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Herold",
+          "tier": "silber",
+          "rang": 2,
+          "talente": [
+            "einnehmendes_wesen",
+            "etikette",
+            "lesen_und_schreiben",
+            "redeschwall"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Gesandter",
+          "tier": "silber",
+          "rang": 4
+        },
+        {
+          "nr": 3,
+          "name": "Diplomat",
+          "tier": "gold",
+          "rang": 2
+        },
+        {
+          "nr": 4,
+          "name": "Botschafter",
+          "tier": "gold",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "kuenstler",
       "name": "Künstler",
       "klasse": "hoeflinge",
-      "seite": 93
+      "seite": 98,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/hoeflinge/kuenstler/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Künstlerlehrling",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "aufgeweckt",
+            "beharrlich",
+            "kuenstlerisch",
+            "starker_ruecken"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Künstler",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Meisterkünstler",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Maestro",
+          "tier": "gold",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "meier",
       "name": "Meier",
       "klasse": "hoeflinge",
-      "seite": 93
+      "seite": 99,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/hoeflinge/meier/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Verwalter",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "aufgeweckt",
+            "bedrohlich",
+            "betaeubender_schlag",
+            "nachtsicht"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Meier",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Seneschall",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Schultheiß",
+          "tier": "gold",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "spion",
       "name": "Spion",
       "klasse": "hoeflinge",
-      "seite": 93
+      "seite": 100,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/hoeflinge/spion/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Informant",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "gesellig",
+            "redeschwall",
+            "schatten",
+            "trunkenbold"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Spion",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Agent",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Meisterspion",
+          "tier": "gold",
+          "rang": 4
+        }
+      ]
     },
     {
       "id": "gedungener",
       "name": "Gedungener",
       "klasse": "krieger",
-      "seite": 101
+      "seite": 101,
+      "voelker": [
+        "hochelf",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/krieger/gedungener/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Mietling",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "bedrohlich",
+            "geborener_krieger",
+            "messerstecher",
+            "schmutzig_kaempfen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Gedungener",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 3,
+          "name": "Meuchler",
+          "tier": "silber",
+          "rang": 4
+        },
+        {
+          "nr": 4,
+          "name": "Assassine",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "grubenkaempfer",
       "name": "Grubenkämpfer",
       "klasse": "krieger",
-      "seite": 101
+      "seite": 102,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/krieger/grubenkaempfer/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Faustkämpfer",
+          "tier": "messing",
+          "rang": 4,
+          "talente": [
+            "messerstecher",
+            "schmutzig_kaempfen",
+            "spiess_umdrehen",
+            "stahlkinn"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Grubenkämpfer",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Grubenveteran",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Grubenlegende",
+          "tier": "gold",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "kavallerist",
       "name": "Kavallerist",
       "klasse": "krieger",
-      "seite": 101
+      "seite": 103,
+      "voelker": [
+        "hochelf",
+        "mensch",
+        "waldelf"
+      ],
+      "original": "03-klassen-karrieren/krieger/kavallerist/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Berittener",
+          "tier": "silber",
+          "rang": 2,
+          "talente": [
+            "blitzschnelle_reflexe",
+            "kampfsinn",
+            "peitschenknallen",
+            "raureiter"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Kavallerist",
+          "tier": "silber",
+          "rang": 4
+        },
+        {
+          "nr": 3,
+          "name": "Rossweibel",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Kavallerieoffizier",
+          "tier": "gold",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "kriegerpriester",
       "name": "Kriegerpriester",
       "klasse": "krieger",
-      "seite": 101
+      "seite": 104,
+      "voelker": [
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/krieger/kriegerpriester/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Laienpriester",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "etikette",
+            "lesen_und_schreiben",
+            "segen",
+            "willensstaerke"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Kriegerpriester",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Feldpriester",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Priestergeneral",
+          "tier": "silber",
+          "rang": 4
+        }
+      ]
     },
     {
       "id": "ritter",
       "name": "Ritter",
       "klasse": "krieger",
-      "seite": 101
+      "seite": 105,
+      "voelker": [
+        "hochelf",
+        "mensch",
+        "waldelf"
+      ],
+      "original": "03-klassen-karrieren/krieger/ritter/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Knappe",
+          "tier": "silber",
+          "rang": 3,
+          "talente": [
+            "etikette",
+            "geborener_krieger",
+            "raureiter",
+            "staemmig"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Ritter",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 3,
+          "name": "Erster Ritter",
+          "tier": "gold",
+          "rang": 2
+        },
+        {
+          "nr": 4,
+          "name": "Ritter des Inneren Zirkels",
+          "tier": "gold",
+          "rang": 4
+        }
+      ]
     },
     {
       "id": "slayer",
       "name": "Slayer",
       "klasse": "krieger",
-      "seite": 101
+      "seite": 106,
+      "voelker": [
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/krieger/slayer/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Trollslayer",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "beidhaendiger_angriff",
+            "furchtlosigkeit",
+            "raserei",
+            "slayer"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Riesenslayer",
+          "tier": "messing",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Drachenslayer",
+          "tier": "messing",
+          "rang": 2
+        },
+        {
+          "nr": 4,
+          "name": "Dämonenslayer",
+          "tier": "messing",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "soldat",
       "name": "Soldat",
       "klasse": "krieger",
-      "seite": 101
+      "seite": 107,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/krieger/soldat/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Rekrut",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "geborener_krieger",
+            "meisterschuetze",
+            "starker_ruecken",
+            "wuerfelkuenstler"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Soldat",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Feldweibel",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Offizier",
+          "tier": "gold",
+          "rang": 1
+        }
+      ]
     },
     {
       "id": "waechter",
       "name": "Wächter",
       "klasse": "krieger",
-      "seite": 101
+      "seite": 108,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/krieger/waechter/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "T orwächter",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "beharrlich",
+            "betaeubender_schlag",
+            "etikette",
+            "wuerfelkuenstler"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Wächter",
+          "tier": "silber",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Ehrenwächter",
+          "tier": "silber",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Wachoffizier",
+          "tier": "silber",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "bergmann",
       "name": "Bergmann",
       "klasse": "landvolk",
-      "seite": 109
+      "seite": 109,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/landvolk/bergmann/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Schürfer",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "beharrlich",
+            "staemmig",
+            "streuner",
+            "trittsicher"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Bergmann",
+          "tier": "messing",
+          "rang": 4
+        },
+        {
+          "nr": 3,
+          "name": "Steiger",
+          "tier": "messing",
+          "rang": 5
+        },
+        {
+          "nr": 4,
+          "name": "Minenaufseher",
+          "tier": "silber",
+          "rang": 4
+        }
+      ]
     },
     {
       "id": "buettel",
       "name": "Büttel",
       "klasse": "landvolk",
-      "seite": 109
+      "seite": 110,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/landvolk/buettel/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Steuereintreiber",
+          "tier": "silber",
+          "rang": 1,
+          "talente": [
+            "beharrlich",
+            "numismatiker",
+            "starker_ruecken",
+            "unterschlagen"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Büttel",
+          "tier": "silber",
+          "rang": 5
+        },
+        {
+          "nr": 3,
+          "name": "Vogt",
+          "tier": "gold",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Magistrat",
+          "tier": "gold",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "doerfler",
       "name": "Dörfler",
       "klasse": "landvolk",
-      "seite": 109
+      "seite": 111,
+      "voelker": [
+        "halbling",
+        "mensch",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/landvolk/doerfler/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Gemeiner",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "genuegsam",
+            "starker_ruecken",
+            "streuner",
+            "willensstaerke"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Dörfler",
+          "tier": "messing",
+          "rang": 3
+        },
+        {
+          "nr": 3,
+          "name": "Dorfschulze",
+          "tier": "messing",
+          "rang": 4
+        },
+        {
+          "nr": 4,
+          "name": "Dorfältester",
+          "tier": "silber",
+          "rang": 2
+        }
+      ]
     },
     {
       "id": "heckenhexer",
       "name": "Heckenhexer",
       "klasse": "landvolk",
-      "seite": 109
+      "seite": 112,
+      "voelker": [
+        "mensch"
+      ],
+      "original": "03-klassen-karrieren/landvolk/heckenhexer/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Heckenlehrling",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "flinke_finger",
+            "niedere_magie",
+            "streuner",
+            "trittsicher"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Heckenhexer",
+          "tier": "messing",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Heckenmagus",
+          "tier": "messing",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Heckenweiser",
+          "tier": "messing",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "jaeger",
       "name": "Jäger",
       "klasse": "landvolk",
-      "seite": 109
+      "seite": 113,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/landvolk/jaeger/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Fallensteller",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "robustheit",
+            "streuner",
+            "trittsicher",
+            "fallensteller"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Jäger",
+          "tier": "messing",
+          "rang": 4
+        },
+        {
+          "nr": 3,
+          "name": "Fährtenleser",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Jagdmeister",
+          "tier": "silber",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "kraeuterkundiger",
       "name": "Kräuterkundiger",
       "klasse": "landvolk",
-      "seite": 109
+      "seite": 114,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf"
+      ],
+      "original": "03-klassen-karrieren/landvolk/kraeuterkundiger/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Kräutersammler",
+          "tier": "messing",
+          "rang": 2,
+          "talente": [
+            "richtungssinn",
+            "scharfer_sinn",
+            "streuner",
+            "trittsicher"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Kräuterkundiger",
+          "tier": "messing",
+          "rang": 4
+        },
+        {
+          "nr": 3,
+          "name": "Kräutermeister",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Kräuterweiser",
+          "tier": "silber",
+          "rang": 3
+        }
+      ]
     },
     {
       "id": "kundschafter",
       "name": "Kundschafter",
       "klasse": "landvolk",
-      "seite": 109
+      "seite": 115,
+      "voelker": [
+        "halbling",
+        "hochelf",
+        "mensch",
+        "waldelf",
+        "zwerg"
+      ],
+      "original": "03-klassen-karrieren/landvolk/kundschafter/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Ortskundiger",
+          "tier": "messing",
+          "rang": 3,
+          "talente": [
+            "aufgeweckt",
+            "richtungssinn",
+            "streuner",
+            "trittsicher"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Kundschafter",
+          "tier": "messing",
+          "rang": 5
+        },
+        {
+          "nr": 3,
+          "name": "Pfadfinder",
+          "tier": "silber",
+          "rang": 1
+        },
+        {
+          "nr": 4,
+          "name": "Erkunder",
+          "tier": "silber",
+          "rang": 5
+        }
+      ]
     },
     {
       "id": "mystiker",
       "name": "Mystiker",
       "klasse": "landvolk",
-      "seite": 109
+      "seite": 116,
+      "voelker": [
+        "mensch",
+        "waldelf"
+      ],
+      "original": "03-klassen-karrieren/landvolk/mystiker/original.md",
+      "stufen": [
+        {
+          "nr": 1,
+          "name": "Wahrsager",
+          "tier": "messing",
+          "rang": 1,
+          "talente": [
+            "attraktiv",
+            "einnehmendes_wesen",
+            "glueckspilz",
+            "zweites_gesicht"
+          ]
+        },
+        {
+          "nr": 2,
+          "name": "Mystiker",
+          "tier": "messing",
+          "rang": 2
+        },
+        {
+          "nr": 3,
+          "name": "Weiser",
+          "tier": "messing",
+          "rang": 3
+        },
+        {
+          "nr": 4,
+          "name": "Hellseher",
+          "tier": "messing",
+          "rang": 4
+        }
+      ]
     }
   ]
 }

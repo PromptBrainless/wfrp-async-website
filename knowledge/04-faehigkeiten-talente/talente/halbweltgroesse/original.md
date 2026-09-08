@@ -5,13 +5,12 @@ Status: Original, nicht anfassen
 
 **Halbweltgröße**
 
-Maximum und Würfe stehen im Buch.
-
-[prüfen am Buch S. 137]
-
+**Maximum:** 1  
+Du hast dir eine gewisse Respektabilität verdient, trotz deiner zwielichtigen Geschäfte. Du kannst den Statusverlust durch das Talent Kriminell ignorieren.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

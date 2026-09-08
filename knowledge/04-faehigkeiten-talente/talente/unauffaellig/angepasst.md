@@ -8,7 +8,7 @@ Kein Katalog. Höherer Status ignoriert den Charakter (Kleidung passend, nichts 
 
 `talente[]`: `id` = `unauffaellig`. Maximum = CH-Bonus. Braucht [Status](../../../03-klassen-karrieren/02-status-system.md).
 
-Greta Gehilfe Silber 1: gegenüber Otto (Kaufmann) oft der niedrigere Rang.
+Stufe 1 (Gehilfe) Silber 1: gegenüber ein Händler (Kaufmann) oft der niedrigere Rang.
 
 ## Grau
 

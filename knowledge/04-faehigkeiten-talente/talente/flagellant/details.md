@@ -3,11 +3,12 @@
 JSON-`id`: `flagellant`  
 Quelle: S. 135
 
-Gerüst. Beispiele nach der Extraktion.
+## Prüfen
+
+- [prüfen am Buch S. 135] Maximum, Würfe und Sonderregeln gegen die Karte.
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
 - [Talente-Liste](../../03-talente-liste.md)
-- [Fähigkeiten](../../02-faehigkeiten-liste.md)

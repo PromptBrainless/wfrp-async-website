@@ -10,7 +10,7 @@ Tick Ende Runde: −1 LP je Stapel. Bei 0 LP: `bewusstlos` + 10 % Sterbechance j
 
 `zustaende[]`: `{ id: "blutend", stapel }`. `lp.aktuell`.
 
-Greta hat *Heilen* nicht ausgebildet — Karte `heilen` bleibt grau. NSC-Heiler oder Mut.
+der Spielercharakter hat *Heilen* nicht ausgebildet — Karte `heilen` bleibt grau. NSC-Heiler oder Mut.
 
 ## Grau
 

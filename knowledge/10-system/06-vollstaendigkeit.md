@@ -1,6 +1,6 @@
 # Vollständigkeit – Engine vs. Buch vs. Demo
 
-Stand: 2026-09-06, nach Drive-PDF (volle GRW-Datei).  
+Stand: 2026-09-06, nach Drive-PDF (volle GRW-Datei). 
 Kein UI, bis diese Tabelle für v1 grün ist.
 
 Legende: **OK** Engine darf bauen · **Lücke** fehlt für v1 · **Später** bewusst nicht v1.
@@ -13,7 +13,7 @@ Legende: **OK** Engine darf bauen · **Lücke** fehlt für v1 · **Später** bew
 | Zustände (12) | OK | — |
 | Waffen Demo (Dolch, waffenlos) | OK | Resttabelle vorhanden, Qualitäten-Texte dünn |
 | Völker-Attribute | OK | Hoch- vs. Waldelf-Talente nur in MD |
-| Charaktere Demo | OK | Otto Status Silber 1 vs. Buch Händler Silber 2 markiert |
+| Charaktere Demo | OK | ein Händler Status Silber 1 vs. Buch Händler Silber 2 markiert |
 | Katalog + Grau | OK | Typo `intuiton` in alter Katalog-MD, JSON heißt `intuition` |
 | Szenen Basar/Gasse | OK | — |
 | rules-core | OK | — |
@@ -39,7 +39,7 @@ Legende: **OK** Engine darf bauen · **Lücke** fehlt für v1 · **Später** bew
 | Feilschen −10 % / −20 % | S. 291 | OK; Walkthrough nutzte 5 S-Hausregel |
 | Grund vs. Ausbau | S. 118 | OK |
 | Städter = Krämerin | S. 67 | OK, Mapping in characters.json |
-| LP-Formel | S. 34 | OK, Greta 12, Kurt 11 |
+| LP-Formel | S. 34 | OK, der Spielercharakter 12, ein Schläger 11 |
 
 ## Bewusst nicht v1
 
@@ -50,7 +50,7 @@ Magie, Gebete, Krankheiten-Tabellen, Fernkampf, Packen/Ringen, KI, Auth, Server-
 1. Tick: Mix (alle gezogen oder Frist).
 2. Vorteile-Obergrenze: IB (Buch-Option S. 164).
 3. Feilschen-Rundung: Groschen, nicht ganze Schillinge.
-4. Otto Silber 1 statt Buch Silber 2 lassen.
+4. ein Händler Silber 1 statt Buch Silber 2 lassen.
 
 ## Nächster Bau, erst wenn User sagt
 

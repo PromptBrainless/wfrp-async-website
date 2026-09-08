@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Tierverbundenheit**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Willenskraft-Bonus  
+**Würfe:** Tiere bezirzen
 
-[prüfen am Buch S. 145]
-
+Wilde Tiere fühlen sich deiner Nähe wohl und folgen dir häufig wie einem Leittier. Alle Kreaturen mit der Eigenschaft Tierhaft, die nicht auf Aggressivität abgerichtet wurden, beruhigen sich in deiner Gegenwart automatisch, sofern sie keinen Grund haben, dies nicht zu tun, sei es durch Schmerz, einen Angriff, natürliche Überaggressivität oder nahe Jungtiere, die sie beschützen.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

@@ -1,6 +1,6 @@
 # Einnehmendes Wesen — Details / Hilfe
 
-JSON-`id`: `einnehmendes_wesen`  
+JSON-`id`: `einnehmendes_wesen` 
 Quelle: S. 134 · [talents.json](../../../data/talents.json)
 
 ## Hilfe
@@ -10,11 +10,11 @@ Quelle: S. 134 · [talents.json](../../../data/talents.json)
 
 ## Einsatz in der Spielwelt
 
-Otto (Kaufmann, Händler) hat es auf der Stufe-1-Liste. Die Leute am Stand bleiben einen Satz länger stehen. Das ist kein Feilschen und kein Etikette: der erste Eindruck, bevor jemand den Preis nennt.
+ein Händler (Kaufmann, Händler) hat es auf der Stufe-1-Liste. Die Leute am Stand bleiben einen Satz länger stehen. Das ist kein Feilschen und kein Etikette: der erste Eindruck, bevor jemand den Preis nennt.
 
-Im Reikland zählt das an der Theke, am Flusszoll, im Wirtshaus. Sigmar-Fromme kaufen beim freundlichen Händler nicht billiger — sie kaufen überhaupt. [Handrich](../../../11-religion/04-glauben-bei-der-erschaffung.md) (Handel, kein Konklave-Sitz) ist Flavour für Otto, keine Regel.
+Im Reikland zählt das an der Theke, am Flusszoll, im Wirtshaus. Sigmar-Fromme kaufen beim freundlichen Händler nicht billiger — sie kaufen überhaupt. [Handrich](../../../11-religion/04-glauben-bei-der-erschaffung.md) (Handel, kein Konklave-Sitz) ist Flavour für ein Händler, keine Regel.
 
-Greta ohne dieses Talent ist nicht unfreundlich. Sie ist Dienstbote: höflich, unsichtbar. Kurt ohne es ist der Typ, dem man den Weg nicht zeigt.
+der Spielercharakter ohne dieses Talent ist nicht unfreundlich. Sie ist Dienstbote: höflich, unsichtbar. ein Schläger ohne es ist der Typ, dem man den Weg nicht zeigt.
 
 Permanent, Maximum 1. Keine Karte, kein Wurf.
 

@@ -1,12 +1,12 @@
 # Halunke — Details / Hilfe
 
-JSON-`id`: `halunke`  
+JSON-`id`: `halunke` 
 Quelle: S. 88 · [careers.json](../../../data/careers.json)
 
 ## Hilfe
 
 - Stufe 1 heißt **Schläger**, Messing 3. „Halunke“ ist Stufe 2, Messing 5.
-- Kurt in der Demo: Nahkampf (Waffenlos) 38, Ausweichen 33, Messing 2. Unter Buch-Schläger.
+- ein Schläger : Nahkampf (Waffenlos) 38, Ausweichen 33, Messing 2. Unter Buch-Schläger.
 - Schema: KG, ST, WI ab Stufe 1, CH ab Stufe 2, WK ab Stufe 3, IN ab Stufe 4.
 - Völker laut Buch: Halbling, Mensch, Zwerg. Kein Elf.
 - Einschüchtern ist die hervorgehobene Fähigkeit der Karriere (Buch-Kursiv, S. 88).
@@ -23,4 +23,4 @@ Quelle: S. 88 · [careers.json](../../../data/careers.json)
 - [Angepasst](angepasst.md)
 - [Gesetzlose](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
-- [Kurt](../../../data/characters.json)
+- [ein Schläger](../../../data/characters.json)

@@ -7,7 +7,7 @@ Quelle: S. 70 · [careers.json](../../../data/careers.json)
 
 - Stufe-1-Name **Deckratte**, Status silber 1.
 - Schema-Plus (Stufe 1): ST, WI, GW, GS. Symbole gegen die Buchkarte halten.
-- Höhere Stufen nicht Demo.
+- Höhere Stufen nicht der empfohlene Einstieg.
 
 ## Prüfen
 

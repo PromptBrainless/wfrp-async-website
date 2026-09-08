@@ -2,8 +2,7 @@
 
 Quelle: S. 297–299
 
-Gerüst. Volltext folgt mit der Einkauf-Welle.
+20 Qualitäten, 6 Makel. Originale gefüllt.
 
 - [Waffen und Rüstung](../02-waffen-ruestung.md)
-- [v1-Auszug](../waffen/qualitaeten.md)
 - [Register](../../00-REGISTER.md)

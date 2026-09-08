@@ -4,7 +4,7 @@ Quelle der Regeln: [original.md](original.md) (S. 24–25, 36)
 
 Das Buch nicht wiederholen.
 
-Demo: Greta und Otto. Bogen `volk` = `mensch`.
+Demo: der Spielercharakter und ein Händler. Bogen `volk` = `mensch`.
 
 Zusätzliche Punkte (3) gehen auf Schicksal oder Zähigkeit bei der Erschaffung, nicht im Loop.
 

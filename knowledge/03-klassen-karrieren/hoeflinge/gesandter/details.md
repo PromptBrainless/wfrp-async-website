@@ -1,13 +1,20 @@
 # Gesandter — Details / Hilfe
 
 JSON-`id`: `gesandter`  
-Quelle: S. 93
+Quelle: S. 97 · [careers.json](../../../data/careers.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Stufe 1 heißt **Herold** (Silber 2).
+- Schema-Symbole gegen die Karte S. 97 gehalten.
+
+## Prüfen
+
+- [prüfen am Buch S. 97] Karriereschema-Symbole und Ausrüstungslisten gegen die Karte.
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
-- [Höflinge](../../hoeflinge/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)

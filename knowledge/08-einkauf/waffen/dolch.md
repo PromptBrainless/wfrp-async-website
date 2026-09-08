@@ -12,7 +12,7 @@ Quelle: S. 294–296
 | Schaden | +STB+2 |
 | Qualitäten / Makel | — |
 
-v1-Demo: Gretas Waffe. Start nicht gezogen. `waffe_ziehen` frei (S. 158 Annahme).
+v1-Demo: die Startwaffe. Start nicht gezogen. `waffe_ziehen` frei (S. 158 Annahme).
 
 Ohne Steigerung Standard: reines KG, keine Qualitäten (Dolch hat keine), Makel an (keine).
 

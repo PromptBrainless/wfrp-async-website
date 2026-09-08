@@ -157,10 +157,10 @@ export function CharacterSheet() {
             <Link to="/" className="font-display text-sm tracking-wide text-fg">
               Die Frist
             </Link>
-            <Link to="/erschaffung" className="text-sm text-muted">
-              Erschaffung
+            <Link to="/tisch" className="text-sm text-muted">
+              Leben
             </Link>
-            <span className="font-display text-sm text-fg">Bogen</span>
+            <span className="font-display text-sm text-fg">Blatt</span>
           </div>
           <div className="flex flex-wrap items-center gap-2">
             {shown.length > 1 ? (

@@ -1,6 +1,6 @@
 # Klasse
 
-Quelle: S. 30–32. Hub: [Klasse und Karriere](../03-klasse-karriere-einfuehrung.md).  
+Quelle: S. 30–32. Hub: [Klasse und Karriere](../03-klasse-karriere-einfuehrung.md). 
 Schritt 2. Bogen: `klasse`.
 
 ## Erklärung
@@ -28,7 +28,7 @@ Kämpfen, handeln, forschen, reisen, führen ist eine **Richtung**, keine
 Klasse. Körperlich oder geistig entscheidet die Karriere und die Werte.
 
 Einfach zum Einstieg: Bürger / Städter. Komplex und Gerüst: Zauberer,
-Priester — nicht Demo.
+Priester — nicht der empfohlene Einstieg.
 
 ## Wahl
 

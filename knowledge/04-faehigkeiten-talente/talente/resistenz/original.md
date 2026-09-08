@@ -15,4 +15,4 @@ Deine gute Konstitution erlaubt es dir, einer bestimmten Gefahr leichter zu wide
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
-- [Attribut WI Original](../../../02-charaktere/attribute/wi/original.md)
+- [Talente-Liste](../../03-talente-liste.md)

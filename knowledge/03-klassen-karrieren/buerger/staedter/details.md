@@ -1,13 +1,13 @@
 # Städter — Details / Hilfe
 
-JSON-`id`: `staedter`  
+JSON-`id`: `staedter` 
 Quelle: S. 67 · [careers.json](../../../data/careers.json)
 
 ## Hilfe
 
-- Greta „Krämerin Stufe 1“ = Gehilfe, Silber 1. Kaufmann ist eine andere Karriere.
+- der Spielercharakter „Krämerin Stufe 1“ = Gehilfe, Silber 1. Kaufmann ist eine andere Karriere.
 - Schema: I und GS ab Stufe 2, WK ab Stufe 3, GW / IN / CH ab Stufe 1. Kein Attribut erst ab Stufe 4.
-- Stadtrat und Bürgermeister nicht Demo.
+- Stadtrat und Bürgermeister nicht der empfohlene Einstieg.
 
 ## Prüfen
 
@@ -20,4 +20,4 @@ Quelle: S. 67 · [careers.json](../../../data/careers.json)
 - [Angepasst](angepasst.md)
 - [Bürger](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
-- [Greta](../../../data/characters.json)
+- [der Spielercharakter](../../../data/characters.json)

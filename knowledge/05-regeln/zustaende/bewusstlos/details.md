@@ -1,6 +1,6 @@
 # Bewusstlos — Details / Hilfe
 
-JSON-`id`: `bewusstlos`  
+JSON-`id`: `bewusstlos` 
 Quelle: S. 167 · [conditions.json](../../../data/conditions.json)
 
 ## Hilfe

@@ -33,7 +33,7 @@ export function ActionTabs() {
 
   return (
     <section>
-      <div className="mb-3 flex gap-1 rounded-md bg-raised p-1">
+      <div className="mb-3 flex gap-1 rounded-md bg-ink/5 p-1">
         {TABS.map((t) => (
           <button
             key={t.id}
@@ -41,7 +41,7 @@ export function ActionTabs() {
             onClick={() => setTab(t.id)}
             className={cn(
               "min-h-10 flex-1 rounded-sm text-xs tracking-wide",
-              tab === t.id ? "bg-surface text-fg" : "text-muted",
+              tab === t.id ? "bg-paper text-ink" : "text-ink-muted",
             )}
           >
             {t.label}

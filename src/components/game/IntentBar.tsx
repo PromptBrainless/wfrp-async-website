@@ -9,42 +9,45 @@ export function IntentBar() {
   const setNote = useTisch((s) => s.setNote);
   const submit = useTisch((s) => s.submit);
   const pending = useTisch((s) => s.campaign.pending);
+  const pendingRoll = useTisch((s) => s.campaign.pendingPlayerRoll);
   const role = useTisch((s) => s.role);
   const difficulty = useTisch((s) => s.difficulty);
   const setDifficulty = useTisch((s) => s.setDifficulty);
+  const slAskRoll = useTisch((s) => s.slAskRoll);
   const slRoll = useTisch((s) => s.slRoll);
   const slAuto = useTisch((s) => s.slAuto);
+  const playerRoll = useTisch((s) => s.playerRoll);
   const def = selected ? CATALOG_BY_ID[selected] : null;
   const showSl = role !== "spieler";
 
   return (
-    <div className="sticky bottom-0 z-10 -mx-4 border-t border-border bg-surface/95 px-4 py-3 backdrop-blur-sm">
+    <div className="mt-4 border-t border-ink/15 pt-3">
       {def ? (
         <div className="mb-3">
-          <p className="font-display text-sm">{def.label}</p>
-          {def.id === "freitext" || def.id === "gehen" ? (
-            <input
-              value={note}
-              onChange={(e) => setNote(e.target.value)}
-              placeholder={def.id === "gehen" ? "Ausgang in der Szene" : "Bitte an den SL"}
-              className="mt-2 h-11 w-full rounded-sm border border-border bg-raised px-3 text-sm text-fg"
-            />
-          ) : null}
-          <Button className="mt-3 w-full" onClick={submit}>
+          <p className="font-display text-sm text-ink">{def.label}</p>
+          <p className="mt-1 text-xs text-ink-muted">{def.summary}</p>
+          <input
+            value={note}
+            onChange={(e) => setNote(e.target.value)}
+            placeholder={def.id === "gehen" ? "Wohin in der Szene" : "Kurze Zeile an den SL (optional)"}
+            className="mt-2 h-11 w-full rounded-sm border border-ink/20 bg-paper px-3 text-sm text-ink"
+          />
+          <Button className="mt-3 w-full" variant="wax" onClick={submit}>
             Intention senden
           </Button>
         </div>
       ) : null}
 
-      {pending && showSl ? (
-        <div className="rounded-lg border border-border bg-raised p-3">
-          <p className="text-sm">
+      {pending && showSl && !pendingRoll ? (
+        <div className="rounded-lg border border-ink/15 bg-paper p-3">
+          <p className="text-sm text-ink">
             Auflösen: <span className="font-display">{CATALOG_BY_ID[pending.intention.actionId]?.label}</span>
           </p>
-          <label className="mt-2 block text-xs text-muted">
+          {pending.intention.note ? <p className="mt-1 text-sm text-ink-muted">{pending.intention.note}</p> : null}
+          <label className="mt-2 block text-xs text-ink-muted">
             Schwierigkeit
             <select
-              className="mt-1 h-11 w-full rounded-sm border border-border bg-surface px-3 text-sm text-fg"
+              className="mt-1 h-11 w-full rounded-sm border border-ink/20 bg-paper px-3 text-sm text-ink"
               value={difficulty}
               onChange={(e) => setDifficulty(e.target.value as DifficultyId)}
             >
@@ -55,22 +58,35 @@ export function IntentBar() {
               ))}
             </select>
           </label>
-          <div className="mt-3 grid grid-cols-3 gap-2">
-            <Button size="sm" onClick={slRoll}>
-              Würfeln
+          <div className="mt-3 grid grid-cols-2 gap-2">
+            <Button size="sm" variant="wax" onClick={slAskRoll}>
+              Spieler würfelt
             </Button>
-            <Button size="sm" variant="outline" onClick={() => slAuto("success")}>
+            <Button size="sm" variant="ink" onClick={slRoll}>
+              In Vertretung
+            </Button>
+            <Button size="sm" variant="quiet" onClick={() => slAuto("success")}>
               Ohne Wurf
             </Button>
-            <Button size="sm" variant="ghost" onClick={() => slAuto("fail")}>
+            <Button size="sm" variant="quiet" onClick={() => slAuto("fail")}>
               Nein
             </Button>
           </div>
         </div>
-      ) : pending && !showSl ? (
-        <p className="text-sm text-muted">Intention liegt beim SL. Warten auf die Frist.</p>
-      ) : !def ? (
-        <p className="text-sm text-muted">Eine Karte wählen. Graue Karten bleiben sichtbar.</p>
+      ) : null}
+
+      {pendingRoll && (role === "spieler" || role === "tisch") ? (
+        <div className="rounded-lg border border-ink/15 bg-paper p-3">
+          <p className="font-display text-sm text-ink">Dein Wurf steht aus</p>
+          <p className="mt-1 text-sm text-ink-muted">W100 gegen die angesagte Zielzahl. Der SL deutet danach.</p>
+          <Button className="mt-3 w-full" variant="wax" onClick={playerRoll}>
+            Würfeln
+          </Button>
+        </div>
+      ) : pending && !showSl && !pendingRoll ? (
+        <p className="text-sm text-ink-muted">Intention liegt beim SL. Warten auf die Frist — oder auf die Aufforderung zum Wurf.</p>
+      ) : !def && !pending && !pendingRoll ? (
+        <p className="text-sm text-ink-muted">Eine Karte wählen. Graue Karten bleiben sichtbar, mit Grund.</p>
       ) : null}
     </div>
   );

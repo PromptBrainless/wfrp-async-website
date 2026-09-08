@@ -6,13 +6,13 @@ Status: Original, nicht anfassen
 **Bedrohlich**
 
 **Maximum:** Stärke-Bonus  
-**Würfe:** *Einschüchtern*
+**Würfe:** Einschüchtern
 
-Du hast eine bedrohliche Ausstrahlung. Wenn du die Fähigkeit *Einschüchtern* verwendest, erhältst du zusätzliche EG in Höhe deiner Stufe in *Bedrohlich*.
+Du hast eine bedrohliche Ausstrahlung. Wenn du die Fähigkeit Einschüchtern verwendest, erhältst du zusätzliche EG in Höhe deiner Stufe in Bedrohlich.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
-- [Einschüchtern Original](../../faehigkeiten/einschuechtern/original.md)
+- [Talente-Liste](../../03-talente-liste.md)

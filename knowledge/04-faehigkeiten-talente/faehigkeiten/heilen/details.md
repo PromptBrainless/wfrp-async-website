@@ -1,6 +1,6 @@
 # Heilen — Details / Hilfe
 
-JSON-`id`: `heilen`  
+JSON-`id`: `heilen` 
 Quelle: S. 124 · Tabelle: [../../../data/skills.json](../../../data/skills.json)
 
 ## Hilfe
@@ -8,7 +8,7 @@ Quelle: S. 124 · Tabelle: [../../../data/skills.json](../../../data/skills.json
 - Fähigkeitswert = Spielwert + Steigerungen.
 - Beispiele und Tabellen stehen im [Original](original.md), hier nicht noch einmal abschreiben.
 - SL bleibt Welt: Fähigkeit, Schwierigkeit, wer vergleicht.
-- Engine-Notiz: Greta hat keine Steigerung → Karte grau.
+- Engine-Notiz: der Spielercharakter hat keine Steigerung → Karte grau.
 
 ## Prüfen
 

@@ -5,13 +5,12 @@ Status: Original, nicht anfassen
 
 **Beängstigend**
 
-Maximum und Würfe stehen im Buch.
-
-[prüfen am Buch S. 133]
-
+**Maximum:** Stärke-Bonus  
+Jeder, der geistig gesund ist, überlegt es sich zweimal, ob er sich dir nähert. Wenn du es willst, dann hast du Angst (1) (siehe Seite 190). Der Angst-Wert steigt für jede zusätzliche Talentstufe um +1.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

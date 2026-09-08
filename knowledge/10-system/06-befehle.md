@@ -1,6 +1,6 @@
 # Befehlsregister
 
-Quelle: abgeleitet aus dem Aktionskatalog und dem Buch.  
+Quelle: abgeleitet aus dem Aktionskatalog und dem Buch. 
 Kanon: [00-das-spiel.md](00-das-spiel.md) · Katalog: [04-aktionskatalog-v1.md](04-aktionskatalog-v1.md) · JSON: [../data/catalog.json](../data/catalog.json)
 
 Jede Katalog-ID steht **hier zuerst**. Die Buchdatei ist die Autorität. Die Engine liest die ID, nicht den deutschen Label-Text.

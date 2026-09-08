@@ -2,7 +2,7 @@
 
 Quelle: S. 109–116
 
-Weiter: [Ordner](landvolk/README.md) — acht Karrieren als Gerüst.
+Weiter: [Ordner](landvolk/README.md) — acht Karrieren, Originale gefüllt.
 
 ### Siehe auch
 

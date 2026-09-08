@@ -5,7 +5,7 @@ Quelle: Kapitel 7–8. Gerüst. Bogen: `zauber_gebete`.
 ## Erklärung
 
 Nur Karrieren, die Magie oder Kult **wirklich** können: Priester,
-Kriegerpriester, Zauberer, Hexer, Mystiker. Die Demo (Greta, Otto, Kurt)
+Kriegerpriester, Zauberer, Hexer, Mystiker. Alltagsleute
 startet **leer**.
 
 Ein Gott auf dem Bogen (`gott`) ist noch kein Gebet. Glauben ohne Amt:

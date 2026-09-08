@@ -1,4 +1,5 @@
 import { CATALOG } from "./catalog";
+import { canCharge, tokenPlace, runM } from "./movement";
 import type { ActionView, Character, Scene } from "./types";
 
 const COMBAT_IDS = new Set([
@@ -29,7 +30,10 @@ export function filterCatalog(
   const unconscious = hasCondition(character, "bewusstlos");
   const combat = scene.mode === "kampf";
   const engaged = character.engaged || scene.combat?.engaged === true;
-  const hasExit = scene.exits.length > 0;
+  const here = tokenPlace(scene.board, character.id);
+  const hasPlace =
+    scene.board.pins.some((p) => (p.revealed || p.id === here) && p.id !== here) || scene.exits.some((e) => e.toScene);
+  const dist = scene.combat?.distanceM ?? 0;
   const allowed = new Set(scene.catalogIds);
 
   return CATALOG.filter((def) => allowed.has(def.id) || def.tab === "ressourcen" || def.id === "freitext").map(
@@ -48,8 +52,8 @@ export function filterCatalog(
         reason = "Stehst.";
       } else if (def.id === "kriechen" && !prone) {
         reason = "Stehst.";
-      } else if (def.id === "gehen" && !hasExit) {
-        reason = "Kein Ausgang.";
+      } else if (def.id === "gehen" && !hasPlace) {
+        reason = "Kein Ort.";
       } else if (def.id === "waffe_ziehen" && drawn) {
         reason = "Schon in der Hand.";
       } else if (def.id === "glueck" && !opts.fortuneOpen) {
@@ -62,10 +66,17 @@ export function filterCatalog(
         reason = "Kein Wurf zum Ersetzen.";
       } else if (!combat && COMBAT_IDS.has(def.id)) {
         reason = "Kein Kampf.";
-      } else if (combat && !engaged && (def.id === "loesen" || def.id === "angreifen")) {
-        reason = "Nicht gebunden. Angreifen erst nach Annähern oder Sturmangriff.";
+      } else if (combat && !engaged && def.id === "loesen") {
+        reason = "Nicht gebunden.";
+      } else if (combat && !engaged && def.id === "angreifen" && dist > 0) {
+        reason = "Zu weit. Gehen oder Sturmangriff.";
       } else if (combat && engaged && ["gehen", "sturmangriff", "schleichen", "sprinten"].includes(def.id)) {
         reason = "Gebunden.";
+      } else if (def.id === "sturmangriff" && combat && !canCharge(character.movement, dist)) {
+        reason =
+          dist < character.movement
+            ? "Zu nah für Sturmangriff."
+            : `Zu weit (Rennen ${runM(character.movement)} m).`;
       }
 
       return { def, available: !reason, reason };

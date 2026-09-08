@@ -1,6 +1,6 @@
 # Motivation
 
-Quelle: S. 34, 171.  
+Quelle: S. 34, 171. 
 Schritt 3. Bogen: `motivation`.
 
 ## Erklärung
@@ -20,8 +20,8 @@ Beispiele: nicht wieder auf der Straße · der nächste Handel · Respekt in
 der Gasse · die Familie ernähren · nie wieder Hunger · das Buch zu Ende
 schreiben · Rache aufschieben · Sigmars Tempel sehen.
 
-Demo: Greta „nicht wieder auf der Straße“. Otto „der nächste Handel“.
-Kurt „Respekt in der Gasse“.
+Demo: der Spielercharakter „nicht wieder auf der Straße“. ein Händler „der nächste Handel“.
+ein Schläger „Respekt in der Gasse“.
 
 ## Wahl
 

@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Sprinter**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Stärke-Bonus  
+**Würfe:** Athletik-Würfe, die Rennen betreffen
 
-[prüfen am Buch S. 144]
-
+Du bist ein flinker Läufer. Bezüglich der Bewegungsaktion Rennen gilt dein Bewegungs-Wert um 1 höher.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

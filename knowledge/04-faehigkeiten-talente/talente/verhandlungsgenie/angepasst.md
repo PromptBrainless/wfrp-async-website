@@ -8,7 +8,7 @@ Keine eigene Karte. Hängt an [Feilschen](../../faehigkeiten/feilschen/angepasst
 
 `talente[]`: `id` = `verhandlungsgenie`. Maximum = CH-Bonus.
 
-Greta: erst Städter Stufe 2. Otto Händler: verfügbar, nicht automatisch.
+der Spielercharakter: erst Städter Stufe 2. ein Händler Händler: verfügbar, nicht automatisch.
 
 ## Resolver
 

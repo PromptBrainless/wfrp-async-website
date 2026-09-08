@@ -208,7 +208,7 @@ function StationWelt() {
     <div className="space-y-4">
       <h2 className="font-display text-xl">Die Alte Welt</h2>
       <p className="text-sm leading-relaxed">
-        Die Demo spielt im <strong>Reikland</strong>, einer Provinz des Imperiums der Menschen. Hauptstadt{" "}
+        Das Spiel beginnt oft im <strong>Reikland</strong>, einer Provinz des Imperiums der Menschen. Hauptstadt{" "}
         <strong>Altdorf</strong>. Imperator Karl-Franz I. Schutzgott der Reikländer: Sigmar.
       </p>
       <p className="text-sm leading-relaxed text-muted">

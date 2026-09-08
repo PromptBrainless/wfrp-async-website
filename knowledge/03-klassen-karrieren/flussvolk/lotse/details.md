@@ -7,7 +7,7 @@ Quelle: S. 72 · [careers.json](../../../data/careers.json)
 
 - Stufe-1-Name **Flusskundiger**, Status messing 4.
 - Schema-Plus (Stufe 1): KG, I, GW. Symbole gegen die Buchkarte halten.
-- Höhere Stufen nicht Demo.
+- Höhere Stufen nicht der empfohlene Einstieg.
 
 ## Prüfen
 

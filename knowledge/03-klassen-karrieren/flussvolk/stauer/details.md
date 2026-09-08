@@ -7,7 +7,7 @@ Quelle: S. 75 · [careers.json](../../../data/careers.json)
 
 - Stufe-1-Name **Dockarbeiter**, Status messing 3.
 - Schema-Plus (Stufe 1): KG, WI, I. Symbole gegen die Buchkarte halten.
-- Höhere Stufen nicht Demo.
+- Höhere Stufen nicht der empfohlene Einstieg.
 
 ## Prüfen
 

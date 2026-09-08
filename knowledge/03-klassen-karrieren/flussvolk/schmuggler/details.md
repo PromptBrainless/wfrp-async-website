@@ -7,7 +7,7 @@ Quelle: S. 73 · [careers.json](../../../data/careers.json)
 
 - Stufe-1-Name **Flussstrolch**, Status messing 2.
 - Schema-Plus (Stufe 1): I, GW, GS, IN, WK. Symbole gegen die Buchkarte halten.
-- Höhere Stufen nicht Demo.
+- Höhere Stufen nicht der empfohlene Einstieg.
 
 ## Prüfen
 

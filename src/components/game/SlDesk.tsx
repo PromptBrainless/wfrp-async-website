@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { useTisch } from "@/lib/wfrp/store";
 
@@ -6,51 +7,77 @@ export function SlDesk() {
   const go = useTisch((s) => s.goScene);
   const fire = useTisch((s) => s.fireEvent);
   const force = useTisch((s) => s.forceCountdown);
+  const addLog = useTisch((s) => s.addLog);
   const scene = campaign.scenes[campaign.currentSceneId];
   const pending = campaign.pending;
   const submitted = Object.keys(campaign.intentions);
+  const [title, setTitle] = useState("");
+  const [body, setBody] = useState("");
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 text-ink">
       <header>
-        <h1 className="font-display text-3xl">SL-Pult</h1>
-        <p className="mt-1 text-sm text-muted">Dieselbe Szene plus Flags, Ereignisse, Resolver.</p>
+        <h2 className="font-display text-xl">Spielleiter</h2>
+        <p className="mt-1 text-sm text-ink-muted">Dieselbe Szene. Spieler sehen diese Klappe nicht.</p>
       </header>
 
-      <section className="rounded-xl border border-border bg-surface p-5">
-        <h2 className="font-display text-lg">Szene</h2>
-        <p className="mt-2 text-sm">
-          {scene.locationName} · Modus {scene.mode}
+      <form
+        className="space-y-2"
+        onSubmit={(e) => {
+          e.preventDefault();
+          if (!title.trim() || !body.trim()) return;
+          addLog({ kind: "world", title: title.trim(), body: body.trim() });
+          setTitle("");
+          setBody("");
+        }}
+      >
+        <p className="font-display text-sm">In die Welt schreiben</p>
+        <input
+          className="h-11 w-full rounded-sm border border-ink/20 bg-paper px-3 text-sm"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          placeholder="Titel"
+        />
+        <textarea
+          className="min-h-24 w-full rounded-sm border border-ink/20 bg-paper px-3 py-2 text-sm"
+          value={body}
+          onChange={(e) => setBody(e.target.value)}
+          placeholder="Was die Welt tut."
+        />
+        <Button type="submit" variant="wax" size="sm">
+          Eintragen
+        </Button>
+      </form>
+
+      <section>
+        <p className="font-display text-sm">Szene</p>
+        <p className="mt-1 text-sm text-ink-muted">
+          {scene.locationName} · {scene.mode}
         </p>
-        <p className="mt-2 text-sm text-muted">Noch nicht gezogen: Greta {submitted.includes("greta") ? "hat gesendet" : "wartet"}.</p>
-        {pending ? (
-          <p className="mt-2 text-sm">Offen: {pending.intention.actionId}</p>
-        ) : (
-          <p className="mt-2 text-sm text-muted">Keine offene Intention.</p>
-        )}
-        <div className="mt-4 flex flex-wrap gap-2">
-          <Button size="sm" variant="outline" onClick={() => go("basar")}>
+        {pending ? <p className="mt-1 text-sm">Offen: {pending.intention.actionId}</p> : null}
+        <div className="mt-3 flex flex-wrap gap-2">
+          <Button size="sm" variant="ink" onClick={() => go("basar")}>
             Basar
           </Button>
-          <Button size="sm" variant="outline" onClick={() => go("gasse")}>
+          <Button size="sm" variant="ink" onClick={() => go("gasse")}>
             Gasse
           </Button>
-          <Button size="sm" variant="ghost" onClick={force}>
+          <Button size="sm" variant="quiet" onClick={force}>
             Frist jetzt
           </Button>
         </div>
       </section>
 
-      <section className="rounded-xl border border-border bg-surface p-5">
-        <h2 className="font-display text-lg">Vorbereitete Ereignisse</h2>
-        <ul className="mt-3 space-y-3">
+      <section>
+        <p className="font-display text-sm">Ereignisse</p>
+        <ul className="mt-2 space-y-3">
           {scene.events.map((e) => (
             <li key={e.id} className="flex items-center justify-between gap-3">
               <div>
                 <div className="text-sm">{e.label}</div>
-                <div className="text-xs text-muted">{e.hint}</div>
+                <div className="text-xs text-ink-muted">{e.hint}</div>
               </div>
-              <Button size="sm" variant="outline" disabled={e.fired} onClick={() => fire(e.id)}>
+              <Button size="sm" variant="ink" disabled={e.fired} onClick={() => fire(e.id)}>
                 {e.fired ? "Ausgelöst" : "Einwerfen"}
               </Button>
             </li>
@@ -58,32 +85,18 @@ export function SlDesk() {
         </ul>
       </section>
 
-      <section className="rounded-xl border border-border bg-surface p-5">
-        <h2 className="font-display text-lg">NSC</h2>
-        <ul className="mt-3 space-y-2 text-sm">
-          {scene.present
-            .filter((id) => id !== "greta")
-            .map((id) => {
-              const c = campaign.characters[id];
-              if (!c) return null;
-              return (
-                <li key={id}>
-                  {c.name} · LP {c.wounds.current}/{c.wounds.max} · {c.attitude ?? c.career}
-                </li>
-              );
-            })}
-        </ul>
-      </section>
-
-      <section className="rounded-xl border border-border bg-surface p-5">
-        <h2 className="font-display text-lg">Weltflags</h2>
-        <ul className="mt-2 text-sm text-muted">
-          {campaign.characters.greta.flags.map((f) => (
-            <li key={f}>{f}</li>
-          ))}
-          {campaign.worldFlags.map((f) => (
-            <li key={f}>{f}</li>
-          ))}
+      <section>
+        <p className="font-display text-sm">Anwesend</p>
+        <ul className="mt-2 space-y-1 text-sm text-ink-muted">
+          {scene.present.map((id) => {
+            const c = campaign.characters[id];
+            if (!c) return null;
+            return (
+              <li key={id}>
+                {c.name} · LP {c.wounds.current}/{c.wounds.max}
+              </li>
+            );
+          })}
         </ul>
       </section>
     </div>

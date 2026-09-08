@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Streuner**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Gewandtheits-Bonus  
+**Würfe:** Schleichen-Würfe in ländlicher Umgebung
 
-[prüfen am Buch S. 145]
-
+Du bist auf dem Land und in der Wildnis daheim. Wenn du in ländlicher Umgebung Schleichen einsetzt, erhalten Umstehende keinen passiven W ahrnehmungs-Wurf, um dich zu entdecken; sie können dich nur entdecken, wenn sie ganz gezielt Ausschau halten oder nach versteckten Spionen suchen.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

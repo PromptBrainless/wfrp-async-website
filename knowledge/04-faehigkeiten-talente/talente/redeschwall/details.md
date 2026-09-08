@@ -1,6 +1,6 @@
 # Redeschwall — Details / Hilfe
 
-JSON-`id`: `redeschwall`  
+JSON-`id`: `redeschwall` 
 Quelle: S. 141 · [talents.json](../../../data/talents.json)
 
 ## Hilfe
@@ -11,11 +11,11 @@ Quelle: S. 141 · [talents.json](../../../data/talents.json)
 
 ## Einsatz in der Spielwelt
 
-Otto am Stand: der Kunde will den Ballen kritisieren, Otto redet, bis der andere nur noch nickt. Marktlärm hilft. Das ist kein Feilschen (Preis) und kein Charme-Freundschaft — es ist Verwirrung.
+ein Händler am Stand: der Kunde will den Ballen kritisieren, ein Händler redet, bis der andere nur noch nickt. Marktlärm hilft. Das ist kein Feilschen (Preis) und kein Charme-Freundschaft — es ist Verwirrung.
 
-Greta tut das selten: Dienstboten, die den Mund nicht halten, fliegen. Kurt: Einschüchtern, nicht labern.
+der Spielercharakter tut das selten: Dienstboten, die den Mund nicht halten, fliegen. ein Schläger: Einschüchtern, nicht labern.
 
-Wenn die *Betäubt*-Zustände weg sind, merkt das Opfer, dass da nichts zu verstehen war. Ungehalten ist die Normalfolge am Basar: Schimpfen, Wache rufen, oder Kurt, wenn Otto den Falschen erwischt hat.
+Wenn die *Betäubt*-Zustände weg sind, merkt das Opfer, dass da nichts zu verstehen war. Ungehalten ist die Normalfolge am Basar: Schimpfen, Wache rufen, oder ein Schläger, wenn ein Händler den Falschen erwischt hat.
 
 Einmal pro Person pro Szene. Reden aufhören = Zustände weg. SL darf „gewarnte“ Ziele länger sperren.
 

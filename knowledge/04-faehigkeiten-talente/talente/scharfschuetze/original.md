@@ -5,13 +5,12 @@ Status: Original, nicht anfassen
 
 **Scharfschütze**
 
-Maximum und Würfe stehen im Buch.
-
-[prüfen am Buch S. 142]
-
+**Maximum:** 1  
+Du kannst mit außergewöhnlicher Treffsicherheit gezielte Schüsse abgeben. Daher ignorierst du alle negativen Modifikatoren der Schwierigkeit für Fernkampf-Würfe, die durch die Größe des Zieles entstehen.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

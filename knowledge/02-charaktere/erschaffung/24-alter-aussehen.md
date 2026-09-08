@@ -1,6 +1,6 @@
 # Alter, Größe, Augen, Haar, Name
 
-Quelle: S. 38–40. [Ausrüstung und Details](../06-ausruestung-details.md).  
+Quelle: S. 38–40. [Ausrüstung und Details](../06-ausruestung-details.md). 
 Schritt 6. Bogen: `name`, `alter`, `groesse`, `augen`, `haar`, `gemuet`, `herkunft`.
 
 ## Erklärung
@@ -19,7 +19,7 @@ Graufeld, Brandyschluck.
 | 15+W10 | 15+10W10 | 30+10W10 | 15+5W10 |
 
 Ein Mensch startet also oft mit 16–25. Ein Elf mit 40–130 wirkt neben
-Greta alt, ist für Elfen jung.
+der Spielercharakter alt, ist für Elfen jung.
 
 **Körpergröße** (metrisch). Fällt eine 10, extra W10 addieren.
 

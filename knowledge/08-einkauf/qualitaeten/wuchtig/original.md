@@ -3,15 +3,15 @@
 Quelle: S. 298
 Status: Original, nicht anfassen
 
-**Wuchtig** (qualitaet)
+**Wuchtig** (qualität)
 
-Buch S. 298.
+Einige Waffen sind einfach riesig oder verursachen aufgrund ihres Gewichts oder ihrer Form schreckliche Wunden. Wenn du einen Gegner triffst, addierst du das Resultat des Würfels für die Einerstelle zu jedem Schaden hinzu, den eine wuchtige Waffe verursacht. Eine stumpfe Waffe kann niemals zugleich wuchtig sein (Stumpf hat Vorrang). XI 298
 
-[prüfen am Buch S. 298]
-
+===== BUCH S. 299 ===== waffen-Makel Einige Waffen sind schwierig einzusetzen oder bei der Benutzung gefährlich, was als Waffen-Makel beschrieben wird.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Waffen-Qualitäten](../README.md)

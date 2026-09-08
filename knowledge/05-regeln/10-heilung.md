@@ -22,6 +22,7 @@ Manche Kritische Verletzungen und alle Amputationen erfordern *Heilen* mit Talen
 ---
 
 ### Siehe auch
+- [Roh Krit / Heilung / Psychologie](_roh/krit-heilung-psychologie-s173-191.md)
 - [Verwundungen](09-verwundungen.md)
 - [Zustände](05-zustaende.md)
 - [Attribute](../02-charaktere/04-attribute.md)

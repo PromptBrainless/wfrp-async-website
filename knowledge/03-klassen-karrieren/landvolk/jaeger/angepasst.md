@@ -1,10 +1,10 @@
 # Jäger — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 109)
+Quelle der Regeln: [original.md](original.md) (S. 113)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Keine Katalogkarte. Die Karriere filtert, welche Fähigkeiten und Talente der Charakter kennen darf.
 
-
+Stufe 1: **Fallensteller**, Messing 2. Bogen-Keys: `klasse` = `landvolk`, `karriere` = `jaeger`, `karrierestufe` = 1.
 
 ### Befehl
 
@@ -14,5 +14,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 
 - [Original](original.md)
 - [Details](details.md)
-- [Landvolk](../../landvolk/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
+- [Status](../../02-status-system.md)

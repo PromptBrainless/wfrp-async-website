@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Kampfrausch**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Willenskraft-Bonus  
+**Würfe:** Nahkampf-Würfe in Raserei
 
-[prüfen am Buch S. 138]
-
+Du bist gut darin, deine Raserei im Kampf unter Kontrolle zu halten. Du kannst deine Raserei am Ende der Runde beenden, wenn dir ein Besonnenheits-Wurf gelingt.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

@@ -1,6 +1,6 @@
 # Lesen & Schreiben — Details / Hilfe
 
-JSON-`id`: `lesen_und_schreiben`  
+JSON-`id`: `lesen_und_schreiben` 
 Quelle: S. 139 · [talents.json](../../../data/talents.json)
 
 ## Hilfe
@@ -12,7 +12,7 @@ Quelle: S. 139 · [talents.json](../../../data/talents.json)
 
 Die meisten Leute in der Alten Welt können es nicht. Schilder, Pamphlete, Schuldscheine, Gildenzettel: wer liest, hat Macht über die, die nicken.
 
-Otto (Händler) hat es auf der Liste: Inventar, Preise, Briefe. Greta als Gehilfe nicht zwingend — sie kennt die Töpfe von Hand. Kurt bricht Finger, liest den Zettel oft nicht.
+ein Händler (Händler) hat es auf der Liste: Inventar, Preise, Briefe. der Spielercharakter als Gehilfe nicht zwingend — sie kennt die Töpfe von Hand. ein Schläger bricht Finger, liest den Zettel oft nicht.
 
 Wer ohne das Talent einen Aushang „verstehen“ will: jemand liest vor, oder der SL sagt, was ein Analphabet daraus macht (Wappen, Farbe, ein bekanntes Zeichen). Kein IN-Wurf als Ersatz, außer der SL erfindet eine Bildsprache in dieser Szene.
 

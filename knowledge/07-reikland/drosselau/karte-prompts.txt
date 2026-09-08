@@ -1,0 +1,394 @@
+DROSSELAU — KARTEN-PROMPTS (von oben), VOLLSTÄNDIG
+Kampagne 1 · Marktflecken im Reikland · 2512 IZ
+Stand: 2026-09-08 · nach Abgleich Gilden / Familien / Händler / Plätze / Kulte
+
+================================================================================
+PRÜFUNG (was drin sein MUSS)
+================================================================================
+
+13 GASSEN — alle.
+69 GEBÄUDE — alle, mit Nummer.
+10 GRUPPEN — alle, namentlich, auch wo sie nur als Zeichen/Siegel sitzen:
+  Reichsgraf Albrecht von Grünberg (abwesend)
+  Rat von Drosselau (Bürgermeister Helmuth Talbeck, Stadtrat Reiner Stein)
+  Kaufmannsgilde (Gildemeister Wilhelm Holtz)
+  Handwerkerzunft = SAMMELZUNFT (kleine Stadt, nicht 15 Einzelzünfte)
+  Stadtwache (Zollhaus + Haus Helm, beliefert von Stahl)
+  Sigmar-Kult (Vater Brant Keil, Novize Jost) — Stadtpatron
+  Morr-Kult (Schwester Miren Ewig, Totengräber Silas Gruft)
+  Ulric unter den Schmieden (Wulf und Mark Eisen) — NICHT Stadtpatron
+  Ranald informell (Taverne Stube, Zeichen Vorstadtring 6) — KEIN Tempel
+  Bettlerclique (Krumm, Fips, Auge) — Keim still
+
+42 STAMMBÄUME — Familienname am Haus. Kopf der Familie in der Legende.
+HÄNDLER / BETRIEBE extra (Laden ≠ Wohnung, wo das Verzeichnis zwei Häuser gibt):
+  Karr Schuppen / Karr Wohnung
+  Bode Laden / Bode Wohnung
+  Wurzel Laden / Wurzel Wohnung
+  Tuch Weberei / Tuch Wohnung
+  Schneider Schneiderei / Schneider Wohnung
+  Hammer Schmiede / Hammer Wohnung
+  Leder Gerberei / Leder Wohnung
+  Ton Töpferei / Ton Wohnung
+  Stube Taverne / Stube Wohnung
+  Krug nur Gasthaus Zum Wanderer (andere Familie als Stube)
+  Heller, Docht, Blatt, Beize, Stahl, Laib, Metz, Linde
+
+PLÄTZE OHNE FAMILIE: Brunnenhaus Tor 9, Marktbrunnen, Gemeinschaftsbrunnen Bettel 8,
+Kohlenlager, Zunfthaus, Zunftlager, Zunftarchiv, Herberge Zunftbrüder, Zollhof,
+Friedhof, Kontor leer, drei+ leere Hütten, Rattenwinkel 2.
+
+NICHT IM VERZEICHNIS — also NICHT auf die Karte malen:
+  Shallya-, Verena-, Myrmidia-, Handrich-Tempel
+  Grafenschloss, zweites Tor, Hafenstadt, Straße nach Altdorf
+  Hexenjäger-Posten, Ulric-Tempel (nur Hausschrein Eisen)
+
+================================================================================
+WELTQUELLE vs KAMPAGNE
+================================================================================
+
+AUS DER WELT (GRW / Reikland / Kulte / Bögenhafen-Muster / Buildings of the Reikland):
+- Reikland, Nebenfluss des Reik, Marktflecken, Stadtpatron Sigmar, Angst vor Mutation.
+- Lehnsherr Reichsgraf oft ABWESEND; Rat + Kaufmannsgilde führen den Flecken
+  (wie Bögenhafen: Graf von Saponatheim lässt den Rat arbeiten, Geld fließt raus).
+- Kleine Stadt: eine Kaufmannsgilde + eine SAMMEL-Handwerkerzunft, nicht Nuln-Zünfte.
+- Gildenmitgliedschaft im Reikland faktisch Pflicht fürs Handwerk.
+- Fassadensteuer: Läden SCHMAL und TIEF, Giebel zur Gasse (Buildings of the Reikland).
+- Sigmar: zweischwänziger Komet + Hammer (Ghal Maraz), Schiefer, kein Sonnenkreuz.
+- Morr: Rabe, Portal/Schwarze Rose, Eiben, Gräber. Untote fernhalten durch Ritus.
+- Ranald: Katze, gekreuzte Finger — nie ein offener Tempel in so einem Flecken.
+- Ulric: weißer Wolf. Im GRW Krieg/Winter/Wölfe, NICHT „Gott der Esse“.
+  Die Setzung „Ulric schützt Feuer und Schmiedekunst“ ist KAMPAGNE (Verzeichnis).
+  Auf der Karte: kleines Wolf-Amulett am Haus Eisen, kein Ulric-Tempel.
+- Gerber STROMABwärts / unterhalb der Trinkbrunnen (Gestank, Fluss).
+- Wegezoll, Waffen- und Mutationskontrolle am Tor (Verzeichnis; „Waffenschein“ ist falsch).
+- Währung Goldkrone / Silberschilling / Messinggroschen.
+- Jahr 2512 IZ (WFRP-4e-Gegenwart).
+
+KAMPAGNE (nicht Gazetteer des Reiklandes):
+- Der Ort Drosselau selbst.
+- Alle Familiennamen (Holtz, Voss, Schneider, …).
+- Reichsgraf „von Grünberg“: Name ist Kampagne. ACHTUNG: Grünburg ist eine
+  echte Reikland-Stadt am Reik — der Graf heißt nicht danach als Ortsname der Karte.
+  Siegel: „Reichsgraf Albrecht von Grünberg“, kein zweites Städtchen Grünberg malen.
+- Gasthausname „Zum Wanderer“, Taverne ohne Namen im Verzeichnis.
+- Die 13 Gassen und 69 Häuser.
+
+================================================================================
+VERDIENST VOM DACH LESEN  (Müller verdient besser als Köhler)
+================================================================================
+
+Keine Müller- oder Köhler-Familie im Verzeichnis. Die Regel trotzdem:
+Wer mehr Silber hat, hat mehr Dach, Glas, Rauch und Gerät. Wer Messing hat,
+hat Stroh, ein Teil, nasses Holz. Man muss Holtz gegen Laus in EINEM Blick
+unterscheiden, wie eine Mühle gegen eine Köhlerhütte.
+
+STUFE (Status der Stammbäume) → DACH + KLEINE OBJEKTE
+
+Gold 3  von Grünberg     NICHT malen (kein Schloss). Nur Wachs-Siegel bei Feder.
+Silber 5 Holtz, Talbeck  MÜLLER-STUFE: roter Ziegel, zwei volle Geschosse, GLAS,
+                         eiserne Laterne, fetter Rauch, steinerne Stufe, ein Pferd
+                         oder Maultier im Hof, gestrichene Läden.
+Silber 4 Voss            wie Müller, etwas schlichter; GRÜNE Läden, nicht Holtz-Blau.
+Silber 3 Stein, Heller   guter Ziegel, EIN Glasfenster, sauberer Hof, Eisenbeschlag.
+Silber 2 Feder, Keil, Hammer, Stahl, Tuch
+                         Meister: Fachwerk + Ziegelmix, Gewerbeschild, Werkhof,
+                         Rauch der Esse/Webstube, Werkzeug das GLÄNZT.
+Silber 1 Eckert, Karr, Krug, Laib, Metz, Helm, Schneider, Bode, Blatt, Leder, Ton, Ewig
+                         Bäcker-Stufe: ein Giebelziegel oder Stroh gut geflickt,
+                         Holzschild, ein brauchbarer Karren, Hühner, Brot, ein Brunnenkübel.
+Messing 5 Stube, Beize, Wurzel, Linde
+                         viel Betrieb, geflickter Ziegel, Dampf, Fässer, Wäsche —
+                         nicht arm, aber nicht Holtz.
+Messing 4 Docht, Eisen   Gesellen: Ruß, geteiltes Haus, Werkzeug ABGENUTZT, Wolf-Amulett.
+Messing 3 Nagel, Gerb, Gruft
+                         KÖHLER-NAH: kleines Stroh, Riss im First, geliehene Geräte,
+                         kranker Schornstein (Gerb), Spaten (Gruft).
+Messing 2 Blau, Staub, Asche
+                         ein Topf, nasses Brennholz, Wäscheleine / Lehm / ein Krug.
+Messing 1 Moos, Karg, Hesse, Dünn
+                         ein Kraut, ein Laken, kein Glas, dünner Rauch oder keiner.
+Messing 0 Laus, Clique   UNTER KÖHLER: kein Schornstein, eine Decke, kein Fenster,
+                         Fußspuren, kein Vieh.
+leer / Unken             tot: kein Rauch, Tür zu oder klaffend, Unkraut im First.
+
+Kohlenlager (Schmiede 5) ist Köhler-Haufen als LAGER der Meister, nicht eine
+arme Köhlerfamilie. Die schwarzen Meiler gehören Hammer/Stahl — Reichtum an
+Kohle, nicht Armut.
+
+Jedes Haus bekommt 2–4 LESBARE Kleindinge (von oben). Keine Gesichter.
+
+================================================================================
+STIL (in JEDEN Bildprompt vorn)
+================================================================================
+
+STYLE:
+
+A lovingly painted high-resolution fantasy town map of a small Reikland market town,
+Warhammer Fantasy Roleplay 4e atmosphere, Imperial year 2512, not 40k, not photorealism.
+Warm hand-painted illustration, Inkarnate / classic RPG town-map look,
+cream-ochre parchment edges, muted earth pigments: umber, brick-red tile, soot, moss, river-green.
+Late-medieval Empire timber-frame, STEEP GABLES, houses LONG AND NARROW with the short side
+to the street (taxed by frontage). Chimney smoke, cobbles, vegetable gardens, rain-dark thatch.
+Soft overcast daylight, no god-rays, no neon, no cars, no satellite photo, no UI, no hex grid.
+Tiny human figures only as scale, faces unreadable. Camera from above, slight 3/4 tilt.
+Wealth must be readable from roofs and yard-objects: miller-tier tile-and-glass for Holtz/Talbeck,
+charcoal-burner-tier straw-and-one-pot for Nagel/Gerb, no-chimney rags for Laus.
+Inner town: red clay tile. Poor fringe: grey thatch. Tannery: stained hides. Temple: dark slate
+with a twin-tailed comet and warhammer finial (Sigmar). Morr: yew and a raven finial, no undead.
+Keep the same river, wall, and single west gate in every crop.
+
+NEGATIVE:
+
+photorealistic drone shot, Google Maps, modern city, cars, asphalt, English shop signs,
+cyberpunk, Warhammer 40k, chaos daemons, blood spectacle, watermark, CAD plan,
+5-foot squares as subject, extra temples (Shallya, Verena, Myrmidia, Handrich, Ulric-cathedral),
+a count's palace, a second gate, a highway to Altdorf, the town of Grünburg.
+
+================================================================================
+A0 STADT
+Datei: drosselau-stadt.png · 16:9 · 4K+
+================================================================================
+
+{STYLE}
+
+Bird's-eye of Drosselau, whole walled market town on a north-to-south tributary of the Reik
+at the EAST. One west gate only. No palace. Campaign locked inside this town.
+
+WEST outside the wall: Vorstadtring, six muddy plots (Laus, Moos, Karr's cart-shed, Blau,
+collapsed hut, empty hut with a tiny Ranald cat-scratch). Dirt road dies in fields.
+
+WEST-TO-CENTER: cobbled Torstraße, Stadtwache customs at the gate (toll in brass pennies/groschen,
+mutation check), inn Zum Wanderer (Krug), bakery Laib, butcher Metz, Karr's home, Staub,
+chandler Docht (Sigmar amulets), Helm's home, well-house. Mouth of Bettelgasse south.
+
+CENTER: trapezoid Marktplatz, round public well (second well, not the gate well).
+Kaufmannsgilde of Drosselau (Holtz). Sammel-Handwerkerzunft. Sigmar temple (Keil) tallest,
+twin-tailed comet. Heller changer, Feder scribe with the absent Graf's seal,
+Rathaus of the Rat von Drosselau (Talbeck). Merchant Holtz, merchant Voss, councillor Stein,
+one empty foreign kontor.
+
+NORTH: Gildengasse (zunft warehouse, Holtz guildmaster, Eckert, journeyman inn, archive).
+NORTH-EAST: Weberweg (Tuch, Schneider, Beize steam).
+EAST: Krämerstraße (Bode, Wurzel, Blatt, empty milliner).
+SOUTH: Schlemmergasse (Stube tavern, Linde, Stube home) then Morrgasse, cemetery, Ewig chapel.
+SOUTH-EAST: Schmiedezeile (Hammer, Stahl, Eisen wolf-charm, Nagel, coal) then Gerbergasse
+downstream on the river (Leder, Gerb, hides), Töpfergasse (Ton, Asche).
+WEST inside wall: Bettelgasse (Karg, Hesse, Clique, three dead houses, Dünn, communal well).
+SOUTH-EAST dead end: Rattenwinkel (Unken ruin, last empty house, rats).
+
+Smoke from ovens and forges. No second river port — only a hide-landing at the tannery.
+
+================================================================================
+VIERTEL (image-to-image aus A0)
+================================================================================
+
+Keep the exact same painted town, same river, same wall, same gate, same roof colours.
+Zoom into this quarter only. Bird's-eye, loving detail, high resolution. {STYLE}
+
+VORSTADT  drosselau-viertel-vorstadt.png
+  Only outside the west gate. Six plots named: 1 Laus, 2 Moos (marsh-refugees), 3 Karr cart-shed,
+  4 Blau laundry, 5 empty collapsed, 6 empty Ranald-cat. Gate and Torstraße on the EAST edge.
+
+TOR  drosselau-viertel-tor.png
+  Torstraße inside the gate. Institution: Stadtwache at Zollhaus. Families: Krug, Laib, Metz,
+  Karr, Staub, Docht, Helm. Two wells: gate well-house (nr 9) plus a glimpse of the market well EAST.
+  Bettelgasse mouth SOUTH. Vorstadtring through the gate WEST.
+
+MARKT  drosselau-viertel-markt.png
+  Marktplatz + Gildengasse NORTH + Schlemmergasse SOUTH.
+  Institutions named on roofs or in legend: Kaufmannsgilde, Handwerkerzunft (Sammelzunft),
+  Sigmar-Kult, Rat von Drosselau, Siegel des Reichsgrafen von Grünberg on Feder's shutter
+  (the Graf himself is NOT present). Families: Holtz (gilde + Markt 7), Voss, Heller, Feder,
+  Talbeck, Stein, Keil, Eckert, Stube, Linde. Empty kontor still shut.
+
+HANDWERK  drosselau-viertel-handwerk.png
+  Schmiedezeile, Weberweg, Krämerstraße, Töpfergasse, Gerbergasse-on-the-river.
+  Families: Hammer, Stahl, Eisen (small Ulric wolf, no temple), Nagel, Tuch, Schneider,
+  Beize, Bode, Wurzel, Blatt, Ton, Asche, Leder, Gerb. Empty milliner on Krämer 6.
+  Tannery DOWNSTREAM of drinking wells.
+
+SCHATTEN  drosselau-viertel-schatten.png
+  Bettelgasse, Morrgasse+Friedhof, Rattenwinkel.
+  Families: Karg, Hesse, Clique (Krumm/Fips/Auge), Dünn, Gruft, Ewig, Unken (gone).
+  Morr raven-chapel, yews, no undead painted. Ranald not here (he is on Ring + tavern).
+
+================================================================================
+13 GASSEN — jedes Haus, Nummer, Familie, Weltzeichen
+================================================================================
+
+Jeden Prompt so bauen: {STYLE} + Gassentext + LEGENDE.
+Nachbarn nur am Rand. Häuser schmal-tief. Kleindinge Pflicht. Verdienst am Dach.
+
+--- 5.1 Vorstadtring --- gasse-vorstadtring.png
+Bird's-eye Vorstadtring, muddy ring WEST of the single gate. Torstraße/gate on EAST edge.
+  1 Bettlerhütte Laus (Messing 0, unter Köhler): no chimney, one brown blanket, a cracked bowl, no glass, no livestock.
+  2 Hütte Moos, Jaan (Messing 1): thin smoke, reed bundles from the marsh, one stolen cabbage, a rope-repaired door.
+  3 Fuhrmannsschuppen Karr-Arbeit (Silber 1 Gerät): two oxen, a wagon with iron-rimmed wheels, harness on a peg, oats sack — this shed is RICHER than the huts around it.
+  4 Hütte Blau, Hilde (Messing 2): washtub, grey linen on a line, a bar of cheap soap, wet wood.
+  5 Leer: collapsed thatch like ribs, a nest, no smoke.
+  6 Leer Ranald: weathered CAT scratch on the door, no tenant, weeds in the threshold.
+LEGENDE: 1 Laus · 2 Moos · 3 Karr-Schuppen · 4 Blau · 5 leer · 6 leer Ranald.
+
+--- 5.2 Torstraße --- gasse-torstrasse.png
+Bird's-eye Torstraße, cobbles gate→market. Bettelgasse SOUTH.
+  1 Zollhaus Stadtwache/Helm: barrier pole, brass groschen-box, inspection yard, Sigmar hammer, a pike rack. Institutional stone, not a home.
+  2 Zum Wanderer Krug, Detlef (Silber 1): hanging PILGRIM-BOOT sign, two barrels, a spare wheel, stable slit, warm chimney. Better than Staub next door but poorer than Holtz.
+  3 Bäckerei Laib, Gerd (Silber 1): oven-glow, flour sack, round loaves on a peel, sparrow crumbs.
+  4 Fleischerei Metz, Konrad (Silber 1): hook rail, one hog, striped awning, a salt tub.
+  5 Wohnhaus Karr, Hannes (Silber 1): tidy timber, a child's cart, horse-collar on the wall (the oxen live at the Ring shed).
+  6 Wohnhaus Staub, Rudi (Messing 2): patched thatch, one iron pot, wet firewood, no glass — clearly poorer than Laib and Metz beside him.
+  7 Kramladen Docht, Ewald (Messing 4): candle-cluster, rope coils, cheap comet-amulets on a string.
+  8 Wohnhaus Helm, Arne (Silber 1): neat tile-patch, a helmet on a peg, boot-brush, small herb-pot.
+  9 Brunnenhaus: mossy trough, bucket, ladle. No family.
+LEGENDE: 1 Wache · 2 Krug · 3 Laib · 4 Metz · 5 Karr · 6 Staub · 7 Docht · 8 Helm · 9 Brunnen.
+
+
+--- 5.3 Marktplatz --- gasse-marktplatz.png
+Bird's-eye Marktplatz, trapezoid, round well. Wealthiest roofs of the town here.
+  1 Kaufmannsgilde Holtz: miller-tier — wide stone steps, two glass lights, guild lantern, scales-and-barge crest, iron-bound door.
+  2 Handwerkerzunft Sammelzunft: plainer than 1, tool-sign (hammer+shears), oak door, no glass palace.
+  3 Sigmarstempel Keil: tallest, slate, twin-tailed comet + warhammer finial, a small courtyard bell, a broomed step. Cult wealth, not merchant glass.
+  4 Geldwechsler Heller (Silber 3): barred window, hanging SCALES, coin-chest implied by iron straps.
+  5 Schreiberstube Feder (Silber 2): quill-sign, WAX SEAL of Graf Albrecht von Grünberg on a shutter, a ledger on a sill, no palace behind it.
+  6 Ratshaus Talbeck (Silber 5 Amt): modest balcony, town BELL, miller-tier tile, a staff-rack.
+  7 Wohnhaus Holtz, Berthold (Silber 5): red tile, glass, guild-blue shutters, a potted bay, fat chimney.
+  8 Wohnhaus Voss, Kaspar (Silber 4): red tile, GREEN shutters (not Holtz-blue), one glass, a crate of wine.
+  9 Wohnhaus Stein, Reiner (Silber 3): sober ochre, one glass, a slate name-board, tidy woodpile.
+ 10 Leer Kontor: pale shutters, faded foreign mark, no smoke, cobwebs in the loading-door. Keim still.
+LEGENDE: 1 Holtz/Gilde · 2 Zunft · 3 Keil · 4 Heller · 5 Feder/Siegel · 6 Talbeck · 7 Holtz · 8 Voss · 9 Stein · 10 leer.
+
+--- 5.4 Gildengasse --- gasse-gildengasse.png
+  1 Zunftlager: wide doors, crates, a block-and-tackle, no dwelling-smoke.
+  2 Holtz, Wilhelm Gildemeister (Silber 5): BEST house on the lane — miller-tier glass, blue shutters, stone step, iron lantern, a mule in a tiny yard.
+  3 Eckert, Franz (Silber 1): smaller, one shutter-desk-light, an inkwell on the sill, no mule. Clearly clerk, not master.
+  4 Herberge Zunftbrüder: boots on a rail, two pack-mules, a wash-bucket, loft-hatch.
+  5 Archiv: barred slits, a chain, dry-looking roof, no family.
+LEGENDE: 1 Lager · 2 Holtz Wilhelm · 3 Eckert · 4 Herberge · 5 Archiv.
+
+--- 5.5 Schmiedezeile --- gasse-schmiedezeile.png
+  1 Hufschmiede Hammer-Arbeit: anvil, horseshoe HEAP (the miller's pile of this street), quench-trough, sparks.
+  2 Waffenschmiede Stahl, Ulrich (Silber 2): sword-blank rack, bellows, a watch-helm being mended.
+  3 Wohnhaus Hammer, Bodo (Silber 2): sooty but CARED-FOR tile, a fat chimney, a wife's herb-box — master lives better than the journeymen.
+  4 Eisen, Wulf & Mark (Messing 4): shared hut, worn tools, small WHITE WOLF charm, thinner smoke.
+  5 Kohlenlager: black charcoal mounds, the KÖHLER-HEAP as store for the masters, not a poor hut.
+  6 Nagel, Timo Lehrling (Messing 3): smallest dwelling, cracked shutter, borrowed tongs on a nail, almost charcoal-burner — nephew, not master.
+LEGENDE: 1 Hammer-Esse · 2 Stahl · 3 Hammer · 4 Eisen/Ulric · 5 Kohle · 6 Nagel.
+
+--- 5.6 Weberweg --- gasse-weberweg.png
+  1 Weberei Tuch-Arbeit: long loft, skylight, warp-threads, a bolt of brown cloth.
+  2 Schneiderei Schneider-Arbeit: shears-sign, offcuts, a dummy, chalk.
+  3 Tuch, Eberhard Meister (Silber 2): good chimney, a dyed-blue rag on a line, a cat on the ridge.
+  4 Schneiderfamilie Else & Pieter (Silber 1): neat lintel, a CHILD'S STOOL, a measuring-ribbon, slightly humbler than Tuch the master.
+  5 Beize, Niko (Messing 5): yellow-green STEAM, three vats, wet cloth poles — busy, stained, not poor.
+LEGENDE: 1 Tuch-Arbeit · 2 Schneider-Arbeit · 3 Tuch · 4 Schneider · 5 Beize.
+
+--- 5.7 Krämerstraße --- gasse-kraemerstrasse.png
+  1 Bode-Laden (Silber 1 Arbeit): sacks, hanging onions, a honest-light window, a broom.
+  2 Wurzel-Laden (Messing 5): herb bunches, a mortar, a shutter that does not quite close (hush, no chaos mark).
+  3 Bode-Wohnung Hartmut (Silber 1): clay tiles patched, a chicken, a water-jar.
+  4 Wurzel-Wohnung Maren (Messing 5): drying herbs under the eaves, a daughter-sized second stool.
+  5 Blatt, Simon (Silber 1): book-press, leather scraps, a bone folder, quiet roof.
+  6 leer Hutmacher: a pale HAT-BLOCK in the window, dust, no smoke.
+LEGENDE: 1 Bode-Laden · 2 Wurzel-Laden · 3 Bode · 4 Wurzel · 5 Blatt · 6 leer.
+
+--- 5.8 Gerbergasse --- gasse-gerbergasse.png
+Downstream, ochre haze, never gore.
+  1 Gerberei Leder-Arbeit: lime pits, dripping hides, a small landing-plank, a scraping-horse.
+  2 Leder, Dietrich Meister (Silber 1): stained but TWO-storey, a better chimney than Gerb, a wash-tub.
+  3 Gerb, Lutz & Enno (Messing 3): low thatch, sickly thin chimney, a rag in the window — poorer than the master, Köhler-near.
+  4 Hauteschuppen: stacked hides, no dwelling.
+LEGENDE: 1 Leder-Arbeit · 2 Leder · 3 Gerb · 4 Häute.
+
+--- 5.9 Töpfergasse --- gasse-toepfergasse.png
+  1 Töpferei Ton-Arbeit: beehive KILN, stacked crocks, clay heaps, a waster-shard pile.
+  2 Ton, Meinhard (Silber 1): decent thatch-to-tile, a row of good jugs on the sill.
+  3 Asche, Jori Lehrling (Messing 2): one window, a single cracked mug, small as Nagel — not the son.
+LEGENDE: 1 Ton-Arbeit · 2 Ton · 3 Asche.
+
+--- 5.10 Morrgasse --- gasse-morrgasse.png
+No undead.
+  1 Gruft, Silas (Messing 3): spade, wreath-hook, a modest thatch, a black cloth on a peg.
+  2 Morr-Kapelle Ewig, Miren (Silber 1 Kult): raven + black-rose finial, yews, pale gravel, a new mound, a quiet bell. Cult-sober, not merchant-glass.
+LEGENDE: 1 Gruft · 2 Ewig.
+
+--- 5.11 Schlemmergasse --- gasse-schlemmergasse.png
+  1 Taverne Stube-Arbeit (Messing 5 busy): two barrels, a bench, a rear lean-to; tiny CAT scratch over the back door; shrine NOT visible from above.
+  2 Linde, Thea (Messing 5): curtained upper windows, a LUTE on a sill, a lantern.
+  3 Stube-Wohnung Rolf (Messing 5): family wash, a stew-pot chimney, NOT the Zum Wanderer. Comfortable brass, not miller-tile.
+LEGENDE: 1 Stube-Taverne · 2 Linde · 3 Stube.
+
+--- 5.12 Bettelgasse --- gasse-bettelgasse.png
+Poverty as patched thatch, not a freak-show. All this lane is Köhler-or-below except the well.
+  1 Karg, Wenzel (Messing 1): one cabbage, a rope-bed visible in the door, thin smoke.
+  2 Hesse, Magda Witwe (Messing 1): one shutter, a CAT, a dry herb-bunch, no man-tools.
+  3 Clique Krumm/Fips/Auge (Messing 0): extra footprints, three bowls, no cult graffiti.
+  4 leer Dach eingefallen: ribs of beam, a pigeon.
+  5 leer vernagelt: boards in a hammered X, rusted nails.
+  6 leer "spukt": a list of the roof, no ghost painted, a crooked chimney that does not smoke.
+  7 Dünn, Ivo (Messing 1): alone, one stool, almost no yard.
+  8 Gemeinschaftsbrunnen: worn stones, a shared dipper, wet mud ring. No family.
+LEGENDE: 1 Karg · 2 Hesse · 3 Clique · 4 leer · 5 leer · 6 leer Ruf · 7 Dünn · 8 Brunnen.
+
+--- 5.13 Rattenwinkel --- gasse-rattenwinkel.png
+  1 Unken, Abel & Mira weg 2506: door ajar, a CHILD'S BROKEN STOOL in the weeds, no smoke, a collapsed hen-coop. Dead household, not Köhler — absent.
+  2 letztes leeres Haus: cellar grate, umber rat-specks, neighbors' backs, no monster.
+LEGENDE: 1 Unken leer · 2 leer.
+
+================================================================================
+STAMMBÄUME — Köpfe (zum Beschriften / Legende)
+================================================================================
+
+von Grünberg  Albrecht (nicht in der Stadt)
+Talbeck       Helmuth, Bürgermeister
+Stein         Reiner, Stadtrat
+Holtz         Wilhelm Gildemeister · Berthold Kaufmann Markt 7
+Voss          Kaspar, Kaufmann Markt 8
+Feder         Leopold, Notar des Grafen
+Heller        Magnus, Wechsler
+Keil          Vater Brant, Sigmar · Novize Jost
+Eckert        Franz, Gildeschreiber
+Karr          Hannes, Fuhr
+Krug          Detlef, Zum Wanderer
+Stube         Rolf, Taverne
+Laib          Gerd, Bäcker
+Metz          Konrad, Fleischer
+Docht         Ewald, Kram am Tor
+Helm          Arne, Stadtwache
+Hammer        Bodo, Hufschmied
+Nagel         Timo, Lehrling (Neffe Hammer)
+Stahl         Ulrich, Waffenschmied (Wache)
+Eisen         Wulf & Mark, Ulric
+Tuch          Eberhard, Webermeister
+Schneider     Else, Meisterin
+Beize         Niko, Färber
+Bode          Hartmut, Krämer
+Wurzel        Maren, Kräuter
+Blatt         Simon, Buchbinder
+Leder         Dietrich, Gerbermeister
+Gerb          Lutz & Enno
+Ton           Meinhard, Töpfer
+Asche         Jori, Lehrling
+Gruft         Silas, Totengräber / Morr
+Ewig          Miren, Morr-Kapelle
+Linde         Thea, Vergnügungshaus
+Blau          Hilde, Wäscherin
+Moos          Jaan, aus dem Sumpf
+Laus          Bettler Vorstadt
+Staub         Rudi, Torstraße
+Karg          Wenzel, Bettelgasse
+Hesse         Magda, Witwe
+Clique        Krumm, Fips, Auge
+Dünn          Ivo
+Unken         Abel & Mira, weg 2506
+
+================================================================================
+DATEIEN (19)
+================================================================================
+
+drosselau-stadt.png
+drosselau-viertel-{vorstadt,tor,markt,handwerk,schatten}.png
+gasse-{vorstadtring,torstrasse,marktplatz,gildengasse,schmiedezeile,weberweg,
+kraemerstrasse,gerbergasse,toepfergasse,morrgasse,schlemmergasse,bettelgasse,rattenwinkel}.png
+
+Erst Stadt, dann Viertel aus dem Anker, dann Gasse aus dem Viertel.

@@ -3,11 +3,12 @@
 JSON-`id`: `ermuedend`  
 Quelle: S. 299
 
-Gerüst. Beispiele nach der Extraktion.
+## Prüfen
+
+- [prüfen am Buch S. 299] Wortlaut gegen die Karte.
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
-- [Waffen und Rüstung](../../02-waffen-ruestung.md)
-- [Nahkampf](../../../04-faehigkeiten-talente/faehigkeiten/nahkampf/angepasst.md)
+- [Waffen-Qualitäten](../README.md)

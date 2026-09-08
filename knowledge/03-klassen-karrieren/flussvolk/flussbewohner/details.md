@@ -7,7 +7,7 @@ Quelle: S. 69 · [careers.json](../../../data/careers.json)
 
 - Stufe-1-Name **Jungspund**, Status messing 2.
 - Schema-Plus (Stufe 1): ST, I, GW. Symbole gegen die Buchkarte halten.
-- Höhere Stufen nicht Demo.
+- Höhere Stufen nicht der empfohlene Einstieg.
 
 ## Prüfen
 

@@ -1,10 +1,10 @@
 # Ritter — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 101)
+Quelle der Regeln: [original.md](original.md) (S. 105)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Keine Katalogkarte. Die Karriere filtert, welche Fähigkeiten und Talente der Charakter kennen darf.
 
-
+Stufe 1: **Knappe**, Silber 3. Bogen-Keys: `klasse` = `krieger`, `karriere` = `ritter`, `karrierestufe` = 1.
 
 ### Befehl
 
@@ -14,5 +14,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 
 - [Original](original.md)
 - [Details](details.md)
-- [Krieger](../../krieger/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
+- [Status](../../02-status-system.md)

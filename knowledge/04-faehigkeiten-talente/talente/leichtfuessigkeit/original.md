@@ -5,13 +5,12 @@ Status: Original, nicht anfassen
 
 **Leichtfüßigkeit**
 
-Maximum und Würfe stehen im Buch.
-
-[prüfen am Buch S. 139]
-
+**Maximum:** 1  
+Du erhältst +1 auf dein Attribut Bewegung.
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

@@ -1,13 +1,20 @@
 # Schausteller — Details / Hilfe
 
 JSON-`id`: `schausteller`  
-Quelle: S. 77
+Quelle: S. 83 · [careers.json](../../../data/careers.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Stufe 1 heißt **Straßenkünstler** (Messing 3).
+- Schema-Symbole gegen die Karte S. 83 gehalten.
+
+## Prüfen
+
+- [prüfen am Buch S. 83] Karriereschema-Symbole und Ausrüstungslisten gegen die Karte.
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
-- [Freisassen](../../freisassen/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)

@@ -12,13 +12,13 @@ Die Formel nutzt den **Rang** (die Zahl), nicht das Wort Messing/Silber/Gold.
 | Silber | 1W10 × Rang **Schilling** |
 | Gold | 1 × Rang **Goldkrone** |
 
-Beispiele: Greta Silber **1** → 1W10 Schilling. Otto Silber **2** → 2W10
+Beispiele: der Spielercharakter Silber **1** → 1W10 Schilling. ein Händler Silber **2** → 2W10
 Schilling. Messing 3 → 6W10 Groschen. Gold 1 → 1 Krone.
 
 **Hungerleider** (Bettler Stufe 1) ist Messing **0** → **0 Geld**. Das ist
 kein Fehler.
 
-Optional davon noch einkaufen (Kapitel 11). Die Demo kann das lassen.
+Optional davon noch einkaufen (Kapitel 11). Optional.
 
 Es gibt keine Pfennige. Keys: Groschen `geld_g`, nicht `geld_d`.
 

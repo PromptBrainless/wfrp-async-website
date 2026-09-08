@@ -5,13 +5,14 @@ Status: Original, nicht anfassen
 
 **Zweites Gesicht**
 
-Maximum und Würfe stehen im Buch.
+**Maximum:** Initiative-Bonus  
+**Würfe:** Jeder Wurf zum Erkennen der Winde der Magie
 
-[prüfen am Buch S. 147]
-
+Du kannst die stets auf- und abflauenden Winde der Magie wahrnehmen, die von den Chaostoren an den Polen aus in die Welt strömen. Du hast nun das Zweite Gesicht (siehe Seite 233). IV 147 FÄHIGKEITEN UND TALENTE
 
 ### Siehe auch
 
 - [Angepasst](angepasst.md)
 - [Details](details.md)
 - [Hub](README.md)
+- [Talente-Liste](../../03-talente-liste.md)

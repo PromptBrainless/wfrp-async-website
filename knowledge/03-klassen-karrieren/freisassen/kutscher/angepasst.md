@@ -1,10 +1,10 @@
 # Kutscher — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 77)
+Quelle der Regeln: [original.md](original.md) (S. 82)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Keine Katalogkarte. Die Karriere filtert, welche Fähigkeiten und Talente der Charakter kennen darf.
 
-
+Stufe 1: **Postillon**, Silber 1. Bogen-Keys: `klasse` = `freisassen`, `karriere` = `kutscher`, `karrierestufe` = 1.
 
 ### Befehl
 
@@ -14,5 +14,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 
 - [Original](original.md)
 - [Details](details.md)
-- [Freisassen](../../freisassen/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
+- [Status](../../02-status-system.md)

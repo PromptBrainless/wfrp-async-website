@@ -1,10 +1,10 @@
 # Hehler — Projekt
 
-Quelle der Regeln: [original.md](original.md) (S. 85)
+Quelle der Regeln: [original.md](original.md) (S. 89)
 
-Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
+Keine Katalogkarte. Die Karriere filtert, welche Fähigkeiten und Talente der Charakter kennen darf.
 
-
+Stufe 1: **Trödler**, Silber 1. Bogen-Keys: `klasse` = `gesetzlose`, `karriere` = `hehler`, `karrierestufe` = 1.
 
 ### Befehl
 
@@ -14,5 +14,6 @@ Das Buch nicht wiederholen. Gerüst — Volltext kommt in der Welle.
 
 - [Original](original.md)
 - [Details](details.md)
-- [Gesetzlose](../../gesetzlose/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)
+- [Status](../../02-status-system.md)

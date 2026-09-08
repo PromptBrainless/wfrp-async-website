@@ -7,7 +7,7 @@ Quelle: S. 74 · [careers.json](../../../data/careers.json)
 
 - Stufe-1-Name **Landratte**, Status silber 1.
 - Schema-Plus (Stufe 1): KG, GW, GS, CH. Symbole gegen die Buchkarte halten.
-- Höhere Stufen nicht Demo.
+- Höhere Stufen nicht der empfohlene Einstieg.
 
 ## Prüfen
 

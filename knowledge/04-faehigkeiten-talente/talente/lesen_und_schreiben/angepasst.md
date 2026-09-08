@@ -8,7 +8,7 @@ Kein Wurf. Ohne das Talent: Analphabet. Mit Talent: jede *Sprache*, die der Char
 
 `talente[]`: `id` = `lesen_und_schreiben`, Maximum 1. Karten, die Schrift brauchen, grau ohne dieses Talent.
 
-Otto Händler: verfügbar, nicht automatisch. Greta Gehilfe: nicht auf der Stufe-1-Liste.
+ein Händler Händler: verfügbar, nicht automatisch. Stufe 1 (Gehilfe): nicht auf der Stufe-1-Liste.
 
 ### Befehl
 

@@ -1,6 +1,7 @@
 # Die vier Kernrollen des Spielleiters
 
-Quelle: Grundregelwerk, Kapitel „Der Spielleiter“ (ab S. 259)
+Quelle: Grundregelwerk, Kapitel „Der Spielleiter“ (S. 258–265)  
+Roh: [_roh/sl-s258-265.md](_roh/sl-s258-265.md)
 
 ## 1. Du bist die Welt
 
@@ -37,6 +38,7 @@ Quelle: Grundregelwerk, Kapitel „Der Spielleiter“ (ab S. 259)
 ---
 
 ### Siehe auch
+- [Der Spielleiter — Roh](_roh/sl-s258-265.md)
 - [Ablauf am Spieltisch](02-ablauf-am-spieltisch.md)
+- [Reisen](03-reisen.md)
 - [Grundprinzip des Spiels](../01-einfuehrung/01-grundprinzip-des-spiels.md)
-- [Sims-Prinzip-Ableitung](../10-system/01-sims-prinzip-ableitung.md)

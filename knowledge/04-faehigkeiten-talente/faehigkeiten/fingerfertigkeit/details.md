@@ -1,6 +1,6 @@
 # Fingerfertigkeit — Details / Hilfe
 
-JSON-`id`: `fingerfertigkeit`  
+JSON-`id`: `fingerfertigkeit` 
 Quelle: S. 123 · Tabelle: [../../../data/skills.json](../../../data/skills.json)
 
 ## Hilfe

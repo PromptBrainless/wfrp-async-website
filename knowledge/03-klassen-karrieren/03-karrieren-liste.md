@@ -52,7 +52,7 @@ Volltext: Klasse [Bürger](buerger/README.md) 8/8 — [Kaufmann](buerger/kaufman
 
 ## [Gesetzlose](gesetzlose/README.md) (S. 85)
 
-Volltext: [Halunke](gesetzlose/halunke/original.md) S. 88 (Kurt = Schläger).
+Volltext: [Halunke](gesetzlose/halunke/original.md) S. 88 (ein Schläger = Schläger).
 
 - [`bandit`](gesetzlose/bandit/README.md) Bandit
 - [`dieb`](gesetzlose/dieb/README.md) Dieb

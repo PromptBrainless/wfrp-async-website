@@ -17,11 +17,11 @@ in denselben Keller gesperrt.
 ergänzen, sollen nicht identisch sein. Kurzfristig +50 EP für alle,
 langfristig +500 oder Ruhestand.
 
-Spannungen sind erlaubt (Otto will Handel, Kurt will Respekt, Greta will
+Spannungen sind erlaubt (ein Händler will Handel, ein Schläger will Respekt, der Spielercharakter will
 die Miete). Permanente Kehlerei sprengt den Tisch.
 
-Demo: Greta Städterin/Gehilfe Silber 1, Otto Kaufmann/Händler Silber 2,
-Kurt Halunke/Schläger. [Flags und Bindungen](37-flags-bindungen.md) können
+Demo: der Spielercharakter Städterin/Gehilfe Silber 1, ein Händler Kaufmann/Händler Silber 2,
+ein Schläger Halunke/Schläger. [Flags und Bindungen](37-flags-bindungen.md) können
 die drei schon verknüpfen.
 
 ### Siehe auch

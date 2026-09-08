@@ -1,16 +1,15 @@
 # Ereignisse und Unternehmungen
 
-Quelle: S. 192–200
+Quelle: S. 192–201  
+Roh: [_roh/zwischen-s192-201.md](_roh/zwischen-s192-201.md)
 
-**Status:** TODO – ungekürzt extrahieren
+Die Ereignistabelle und die Unternehmungslisten stehen ungekürzt im Roh. Hier nur die Lage:
 
-- Ereignisse zwischen den Abenteuern
-- Geld durchbringen
-- Pflichten
-- Allgemeine und Klassen-Unternehmungen
-
----
+- Ereignisse treffen *zwischen* den Abenteuern, nicht in der Szene.
+- Unternehmungen kosten Zeit. Der SL setzt, wie viele pro Pause.
+- Einnahmen hängen am Status. Verfügbarkeit am Ort (Dorf / Kleinstadt / Stadt).
 
 ### Siehe auch
+
 - [Zwischen den Abenteuern](04-zwischen-den-abenteuern.md)
-- [Status-System](../03-klassen-karrieren/02-status-system.md)
+- [Einkauf — Verfügbarkeit](../08-einkauf/05-verfuegbarkeit.md)

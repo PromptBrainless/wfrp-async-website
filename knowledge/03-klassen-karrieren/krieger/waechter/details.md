@@ -1,13 +1,20 @@
 # Wächter — Details / Hilfe
 
 JSON-`id`: `waechter`  
-Quelle: S. 101
+Quelle: S. 108 · [careers.json](../../../data/careers.json)
 
-Gerüst. Beispiele nach der Extraktion.
+## Hilfe
+
+- Stufe 1 heißt **T orwächter** (Silber 1).
+- Schema-Symbole gegen die Karte S. 108 gehalten.
+
+## Prüfen
+
+- [prüfen am Buch S. 108] Karriereschema-Symbole und Ausrüstungslisten gegen die Karte.
 
 ### Siehe auch
 
 - [Original](original.md)
 - [Angepasst](angepasst.md)
-- [Krieger](../../krieger/README.md)
+- [Hub](../README.md)
 - [Karrieren-Liste](../../03-karrieren-liste.md)

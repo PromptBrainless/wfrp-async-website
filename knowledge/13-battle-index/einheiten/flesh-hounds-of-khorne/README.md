@@ -1,0 +1,9 @@
+# Fleischhunde des Khorne
+
+Quelle: Battle Bestiary S. 46
+
+- [Original](original.md) — Battle-Text, unverändert
+- [Angepasst](angepasst.md) — Token, Traits, Tisch
+- [Details](details.md) — Hilfe, Fallen
+
+Gruppe: Chaos / Sklaven der Finsternis · en: Flesh Hounds of Khorne

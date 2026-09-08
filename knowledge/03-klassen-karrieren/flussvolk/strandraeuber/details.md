@@ -7,7 +7,7 @@ Quelle: S. 76 · [careers.json](../../../data/careers.json)
 
 - Stufe-1-Name **Frachtplünderer**, Status messing 2.
 - Schema-Plus (Stufe 1): KG, ST, I. Symbole gegen die Buchkarte halten.
-- Höhere Stufen nicht Demo.
+- Höhere Stufen nicht der empfohlene Einstieg.
 
 ## Prüfen
 

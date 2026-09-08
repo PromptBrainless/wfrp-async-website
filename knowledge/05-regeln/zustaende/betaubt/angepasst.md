@@ -6,7 +6,7 @@ Das Buch nicht wiederholen.
 
 Karten mit Handlung: grau, Grund „Betäubt — keine Handlung“. Bewegung halb. Verteidigung bei Vergleich erlaubt, nicht *Sprache (Magick)*.
 
-Redeschwall (Otto) kann diesen Zustand legen. Ende Runde: Engine schlägt Ausdauer vor, SL gibt frei. Letzter Stapel weg → `erschoepft`, falls noch keiner.
+Redeschwall (ein Händler) kann diesen Zustand legen. Ende Runde: Engine schlägt Ausdauer vor, SL gibt frei. Letzter Stapel weg → `erschoepft`, falls noch keiner.
 
 ## Bogen
 

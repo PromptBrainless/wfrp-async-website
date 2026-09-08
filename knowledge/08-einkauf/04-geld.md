@@ -2,7 +2,7 @@
 
 Quelle: S. 288
 
-1 Goldkrone (GK) = 20 Silberschillinge (S) = 240 Messinggroschen (G)  
+1 Goldkrone (GK) = 20 Silberschillinge (S) = 240 Messinggroschen (G) 
 1 S = 12 G.
 
 Engine rechnet intern in **Groschen**. Anzeige: größtmögliche Stücke, Rest kleiner.

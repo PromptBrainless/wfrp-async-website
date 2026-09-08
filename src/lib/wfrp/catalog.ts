@@ -26,6 +26,7 @@ export const CATALOG: ActionDef[] = [
     skill: "wahrnehmung",
     resolver: "simple",
     summary: "Den Ort und die Leute mit den Augen abtasten.",
+    ask: "Mich umschauen",
   },
   {
     id: "intuition",
@@ -35,6 +36,7 @@ export const CATALOG: ActionDef[] = [
     skill: "intuition",
     resolver: "simple",
     summary: "Absicht und Haltung eines Gegenübers lesen.",
+    ask: "Die Lage einschätzen",
   },
   {
     id: "reden",
@@ -44,6 +46,7 @@ export const CATALOG: ActionDef[] = [
     skill: "charme",
     resolver: "simple",
     summary: "Mit Worten überzeugen, schmeicheln, Vertrauen suchen.",
+    ask: "Jemanden ansprechen",
   },
   {
     id: "feilschen",
@@ -53,6 +56,7 @@ export const CATALOG: ActionDef[] = [
     skill: "feilschen",
     resolver: "opposed",
     summary: "Den Preis drücken. Vergleich gegen den Händler.",
+    ask: "Um den Preis feilschen",
   },
   {
     id: "bestechen",
@@ -62,6 +66,7 @@ export const CATALOG: ActionDef[] = [
     skill: "bestechen",
     resolver: "simple",
     summary: "Geld oder Gefälligkeit gegen ein Entgegenkommen.",
+    ask: "Bestechen",
   },
   {
     id: "einschuechtern",
@@ -71,6 +76,7 @@ export const CATALOG: ActionDef[] = [
     skill: "einschuechtern",
     resolver: "opposed",
     summary: "Drohen. Status färbt die Konsequenz, nicht die Karte.",
+    ask: "Einschüchtern",
   },
   {
     id: "klatsch",
@@ -80,6 +86,7 @@ export const CATALOG: ActionDef[] = [
     skill: "klatsch",
     resolver: "simple",
     summary: "In der Menge nach Geschichten und Preisen fischen.",
+    ask: "Nach Gerüchten fragen",
   },
   {
     id: "kaufen",
@@ -89,6 +96,7 @@ export const CATALOG: ActionDef[] = [
     skill: "feilschen",
     resolver: "opposed",
     summary: "Zuerst zahlen, dann Feilschen um den Preis. Verfügbarkeit entscheidet der SL.",
+    ask: "Kaufen",
   },
   {
     id: "schleichen",
@@ -101,11 +109,12 @@ export const CATALOG: ActionDef[] = [
   },
   {
     id: "gehen",
-    label: "Ort verlassen",
+    label: "Gehen",
     cost: "B",
     tab: "bewegung",
     resolver: "move",
-    summary: "Einen Ausgang nehmen, der in der Szene liegt.",
+    summary: "An einen genannten Ort der Szene oder einen Ausgang. Im Kampf: Bewegung × 2 Meter. Kein Wurf.",
+    ask: "Woanders hingehen",
   },
   {
     id: "warten",
@@ -114,6 +123,7 @@ export const CATALOG: ActionDef[] = [
     tab: "bewegung",
     resolver: "auto",
     summary: "Stillstehen, beobachten, die Frist verstreichen lassen.",
+    ask: "Abwarten",
   },
   {
     id: "sprinten",
@@ -156,6 +166,7 @@ export const CATALOG: ActionDef[] = [
     tab: "kampf",
     resolver: "auto",
     summary: "Den Dolch oder die geführte Waffe ziehen. Eskaliert die Szene.",
+    ask: "Die Waffe ziehen",
   },
   {
     id: "angreifen",
@@ -165,6 +176,7 @@ export const CATALOG: ActionDef[] = [
     skill: "nahkampf",
     resolver: "combat",
     summary: "Vergleichender Wurf. Meist Nahkampf gegen Nahkampf oder Ausweichen.",
+    ask: "Angreifen",
   },
   {
     id: "sturmangriff",
@@ -241,12 +253,17 @@ export const CATALOG: ActionDef[] = [
     tab: "sozial",
     resolver: "simple",
     summary: "Keine alleinige Steuerung. Der SL hängt sie an eine Fähigkeit oder lehnt ab.",
+    ask: "Etwas anderes versuchen",
   },
 ];
 
 export const CATALOG_BY_ID: Record<string, ActionDef> = Object.fromEntries(
   CATALOG.map((a) => [a.id, a]),
 );
+
+export function actionAsk(def: ActionDef): string {
+  return def.ask ?? def.label;
+}
 
 export const SOCIAL_FAIL_IDS = new Set([
   "reden",

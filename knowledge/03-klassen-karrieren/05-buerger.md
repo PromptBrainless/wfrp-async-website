@@ -2,29 +2,29 @@
 
 Quelle: S. 61–68
 
-Ordner: [buerger/](buerger/README.md). Greta = [Städter](buerger/staedter/README.md) Gehilfe. Otto = [Kaufmann](buerger/kaufmann/README.md) Händler.
+Ordner: [buerger/](buerger/README.md). der Spielercharakter = [Städter](buerger/staedter/README.md) Gehilfe. ein Händler = [Kaufmann](buerger/kaufmann/README.md) Händler.
 
 Bürger-Karrieren: Agitator, Bettler, Ermittler, Handwerker, Kaufmann, Rattenfänger, Städter, Wachmann.
 
 Volltext Original: Klasse komplett — [Ordner](buerger/README.md), acht Dateien unter `buerger/*/original.md`.
 
-## Städter (S. 67) – Greta
+## Städter (S. 67) – der Spielercharakter
 
 Halbling, Hochelf, Mensch, Zwerg.
 
 Tätigkeiten laut Buch: Handlanger, Wirte, **Krämer**, Laufburschen, Kellner, Zeitungsverkäufer, Stallknechte, Ladenbesitzer …
 
-Greta „Krämerin Stufe 1, Silber 1“ = **Gehilfe**, nicht Kaufmann.
+der Spielercharakter „Krämerin Stufe 1, Silber 1“ = **Gehilfe**, nicht Kaufmann.
 
 Projektfassung: [angepasst](buerger/staedter/angepasst.md). Hilfe: [details](buerger/staedter/details.md).
 
-Greta-Demo-Bogen nutzt die Zahlen aus [characters.json](../data/characters.json), nicht 1:1 die 40 Startsteigerungen.
+der Spielercharakter-Demo-Bogen nutzt die Zahlen aus [characters.json](../data/characters.json), nicht 1:1 die 40 Startsteigerungen.
 
-## Kaufmann (S. 65) – Otto näher
+## Kaufmann (S. 65) – ein Händler näher
 
 Halbling, Hochelf, Mensch, Zwerg.
 
-Otto in der Demo: Silber 1, Feilschen 50. Buch Händler ist Silber 2. Markiert als SL-Kürzung.
+ein Händler : Silber 1, Feilschen 50. Buch Händler ist Silber 2. Markiert als SL-Kürzung.
 
 Projektfassung: [angepasst](buerger/kaufmann/angepasst.md).
 

@@ -9,7 +9,7 @@ Schritt 3.
 
 **Kurzfristiges Ziel.** Tage bis Wochen, mindestens zwei bis drei Abende
 Spiel. Wenn erreicht: **+50 EP**. Beispiele: die Miete · den Stand halten ·
-die Wache beruhigen · die Schuld bei Otto · ein Wort an die Herrin · den
+die Wache beruhigen · die Schuld bei ein Händler · ein Wort an die Herrin · den
 nächsten Handel · nicht auffliegen.
 
 **Langfristiges Ziel.** Monate, Jahre oder nie. Wenn erreicht: **+500 EP**

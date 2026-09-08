@@ -1,0 +1,1677 @@
+{
+  "system": "whfb-battle-4e",
+  "source": "https://4th.whfb.app",
+  "note": "Namen und Traits. Keine WFRP-Werte. Profile nur Dokumentation.",
+  "units": [
+    {
+      "id": "beastmen",
+      "slug": "beastmen",
+      "name_en": "Beastmen",
+      "name_de": "Tiermenschen",
+      "singular": "Beastman",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 40,
+      "url": "https://4th.whfb.app/unit/beastmen",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "beasts_of_nurgle",
+      "slug": "beasts-of-nurgle",
+      "name_en": "Beasts of Nurgle",
+      "name_de": "Bestien des Nurgle",
+      "singular": "Beast of Nurgle",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 50,
+      "url": "https://4th.whfb.app/unit/beasts-of-nurgle",
+      "traits": [
+        "Daemons",
+        "Furcht",
+        "Attacks",
+        "Slime Trail"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "black_orcs",
+      "slug": "black-orcs",
+      "name_en": "Black Orcs",
+      "name_de": "Schwarzorks",
+      "singular": "Black Orc",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 26,
+      "url": "https://4th.whfb.app/unit/black-orcs",
+      "traits": [
+        "Animosität",
+        "Anführer",
+        "Schwarzork-Anführer",
+        "Panik"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "bloodletters_of_khorne",
+      "slug": "bloodletters-of-khorne",
+      "name_en": "Bloodletters of Khorne",
+      "name_de": "Blutdämonen des Khorne",
+      "singular": "Bloodletter",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 45,
+      "url": "https://4th.whfb.app/unit/bloodletters-of-khorne",
+      "traits": [
+        "Daemons",
+        "Furcht",
+        "Hellblade"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "bloodthirster",
+      "slug": "bloodthirster",
+      "name_en": "Bloodthirster",
+      "name_de": "Blutdurster",
+      "singular": "Bloodthirster",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 45,
+      "url": "https://4th.whfb.app/unit/bloodthirster",
+      "traits": [
+        "Greater Daemons",
+        "Terror!",
+        "Chaos Armour",
+        "Axe of Khorne",
+        "Flug"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "carrion",
+      "slug": "carrion",
+      "name_en": "Carrion",
+      "name_de": "Aasgeier (Carrion)",
+      "singular": "Carrion",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 75,
+      "url": "https://4th.whfb.app/unit/carrion",
+      "traits": [
+        "Kampf",
+        "Furcht",
+        "Immun gegen Psychologie",
+        "Geistreiter"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "chaos_centaurs",
+      "slug": "chaos-centaurs",
+      "name_en": "Chaos Centaurs",
+      "name_de": "Chaos-Zentauren",
+      "singular": "Centaur",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 40,
+      "url": "https://4th.whfb.app/unit/chaos-centaurs",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "chaos_hounds",
+      "slug": "chaos-hounds",
+      "name_en": "Chaos Hounds",
+      "name_de": "Chaos-Hunde",
+      "singular": "Chaos Hound",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 40,
+      "url": "https://4th.whfb.app/unit/chaos-hounds",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "chaos_steeds",
+      "slug": "chaos-steeds",
+      "name_en": "Chaos Steeds",
+      "name_de": "Chaos-Streitrosse",
+      "singular": "Chaos Steed",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 40,
+      "url": "https://4th.whfb.app/unit/chaos-steeds",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "chaos_warriors",
+      "slug": "chaos-warriors",
+      "name_en": "Chaos Warriors",
+      "name_de": "Chaoskrieger",
+      "singular": "Chaos Warrior",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 38,
+      "url": "https://4th.whfb.app/unit/chaos-warriors",
+      "traits": [
+        "Chaos Champions",
+        "Khorne",
+        "Chaos Armour",
+        "Raserei",
+        "Nurgle",
+        "Toughness",
+        "Tzeentch",
+        "Magic Dispel",
+        "Slaanesh",
+        "Psychology",
+        "Kampf"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "chimeras",
+      "slug": "chimeras",
+      "name_en": "Chimeras",
+      "name_de": "Chimären",
+      "singular": "Chimera",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 78,
+      "url": "https://4th.whfb.app/unit/chimeras",
+      "traits": [
+        "Entsetzen",
+        "Breathe Fire"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "cockatrices",
+      "slug": "cockatrices",
+      "name_en": "Cockatrices",
+      "name_de": "Cockatrice",
+      "singular": "Cockatrice",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 78,
+      "url": "https://4th.whfb.app/unit/cockatrices",
+      "traits": [
+        "Furcht",
+        "Versteinern"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "cold_ones",
+      "slug": "cold-ones",
+      "name_en": "Cold Ones",
+      "name_de": "Kaltblüter",
+      "singular": "Cold One",
+      "category": "Dunkelelfen",
+      "category_slug": "dark-elf",
+      "page_battle": 59,
+      "url": "https://4th.whfb.app/unit/cold-ones",
+      "traits": [
+        "Furcht",
+        "Dummheit"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "daemonettes_of_slaanesh",
+      "slug": "daemonettes-of-slaanesh",
+      "name_en": "Daemonettes of Slaanesh",
+      "name_de": "Dämonetten des Slaanesh",
+      "singular": "Daemonette",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 47,
+      "url": "https://4th.whfb.app/unit/daemonettes-of-slaanesh",
+      "traits": [
+        "Daemons",
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "dark_elf_assassins",
+      "slug": "dark-elf-assassins",
+      "name_en": "Dark Elf Assassins",
+      "name_de": "Dunkelelfen-Assassinen",
+      "singular": "Assassin",
+      "category": "Dunkelelfen",
+      "category_slug": "dark-elf",
+      "page_battle": 59,
+      "url": "https://4th.whfb.app/unit/dark-elf-assassins",
+      "traits": [
+        "Disguise",
+        "Attack",
+        "Poison Attacks",
+        "Further Fighting",
+        "Führung / Anzahl"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "dark_elves",
+      "slug": "dark-elves",
+      "name_en": "Dark Elves",
+      "name_de": "Dunkelelfen",
+      "singular": "Dark Elf",
+      "category": "Dunkelelfen",
+      "category_slug": "dark-elf",
+      "page_battle": 58,
+      "url": "https://4th.whfb.app/unit/dark-elves",
+      "traits": [
+        "Hate High Elves"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "discs_of_tzeentch",
+      "slug": "discs-of-tzeentch",
+      "name_en": "Discs of Tzeentch",
+      "name_de": "Scheiben des Tzeentch",
+      "singular": "Disc",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 53,
+      "url": "https://4th.whfb.app/unit/discs-of-tzeentch",
+      "traits": [
+        "Daemons",
+        "Flug",
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "dragon_ogres",
+      "slug": "dragon-ogres",
+      "name_en": "Dragon Ogres",
+      "name_de": "Drachenoger",
+      "singular": "Dragon Ogre",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 42,
+      "url": "https://4th.whfb.app/unit/dragon-ogres",
+      "traits": [
+        "Furcht",
+        "Schuppige Haut",
+        "Lightning"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "dragons",
+      "slug": "dragons",
+      "name_en": "Dragons",
+      "name_de": "Drachen",
+      "singular": "Dragon",
+      "category": "Drachen",
+      "category_slug": "dragon",
+      "page_battle": 54,
+      "url": "https://4th.whfb.app/unit/dragons",
+      "traits": [
+        "Flug",
+        "Schuppige Haut",
+        "Entsetzen",
+        "Dragon's Breath"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "dwarf_slayers",
+      "slug": "dwarf-slayers",
+      "name_en": "Dwarf Slayers",
+      "name_de": "Zwergen-Slayer",
+      "singular": "Troll Slayer",
+      "category": "Zwerge",
+      "category_slug": "dwarf",
+      "page_battle": 14,
+      "url": "https://4th.whfb.app/unit/dwarf-slayers",
+      "traits": [
+        "Slayers",
+        "Psychology",
+        "Break Tests"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "dwarfs",
+      "slug": "dwarfs",
+      "name_en": "Dwarfs",
+      "name_de": "Zwerge",
+      "singular": "Dwarf",
+      "category": "Zwerge",
+      "category_slug": "dwarf",
+      "page_battle": 13,
+      "url": "https://4th.whfb.app/unit/dwarfs",
+      "traits": [
+        "Hate Orcs and Goblins",
+        "Elf Grudge",
+        "Rüstung",
+        "Pursuit and Flee"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "fiends_of_slaanesh",
+      "slug": "fiends-of-slaanesh",
+      "name_en": "Fiends of Slaanesh",
+      "name_de": "Unholde des Slaanesh",
+      "singular": "Fiend of Slaanesh",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 48,
+      "url": "https://4th.whfb.app/unit/fiends-of-slaanesh",
+      "traits": [
+        "Daemons",
+        "Scorpion Tail",
+        "Furcht",
+        "Soporific Musk"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "flagellants",
+      "slug": "flagellants",
+      "name_en": "Flagellants",
+      "name_de": "Flagellanten",
+      "singular": "Flagellant",
+      "category": "Menschen / Reikland",
+      "category_slug": "human",
+      "page_battle": 11,
+      "url": "https://4th.whfb.app/unit/flagellants",
+      "traits": [
+        "Psychology",
+        "Kampf",
+        "Leadership Characteristic"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "flamers_of_tzeentch",
+      "slug": "flamers-of-tzeentch",
+      "name_en": "Flamers of Tzeentch",
+      "name_de": "Flamer des Tzeentch",
+      "singular": "Flamer",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 53,
+      "url": "https://4th.whfb.app/unit/flamers-of-tzeentch",
+      "traits": [
+        "Daemons",
+        "Furcht",
+        "Shoot Flame",
+        "Bound",
+        "Flame Attacks."
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "flesh_hounds_of_khorne",
+      "slug": "flesh-hounds-of-khorne",
+      "name_en": "Flesh Hounds of Khorne",
+      "name_de": "Fleischhunde des Khorne",
+      "singular": "Flesh Hound",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 46,
+      "url": "https://4th.whfb.app/unit/flesh-hounds-of-khorne",
+      "traits": [
+        "Daemons",
+        "Collar of Khorne",
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "forest_goblins",
+      "slug": "forest-goblins",
+      "name_en": "Forest Goblins",
+      "name_de": "Waldgoblins",
+      "singular": "Forest Goblin",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 28,
+      "url": "https://4th.whfb.app/unit/forest-goblins",
+      "traits": [
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "ghosts",
+      "slug": "ghosts",
+      "name_en": "Ghosts",
+      "name_de": "Geister",
+      "singular": "Ghost",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 74,
+      "url": "https://4th.whfb.app/unit/ghosts",
+      "traits": [
+        "Ethereal",
+        "Furcht",
+        "Kampf",
+        "Immun gegen Psychologie",
+        "Combat Results"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "ghouls",
+      "slug": "ghouls",
+      "name_en": "Ghouls",
+      "name_de": "Ghule",
+      "singular": "Ghoul",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 73,
+      "url": "https://4th.whfb.app/unit/ghouls",
+      "traits": [
+        "Furcht",
+        "Kampf",
+        "Pursuit"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "giant_rats",
+      "slug": "giant-rats",
+      "name_en": "Giant Rats",
+      "name_de": "Riesenratten",
+      "singular": "Giant Rat",
+      "category": "Rattenmenschen",
+      "category_slug": "skaven",
+      "page_battle": 68,
+      "url": "https://4th.whfb.app/unit/giant-rats",
+      "traits": [
+        "Pursuit",
+        "Overwhelm Enemy"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "giant_scorpions",
+      "slug": "giant-scorpions",
+      "name_en": "Giant Scorpions",
+      "name_de": "Riesenskorpione",
+      "singular": "Giant Scorpion",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 79,
+      "url": "https://4th.whfb.app/unit/giant-scorpions",
+      "traits": [
+        "Furcht",
+        "Chitinpanzer",
+        "Pincer Attack"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "giant_spiders",
+      "slug": "giant-spiders",
+      "name_en": "Giant Spiders",
+      "name_de": "Riesenspinnen",
+      "singular": "Giant Spider",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 32,
+      "url": "https://4th.whfb.app/unit/giant-spiders",
+      "traits": [
+        "Bewegung (Gelände)"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "giant_wolves",
+      "slug": "giant-wolves",
+      "name_en": "Giant Wolves",
+      "name_de": "Riesenwölfe",
+      "singular": "Giant Wolf",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 32,
+      "url": "https://4th.whfb.app/unit/giant-wolves",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "giants",
+      "slug": "giants",
+      "name_en": "Giants",
+      "name_de": "Riesen",
+      "singular": "Giant",
+      "category": "Riesen",
+      "category_slug": "giant",
+      "page_battle": 60,
+      "url": "https://4th.whfb.app/unit/giants",
+      "traits": [
+        "Furcht",
+        "Bewegung (Gelände)",
+        "Fall Over",
+        "Attacks",
+        "Thump With Club",
+        "Swing With Club",
+        "Stamp",
+        "Pick Up",
+        "Jump Up and Down",
+        "Yell and Bawl",
+        "Head Butt"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "gigantic_spiders",
+      "slug": "gigantic-spiders",
+      "name_en": "Gigantic Spiders",
+      "name_de": "Gigantische Spinnen",
+      "singular": "Gigantic Spider",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 79,
+      "url": "https://4th.whfb.app/unit/gigantic-spiders",
+      "traits": [
+        "Furcht",
+        "Chitinpanzer",
+        "Bewegung (Gelände)"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "goblins",
+      "slug": "goblins",
+      "name_en": "Goblins",
+      "name_de": "Goblins",
+      "singular": "Goblin",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 27,
+      "url": "https://4th.whfb.app/unit/goblins",
+      "traits": [
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "gorgons",
+      "slug": "gorgons",
+      "name_en": "Gorgons",
+      "name_de": "Gorgonen",
+      "singular": "Gorgon",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 80,
+      "url": "https://4th.whfb.app/unit/gorgons",
+      "traits": [
+        "Furcht",
+        "Versteinern"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "great_eagles",
+      "slug": "great-eagles",
+      "name_en": "Great Eagles",
+      "name_de": "Große Adler",
+      "singular": "Great Eagle",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 80,
+      "url": "https://4th.whfb.app/unit/great-eagles",
+      "traits": [
+        "Flug"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "great_unclean_one",
+      "slug": "great-unclean-one",
+      "name_en": "Great Unclean One",
+      "name_de": "Großer Verpester",
+      "singular": "Great Unclean One",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 49,
+      "url": "https://4th.whfb.app/unit/great-unclean-one",
+      "traits": [
+        "Greater Daemons",
+        "Terror!"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "griffons",
+      "slug": "griffons",
+      "name_en": "Griffons",
+      "name_de": "Greifen",
+      "singular": "Griffon",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 81,
+      "url": "https://4th.whfb.app/unit/griffons",
+      "traits": [
+        "Flug",
+        "Entsetzen"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "halflings",
+      "slug": "halflings",
+      "name_en": "Halflings",
+      "name_de": "Halblinge",
+      "singular": "Halfling",
+      "category": "Halflings",
+      "category_slug": "halflings",
+      "page_battle": 19,
+      "url": "https://4th.whfb.app/unit/halflings",
+      "traits": [
+        "Wälder"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "harpies",
+      "slug": "harpies",
+      "name_en": "Harpies",
+      "name_de": "Harpyien",
+      "singular": "Harpy",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 81,
+      "url": "https://4th.whfb.app/unit/harpies",
+      "traits": [
+        "Flug"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "high_elf_steeds",
+      "slug": "high-elf-steeds",
+      "name_en": "High Elf Steeds",
+      "name_de": "Hochelfen-Rosse",
+      "singular": "Elf Steed",
+      "category": "Hochelfen",
+      "category_slug": "high-elf",
+      "page_battle": 18,
+      "url": "https://4th.whfb.app/unit/high-elf-steeds",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "high_elves",
+      "slug": "high-elves",
+      "name_en": "High Elves",
+      "name_de": "Hochelfen",
+      "singular": "High Elf",
+      "category": "Hochelfen",
+      "category_slug": "high-elf",
+      "page_battle": 16,
+      "url": "https://4th.whfb.app/unit/high-elves",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "hippogriffs",
+      "slug": "hippogriffs",
+      "name_en": "Hippogriffs",
+      "name_de": "Hippogreifen",
+      "singular": "Hippogriff",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 82,
+      "url": "https://4th.whfb.app/unit/hippogriffs",
+      "traits": [
+        "Flug",
+        "Entsetzen"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "horrors_of_tzeentch",
+      "slug": "horrors-of-tzeentch",
+      "name_en": "Horrors of Tzeentch",
+      "name_de": "Horror des Tzeentch",
+      "singular": "Pink Horror",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 51,
+      "url": "https://4th.whfb.app/unit/horrors-of-tzeentch",
+      "traits": [
+        "Daemons",
+        "Furcht",
+        "Split"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "horse",
+      "slug": "horse",
+      "name_en": "Horse",
+      "name_de": "Pferd",
+      "singular": "Horse",
+      "category": "Menschen / Reikland",
+      "category_slug": "human",
+      "page_battle": 10,
+      "url": "https://4th.whfb.app/unit/horse",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "hydras",
+      "slug": "hydras",
+      "name_en": "Hydras",
+      "name_de": "Hydras",
+      "singular": "Hydra",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 82,
+      "url": "https://4th.whfb.app/unit/hydras",
+      "traits": [
+        "Entsetzen",
+        "Breathe Fire",
+        "Schuppige Haut"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "juggernauts_of_khorne",
+      "slug": "juggernauts-of-khorne",
+      "name_en": "Juggernauts of Khorne",
+      "name_de": "Juggernauts des Khorne",
+      "singular": "Juggernaut",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 46,
+      "url": "https://4th.whfb.app/unit/juggernauts-of-khorne",
+      "traits": [
+        "Daemons",
+        "Furcht",
+        "Crush"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "keeper_of_secrets",
+      "slug": "keeper-of-secrets",
+      "name_en": "Keeper of Secrets",
+      "name_de": "Hüter der Geheimnisse",
+      "singular": "Keeper of Secrets",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 47,
+      "url": "https://4th.whfb.app/unit/keeper-of-secrets",
+      "traits": [
+        "Aura of Slaanesh",
+        "Greater Daemons",
+        "Terror!"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "liche",
+      "slug": "liche",
+      "name_en": "Liche",
+      "name_de": "Liche",
+      "singular": "Liche",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 71,
+      "url": "https://4th.whfb.app/unit/liche",
+      "traits": [
+        "Furcht",
+        "Immun gegen Psychologie"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "lord_of_change",
+      "slug": "lord-of-change",
+      "name_en": "Lord of Change",
+      "name_de": "Herr der Veränderung",
+      "singular": "Lord of Change",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 51,
+      "url": "https://4th.whfb.app/unit/lord-of-change",
+      "traits": [
+        "Greater Daemons",
+        "Flug",
+        "Terror!"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "manticores",
+      "slug": "manticores",
+      "name_en": "Manticores",
+      "name_de": "Mantikore",
+      "singular": "Manticore",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 83,
+      "url": "https://4th.whfb.app/unit/manticores",
+      "traits": [
+        "Entsetzen",
+        "Flug"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "men",
+      "slug": "men",
+      "name_en": "Men",
+      "name_de": "Menschen",
+      "singular": "Man",
+      "category": "Menschen / Reikland",
+      "category_slug": "human",
+      "page_battle": 10,
+      "url": "https://4th.whfb.app/unit/men",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "minotaurs",
+      "slug": "minotaurs",
+      "name_en": "Minotaurs",
+      "name_de": "Minotauren",
+      "singular": "Minotaur",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 44,
+      "url": "https://4th.whfb.app/unit/minotaurs",
+      "traits": [
+        "Blutgier",
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "mummies",
+      "slug": "mummies",
+      "name_en": "Mummies",
+      "name_de": "Mumien",
+      "singular": "Mummy",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 75,
+      "url": "https://4th.whfb.app/unit/mummies",
+      "traits": [
+        "Furcht",
+        "Fire"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "necromancer",
+      "slug": "necromancer",
+      "name_en": "Necromancer",
+      "name_de": "Nekromant",
+      "singular": "Necromancer",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 71,
+      "url": "https://4th.whfb.app/unit/necromancer",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "night_goblin_fanatics",
+      "slug": "night-goblin-fanatics",
+      "name_en": "Night Goblin Fanatics",
+      "name_de": "Nachtgoblin-Fanatiker",
+      "singular": "Fanatic",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 34,
+      "url": "https://4th.whfb.app/unit/night-goblin-fanatics",
+      "traits": [
+        "Hide",
+        "Attack",
+        "Bewegung (Gelände)",
+        "Fighting",
+        "Further Movement",
+        "Charging Through Fanatics",
+        "Moving Through Fanatics",
+        "Obstacles",
+        "Psychology"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "night_goblins",
+      "slug": "night-goblins",
+      "name_en": "Night Goblins",
+      "name_de": "Nachtgoblins",
+      "singular": "Night Goblin",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 30,
+      "url": "https://4th.whfb.app/unit/night-goblins",
+      "traits": [
+        "Hate Dwarfs",
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "norse_berserkers",
+      "slug": "norse-berserkers",
+      "name_en": "Norse Berserkers",
+      "name_de": "Norsca-Berserker",
+      "singular": "Berserker",
+      "category": "Menschen / Reikland",
+      "category_slug": "human",
+      "page_battle": 11,
+      "url": "https://4th.whfb.app/unit/norse-berserkers",
+      "traits": [
+        "Raserei"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "nurglings",
+      "slug": "nurglings",
+      "name_en": "Nurglings",
+      "name_de": "Nurglinge",
+      "singular": "Nurglings",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 49,
+      "url": "https://4th.whfb.app/unit/nurglings",
+      "traits": [
+        "Daemons",
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "ogres",
+      "slug": "ogres",
+      "name_en": "Ogres",
+      "name_de": "Oger",
+      "singular": "Ogre",
+      "category": "Oger",
+      "category_slug": "ogre",
+      "page_battle": 69,
+      "url": "https://4th.whfb.app/unit/ogres",
+      "traits": [
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "orcs",
+      "slug": "orcs",
+      "name_en": "Orcs",
+      "name_de": "Orks",
+      "singular": "Orc",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 24,
+      "url": "https://4th.whfb.app/unit/orcs",
+      "traits": [
+        "Panik"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "pegasus",
+      "slug": "pegasus",
+      "name_en": "Pegasus",
+      "name_de": "Pegasus",
+      "singular": "Pegasus",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 84,
+      "url": "https://4th.whfb.app/unit/pegasus",
+      "traits": [
+        "Flug"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "plague_censer_bearers",
+      "slug": "plague-censer-bearers",
+      "name_en": "Plague Censer Bearers",
+      "name_de": "Seuchengefäß-Träger",
+      "singular": "Censer Bearer",
+      "category": "Rattenmenschen",
+      "category_slug": "skaven",
+      "page_battle": 67,
+      "url": "https://4th.whfb.app/unit/plague-censer-bearers",
+      "traits": [
+        "Formation",
+        "Plague Monks",
+        "Kampf",
+        "Shooting",
+        "Raserei",
+        "Hass"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "plague_monks",
+      "slug": "plague-monks",
+      "name_en": "Plague Monks",
+      "name_de": "Seuchenmönche",
+      "singular": "Plague Monk",
+      "category": "Rattenmenschen",
+      "category_slug": "skaven",
+      "page_battle": 65,
+      "url": "https://4th.whfb.app/unit/plague-monks",
+      "traits": [
+        "Raserei"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "plaguebearers_of_nurgle",
+      "slug": "plaguebearers-of-nurgle",
+      "name_en": "Plaguebearers of Nurgle",
+      "name_de": "Seuchenträger des Nurgle",
+      "singular": "Plaguebearer",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 50,
+      "url": "https://4th.whfb.app/unit/plaguebearers-of-nurgle",
+      "traits": [
+        "Daemons",
+        "Plaguesword",
+        "Furcht",
+        "Cloud of Flies"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "poison_wind_globadiers",
+      "slug": "poison-wind-globadiers",
+      "name_en": "Poison Wind Globadiers",
+      "name_de": "Giftwind-Kugelwerfer",
+      "singular": "Globadier",
+      "category": "Rattenmenschen",
+      "category_slug": "skaven",
+      "page_battle": 65,
+      "url": "https://4th.whfb.app/unit/poison-wind-globadiers",
+      "traits": [
+        "Poisoned Wind Globes",
+        "Globadiers"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "rat_ogres",
+      "slug": "rat-ogres",
+      "name_en": "Rat-Ogres",
+      "name_de": "Rattenoger",
+      "singular": "Rat-Ogre",
+      "category": "Rattenmenschen",
+      "category_slug": "skaven",
+      "page_battle": 68,
+      "url": "https://4th.whfb.app/unit/rat-ogres",
+      "traits": [
+        "Furcht",
+        "Dummheit"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "savage_orcs",
+      "slug": "savage-orcs",
+      "name_en": "Savage Orcs",
+      "name_de": "Wildorks",
+      "singular": "Savage Orc",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 25,
+      "url": "https://4th.whfb.app/unit/savage-orcs",
+      "traits": [
+        "Protective Tattoos",
+        "Raserei",
+        "Panik"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "skaven_assassins",
+      "slug": "skaven-assassins",
+      "name_en": "Skaven Assassins",
+      "name_de": "Skaven-Assassinen",
+      "singular": "Assassin",
+      "category": "Rattenmenschen",
+      "category_slug": "skaven",
+      "page_battle": 64,
+      "url": "https://4th.whfb.app/unit/skaven-assassins",
+      "traits": [
+        "Disguise",
+        "Attack",
+        "Weeping Blades",
+        "Further Fighting",
+        "Führung / Anzahl"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "skaven_packmasters",
+      "slug": "skaven-packmasters",
+      "name_en": "Skaven Packmasters",
+      "name_de": "Skaven-Rudelführer",
+      "singular": "Packmaster",
+      "category": "Rattenmenschen",
+      "category_slug": "skaven",
+      "page_battle": 68,
+      "url": "https://4th.whfb.app/unit/skaven-packmasters",
+      "traits": [
+        "Kampf",
+        "Bewegung",
+        "Missile Casualties",
+        "Führung / Anzahl"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "skaven",
+      "slug": "skaven",
+      "name_en": "Skaven",
+      "name_de": "Skaven",
+      "singular": "Skaven",
+      "category": "Rattenmenschen",
+      "category_slug": "skaven",
+      "page_battle": 63,
+      "url": "https://4th.whfb.app/unit/skaven",
+      "traits": [
+        "Führung / Anzahl"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "skeleton_steeds",
+      "slug": "skeleton-steeds",
+      "name_en": "Skeleton Steeds",
+      "name_de": "Skelettrosse",
+      "singular": "Skeleton Steed",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 73,
+      "url": "https://4th.whfb.app/unit/skeleton-steeds",
+      "traits": [
+        "Bewegung (Gelände)"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "skeleton_warriors",
+      "slug": "skeleton-warriors",
+      "name_en": "Skeleton Warriors",
+      "name_de": "Skelettkrieger",
+      "singular": "Skeleton",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 72,
+      "url": "https://4th.whfb.app/unit/skeleton-warriors",
+      "traits": [
+        "Furcht",
+        "Immun gegen Psychologie",
+        "Kampf"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "snotlings",
+      "slug": "snotlings",
+      "name_en": "Snotlings",
+      "name_de": "Snotlinge",
+      "singular": "Snotlings",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 31,
+      "url": "https://4th.whfb.app/unit/snotlings",
+      "traits": [
+        "Snotling Bases",
+        "Mimic",
+        "Anführer"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "steeds_of_slaanesh",
+      "slug": "steeds-of-slaanesh",
+      "name_en": "Steeds of Slaanesh",
+      "name_de": "Rosse des Slaanesh",
+      "singular": "Steed of Slaanesh",
+      "category": "Chaos / Sklaven der Finsternis",
+      "category_slug": "chaos",
+      "page_battle": 48,
+      "url": "https://4th.whfb.app/unit/steeds-of-slaanesh",
+      "traits": [
+        "Daemons",
+        "Tongue Attack",
+        "Furcht"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "swarms",
+      "slug": "swarms",
+      "name_en": "Swarms",
+      "name_de": "Schwärme",
+      "singular": "Insects or Spiders",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 83,
+      "url": "https://4th.whfb.app/unit/swarms",
+      "traits": [
+        "Base / Token",
+        "Kampf",
+        "Führung / Anzahl",
+        "Schwarmarten"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "treemen",
+      "slug": "treemen",
+      "name_en": "Treemen",
+      "name_de": "Baummenschen",
+      "singular": "Treeman",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 84,
+      "url": "https://4th.whfb.app/unit/treemen",
+      "traits": [
+        "Furcht",
+        "Woody Skin",
+        "Fire",
+        "Hate Orcs and Goblins",
+        "Bewegung (Gelände)"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "trolls",
+      "slug": "trolls",
+      "name_en": "Trolls",
+      "name_de": "Trolle",
+      "singular": "Troll",
+      "category": "Trolle",
+      "category_slug": "troll",
+      "page_battle": 15,
+      "url": "https://4th.whfb.app/unit/trolls",
+      "traits": [
+        "Furcht",
+        "Dummheit",
+        "Regeneration",
+        "Fire",
+        "Vomit"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "unicorn",
+      "slug": "unicorn",
+      "name_en": "Unicorn",
+      "name_de": "Einhorn",
+      "singular": "Unicorn",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 85,
+      "url": "https://4th.whfb.app/unit/unicorn",
+      "traits": [
+        "Hornangriff",
+        "Magischer Schutz",
+        "Dämonenaura"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "vampires",
+      "slug": "vampires",
+      "name_en": "Vampires",
+      "name_de": "Vampire",
+      "singular": "Vampire",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 72,
+      "url": "https://4th.whfb.app/unit/vampires",
+      "traits": [
+        "Transfixing Glare"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "war_boars",
+      "slug": "war-boars",
+      "name_en": "War Boars",
+      "name_de": "Keiler",
+      "singular": "War Boar",
+      "category": "Grünhäute",
+      "category_slug": "orc-and-goblin",
+      "page_battle": 33,
+      "url": "https://4th.whfb.app/unit/war-boars",
+      "traits": [
+        "Führung / Anzahl",
+        "Save",
+        "Combat Bonus"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "war_horse",
+      "slug": "war-horse",
+      "name_en": "War Horse",
+      "name_de": "Schlachtross",
+      "singular": "War Horse",
+      "category": "Menschen / Reikland",
+      "category_slug": "human",
+      "page_battle": 10,
+      "url": "https://4th.whfb.app/unit/war-horse",
+      "traits": [],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "wights",
+      "slug": "wights",
+      "name_en": "Wights",
+      "name_de": "Wights / Gruftwächter",
+      "singular": "Wight",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 76,
+      "url": "https://4th.whfb.app/unit/wights",
+      "traits": [
+        "Furcht",
+        "Immun gegen Psychologie",
+        "Zerfallen bei Niederlage",
+        "Wight-Klingen"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "witch_elves",
+      "slug": "witch-elves",
+      "name_en": "Witch Elves",
+      "name_de": "Hexenelfen",
+      "singular": "Witch Elf",
+      "category": "Dunkelelfen",
+      "category_slug": "dark-elf",
+      "page_battle": 58,
+      "url": "https://4th.whfb.app/unit/witch-elves",
+      "traits": [
+        "Raserei"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "wood_elf_beastmasters",
+      "slug": "wood-elf-beastmasters",
+      "name_en": "Wood Elf Beastmasters",
+      "name_de": "Waldelfen-Bestienmeister",
+      "singular": "Beastmaster",
+      "category": "Waldelfen",
+      "category_slug": "wood-elf",
+      "page_battle": 87,
+      "url": "https://4th.whfb.app/unit/wood-elf-beastmasters",
+      "traits": [
+        "Bewegung",
+        "Wälder",
+        "Hand-to-Hand Fighting",
+        "Leadership and Characters",
+        "Shooting",
+        "Beasts"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "wood_elf_scouts",
+      "slug": "wood-elf-scouts",
+      "name_en": "Wood Elf Scouts",
+      "name_de": "Waldelfen-Kundschafter",
+      "singular": "Scout",
+      "category": "Waldelfen",
+      "category_slug": "wood-elf",
+      "page_battle": 87,
+      "url": "https://4th.whfb.app/unit/wood-elf-scouts",
+      "traits": [
+        "Wälder",
+        "Skirmish",
+        "Special Deployment"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "wood_elf_wardancers",
+      "slug": "wood-elf-wardancers",
+      "name_en": "Wood Elf Wardancers",
+      "name_de": "Kriegstänzer",
+      "singular": "Wardancer",
+      "category": "Waldelfen",
+      "category_slug": "wood-elf",
+      "page_battle": 88,
+      "url": "https://4th.whfb.app/unit/wood-elf-wardancers",
+      "traits": [
+        "Wälder",
+        "Rüstung",
+        "Bewegung",
+        "Hindurchspringen",
+        "Move Over Enemy",
+        "Special Attacks"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "wood_elves",
+      "slug": "wood-elves",
+      "name_en": "Wood Elves",
+      "name_de": "Waldelfen",
+      "singular": "Wood Elf",
+      "category": "Waldelfen",
+      "category_slug": "wood-elf",
+      "page_battle": 86,
+      "url": "https://4th.whfb.app/unit/wood-elves",
+      "traits": [
+        "Wälder"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "wraiths",
+      "slug": "wraiths",
+      "name_en": "Wraiths",
+      "name_de": "Geistererscheinungen / Wraiths",
+      "singular": "Wraith",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 77,
+      "url": "https://4th.whfb.app/unit/wraiths",
+      "traits": [
+        "Ethereal",
+        "Entsetzen",
+        "Immun gegen Psychologie",
+        "Kampf",
+        "Chill Attack",
+        "Combat Results"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "wyverns",
+      "slug": "wyverns",
+      "name_en": "Wyverns",
+      "name_de": "Wyvern",
+      "singular": "Wyvern",
+      "category": "Monströse Bestien",
+      "category_slug": "monster",
+      "page_battle": 85,
+      "url": "https://4th.whfb.app/unit/wyverns",
+      "traits": [
+        "Entsetzen",
+        "Flug",
+        "Schuppige Haut"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    },
+    {
+      "id": "zombies",
+      "slug": "zombies",
+      "name_en": "Zombies",
+      "name_de": "Zombies",
+      "singular": "Zombie",
+      "category": "Ruhelose Tote",
+      "category_slug": "undead",
+      "page_battle": 74,
+      "url": "https://4th.whfb.app/unit/zombies",
+      "traits": [
+        "Furcht",
+        "Immun gegen Psychologie",
+        "Zerfallen bei Niederlage"
+      ],
+      "system": "whfb-battle-4e",
+      "has_battle_profile": true
+    }
+  ],
+  "psychology": [
+    {
+      "id": "psych_fear",
+      "slug": "fear",
+      "name_de": "Furcht",
+      "name_en": "Fear",
+      "page": 39
+    },
+    {
+      "id": "psych_terror",
+      "slug": "terror",
+      "name_de": "Entsetzen",
+      "name_en": "Terror",
+      "page": 40
+    },
+    {
+      "id": "psych_panic",
+      "slug": "panic",
+      "name_de": "Panik",
+      "name_en": "Panic",
+      "page": 38
+    },
+    {
+      "id": "psych_stupidity",
+      "slug": "stupidity",
+      "name_de": "Dummheit",
+      "name_en": "Stupidity",
+      "page": 40
+    },
+    {
+      "id": "psych_frenzy",
+      "slug": "frenzy",
+      "name_de": "Raserei",
+      "name_en": "Frenzy",
+      "page": 41
+    },
+    {
+      "id": "psych_hatred",
+      "slug": "hatred",
+      "name_de": "Hass",
+      "name_en": "Hatred",
+      "page": 41
+    },
+    {
+      "id": "psych_fear_and_terror_liabilities",
+      "slug": "fear-and-terror-liabilities",
+      "name_de": "Furcht- und Entsetzen-Haftung",
+      "name_en": "Fear and Terror Liabilities",
+      "page": 40
+    }
+  ]
+}
