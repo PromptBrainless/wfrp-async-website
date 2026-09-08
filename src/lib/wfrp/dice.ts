@@ -1,3 +1,4 @@
+import { ATTR_OF_SKILL } from "./config";
 import type { Character, DifficultyId } from "./types";
 import { DIFFICULTY_MOD } from "./types";
 
@@ -60,23 +61,7 @@ export function conditionPenalty(character: Character): number {
 
 export function skillValue(character: Character, skillId: string): number {
   if (character.skills[skillId] != null) return character.skills[skillId];
-  const attrMap: Record<string, keyof Character["attributes"]> = {
-    wahrnehmung: "I",
-    intuition: "I",
-    charme: "CH",
-    feilschen: "CH",
-    bestechen: "CH",
-    klatsch: "CH",
-    einschuechtern: "ST",
-    schleichen: "GW",
-    ausweichen: "GW",
-    athletik: "GW",
-    nahkampf: "KG",
-    ausdauer: "WI",
-    besonnenheit: "WK",
-    fingerfertigkeit: "GS",
-  };
-  const attr = attrMap[skillId];
+  const attr = ATTR_OF_SKILL[skillId];
   return attr ? character.attributes[attr] : 0;
 }
 

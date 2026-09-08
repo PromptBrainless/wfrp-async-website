@@ -1,4 +1,4 @@
-import { CATALOG } from "./catalog";
+import { AUSBAU_IDS, CATALOG } from "./config";
 import { canCharge, tokenPlace, runM } from "./movement";
 import type { ActionView, Character, Scene } from "./types";
 
@@ -11,8 +11,6 @@ const COMBAT_IDS = new Set([
   "volle_abwehr",
   "ausweichen",
 ]);
-
-const AUSBAU = new Set(["heilen", "fernkampf", "fingerfertigkeit", "schaetzen"]);
 
 export function hasCondition(c: Character, id: string): boolean {
   return c.conditions.some((x) => x.id === id && x.stacks > 0);
@@ -46,7 +44,7 @@ export function filterCatalog(
         reason = "Nur Aufstehen oder kriechen.";
       } else if (stunned && (def.cost === "H" || def.cost === "BH") && def.id !== "mut") {
         reason = "Betäubt — keine Handlung.";
-      } else if (AUSBAU.has(def.id) && character.skills[def.id] == null) {
+      } else if (def.skill && AUSBAU_IDS.has(def.skill) && character.skills[def.skill] == null) {
         reason = "Nicht ausgebildet.";
       } else if (def.id === "aufstehen" && !prone) {
         reason = "Stehst.";
