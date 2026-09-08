@@ -1,24 +1,29 @@
 Datum: 2026-09-08  
-Repo: https://github.com/PromptBrainless/wfrp-async-website  
-Workspace: `/workspace`
+Repo: https://github.com/PromptBrainless/wfrp-async-website (privat)
 
-Internes Entwicklungsrepo, kein Fan-Projekt.
+Internes Entwicklungsrepo, kein Fan-Projekt nach außen.
 
 ## Lies in dieser Reihenfolge
 
 1. Diese Datei
-2. [knowledge/00-UEBERGABE.md](knowledge/00-UEBERGABE.md)
-3. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md) — Spiel, Schloss
-4. [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — was aus dem Buch da ist
-5. [knowledge/00-BEFEHLE.md](knowledge/00-BEFEHLE.md)
-6. [skill/SKILL.md](skill/SKILL.md)
+2. [knowledge/00-KONTEXT.md](knowledge/00-KONTEXT.md) — eine Wahrheit; Bild: Sicherung
+3. [knowledge/00-UEBERGABE.md](knowledge/00-UEBERGABE.md)
+3. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
+4. [knowledge/10-system/16-kampagne-1.md](knowledge/10-system/16-kampagne-1.md)
+5. [knowledge/07-reikland/drosselau/README.md](knowledge/07-reikland/drosselau/README.md)
+6. [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
+7. [skill/SKILL.md](skill/SKILL.md)
 
 ## Auftrag jetzt
 
-Stückweise das GRW als MD (drei Dateien, Original einfrieren). Keine Demo-Szene. Keine Session, bis der Mensch Kampagne, Spielerzahl und Ort setzt.
+Kampagne 1 ist gesetzt. Buch-Wissen liegt. Demo ist raus.
 
-**Nicht:** Website-Spiel, Simulation, KI als Erzähler, Basar zurück.
+**Als Nächstes (Mensch entscheidet, nicht die Engine):** fünf Charaktere anlegen **oder** die erste Gasse in Drosselau öffnen.
 
-## Fortschritt
+**Nicht:** Demo/Basar/Otto zurück, KI als Erzähler, Zufallsinhalte, Szene ohne SL-Öffnung, Stadt verlassen.
 
-Kampagne 1 spielt in **Drosselau** (13 Gassen, 69 Gebäude). Fünf leere Plätze. Szene zu. Buch-Wissen liegt.
+## Stand
+
+- **Kampagne 1** · 5 Spieler · Drosselau (5 Viertel, 13 Gassen, 69 Häuser)
+- Stammbäume und Bewohnerregister liegen. Graf sitzt nicht in der Stadt.
+- Erste Szene: zu.

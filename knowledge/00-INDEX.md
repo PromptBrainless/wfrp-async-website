@@ -2,7 +2,7 @@
 
 Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete Auflage).
 
-**Lies zuerst:** [00-BEFEHLE.md](00-BEFEHLE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-QUELLEN.md](00-QUELLEN.md) · [00-UEBERGABE.md](00-UEBERGABE.md) · [NEUES-FENSTER.md](../NEUES-FENSTER.md)
+**Lies zuerst:** [00-KONTEXT.md](00-KONTEXT.md) · [00-BEFEHLE.md](00-BEFEHLE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-UEBERGABE.md](00-UEBERGABE.md) · [NEUES-FENSTER.md](../NEUES-FENSTER.md)
 
 **Abgleich:** [00-ABGLEICH-INHALTSVERZEICHNIS.md](00-ABGLEICH-INHALTSVERZEICHNIS.md)
 
@@ -11,6 +11,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 ---
 
 ## Meta
+- ✅ [Kontext — eine Struktur](00-KONTEXT.md) — Sicherung: [Kleist-Bild](../public/images/context/kleist-stand.jpg)
 - ✅ [Befehle – Arbeitsregeln](00-BEFEHLE.md)
 - ✅ [Vorlage drei Dateien](00-VORLAGE.md)
 - ✅ [Volltext-Plan](00-VOLLTEXT.md)
@@ -61,7 +62,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Fähigkeiten – Hauptliste](04-faehigkeiten-talente/02-faehigkeiten-liste.md) — 45 Ordner, je Original / Angepasst / Details
 - ✅ [Talente – Hauptliste](04-faehigkeiten-talente/03-talente-liste.md) — 167 Originale S. 132–147
 - ✅ [Rohkapitel Fähigkeiten](04-faehigkeiten-talente/_roh/hauptliste-s118-131.md)
-- ✅ [Roh Demo-Talente](04-faehigkeiten-talente/_roh/demo-talente-s134-146.md)
+- ✅ [Roh Beispiel-Talente (Buch)](04-faehigkeiten-talente/_roh/demo-talente-s134-146.md)
 - ✅ [Roh Kaufmann/Städter](03-klassen-karrieren/_roh/kaufmann-staedter-s65-67.md)
 - ✅ [Roh Bürger S. 61–68](03-klassen-karrieren/_roh/buerger-s61-68.md)
 - ✅ [Roh Halunke](03-klassen-karrieren/_roh/halunke-s88.md)
@@ -98,6 +99,8 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Politik und Ansiedlungen](07-reikland/03-politik-ansiedlungen.md)
 - ✅ [Leben im Reikland — Primer](07-reikland/04-leben-im-reikland.md)
 - ✅ [Drosselau](07-reikland/drosselau/README.md) — Ort Kampagne 1
+- ✅ [Stadtverzeichnis](07-reikland/drosselau/stadt-verzeichnis.md) — Viertel, Gassen, Häuser, Bewohner
+- ✅ [Bewohnerregister](07-reikland/drosselau/bewohnerregister.md) — offiziell / inoffiziell
 - ✅ [Drosselau Leute](07-reikland/drosselau/leute.md) — Gruppen, Haushalte
 - ✅ [Drosselau Stammbäume](07-reikland/drosselau/haushalte/README.md) — 42 Häuser
 - ✅ [Drosselau Karten-Prompts](07-reikland/drosselau/karte-prompts.txt) — von oben, 19 Bilder
@@ -135,7 +138,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [Das Spiel](10-system/00-das-spiel.md)
 - ✅ [Sims-Prinzip-Ableitung](10-system/01-sims-prinzip-ableitung.md)
 - ✅ [Datenmodell](10-system/02-datenmodell.md)
-- ✅ [Simulation Basar + Rauferei](10-system/03-simulation-basar-rauferei.md)
+- 📦 [Simulation Basar + Rauferei](10-system/03-simulation-basar-rauferei.md) — Archiv, nicht Kampagne 1
 - ✅ [Aktionskatalog v1](10-system/04-aktionskatalog-v1.md)
 - ✅ [Simulation vs. Buch](10-system/05-simulation-vs-buch.md)
 - ✅ [Befehlsregister](10-system/06-befehle.md)

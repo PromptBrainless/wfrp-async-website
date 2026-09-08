@@ -1,10 +1,11 @@
 # WFRP Async Website
 
-Internes Entwicklungsrepository. Asynchrone Website für **Warhammer Fantasy Roleplay 4. Edition** (Grundregelwerk, 2. überarbeitete Auflage), Gruppen bis 10 Spieler.
+Internes Entwicklungsrepository. Asynchrone Website für **Warhammer Fantasy Roleplay 4. Edition** (Grundregelwerk, 2. überarbeitete Auflage).
 
-Kein Fan-Projekt. Die Umsetzung liegt beim Entwicklungsteam dieses Repos.
-
+**Kampagne 1:** fünf Spieler, Ort **Drosselau**, erste Szene zu.  
 **Repo:** [PromptBrainless/wfrp-async-website](https://github.com/PromptBrainless/wfrp-async-website) (privat)
+
+Kein Fan-Projekt nach außen. Die Umsetzung liegt beim Entwicklungsteam dieses Repos.
 
 ---
 
@@ -22,33 +23,36 @@ Charakter an Ort XY
   → neuer Zustand
 ```
 
-Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.
+Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln, keine Stimmen, keine Zufallsinhalte.
 
 ---
 
 ## Lies zuerst (neue Session)
 
 1. [NEUES-FENSTER.md](NEUES-FENSTER.md)
-2. [skill/SKILL.md](skill/SKILL.md) — Qualität, Gate
-3. [knowledge/00-BEFEHLE.md](knowledge/00-BEFEHLE.md)
-4. [knowledge/00-VORLAGE.md](knowledge/00-VORLAGE.md)
-5. [knowledge/00-REGISTER.md](knowledge/00-REGISTER.md) — IDs
-6. [knowledge/00-BOGEN.md](knowledge/00-BOGEN.md)
+2. [knowledge/00-KONTEXT.md](knowledge/00-KONTEXT.md) — eine Wahrheit; [Kleist-Sicherung](public/images/context/kleist-stand.jpg)
+3. [knowledge/00-UEBERGABE.md](knowledge/00-UEBERGABE.md)
+3. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
+4. [knowledge/10-system/16-kampagne-1.md](knowledge/10-system/16-kampagne-1.md)
+5. [knowledge/07-reikland/drosselau/README.md](knowledge/07-reikland/drosselau/README.md)
+6. [skill/SKILL.md](skill/SKILL.md)
 7. [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md)
-8. [knowledge/00-QUELLEN.md](knowledge/00-QUELLEN.md)
-9. [knowledge/00-INDEX.md](knowledge/00-INDEX.md)
-10. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
-11. [knowledge/10-system/06-befehle.md](knowledge/10-system/06-befehle.md)
 
 ---
 
-## Stand
+## Stand (2026-09-08)
 
-Fortschritt: [knowledge/00-VOLLTEXT.md](knowledge/00-VOLLTEXT.md) — **115 / 329** Originale mit Buchtext.
+| Schicht | Stand |
+|---------|--------|
+| Buch-Wissen | 329 / 329 Gerüste + Rohkapitel |
+| Kampagne | 1 · 5 leere Plätze · Drosselau |
+| Stadt | 5 Viertel, 13 Gassen, 69 Häuser, 42 Stammbäume, Bewohnerregister |
+| Szene | alle zu, bis der SL eine Gasse öffnet |
+| Demo (Basar / Otto / Kurt) | raus |
 
-Oberfläche in Arbeit (Pergament auf dem Pult): Start, Erschaffung (11 Stationen), Bogen, Demo-Tisch. Simulation bleibt hintan. Buch bleibt die Autorität.
+Nächster Schritt: fünf Charaktere **oder** erste Gasse (SL öffnet).
 
-Git-Hooks (Qualität): einmal `bash skill/scripts/install-hooks.sh`. Danach blocken `pre-commit` / `pre-push` kaputtes Wissen und Buchscans. CI: `.github/workflows/wissen.yml`.
+Git-Hooks: `bash skill/scripts/install-hooks.sh`. Kein PDF, keine Scans ins Git.
 
 ---
 
@@ -57,20 +61,10 @@ Git-Hooks (Qualität): einmal `bash skill/scripts/install-hooks.sh`. Danach bloc
 ```
 README.md
 NEUES-FENSTER.md
-.gitignore
-skill/                          Grok-Skill pdf-to-interlinked-md
-knowledge/
-  00-BEFEHLE.md
-  00-VOLLTEXT.md                Platzhalter-Tausch, Wellen
-  00-QUELLEN.md                 Drive-WebP, Seitenzahl = Datei−1
-  00-INDEX.md
-  01-einfuehrung/ … 12-magie/   Buchstruktur
-  04-faehigkeiten-talente/faehigkeiten/
-  10-system/                    Loop, Katalog, Datenmodell (abgeleitet)
-  data/                         JSON, später
-src/lib/wfrp/                   Engine-Kern
-src/components/chargen/         Erschaffung
-src/components/game/            Bogen, Tisch, SL
+knowledge/                      Buch + Kampagne
+  07-reikland/drosselau/        Stadt, Leute, Register, Karten-Prompts
+  10-system/                    Loop, Frist, Kampagne 1
+src/lib/wfrp/                   Engine (Drosselau-Graph, Seed ohne Demo)
 src/routes/                     Start, Erschaffung, Bogen, Tisch, SL
 ```
 
@@ -91,8 +85,8 @@ EG = Zehnerstelle(Zielwert) − Zehnerstelle(Wurf)
 
 ## Lizenz / Recht
 
-Internes Arbeitsmittel des Entwicklungsteams. Privates Repository.
+Internes Arbeitsmittel. Privates Repository.
 
 Warhammer, Warhammer Fantasy Roleplay und zugehörige Marken bleiben bei den Rechteinhabern (Games Workshop, Cubicle 7, Ulisses). Die MD-Dateien sind die Arbeitsabschrift für diese Umsetzung, keine Veröffentlichung nach außen.
 
-Kein PDF und keine Scans ins Git. Quelle der Abschrift: Drive-WebP, siehe [knowledge/00-QUELLEN.md](knowledge/00-QUELLEN.md).
+Kein PDF und keine Scans ins Git.
