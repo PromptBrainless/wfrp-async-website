@@ -16,6 +16,18 @@ export function hasCondition(c: Character, id: string): boolean {
   return c.conditions.some((x) => x.id === id && x.stacks > 0);
 }
 
+const TALK_IDS = new Set(["reden", "bestechen", "einschuechtern", "intuition"]);
+const TRADE_IDS = new Set(["feilschen", "kaufen"]);
+
+function hasFace(scene: Scene): boolean {
+  if (scene.board.pins.some((p) => p.kind === "nsc" && p.revealed)) return true;
+  return scene.present.some((id) => !id.startsWith("platz-") && id !== "welt");
+}
+
+function canTrade(scene: Scene): boolean {
+  return scene.locationFlags.includes("handel") || hasFace(scene);
+}
+
 export function filterCatalog(
   character: Character,
   scene: Scene,
@@ -57,6 +69,12 @@ export function filterCatalog(
         reason = "Stehst.";
       } else if (def.id === "gehen" && !hasPlace) {
         reason = "Kein Ort.";
+      } else if (TRADE_IDS.has(def.id) && !canTrade(scene)) {
+        reason = "Kein Stand, kein Preis.";
+      } else if (TALK_IDS.has(def.id) && !hasFace(scene)) {
+        reason = "Niemand wartet auf ein Wort.";
+      } else if (def.id === "klatsch" && scene.locationFlags.includes("leer")) {
+        reason = "Hier ist niemand, der redet.";
       } else if (def.id === "waffe_ziehen" && drawn) {
         reason = "Schon in der Hand.";
       } else if (def.id === "glueck" && !opts.fortuneOpen) {

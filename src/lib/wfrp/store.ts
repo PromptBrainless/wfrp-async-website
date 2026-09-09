@@ -482,7 +482,26 @@ export const useTisch = create<Store>()((set, get) => ({
         {
           ...campaign,
           currentSceneId: id,
-          scenes: { ...campaign.scenes, [id]: { ...scene, opened: true } },
+          scenes: {
+            ...campaign.scenes,
+            [id]: {
+              ...scene,
+              opened: true,
+              protocol:
+                scene.protocol.length === 0
+                  ? [
+                      {
+                        id: `open-${id}`,
+                        at: Date.now(),
+                        kind: "world" as const,
+                        title: scene.title,
+                        body: scene.slText,
+                        icon: "ort" as const,
+                      },
+                    ]
+                  : scene.protocol,
+            },
+          },
           countdownEndsAt: Date.now() + scene.countdownMs,
         },
         slEntry("open-scene", scene.title, `${scene.locationName} liegt offen.`),

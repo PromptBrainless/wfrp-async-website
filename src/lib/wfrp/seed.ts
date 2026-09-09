@@ -39,14 +39,18 @@ export function createCampaign(): Campaign {
     ...gasse,
     opened: true,
     present: [...SEAT_IDS],
+    board: {
+      ...gasse.board,
+      tokens: SEAT_IDS.map((id) => ({ id, placeId: "hier" })),
+    },
     protocol: [
       {
         id: "start-tor",
         at: Date.now(),
         kind: "world",
         title: "Torstraße",
-        body: "Die Gasse liegt offen. Fünf stehen am Tor. Die Stadt hält.",
-        icon: "welt",
+        body: gasse.slText,
+        icon: "ort",
       },
     ],
   };

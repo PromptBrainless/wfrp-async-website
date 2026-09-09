@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Map, ScrollText } from "lucide-react";
 import { formatMoney } from "@/lib/wfrp/money";
-import { tokenPlace } from "@/lib/wfrp/movement";
 import { useTisch } from "@/lib/wfrp/store";
 import { activePc, isSeatEmpty, SEAT_IDS } from "@/lib/wfrp/seats";
 import { cn } from "@/lib/utils";
@@ -28,6 +27,7 @@ export function CharHead({
   const campaign = useTisch((s) => s.campaign);
   const viewId = useTisch((s) => s.viewId);
   const role = useTisch((s) => s.role);
+  const setView = useTisch((s) => s.setView);
   const scene = campaign.scenes[campaign.currentSceneId];
   const sl = role === "sl";
   const pc = activePc(campaign, viewId);
@@ -37,8 +37,6 @@ export function CharHead({
       ? (campaign.characters[viewId] ?? null)
       : null
     : who;
-  const here = who ? tokenPlace(scene.board, who.id) : undefined;
-  const pin = here ? scene.board.pins.find((p) => p.id === here) : undefined;
   const recap = [...campaign.journalNotes].reverse().find((n) => n.body)?.body;
   const [now, setNow] = useState(() => Date.now());
 
@@ -60,11 +58,9 @@ export function CharHead({
         <div className="min-w-0">
           <p className="font-display text-base leading-tight text-ink">{sl ? "Spielleiter" : (who?.name ?? "Spieler")}</p>
           <p className="truncate text-xs text-ink-muted">
-            {sl ? scene.locationName : (pin?.label ?? scene.locationName)}
+            {scene.title}
             {" · "}
             {formatFrist(campaign.countdownEndsAt, now)}
-            {" · "}
-            {SEAT_IDS.filter((id) => !isSeatEmpty(campaign.characters[id])).length}/5
           </p>
         </div>
       </button>
@@ -95,6 +91,27 @@ export function CharHead({
         <p className="play-recap" style={{ borderTop: "none", paddingTop: 0 }}>
           Nächste Zeile trägt {inspect.name}
         </p>
+      ) : null}
+      {!sl ? (
+        <div className="play-party" role="tablist" aria-label="Wer spielt">
+          {SEAT_IDS.map((id) => {
+            const ch = campaign.characters[id];
+            if (!ch || isSeatEmpty(ch)) return null;
+            const on = viewId === id;
+            return (
+              <button
+                key={id}
+                type="button"
+                role="tab"
+                aria-selected={on}
+                className={cn("play-party-chip", on && "is-on")}
+                onClick={() => setView(id)}
+              >
+                {ch.name}
+              </button>
+            );
+          })}
+        </div>
       ) : null}
       {recap ? <p className="play-recap">{recap}</p> : null}
     </header>

@@ -302,6 +302,39 @@ function emptyBoard(): Scene["board"] {
   return { image: "", widthM: 20, tokens: [], pins: [], distances: {}, fog: [] };
 }
 
+const SHOP = /bäckerei|fleischerei|kram|gasthaus|gilde|wechsel|zunft|laden|schenke|schmiede|weber|töpfer|gerber|krämer/i;
+
+export function streetOpening(street: StreetDef, byId: Record<string, StreetDef>): string {
+  if (street.id === "torstrasse") {
+    return "Nasser Stein und Pferdeharn. Das Stadttor im Rücken. Links das Zollhaus, daneben der Gasthof Zum Wanderer. Eine Bäckerei, eine Fleischerei, ein Kramladen. Vorstadt hinter euch, Marktplatz voraus, Bettelgasse zur Seite. Fünf unter dem Bogen. Niemand hat sie hereingewunken.";
+  }
+  const ways = street.neighbors.map((n) => byId[n]?.name ?? n);
+  const fronts = street.houses.slice(0, 3).map((h) => h.name).join(", ");
+  const more = street.houses.length > 3 ? ` Noch ${street.houses.length - 3} Häuser.` : "";
+  const note = street.note ? `${street.note}. ` : "";
+  return `${street.name}. ${note}${fronts}.${more} Wege nach ${ways.join(", ")}. Niemand hat ein Wort gegeben.`;
+}
+
+function streetBoard(street: StreetDef, byId: Record<string, StreetDef>): Scene["board"] {
+  const pins: Scene["board"]["pins"] = [
+    { id: "hier", x: 50, y: 68, label: street.name, kind: "stand", revealed: true },
+  ];
+  street.neighbors.forEach((nid, i) => {
+    const n = street.neighbors.length;
+    const t = n === 1 ? 0.5 : i / (n - 1);
+    pins.push({
+      id: `nach-${nid}`,
+      x: 18 + t * 64,
+      y: 22,
+      label: byId[nid]?.name ?? nid,
+      kind: "exit",
+      revealed: true,
+      toScene: streetSceneId(nid),
+    });
+  });
+  return { image: "", widthM: 40, tokens: [], pins, distances: {}, fog: [] };
+}
+
 function shell(partial: Partial<Scene> & Pick<Scene, "id" | "title" | "locationName" | "slText" | "exits">): Scene {
   return {
     trigger: "",
@@ -350,16 +383,17 @@ export function buildDrosselauScenes(): Record<string, Scene> {
         toScene: houseSceneId(street.id, h.nr),
       })),
     ];
+    const flags = ["drosselau", "viertel-" + street.quartier, "gasse", street.id];
+    if (street.quartier === "markt") flags.push("handel");
     scenes[sid] = shell({
       id: sid,
       title: street.name,
       locationName: `Drosselau · ${street.name}`,
-      slText: street.note
-        ? `${street.name} (${street.note}). Szene zu. Kampagne bleibt in Drosselau.`
-        : `${street.name}. Szene zu. Kampagne bleibt in Drosselau.`,
+      slText: streetOpening(street, byId),
       teaser: `${street.houses.length} Gebäude. Wege: ${street.neighbors.map((n) => byId[n].name).join(", ")}.`,
       exits,
-      locationFlags: ["drosselau", "viertel-" + street.quartier, "gasse", street.id],
+      locationFlags: flags,
+      board: streetBoard(street, byId),
       events: street.houses.flatMap((h) =>
         (h.events ?? []).map((ev) => ({
           ...ev,
@@ -374,12 +408,15 @@ export function buildDrosselauScenes(): Record<string, Scene> {
       const hid = houseSceneId(street.id, house.nr);
       const flags = ["drosselau", "viertel-" + street.quartier, "haus", street.id];
       if (house.empty) flags.push("leer");
+      if (SHOP.test(house.name)) flags.push("handel");
       scenes[hid] = shell({
         id: hid,
         title: house.name,
         locationName: `Drosselau · ${street.name} ${house.nr}`,
-        slText: `${house.name}. Szene zu. Ausgang auf die ${street.name}.`,
-        teaser: house.empty ? "Leerstand. Der SL öffnet, nicht die Engine." : "Haus in Drosselau. Szene zu.",
+        slText: house.empty
+          ? `${house.name}. Leer. Ausgang auf die ${street.name}.`
+          : `${house.name} an der ${street.name}. Ausgang auf die Gasse. Niemand hat ein Wort gegeben.`,
+        teaser: house.empty ? "Leerstand. Der SL öffnet, nicht die Engine." : `Haus in der ${street.name}.`,
         difficultyHint: house.hint ?? "ruhig",
         exits: [{ id: "auf-gasse", label: `Auf die ${street.name}`, toScene: sid }],
         locationFlags: flags,

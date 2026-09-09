@@ -9,7 +9,7 @@ import { activePc, isSeatEmpty } from "@/lib/wfrp/seats";
 import { DIFFICULTY_LABEL, type DifficultyId } from "@/lib/wfrp/types";
 import { cn } from "@/lib/utils";
 
-const FIRST = ["feilschen", "intuition", "umschauen", "reden", "kaufen", "gehen", "angreifen", "warten", "fliehen"];
+const FIRST = ["umschauen", "gehen", "warten", "klatsch", "reden", "intuition", "feilschen", "kaufen", "angreifen", "fliehen"];
 
 export function Composer({ onMore }: { onMore: () => void }) {
   const campaign = useTisch((s) => s.campaign);
@@ -218,6 +218,9 @@ export function Composer({ onMore }: { onMore: () => void }) {
               Weitere
             </button>
           </div>
+          {!sl && scene.protocol.length <= 1 ? (
+            <p className="mt-2 text-xs text-ink-faint">Erst den Ort. Dann eine Absicht.</p>
+          ) : null}
         </>
       )}
       {sl ? (
