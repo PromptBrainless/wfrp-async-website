@@ -12,6 +12,7 @@ import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as BogenRouteImport } from './routes/bogen'
 import { Route as ErschaffungRouteImport } from './routes/erschaffung'
+import { Route as KarteRouteImport } from './routes/karte'
 import { Route as SlRouteImport } from './routes/sl'
 import { Route as TischRouteImport } from './routes/tisch'
 
@@ -30,6 +31,11 @@ const ErschaffungRoute = ErschaffungRouteImport.update({
   path: '/erschaffung',
   getParentRoute: () => rootRouteImport,
 } as any)
+const KarteRoute = KarteRouteImport.update({
+  id: '/karte',
+  path: '/karte',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SlRoute = SlRouteImport.update({
   id: '/sl',
   path: '/sl',
@@ -45,6 +51,7 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/bogen': typeof BogenRoute
   '/erschaffung': typeof ErschaffungRoute
+  '/karte': typeof KarteRoute
   '/sl': typeof SlRoute
   '/tisch': typeof TischRoute
 }
@@ -52,6 +59,7 @@ export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/bogen': typeof BogenRoute
   '/erschaffung': typeof ErschaffungRoute
+  '/karte': typeof KarteRoute
   '/sl': typeof SlRoute
   '/tisch': typeof TischRoute
 }
@@ -60,21 +68,23 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/bogen': typeof BogenRoute
   '/erschaffung': typeof ErschaffungRoute
+  '/karte': typeof KarteRoute
   '/sl': typeof SlRoute
   '/tisch': typeof TischRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/bogen' | '/erschaffung' | '/sl' | '/tisch'
+  fullPaths: '/' | '/bogen' | '/erschaffung' | '/karte' | '/sl' | '/tisch'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/bogen' | '/erschaffung' | '/sl' | '/tisch'
-  id: '__root__' | '/' | '/bogen' | '/erschaffung' | '/sl' | '/tisch'
+  to: '/' | '/bogen' | '/erschaffung' | '/karte' | '/sl' | '/tisch'
+  id: '__root__' | '/' | '/bogen' | '/erschaffung' | '/karte' | '/sl' | '/tisch'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   BogenRoute: typeof BogenRoute
   ErschaffungRoute: typeof ErschaffungRoute
+  KarteRoute: typeof KarteRoute
   SlRoute: typeof SlRoute
   TischRoute: typeof TischRoute
 }
@@ -102,6 +112,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ErschaffungRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/karte': {
+      id: '/karte'
+      path: '/karte'
+      fullPath: '/karte'
+      preLoaderRoute: typeof KarteRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sl': {
       id: '/sl'
       path: '/sl'
@@ -123,6 +140,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   BogenRoute: BogenRoute,
   ErschaffungRoute: ErschaffungRoute,
+  KarteRoute: KarteRoute,
   SlRoute: SlRoute,
   TischRoute: TischRoute,
 }
