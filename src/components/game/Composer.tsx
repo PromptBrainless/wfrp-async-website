@@ -1,10 +1,11 @@
 import { useMemo } from "react";
+import { Link } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
 import { actionAsk, CATALOG_BY_ID } from "@/lib/wfrp/catalog";
 import { filterCatalog } from "@/lib/wfrp/grey";
 import { formatRollLine } from "@/lib/wfrp/resolve";
 import { useTisch } from "@/lib/wfrp/store";
-import { activePc } from "@/lib/wfrp/seats";
+import { activePc, isSeatEmpty } from "@/lib/wfrp/seats";
 import { DIFFICULTY_LABEL, type DifficultyId } from "@/lib/wfrp/types";
 import { cn } from "@/lib/utils";
 
@@ -177,6 +178,26 @@ export function Composer({ onMore }: { onMore: () => void }) {
 
   const asWorld = sl && viewId === "welt";
   const who = asWorld ? "die Welt" : (actor?.name.split(" ")[0] ?? "jemand");
+  const empty = !actor || isSeatEmpty(actor);
+
+  if (!sl && empty) {
+    return (
+      <footer className="play-foot">
+        <p className="text-sm text-ink-muted">Kein Bogen auf dem Platz.</p>
+        <Link to="/erschaffung" className="mt-3 inline-block text-sm text-ink underline-offset-4 hover:underline">
+          Charakter anlegen
+        </Link>
+      </footer>
+    );
+  }
+
+  if (!scene.opened && !sl) {
+    return (
+      <footer className="play-foot">
+        <p className="text-sm text-ink-muted">Die Gasse liegt zu. Der Spielleiter öffnet.</p>
+      </footer>
+    );
+  }
 
   return (
     <footer className="play-foot">

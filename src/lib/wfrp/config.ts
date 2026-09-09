@@ -77,6 +77,9 @@ export const CATALOG: ActionDef[] = (catalogJson.actions as JsonAction[]).map((r
 
 export const CATALOG_BY_ID: Record<string, ActionDef> = Object.fromEntries(CATALOG.map((a) => [a.id, a]));
 
+/** Gasse/Haus: soziale und Bewegungskarten. Kampf bleibt grau, bis der SL den Modus setzt. */
+export const SCENE_CATALOG_IDS = CATALOG.filter((d) => d.tab !== "kampf").map((d) => d.id);
+
 export function actionAsk(def: ActionDef): string {
   return def.ask ?? def.label;
 }

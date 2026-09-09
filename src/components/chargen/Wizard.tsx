@@ -56,7 +56,7 @@ export function ChargenWizard() {
       const c = draftToCharacter(draft);
       if (!c) return;
       addCharacter(c);
-      navigate({ to: "/bogen" });
+      navigate({ to: "/tisch" });
       return;
     }
     setStation(STATION_IDS[Math.min(STATION_IDS.length - 1, idx + 1)]!);

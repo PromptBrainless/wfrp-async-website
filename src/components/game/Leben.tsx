@@ -117,7 +117,13 @@ export function Leben({ compact = false }: { compact?: boolean }) {
 
       <ol key={playKey} className="leben-thread">
         {beats.length === 0 ? (
-          <li className="text-sm text-ink-muted">Noch kein Beat. Die Szene wartet.</li>
+          <li className="text-sm text-ink-muted">
+            {scene.opened
+              ? "Noch kein Beat. Die Szene wartet."
+              : sl
+                ? "Szene zu. Öffne eine Gasse im Pult."
+                : "Szene zu. Der Spielleiter öffnet eine Gasse."}
+          </li>
         ) : (
           beats.map((e, i) => (
             <li

@@ -1,4 +1,5 @@
 import type { PreparedEvent, Scene, SceneHint } from "./types";
+import { SCENE_CATALOG_IDS } from "./config";
 
 export interface HouseDef {
   nr: number;
@@ -312,7 +313,7 @@ function shell(partial: Partial<Scene> & Pick<Scene, "id" | "title" | "locationN
     mode: "sozial",
     present: [],
     locationFlags: [],
-    catalogIds: [],
+    catalogIds: SCENE_CATALOG_IDS,
     protocol: [],
     events: [],
     combat: null,

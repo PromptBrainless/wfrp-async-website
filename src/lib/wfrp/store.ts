@@ -7,7 +7,7 @@ import { canWalkTo, distanceBetween, foeId, pinById, tokenPlace } from "./moveme
 import { addBeat } from "./journal";
 import { applyCombatOutcome, applySocialOutcome, nowEntry, pushProtocol, rollSimple } from "./resolve";
 import { createCampaign } from "./seed";
-import { activePc, claimSeat, filledPcs, SEAT_IDS } from "./seats";
+import { activePc, claimSeat, filledPcs, isSeatEmpty, SEAT_IDS } from "./seats";
 import type {
   Campaign,
   Character,
@@ -179,6 +179,8 @@ export const useTisch = create<Store>()((set, get) => ({
     const role = get().role;
     if (!actor) return;
     if (actor.kind !== "pc" && role !== "sl") return;
+    if (role !== "sl" && isSeatEmpty(actor)) return;
+    if (!scene.opened && role === "spieler") return;
 
     if (selectedAction === "gehen") {
       const { selectedPlaceId, role } = get();
@@ -479,7 +481,9 @@ export const useTisch = create<Store>()((set, get) => ({
       campaign: withLog(
         {
           ...campaign,
+          currentSceneId: id,
           scenes: { ...campaign.scenes, [id]: { ...scene, opened: true } },
+          countdownEndsAt: Date.now() + scene.countdownMs,
         },
         slEntry("open-scene", scene.title, `${scene.locationName} liegt offen.`),
       ),

@@ -10,6 +10,8 @@ export function SlDesk() {
   const lastDraw = useTisch((s) => s.lastDraw);
   const force = useTisch((s) => s.forceCountdown);
   const addLog = useTisch((s) => s.addLog);
+  const setRole = useTisch((s) => s.setRole);
+  const setView = useTisch((s) => s.setView);
   const scene = campaign.scenes[campaign.currentSceneId];
   const pending = campaign.pending;
   const submitted = Object.keys(campaign.intentions);
@@ -21,6 +23,17 @@ export function SlDesk() {
       <header>
         <h2 className="font-display text-xl">Spielleiter</h2>
         <p className="mt-1 text-sm text-ink-muted">Dieselbe Szene. Spieler sehen diese Klappe nicht.</p>
+        <Button
+          size="sm"
+          variant="quiet"
+          className="mt-3"
+          onClick={() => {
+            setRole("spieler");
+            setView("platz-1");
+          }}
+        >
+          Als Spieler
+        </Button>
       </header>
 
       <form

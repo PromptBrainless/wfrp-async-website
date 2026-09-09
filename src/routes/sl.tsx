@@ -102,7 +102,7 @@ function SlPage() {
 
           <p className="mt-8 flex flex-wrap gap-4 text-sm">
             <Link to="/tisch" className="text-ink underline-offset-4 hover:underline">
-              Zum Tisch
+              Zum Leben
             </Link>
             <Link to="/" className="text-ink-faint underline-offset-4 hover:underline">
               Zurück

@@ -1,7 +1,8 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { CharHead } from "./CharHead";
 import { Composer } from "./Composer";
 import { Drawer } from "./Drawer";
+import { Hub } from "./Hub";
 import { Leben } from "./Leben";
 import { MapBoard } from "./MapBoard";
 import { SlDesk } from "./SlDesk";
@@ -26,6 +27,10 @@ export function PlayScreen() {
   const scene = campaign.scenes[campaign.currentSceneId];
   const actor = activePc(campaign, viewId);
 
+  useEffect(() => {
+    if (role === "spieler") setFlap((f) => (f === "sl" ? null : f));
+  }, [role]);
+
   const views = useMemo(
     () =>
       actor
@@ -42,8 +47,7 @@ export function PlayScreen() {
 
   const openSl = () => {
     setRole("sl");
-    const npc = scene.present.find((id) => campaign.characters[id]?.kind === "npc");
-    if (npc) setView(npc);
+    setView("welt");
   };
 
   return (
@@ -54,8 +58,8 @@ export function PlayScreen() {
             onBlatt={() => setFlap("blatt")}
             onKarte={() => setFlap("karte")}
             onSl={() => {
-              if (role === "sl") setFlap("sl");
-              else openSl();
+              if (role !== "sl") openSl();
+              setFlap("sl");
             }}
           />
           <Leben compact />
@@ -88,7 +92,8 @@ export function PlayScreen() {
             </ul>
           ) : null}
           {flap === "sl" ? (
-            <div className="space-y-6">
+            <div className="space-y-8">
+              <Hub />
               <Tracker />
               <SlDesk />
             </div>

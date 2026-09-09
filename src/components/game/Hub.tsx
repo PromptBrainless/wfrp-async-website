@@ -19,7 +19,11 @@ export function Hub() {
   const close = useTisch((s) => s.closeScene);
   const sl = role === "sl" || role === "tisch";
   const scenes = Object.values(campaign.scenes);
-  const visible = scenes.filter((s) => s.opened || sl);
+  const streets = scenes.filter((s) => s.id === "lobby" || s.locationFlags.includes("gasse"));
+  const houses = scenes.filter((s) => s.opened && s.locationFlags.includes("haus"));
+  const visible = sl
+    ? [...streets.filter((s) => s.id !== "lobby"), ...houses]
+    : scenes.filter((s) => s.opened && s.id !== "lobby");
 
   return (
     <section className="hub">
@@ -38,7 +42,7 @@ export function Hub() {
           );
           return (
             <li key={scene.id} className={cn("hub-card", !scene.opened && "is-closed")}>
-              <img src={scene.board.image} alt="" className="hub-still" />
+              {scene.board.image ? <img src={scene.board.image} alt="" className="hub-still" /> : null}
               <div className="hub-copy">
                 <div className="flex items-center gap-2">
                   <img src={ICONS.ort} alt="" className="stamp" />
