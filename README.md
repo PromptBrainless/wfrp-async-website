@@ -40,22 +40,21 @@ Charakter an Ort
 
 1. [NEUES-FENSTER.md](NEUES-FENSTER.md)
 2. [knowledge/00-KONTEXT.md](knowledge/00-KONTEXT.md) — eine Wahrheit · [Kleist-Bild](public/images/context/kleist-stand.jpg)
-3. [knowledge/00-UEBERGABE.md](knowledge/00-UEBERGABE.md)
-4. [knowledge/10-system/00-das-spiel.md](knowledge/10-system/00-das-spiel.md)
-5. [BACKLOG.md](BACKLOG.md) — Epics und Tickets auf GitHub
-6. [knowledge/10-system/16-kampagne-1.md](knowledge/10-system/16-kampagne-1.md)
-6. [knowledge/07-reikland/drosselau/README.md](knowledge/07-reikland/drosselau/README.md)
+3. [knowledge/00-WEGE.md](knowledge/00-WEGE.md) — Abend, Bogen, Buch, Gerät
+4. [knowledge/00-INDEX.md](knowledge/00-INDEX.md) — Katalog, wenn du suchst
+
+Danach, je Weg: [Das Spiel](knowledge/10-system/00-das-spiel.md) · [Kampagne 1](knowledge/10-system/16-kampagne-1.md) · [Drosselau](knowledge/07-reikland/drosselau/README.md) · [Übergabe](knowledge/00-UEBERGABE.md) · [Backlog](BACKLOG.md)
 
 ---
 
-## Stand (2026-09-08)
+## Stand (2026-09-09)
 
 | Schicht | Stand |
 |---------|--------|
 | Buch-Wissen | 329 / 329 Gerüste |
-| Kampagne | 1 · 5 leere Plätze · Drosselau |
+| Kampagne | 1 · 5 Plätze · Drosselau |
 | Stadt | 5 Viertel, 13 Gassen, 69 Häuser, 42 Stammbäume |
-| Szene | alle zu, bis der SL eine Gasse öffnet |
+| Tisch | Leben. Szene zu, bis der SL eine Gasse öffnet |
 | Demo | raus |
 
 Nächster Schritt: fünf Charaktere **oder** erste Gasse (SL öffnet).

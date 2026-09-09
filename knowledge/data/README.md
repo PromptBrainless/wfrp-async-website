@@ -25,5 +25,7 @@ Schema-Prosa: [../10-system/02-datenmodell.md](../10-system/02-datenmodell.md).
 v1 **nicht** in den Tabellen: Magie, Gebete, Krankheiten-Tabellen, vollständige Talenttexte, alle Karriereprofile.
 
 ### Siehe auch
+- [Wege · Gerät](../00-WEGE.md)
+- [Datenmodell](../10-system/02-datenmodell.md)
 - [Vollständigkeit](../10-system/06-vollstaendigkeit.md)
-- [Simulation vs. Buch](../10-system/05-simulation-vs-buch.md)
+- [src/lib/wfrp](../../src/lib/wfrp/README.md)

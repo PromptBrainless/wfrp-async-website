@@ -1,8 +1,9 @@
 # Übergabe – Die Frist / WFRP asynchron
 
-**Stand:** 2026-09-08.
+**Stand:** 2026-09-09.
 
-**Repo:** https://github.com/PromptBrainless/wfrp-async-website (privat)  
+**Repo:** https://github.com/PromptBrainless/wfrp-async-website (öffentlich)  
+**Wege:** [00-WEGE.md](00-WEGE.md)  
 **Fortschritt Wissen:** [00-VOLLTEXT.md](00-VOLLTEXT.md) — 329 / 329  
 **Spiel:** [10-system/00-das-spiel.md](10-system/00-das-spiel.md)  
 **Kampagne:** [10-system/16-kampagne-1.md](10-system/16-kampagne-1.md)  
@@ -11,7 +12,7 @@
 **Sprache:** Deutsch  
 **Regelwerk:** WFRP 4e GRW, 2. überarbeitete Auflage (Ulisses)
 
-Lies zuerst: [00-KONTEXT.md](00-KONTEXT.md) → [NEUES-FENSTER.md](../NEUES-FENSTER.md) → `00-das-spiel` → Kampagne 1 → Drosselau.
+Lies zuerst: [00-KONTEXT.md](00-KONTEXT.md) → [00-WEGE.md](00-WEGE.md) → den Weg, den du gehst.
 
 ---
 
@@ -28,7 +29,7 @@ Kampagne 1 spielt nur in **Drosselau**. Fünf Plätze, noch leer. Keine Demo.
 - Gerüste **329 / 329**. Gate: `python3 skill/scripts/validate_wissen.py`
 - Drosselau: Viertel, Gassen, Häuser, 42 Stammbäume, [Bewohnerregister](07-reikland/drosselau/bewohnerregister.md), Karten-Prompts
 - Seed: fünf leere Plätze, alle Szenen `opened: false`
-- Startseite und Pult zeigen denselben Stand
+- Startseite und Tisch zeigen denselben Stand. Tisch = Leben.
 
 ---
 
@@ -41,6 +42,7 @@ Kampagne 1 spielt nur in **Drosselau**. Fünf Plätze, noch leer. Keine Demo.
 
 ### Siehe auch
 
+- [00-WEGE.md](00-WEGE.md)
 - [00-VOLLTEXT.md](00-VOLLTEXT.md)
 - [Stadtverzeichnis](07-reikland/drosselau/stadt-verzeichnis.md)
 - [00-INDEX.md](00-INDEX.md)

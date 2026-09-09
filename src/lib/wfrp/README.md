@@ -1,14 +1,16 @@
 # src/lib/wfrp
 
-Maschinenkern, noch ohne UI.
+Maschinenkern. UI hängt am Tisch (`/tisch` = Leben).
 
 | Datei | Inhalt |
 |-------|--------|
-| `dice.ts` | W100, EG = Zehner(Ziel) − Zehner(Wurf), 01–05 / 96–00, Trefferzone |
-| `types.ts` | Attribute, Zustände, Katalog-Enums, Character |
-| `catalog.ts` | Aktionsfilter / Grau |
-| `money.ts` | 1 GK = 20 S = 240 G |
+| `config.ts` | JSON → Katalog, Skills, Karrieren |
+| `dice.ts` | W100, EG = Zehner(Ziel) − Zehner(Wurf), 01–05 / 96–00 |
+| `grey.ts` | Karten grau, nie gelöscht |
+| `seats.ts` | fünf Plätze |
+| `store.ts` | Kampagne, Intention, SL-Zug |
+| `drosselau.ts` | Stadtgraph, alle zu |
 
-Autorität: `knowledge/data/*.json` und das Buch. Nicht die Simulations-Walkthrough-Zahlen.
+Autorität: `knowledge/data/*.json` und das Buch.
 
-Siehe [knowledge/10-system/02-datenmodell.md](../../../knowledge/10-system/02-datenmodell.md).
+**Hinauf:** [Wege · Gerät](../../../knowledge/00-WEGE.md) · [Datenmodell](../../../knowledge/10-system/02-datenmodell.md) · [data/](../../../knowledge/data/README.md)

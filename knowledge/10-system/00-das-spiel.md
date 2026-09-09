@@ -5,7 +5,7 @@ Quellen: GRW 2. Auflage S. 6–7, 33–36, 149–191, 192–201, 259–262; Proj
 
 Das ist die Beschreibung **des Spiels**, nicht der späteren Infrastruktur. KI, Kartenmodul, Chat und App hängen später daran. Sie ändern den Loop nicht. Möbel des Tisches: [09-spielumgebung-vtt.md](09-spielumgebung-vtt.md).
 
-Kampagne 1: [16-kampagne-1.md](16-kampagne-1.md). Ort: [Drosselau](../07-reikland/drosselau/README.md). Die alte Basar-Simulation ist Archiv, nicht der Tisch.
+Kampagne 1: [16-kampagne-1.md](16-kampagne-1.md). Ort: [Drosselau](../07-reikland/drosselau/README.md). Medium: [Leben](10-leben-chat.md). Wege: [00-WEGE.md](../00-WEGE.md). Die alte Basar-Simulation ist Archiv, nicht der Tisch.
 
 ---
 

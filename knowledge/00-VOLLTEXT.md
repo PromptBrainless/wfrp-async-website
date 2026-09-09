@@ -119,6 +119,7 @@ Buch-Wissen liegt. Kampagne 1 in Drosselau. Erste Szene öffnet der Mensch.
 
 ### Siehe auch
 
+- [00-WEGE.md](00-WEGE.md)
 - [00-BEFEHLE.md](00-BEFEHLE.md)
 - [00-INDEX.md](00-INDEX.md)
 - [00-UEBERGABE.md](00-UEBERGABE.md)

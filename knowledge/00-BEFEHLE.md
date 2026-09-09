@@ -1,7 +1,7 @@
 # Befehle – wie diese Wissensbasis weitergeführt wird
 
 Verbindlich für jede Session.  
-[00-VORLAGE.md](00-VORLAGE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-QUELLEN.md](00-QUELLEN.md) · [00-REGISTER.md](00-REGISTER.md) · [00-BOGEN.md](00-BOGEN.md) · [00-INDEX.md](00-INDEX.md)
+[00-WEGE.md](00-WEGE.md) · [00-VORLAGE.md](00-VORLAGE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-QUELLEN.md](00-QUELLEN.md) · [00-REGISTER.md](00-REGISTER.md) · [00-BOGEN.md](00-BOGEN.md) · [00-INDEX.md](00-INDEX.md)
 
 Das Regelwerk bleibt die Autorität. Die Engine erfindet keine Regeln.  
 **Simulation ist kein Auftrag.**

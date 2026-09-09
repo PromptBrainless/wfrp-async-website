@@ -25,9 +25,9 @@ WFRP 4e GRW 2. Auflage. Spieler: Intention + eigener W100. SL: Leitung, keine Fi
 
 Fünf Plätze (`platz-1` … `platz-5`), noch leer. Ort: **Drosselau** (5 Viertel, 13 Gassen, 69 Häuser). Graf nicht in der Stadt. Erste Szene: **zu**, bis der SL eine Gasse öffnet. Demo raus. Stadt nicht verlassen.
 
-## Gerät (Stand `d565ade`)
+## Gerät (Stand `9253fba`)
 
-JSON treibt Katalog und Fähigkeiten. 64×4 Karriere-Fähigkeiten. Spezialisierung eigene Zeile. Talente nur aus `angepasst.md` (Straßenkatze, Verhandlungsgenie, Einnehmendes Wesen). Journal: Welt/Intention, keine Würfelplatte. Trigger: SL zieht → Log → Ins Leben. `autoChat` tot.
+JSON treibt Katalog und Fähigkeiten. 64×4 Karriere-Fähigkeiten. Spezialisierung eigene Zeile. Talente nur aus `angepasst.md` (Straßenkatze, Verhandlungsgenie, Einnehmendes Wesen). Journal: Welt/Intention, keine Würfelplatte. Trigger: SL zieht → Log → Ins Leben. `autoChat` tot. **Tisch = Leben.** Dieselbe Kampagne wie die Erschaffung.
 
 ## Nächster Schritt (Mensch, nicht Engine)
 
@@ -37,10 +37,12 @@ Fünf Bögen auf die Plätze **oder** erste Gasse öffnen.
 
 Demo zurück. KI als Erzähler. Zufall ins Leben. Original umschreiben. Szenen erfinden. Stadt verlassen. Alle Texte szenisch machen.
 
-### Siehe auch
+### Wege
 
+- [00-WEGE.md](00-WEGE.md) — Abend, Bogen, Buch, Gerät
 - [NEUES-FENSTER.md](../NEUES-FENSTER.md)
 - [Übergabe](00-UEBERGABE.md)
+- [Index](00-INDEX.md)
 - [Das Spiel](10-system/00-das-spiel.md)
 - [Kampagne 1](10-system/16-kampagne-1.md)
 - [Drosselau](07-reikland/drosselau/README.md)

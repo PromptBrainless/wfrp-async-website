@@ -7,7 +7,7 @@ Brief an Karl-Franz. Das Reikland ist die Kernprovinz des Imperiums. Hauptstadt 
 
 Im Roh nacheinander: Landschaft, Flüsse und Kanäle, Geschichte (Sigmar und die Unberogen), Politik und Ansiedlungen, Alltag.
 
-Kein Default-Plot. Kampagne 1 hat noch keinen Ort.
+Kein Default-Plot. Kampagne 1 spielt in [Drosselau](drosselau/README.md), nicht in Altdorf.
 
 ### Siehe auch
 

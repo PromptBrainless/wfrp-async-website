@@ -16,10 +16,11 @@ user-invocable: true
 
 Lies **vor dem ersten Schreiben** in dieser Session:
 
-1. [knowledge/00-BEFEHLE.md](../knowledge/00-BEFEHLE.md)
-2. [knowledge/00-VORLAGE.md](../knowledge/00-VORLAGE.md)
-3. [knowledge/00-QUELLEN.md](../knowledge/00-QUELLEN.md)
-4. `references/qa-gate.md` (dieses Skill)
+1. [knowledge/00-WEGE.md](../knowledge/00-WEGE.md) — welcher Weg, nicht alle Dateien
+2. [knowledge/00-BEFEHLE.md](../knowledge/00-BEFEHLE.md)
+3. [knowledge/00-VORLAGE.md](../knowledge/00-VORLAGE.md)
+4. [knowledge/00-QUELLEN.md](../knowledge/00-QUELLEN.md)
+5. `references/qa-gate.md` (dieses Skill)
 
 Danach erst Dateien anlegen. Nach jedem Block: Validator, dann Commit.
 

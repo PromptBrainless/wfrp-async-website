@@ -36,6 +36,8 @@ Spieler ohne Vorwissen: [Anfänger-Hilfe](09-anfaenger-hilfe.md) · [Gespräch �
 ---
 
 ### Siehe auch
+- [Wege · Bogen](../00-WEGE.md)
+- [39 Stationen](erschaffung/README.md)
 - [Völker – Kurzübersicht](02-voelker-kurz.md)
 - [Klassen und Karrieren – Übersicht](../03-klassen-karrieren/01-klassen-und-karrieren-uebersicht.md)
 - [Karrieren-Liste](../03-klassen-karrieren/03-karrieren-liste.md)

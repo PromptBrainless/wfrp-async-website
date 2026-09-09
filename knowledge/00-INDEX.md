@@ -2,7 +2,8 @@
 
 Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete Auflage).
 
-**Lies zuerst:** [00-KONTEXT.md](00-KONTEXT.md) · [00-BEFEHLE.md](00-BEFEHLE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-UEBERGABE.md](00-UEBERGABE.md) · [NEUES-FENSTER.md](../NEUES-FENSTER.md)
+**Weg, nicht Katalog:** [00-WEGE.md](00-WEGE.md) — Abend · Bogen · Buch · Gerät  
+**Lies zuerst:** [00-KONTEXT.md](00-KONTEXT.md) · [00-BEFEHLE.md](00-BEFEHLE.md) · [00-UEBERGABE.md](00-UEBERGABE.md) · [NEUES-FENSTER.md](../NEUES-FENSTER.md)
 
 **Abgleich:** [00-ABGLEICH-INHALTSVERZEICHNIS.md](00-ABGLEICH-INHALTSVERZEICHNIS.md)
 
@@ -11,6 +12,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 ---
 
 ## Meta
+- ✅ [Wege](00-WEGE.md) — vier Pfade, nicht die ganze Bibliothek
 - ✅ [Kontext — eine Struktur](00-KONTEXT.md) — Sicherung: [Kleist-Bild](../public/images/context/kleist-stand.jpg)
 - ✅ [NOTICE.md](../NOTICE.md) — Recht, kein Foundry, kein Fan-Release
 - ✅ [Befehle – Arbeitsregeln](00-BEFEHLE.md)
@@ -136,6 +138,7 @@ Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete 
 - ✅ [data/battle-index.json](data/battle-index.json)
 
 ## 10 – System (abgeleitet)
+- ✅ [Hub — Wege durch den Loop](10-system/README.md)
 - ✅ [Das Spiel](10-system/00-das-spiel.md)
 - ✅ [Sims-Prinzip-Ableitung](10-system/01-sims-prinzip-ableitung.md)
 - ✅ [Datenmodell](10-system/02-datenmodell.md)
