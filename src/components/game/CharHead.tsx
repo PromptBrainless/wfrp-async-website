@@ -29,9 +29,10 @@ export function CharHead({ onBlatt }: { onBlatt: () => void }) {
       : null
     : who;
   const recap = [...campaign.journalNotes].reverse().find((n) => n.body)?.body;
-  const [now, setNow] = useState(() => Date.now());
+  const [now, setNow] = useState<number | null>(null);
 
   useEffect(() => {
+    setNow(Date.now());
     const t = window.setInterval(() => setNow(Date.now()), 30_000);
     return () => window.clearInterval(t);
   }, []);
@@ -50,8 +51,7 @@ export function CharHead({ onBlatt }: { onBlatt: () => void }) {
           <p className="font-display text-base leading-tight text-ink">{sl ? "Spielleiter" : (who?.name ?? "Spieler")}</p>
           <p className="truncate text-xs text-ink-muted">
             {scene.title}
-            {" · "}
-            {formatFrist(campaign.countdownEndsAt, now)}
+            {now ? ` · ${formatFrist(campaign.countdownEndsAt, now)}` : ""}
           </p>
         </div>
       </button>

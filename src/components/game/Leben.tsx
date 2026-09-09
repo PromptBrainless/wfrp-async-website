@@ -43,6 +43,7 @@ export function Leben({ compact = false }: { compact?: boolean }) {
   const [draftBody, setDraftBody] = useState("");
   const [draftKind, setDraftKind] = useState<ProtocolEntry["kind"]>("world");
   const [draftSecret, setDraftSecret] = useState(false);
+  const [clock, setClock] = useState(false);
   const endRef = useRef<HTMLLIElement>(null);
 
   const beats = useMemo(() => {
@@ -54,6 +55,10 @@ export function Leben({ compact = false }: { compact?: boolean }) {
       return true;
     });
   }, [scene.protocol, sl, role, filter, query]);
+
+  useEffect(() => {
+    setClock(true);
+  }, []);
 
   useEffect(() => {
     endRef.current?.scrollIntoView({ block: "end" });
@@ -145,7 +150,7 @@ export function Leben({ compact = false }: { compact?: boolean }) {
                       {KIND_MARK[e.kind]}
                       {e.secret ? " · geheim" : ""}
                       <span>
-                        {e.at > 10
+                        {clock && e.at > 10
                           ? new Date(e.at).toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit" })
                           : "Auftakt"}
                       </span>
