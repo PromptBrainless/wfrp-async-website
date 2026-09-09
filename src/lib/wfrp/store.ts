@@ -165,7 +165,6 @@ export const useTisch = create<Store>()((set, get) => ({
   selectAction: (id) => set({ selectedAction: id }),
   send: (id) => {
     set({ selectedAction: id });
-    get().submit();
   },
   speak: () => {
     const { campaign, viewId, note, role } = get();
@@ -174,26 +173,35 @@ export const useTisch = create<Store>()((set, get) => ({
     const scene = currentScene(campaign);
     const actor = campaign.characters[viewId];
     const asWorld = role === "sl" && (!actor || viewId === "welt");
-    const last = campaign.lastRoll;
-    const privateTo =
-      !asWorld && last && PRIVATE_ACTIONS.has(last.actionId) && last.characterId === (actor?.id ?? "")
-        ? actor?.id
-        : asWorld && last && PRIVATE_ACTIONS.has(last.actionId)
-          ? last.characterId
-          : undefined;
+    if (!asWorld && !actor) return;
+    const whoName = asWorld || !actor ? "Welt" : actor.name;
+    const spoken = role === "sl" ? text : `„${text}“`;
     const entry = asWorld
-      ? nowEntry("world", "Welt", text, undefined, { icon: "welt", privateTo })
-      : nowEntry("world", actor.name, text, undefined, {
-          portrait: actor.portrait,
-          speaker: actor.id,
-          icon: "person",
-          privateTo,
-        });
+      ? nowEntry("world", "Welt", text, undefined, { icon: "welt" })
+      : role === "sl"
+        ? nowEntry("world", whoName, text, undefined, {
+            portrait: actor.portrait,
+            speaker: actor.id,
+            icon: "person",
+          })
+        : nowEntry("intent", whoName, spoken, undefined, {
+            portrait: actor.portrait,
+            speaker: actor.id,
+            icon: "person",
+          });
+    let next = addBeat(campaign, scene.id, entry);
+    if (role === "sl" && !asWorld && actor) {
+      const scn = next.scenes[scene.id];
+      next = {
+        ...next,
+        scenes: {
+          ...next.scenes,
+          [scn.id]: { ...scn, ask: { speaker: actor.name, text } },
+        },
+      };
+    }
     set({
-      campaign: withLog(
-        addBeat(campaign, scene.id, entry),
-        slEntry("write", asWorld ? "Welt" : actor.name, text, { protocolId: entry.id }),
-      ),
+      campaign: withLog(next, slEntry("write", whoName, text, { protocolId: entry.id })),
       note: "",
     });
   },

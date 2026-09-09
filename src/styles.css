@@ -786,6 +786,13 @@
     background: color-mix(in oklab, var(--color-paper) 94%, white);
   }
 
+  .scene-ask {
+    margin: 0 0 0.55rem;
+    font-size: 0.92rem;
+    line-height: 1.4;
+    color: var(--color-ink);
+  }
+
   .frist-band {
     flex-shrink: 0;
     padding: 0.55rem 1rem;
@@ -794,6 +801,8 @@
     line-height: 1.4;
     color: var(--color-ink-muted);
   }
+
+  .play-pane {
     flex: 1;
     min-height: 0;
     overflow: auto;
@@ -810,6 +819,10 @@
     border-top: 1px solid color-mix(in oklab, var(--color-ink) 16%, transparent);
     background: var(--color-paper);
     padding: 0.2rem 0.2rem calc(0.35rem + env(safe-area-inset-bottom));
+  }
+
+  .play-doors.is-three {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .play-door {

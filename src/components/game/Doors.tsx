@@ -10,10 +10,19 @@ const DOORS: { id: DoorId; label: string; Icon: typeof MessageSquare }[] = [
   { id: "pult", label: "Pult", Icon: ScrollText },
 ];
 
-export function Doors({ door, onDoor }: { door: DoorId; onDoor: (id: DoorId) => void }) {
+export function Doors({
+  door,
+  onDoor,
+  sl,
+}: {
+  door: DoorId;
+  onDoor: (id: DoorId) => void;
+  sl?: boolean;
+}) {
+  const doors = sl ? DOORS : DOORS.filter((d) => d.id !== "pult");
   return (
-    <nav className="play-doors" aria-label="Türen">
-      {DOORS.map(({ id, label, Icon }) => (
+    <nav className={cn("play-doors", !sl && "is-three")} aria-label="Türen">
+      {doors.map(({ id, label, Icon }) => (
         <button
           key={id}
           type="button"

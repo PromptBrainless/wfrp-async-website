@@ -19,7 +19,7 @@ export function noteFromBeat(scene: Scene, entry: ProtocolEntry): JournalNote | 
     sourceProtocolId: entry.id,
     privateTo: entry.privateTo,
   };
-  if (entry.kind === "intent") note.openQuestion = "Wurf oder automatisches Gelingen?";
+  if (entry.kind === "intent" && entry.icon === "intention") note.openQuestion = "Wurf oder automatisches Gelingen?";
   return note;
 }
 

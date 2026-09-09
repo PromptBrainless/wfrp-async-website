@@ -290,6 +290,8 @@ export interface Scene {
   countdownMs: number;
   board: SceneBoard;
   journal: JournalCard[];
+  /** Was die Szene gerade von den Spielern will. Hängt, bis der SL neu spricht. */
+  ask?: { speaker?: string; text: string };
 }
 
 export interface Intention {

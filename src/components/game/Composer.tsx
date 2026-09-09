@@ -5,16 +5,29 @@ import { actionAsk, CATALOG_BY_ID } from "@/lib/wfrp/catalog";
 import { filterCatalog } from "@/lib/wfrp/grey";
 import { formatRollLine } from "@/lib/wfrp/resolve";
 import { useTisch } from "@/lib/wfrp/store";
-import { activePc, isSeatEmpty } from "@/lib/wfrp/seats";
-import { DIFFICULTY_LABEL, type DifficultyId } from "@/lib/wfrp/types";
+import { activePc, isSeatEmpty, SEAT_IDS } from "@/lib/wfrp/seats";
+import { DIFFICULTY_LABEL, type DifficultyId, type Scene } from "@/lib/wfrp/types";
 import { cn } from "@/lib/utils";
+
+function AskLine({ scene }: { scene: Scene }) {
+  if (!scene.ask?.text) return null;
+  return (
+    <p className="scene-ask">
+      <span className="font-display text-ink">{scene.ask.speaker ?? "Die Welt"}</span>
+      {" — "}
+      {scene.ask.text}
+    </p>
+  );
+}
 
 export function Composer({ onMore }: { onMore: () => void }) {
   const campaign = useTisch((s) => s.campaign);
   const role = useTisch((s) => s.role);
   const viewId = useTisch((s) => s.viewId);
   const setView = useTisch((s) => s.setView);
-  const send = useTisch((s) => s.send);
+  const selected = useTisch((s) => s.selectedAction);
+  const selectAction = useTisch((s) => s.selectAction);
+  const submit = useTisch((s) => s.submit);
   const speak = useTisch((s) => s.speak);
   const note = useTisch((s) => s.note);
   const setNote = useTisch((s) => s.setNote);
@@ -33,9 +46,19 @@ export function Composer({ onMore }: { onMore: () => void }) {
   const actor = activePc(campaign, viewId);
   const cast = ["welt", ...scene.present.filter((id) => campaign.characters[id]?.kind === "npc")];
   const faced = scene.present.some((id) => !id.startsWith("platz-") && id !== "welt");
-  const FIRST = faced
-    ? ["reden", "umschauen", "gehen", "warten", "einschuechtern", "klatsch", "feilschen", "kaufen"]
-    : ["umschauen", "gehen", "warten", "klatsch", "reden", "intuition", "feilschen", "kaufen", "angreifen", "fliehen"];
+  const looked =
+    !!actor &&
+    scene.protocol.some(
+      (e) =>
+        e.speaker === actor.id &&
+        (e.title === "Umschauen" || e.title === "Was Tick sieht" || /umschau/i.test(e.body)),
+    );
+  const asked = Boolean(scene.ask?.text);
+  const FIRST = asked
+    ? ["reden", ...(looked ? [] : ["umschauen"]), "gehen", "warten", "klatsch"]
+    : faced
+      ? ["reden", "umschauen", "gehen", "warten", "einschuechtern", "klatsch", "feilschen", "kaufen"]
+      : ["umschauen", "gehen", "warten", "klatsch", "reden", "intuition", "feilschen", "kaufen", "angreifen", "fliehen"];
 
   const views = useMemo(
     () =>
@@ -55,6 +78,10 @@ export function Composer({ onMore }: { onMore: () => void }) {
       return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
     })
     .slice(0, 4);
+
+  const openNames = SEAT_IDS.map((id) => campaign.characters[id])
+    .filter((c) => c && !isSeatEmpty(c) && !campaign.intentions[c.id])
+    .map((c) => c.name);
 
   const gate =
     sl && pending && pending.intention.characterId !== viewId ? (
@@ -117,6 +144,30 @@ export function Composer({ onMore }: { onMore: () => void }) {
     </div>
   ) : null;
 
+  const mouth = (placeholder: string, label: string) => (
+    <form
+      className="mt-3"
+      onSubmit={(e) => {
+        e.preventDefault();
+        speak();
+      }}
+    >
+      <label className="sr-only" htmlFor="speak-line">
+        {placeholder}
+      </label>
+      <input
+        id="speak-line"
+        value={note}
+        onChange={(e) => setNote(e.target.value)}
+        placeholder={placeholder}
+        className="h-11 w-full rounded-sm border border-ink/20 bg-paper px-3 text-sm text-ink"
+      />
+      <Button type="submit" className="mt-2 w-full" variant="wax" disabled={!note.trim()}>
+        {label}
+      </Button>
+    </form>
+  );
+
   if (win) {
     const roller = campaign.characters[win.roll.characterId];
     const own = roller?.kind === "npc" ? sl : !sl;
@@ -175,7 +226,12 @@ export function Composer({ onMore }: { onMore: () => void }) {
   if (pending && !sl && pending.intention.characterId === actor?.id) {
     return (
       <footer className="play-foot">
-        <p className="text-sm text-ink-muted">Deine Intention liegt beim Spielleiter. Warte auf die Frist — oder auf die Aufforderung zum Wurf.</p>
+        <AskLine scene={scene} />
+        <p className="text-sm text-ink-muted">
+          Deine Intention liegt beim Spielleiter.
+          {openNames.length ? ` ${openNames.join(", ")} ${openNames.length === 1 ? "darf" : "dürfen"} noch.` : ""}
+        </p>
+        {mouth(actor ? `Was ${actor.name.split(" ")[0]} sagt` : "Was du sagst", "Sagen")}
       </footer>
     );
   }
@@ -183,9 +239,13 @@ export function Composer({ onMore }: { onMore: () => void }) {
   if (!sl && actor && campaign.intentions[actor.id]) {
     return (
       <footer className="play-foot">
+        <AskLine scene={scene} />
         <p className="text-sm text-ink-muted">
-          Deine Absicht liegt. Die anderen dürfen noch. Kein Zug — die Frist hält den Tisch.
+          Deine Absicht liegt.
+          {openNames.length ? ` ${openNames.join(", ")} ${openNames.length === 1 ? "darf" : "dürfen"} noch.` : " Alle Absichten liegen."}
+          {scene.ask?.speaker ? ` ${scene.ask.speaker} wartet.` : ""} Kein Zug — die Frist hält den Tisch.
         </p>
+        {mouth(`Was ${actor.name.split(" ")[0]} sagt`, "Sagen")}
       </footer>
     );
   }
@@ -213,10 +273,54 @@ export function Composer({ onMore }: { onMore: () => void }) {
     );
   }
 
+  const picked = selected ? CATALOG_BY_ID[selected] : null;
+  if (picked && !asWorld) {
+    const needsLine = picked.id === "reden";
+    const placeholder =
+      picked.id === "gehen"
+        ? "Wohin in der Szene"
+        : picked.id === "reden"
+          ? (scene.ask?.text ?? "Was du sagst")
+          : "Kurze Zeile (optional)";
+    return (
+      <footer className="play-foot">
+        {castRow}
+        {gate}
+        <AskLine scene={scene} />
+        <p className="font-display text-sm text-ink">{picked.label}</p>
+        {picked.summary ? <p className="mt-1 text-sm text-ink-muted">{picked.summary}</p> : null}
+        <form
+          className="mt-3"
+          onSubmit={(e) => {
+            e.preventDefault();
+            if (needsLine && !note.trim()) return;
+            submit();
+          }}
+        >
+          <input
+            value={note}
+            onChange={(e) => setNote(e.target.value)}
+            placeholder={placeholder}
+            className="h-11 w-full rounded-sm border border-ink/20 bg-paper px-3 text-sm text-ink"
+          />
+          <div className="mt-2 grid grid-cols-2 gap-2">
+            <Button type="submit" variant="wax" disabled={needsLine && !note.trim()}>
+              Absicht senden
+            </Button>
+            <Button type="button" variant="quiet" onClick={() => selectAction(null)}>
+              Zurück
+            </Button>
+          </div>
+        </form>
+      </footer>
+    );
+  }
+
   return (
     <footer className="play-foot">
       {castRow}
       {gate}
+      <AskLine scene={scene} />
       {asWorld ? null : (
         <>
           <p className="font-display text-[11px] uppercase tracking-mark text-ink-faint">
@@ -224,7 +328,12 @@ export function Composer({ onMore }: { onMore: () => void }) {
           </p>
           <div className="mt-2 flex flex-wrap gap-2">
             {shown.map((v) => (
-              <button key={v.def.id} type="button" className="ask-chip" onClick={() => send(v.def.id)}>
+              <button
+                key={v.def.id}
+                type="button"
+                className="ask-chip"
+                onClick={() => selectAction(v.def.id)}
+              >
                 {actionAsk(v.def)}
               </button>
             ))}
@@ -232,34 +341,12 @@ export function Composer({ onMore }: { onMore: () => void }) {
               Weitere
             </button>
           </div>
-          {!sl && scene.protocol.length <= 1 ? (
-            <p className="mt-2 text-xs text-ink-faint">Erst den Ort. Dann eine Absicht — ausgegraute Karten bleiben sichtbar, mit Grund.</p>
+          {!sl && scene.protocol.filter((e) => e.kind === "intent" && e.speaker === actor?.id).length === 0 ? (
+            <p className="mt-2 text-xs text-ink-faint">Die offene Frage zuerst — oder eine Absicht, dann die Zeile.</p>
           ) : null}
         </>
       )}
-      {sl ? (
-        <form
-          className="mt-3"
-          onSubmit={(e) => {
-            e.preventDefault();
-            speak();
-          }}
-        >
-          <label className="sr-only" htmlFor="speak-line">
-            {asWorld ? "Was die Welt tut" : `Was ${who} sagt`}
-          </label>
-          <input
-            id="speak-line"
-            value={note}
-            onChange={(e) => setNote(e.target.value)}
-            placeholder={asWorld ? "Was die Welt tut" : `Was ${who} sagt oder tut`}
-            className="h-11 w-full rounded-sm border border-ink/20 bg-paper px-3 text-sm text-ink"
-          />
-          <Button type="submit" className="mt-2 w-full" variant="wax" disabled={!note.trim()}>
-            Ins Leben
-          </Button>
-        </form>
-      ) : null}
+      {mouth(asWorld ? "Was die Welt tut" : `Was ${who} sagt`, asWorld ? "Ins Leben" : "Sagen")}
     </footer>
   );
 }

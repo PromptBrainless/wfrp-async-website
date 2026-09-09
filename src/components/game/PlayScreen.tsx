@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link } from "@tanstack/react-router";
 import { CharHead } from "./CharHead";
 import { Composer } from "./Composer";
@@ -18,13 +18,18 @@ import { cn } from "@/lib/utils";
 export function PlayScreen() {
   const [door, setDoor] = useState<DoorId>("tisch");
   const [more, setMore] = useState(false);
-  const send = useTisch((s) => s.send);
+  const selectAction = useTisch((s) => s.selectAction);
   const viewId = useTisch((s) => s.viewId);
   const seatId = useTisch((s) => s.seatId);
   const role = useTisch((s) => s.role);
   const campaign = useTisch((s) => s.campaign);
   const scene = campaign.scenes[campaign.currentSceneId];
   const actor = activePc(campaign, viewId);
+  const sl = role === "sl";
+
+  useEffect(() => {
+    if (!sl && door === "pult") setDoor("tisch");
+  }, [sl, door]);
 
   const views = useMemo(
     () =>
@@ -65,10 +70,10 @@ export function PlayScreen() {
             {door === "tisch" ? <Leben compact /> : null}
             {door === "blatt" ? <ZustandPane /> : null}
             {door === "journal" ? <JournalPane /> : null}
-            {door === "pult" ? <Pult /> : null}
+            {door === "pult" && sl ? <Pult /> : null}
           </div>
           {door === "tisch" ? <Composer onMore={() => setMore(true)} /> : null}
-          <Doors door={door} onDoor={setDoor} />
+          <Doors door={door} onDoor={setDoor} sl={sl} />
         </div>
       </div>
       {more ? (
@@ -82,7 +87,7 @@ export function PlayScreen() {
                   className={cn("ask-chip w-full justify-start text-left", !v.available && "opacity-40")}
                   onClick={() => {
                     if (!v.available) return;
-                    send(v.def.id);
+                    selectAction(v.def.id);
                     setMore(false);
                   }}
                 >

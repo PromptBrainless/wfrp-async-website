@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { formatMoney } from "@/lib/wfrp/money";
 import { useTisch } from "@/lib/wfrp/store";
 import { activePc } from "@/lib/wfrp/seats";
+import type { Campaign, Scene } from "@/lib/wfrp/types";
 
 function formatFrist(endsAt: number, now: number): string {
   const ms = endsAt - now;
@@ -13,9 +14,35 @@ function formatFrist(endsAt: number, now: number): string {
   return rest ? `${h} Std ${rest} Min` : `${h} Std`;
 }
 
+function recapLine(scene: Scene, campaign: Campaign, me: string | undefined, sl: boolean): string | null {
+  const bits: string[] = [];
+  if (scene.ask?.text) {
+    bits.push(scene.ask.speaker ? `${scene.ask.speaker} — ${scene.ask.text}` : scene.ask.text);
+  }
+  if (me && !sl) {
+    const mine = [...scene.protocol]
+      .reverse()
+      .find((e) => e.speaker === me && (e.kind === "intent" || e.privateTo === me));
+    if (mine) {
+      const short = mine.body.length > 90 ? `${mine.body.slice(0, 87)}…` : mine.body;
+      bits.push(mine.icon === "intention" ? `Du: ${short}` : short);
+    }
+  }
+  if (!bits.length) {
+    const note = [...campaign.journalNotes]
+      .reverse()
+      .find((n) => n.body && (sl || !n.privateTo || n.privateTo === me));
+    if (note?.body) bits.push(note.body);
+  }
+  if (!bits.length) return null;
+  const line = bits.join(" · ");
+  return line.length > 180 ? `${line.slice(0, 177)}…` : line;
+}
+
 export function CharHead({ onBlatt }: { onBlatt: () => void }) {
   const campaign = useTisch((s) => s.campaign);
   const viewId = useTisch((s) => s.viewId);
+  const seatId = useTisch((s) => s.seatId);
   const role = useTisch((s) => s.role);
   const scene = campaign.scenes[campaign.currentSceneId];
   const sl = role === "sl";
@@ -26,9 +53,7 @@ export function CharHead({ onBlatt }: { onBlatt: () => void }) {
       ? (campaign.characters[viewId] ?? null)
       : null
     : who;
-  const recap = [...campaign.journalNotes]
-    .reverse()
-    .find((n) => n.body && (sl || !n.privateTo || n.privateTo === viewId))?.body;
+  const recap = recapLine(scene, campaign, seatId ?? viewId, sl);
   const [now, setNow] = useState<number | null>(null);
 
   useEffect(() => {

@@ -173,5 +173,18 @@ export function playFirstHour(campaign: Campaign): Campaign {
   ];
 
   for (const e of beats) next = addBeat(next, sceneId, e);
+  const scn = next.scenes[sceneId];
+  if (scn) {
+    next = {
+      ...next,
+      scenes: {
+        ...next.scenes,
+        [sceneId]: {
+          ...scn,
+          ask: { speaker: "Arne Helm", text: "Namen. Woher. Waffen offen." },
+        },
+      },
+    };
+  }
   return next;
 }
