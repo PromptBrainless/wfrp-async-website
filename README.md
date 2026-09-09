@@ -2,7 +2,7 @@
 
 Arbeitsrepo. Asynchrones **Warhammer Fantasy Roleplay 4e** (Ulisses, Grundregelwerk 2. überarbeitete Auflage).
 
-**Kampagne 1:** fünf Spieler · Ort **Drosselau** · erste Szene zu.  
+**Kampagne 1:** fünf Spieler — Tick, Track, Truck, Hanni, Nanni · Ort **Drosselau** · Torstraße offen.  
 **GitHub:** [PromptBrainless/wfrp-async-website](https://github.com/PromptBrainless/wfrp-async-website) — öffentlich, kein Fan-Release, keine PDFs.
 
 Spieler setzt Intention und wirft den W100. Der SL ist Leitung, keine Figur. Die Engine spricht nicht.
@@ -52,12 +52,12 @@ Danach, je Weg: [Das Spiel](knowledge/10-system/00-das-spiel.md) · [Kampagne 1]
 | Schicht | Stand |
 |---------|--------|
 | Buch-Wissen | 329 / 329 Gerüste |
-| Kampagne | 1 · 5 Plätze · Drosselau |
+| Kampagne | 1 · Tick, Track, Truck, Hanni, Nanni · Drosselau |
 | Stadt | 5 Viertel, 13 Gassen, 69 Häuser, 42 Stammbäume |
-| Tisch | Leben. Szene zu, bis der SL eine Gasse öffnet |
+| Tisch | Leben. Torstraße offen |
 | Demo | raus |
 
-Nächster Schritt: fünf Charaktere **oder** erste Gasse (SL öffnet).
+Nächster Schritt: am Tisch handeln. Die Engine erzählt nicht.
 
 Hooks: `bash skill/scripts/install-hooks.sh`
 

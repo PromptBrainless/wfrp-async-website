@@ -1,35 +1,7 @@
-import { ATTRS, type Campaign, type Character, type Scene } from "./types";
-import { buildDrosselauScenes, DROSSELAU_SCENE_COUNT } from "./drosselau";
-
-function emptySeat(n: number): Character {
-  const attrs = Object.fromEntries(ATTRS.map((a) => [a, 0])) as Character["attributes"];
-  return {
-    id: `platz-${n}`,
-    name: `Platz ${n}`,
-    species: "",
-    className: "",
-    career: "",
-    careerLevel: 0,
-    status: { tier: "messing", rank: 0 },
-    motivation: "",
-    attributes: attrs,
-    skills: {},
-    talents: [],
-    wounds: { current: 0, max: 0 },
-    movement: 0,
-    fate: 0,
-    fortune: 0,
-    resilience: 0,
-    resolve: 0,
-    advantage: 0,
-    conditions: [],
-    money: { crowns: 0, shillings: 0, pennies: 0 },
-    inventory: [],
-    engaged: false,
-    flags: [],
-    kind: "pc",
-  };
-}
+import { type Campaign, type Character, type Scene } from "./types";
+import { buildDrosselauScenes, DROSSELAU_SCENE_COUNT, streetSceneId } from "./drosselau";
+import { makeParty } from "./party";
+import { SEAT_IDS } from "./seats";
 
 function lobby(): Scene {
   return {
@@ -58,20 +30,34 @@ function lobby(): Scene {
 }
 
 export function createCampaign(): Campaign {
+  const party = makeParty();
+  const characters = Object.fromEntries(SEAT_IDS.map((id, i) => [id, party[i] as Character]));
+  const scenes: Record<string, Scene> = { lobby: lobby(), ...buildDrosselauScenes() };
+  const first = streetSceneId("torstrasse");
+  const gasse = scenes[first]!;
+  scenes[first] = {
+    ...gasse,
+    opened: true,
+    present: [...SEAT_IDS],
+    protocol: [
+      {
+        id: "start-tor",
+        at: Date.now(),
+        kind: "world",
+        title: "Torstraße",
+        body: "Die Gasse liegt offen. Fünf stehen am Tor. Die Stadt hält.",
+        icon: "welt",
+      },
+    ],
+  };
   return {
     id: "kampagne-1",
     title: "Kampagne 1",
     subtitle: "Fünf Spieler · Drosselau",
-    characters: {
-      "platz-1": emptySeat(1),
-      "platz-2": emptySeat(2),
-      "platz-3": emptySeat(3),
-      "platz-4": emptySeat(4),
-      "platz-5": emptySeat(5),
-    },
-    scenes: { lobby: lobby(), ...buildDrosselauScenes() },
-    currentSceneId: "lobby",
-    worldFlags: ["kampagne-1", "spieler-5", "drosselau", "stadt-kaefig"],
+    characters,
+    scenes,
+    currentSceneId: first,
+    worldFlags: ["kampagne-1", "spieler-5", "drosselau", "stadt-kaefig", "tor-offen"],
     intentions: {},
     pending: null,
     pendingPlayerRoll: null,
@@ -80,7 +66,15 @@ export function createCampaign(): Campaign {
     countdownEndsAt: Date.now() + 24 * 60 * 60 * 1000,
     lastRoll: null,
     endedSummary: null,
-    slLog: [],
+    slLog: [
+      {
+        id: "start-open",
+        at: Date.now(),
+        kind: "open-scene",
+        title: gasse.title,
+        body: `${gasse.locationName} liegt offen.`,
+      },
+    ],
     journalNotes: [],
     tableMarks: {},
   };

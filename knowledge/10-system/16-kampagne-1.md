@@ -7,11 +7,11 @@ Gesetzt vom Menschen: **Kampagne 1**, **5 Spieler**, **Ort: Drosselau**.
 
 ## Was feststeht
 
-- Fünf Spielercharaktere. Jeder steuert genau einen SC.
+- Fünf Spielercharaktere: **Tick**, **Track**, **Truck**, **Hanni**, **Nanni**. Jeder steuert genau einen SC.
 - Der SL ist Leitung, keine sechste Figur, kein NSC-Platz.
-- Keine Demo. Keine vorgefertigten Bögen.
+- Keine Demo. Die fünf Bögen sind durch die Erschaffung gegangen.
 - **Ort: Drosselau** — Stadt → 5 Viertel → 13 Gassen → 69 Häuser. [Szenen](17-drosselau-szenen.md). [Verzeichnis](../07-reikland/drosselau/stadt-verzeichnis.md). [Register](../07-reikland/drosselau/bewohnerregister.md).
-- **Erste Szene: zu.** Kein Auslöser, bis der SL eine Gasse öffnet.
+- **Erste Szene: Torstraße, offen.** Der SL hat die Gasse aufgemacht. Die Stadt hält.
 
 ## Was das für die Frist heißt
 
@@ -19,7 +19,7 @@ Fünf sitzen in der Kampagne. Eine Frist muss nicht alle fünf gleichzeitig fass
 
 ## Was als Nächstes der Mensch setzt
 
-Welche Gasse die erste Szene ist — oder die fünf Charaktere.
+Absichten in der Torstraße. Die Engine erfindet niemanden.
 
 ### Siehe auch
 

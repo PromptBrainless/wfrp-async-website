@@ -23,7 +23,7 @@ WFRP 4e GRW 2. Auflage. Spieler: Intention + eigener W100. SL: Leitung, keine Fi
 
 ## Kampagne 1
 
-Fünf Plätze (`platz-1` … `platz-5`), noch leer. Ort: **Drosselau** (5 Viertel, 13 Gassen, 69 Häuser). Graf nicht in der Stadt. Erste Szene: **zu**, bis der SL eine Gasse öffnet. Demo raus. Stadt nicht verlassen.
+Fünf Plätze: **Tick, Track, Truck, Hanni, Nanni**. Ort: **Drosselau** (5 Viertel, 13 Gassen, 69 Häuser). Graf nicht in der Stadt. Erste Szene: **Torstraße, offen**. Demo raus. Stadt nicht verlassen.
 
 ## Gerät (Stand `9253fba`)
 
@@ -31,7 +31,7 @@ JSON treibt Katalog und Fähigkeiten. 64×4 Karriere-Fähigkeiten. Spezialisieru
 
 ## Nächster Schritt (Mensch, nicht Engine)
 
-Fünf Bögen auf die Plätze **oder** erste Gasse öffnen.
+Am Tisch handeln. Die Engine erzählt nicht.
 
 ## Nicht
 

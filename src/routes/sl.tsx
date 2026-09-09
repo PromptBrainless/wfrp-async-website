@@ -29,13 +29,13 @@ function SlPage() {
           <p className="font-display text-xs uppercase tracking-mark text-ink-faint">Spielleiter · Kampagne 1</p>
           <h1 className="mt-4 font-display text-4xl text-ink">{DROSSELAU.name}</h1>
           <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink-muted">
-            Stadt → Viertel → Gasse → Haus → Haushalt. {DROSSELAU_SCENE_COUNT} Szenen, alle zu.{" "}
+            Stadt → Viertel → Gasse → Haus → Haushalt. {DROSSELAU_SCENE_COUNT} Szenen. Torstraße offen.{" "}
             {GROUPS.length} Gruppen, 42 Stammbäume.
           </p>
           <ul className="mt-6 space-y-1 text-sm text-ink">
-            <li>Spieler: 5, Plätze leer</li>
+            <li>Spieler: Tick, Track, Truck, Hanni, Nanni</li>
             <li>Viertel: {QUARTIERS.length}</li>
-            <li>Offen: keine</li>
+            <li>Offen: Torstraße</li>
           </ul>
 
           <h2 className="mt-10 font-display text-xl text-ink">Gruppen</h2>

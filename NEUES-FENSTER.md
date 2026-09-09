@@ -17,12 +17,12 @@ Wege: [Abend](knowledge/10-system/16-kampagne-1.md) · [Spiel](knowledge/10-syst
 
 Kampagne 1 ist gesetzt. Buch-Wissen liegt. Demo ist raus. Der Tisch ist das Leben.
 
-**Als Nächstes (Mensch entscheidet, nicht die Engine):** fünf Charaktere anlegen **oder** die erste Gasse in Drosselau öffnen.
+**Als Nächstes (Mensch entscheidet, nicht die Engine):** Absichten in der Torstraße.
 
 **Nicht:** Demo/Basar/Otto zurück, KI als Erzähler, Zufallsinhalte, Szene ohne SL-Öffnung, Stadt verlassen.
 
 ## Stand
 
-- **Kampagne 1** · 5 Spieler · Drosselau (5 Viertel, 13 Gassen, 69 Häuser)
+- **Kampagne 1** · Tick, Track, Truck, Hanni, Nanni · Drosselau
 - Stammbäume und Bewohnerregister liegen. Graf sitzt nicht in der Stadt.
-- Tisch = Leben. Erste Szene: zu, bis der SL öffnet.
+- Tisch = Leben. Torstraße offen.

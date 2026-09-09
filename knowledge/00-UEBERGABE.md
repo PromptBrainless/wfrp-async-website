@@ -20,7 +20,7 @@ Lies zuerst: [00-KONTEXT.md](00-KONTEXT.md) → [00-WEGE.md](00-WEGE.md) → den
 
 Spieler = Intention + eigener W100. SL = Leitung, keine Figur. Engine spricht nicht.
 
-Kampagne 1 spielt nur in **Drosselau**. Fünf Plätze, noch leer. Keine Demo.
+Kampagne 1 spielt nur in **Drosselau**. Fünf sitzen: Tick, Track, Truck, Hanni, Nanni. Torstraße offen. Keine Demo.
 
 ---
 
@@ -28,15 +28,15 @@ Kampagne 1 spielt nur in **Drosselau**. Fünf Plätze, noch leer. Keine Demo.
 
 - Gerüste **329 / 329**. Gate: `python3 skill/scripts/validate_wissen.py`
 - Drosselau: Viertel, Gassen, Häuser, 42 Stammbäume, [Bewohnerregister](07-reikland/drosselau/bewohnerregister.md), Karten-Prompts
-- Seed: fünf leere Plätze, alle Szenen `opened: false`
+- Seed: fünf Bögen, Torstraße offen
 - Startseite und Tisch zeigen denselben Stand. Tisch = Leben.
 
 ---
 
 ## 3. Nächste Aufgabe
 
-1. Fünf Charaktere anlegen oder übernehmen  
-2. Erste Gasse — **SL öffnet**, nicht die Engine
+1. Am Tisch handeln  
+2. Weitere Gassen — **SL öffnet**, nicht die Engine
 
 **Nicht tun:** Demo zurück, KI als Erzähler, Zufallstabellen ins Leben, Szene erfinden, die Stadt verlassen.
 

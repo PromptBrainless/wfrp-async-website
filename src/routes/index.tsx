@@ -13,16 +13,16 @@ function Home() {
           <p className="font-display text-xs uppercase tracking-mark text-ink-faint">Warhammer Fantasy Roleplay</p>
           <h1 className="mt-4 font-display text-5xl leading-none text-ink sm:text-6xl">Die Frist</h1>
           <p className="mt-5 max-w-prose text-lg leading-relaxed text-ink-muted">
-            Kampagne 1 spielt in Drosselau. Fünf Spieler. Der Spielleiter ist Leitung. Die erste Szene öffnest du.
+            Kampagne 1 spielt in Drosselau. Fünf sitzen. Der Spielleiter ist Leitung. Die Torstraße liegt offen.
           </p>
           <dl className="mt-8 grid gap-3 text-sm text-ink">
             <div>
               <dt className="font-display text-[11px] uppercase tracking-mark text-ink-faint">Kampagne</dt>
-              <dd>1 · fünf Plätze, noch leer</dd>
+              <dd>1 · Tick, Track, Truck, Hanni, Nanni</dd>
             </div>
             <div>
               <dt className="font-display text-[11px] uppercase tracking-mark text-ink-faint">Ort</dt>
-              <dd>Drosselau — 13 Gassen, Szene zu</dd>
+              <dd>Drosselau — Torstraße offen</dd>
             </div>
             <div>
               <dt className="font-display text-[11px] uppercase tracking-mark text-ink-faint">Buch</dt>
