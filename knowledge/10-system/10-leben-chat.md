@@ -2,6 +2,8 @@
 
 **Weg · Abend 3/6** · [Wege](../00-WEGE.md) · [← Das Spiel](00-das-spiel.md) · [Journal →](12-journal-und-log.md)
 
+Am Gerät: vier Türen unten — **Tisch · Blatt · Journal · Pult**. Der Chat ist der Tisch. Würfel und Absicht liegen im Faden.
+
 Stand: 2026-09-08. 
 Quellen: GRW 2. Auflage S. 6–7, 149–155, 156–159, 171, 259–262; [00-das-spiel.md](00-das-spiel.md); [09-spielumgebung-vtt.md](09-spielumgebung-vtt.md); [01-wuerfel-und-grundmechanik.md](../05-regeln/01-wuerfel-und-grundmechanik.md); [04-kritische-treffer.md](../05-regeln/04-kritische-treffer.md); [01-kernrollen-des-SL.md](../06-spielleiter/01-kernrollen-des-SL.md).
 

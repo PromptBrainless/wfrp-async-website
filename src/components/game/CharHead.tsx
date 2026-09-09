@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Map, ScrollText } from "lucide-react";
 import { formatMoney } from "@/lib/wfrp/money";
 import { useTisch } from "@/lib/wfrp/store";
 import { activePc, isSeatEmpty, SEAT_IDS } from "@/lib/wfrp/seats";
@@ -15,15 +14,7 @@ function formatFrist(endsAt: number, now: number): string {
   return rest ? `${h} Std ${rest} Min` : `${h} Std`;
 }
 
-export function CharHead({
-  onBlatt,
-  onKarte,
-  onSl,
-}: {
-  onBlatt: () => void;
-  onKarte: () => void;
-  onSl: () => void;
-}) {
+export function CharHead({ onBlatt }: { onBlatt: () => void }) {
   const campaign = useTisch((s) => s.campaign);
   const viewId = useTisch((s) => s.viewId);
   const role = useTisch((s) => s.role);
@@ -64,14 +55,6 @@ export function CharHead({
           </p>
         </div>
       </button>
-      <div className="play-head-actions">
-        <button type="button" className="play-icon" onClick={onKarte} aria-label="Karte">
-          <Map className="size-4" strokeWidth={1.75} />
-        </button>
-        <button type="button" className="play-icon" onClick={onSl} aria-label="Werkzeuge">
-          <ScrollText className="size-4" strokeWidth={1.75} />
-        </button>
-      </div>
       {who ? (
         <dl className="play-stats">
           <div>

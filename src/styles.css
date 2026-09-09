@@ -584,7 +584,7 @@
   .play {
     display: flex;
     flex-direction: column;
-    min-height: calc(100dvh - 5.5rem);
+    min-height: 100dvh;
   }
 
   .play-blatt {
@@ -783,11 +783,49 @@
   }
 
   .play-foot {
-    position: sticky;
-    bottom: 0;
-    padding: 0.85rem 1rem calc(0.9rem + env(safe-area-inset-bottom));
+    position: static;
+    padding: 0.85rem 1rem 0.6rem;
     border-top: 1px solid color-mix(in oklab, var(--color-ink) 14%, transparent);
     background: color-mix(in oklab, var(--color-paper) 94%, white);
+  }
+
+  .play-pane {
+    flex: 1;
+    min-height: 0;
+    overflow: auto;
+  }
+
+  .play-pane-pad {
+    padding: 1rem 1rem 1.25rem;
+  }
+
+  .play-doors {
+    flex-shrink: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-top: 1px solid color-mix(in oklab, var(--color-ink) 16%, transparent);
+    background: var(--color-paper);
+    padding: 0.2rem 0.2rem calc(0.35rem + env(safe-area-inset-bottom));
+  }
+
+  .play-door {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+    min-height: 3.25rem;
+    border: 0;
+    background: transparent;
+    color: var(--color-ink-faint);
+    font-family: var(--font-display);
+    font-size: 0.68rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .play-door.is-on {
+    color: var(--color-ink);
   }
 
   .ask-chip {
@@ -1034,7 +1072,7 @@
 
   .play-head {
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-columns: 1fr auto;
     gap: 0.45rem 0.7rem;
     align-items: center;
     padding: 0.85rem 1rem 0.7rem;
@@ -1115,7 +1153,7 @@
 
   .play-foot {
     border-top: 1px solid color-mix(in oklab, var(--color-ink) 14%, transparent);
-    padding: 0.85rem 1rem calc(0.95rem + env(safe-area-inset-bottom));
+    padding: 0.85rem 1rem 0.6rem;
     background: color-mix(in oklab, var(--color-paper) 94%, white);
   }
 

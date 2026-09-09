@@ -1,12 +1,11 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { CharHead } from "./CharHead";
 import { Composer } from "./Composer";
+import { Doors, type DoorId } from "./Doors";
 import { Drawer } from "./Drawer";
-import { Hub } from "./Hub";
+import { JournalPane } from "./JournalPane";
 import { Leben } from "./Leben";
-import { MapBoard } from "./MapBoard";
-import { SlDesk } from "./SlDesk";
-import { Tracker } from "./Tracker";
+import { Pult } from "./Pult";
 import { ZustandPane } from "./ZustandPane";
 import { actionAsk } from "@/lib/wfrp/catalog";
 import { filterCatalog } from "@/lib/wfrp/grey";
@@ -14,22 +13,14 @@ import { useTisch } from "@/lib/wfrp/store";
 import { activePc } from "@/lib/wfrp/seats";
 import { cn } from "@/lib/utils";
 
-type Flap = "blatt" | "karte" | "sl" | "mehr" | null;
-
 export function PlayScreen() {
-  const [flap, setFlap] = useState<Flap>(null);
-  const setRole = useTisch((s) => s.setRole);
-  const setView = useTisch((s) => s.setView);
+  const [door, setDoor] = useState<DoorId>("tisch");
+  const [more, setMore] = useState(false);
   const send = useTisch((s) => s.send);
-  const role = useTisch((s) => s.role);
   const viewId = useTisch((s) => s.viewId);
   const campaign = useTisch((s) => s.campaign);
   const scene = campaign.scenes[campaign.currentSceneId];
   const actor = activePc(campaign, viewId);
-
-  useEffect(() => {
-    if (role === "spieler") setFlap((f) => (f === "sl" ? null : f));
-  }, [role]);
 
   const views = useMemo(
     () =>
@@ -42,62 +33,42 @@ export function PlayScreen() {
     [actor, scene, campaign.phase],
   );
 
-  const title =
-    flap === "blatt" ? (actor?.name ?? "Blatt") : flap === "karte" ? "Ort" : flap === "sl" ? "Werkzeuge" : flap === "mehr" ? "Weitere Handlungen" : "";
-
-  const openSl = () => {
-    setRole("sl");
-    setView("welt");
-  };
-
   return (
     <div className="play">
       <div className="blatt play-blatt">
         <div className="blatt-inner play-inner">
-          <CharHead
-            onBlatt={() => setFlap("blatt")}
-            onKarte={() => setFlap("karte")}
-            onSl={() => {
-              if (role !== "sl") openSl();
-              setFlap("sl");
-            }}
-          />
-          <Leben compact />
-          <Composer onMore={() => setFlap("mehr")} />
+          <CharHead onBlatt={() => setDoor("blatt")} />
+          <div className="play-pane">
+            {door === "tisch" ? <Leben compact /> : null}
+            {door === "blatt" ? <ZustandPane /> : null}
+            {door === "journal" ? <JournalPane /> : null}
+            {door === "pult" ? <Pult /> : null}
+          </div>
+          {door === "tisch" ? <Composer onMore={() => setMore(true)} /> : null}
+          <Doors door={door} onDoor={setDoor} />
         </div>
       </div>
-      {flap ? (
-        <Drawer title={title} onClose={() => setFlap(null)}>
-          {flap === "blatt" ? <ZustandPane /> : null}
-          {flap === "karte" ? <MapBoard /> : null}
-          {flap === "mehr" ? (
-            <ul className="space-y-2">
-              {views.map((v) => (
-                <li key={v.def.id}>
-                  <button
-                    type="button"
-                    disabled={!v.available}
-                    className={cn("ask-chip w-full justify-start text-left", !v.available && "opacity-40")}
-                    onClick={() => {
-                      if (!v.available) return;
-                      send(v.def.id);
-                      setFlap(null);
-                    }}
-                  >
-                    <span>{actionAsk(v.def)}</span>
-                    {v.reason ? <span className="ml-2 text-xs text-ink-faint">{v.reason}</span> : null}
-                  </button>
-                </li>
-              ))}
-            </ul>
-          ) : null}
-          {flap === "sl" ? (
-            <div className="space-y-8">
-              <Hub />
-              <Tracker />
-              <SlDesk />
-            </div>
-          ) : null}
+      {more ? (
+        <Drawer title="Weitere Handlungen" onClose={() => setMore(false)}>
+          <ul className="space-y-2">
+            {views.map((v) => (
+              <li key={v.def.id}>
+                <button
+                  type="button"
+                  disabled={!v.available}
+                  className={cn("ask-chip w-full justify-start text-left", !v.available && "opacity-40")}
+                  onClick={() => {
+                    if (!v.available) return;
+                    send(v.def.id);
+                    setMore(false);
+                  }}
+                >
+                  <span>{actionAsk(v.def)}</span>
+                  {v.reason ? <span className="ml-2 text-xs text-ink-faint">{v.reason}</span> : null}
+                </button>
+              </li>
+            ))}
+          </ul>
         </Drawer>
       ) : null}
     </div>
