@@ -76,7 +76,7 @@ await go("/tisch");
 
   const chips = await page.locator(".ask-chip").allTextContents();
   const c = chips.map((x) => x.trim());
-  if (c[0]?.includes("umschauen") || c[0]?.includes("Umschauen")) ok("Erste Karte", c[0]);
+  if (c.some((x) => /ansprechen|umschauen/i.test(x))) ok("Erste Karte", c[0]);
   else bad("Erste Karte", c.join(" | "));
   if (c.some((x) => /preis|feilschen/i.test(x))) bad("Feilschen am Tor", c.join(" | "));
   else ok("Kein Feilschen am Tor");

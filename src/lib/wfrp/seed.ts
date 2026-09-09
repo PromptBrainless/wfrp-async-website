@@ -2,6 +2,7 @@ import { type Campaign, type Character, type Scene } from "./types";
 import { buildDrosselauScenes, DROSSELAU_SCENE_COUNT, streetSceneId } from "./drosselau";
 import { makeParty } from "./party";
 import { SEAT_IDS } from "./seats";
+import { playFirstHour } from "./session";
 
 function lobby(): Scene {
   return {
@@ -54,7 +55,7 @@ export function createCampaign(): Campaign {
       },
     ],
   };
-  return {
+  const base: Campaign = {
     id: "kampagne-1",
     title: "Kampagne 1",
     subtitle: "Fünf Spieler · Drosselau",
@@ -82,4 +83,5 @@ export function createCampaign(): Campaign {
     journalNotes: [],
     tableMarks: {},
   };
+  return playFirstHour(base);
 }

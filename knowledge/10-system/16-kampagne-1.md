@@ -11,7 +11,7 @@ Gesetzt vom Menschen: **Kampagne 1**, **5 Spieler**, **Ort: Drosselau**.
 - Der SL ist Leitung, keine sechste Figur, kein NSC-Platz.
 - Keine Demo. Die fünf Bögen sind durch die Erschaffung gegangen.
 - **Ort: Drosselau** — Stadt → 5 Viertel → 13 Gassen → 69 Häuser. [Szenen](17-drosselau-szenen.md). [Verzeichnis](../07-reikland/drosselau/stadt-verzeichnis.md). [Register](../07-reikland/drosselau/bewohnerregister.md).
-- **Erste Szene: Torstraße, offen.** Der SL hat die Gasse aufgemacht. Die Stadt hält.
+- **Erste Szene: Torstraße, offen.** Arne Helm prüft. [Erste Stunde](18-erste-stunde.md).
 
 ## Was das für die Frist heißt
 

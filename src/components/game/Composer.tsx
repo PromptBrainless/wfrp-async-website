@@ -9,8 +9,6 @@ import { activePc, isSeatEmpty } from "@/lib/wfrp/seats";
 import { DIFFICULTY_LABEL, type DifficultyId } from "@/lib/wfrp/types";
 import { cn } from "@/lib/utils";
 
-const FIRST = ["umschauen", "gehen", "warten", "klatsch", "reden", "intuition", "feilschen", "kaufen", "angreifen", "fliehen"];
-
 export function Composer({ onMore }: { onMore: () => void }) {
   const campaign = useTisch((s) => s.campaign);
   const role = useTisch((s) => s.role);
@@ -34,6 +32,10 @@ export function Composer({ onMore }: { onMore: () => void }) {
   const sl = role === "sl";
   const actor = activePc(campaign, viewId);
   const cast = ["welt", ...scene.present.filter((id) => campaign.characters[id]?.kind === "npc")];
+  const faced = scene.present.some((id) => !id.startsWith("platz-") && id !== "welt");
+  const FIRST = faced
+    ? ["reden", "umschauen", "gehen", "warten", "einschuechtern", "klatsch", "feilschen", "kaufen"]
+    : ["umschauen", "gehen", "warten", "klatsch", "reden", "intuition", "feilschen", "kaufen", "angreifen", "fliehen"];
 
   const views = useMemo(
     () =>
