@@ -23,7 +23,7 @@ Presse: [00-KONTEXT-kleist.txt](00-KONTEXT-kleist.txt) · Script: `python3 scrip
 WFRP 4e, Ulisses GRW 2. Auflage. Asynchron. Kein Zug — die **Frist** hält den Tisch.  
 Spieler: **Absicht** + eigener W100. SL: Leitung, keine Figur, zieht Trigger. Engine: kein Erzähler, kein Zufall ins Leben. Glück nur nach eigenem Wurf. Wahrnehmung **privat** (`privateTo`).
 
-Wörter: [Glossar](../copy/GLOSSAR.md). Sätze: [Spieltexte](../copy/SPIELTEXTE.md). Ort: [Beschreibungen](../copy/BESCHREIBUNGEN.md).
+Wörter: [Glossar](../copy/GLOSSAR.md). Sätze: [Spieltexte](../copy/SPIELTEXTE.md). Ort: [Beschreibungen](../copy/BESCHREIBUNGEN.md). Bibliothek: [Beschreibungsregeln V2](07-reikland/drosselau/BESCHREIBUNGSREGELN.md).
 
 ## Kampagne 1
 
@@ -31,7 +31,7 @@ Fünf Plätze: **Tick, Track, Truck, Hanni, Nanni**. Ort: **Drosselau** — 5 Vi
 
 **Erste Stunde, Torstraße, offen.** Arne Helm (Dienst Zollhaus 1, wohnt Nr. 8) prüft. Tick hat sich umgeschaut — nur Tick sieht die Lage. Die Frage hängt: *Namen. Woher. Waffen offen.*
 
-Lagen einer Gasse: offen / grob / teil / voll / scharf / sl. Torstraße handschriftlich, übrige Gassen ebenso; 60 Häuser noch Generator.
+Lagen einer Gasse: offen / grob / teil / voll / scharf / sl. Alle 13 Gassen und alle 69 Häuser handschriftlich. V2-Bibliothek: zuerst die Torstraße vollständig.
 
 ## Gerät (Stand `4a40951`)
 
@@ -46,7 +46,7 @@ Tick antwortet Arne. Die anderen dürfen noch. Die Engine erzählt nicht.
 
 ## Nicht
 
-Demo zurück. KI als Erzähler. Zufall ins Leben. Original umschreiben. Szenen erfinden. Stadt verlassen. SL als sechste Figur. Synonyme für Frist, Faden, Blatt, Pult, Absicht. Alle Texte szenisch machen.
+Demo zurück. KI als Erzähler. Zufall ins Leben. Original umschreiben. Stadt verlassen. SL als sechste Figur. Synonyme für Frist, Faden, Blatt, Pult, Absicht. Keime, die von selbst feuern. Stunde/Tag/Woche als Tick der Engine.
 
 ### Wege
 

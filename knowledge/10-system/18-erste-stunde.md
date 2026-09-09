@@ -2,7 +2,7 @@
 
 **Weg · Abend** · [Wege](../00-WEGE.md) · [Kampagne 1](16-kampagne-1.md) · [Leben](10-leben-chat.md)
 
-Kein Demo-Basar. Der SL zieht, was im Verzeichnis steht.
+Bibliothek der Gasse: [Torstraße V2](../07-reikland/drosselau/v2/torstrasse.md).
 
 ## Was gezogen wurde
 

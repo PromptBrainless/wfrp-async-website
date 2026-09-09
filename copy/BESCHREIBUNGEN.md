@@ -896,231 +896,231 @@ SL-Entscheidung: Aberglaube oder Skaven/Nurgle/Kult. Keim feuerte nie von selbst
 
 ### B-haus-vorstadtring-1-offen
 - Ort: Vorstadtring 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettlerhütte an der Vorstadtring, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Vorstadtring.
+Bettlerhütte am Ring. Lehm, nasses Stroh, ein Tuch statt Tür. Laus, wenn der SL ihn setzt. Ausgang der Vorstadtring.
 <<<
 
 ### B-haus-vorstadtring-1-grob
 - Ort: Vorstadtring 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Dunkel, nass, ein Geruch nach Mensch der lange nicht gewaschen hat.
 <<<
 
 ### B-haus-vorstadtring-1-teil
 - Ort: Vorstadtring 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Bettlerhütte siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum. Eine Schale, ein Nagel, kein zweites Lager.
 <<<
 
 ### B-haus-vorstadtring-1-voll
 - Ort: Vorstadtring 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Bettlerhütte hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Laus, dreißig, allein, Messing 0. Die Schuhe an der Schwelle sind die einzigen. Kein Feuer heute.
 <<<
 
 ### B-haus-vorstadtring-1-scharf
 - Ort: Vorstadtring 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Unter dem Stroh ein Groschen, durchgelocht, an einem Faden. Nicht zum Zahlen.
 <<<
 
 ### B-haus-vorstadtring-1-sl
 - Ort: Vorstadtring 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Vorstadtring 1. Kein Keim. Engine zieht niemanden.
+Laus. Allein. Engine zieht niemanden.
 <<<
 
 #### Vorstadtring 2 — Hütte eines Tagelöhners
 
 ### B-haus-vorstadtring-2-offen
 - Ort: Vorstadtring 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Hütte eines Tagelöhners an der Vorstadtring, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Vorstadtring.
+Hütte der Moos. Rauch aus einem Rohr, Kindergeschrei hinter der Luke, Sumpf noch in der Luft. Jaan, Sanna, Birk, wenn der SL sie setzt. Ausgang der Ring.
 <<<
 
 ### B-haus-vorstadtring-2-grob
 - Ort: Vorstadtring 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Rauch, eine Luke, sonst nichts das sich hält.
 <<<
 
 ### B-haus-vorstadtring-2-teil
 - Ort: Vorstadtring 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Hütte eines Tagelöhners siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum vorn, einer hinten. Drei Stimmen, oder keine, je nach dem was der SL legt.
 <<<
 
 ### B-haus-vorstadtring-2-voll
 - Ort: Vorstadtring 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Hütte eines Tagelöhners hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Jaan 34, Sanna 31, Birk 8. Aus dem Sumpf. Die Sprache hängt. An der Wand ein Netz, nass, nicht zum Fisch.
 <<<
 
 ### B-haus-vorstadtring-2-scharf
 - Ort: Vorstadtring 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Im Netz hängt Kraut, das hier nicht wächst. Birk hat den Torbogen von weitem gesehen, nicht die Hütte.
 <<<
 
 ### B-haus-vorstadtring-2-sl
 - Ort: Vorstadtring 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Vorstadtring 2. Kein Keim. Engine zieht niemanden.
+Moos. Sumpf. Engine zieht niemanden.
 <<<
 
 #### Vorstadtring 3 — Fuhrmannsschuppen
 
 ### B-haus-vorstadtring-3-offen
 - Ort: Vorstadtring 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Fuhrmannsschuppen an der Vorstadtring, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Vorstadtring.
+Fuhrmannsschuppen der Karr. Wagen, Ochse, nasses Holz. Hier wohnt niemand — Hannes schläft Torstraße 5. Ausgang der Ring.
 <<<
 
 ### B-haus-vorstadtring-3-grob
 - Ort: Vorstadtring 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Holz, Dung, ein Schatten der ein Rad sein könnte.
 <<<
 
 ### B-haus-vorstadtring-3-teil
 - Ort: Vorstadtring 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Fuhrmannsschuppen siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Zwei Wagen, einer ohne Plane. Geschirr an Nägeln. Ein Ochse, oder die Wärme die er lässt.
 <<<
 
 ### B-haus-vorstadtring-3-voll
 - Ort: Vorstadtring 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Fuhrmannsschuppen hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Der Schuppen gehört Hannes Karr. Der Wagen für den Tross steht nicht. Peitsche an der Wand, dieselbe Form wie in der Stube in der Torstraße.
 <<<
 
 ### B-haus-vorstadtring-3-scharf
 - Ort: Vorstadtring 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Zweiter Satz Radspuren, schmaler als Karrs Wagen, frisch im Dreck. Unter der Plane ein Strick, der nicht zum Geschirr passt.
 <<<
 
 ### B-haus-vorstadtring-3-sl
 - Ort: Vorstadtring 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Vorstadtring 3. Kein Keim. Engine zieht niemanden.
+Karr Arbeit. Wohnen Tor 5. Engine zieht niemanden.
 <<<
 
 #### Vorstadtring 4 — Hütte einer Wäscherin
 
 ### B-haus-vorstadtring-4-offen
 - Ort: Vorstadtring 4 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Hütte einer Wäscherin an der Vorstadtring, Nummer 4. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Vorstadtring.
+Hütte der Blau. Wäsche hängt, trocknet nicht. Lauge, nasse Wolle. Hilde, Anni, wenn der SL sie setzt. Ausgang der Ring.
 <<<
 
 ### B-haus-vorstadtring-4-grob
 - Ort: Vorstadtring 4 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Nass, Seife, ein Tuch im Gesicht.
 <<<
 
 ### B-haus-vorstadtring-4-teil
 - Ort: Vorstadtring 4 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Hütte einer Wäscherin siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Kessel, eine Leine, zwei Schlafstellen. Das Wasser kommt vom Ring, nicht vom Brunnen in der Stadt.
 <<<
 
 ### B-haus-vorstadtring-4-voll
 - Ort: Vorstadtring 4 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Hütte einer Wäscherin hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Hilde 36, Anni 12. Messing 2. Die Wäsche trägt Zeichen der Torstraße, nicht des Rings — sie waschen für innen.
 <<<
 
 ### B-haus-vorstadtring-4-scharf
 - Ort: Vorstadtring 4 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+In einem Hemd, das nicht der Ring zahlt, steckt ein Zettel: ein Name, der nicht Blau ist.
 <<<
 
 ### B-haus-vorstadtring-4-sl
 - Ort: Vorstadtring 4 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Vorstadtring 4. Kein Keim. Engine zieht niemanden.
+Blau. Engine zieht niemanden.
 <<<
 
 #### Vorstadtring 5 — Leerstehende Hütte (Dach) · leer
 
 ### B-haus-vorstadtring-5-offen
 - Ort: Vorstadtring 5 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstehende Hütte (Dach) an der Vorstadtring, Nummer 5. Leer. Die Luft steht. Ausgang auf die Vorstadtring. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Leerstehende Hütte. Das Dach trägt nicht. Tropfen in den Lehm. Niemand wohnt. Ausgang der Ring.
 <<<
 
 ### B-haus-vorstadtring-5-grob
 - Ort: Vorstadtring 5 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Nass, Dunkel, nichts das antwortet.
 <<<
 
 ### B-haus-vorstadtring-5-teil
 - Ort: Vorstadtring 5 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Leerstand. Das Gebälk hängt. Die Nachbarn gehen außen rum.
 <<<
 
 ### B-haus-vorstadtring-5-voll
 - Ort: Vorstadtring 5 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
 Die Leere ist vollständig. Wer hier wohnte, hat nichts gelassen das einen Namen trägt.
@@ -1128,68 +1128,68 @@ Die Leere ist vollständig. Wer hier wohnte, hat nichts gelassen das einen Namen
 
 ### B-haus-vorstadtring-5-scharf
 - Ort: Vorstadtring 5 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Im Lehm ein Absatz, frisch, kleiner als ein Mann. Jemand war hier nach dem letzten Regen.
 <<<
 
 ### B-haus-vorstadtring-5-sl
 - Ort: Vorstadtring 5 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Vorstadtring 5. Leer. Kein Keim. Engine zieht niemanden.
+Leer. Kein Keim. Engine zieht niemanden.
 <<<
 
 #### Vorstadtring 6 — Leerstehende Hütte (Ranald-Zeichen) · leer
 
 ### B-haus-vorstadtring-6-offen
 - Ort: Vorstadtring 6 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstehende Hütte (Ranald-Zeichen) an der Vorstadtring, Nummer 6. Leer. Die Luft steht. Ausgang auf die Vorstadtring. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Leerstehende Hütte. An der Tür ein verwittertes Zeichen, Katze oder Ranald. Niemand wohnt. Ausgang der Ring.
 <<<
 
 ### B-haus-vorstadtring-6-grob
 - Ort: Vorstadtring 6 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Tür, Farbe die runter ist, sonst nichts.
 <<<
 
 ### B-haus-vorstadtring-6-teil
 - Ort: Vorstadtring 6 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Leer. Das Zeichen sitzt innen und außen. Die Nachbarn nennen es nicht.
 <<<
 
 ### B-haus-vorstadtring-6-voll
 - Ort: Vorstadtring 6 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstehende Hütte (Ranald-Zeichen). Ranald-Zeichen: Verwittertes Zeichen an der Tür. Diebesglück oder Warnung. SL entscheidet, ob es zählt. Noch hat niemand gezogen.
+Das Zeichen ist alt. Ranald oder Warnung, die Farbe ist runter. Drinnen Staub, keine Schlafstelle.
 <<<
 
 ### B-haus-vorstadtring-6-scharf
 - Ort: Vorstadtring 6 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Verwittertes Zeichen an der Tür. Diebesglück oder Warnung. SL entscheidet, ob es zählt. Das liegt still, bis der Spielleiter es zieht.
+Das Zeichen ist von innen nachgezogen worden, nicht nur verwittert. Unter der Schwelle ein zweites, frisch, kleiner.
 <<<
 
 ### B-haus-vorstadtring-6-sl
 - Ort: Vorstadtring 6 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Vorstadtring 6. Leer. Ranald-Zeichen: Verwittertes Zeichen an der Tür. Diebesglück oder Warnung. SL entscheidet, ob es zählt. Engine zieht niemanden.
+Leer. Ranald-Keim still — nur SL zieht. Engine zieht niemanden.
 <<<
 
 ### B-keim-ranald-zeichen
@@ -1662,500 +1662,500 @@ Niemand wohnt. Ritz nur scharf oder SL. Engine zieht niemanden.
 
 ### B-haus-marktplatz-1-offen
 - Ort: Marktplatz 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Kaufmannsgilde an der Marktplatz, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Kaufmannsgilde. Schwere Tür, Wachs, Holz das nach Geld riecht. Wilhelm Holtz Sitz, nicht Wohnung. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-1-grob
 - Ort: Marktplatz 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Schild, Schwelle, Stimmen hinter Holz.
 <<<
 
 ### B-haus-marktplatz-1-teil
 - Ort: Marktplatz 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Kaufmannsgilde siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Diele, eine Tafel mit Namen, eine Tür zu den Meistern. Kein Markt draußen in der Diele.
 <<<
 
 ### B-haus-marktplatz-1-voll
 - Ort: Marktplatz 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Kaufmannsgilde hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Holtz Meister sitzt hier, wohnt Gildengasse 2. Die Tafel trägt Holtz, Voss, Heller, Bode. Silber ohne Scham an den Beschlägen.
 <<<
 
 ### B-haus-marktplatz-1-scharf
 - Ort: Marktplatz 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ein Name auf der Tafel ist blasser: die auswärtige Kompanie, durchgestrichen, nicht abgeschabt.
 <<<
 
 ### B-haus-marktplatz-1-sl
 - Ort: Marktplatz 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 1. Kein Keim. Engine zieht niemanden.
+Gilde, kein Wohnen. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 2 — Handwerkerzunft
 
 ### B-haus-marktplatz-2-offen
 - Ort: Marktplatz 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Handwerkerzunft an der Marktplatz, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Handwerkerzunft. Sammelhaus, Hammer und Tuch an einem Schild. Niemand wohnt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-2-grob
 - Ort: Marktplatz 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Lärm gedämpft, ein Schild mit zu vielen Zeichen.
 <<<
 
 ### B-haus-marktplatz-2-teil
 - Ort: Marktplatz 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Handwerkerzunft siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Halle, Bänke, Wappen der Gewerke. Eine Luke zum Archiv der Gildengasse, zu.
 <<<
 
 ### B-haus-marktplatz-2-voll
 - Ort: Marktplatz 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Handwerkerzunft hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Sitz aller Handwerke. Hammer, Stahl, Tuch, Schneider, Beize, Metz, Laib, Leder, Ton. Keine Wohnfamilie.
 <<<
 
 ### B-haus-marktplatz-2-scharf
 - Ort: Marktplatz 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+An einem Wappen fehlt ein Nagel, frisch. Das Schild der Gerber hängt tiefer als die anderen.
 <<<
 
 ### B-haus-marktplatz-2-sl
 - Ort: Marktplatz 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 2. Kein Keim. Engine zieht niemanden.
+Sammelzunft. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 3 — Sigmarstempel
 
 ### B-haus-marktplatz-3-offen
 - Ort: Marktplatz 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Sigmarstempel an der Marktplatz, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Sigmarstempel. Kalte Steine, Wachs, die Tür offen. Vater Brant Keil, Novize Jost, wenn der SL sie setzt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-3-grob
 - Ort: Marktplatz 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Stein, Echo, ein Hammer in der Nische den du nicht siehst, nur ahnst.
 <<<
 
 ### B-haus-marktplatz-3-teil
 - Ort: Marktplatz 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Sigmarstempel siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Schiff, Altar, eine Seitentür. Namen von Kranken an einem Brett, nicht von Toten.
 <<<
 
 ### B-haus-marktplatz-3-voll
 - Ort: Marktplatz 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Sigmarstempel hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Brant Keil 53, Jost 19. Stadtpatron. Das Brett ist neu. Keil liest nicht laut, solange der Platz Tag hat.
 <<<
 
 ### B-haus-marktplatz-3-scharf
 - Ort: Marktplatz 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Neben Sigmar ein kleines, neues Brett. Ein Name darauf ist durchgestrichen, gestern oder heute. Jost hat Kreide an den Fingern.
 <<<
 
 ### B-haus-marktplatz-3-sl
 - Ort: Marktplatz 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 3. Kein Keim. Engine zieht niemanden.
+Keil, Jost. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 4 — Geldwechsler
 
 ### B-haus-marktplatz-4-offen
 - Ort: Marktplatz 4 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Geldwechsler an der Marktplatz, Nummer 4. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Geldwechsler Heller. Innere Luke, Metall, der Geruch nach Kupfer. Magnus, Ute, wenn der SL sie setzt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-4-grob
 - Ort: Marktplatz 4 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Luke, Gitter, ein Ton von Münzen der aufhört, sobald die Tür fällt.
 <<<
 
 ### B-haus-marktplatz-4-teil
 - Ort: Marktplatz 4 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Geldwechsler siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Theke, Waage, drei Fächer. Die innere Luke ist zu, obwohl der Platz Tag hat.
 <<<
 
 ### B-haus-marktplatz-4-voll
 - Ort: Marktplatz 4 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Geldwechsler hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Magnus 44, Ute 40. Silber 3. Kronen, Schillinge, Groschen. Die Waage ist geeicht, das Siegel des Grafen hängt, der Graf nicht.
 <<<
 
 ### B-haus-marktplatz-4-scharf
 - Ort: Marktplatz 4 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Hinter der Waage ein Streifen Papier ohne Summe — nur ein Zeichen, das nicht Heller ist.
 <<<
 
 ### B-haus-marktplatz-4-sl
 - Ort: Marktplatz 4 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 4. Kein Keim. Engine zieht niemanden.
+Heller. Siegel hängt, Graf nicht da. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 5 — Schreiberstube
 
 ### B-haus-marktplatz-5-offen
 - Ort: Marktplatz 5 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schreiberstube an der Marktplatz, Nummer 5. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Schreiberstube Feder. Tinte, Staub, Siegelwachs. Leopold Notar des Grafen, Agnes, wenn der SL sie setzt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-5-grob
 - Ort: Marktplatz 5 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Federkiele, eine Glocke an der Tür, sonst nichts.
 <<<
 
 ### B-haus-marktplatz-5-teil
 - Ort: Marktplatz 5 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Schreiberstube siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Pult, ein zweiter Tisch hinten, ein Schrank mit drei Schlössern. Das Siegel von Grünberg in einer Schale, sichtbar.
 <<<
 
 ### B-haus-marktplatz-5-voll
 - Ort: Marktplatz 5 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Schreiberstube hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Leopold 39, Agnes 34. Silber 2. Das Siegel des Grafen liegt hier, nicht der Graf. Agnes kopiert, Leopold beglaubigt.
 <<<
 
 ### B-haus-marktplatz-5-scharf
 - Ort: Marktplatz 5 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Im Schrank ein Brief mit gebrochenem Siegel, nicht Grünberg — und trotzdem hier.
 <<<
 
 ### B-haus-marktplatz-5-sl
 - Ort: Marktplatz 5 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 5. Kein Keim. Engine zieht niemanden.
+Feder. Siegel hier. Graf nicht in der Stadt. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 6 — Ratshaus
 
 ### B-haus-marktplatz-6-offen
 - Ort: Marktplatz 6 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ratshaus an der Marktplatz, Nummer 6. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Ratshaus. Schwere Tür, das Wappen der Stadt, nicht des Grafen. Helmuth Talbeck Amt, wenn der SL ihn setzt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-6-grob
 - Ort: Marktplatz 6 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Holz, Wappen, eine Stille die nicht zum Markt passt.
 <<<
 
 ### B-haus-marktplatz-6-teil
 - Ort: Marktplatz 6 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Ratshaus siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Diele, eine Treppe, die Ratsstube oben. Unten eine Bank für Bittsteller, leer.
 <<<
 
 ### B-haus-marktplatz-6-voll
 - Ort: Marktplatz 6 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Ratshaus hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Helmuth 46 Bürgermeister, Mathilde 42, Johann 18 Schreibergehilfe. Silber 5. Die Wohnung im Verzeichnis ungenannt — sie schlafen irgendwo im Haus.
 <<<
 
 ### B-haus-marktplatz-6-scharf
 - Ort: Marktplatz 6 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Auf der Bank ein Abdruck, noch warm. Johann hat die Tinte woanders als Feder.
 <<<
 
 ### B-haus-marktplatz-6-sl
 - Ort: Marktplatz 6 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 6. Kein Keim. Engine zieht niemanden.
+Talbeck Amt. Wohnung ungenannt = hier. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 7 — Wohnhaus Kaufmann
 
 ### B-haus-marktplatz-7-offen
 - Ort: Marktplatz 7 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Kaufmann an der Marktplatz, Nummer 7. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Wohnhaus Holtz, der Sohn. Gut gebaut, Silber ohne Scham. Berthold, Saskia, die Kinder, wenn der SL sie setzt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-7-grob
 - Ort: Marktplatz 7 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Glas, Vorhang, ein Geruch nach Wachs der teurer ist als Docht.
 <<<
 
 ### B-haus-marktplatz-7-teil
 - Ort: Marktplatz 7 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Kaufmann siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Diele, Stube, eine Treppe. Das Fenster sieht auf den Tempel, nicht auf das Kontor.
 <<<
 
 ### B-haus-marktplatz-7-voll
 - Ort: Marktplatz 7 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Kaufmann hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Berthold 30, Saskia 27, Emmerich 6, Liese 3. Silber 5. Vater Wilhelm in der Gildengasse 2. Der Sohn wohnt näher am Markt als der Meister.
 <<<
 
 ### B-haus-marktplatz-7-scharf
 - Ort: Marktplatz 7 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Im Flur ein Kästchen mit der Marke der auswärtigen Kompanie, leer, nicht abgegeben.
 <<<
 
 ### B-haus-marktplatz-7-sl
 - Ort: Marktplatz 7 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 7. Kein Keim. Engine zieht niemanden.
+Holtz Sohn. Vater Gildengasse 2. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 8 — Wohnhaus Kaufmann
 
 ### B-haus-marktplatz-8-offen
 - Ort: Marktplatz 8 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Kaufmann an der Marktplatz, Nummer 8. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Wohnhaus Voss. Kaufmann, andere Familie als Holtz. Kaspar, Hilda, wenn der SL sie setzt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-8-grob
 - Ort: Marktplatz 8 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Ordnung, weniger Silber als nebenan, immer noch mehr als die Torstraße.
 <<<
 
 ### B-haus-marktplatz-8-teil
 - Ort: Marktplatz 8 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Kaufmann siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Kontor hinten, eine Karte an der Wand die den Reik zeigt.
 <<<
 
 ### B-haus-marktplatz-8-voll
 - Ort: Marktplatz 8 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Kaufmann hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Kaspar 41, Hilda 38, Pieter 15 auf der Reik. Silber 4. Die Karte hat Drosselau als Punkt, Altdorf als Ziel.
 <<<
 
 ### B-haus-marktplatz-8-scharf
 - Ort: Marktplatz 8 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ein Brief von Pieter, das Siegel nass — er schrieb, das Tor sei zu, bevor die Stadt es sagte.
 <<<
 
 ### B-haus-marktplatz-8-sl
 - Ort: Marktplatz 8 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 8. Kein Keim. Engine zieht niemanden.
+Voss. Nicht Holtz. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 9 — Wohnhaus Stadtrat
 
 ### B-haus-marktplatz-9-offen
 - Ort: Marktplatz 9 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Stadtrat an der Marktplatz, Nummer 9. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Marktplatz.
+Wohnhaus Stein. Stadtrat, ordentlich, kein Schild. Reiner, Klara, Anike, wenn der SL sie setzt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-9-grob
 - Ort: Marktplatz 9 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Tür, Klingel, ein Geruch nach Bohnerwachs.
 <<<
 
 ### B-haus-marktplatz-9-teil
 - Ort: Marktplatz 9 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Stadtrat siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Diele, Stube, ein Fenster auf den Rat. Anike hat ein Buch auf der Bank, zugeklappt.
 <<<
 
 ### B-haus-marktplatz-9-voll
 - Ort: Marktplatz 9 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Stadtrat hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Reiner 48, Klara 43, Anike 16. Silber 3. Stein sitzt im Rat neben Talbeck. Das Buch ist Gesetz, nicht Gebet.
 <<<
 
 ### B-haus-marktplatz-9-scharf
 - Ort: Marktplatz 9 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Zwischen den Seiten ein Zettel: Kontor Nr. 10, eine Frage, keine Antwort.
 <<<
 
 ### B-haus-marktplatz-9-sl
 - Ort: Marktplatz 9 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 9. Kein Keim. Engine zieht niemanden.
+Stein. Engine zieht niemanden.
 <<<
 
 #### Marktplatz 10 — Leerstehendes Kontor · leer
 
 ### B-haus-marktplatz-10-offen
 - Ort: Marktplatz 10 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstehendes Kontor an der Marktplatz, Nummer 10. Leer. Die Luft steht. Ausgang auf die Marktplatz. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Leerstehendes Kontor. Staub auf der Schwelle, die Klinke unberührt, ein Jahr. Niemand wohnt. Ausgang der Platz.
 <<<
 
 ### B-haus-marktplatz-10-grob
 - Ort: Marktplatz 10 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Zu, Staub, der Platz ist weg sobald du siehst.
 <<<
 
 ### B-haus-marktplatz-10-teil
 - Ort: Marktplatz 10 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Die Tür ist zu. Schild abgehängt, der Nagel bleibt. Fenster blind.
 <<<
 
 ### B-haus-marktplatz-10-voll
 - Ort: Marktplatz 10 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstehendes Kontor. Verlassener Handelsposten: Auswärtige Kompanie, seit einem Jahr weg. Keim. Feuert nicht von selbst. Noch hat niemand gezogen.
+Auswärtige Kompanie, seit einem Jahr weg. Keim. Feuert nicht von selbst. Der Staub vor der Klinke ist an einer Stelle gewischt.
 <<<
 
 ### B-haus-marktplatz-10-scharf
 - Ort: Marktplatz 10 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Auswärtige Kompanie, seit einem Jahr weg. Keim. Feuert nicht von selbst. Das liegt still, bis der Spielleiter es zieht.
+Der Wisch ist vorgestern oder gestern. Innen, durch den Spalt: ein Tisch ohne Stuhl, ein Fach offen.
 <<<
 
 ### B-haus-marktplatz-10-sl
 - Ort: Marktplatz 10 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Marktplatz 10. Leer. Verlassener Handelsposten: Auswärtige Kompanie, seit einem Jahr weg. Keim. Feuert nicht von selbst. Engine zieht niemanden.
+Kontor-Keim still. Engine zieht niemanden.
 <<<
 
 ### B-keim-kontor-leer
@@ -2170,900 +2170,900 @@ Auswärtige Kompanie, seit einem Jahr weg. Keim. Feuert nicht von selbst.
 
 ### B-haus-gildengasse-1-offen
 - Ort: Gildengasse 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Lagerhaus der Zunft an der Gildengasse, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gildengasse.
+Lagerhaus der Zunft. Kisten, Zunftmarke, niemand wohnt. Ausgang die Gildengasse.
 <<<
 
 ### B-haus-gildengasse-1-grob
 - Ort: Gildengasse 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Holz, Staub, ein Schloss.
 <<<
 
 ### B-haus-gildengasse-1-teil
 - Ort: Gildengasse 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Lagerhaus der Zunft siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Gänge aus Kisten. Eine Marke pro Stapel. Fenster vergittert.
 <<<
 
 ### B-haus-gildengasse-1-voll
 - Ort: Gildengasse 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Lagerhaus der Zunft hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Kisten mit Zunftmarke, nicht mit Namen. Eine trägt eine Marke, die nicht Drosselau ist, wenn der Blick scharf genug ist — sonst nicht.
 <<<
 
 ### B-haus-gildengasse-1-scharf
 - Ort: Gildengasse 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Die fremde Marke ist dieselbe wie am Kontor Nr. 10, nur kleiner.
 <<<
 
 ### B-haus-gildengasse-1-sl
 - Ort: Gildengasse 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gildengasse 1. Kein Keim. Engine zieht niemanden.
+Niemand wohnt. Engine zieht niemanden.
 <<<
 
 #### Gildengasse 2 — Wohnhaus Gildemeister
 
 ### B-haus-gildengasse-2-offen
 - Ort: Gildengasse 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Gildemeister an der Gildengasse, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gildengasse.
+Wohnhaus Holtz, der Meister. Das beste Haus der Gasse, Silber ohne Scham. Wilhelm, Elsa, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-gildengasse-2-grob
 - Ort: Gildengasse 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Beschläge, Glas, ein Diener oder niemand.
 <<<
 
 ### B-haus-gildengasse-2-teil
 - Ort: Gildengasse 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Gildemeister siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Diele mit Stein, nicht Holz. Eine Treppe die nicht knarrt. Sohn wohnt am Markt, nicht hier.
 <<<
 
 ### B-haus-gildengasse-2-voll
 - Ort: Gildengasse 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Gildemeister hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Wilhelm 54, Elsa 50. Silber 5. Bestes Haus. Berthold Markt 7. Holtz sitzt in der Gilde, schläft hier.
 <<<
 
 ### B-haus-gildengasse-2-scharf
 - Ort: Gildengasse 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Im Flur ein zweiter Schlüsselbund, einer zum Archiv, einer der nicht zur Gasse passt.
 <<<
 
 ### B-haus-gildengasse-2-sl
 - Ort: Gildengasse 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gildengasse 2. Kein Keim. Engine zieht niemanden.
+Holtz Meister. Engine zieht niemanden.
 <<<
 
 #### Gildengasse 3 — Wohnhaus Gildeschreiber
 
 ### B-haus-gildengasse-3-offen
 - Ort: Gildengasse 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Gildeschreiber an der Gildengasse, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gildengasse.
+Wohnhaus Eckert. Schreiber der Gilde. Franz, Nela, Timo, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-gildengasse-3-grob
 - Ort: Gildengasse 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Tinte schon an der Schwelle, ein Kind hinter der Luke oder keins.
 <<<
 
 ### B-haus-gildengasse-3-teil
 - Ort: Gildengasse 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Gildeschreiber siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Pult, Kinderspiel unter dem Tisch. Kleiner als Holtz, sauber.
 <<<
 
 ### B-haus-gildengasse-3-voll
 - Ort: Gildengasse 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Gildeschreiber hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Franz 36, Nela 33, Timo 9. Silber 1. Franz schreibt für die Gilde, nicht für den Grafen — das ist Feder.
 <<<
 
 ### B-haus-gildengasse-3-scharf
 - Ort: Gildengasse 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Auf dem Pult eine Abschrift ohne Kopf. Der Inhalt betrifft das Kontor, nicht die Zunft.
 <<<
 
 ### B-haus-gildengasse-3-sl
 - Ort: Gildengasse 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gildengasse 3. Kein Keim. Engine zieht niemanden.
+Eckert. Engine zieht niemanden.
 <<<
 
 #### Gildengasse 4 — Herberge für Zunftbrüder
 
 ### B-haus-gildengasse-4-offen
 - Ort: Gildengasse 4 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Herberge für Zunftbrüder an der Gildengasse, Nummer 4. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gildengasse.
+Herberge für Zunftbrüder. Bier, Durchreisende, keine Wohnfamilie. Ausgang die Gasse.
 <<<
 
 ### B-haus-gildengasse-4-grob
 - Ort: Gildengasse 4 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Wärme, Dunst, Stimmen die verstummen.
 <<<
 
 ### B-haus-gildengasse-4-teil
 - Ort: Gildengasse 4 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Herberge für Zunftbrüder siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Diele, Theke, Treppe zu Kammern. Heute keine Tür die sich so nennt — frei.
 <<<
 
 ### B-haus-gildengasse-4-voll
 - Ort: Gildengasse 4 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Herberge für Zunftbrüder hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Nimmt Durchreisende, keine Wohnfamilie. Nicht Zum Wanderer, nicht die Taverne. Zunftzeichen über der Theke.
 <<<
 
 ### B-haus-gildengasse-4-scharf
 - Ort: Gildengasse 4 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Eine Kammer ist zu, von innen. Der Riegel ist nicht Zunft.
 <<<
 
 ### B-haus-gildengasse-4-sl
 - Ort: Gildengasse 4 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gildengasse 4. Kein Keim. Engine zieht niemanden.
+Keine Wohnfamilie. Engine zieht niemanden.
 <<<
 
 #### Gildengasse 5 — Zunftarchiv
 
 ### B-haus-gildengasse-5-offen
 - Ort: Gildengasse 5 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Zunftarchiv an der Gildengasse, Nummer 5. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gildengasse.
+Zunftarchiv. Vergitterte Fenster, Staub, Verträge. Niemand wohnt. Ausgang die Gasse.
 <<<
 
 ### B-haus-gildengasse-5-grob
 - Ort: Gildengasse 5 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Gitter, Staub, Licht das noch brennt oder nicht.
 <<<
 
 ### B-haus-gildengasse-5-teil
 - Ort: Gildengasse 5 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Zunftarchiv siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Regale, ein Pult, drei Schlüssel an einem Brett — einer fehlt.
 <<<
 
 ### B-haus-gildengasse-5-voll
 - Ort: Gildengasse 5 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Zunftarchiv hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Verträge, Meisterbriefe, Steuerlisten. Licht brennt noch, obwohl die Gasse zur Ruhe will.
 <<<
 
 ### B-haus-gildengasse-5-scharf
 - Ort: Gildengasse 5 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Der fehlende Schlüssel hängt nicht. An seiner Stelle ein Abdruck, warm.
 <<<
 
 ### B-haus-gildengasse-5-sl
 - Ort: Gildengasse 5 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gildengasse 5. Kein Keim. Engine zieht niemanden.
+Niemand wohnt. Engine zieht niemanden.
 <<<
 
 #### Schmiedezeile 1 — Hufschmiede
 
 ### B-haus-schmiedezeile-1-offen
 - Ort: Schmiedezeile 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Hufschmiede an der Schmiedezeile, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schmiedezeile.
+Hufschmiede. Hitze, Esse, der Ton den die Mauer kennt. Arbeit der Hammer, wohnen Nr. 3. Ausgang die Zeile.
 <<<
 
 ### B-haus-schmiedezeile-1-grob
 - Ort: Schmiedezeile 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Glut, Gestank von gelöschtem Eisen, ein Hammer nicht zwei.
 <<<
 
 ### B-haus-schmiedezeile-1-teil
 - Ort: Schmiedezeile 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Hufschmiede siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Esse, Amboss, ein Ring für Pferde. Die Wohnung ist die nächste Tür.
 <<<
 
 ### B-haus-schmiedezeile-1-voll
 - Ort: Schmiedezeile 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Hufschmiede hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Bodo Hammer arbeitet hier, schläft Nr. 3. Hufeisen an der Stange, heutige, nicht gestrige.
 <<<
 
 ### B-haus-schmiedezeile-1-scharf
 - Ort: Schmiedezeile 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ein Eisen trägt eine Marke, die nicht Drosselau ist — derselbe fremde Schlag wie im Lager.
 <<<
 
 ### B-haus-schmiedezeile-1-sl
 - Ort: Schmiedezeile 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schmiedezeile 1. Kein Keim. Engine zieht niemanden.
+Hammer Arbeit. Wohnen Nr. 3. Engine zieht niemanden.
 <<<
 
 #### Schmiedezeile 2 — Waffenschmiede
 
 ### B-haus-schmiedezeile-2-offen
 - Ort: Schmiedezeile 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Waffenschmiede an der Schmiedezeile, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schmiedezeile.
+Waffenschmiede Stahl. Kälter als die Hufe, der Stahl will es. Ulrich, Kathe, wenn der SL sie setzt. Ausgang die Zeile.
 <<<
 
 ### B-haus-schmiedezeile-2-grob
 - Ort: Schmiedezeile 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Öl, Kante, ein Geräusch das aufhört.
 <<<
 
 ### B-haus-schmiedezeile-2-teil
 - Ort: Schmiedezeile 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Waffenschmiede siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Esse, Ständer, Klingen ohne Griff. Ein Stück unter Tuch.
 <<<
 
 ### B-haus-schmiedezeile-2-voll
 - Ort: Schmiedezeile 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Waffenschmiede hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Ulrich 49, Kathe 46. Silber 2. Beliefert die Wache. Wohnung ungenannt = Werkstatt.
 <<<
 
 ### B-haus-schmiedezeile-2-scharf
 - Ort: Schmiedezeile 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Unter dem Tuch ein Stück, das nicht in die Stadtwache gehört — zu lang, zu neu.
 <<<
 
 ### B-haus-schmiedezeile-2-sl
 - Ort: Schmiedezeile 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schmiedezeile 2. Kein Keim. Engine zieht niemanden.
+Stahl. Wache. Engine zieht niemanden.
 <<<
 
 #### Schmiedezeile 3 — Wohnhaus Hufschmied
 
 ### B-haus-schmiedezeile-3-offen
 - Ort: Schmiedezeile 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Hufschmied an der Schmiedezeile, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schmiedezeile.
+Wohnhaus Hammer. Meisterhaus, rußig am Sims. Bodo, Gerda, wenn der SL sie setzt. Ausgang die Zeile.
 <<<
 
 ### B-haus-schmiedezeile-3-grob
 - Ort: Schmiedezeile 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Ruß, Wärme die nicht die Esse ist, eine Frau oder niemand.
 <<<
 
 ### B-haus-schmiedezeile-3-teil
 - Ort: Schmiedezeile 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Hufschmied siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Kammer, ein leerer Nagel wo ein Mädchenkleid hing.
 <<<
 
 ### B-haus-schmiedezeile-3-voll
 - Ort: Schmiedezeile 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Hufschmied hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Bodo 47, Gerda 44. Silber 2. Ilse 18 nach Bögenhafen verheiratet. Der Nagel bleibt.
 <<<
 
 ### B-haus-schmiedezeile-3-scharf
 - Ort: Schmiedezeile 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ein Brief aus Bögenhafen, das Siegel ungebrochen. Gerda hat ihn nicht geöffnet.
 <<<
 
 ### B-haus-schmiedezeile-3-sl
 - Ort: Schmiedezeile 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schmiedezeile 3. Kein Keim. Engine zieht niemanden.
+Hammer Wohnung. Engine zieht niemanden.
 <<<
 
 #### Schmiedezeile 4 — Wohnhaus Schmiedegesellen
 
 ### B-haus-schmiedezeile-4-offen
 - Ort: Schmiedezeile 4 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Schmiedegesellen an der Schmiedezeile, Nummer 4. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schmiedezeile.
+Wohnhaus der Gesellen Eisen. Zwei Männer, der Wolf an der Wand, nicht Sigmar. Wulf, Mark, wenn der SL sie setzt. Ausgang die Zeile.
 <<<
 
 ### B-haus-schmiedezeile-4-grob
 - Ort: Schmiedezeile 4 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Bier, Eisen, ein Amulett das du nicht liest.
 <<<
 
 ### B-haus-schmiedezeile-4-teil
 - Ort: Schmiedezeile 4 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Schmiedegesellen siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum, zwei Lager, ein Nagel mit Wolf. Kein Tempel in der Stadt für sie.
 <<<
 
 ### B-haus-schmiedezeile-4-voll
 - Ort: Schmiedezeile 4 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Schmiedegesellen hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Wulf 32, Mark 29. Messing 4. Ulric, kein Tempel. Das Amulett ist blank gegriffen.
 <<<
 
 ### B-haus-schmiedezeile-4-scharf
 - Ort: Schmiedezeile 4 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Hinter dem Wolf ein zweites Zeichen, älter, nicht Ulric — zugedeckt.
 <<<
 
 ### B-haus-schmiedezeile-4-sl
 - Ort: Schmiedezeile 4 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schmiedezeile 4. Kein Keim. Engine zieht niemanden.
+Eisen. Ulric unter den Gesellen, kein Tempel. Engine zieht niemanden.
 <<<
 
 #### Schmiedezeile 5 — Kohlenlager
 
 ### B-haus-schmiedezeile-5-offen
 - Ort: Schmiedezeile 5 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Kohlenlager an der Schmiedezeile, Nummer 5. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schmiedezeile.
+Kohlenlager. Schloss, Staub, niemand wohnt. Ausgang die Zeile.
 <<<
 
 ### B-haus-schmiedezeile-5-grob
 - Ort: Schmiedezeile 5 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Schwarz, trocken, ein Schloss das älter ist als der Lehrling.
 <<<
 
 ### B-haus-schmiedezeile-5-teil
 - Ort: Schmiedezeile 5 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Kohlenlager siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stapel, eine Gasse dazwischen, das Schloss kürzlich geölt.
 <<<
 
 ### B-haus-schmiedezeile-5-voll
 - Ort: Schmiedezeile 5 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Kohlenlager hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Kohle der Meister, keine Köhlerfamilie. Das Schloss ist älter als Nagel, das Öl nicht.
 <<<
 
 ### B-haus-schmiedezeile-5-scharf
 - Ort: Schmiedezeile 5 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Hinter dem hintersten Stapel ein Sack ohne Zunftsiegel, leichter als Kohle.
 <<<
 
 ### B-haus-schmiedezeile-5-sl
 - Ort: Schmiedezeile 5 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schmiedezeile 5. Kein Keim. Engine zieht niemanden.
+Niemand. Engine zieht niemanden.
 <<<
 
 #### Schmiedezeile 6 — Wohnhaus Lehrling
 
 ### B-haus-schmiedezeile-6-offen
 - Ort: Schmiedezeile 6 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Lehrling an der Schmiedezeile, Nummer 6. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schmiedezeile.
+Wohnhaus Nagel. Lehrling, achtzehn, eigenes Haus, Neffe. Timo, wenn der SL ihn setzt. Ausgang die Zeile.
 <<<
 
 ### B-haus-schmiedezeile-6-grob
 - Ort: Schmiedezeile 6 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Eng, Ruß, ein Bett das noch Lehrling ist.
 <<<
 
 ### B-haus-schmiedezeile-6-teil
 - Ort: Schmiedezeile 6 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Lehrling siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum. Amboss klein, zum Üben. Kein zweites Lager.
 <<<
 
 ### B-haus-schmiedezeile-6-voll
 - Ort: Schmiedezeile 6 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Lehrling hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Timo Nagel 18, Neffe von Hammer. Messing 3. Eigenes Haus. Die Esse in Nr. 1 ist nicht seine.
 <<<
 
 ### B-haus-schmiedezeile-6-scharf
 - Ort: Schmiedezeile 6 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Unter dem Brett ein Eisen, das er nicht dem Meister gezeigt hat — zu fein für Hufe.
 <<<
 
 ### B-haus-schmiedezeile-6-sl
 - Ort: Schmiedezeile 6 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schmiedezeile 6. Kein Keim. Engine zieht niemanden.
+Nagel. Engine zieht niemanden.
 <<<
 
 #### Weberweg 1 — Weberei
 
 ### B-haus-weberweg-1-offen
 - Ort: Weberweg 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Weberei an der Weberweg, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Weberweg.
+Weberei. Klopfen der Rahmen, nasse Wolle. Arbeit der Tuch, wohnen Nr. 3. Ausgang der Weg.
 <<<
 
 ### B-haus-weberweg-1-grob
 - Ort: Weberweg 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Wolle, Takt, Staub der in der Nase bleibt.
 <<<
 
 ### B-haus-weberweg-1-teil
 - Ort: Weberweg 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Weberei siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stühle, Ketten, ein Gang zur Wohnung. Niemand schläft zwischen den Rahmen.
 <<<
 
 ### B-haus-weberweg-1-voll
 - Ort: Weberweg 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Weberei hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Eberhard Tuch arbeitet hier, schläft Nr. 3. Rike Gesellin, wenn der SL sie an den Stuhl setzt.
 <<<
 
 ### B-haus-weberweg-1-scharf
 - Ort: Weberweg 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ein Ballen ohne Zunftmarke, hinten, zugedeckt — nicht Tuch, eher Schneider.
 <<<
 
 ### B-haus-weberweg-1-sl
 - Ort: Weberweg 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Weberweg 1. Kein Keim. Engine zieht niemanden.
+Tuch Arbeit. Wohnen Nr. 3. Engine zieht niemanden.
 <<<
 
 #### Weberweg 2 — Schneiderei
 
 ### B-haus-weberweg-2-offen
 - Ort: Weberweg 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schneiderei an der Weberweg, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Weberweg.
+Schneiderei. Eine Frau schneidet hinter Glas, oder das Glas ist leer. Arbeit der Schneider, wohnen Nr. 4. Ausgang der Weg.
 <<<
 
 ### B-haus-weberweg-2-grob
 - Ort: Weberweg 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Tuch, Kreide, eine Schere die aufhört.
 <<<
 
 ### B-haus-weberweg-2-teil
 - Ort: Weberweg 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Schneiderei siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Laden, Tische, eine Tür zur Wohnung. Maße an der Wand.
 <<<
 
 ### B-haus-weberweg-2-voll
 - Ort: Weberweg 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Schneiderei hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Else Schneider Meisterin arbeitet hier, schläft Nr. 4. Pieter Geselle. Einzige Familie, die im Original so heißt.
 <<<
 
 ### B-haus-weberweg-2-scharf
 - Ort: Weberweg 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ein Maß an der Wand ist Kind, nicht Frau — und keiner in Nr. 4 ist so klein mehr.
 <<<
 
 ### B-haus-weberweg-2-sl
 - Ort: Weberweg 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Weberweg 2. Kein Keim. Engine zieht niemanden.
+Schneider Arbeit. Wohnen Nr. 4. Engine zieht niemanden.
 <<<
 
 #### Weberweg 3 — Wohnhaus Webermeister
 
 ### B-haus-weberweg-3-offen
 - Ort: Weberweg 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Webermeister an der Weberweg, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Weberweg.
+Wohnhaus Tuch. Meisterhaus, Wolle noch in den Balken. Eberhard, Lotte, Rike, wenn der SL sie setzt. Ausgang der Weg.
 <<<
 
 ### B-haus-weberweg-3-grob
 - Ort: Weberweg 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Wolle, Seife, eine Treppe.
 <<<
 
 ### B-haus-weberweg-3-teil
 - Ort: Weberweg 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Webermeister siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Kammer der Gesellin, Webstuhl klein zum Abend.
 <<<
 
 ### B-haus-weberweg-3-voll
 - Ort: Weberweg 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Webermeister hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Eberhard 48, Lotte 45, Rike 20 Gesellin. Silber 2. Sie schlafen hier, arbeiten Nr. 1.
 <<<
 
 ### B-haus-weberweg-3-scharf
 - Ort: Weberweg 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Rikes Kammer hat ein Fenster zum Färber. Die Luke war heute offen, von innen.
 <<<
 
 ### B-haus-weberweg-3-sl
 - Ort: Weberweg 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Weberweg 3. Kein Keim. Engine zieht niemanden.
+Tuch Wohnung. Engine zieht niemanden.
 <<<
 
 #### Weberweg 4 — Wohnhaus Schneiderfamilie
 
 ### B-haus-weberweg-4-offen
 - Ort: Weberweg 4 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Schneiderfamilie an der Weberweg, Nummer 4. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Weberweg.
+Wohnhaus Schneider. Else Meisterin, Pieter, zwei Kinder, wenn der SL sie setzt. Ausgang der Weg.
 <<<
 
 ### B-haus-weberweg-4-grob
 - Ort: Weberweg 4 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Ordnung, Nadelkissen, Kinderspuren im Kreidestaub.
 <<<
 
 ### B-haus-weberweg-4-teil
 - Ort: Weberweg 4 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Schneiderfamilie siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Werkstattabend, zwei Kammern. Lena, Karl.
 <<<
 
 ### B-haus-weberweg-4-voll
 - Ort: Weberweg 4 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Schneiderfamilie hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Else 36 Meisterin, Pieter 38 Geselle, Lena 14, Karl 11. Silber 1. Einzige ausdrücklich so genannte Familie im Originalverzeichnis.
 <<<
 
 ### B-haus-weberweg-4-scharf
 - Ort: Weberweg 4 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Unter Lenas Kissen ein Ballenrest ohne Marke — derselbe Stoff wie hinten in der Schneiderei.
 <<<
 
 ### B-haus-weberweg-4-sl
 - Ort: Weberweg 4 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Weberweg 4. Kein Keim. Engine zieht niemanden.
+Schneider Wohnung. Engine zieht niemanden.
 <<<
 
 #### Weberweg 5 — Färberwerkstatt
 
 ### B-haus-weberweg-5-offen
 - Ort: Weberweg 5 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Färberwerkstatt an der Weberweg, Nummer 5. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Weberweg.
+Färberwerkstatt Beize. Farbe die in der Nase bleibt, Hände die dauernd blau sind. Niko, Wera, wenn der SL sie setzt. Ausgang der Weg.
 <<<
 
 ### B-haus-weberweg-5-grob
 - Ort: Weberweg 5 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Nass, scharf, ein Bottich den du nicht benennen solltest.
 <<<
 
 ### B-haus-weberweg-5-teil
 - Ort: Weberweg 5 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Färberwerkstatt siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Bottiche, Leinen, Wohnung hinten in derselben Diele. Kein zweites Haus.
 <<<
 
 ### B-haus-weberweg-5-voll
 - Ort: Weberweg 5 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Färberwerkstatt hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Niko 35, Wera 32. Messing 5. Werkstatt = Wohnung. Die Hände bleiben blau.
 <<<
 
 ### B-haus-weberweg-5-scharf
 - Ort: Weberweg 5 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ein Bottich riecht nicht nach Wolle. Der Dampf ist süßer, und Wera steht nicht dort.
 <<<
 
 ### B-haus-weberweg-5-sl
 - Ort: Weberweg 5 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Weberweg 5. Kein Keim. Engine zieht niemanden.
+Beize. Engine zieht niemanden.
 <<<
 
 #### Krämerstraße 1 — Krämerladen
 
 ### B-haus-kraemerstrasse-1-offen
 - Ort: Krämerstraße 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Krämerladen an der Krämerstraße, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Krämerstraße.
+Krämerladen Bode. Gemischtwaren, trocken, was die Stadt braucht wenn sie nicht zum Markt will. Arbeit, wohnen Nr. 3. Ausgang die Straße.
 <<<
 
 ### B-haus-kraemerstrasse-1-grob
 - Ort: Krämerstraße 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Krämergeruch, Theke, Fächer.
 <<<
 
 ### B-haus-kraemerstrasse-1-teil
 - Ort: Krämerstraße 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Krämerladen siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Theke, Gänge, eine Tür zur Wohnung. Liste an der Wand, Preise.
 <<<
 
 ### B-haus-kraemerstrasse-1-voll
 - Ort: Krämerstraße 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Krämerladen hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Hartmut Bode arbeitet hier, schläft Nr. 3. Hinter der Theke eine zweite Liste, wenn der Blick reicht — sonst nur Preise.
 <<<
 
 ### B-haus-kraemerstrasse-1-scharf
 - Ort: Krämerstraße 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Die zweite Liste sind keine Preise. Namen, die am Tor waren, in einer Hand die nicht Arnes ist — oder Bode zählt anders.
 <<<
 
 ### B-haus-kraemerstrasse-1-sl
 - Ort: Krämerstraße 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Krämerstraße 1. Kein Keim. Engine zieht niemanden.
+Bode Arbeit. Wohnen Nr. 3. Engine zieht niemanden.
 <<<
 
 #### Krämerstraße 2 — Kräuterhandlung
 
 ### B-haus-kraemerstrasse-2-offen
 - Ort: Krämerstraße 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Kräuterhandlung an der Krämerstraße, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Krämerstraße.
+Kräuterhandlung Wurzel. Trocken vorn, schärfer dahinter, den du nicht benennen solltest. Maren, wenn der SL sie setzt. Wohnen Nr. 4. Ausgang die Straße.
 <<<
 
 ### B-haus-kraemerstrasse-2-grob
 - Ort: Krämerstraße 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Kraut, Staub, eine Schale.
 <<<
 
 ### B-haus-kraemerstrasse-2-teil
 - Ort: Krämerstraße 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Kräuterhandlung siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Regale, Theke, ein Tuch über dem unteren Fach. Jette nicht vorn.
 <<<
 
 ### B-haus-kraemerstrasse-2-voll
 - Ort: Krämerstraße 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Kräuterhandlung. Unter dem Ladentisch: Mittel, die ein Hexenjäger argwöhnisch sähe. Feuert nicht von selbst. Noch hat niemand gezogen.
+Maren arbeitet hier, schläft Nr. 4. Unter dem Ladentisch liegt, was ein Hexenjäger nicht freundlich läse. Keim still.
 <<<
 
 ### B-haus-kraemerstrasse-2-scharf
 - Ort: Krämerstraße 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Mittel, die ein Hexenjäger argwöhnisch sähe. Feuert nicht von selbst. Das liegt still, bis der Spielleiter es zieht.
+Ein Päckchen ohne Etikett, frisch gebunden. Der Geruch ist nicht Heilkraut.
 <<<
 
 ### B-haus-kraemerstrasse-2-sl
 - Ort: Krämerstraße 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Krämerstraße 2. Unter dem Ladentisch: Mittel, die ein Hexenjäger argwöhnisch sähe. Feuert nicht von selbst. Engine zieht niemanden.
+Wurzel Arbeit. Keim still. SL entscheidet, was unter dem Tisch liegt, wenn jemand kauft. Engine zieht niemanden.
 <<<
 
 ### B-keim-kraeuter-ladentisch
@@ -3078,350 +3078,350 @@ Mittel, die ein Hexenjäger argwöhnisch sähe. Feuert nicht von selbst.
 
 ### B-haus-kraemerstrasse-3-offen
 - Ort: Krämerstraße 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Krämer an der Krämerstraße, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Krämerstraße.
+Wohnhaus Bode. Hinter dem Laden, Silber 1. Hartmut, Ida, Paul, wenn der SL sie setzt. Ausgang die Straße.
 <<<
 
 ### B-haus-kraemerstrasse-3-grob
 - Ort: Krämerstraße 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Wohnung, Brot, ein Kind das verstummt.
 <<<
 
 ### B-haus-kraemerstrasse-3-teil
 - Ort: Krämerstraße 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Krämer siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Kammer, eine Tür die in den Laden geht ohne die Gasse.
 <<<
 
 ### B-haus-kraemerstrasse-3-voll
 - Ort: Krämerstraße 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Krämer hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Hartmut 42, Ida 39, Paul 12. Silber 1. Die Tür zum Laden spart die Straße.
 <<<
 
 ### B-haus-kraemerstrasse-3-scharf
 - Ort: Krämerstraße 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Paul hat unter dem Bett eine Schale Kraut, nicht aus Nr. 1 — aus Nr. 2.
 <<<
 
 ### B-haus-kraemerstrasse-3-sl
 - Ort: Krämerstraße 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Krämerstraße 3. Kein Keim. Engine zieht niemanden.
+Bode Wohnung. Engine zieht niemanden.
 <<<
 
 #### Krämerstraße 4 — Wohnhaus Kräuterhändlerin
 
 ### B-haus-kraemerstrasse-4-offen
 - Ort: Krämerstraße 4 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Kräuterhändlerin an der Krämerstraße, Nummer 4. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Krämerstraße.
+Wohnhaus Wurzel. Hinter der Kräuterhandlung. Maren, Jette, wenn der SL sie setzt. Ausgang die Straße.
 <<<
 
 ### B-haus-kraemerstrasse-4-grob
 - Ort: Krämerstraße 4 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Kraut auch hier, schwächer, ein Mädchen oder niemand.
 <<<
 
 ### B-haus-kraemerstrasse-4-teil
 - Ort: Krämerstraße 4 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Kräuterhändlerin siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Kammer, Bündel an der Decke. Messing 5, nicht Silber.
 <<<
 
 ### B-haus-kraemerstrasse-4-voll
 - Ort: Krämerstraße 4 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Kräuterhändlerin hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Maren 40, Jette 16. Messing 5. Jette hilft, steht nicht vorn.
 <<<
 
 ### B-haus-kraemerstrasse-4-scharf
 - Ort: Krämerstraße 4 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+An Jettes Nagel ein Amulett, nicht Sigmar, nicht Morr. Blank gegriffen.
 <<<
 
 ### B-haus-kraemerstrasse-4-sl
 - Ort: Krämerstraße 4 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Krämerstraße 4. Kein Keim. Engine zieht niemanden.
+Wurzel Wohnung. Engine zieht niemanden.
 <<<
 
 #### Krämerstraße 5 — Buchbinderei
 
 ### B-haus-kraemerstrasse-5-offen
 - Ort: Krämerstraße 5 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Buchbinderei an der Krämerstraße, Nummer 5. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Krämerstraße.
+Buchbinderei Blatt. Leim, Leder, Papier. Simon, Eva, wenn der SL sie setzt. Ausgang die Straße.
 <<<
 
 ### B-haus-kraemerstrasse-5-grob
 - Ort: Krämerstraße 5 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Leim, Presse, ein Geruch der in der Nase klebt.
 <<<
 
 ### B-haus-kraemerstrasse-5-teil
 - Ort: Krämerstraße 5 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Buchbinderei siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Werkstatt = Stube. Presse, Fäden, ein Fach für Aufträge.
 <<<
 
 ### B-haus-kraemerstrasse-5-voll
 - Ort: Krämerstraße 5 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Buchbinderei hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Simon 38, Eva 34. Silber 1. Eva hilft. Die Aufträge tragen Zunft und Rat, nicht den Grafen — der ist Feder.
 <<<
 
 ### B-haus-kraemerstrasse-5-scharf
 - Ort: Krämerstraße 5 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ein Band ohne Titel, nass noch, der Inhalt ist Liste nicht Gebet.
 <<<
 
 ### B-haus-kraemerstrasse-5-sl
 - Ort: Krämerstraße 5 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Krämerstraße 5. Kein Keim. Engine zieht niemanden.
+Blatt. Engine zieht niemanden.
 <<<
 
 #### Krämerstraße 6 — Leerstehender Laden · leer
 
 ### B-haus-kraemerstrasse-6-offen
 - Ort: Krämerstraße 6 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstehender Laden an der Krämerstraße, Nummer 6. Leer. Die Luft steht. Ausgang auf die Krämerstraße. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Leerstehender Laden. Ehemals Hüte. Die Stange noch da, kein Staub ganz gleichmäßig. Niemand wohnt. Ausgang die Straße.
 <<<
 
 ### B-haus-kraemerstrasse-6-grob
 - Ort: Krämerstraße 6 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Leeres Schaufenster, eine Stange, sonst nichts.
 <<<
 
 ### B-haus-kraemerstrasse-6-teil
 - Ort: Krämerstraße 6 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Ausgeräumt. Hutstock im Fenster. Fußboden nicht gleichmäßig grau.
 <<<
 
 ### B-haus-kraemerstrasse-6-voll
 - Ort: Krämerstraße 6 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Leere ist vollständig. Wer hier wohnte, hat nichts gelassen das einen Namen trägt.
+Ehemals Hutmacher. Niemand. Die Stange bleibt. Der Staub ist an einer Spur unterbrochen.
 <<<
 
 ### B-haus-kraemerstrasse-6-scharf
 - Ort: Krämerstraße 6 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Fußspuren, kleiner als ein Mann, nicht älter als ein Tag. Hinter der Stange ein Hutblock, der nicht leer war.
 <<<
 
 ### B-haus-kraemerstrasse-6-sl
 - Ort: Krämerstraße 6 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Krämerstraße 6. Leer. Kein Keim. Engine zieht niemanden.
+Leer. Engine zieht niemanden.
 <<<
 
 #### Gerbergasse 1 — Gerberei
 
 ### B-haus-gerbergasse-1-offen
 - Ort: Gerbergasse 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gerberei an der Gerbergasse, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gerbergasse.
+Gerberei. Der Gestank erklärt die Gasse. Lohe, nasse Haut. Arbeit der Leder, wohnen Nr. 2. Ausgang die Gasse.
 <<<
 
 ### B-haus-gerbergasse-1-grob
 - Ort: Gerbergasse 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Die Nase gibt den Rest auf. Gruben, sonst nichts.
 <<<
 
 ### B-haus-gerbergasse-1-teil
 - Ort: Gerbergasse 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Gerberei siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Gruben, Gestelle, ein Gang zum Haus. Die Mauer ist nah.
 <<<
 
 ### B-haus-gerbergasse-1-voll
 - Ort: Gerbergasse 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Gerberei hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Dietrich Leder arbeitet hier, schläft Nr. 2. Häute in Reihen. Der Weg in den Rattenwinkel ist kürzer als einem lieb ist.
 <<<
 
 ### B-haus-gerbergasse-1-scharf
 - Ort: Gerbergasse 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Eine Haut trägt ein Zeichen, das nicht Zunft ist.
 <<<
 
 ### B-haus-gerbergasse-1-sl
 - Ort: Gerbergasse 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gerbergasse 1. Kein Keim. Engine zieht niemanden.
+Leder Arbeit. Wohnen Nr. 2. Engine zieht niemanden.
 <<<
 
 #### Gerbergasse 2 — Wohnhaus Gerbermeister
 
 ### B-haus-gerbergasse-2-offen
 - Ort: Gerbergasse 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Gerbermeister an der Gerbergasse, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gerbergasse.
+Wohnhaus Leder. Meister neben der Grube. Dietrich, Hedwig, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-gerbergasse-2-grob
 - Ort: Gerbergasse 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Lohe auch hier, schwächer, eine Tür die dicht sein will und es nicht ist.
 <<<
 
 ### B-haus-gerbergasse-2-teil
 - Ort: Gerbergasse 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Gerbermeister siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Kammer, Fenster zu den Gruben nicht zur Stadt.
 <<<
 
 ### B-haus-gerbergasse-2-voll
 - Ort: Gerbergasse 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Gerbermeister hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Dietrich 50, Hedwig 47. Silber 1. Sie halten die Nase, die Gasse nicht.
 <<<
 
 ### B-haus-gerbergasse-2-scharf
 - Ort: Gerbergasse 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Hedwig hat Salbe von Wurzel, nicht von Lohe — dasselbe wie am hustenden Gesellen, wenn der SL ihn legt.
 <<<
 
 ### B-haus-gerbergasse-2-sl
 - Ort: Gerbergasse 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gerbergasse 2. Kein Keim. Engine zieht niemanden.
+Leder Wohnung. Engine zieht niemanden.
 <<<
 
 #### Gerbergasse 3 — Wohnhaus Gerbergesellen
 
 ### B-haus-gerbergasse-3-offen
 - Ort: Gerbergasse 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Gerbergesellen an der Gerbergasse, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gerbergasse.
+Wohnhaus Gerbergesellen. Zwei Männer, einer hustet schlecht, wenn der SL ihn setzt. Lutz, Enno. Ausgang die Gasse.
 <<<
 
 ### B-haus-gerbergasse-3-grob
 - Ort: Gerbergasse 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Enge, Husten, Lohe.
 <<<
 
 ### B-haus-gerbergasse-3-teil
 - Ort: Gerbergasse 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Gerbergesellen siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum, zwei Lager. Krankheiten kursieren hier häufiger. Kein Automat.
 <<<
 
 ### B-haus-gerbergasse-3-voll
 - Ort: Gerbergasse 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Gerbergesellen. Krankheiten kursieren: Häufiger als anderswo. Kein Automat, SL setzt ob jemand hustet. Noch hat niemand gezogen.
+Lutz 31, Enno 28. Messing 3. Einer hustet. Keim still, bis SL zieht ob jemand krank ist.
 <<<
 
 ### B-haus-gerbergasse-3-scharf
 - Ort: Gerbergasse 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Häufiger als anderswo. Kein Automat, SL setzt ob jemand hustet. Das liegt still, bis der Spielleiter es zieht.
+Unter der Manschette Salbe von Wurzel, nicht Lohe. Das Päckchen ohne Etikett hat denselben Geruch.
 <<<
 
 ### B-haus-gerbergasse-3-sl
 - Ort: Gerbergasse 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gerbergasse 3. Krankheiten kursieren: Häufiger als anderswo. Kein Automat, SL setzt ob jemand hustet. Engine zieht niemanden.
+Gerb. Krankheit als Keim, nicht als Automat. Engine zieht niemanden.
 <<<
 
 ### B-keim-gerber-krankheit
@@ -3436,300 +3436,300 @@ Häufiger als anderswo. Kein Automat, SL setzt ob jemand hustet.
 
 ### B-haus-gerbergasse-4-offen
 - Ort: Gerbergasse 4 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Lagerschuppen für Häute an der Gerbergasse, Nummer 4. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Gerbergasse.
+Lagerschuppen für Häute. Tropft, Reihen, niemand wohnt. Ausgang die Gasse.
 <<<
 
 ### B-haus-gerbergasse-4-grob
 - Ort: Gerbergasse 4 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Nass, Haut, Dunkel.
 <<<
 
 ### B-haus-gerbergasse-4-teil
 - Ort: Gerbergasse 4 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Lagerschuppen für Häute siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Gestelle, ein Gang, der Boden steht. Kein Schloss das hält.
 <<<
 
 ### B-haus-gerbergasse-4-voll
 - Ort: Gerbergasse 4 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Lagerschuppen für Häute hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Niemand. Häute in Reihen. Der Schuppen tropft. Der Winkel ist die nächste Biegung.
 <<<
 
 ### B-haus-gerbergasse-4-scharf
 - Ort: Gerbergasse 4 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Die Haut mit dem Nicht-Zunft-Zeichen liegt hier, nicht in der Gerberei — verschoben, heute.
 <<<
 
 ### B-haus-gerbergasse-4-sl
 - Ort: Gerbergasse 4 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gerbergasse 4. Kein Keim. Engine zieht niemanden.
+Niemand. Engine zieht niemanden.
 <<<
 
 #### Töpfergasse 1 — Töpferei
 
 ### B-haus-toepfergasse-1-offen
 - Ort: Töpfergasse 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Töpferei an der Töpfergasse, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Töpfergasse.
+Töpferei. Der Ofen wärmt die Gasse. Lehm an den Stufen. Arbeit der Ton, wohnen Nr. 2. Ausgang die Gasse.
 <<<
 
 ### B-haus-toepfergasse-1-grob
 - Ort: Töpfergasse 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Ofen, Lehm, der Lärm der Schmiedezeile ist weg.
 <<<
 
 ### B-haus-toepfergasse-1-teil
 - Ort: Töpfergasse 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Töpferei siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ofen, Scheibe, Scherben vor der Tür absichtlich gegen Nässe.
 <<<
 
 ### B-haus-toepfergasse-1-voll
 - Ort: Töpfergasse 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Töpferei hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Meinhard Ton arbeitet hier, schläft Nr. 2. Der Lehrling trägt, wohnt Nr. 3.
 <<<
 
 ### B-haus-toepfergasse-1-scharf
 - Ort: Töpfergasse 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Unter den Scherben eine, die nicht hier gebrannt wurde — Glasur fremd.
 <<<
 
 ### B-haus-toepfergasse-1-sl
 - Ort: Töpfergasse 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Töpfergasse 1. Kein Keim. Engine zieht niemanden.
+Ton Arbeit. Wohnen Nr. 2. Engine zieht niemanden.
 <<<
 
 #### Töpfergasse 2 — Wohnhaus Töpfer
 
 ### B-haus-toepfergasse-2-offen
 - Ort: Töpfergasse 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Töpfer an der Töpfergasse, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Töpfergasse.
+Wohnhaus Ton. Meisterhaus, Lehm an den Stufen auch hier. Meinhard, Birgit, Ada, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-toepfergasse-2-grob
 - Ort: Töpfergasse 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Wärme vom Ofen nebenan, eine Stube.
 <<<
 
 ### B-haus-toepfergasse-2-teil
 - Ort: Töpfergasse 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Töpfer siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Kammer, Ada hat Ton unter den Nägeln.
 <<<
 
 ### B-haus-toepfergasse-2-voll
 - Ort: Töpfergasse 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Töpfer hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Meinhard 44, Birgit 41, Ada 13. Silber 1. Drei Häuser nur in der Gasse. Morrgasse nah genug, dass man Glocken nicht braucht.
 <<<
 
 ### B-haus-toepfergasse-2-scharf
 - Ort: Töpfergasse 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ada hat nasse Knie, als wäre sie am Friedhof gewesen, nicht am Ofen — oder der Lehrling war es, und sie folgt.
 <<<
 
 ### B-haus-toepfergasse-2-sl
 - Ort: Töpfergasse 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Töpfergasse 2. Kein Keim. Engine zieht niemanden.
+Ton Wohnung. Engine zieht niemanden.
 <<<
 
 #### Töpfergasse 3 — Wohnhaus Lehrling
 
 ### B-haus-toepfergasse-3-offen
 - Ort: Töpfergasse 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Lehrling an der Töpfergasse, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Töpfergasse.
+Wohnhaus Asche. Lehrling, siebzehn, nicht der Sohn. Jori, wenn der SL ihn setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-toepfergasse-3-grob
 - Ort: Töpfergasse 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Eng, Lehm, ein Bett.
 <<<
 
 ### B-haus-toepfergasse-3-teil
 - Ort: Töpfergasse 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Lehrling siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum. Scherben als Teller. Die Morrgasse liegt im Fenster.
 <<<
 
 ### B-haus-toepfergasse-3-voll
 - Ort: Töpfergasse 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Lehrling hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Jori Asche 17. Messing 2. Nicht der Sohn des Meisters. Nasse Knie, wenn der Blick scharf ist.
 <<<
 
 ### B-haus-toepfergasse-3-scharf
 - Ort: Töpfergasse 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+An den Knien Friedhofserde, nicht Töpferlehm. Ein Löffel unter dem Brett, nicht alt genug für den Winkel — oder doch.
 <<<
 
 ### B-haus-toepfergasse-3-sl
 - Ort: Töpfergasse 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Töpfergasse 3. Kein Keim. Engine zieht niemanden.
+Asche. Engine zieht niemanden.
 <<<
 
 #### Morrgasse 1 — Totengräberhaus
 
 ### B-haus-morrgasse-1-offen
 - Ort: Morrgasse 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Totengräberhaus an der Morrgasse, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Morrgasse.
+Totengräberhaus. Erde, Wachs, der Dienst nicht die Wahl. Silas, Odila, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-morrgasse-1-grob
 - Ort: Morrgasse 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Stille, die nicht leer ist. Erde an den Stiefeln.
 <<<
 
 ### B-haus-morrgasse-1-teil
 - Ort: Morrgasse 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Totengräberhaus siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, eine Kammer, Stiefel an der Tür. Odila wäscht die Toten, nicht hier sichtbar.
 <<<
 
 ### B-haus-morrgasse-1-voll
 - Ort: Morrgasse 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Totengräberhaus hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Silas 46, Odila 42. Messing 3. Dienst Morr. Die Stiefel zeigen: heute schon zweimal draußen.
 <<<
 
 ### B-haus-morrgasse-1-scharf
 - Ort: Morrgasse 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Frische Erde auf den Säumen, und ein zweites Paar Spuren nebenan, kleiner, nicht Odila.
 <<<
 
 ### B-haus-morrgasse-1-sl
 - Ort: Morrgasse 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Morrgasse 1. Kein Keim. Engine zieht niemanden.
+Gruft. Engine zieht niemanden.
 <<<
 
 #### Morrgasse 2 — Morr-Kapelle
 
 ### B-haus-morrgasse-2-offen
 - Ort: Morrgasse 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Morr-Kapelle an der Morrgasse, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Morrgasse.
+Morr-Kapelle. Klein, schwarz, die Tür nicht zu. Schwester Miren Ewig, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-morrgasse-2-grob
 - Ort: Morrgasse 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Wachs, Stein, ein Ritus den die Stadt nicht belacht.
 <<<
 
 ### B-haus-morrgasse-2-teil
 - Ort: Morrgasse 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Morr-Kapelle siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Schiff, Totenbrett, ein zweites Schloss innen das nicht zum Kult passt — nur wenn du nah bist.
 <<<
 
 ### B-haus-morrgasse-2-voll
 - Ort: Morrgasse 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Morr-Kapelle. Bestattung nach Ritus: Gilt als nötig, Untote fernzuhalten. Setzung, kein Spawn. Noch hat niemand gezogen.
+Miren Ewig 52. Silber 1. Trauerfeiern. Ritus gegen Untote ist Setzung, kein Spawn. Frische Erde auf einem Hügel ohne Stein.
 <<<
 
 ### B-haus-morrgasse-2-scharf
 - Ort: Morrgasse 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gilt als nötig, Untote fernzuhalten. Setzung, kein Spawn. Das liegt still, bis der Spielleiter es zieht.
+Der frische Hügel hat keine Gaben. Das innere Schloss ist nicht Kult. Der Hügel ist zu neu für den Stein, zu alt für heute.
 <<<
 
 ### B-haus-morrgasse-2-sl
 - Ort: Morrgasse 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Morrgasse 2. Bestattung nach Ritus: Gilt als nötig, Untote fernzuhalten. Setzung, kein Spawn. Engine zieht niemanden.
+Ewig. Keim: frischer Hügel — nur SL. Engine zieht niemanden.
 <<<
 
 ### B-keim-morr-ritus
@@ -3744,50 +3744,50 @@ Gilt als nötig, Untote fernzuhalten. Setzung, kein Spawn.
 
 ### B-haus-schlemmergasse-1-offen
 - Ort: Schlemmergasse 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Taverne an der Schlemmergasse, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schlemmergasse.
+Taverne. Bier, billiges Öl, Stimmen die nicht zum Tempel gehören. Rolf zapft, wenn der SL ihn setzt. Nicht Zum Wanderer. Wohnen Nr. 3. Ausgang die Gasse.
 <<<
 
 ### B-haus-schlemmergasse-1-grob
 - Ort: Schlemmergasse 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Lachen hinter Holz. Der Geruch nach Bier und etwas Süßem.
 <<<
 
 ### B-haus-schlemmergasse-1-teil
 - Ort: Schlemmergasse 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Taverne siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Theke, Tische, eine Tür zum Hinterzimmer die nicht für jeden gilt. Ranald hängt dort, klein, ohne Schild — nicht vorn.
 <<<
 
 ### B-haus-schlemmergasse-1-voll
 - Ort: Schlemmergasse 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Taverne. Ranald-Schrein im Hinterzimmer: Treffpunkt zwielichtiger Gestalten. Feuert nicht von selbst. Noch hat niemand gezogen.
+Rolf Stube arbeitet hier, schläft Nr. 3. Hinterzimmer: Keim still. Treffpunkt, feuerte nie von selbst.
 <<<
 
 ### B-haus-schlemmergasse-1-scharf
 - Ort: Schlemmergasse 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Treffpunkt zwielichtiger Gestalten. Feuert nicht von selbst. Das liegt still, bis der Spielleiter es zieht.
+Im Hinterzimmer zwei Tassen, noch warm, und ein dritter Platz ohne Tasse.
 <<<
 
 ### B-haus-schlemmergasse-1-sl
 - Ort: Schlemmergasse 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schlemmergasse 1. Ranald-Schrein im Hinterzimmer: Treffpunkt zwielichtiger Gestalten. Feuert nicht von selbst. Engine zieht niemanden.
+Stube Arbeit. Ranald-Keim still. Nicht Krug. Engine zieht niemanden. SL spielt, wer im Hinterzimmer sitzt.
 <<<
 
 ### B-keim-ranald-schrein
@@ -3802,250 +3802,250 @@ Treffpunkt zwielichtiger Gestalten. Feuert nicht von selbst.
 
 ### B-haus-schlemmergasse-2-offen
 - Ort: Schlemmergasse 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Vergnügungshaus an der Schlemmergasse, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schlemmergasse.
+Vergnügungshaus Linde. Gelbe Vorhänge, die bei Tag nicht helfen. Thea, Kira, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-schlemmergasse-2-grob
 - Ort: Schlemmergasse 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Süß, Öl, eine Stimme die zu hell ist.
 <<<
 
 ### B-haus-schlemmergasse-2-teil
 - Ort: Schlemmergasse 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Vergnügungshaus siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Diele, Vorhang, eine Treppe. Luke in den Keller hinter dem Haus, nicht verriegelt — nur wenn du umgehst.
 <<<
 
 ### B-haus-schlemmergasse-2-voll
 - Ort: Schlemmergasse 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Vergnügungshaus hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Thea 39, Kira 18. Messing 5. Die Vorhänge sind Tag und Nacht dieselben.
 <<<
 
 ### B-haus-schlemmergasse-2-scharf
 - Ort: Schlemmergasse 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Die Kellerluke war heute bewegt. Kira hat Erde unter den Nägeln, nicht Farbe.
 <<<
 
 ### B-haus-schlemmergasse-2-sl
 - Ort: Schlemmergasse 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schlemmergasse 2. Kein Keim. Engine zieht niemanden.
+Linde. Engine zieht niemanden.
 <<<
 
 #### Schlemmergasse 3 — Wohnhaus Wirt
 
 ### B-haus-schlemmergasse-3-offen
 - Ort: Schlemmergasse 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Wohnhaus Wirt an der Schlemmergasse, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Schlemmergasse.
+Wohnhaus Stube. Über der Taverne. Rolf, Janna, Nils, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-schlemmergasse-3-grob
 - Ort: Schlemmergasse 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Die Wohnung darüber ist still. Bier steigt.
 <<<
 
 ### B-haus-schlemmergasse-3-teil
 - Ort: Schlemmergasse 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Wohnhaus Wirt siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Stube, Kammer, eine Luke in die Taverne ohne die Treppe.
 <<<
 
 ### B-haus-schlemmergasse-3-voll
 - Ort: Schlemmergasse 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Wohnhaus Wirt hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Rolf 42, Janna 38 hält das Hinterzimmer, Nils 12. Messing 5. Nicht Krug, nicht Zum Wanderer. Janna kennt Arne, und Arne kennt die Gasse, und keiner sagt das am Tor.
 <<<
 
 ### B-haus-schlemmergasse-3-scharf
 - Ort: Schlemmergasse 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Nils hat vom Fenster den Torbogen gezählt, nicht die Gasse. Janna hat zwei Tassen extra, warm.
 <<<
 
 ### B-haus-schlemmergasse-3-sl
 - Ort: Schlemmergasse 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schlemmergasse 3. Kein Keim. Engine zieht niemanden.
+Stube Wohnung. Engine zieht niemanden.
 <<<
 
 #### Bettelgasse 1 — Hütte Tagelöhnerfamilie
 
 ### B-haus-bettelgasse-1-offen
 - Ort: Bettelgasse 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Hütte Tagelöhnerfamilie an der Bettelgasse, Nummer 1. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Bettelgasse.
+Hütte Karg. Eng, nass, innerhalb der Mauer und trotzdem Armut. Wenzel, Ulla, Pia, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-bettelgasse-1-grob
 - Ort: Bettelgasse 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Kohl, Nässe, ein Kind das verstummt.
 <<<
 
 ### B-haus-bettelgasse-1-teil
 - Ort: Bettelgasse 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Hütte Tagelöhnerfamilie siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum, zu wenig Stühle. Die Torstraße ist nah und hilft nicht.
 <<<
 
 ### B-haus-bettelgasse-1-voll
 - Ort: Bettelgasse 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Hütte Tagelöhnerfamilie hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Wenzel 37, Ulla 34, Pia 10. Messing 1. Die Schuhe nass vom Brunnen Nr. 8, nicht vom Tor.
 <<<
 
 ### B-haus-bettelgasse-1-scharf
 - Ort: Bettelgasse 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Pia hat am Brunnen etwas Hellen gesehen, das kein Stein ist — und es der Mutter nicht gesagt.
 <<<
 
 ### B-haus-bettelgasse-1-sl
 - Ort: Bettelgasse 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettelgasse 1. Kein Keim. Engine zieht niemanden.
+Karg. Engine zieht niemanden.
 <<<
 
 #### Bettelgasse 2 — Hütte Witwe
 
 ### B-haus-bettelgasse-2-offen
 - Ort: Bettelgasse 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Hütte Witwe an der Bettelgasse, Nummer 2. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Bettelgasse.
+Hütte Hesse. Witwe. Magda, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-bettelgasse-2-grob
 - Ort: Bettelgasse 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Still, ein Geruch nach altem Tuch.
 <<<
 
 ### B-haus-bettelgasse-2-teil
 - Ort: Bettelgasse 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Hütte Witwe siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum. Ein Nagel ohne Männerkleid. Sigmar klein, verblasst.
 <<<
 
 ### B-haus-bettelgasse-2-voll
 - Ort: Bettelgasse 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Hütte Witwe hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Magda 64. Messing 1. Mann Ewald †2501. Sie geht außen um Nr. 6.
 <<<
 
 ### B-haus-bettelgasse-2-scharf
 - Ort: Bettelgasse 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Unter dem Brett ein Löffel mit Zeichen, nicht Magdas — zu jung für sie.
 <<<
 
 ### B-haus-bettelgasse-2-sl
 - Ort: Bettelgasse 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettelgasse 2. Kein Keim. Engine zieht niemanden.
+Hesse. Engine zieht niemanden.
 <<<
 
 #### Bettelgasse 3 — Hütte Bettlerclique
 
 ### B-haus-bettelgasse-3-offen
 - Ort: Bettelgasse 3 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Hütte Bettlerclique an der Bettelgasse, Nummer 3. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Bettelgasse.
+Hütte der Clique. Drei, munkele Kult, niemand beweist. Krumm, Fips, Auge, wenn der SL sie setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-bettelgasse-3-grob
 - Ort: Bettelgasse 3 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Enge, zu viele Atemzüge, ein Zeichen unter der Schwelle das du nicht liest.
 <<<
 
 ### B-haus-bettelgasse-3-teil
 - Ort: Bettelgasse 3 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Hütte Bettlerclique siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum, drei Lager. Die Nachbarn nennen sie Clique, nicht Familie.
 <<<
 
 ### B-haus-bettelgasse-3-voll
 - Ort: Bettelgasse 3 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Hütte Bettlerclique. Fragwürdige Kulte: Munkeln. Keim. Feuert nicht von selbst. Noch hat niemand gezogen.
+Krumm 42, Fips 24, Auge 47. Messing 0. Munkeln über Kulte. Keim still.
 <<<
 
 ### B-haus-bettelgasse-3-scharf
 - Ort: Bettelgasse 3 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Munkeln. Keim. Feuert nicht von selbst. Das liegt still, bis der Spielleiter es zieht.
+Unter der Schwelle ein Zeichen, frisch, nicht Ranald. Dasselbe klein wie am Ring Nr. 6, oder nicht — der SL sagt es.
 <<<
 
 ### B-haus-bettelgasse-3-sl
 - Ort: Bettelgasse 3 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettelgasse 3. Fragwürdige Kulte: Munkeln. Keim. Feuert nicht von selbst. Engine zieht niemanden.
+Clique. Kult-Keim still. Engine zieht niemanden.
 <<<
 
 ### B-keim-bettel-kult
@@ -4060,150 +4060,150 @@ Munkeln. Keim. Feuert nicht von selbst.
 
 ### B-haus-bettelgasse-4-offen
 - Ort: Bettelgasse 4 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leer (Dach) an der Bettelgasse, Nummer 4. Leer. Die Luft steht. Ausgang auf die Bettelgasse. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Leer. Das Dach trägt nicht. Niemand. Ausgang die Gasse.
 <<<
 
 ### B-haus-bettelgasse-4-grob
 - Ort: Bettelgasse 4 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Nass, Dunkel, nichts das antwortet.
 <<<
 
 ### B-haus-bettelgasse-4-teil
 - Ort: Bettelgasse 4 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Leerstand. Die Nachbarn gehen außen rum, weniger als um Nr. 6.
 <<<
 
 ### B-haus-bettelgasse-4-voll
 - Ort: Bettelgasse 4 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Leere ist vollständig. Wer hier wohnte, hat nichts gelassen das einen Namen trägt.
+Niemand. Das Gebälk tropft in den Lehm.
 <<<
 
 ### B-haus-bettelgasse-4-scharf
 - Ort: Bettelgasse 4 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Im Lehm ein Absatz zur Nr. 3, nicht zur Straße.
 <<<
 
 ### B-haus-bettelgasse-4-sl
 - Ort: Bettelgasse 4 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettelgasse 4. Leer. Kein Keim. Engine zieht niemanden.
+Leer. Engine zieht niemanden.
 <<<
 
 #### Bettelgasse 5 — Leer (vernagelt) · leer
 
 ### B-haus-bettelgasse-5-offen
 - Ort: Bettelgasse 5 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leer (vernagelt) an der Bettelgasse, Nummer 5. Leer. Die Luft steht. Ausgang auf die Bettelgasse. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Leer, vernagelt. Bretter über der Tür, rostige Nägel. Niemand. Ausgang die Gasse.
 <<<
 
 ### B-haus-bettelgasse-5-grob
 - Ort: Bettelgasse 5 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Holz, Rost, zu.
 <<<
 
 ### B-haus-bettelgasse-5-teil
 - Ort: Bettelgasse 5 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Vernagelt von außen. Die Nachbartür zu Nr. 6 ist die nächste.
 <<<
 
 ### B-haus-bettelgasse-5-voll
 - Ort: Bettelgasse 5 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Leere ist vollständig. Wer hier wohnte, hat nichts gelassen das einen Namen trägt.
+Niemand. Die Nägel sind alt. Kratzer innen an der vernagelten Nachbartür — nur wenn du Nr. 6 zuerst hattest.
 <<<
 
 ### B-haus-bettelgasse-5-scharf
 - Ort: Bettelgasse 5 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Die Kratzer kommen von Nr. 6, nicht von hier. Innen, nicht außen.
 <<<
 
 ### B-haus-bettelgasse-5-sl
 - Ort: Bettelgasse 5 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettelgasse 5. Leer. Kein Keim. Engine zieht niemanden.
+Leer, vernagelt. Engine zieht niemanden.
 <<<
 
 #### Bettelgasse 6 — Leer (spukt) · leer
 
 ### B-haus-bettelgasse-6-offen
 - Ort: Bettelgasse 6 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leer (spukt) an der Bettelgasse, Nummer 6. Leer. Die Luft steht. Ausgang auf die Bettelgasse. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Leer, der Ruf sie spuke. Die Nachbarn gehen außen rum. Niemand wohnt. Ausgang die Gasse.
 <<<
 
 ### B-haus-bettelgasse-6-grob
 - Ort: Bettelgasse 6 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Zu still für die Gasse. Eine Tür die niemand nimmt.
 <<<
 
 ### B-haus-bettelgasse-6-teil
 - Ort: Bettelgasse 6 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Leer. Ruf. SL entscheidet, ob etwas da ist. Die vernagelte Nr. 5 grenzt.
 <<<
 
 ### B-haus-bettelgasse-6-voll
 - Ort: Bettelgasse 6 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leer (spukt). Ruf: spukt: Ruf. SL entscheidet, ob etwas da ist. Noch hat niemand gezogen.
+Niemand. Der Spuk ist Ruf. Keim still. Kratzer innen an der Nachbartür, nicht außen.
 <<<
 
 ### B-haus-bettelgasse-6-scharf
 - Ort: Bettelgasse 6 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ruf. SL entscheidet, ob etwas da ist. Das liegt still, bis der Spielleiter es zieht.
+Innen an der Tür zu Nr. 5 Kratzer, frisch. Ein Atem, der nicht deiner ist — oder der Wind durch die Bretter. Der SL sagt es, nicht die Gasse.
 <<<
 
 ### B-haus-bettelgasse-6-sl
 - Ort: Bettelgasse 6 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettelgasse 6. Leer. Ruf: spukt: Ruf. SL entscheidet, ob etwas da ist. Engine zieht niemanden.
+Spuk-Keim still. SL entscheidet, ob etwas da ist. Engine zieht niemanden.
 <<<
 
 ### B-keim-bettel-spukt
@@ -4218,150 +4218,150 @@ Ruf. SL entscheidet, ob etwas da ist.
 
 ### B-haus-bettelgasse-7-offen
 - Ort: Bettelgasse 7 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Hütte Tagelöhner an der Bettelgasse, Nummer 7. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Bettelgasse.
+Hütte Dünn. Ivo allein, wenn der SL ihn setzt. Ausgang die Gasse.
 <<<
 
 ### B-haus-bettelgasse-7-grob
 - Ort: Bettelgasse 7 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Eng, ein Mann oder niemand.
 <<<
 
 ### B-haus-bettelgasse-7-teil
 - Ort: Bettelgasse 7 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Hütte Tagelöhner siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Ein Raum. Ein Lager. Kein zweiter Teller.
 <<<
 
 ### B-haus-bettelgasse-7-voll
 - Ort: Bettelgasse 7 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Hütte Tagelöhner hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Ivo 32. Messing 1. Allein. Die Clique ist zwei Türen, er nennt sie nicht.
 <<<
 
 ### B-haus-bettelgasse-7-scharf
 - Ort: Bettelgasse 7 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Ivo hat denselben Löffel wie unter Magdas Brett — oder einen, der dazu passt.
 <<<
 
 ### B-haus-bettelgasse-7-sl
 - Ort: Bettelgasse 7 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettelgasse 7. Kein Keim. Engine zieht niemanden.
+Dünn. Engine zieht niemanden.
 <<<
 
 #### Bettelgasse 8 — Gemeinschaftsbrunnen
 
 ### B-haus-bettelgasse-8-offen
 - Ort: Bettelgasse 8 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Gemeinschaftsbrunnen an der Bettelgasse, Nummer 8. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die Bettelgasse.
+Gemeinschaftsbrunnen. Dritter Brunnen der Stadt. Rand den Kinder glatt getreten haben. Niemand wohnt. Ausgang die Gasse.
 <<<
 
 ### B-haus-bettelgasse-8-grob
 - Ort: Bettelgasse 8 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.
+Stein, Wasser, dein Gesicht unklar darin.
 <<<
 
 ### B-haus-bettelgasse-8-teil
 - Ort: Bettelgasse 8 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Durchs Fenster von Gemeinschaftsbrunnen siehst du, was das Glas hergibt — Umrisse, Licht oder keins.
+Kein Dach. Gemeinschaft. Das Wasser nicht immer klar.
 <<<
 
 ### B-haus-bettelgasse-8-voll
 - Ort: Bettelgasse 8 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Die Stube von Gemeinschaftsbrunnen hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.
+Niemand wohnt. Dritter Brunnen: Tor 9, Marktmitte, hier. Hanni würde eine Ecke suchen, ohne Schuld; die Gasse gibt keine, die nichts kostet.
 <<<
 
 ### B-haus-bettelgasse-8-scharf
 - Ort: Bettelgasse 8 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.
+Am Grund etwas Hellen, das kein Stein ist.
 <<<
 
 ### B-haus-bettelgasse-8-sl
 - Ort: Bettelgasse 8 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Bettelgasse 8. Kein Keim. Engine zieht niemanden.
+Niemand. Hellen nur scharf oder SL. Engine zieht niemanden.
 <<<
 
 #### Rattenwinkel 1 — Verfallene Wohnhütte · leer
 
 ### B-haus-rattenwinkel-1-offen
 - Ort: Rattenwinkel 1 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Verfallene Wohnhütte an der Rattenwinkel, Nummer 1. Leer. Die Luft steht. Ausgang auf die Rattenwinkel. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Verfallene Wohnhütte. Die Tür hängt. Abel und Mira Unken, verschwunden 2506. Niemand wohnt. Ausgang der Winkel.
 <<<
 
 ### B-haus-rattenwinkel-1-grob
 - Ort: Rattenwinkel 1 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Hängt, still, zu still für Ratten.
 <<<
 
 ### B-haus-rattenwinkel-1-teil
 - Ort: Rattenwinkel 1 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Eingefallen. Zwei Lager, vermodert. Kein Schild.
 <<<
 
 ### B-haus-rattenwinkel-1-voll
 - Ort: Rattenwinkel 1 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Verfallene Wohnhütte. Bewohner verschwunden: Vor Jahren spurlos. Keim. Feuert nicht von selbst. Noch hat niemand gezogen.
+Unken. Abel *2460, Mira *2464, spurlos 2506. Keim still. Unter einem Brett ein Löffel, nicht alt genug für „vor Jahren“.
 <<<
 
 ### B-haus-rattenwinkel-1-scharf
 - Ort: Rattenwinkel 1 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Vor Jahren spurlos. Keim. Feuert nicht von selbst. Das liegt still, bis der Spielleiter es zieht.
+Der Löffel ist nicht 2506. Jemand war hier, seit sie „spurlos“ sind.
 <<<
 
 ### B-haus-rattenwinkel-1-sl
 - Ort: Rattenwinkel 1 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Rattenwinkel 1. Leer. Bewohner verschwunden: Vor Jahren spurlos. Keim. Feuert nicht von selbst. Engine zieht niemanden.
+Unken-Keim still. Engine erfindet nichts. Nicht öffnen, solange die Torstraße die Frage ist — außer der SL öffnet.
 <<<
 
 ### B-keim-ratten-verschwunden
@@ -4376,50 +4376,50 @@ Vor Jahren spurlos. Keim. Feuert nicht von selbst.
 
 ### B-haus-rattenwinkel-2-offen
 - Ort: Rattenwinkel 2 · offen
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstehendes Gebäude an der Rattenwinkel, Nummer 2. Leer. Die Luft steht. Ausgang auf die Rattenwinkel. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.
+Leerstehendes Gebäude. Steht, und das ist schlimmer. Ratten, Kratzgeräusche unter dem Boden, Geruch wie Verwesung. Nachbarn meiden den Winkel. Ausgang der Winkel.
 <<<
 
 ### B-haus-rattenwinkel-2-grob
 - Ort: Rattenwinkel 2 · grob
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Staub, Dunkel, nichts das antwortet.
+Der Winkel nimmt das Licht nicht an. Zu still für Ratten, und trotzdem Ratten.
 <<<
 
 ### B-haus-rattenwinkel-2-teil
 - Ort: Rattenwinkel 2 · teil
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum.
+Steht. Kellerloch oder Gang — der Blick reicht nicht. Kein drittes Haus, kein Schild.
 <<<
 
 ### B-haus-rattenwinkel-2-voll
 - Ort: Rattenwinkel 2 · voll
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Leerstehendes Gebäude. Ratten und Verwesung: Nachbarn meiden es. Aberglaube oder nicht — SL-Entscheidung. Feuert nicht von selbst. Noch hat niemand gezogen.
+Niemand. Die Ratten sind fett. Der Geruch kommt nicht nur aus dem Keller. Niemand hat in diesem Jahr Holz nachgelegt. Keim: Aberglaube oder nicht — SL.
 <<<
 
 ### B-haus-rattenwinkel-2-scharf
 - Ort: Rattenwinkel 2 · scharf
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Nachbarn meiden es. Aberglaube oder nicht — SL-Entscheidung. Feuert nicht von selbst. Das liegt still, bis der Spielleiter es zieht.
+Unter dem Haus ein Gang, kein Kellerloch — die Kratzer zu regelmäßig für Ungeziefer.
 <<<
 
 ### B-haus-rattenwinkel-2-sl
 - Ort: Rattenwinkel 2 · sl
-- Datei: `src/lib/wfrp/drosselau.ts`
+- Datei: `src/lib/wfrp/looks-drosselau.ts`
 
 >>>
-Rattenwinkel 2. Leer. Ratten und Verwesung: Nachbarn meiden es. Aberglaube oder nicht — SL-Entscheidung. Feuert nicht von selbst. Engine zieht niemanden.
+SL-Entscheidung: Aberglaube oder Skaven/Nurgle/Kult. Keim feuerte nie von selbst. Engine erfindet nichts.
 <<<
 
 ### B-keim-ratten-keller
@@ -5064,4 +5064,4 @@ Optional — dein Bogen wartet auch ohne das.
 
 ---
 
-Ende der Sicherung. 602 Blöcke. 13 Gassen handschriftlich. 9 Häuser handschriftlich, 60 aus dem Generator.
+Ende der Sicherung. 602 Blöcke. 13 Gassen handschriftlich. 69 Häuser handschriftlich, 0 aus dem Generator.

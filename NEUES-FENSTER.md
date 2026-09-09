@@ -26,4 +26,5 @@ Kampagne 1 ist gesetzt. Buch-Wissen liegt. Demo ist raus. Der Tisch ist das Lebe
 - **Kampagne 1** · Tick, Track, Truck, Hanni, Nanni · Drosselau
 - Torstraße offen. Arne Helm prüft. Tick hat geschaut (privat). Frage hängt.
 - Türen: Tisch, Blatt, Journal. Pult nur SL.
-- Lagen: offen / grob / teil / voll / scharf / sl
+- Lagen: offen / grob / teil / voll / scharf / sl — 69 Häuser handschriftlich
+- Bibliothek V2: [Torstraße](knowledge/07-reikland/drosselau/v2/torstrasse.md) vollständig. Nächste Gasse erst wenn sie offen ist.

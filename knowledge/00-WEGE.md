@@ -13,6 +13,7 @@ Du musst nicht zur Liste. Der Pfeil reicht.
 | eine Regel nachschlagen | [Buch](#3-buch--nachschlagen) |
 | die Sätze des Spiels ändern | [Spieltexte](../copy/SPIELTEXTE.md) |
 | die Beschreibungen der Stadt lesen | [Beschreibungen](../copy/BESCHREIBUNGEN.md) |
+| die Bibliothek einer Gasse | [Torstraße V2](07-reikland/drosselau/v2/torstrasse.md) · [Regeln](07-reikland/drosselau/BESCHREIBUNGSREGELN.md) |
 | die Wörter treffen | [Glossar](../copy/GLOSSAR.md) |
 
 ---
@@ -78,6 +79,7 @@ Die Engine spricht nicht. JSON zählt.
 | 5 | [Spieltexte](../copy/SPIELTEXTE.md) — Sätze, die das Spiel zeigt |
 | 6 | [Beschreibungen](../copy/BESCHREIBUNGEN.md) — Ort, Haus, Gesicht, erste Stunde |
 | 7 | [Glossar](../copy/GLOSSAR.md) — Frist, Faden, Blatt, Pult, Absicht |
+| 8 | [Beschreibungsregeln V2](07-reikland/drosselau/BESCHREIBUNGSREGELN.md) · [Entitäten](07-reikland/drosselau/entitaeten.md) |
 
 ---
 

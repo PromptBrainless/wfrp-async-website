@@ -13,4 +13,6 @@ Ort von Kampagne 1. Marktflecken im Reikland. 5 Viertel, 13 Gassen, 69 Gebäude.
 - [Stadtverzeichnis](stadt-verzeichnis.md) — Viertel, Gassen, Häuser, Bewohner
 - [Bewohnerregister](bewohnerregister.md) — offiziell / inoffiziell, Wohnen, Arbeit
 - [Stammbäume](haushalte/README.md) — 42 Häuser, vollständige MDs
-- [Karten-Prompts](karte-prompts.txt) — Stadt, Viertel, 13 Gassen von oben
+- [Beschreibungsregeln V2](BESCHREIBUNGSREGELN.md) — Bibliothek, dreizehn Kästen
+- [Entitäten](entitaeten.md) — alle benannten IDs
+- [Torstraße V2](v2/torstrasse.md) — erste Gasse vollständig

@@ -58,6 +58,8 @@ Kein dritter Erzähler. Werkzeug des SL.
 
 Die Engine erfindet keine Regeln, keine Plotwendungen, keine NSC-Stimme und keine zufälligen Ereignisse im Leben. Vergleichende Würfe sind zwei Würfe zweier Menschen, nicht ein Wurf der beide Seiten erledigt.
 
+Die **Bibliothek** (V2) darf Ort, Haken, Gerücht und Stunde/Tag/Woche fertig tragen. Die Engine spielt sie nicht. Der SL zieht.
+
 ### KI (später, optional)
 
 Darf Dialogvorschläge, Gerüchte, Zusammenfassungen liefern. 
