@@ -1,5 +1,7 @@
 # Leben — der Chat als Tisch
 
+**Weg · Abend 3/6** · [Wege](../00-WEGE.md) · [← Das Spiel](00-das-spiel.md) · [Journal →](12-journal-und-log.md)
+
 Stand: 2026-09-08. 
 Quellen: GRW 2. Auflage S. 6–7, 149–155, 156–159, 171, 259–262; [00-das-spiel.md](00-das-spiel.md); [09-spielumgebung-vtt.md](09-spielumgebung-vtt.md); [01-wuerfel-und-grundmechanik.md](../05-regeln/01-wuerfel-und-grundmechanik.md); [04-kritische-treffer.md](../05-regeln/04-kritische-treffer.md); [01-kernrollen-des-SL.md](../06-spielleiter/01-kernrollen-des-SL.md).
 
@@ -191,4 +193,4 @@ KI darf Dialogvorschläge, Gerüchte, Zusammenfassungen liefern. Sie darf keinen
 
 Charakter einmal erschaffen, dann persistent über Szenen und Sitzungen. Ohne Bogen keine legale Aktion. Spieler würfelt nicht über das Ergebnis hinweg — er würfelt den W100, der SL deutet. Die Engine erfindet nichts. Der SL bleibt Welt, Regeln, Geschichte und Anführer. Die Frist bleibt die digitale Anwesenheit.
 
-Siehe auch: [Das Spiel](00-das-spiel.md), [Datenmodell](02-datenmodell.md), [Bibliothek](11-bibliothek.md), [Journal und SL-Log](12-journal-und-log.md), [Bildsprache](13-bildsprache.md), [Spielumgebung](09-spielumgebung-vtt.md).
+Siehe auch: [Wege · Abend](../00-WEGE.md), [Das Spiel](00-das-spiel.md), [Journal und SL-Log](12-journal-und-log.md), [Datenmodell](02-datenmodell.md), [Bibliothek](11-bibliothek.md), [Bildsprache](13-bildsprache.md).

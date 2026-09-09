@@ -1,6 +1,7 @@
 # Erschaffung — Erklärungen einzeln
 
-**Hinauf:** [Übersicht](../01-charaktererschaffung-uebersicht.md) · [Wege · Bogen](../../00-WEGE.md)  
+**Weg · Bogen 2/6** · [Wege](../../00-WEGE.md) · [← Übersicht](../01-charaktererschaffung-uebersicht.md) · [Völker →](../voelker/README.md)
+
 Jede Station hat **eine** Datei. Gespräch, Checkliste und Antworten **verweisen** hierher.  
 UI: Stationen in `/erschaffung`. [Orientierungsplan](../../10-system/08-ui-orientierung.md).
 

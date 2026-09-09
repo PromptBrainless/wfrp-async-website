@@ -1,5 +1,7 @@
 # Karrieren-Liste
 
+**Weg · Bogen 4/6** · [Wege](../00-WEGE.md) · [← Völker](../02-charaktere/voelker/README.md) · [Bogen-Felder →](../00-BOGEN.md)
+
 Quelle: S. 53–116
 
 Gerüst je Karriere. Vollprofil folgt in Welle B.

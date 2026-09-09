@@ -1,5 +1,7 @@
 # Das Spiel – verbindliche Beschreibung
 
+**Weg · Abend 2/6** · [Wege](../00-WEGE.md) · [← Kampagne 1](16-kampagne-1.md) · [Leben →](10-leben-chat.md)
+
 Stand: 2026-09-08 
 Quellen: GRW 2. Auflage S. 6–7, 33–36, 149–191, 192–201, 259–262; Projektvision Push/Countdown; Aktionskatalog v1.
 
@@ -378,15 +380,12 @@ Das ist WFRP am Tisch. Das Countdown-System ist nur der Weg, das zu tun, ohne da
 
 ### Siehe auch
 
+- [Wege · Abend](../00-WEGE.md)
 - [Kampagne 1](16-kampagne-1.md)
+- [Leben](10-leben-chat.md)
 - [Drosselau](../07-reikland/drosselau/README.md)
-- [Sims-Prinzip-Ableitung](01-sims-prinzip-ableitung.md)
-- [Datenmodell](02-datenmodell.md)
-- [Simulation Basar + Rauferei](03-simulation-basar-rauferei.md) — Archiv
-- [Aktionskatalog v1](04-aktionskatalog-v1.md)
 - [Grundprinzip des Spiels](../01-einfuehrung/01-grundprinzip-des-spiels.md)
 - [Kernrollen des SL](../06-spielleiter/01-kernrollen-des-SL.md)
-- [Ablauf am Spieltisch](../06-spielleiter/02-ablauf-am-spieltisch.md)
 - [Würfel und Grundmechanik](../05-regeln/01-wuerfel-und-grundmechanik.md)
-- [Kampf – Übersicht](../05-regeln/02-kampf-uebersicht.md)
-- [Übergabe](../00-UEBERGABE.md)
+- [Datenmodell](02-datenmodell.md)
+- [Aktionskatalog v1](04-aktionskatalog-v1.md)

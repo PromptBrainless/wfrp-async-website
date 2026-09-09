@@ -1,5 +1,7 @@
 # Drosselau — Stadt, Viertel, Gasse, Haus
 
+**Weg · Abend 6/6** · [Wege](../00-WEGE.md) · [← Register](../07-reikland/drosselau/bewohnerregister.md)
+
 Stand: 2026-09-08.  
 Kampagne 1 bleibt in der Stadt. Kein Weg nach Altdorf.
 

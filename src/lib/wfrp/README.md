@@ -1,5 +1,7 @@
 # src/lib/wfrp
 
+**Weg · Gerät 4/4** · [Wege](../../../knowledge/00-WEGE.md) · [← data/](../../../knowledge/data/README.md)
+
 Maschinenkern. UI hängt am Tisch (`/tisch` = Leben).
 
 | Datei | Inhalt |

@@ -1,5 +1,7 @@
 # Journal und SL-Log
 
+**Weg · Abend 4/6** · [Wege](../00-WEGE.md) · [← Leben](10-leben-chat.md) · [Async →](15-async-sitzung.md)
+
 Stand: 2026-09-08.
 Quellen: GRW 2. Auflage S. 259–262; [00-das-spiel.md](00-das-spiel.md); [10-leben-chat.md](10-leben-chat.md).
 

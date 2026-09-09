@@ -2,8 +2,9 @@
 
 Systematische, vernetzte Wissensbasis aus dem Grundregelwerk (2. überarbeitete Auflage).
 
-**Weg, nicht Katalog:** [00-WEGE.md](00-WEGE.md) — Abend · Bogen · Buch · Gerät  
-**Lies zuerst:** [00-KONTEXT.md](00-KONTEXT.md) · [00-BEFEHLE.md](00-BEFEHLE.md) · [00-UEBERGABE.md](00-UEBERGABE.md) · [NEUES-FENSTER.md](../NEUES-FENSTER.md)
+**Weg · Buch 3/5** · [Wege](00-WEGE.md) · [← Befehle](00-BEFEHLE.md) · [Register →](00-REGISTER.md)
+
+**Lies zuerst:** [00-KONTEXT.md](00-KONTEXT.md) · [00-UEBERGABE.md](00-UEBERGABE.md) · [NEUES-FENSTER.md](../NEUES-FENSTER.md)
 
 **Abgleich:** [00-ABGLEICH-INHALTSVERZEICHNIS.md](00-ABGLEICH-INHALTSVERZEICHNIS.md)
 

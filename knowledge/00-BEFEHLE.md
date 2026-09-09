@@ -1,5 +1,7 @@
 # Befehle – wie diese Wissensbasis weitergeführt wird
 
+**Weg · Buch 2/5** · [Wege](00-WEGE.md) · [← Vorlage](00-VORLAGE.md) · [Index →](00-INDEX.md)
+
 Verbindlich für jede Session.  
 [00-WEGE.md](00-WEGE.md) · [00-VORLAGE.md](00-VORLAGE.md) · [00-VOLLTEXT.md](00-VOLLTEXT.md) · [00-QUELLEN.md](00-QUELLEN.md) · [00-REGISTER.md](00-REGISTER.md) · [00-BOGEN.md](00-BOGEN.md) · [00-INDEX.md](00-INDEX.md)
 

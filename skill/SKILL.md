@@ -14,6 +14,8 @@ user-invocable: true
 
 # WFRP-Wissen — Qualität
 
+**Weg · Buch 5/5** · [Wege](../knowledge/00-WEGE.md) · [← Register](../knowledge/00-REGISTER.md)
+
 Lies **vor dem ersten Schreiben** in dieser Session:
 
 1. [knowledge/00-WEGE.md](../knowledge/00-WEGE.md) — welcher Weg, nicht alle Dateien

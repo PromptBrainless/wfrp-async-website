@@ -1,4 +1,7 @@
 # Register — verbindliche IDs
+
+**Weg · Bogen 6/6 · Buch 4/5** · [Wege](00-WEGE.md) · [← Bogen-Felder](00-BOGEN.md) · [Skill →](../skill/SKILL.md)
+
 Maschine: [data/register.json](data/register.json). Bogen: [00-BOGEN.md](00-BOGEN.md).
 Ein `id` je Typ. Slug: Kleinbuchstaben, `ae/oe/ue/ss`, Klammern weg.
 

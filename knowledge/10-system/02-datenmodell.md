@@ -1,5 +1,7 @@
 # Datenmodell v1
 
+**Weg · Gerät 1/4** · [Wege](../00-WEGE.md) · [Katalog →](04-aktionskatalog-v1.md)
+
 Quelle: abgeleitet. Regelanker GRW 2. Auflage S. 6–7, 33–36, 117–118, 149–172, 259–262. 
 Katalog: [04-aktionskatalog-v1.md](04-aktionskatalog-v1.md). 
 Simulation ist Walkthrough, nicht Schema: [05-simulation-vs-buch.md](05-simulation-vs-buch.md).

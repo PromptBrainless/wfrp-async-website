@@ -1,5 +1,7 @@
 # Charaktererschaffung – Übersicht
 
+**Weg · Bogen 1/6** · [Wege](../00-WEGE.md) · [39 Stationen →](erschaffung/README.md)
+
 Quelle: S. 24 ff.
 
 Spieler ohne Vorwissen: [Anfänger-Hilfe](09-anfaenger-hilfe.md) · [Gespräch 🔴](10-erschaffung-gespraech.md) · [Erklärungen](erschaffung/README.md) · [Alte Welt](../01-einfuehrung/03-die-alte-welt.md) · [Glauben](../11-religion/04-glauben-bei-der-erschaffung.md)

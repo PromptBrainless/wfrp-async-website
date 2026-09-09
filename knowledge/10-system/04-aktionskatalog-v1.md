@@ -1,5 +1,7 @@
 # Aktionskatalog v1 – als „implementiert“ für Simulationen
 
+**Weg · Gerät 2/4** · [Wege](../00-WEGE.md) · [← Datenmodell](02-datenmodell.md) · [data/ →](../data/README.md)
+
 Nur Aktionen, die aus bereits extrahierten Regeln ableitbar sind. 
 Kosten: **F** frei · **B** Bewegung · **H** Handlung
 

@@ -1,5 +1,7 @@
 # Kampagne 1
 
+**Weg · Abend 1/6** · [Wege](../00-WEGE.md) · [Das Spiel →](00-das-spiel.md)
+
 Stand: 2026-09-08.  
 Gesetzt vom Menschen: **Kampagne 1**, **5 Spieler**, **Ort: Drosselau**.
 

@@ -1,5 +1,7 @@
 # Charakterbogen — kanonische Felder
 
+**Weg · Bogen 5/6** · [Wege](00-WEGE.md) · [← Karrieren](03-klassen-karrieren/03-karrieren-liste.md) · [IDs →](00-REGISTER.md)
+
 Quelle der Regeln: S. 33–36, 44–45.  
 Maschine: [data/bogen.json](data/bogen.json) · Modell: [10-system/02-datenmodell.md](10-system/02-datenmodell.md)
 

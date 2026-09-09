@@ -1,5 +1,7 @@
 # Datenbanken v1
 
+**Weg · Gerät 3/4** · [Wege](../00-WEGE.md) · [← Katalog](../10-system/04-aktionskatalog-v1.md) · [Engine →](../../src/lib/wfrp/README.md)
+
 Maschinenlesbare Tabellen für die Engine. Autorität: GRW 2. Auflage. 
 Schema-Prosa: [../10-system/02-datenmodell.md](../10-system/02-datenmodell.md).
 

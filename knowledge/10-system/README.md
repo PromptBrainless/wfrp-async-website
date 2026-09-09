@@ -1,6 +1,8 @@
 # System
 
 Der Loop, nicht das Buch. Buch steht in den Kapiteln 01–09, 11–12.  
+**Weg · Abend** läuft durch diese Dateien, jede mit n/6 oben.
+
 Wege: [00-WEGE.md](../00-WEGE.md) · Spiel: [00-das-spiel.md](00-das-spiel.md)
 
 ## Abend

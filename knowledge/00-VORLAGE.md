@@ -1,5 +1,7 @@
 # Vorlage – eine Mechanik, drei Dateien
 
+**Weg · Buch 1/5** · [Wege](00-WEGE.md) · [Befehle →](00-BEFEHLE.md)
+
 Jede Mechanik, Fähigkeit, Talent, Karriere, Waffe, Zustand liegt in **einem Ordner**.
 
 ```
