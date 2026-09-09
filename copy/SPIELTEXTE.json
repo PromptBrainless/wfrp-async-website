@@ -1,0 +1,3432 @@
+[
+  {
+    "nr": 1,
+    "id": "T-001",
+    "section": "Lobby",
+    "wo": "kleine Zeile über dem Titel",
+    "datei": "src/routes/index.tsx",
+    "feld": "kicker",
+    "text": "Warhammer Fantasy Roleplay",
+    "match": "Warhammer Fantasy Roleplay"
+  },
+  {
+    "nr": 2,
+    "id": "T-002",
+    "section": "Lobby",
+    "wo": "Titel",
+    "datei": "src/routes/index.tsx",
+    "feld": "titel",
+    "text": "Die Frist",
+    "match": "Die Frist"
+  },
+  {
+    "nr": 3,
+    "id": "T-003",
+    "section": "Lobby",
+    "wo": "Einleitung unter dem Titel",
+    "datei": "src/routes/index.tsx",
+    "feld": "lead",
+    "text": "Drosselau, ein Marktflecken am Nebenfluss der Reik, unter dem Schutz Sigmars. Fünf Karten liegen bereit. Du wählst ein Gesicht — dann siehst du nur mit diesen Augen. Der Spielleiter führt die Regie, sitzt aber nicht mit am Tisch.",
+    "match": "Drosselau, ein Marktflecken am Nebenfluss der Reik, unter dem Schutz Sigmars."
+  },
+  {
+    "nr": 4,
+    "id": "T-004",
+    "section": "Lobby",
+    "wo": "Abschnitt bestehende Karten",
+    "datei": "src/routes/index.tsx",
+    "feld": "abschnitt-karte",
+    "text": "Eine Karte nutzen",
+    "match": "Eine Karte nutzen"
+  },
+  {
+    "nr": 5,
+    "id": "T-005",
+    "section": "Lobby",
+    "wo": "Abschnitt neue Karte",
+    "datei": "src/routes/index.tsx",
+    "feld": "abschnitt-neu",
+    "text": "Neue Karte",
+    "match": "Neue Karte"
+  },
+  {
+    "nr": 6,
+    "id": "T-006",
+    "section": "Lobby",
+    "wo": "Link Zufallskarte",
+    "datei": "src/routes/index.tsx",
+    "feld": "link-wuerfeln",
+    "text": "Würfeln, nur Name eintragen",
+    "match": "Würfeln, nur Name eintragen"
+  },
+  {
+    "nr": 7,
+    "id": "T-007",
+    "section": "Lobby",
+    "wo": "Link Erschaffung",
+    "datei": "src/routes/index.tsx",
+    "feld": "link-erschaffung",
+    "text": "Einen Charakter erschaffen",
+    "match": "Einen Charakter erschaffen"
+  },
+  {
+    "nr": 8,
+    "id": "T-008",
+    "section": "Lobby",
+    "wo": "Link Pult",
+    "datei": "src/routes/index.tsx",
+    "feld": "link-pult",
+    "text": "Zum Pult des Spielleiters",
+    "match": "Zum Pult des Spielleiters"
+  },
+  {
+    "nr": 9,
+    "id": "T-010",
+    "section": "Karte",
+    "wo": "Titel der Zufallskarte",
+    "datei": "src/routes/karte.tsx",
+    "feld": "titel",
+    "text": "Neue Karte",
+    "match": "Neue Karte"
+  },
+  {
+    "nr": 10,
+    "id": "T-011",
+    "section": "Karte",
+    "wo": "Erklärung unter dem Titel",
+    "datei": "src/routes/karte.tsx",
+    "feld": "lead",
+    "text": "Das Buch würfelt Volk, Karriere und Werte. Du nennst den Namen — das Gesicht hinter den Zahlen.",
+    "match": "Das Buch würfelt Volk, Karriere und Werte. Du nennst den Namen — das Gesicht hinter den Zahlen."
+  },
+  {
+    "nr": 11,
+    "id": "T-012",
+    "section": "Karte",
+    "wo": "Button neu würfeln",
+    "datei": "src/routes/karte.tsx",
+    "feld": "noch-einmal",
+    "text": "Noch einmal würfeln",
+    "match": "Noch einmal würfeln"
+  },
+  {
+    "nr": 12,
+    "id": "T-013",
+    "section": "Karte",
+    "wo": "Feld Name",
+    "datei": "src/routes/karte.tsx",
+    "feld": "feld-name",
+    "text": "Name",
+    "match": "Name"
+  },
+  {
+    "nr": 13,
+    "id": "T-014",
+    "section": "Karte",
+    "wo": "Feld Herkunft",
+    "datei": "src/routes/karte.tsx",
+    "feld": "feld-herkunft",
+    "text": "Herkunft",
+    "match": "Herkunft"
+  },
+  {
+    "nr": 14,
+    "id": "T-015",
+    "section": "Karte",
+    "wo": "Feld Gott",
+    "datei": "src/routes/karte.tsx",
+    "feld": "feld-gott",
+    "text": "Gott",
+    "match": "Gott"
+  },
+  {
+    "nr": 15,
+    "id": "T-016",
+    "section": "Karte",
+    "wo": "Platzwahl",
+    "datei": "src/routes/karte.tsx",
+    "feld": "platzwahl",
+    "text": "Welchen Platz nimmst du?",
+    "match": "Welchen Platz nimmst du?"
+  },
+  {
+    "nr": 16,
+    "id": "T-017",
+    "section": "Karte",
+    "wo": "freier Sitz",
+    "datei": "src/routes/karte.tsx",
+    "feld": "freier-platz",
+    "text": "Freier Platz",
+    "match": "Freier Platz"
+  },
+  {
+    "nr": 17,
+    "id": "T-018",
+    "section": "Karte",
+    "wo": "belegter Sitz (davor: Statt NAME)",
+    "datei": "src/routes/karte.tsx",
+    "feld": "statt",
+    "text": "Statt",
+    "match": "Statt"
+  },
+  {
+    "nr": 18,
+    "id": "T-020",
+    "section": "Tisch",
+    "wo": "ohne Karte, Titel",
+    "datei": "src/components/game/PlayScreen.tsx",
+    "feld": "wer-sitzt",
+    "text": "Wer sitzt?",
+    "match": "Wer sitzt?"
+  },
+  {
+    "nr": 19,
+    "id": "T-021",
+    "section": "Tisch",
+    "wo": "ohne Karte, Erklärung",
+    "datei": "src/components/game/PlayScreen.tsx",
+    "feld": "wer-sitzt-lead",
+    "text": "Erst eine Karte wählen. Dann der Tisch — du siehst mit den Augen, die du nimmst.",
+    "match": "Erst eine Karte wählen. Dann der Tisch — du siehst mit den Augen, die du nimmst."
+  },
+  {
+    "nr": 20,
+    "id": "T-022",
+    "section": "Tisch",
+    "wo": "ohne Karte, Link zurück",
+    "datei": "src/components/game/PlayScreen.tsx",
+    "feld": "zur-auswahl",
+    "text": "Zur Auswahl",
+    "match": "Zur Auswahl"
+  },
+  {
+    "nr": 21,
+    "id": "T-023",
+    "section": "Tisch",
+    "wo": "weitere Handlungen, Drawer-Titel",
+    "datei": "src/components/game/PlayScreen.tsx",
+    "feld": "weitere",
+    "text": "Weitere Handlungen",
+    "match": "Weitere Handlungen"
+  },
+  {
+    "nr": 22,
+    "id": "T-024",
+    "section": "Türen",
+    "wo": "Tür 1",
+    "datei": "src/components/game/Doors.tsx",
+    "feld": "tisch",
+    "text": "Tisch",
+    "match": "Tisch"
+  },
+  {
+    "nr": 23,
+    "id": "T-025",
+    "section": "Türen",
+    "wo": "Tür 2",
+    "datei": "src/components/game/Doors.tsx",
+    "feld": "blatt",
+    "text": "Blatt",
+    "match": "Blatt"
+  },
+  {
+    "nr": 24,
+    "id": "T-026",
+    "section": "Türen",
+    "wo": "Tür 3",
+    "datei": "src/components/game/Doors.tsx",
+    "feld": "journal",
+    "text": "Journal",
+    "match": "Journal"
+  },
+  {
+    "nr": 25,
+    "id": "T-027",
+    "section": "Türen",
+    "wo": "Tür 4",
+    "datei": "src/components/game/Doors.tsx",
+    "feld": "pult",
+    "text": "Pult",
+    "match": "Pult"
+  },
+  {
+    "nr": 26,
+    "id": "T-028",
+    "section": "Türen",
+    "wo": "aria der Leiste",
+    "datei": "src/components/game/Doors.tsx",
+    "feld": "aria",
+    "text": "Türen",
+    "match": "Türen"
+  },
+  {
+    "nr": 27,
+    "id": "T-030",
+    "section": "Frist",
+    "wo": "Band über dem Faden",
+    "datei": "src/components/game/FristBand.tsx",
+    "feld": "kein-zug",
+    "text": "Kein Zug. Alle dürfen handeln, bis die Frist um ist.",
+    "match": "Kein Zug. Alle dürfen handeln, bis die Frist um ist."
+  },
+  {
+    "nr": 28,
+    "id": "T-031",
+    "section": "Frist",
+    "wo": "wenn alle Absichten da sind",
+    "datei": "src/components/game/FristBand.tsx",
+    "feld": "alle-liegen",
+    "text": "Alle Absichten liegen.",
+    "match": "Alle Absichten liegen."
+  },
+  {
+    "nr": 29,
+    "id": "T-032",
+    "section": "Frist",
+    "wo": "offen-Prefix (danach Namen)",
+    "datei": "src/components/game/FristBand.tsx",
+    "feld": "offen",
+    "text": "Offen:",
+    "match": "Offen:"
+  },
+  {
+    "nr": 30,
+    "id": "T-033",
+    "section": "Kopf",
+    "wo": "Frist abgelaufen",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "frist-um",
+    "text": "Frist um",
+    "match": "Frist um"
+  },
+  {
+    "nr": 31,
+    "id": "T-034",
+    "section": "Kopf",
+    "wo": "Rolle SL",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "rolle-sl",
+    "text": "Spielleiter",
+    "match": "Spielleiter"
+  },
+  {
+    "nr": 32,
+    "id": "T-035",
+    "section": "Kopf",
+    "wo": "Rolle Spieler Fallback",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "rolle-spieler",
+    "text": "Spieler",
+    "match": "Spieler"
+  },
+  {
+    "nr": 33,
+    "id": "T-036",
+    "section": "Kopf",
+    "wo": "aria Blatt öffnen",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "blatt-oeffnen",
+    "text": "Blatt öffnen",
+    "match": "Blatt öffnen"
+  },
+  {
+    "nr": 34,
+    "id": "T-037",
+    "section": "Kopf",
+    "wo": "aria Bogen der Stimme (SL)",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "bogen-stimme",
+    "text": "Bogen der Stimme",
+    "match": "Bogen der Stimme"
+  },
+  {
+    "nr": 35,
+    "id": "T-038",
+    "section": "Kopf",
+    "wo": "Stat LP",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "stat-lp",
+    "text": "LP",
+    "match": "LP"
+  },
+  {
+    "nr": 36,
+    "id": "T-039",
+    "section": "Kopf",
+    "wo": "Stat Glück",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "stat-glueck",
+    "text": "Glück",
+    "match": "Glück"
+  },
+  {
+    "nr": 37,
+    "id": "T-040",
+    "section": "Kopf",
+    "wo": "Stat Geld",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "stat-geld",
+    "text": "Geld",
+    "match": "Geld"
+  },
+  {
+    "nr": 38,
+    "id": "T-041",
+    "section": "Kopf",
+    "wo": "SL sieht Stimme",
+    "datei": "src/components/game/CharHead.tsx",
+    "feld": "naechste-zeile",
+    "text": "Nächste Zeile trägt",
+    "match": "Nächste Zeile trägt"
+  },
+  {
+    "nr": 39,
+    "id": "T-050",
+    "section": "Faden",
+    "wo": "Filter Alles",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "filter-alle",
+    "text": "Alles",
+    "match": "Alles"
+  },
+  {
+    "nr": 40,
+    "id": "T-051",
+    "section": "Faden",
+    "wo": "Filter Welt",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "filter-welt",
+    "text": "Welt",
+    "match": "Welt"
+  },
+  {
+    "nr": 41,
+    "id": "T-052",
+    "section": "Faden",
+    "wo": "Filter Intention",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "filter-intent",
+    "text": "Intention",
+    "match": "Intention"
+  },
+  {
+    "nr": 42,
+    "id": "T-053",
+    "section": "Faden",
+    "wo": "Filter Wurf",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "filter-wurf",
+    "text": "Wurf",
+    "match": "Wurf"
+  },
+  {
+    "nr": 43,
+    "id": "T-054",
+    "section": "Faden",
+    "wo": "Filter Ereignis",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "filter-ereignis",
+    "text": "Ereignis",
+    "match": "Ereignis"
+  },
+  {
+    "nr": 44,
+    "id": "T-055",
+    "section": "Faden",
+    "wo": "Filter SL",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "filter-sl",
+    "text": "SL",
+    "match": "SL"
+  },
+  {
+    "nr": 45,
+    "id": "T-056",
+    "section": "Faden",
+    "wo": "Filter System",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "filter-system",
+    "text": "System",
+    "match": "System"
+  },
+  {
+    "nr": 46,
+    "id": "T-057",
+    "section": "Faden",
+    "wo": "Suche",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "suche",
+    "text": "Im Faden suchen",
+    "match": "Im Faden suchen"
+  },
+  {
+    "nr": 47,
+    "id": "T-058",
+    "section": "Faden",
+    "wo": "leer, Szene offen",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "leer-offen",
+    "text": "Noch kein Beat. Die Szene wartet.",
+    "match": "Noch kein Beat. Die Szene wartet."
+  },
+  {
+    "nr": 48,
+    "id": "T-059",
+    "section": "Faden",
+    "wo": "leer, Szene zu, SL",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "leer-zu-sl",
+    "text": "Szene zu. Öffne eine Gasse im Pult.",
+    "match": "Szene zu. Öffne eine Gasse im Pult."
+  },
+  {
+    "nr": 49,
+    "id": "T-060",
+    "section": "Faden",
+    "wo": "leer, Szene zu, Spieler",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "leer-zu-spieler",
+    "text": "Szene zu. Der Spielleiter öffnet eine Gasse.",
+    "match": "Szene zu. Der Spielleiter öffnet eine Gasse."
+  },
+  {
+    "nr": 50,
+    "id": "T-061",
+    "section": "Faden",
+    "wo": "Zeitstempel vor der Uhr",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "auftakt",
+    "text": "Auftakt",
+    "match": "Auftakt"
+  },
+  {
+    "nr": 51,
+    "id": "T-062",
+    "section": "Faden",
+    "wo": "geheim-Markierung",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "geheim",
+    "text": "geheim",
+    "match": "geheim"
+  },
+  {
+    "nr": 52,
+    "id": "T-063",
+    "section": "Faden",
+    "wo": "Wurf-Aufforderung Titel",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "dein-wurf",
+    "text": "Dein Wurf",
+    "match": "Dein Wurf"
+  },
+  {
+    "nr": 53,
+    "id": "T-064",
+    "section": "Faden",
+    "wo": "Wurf-Aufforderung Text (Name folgt im Satz davor)",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "wurf-erklaerung",
+    "text": "Der SL hat {name} aufgefordert. Die Rechnung erscheint danach im Faden.",
+    "match": "Der SL hat {name} aufgefordert. Die Rechnung ers"
+  },
+  {
+    "nr": 54,
+    "id": "T-065",
+    "section": "Faden",
+    "wo": "SL schreibt, Kicker",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "sl-schreibt",
+    "text": "SL schreibt ins Leben",
+    "match": "SL schreibt ins Leben"
+  },
+  {
+    "nr": 55,
+    "id": "T-066",
+    "section": "Faden",
+    "wo": "SL schreibt, Platzhalter Körper",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "placeholder-welt",
+    "text": "Was die Welt tut. Spieler sehen das, außer geheim.",
+    "match": "Was die Welt tut. Spieler sehen das, außer geheim."
+  },
+  {
+    "nr": 56,
+    "id": "T-067",
+    "section": "Faden",
+    "wo": "Checkbox nur SL",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "nur-sl",
+    "text": "Nur SL",
+    "match": "Nur SL"
+  },
+  {
+    "nr": 57,
+    "id": "T-068",
+    "section": "Faden",
+    "wo": "Button Eintragen",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "eintragen",
+    "text": "Eintragen",
+    "match": "Eintragen"
+  },
+  {
+    "nr": 58,
+    "id": "T-069",
+    "section": "Faden",
+    "wo": "Button Würfeln",
+    "datei": "src/components/game/Leben.tsx",
+    "feld": "wuerfeln",
+    "text": "Würfeln",
+    "match": "Würfeln"
+  },
+  {
+    "nr": 59,
+    "id": "T-080",
+    "section": "Handeln",
+    "wo": "Wurf-Erklärung Spieler",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "w100",
+    "text": "Ein W100 entscheidet über Erfolg oder Misserfolg — was daraus in der Szene wird, erzählst du danach selbst.",
+    "match": "Ein W100 entscheidet über Erfolg oder Misserfolg — was daraus in der Szene wird, erzählst du danach selbst."
+  },
+  {
+    "nr": 60,
+    "id": "T-081",
+    "section": "Handeln",
+    "wo": "Absicht liegt beim SL",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "liegt-sl",
+    "text": "Deine Intention liegt beim Spielleiter. Warte auf die Frist — oder auf die Aufforderung zum Wurf.",
+    "match": "Deine Intention liegt beim Spielleiter. Warte auf die Frist — oder auf die Aufforderung zum Wurf."
+  },
+  {
+    "nr": 61,
+    "id": "T-082",
+    "section": "Handeln",
+    "wo": "eigene Absicht liegt, andere dürfen",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "liegt-gruppe",
+    "text": "Deine Absicht liegt. Die anderen dürfen noch. Kein Zug — die Frist hält den Tisch.",
+    "match": "Deine Absicht liegt. Die anderen dürfen noch. Kein Zug — die Frist hält den Tisch."
+  },
+  {
+    "nr": 62,
+    "id": "T-083",
+    "section": "Handeln",
+    "wo": "leerer Platz",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "kein-bogen",
+    "text": "Auf diesem Platz liegt noch kein Bogen.",
+    "match": "Auf diesem Platz liegt noch kein Bogen."
+  },
+  {
+    "nr": 63,
+    "id": "T-084",
+    "section": "Handeln",
+    "wo": "Link von leerem Platz",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "link-wuerfeln",
+    "text": "Würfeln, nur Name eintragen",
+    "match": "Würfeln, nur Name eintragen"
+  },
+  {
+    "nr": 64,
+    "id": "T-085",
+    "section": "Handeln",
+    "wo": "Szene zu",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "gasse-zu",
+    "text": "Die Gasse liegt zu. Der Spielleiter entscheidet, welche Tür sich öffnet.",
+    "match": "Die Gasse liegt zu. Der Spielleiter entscheidet, welche Tür sich öffnet."
+  },
+  {
+    "nr": 65,
+    "id": "T-086",
+    "section": "Handeln",
+    "wo": "Chip-Frage Spieler",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "was-tust-du",
+    "text": "Was tust du?",
+    "match": "Was tust du?"
+  },
+  {
+    "nr": 66,
+    "id": "T-087",
+    "section": "Handeln",
+    "wo": "Chip-Frage SL für Stimme",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "fuer-who",
+    "text": "Für {who}",
+    "match": "Für {who}"
+  },
+  {
+    "nr": 67,
+    "id": "T-088",
+    "section": "Handeln",
+    "wo": "Hinweis erste Chips",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "erst-ort",
+    "text": "Erst den Ort. Dann eine Absicht — ausgegraute Karten bleiben sichtbar, mit Grund.",
+    "match": "Erst den Ort. Dann eine Absicht — ausgegraute Karten bleiben sichtbar, mit Grund."
+  },
+  {
+    "nr": 68,
+    "id": "T-089",
+    "section": "Handeln",
+    "wo": "Chip Weitere",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "weitere",
+    "text": "Weitere",
+    "match": "Weitere"
+  },
+  {
+    "nr": 69,
+    "id": "T-090",
+    "section": "Handeln",
+    "wo": "Glück anderer wirft",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "glueck-fremd",
+    "text": "{name} darf Glück ausgeben. Das entscheidet, wer geworfen hat.",
+    "match": "{name} darf Glück ausgeben. Das entscheidet, wer"
+  },
+  {
+    "nr": 70,
+    "id": "T-091",
+    "section": "Handeln",
+    "wo": "Glück eigene Frage",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "glueck-frage",
+    "text": "Glück ausgeben?",
+    "match": "Glück ausgeben?"
+  },
+  {
+    "nr": 71,
+    "id": "T-092",
+    "section": "Handeln",
+    "wo": "Glück wiederholen",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "wurf-wiederholen",
+    "text": "Wurf wiederholen",
+    "match": "Wurf wiederholen"
+  },
+  {
+    "nr": 72,
+    "id": "T-093",
+    "section": "Handeln",
+    "wo": "Glück +1 EG",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "plus-eg",
+    "text": "+1 EG",
+    "match": "+1 EG"
+  },
+  {
+    "nr": 73,
+    "id": "T-094",
+    "section": "Handeln",
+    "wo": "Glück behalten",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "behalten",
+    "text": "Behalten",
+    "match": "Behalten"
+  },
+  {
+    "nr": 74,
+    "id": "T-095",
+    "section": "Handeln",
+    "wo": "SL: Spieler würfelt",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "spieler-wuerfelt",
+    "text": "Spieler würfelt",
+    "match": "Spieler würfelt"
+  },
+  {
+    "nr": 75,
+    "id": "T-096",
+    "section": "Handeln",
+    "wo": "SL: in Vertretung",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "vertretung",
+    "text": "In Vertretung",
+    "match": "In Vertretung"
+  },
+  {
+    "nr": 76,
+    "id": "T-097",
+    "section": "Handeln",
+    "wo": "SL: ohne Wurf gelten",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "ohne-wurf",
+    "text": "Ohne Wurf",
+    "match": "Ohne Wurf"
+  },
+  {
+    "nr": 77,
+    "id": "T-098",
+    "section": "Handeln",
+    "wo": "SL: nein",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "nein",
+    "text": "Nein",
+    "match": "Nein"
+  },
+  {
+    "nr": 78,
+    "id": "T-099",
+    "section": "Handeln",
+    "wo": "Schwierigkeit Label",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "schwierigkeit",
+    "text": "Schwierigkeit",
+    "match": "Schwierigkeit"
+  },
+  {
+    "nr": 79,
+    "id": "T-100",
+    "section": "Handeln",
+    "wo": "Cast Welt",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "welt",
+    "text": "Welt",
+    "match": "Welt"
+  },
+  {
+    "nr": 80,
+    "id": "T-101",
+    "section": "Handeln",
+    "wo": "Placeholder Welt tut",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "placeholder-welt",
+    "text": "Was die Welt tut",
+    "match": "Was die Welt tut"
+  },
+  {
+    "nr": 81,
+    "id": "T-102",
+    "section": "Handeln",
+    "wo": "Placeholder Stimme",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "placeholder-stimme",
+    "text": "Was {who} sagt oder tut",
+    "match": "Was {who} sagt oder tut"
+  },
+  {
+    "nr": 82,
+    "id": "T-103",
+    "section": "Handeln",
+    "wo": "Button Ins Leben",
+    "datei": "src/components/game/Composer.tsx",
+    "feld": "ins-leben",
+    "text": "Ins Leben",
+    "match": "Ins Leben"
+  },
+  {
+    "nr": 83,
+    "id": "T-110",
+    "section": "Glück",
+    "wo": "Modal Erklärung",
+    "datei": "src/components/game/FortuneModal.tsx",
+    "feld": "erklaerung",
+    "text": "Nur direkt nach dem eigenen Wurf einsetzbar. Ohne Antwort gilt er als nicht ausgegeben.",
+    "match": "Nur direkt nach dem eigenen Wurf einsetzbar. Ohne Antwort gilt er als nicht ausgegeben."
+  },
+  {
+    "nr": 84,
+    "id": "T-111",
+    "section": "Glück",
+    "wo": "Modal Titel",
+    "datei": "src/components/game/FortuneModal.tsx",
+    "feld": "titel",
+    "text": "Glück",
+    "match": "Glück"
+  },
+  {
+    "nr": 85,
+    "id": "T-120",
+    "section": "Kartenleiste",
+    "wo": "Wurf steht aus",
+    "datei": "src/components/game/IntentBar.tsx",
+    "feld": "wurf-aus",
+    "text": "Dein Wurf steht aus",
+    "match": "Dein Wurf steht aus"
+  },
+  {
+    "nr": 86,
+    "id": "T-121",
+    "section": "Kartenleiste",
+    "wo": "Wurf Erklärung",
+    "datei": "src/components/game/IntentBar.tsx",
+    "feld": "w100",
+    "text": "Ein W100 entscheidet gegen die angesagte Zielzahl — was er bedeutet, deutet der Spielleiter danach.",
+    "match": "Ein W100 entscheidet gegen die angesagte Zielzahl — was er bedeutet, deutet der Spielleiter danach."
+  },
+  {
+    "nr": 87,
+    "id": "T-122",
+    "section": "Kartenleiste",
+    "wo": "Intention beim SL",
+    "datei": "src/components/game/IntentBar.tsx",
+    "feld": "liegt-sl",
+    "text": "Deine Intention liegt beim Spielleiter. Warte auf die Frist — oder auf die Aufforderung zum Wurf.",
+    "match": "Deine Intention liegt beim Spielleiter. Warte auf die Frist — oder auf die Aufforderung zum Wurf."
+  },
+  {
+    "nr": 88,
+    "id": "T-123",
+    "section": "Kartenleiste",
+    "wo": "keine Karte gewählt",
+    "datei": "src/components/game/IntentBar.tsx",
+    "feld": "waehle",
+    "text": "Wähle eine Karte. Ausgegraute Karten bleiben sichtbar, mit einem Grund, warum sie noch nicht offenstehen.",
+    "match": "Wähle eine Karte. Ausgegraute Karten bleiben sichtbar, mit einem Grund, warum sie noch nicht offenstehen."
+  },
+  {
+    "nr": 89,
+    "id": "T-124",
+    "section": "Kartenleiste",
+    "wo": "Placeholder Gehen",
+    "datei": "src/components/game/IntentBar.tsx",
+    "feld": "wohin",
+    "text": "Wohin in der Szene",
+    "match": "Wohin in der Szene"
+  },
+  {
+    "nr": 90,
+    "id": "T-125",
+    "section": "Kartenleiste",
+    "wo": "Placeholder allgemein",
+    "datei": "src/components/game/IntentBar.tsx",
+    "feld": "kurze-zeile",
+    "text": "Kurze Zeile an den SL (optional)",
+    "match": "Kurze Zeile an den SL (optional)"
+  },
+  {
+    "nr": 91,
+    "id": "T-126",
+    "section": "Kartenleiste",
+    "wo": "Button senden",
+    "datei": "src/components/game/IntentBar.tsx",
+    "feld": "senden",
+    "text": "Intention senden",
+    "match": "Intention senden"
+  },
+  {
+    "nr": 92,
+    "id": "T-127",
+    "section": "Kartenleiste",
+    "wo": "Auflösen Prefix",
+    "datei": "src/components/game/IntentBar.tsx",
+    "feld": "aufloesen",
+    "text": "Auflösen:",
+    "match": "Auflösen:"
+  },
+  {
+    "nr": 93,
+    "id": "T-130",
+    "section": "Journal",
+    "wo": "Kicker",
+    "datei": "src/components/game/Journal.tsx",
+    "feld": "kicker",
+    "text": "Journal",
+    "match": "Journal"
+  },
+  {
+    "nr": 94,
+    "id": "T-131",
+    "section": "Journal",
+    "wo": "Titel",
+    "datei": "src/components/game/Journal.tsx",
+    "feld": "titel",
+    "text": "Blätter",
+    "match": "Blätter"
+  },
+  {
+    "nr": 95,
+    "id": "T-132",
+    "section": "Journal",
+    "wo": "nichts freigegeben",
+    "datei": "src/components/game/Journal.tsx",
+    "feld": "leer",
+    "text": "Noch ist kein Blatt freigegeben — der Spielleiter entscheidet, wann.",
+    "match": "Noch ist kein Blatt freigegeben — der Spielleiter entscheidet, wann."
+  },
+  {
+    "nr": 96,
+    "id": "T-133",
+    "section": "Journal",
+    "wo": "Button Freigeben",
+    "datei": "src/components/game/Journal.tsx",
+    "feld": "freigeben",
+    "text": "Freigeben",
+    "match": "Freigeben"
+  },
+  {
+    "nr": 97,
+    "id": "T-134",
+    "section": "Journal",
+    "wo": "Link zum Bogen",
+    "datei": "src/components/game/Journal.tsx",
+    "feld": "zum-bogen",
+    "text": "Zum Bogen",
+    "match": "Zum Bogen"
+  },
+  {
+    "nr": 98,
+    "id": "T-135",
+    "section": "Journal",
+    "wo": "Pane Titel",
+    "datei": "src/components/game/JournalPane.tsx",
+    "feld": "titel",
+    "text": "Was geschehen ist",
+    "match": "Was geschehen ist"
+  },
+  {
+    "nr": 99,
+    "id": "T-136",
+    "section": "Journal",
+    "wo": "Pane leer",
+    "datei": "src/components/game/JournalPane.tsx",
+    "feld": "leer",
+    "text": "Noch leer. Das Journal schreibt mit, sobald etwas geschieht — was nur deine Augen sahen, bleibt bei dir.",
+    "match": "Noch leer. Das Journal schreibt mit, sobald etwas geschieht — was nur deine Augen sahen, bleibt bei dir."
+  },
+  {
+    "nr": 100,
+    "id": "T-140",
+    "section": "Blatt",
+    "wo": "kein Bogen Titel",
+    "datei": "src/components/game/ZustandPane.tsx",
+    "feld": "kein-bogen",
+    "text": "Kein Bogen",
+    "match": "Kein Bogen"
+  },
+  {
+    "nr": 101,
+    "id": "T-141",
+    "section": "Blatt",
+    "wo": "kein Bogen Text",
+    "datei": "src/components/game/ZustandPane.tsx",
+    "feld": "kein-bogen-lead",
+    "text": "Erst eine Karte wählen. Dann liegt hier der Bogen.",
+    "match": "Erst eine Karte wählen. Dann liegt hier der Bogen."
+  },
+  {
+    "nr": 102,
+    "id": "T-142",
+    "section": "Blatt",
+    "wo": "Kicker",
+    "datei": "src/components/game/ZustandPane.tsx",
+    "feld": "kicker",
+    "text": "Blatt",
+    "match": "Blatt"
+  },
+  {
+    "nr": 103,
+    "id": "T-143",
+    "section": "Blatt",
+    "wo": "Waffe geführt",
+    "datei": "src/components/game/ZustandPane.tsx",
+    "feld": "dolch",
+    "text": "Dolch gezogen",
+    "match": "Dolch gezogen"
+  },
+  {
+    "nr": 104,
+    "id": "T-150",
+    "section": "Hub",
+    "wo": "Kicker",
+    "datei": "src/components/game/Hub.tsx",
+    "feld": "kicker",
+    "text": "Kampagne",
+    "match": "Kampagne"
+  },
+  {
+    "nr": 105,
+    "id": "T-151",
+    "section": "Hub",
+    "wo": "Erklärung",
+    "datei": "src/components/game/Hub.tsx",
+    "feld": "lead",
+    "text": "Nur geöffnete Orte liegen auf dem Tisch. Teaser und Hinweis sind Verpackung — die Schwierigkeit setzt der Spielleiter am Wurf. Noch geschlossene Türen öffnet allein er.",
+    "match": "Nur geöffnete Orte liegen auf dem Tisch."
+  },
+  {
+    "nr": 106,
+    "id": "T-152",
+    "section": "Hub",
+    "wo": "Hinweis ruhig",
+    "datei": "src/components/game/Hub.tsx",
+    "feld": "ruhig",
+    "text": "Ruhig",
+    "match": "Ruhig"
+  },
+  {
+    "nr": 107,
+    "id": "T-153",
+    "section": "Hub",
+    "wo": "Hinweis angespannt",
+    "datei": "src/components/game/Hub.tsx",
+    "feld": "angespannt",
+    "text": "Angespannt",
+    "match": "Angespannt"
+  },
+  {
+    "nr": 108,
+    "id": "T-154",
+    "section": "Hub",
+    "wo": "Hinweis gefährlich",
+    "datei": "src/components/game/Hub.tsx",
+    "feld": "gefaehrlich",
+    "text": "Gefährlich",
+    "match": "Gefährlich"
+  },
+  {
+    "nr": 109,
+    "id": "T-155",
+    "section": "Hub",
+    "wo": "Vorbedingung",
+    "datei": "src/components/game/Hub.tsx",
+    "feld": "vorbedingung",
+    "text": "Vorbedingung offen",
+    "match": "Vorbedingung offen"
+  },
+  {
+    "nr": 110,
+    "id": "T-160",
+    "section": "Pult",
+    "wo": "Kicker",
+    "datei": "src/components/game/Pult.tsx",
+    "feld": "kicker",
+    "text": "Pult",
+    "match": "Pult"
+  },
+  {
+    "nr": 111,
+    "id": "T-161",
+    "section": "Pult",
+    "wo": "Szene zu",
+    "datei": "src/components/game/Pult.tsx",
+    "feld": "zu",
+    "text": "zu",
+    "match": "zu"
+  },
+  {
+    "nr": 112,
+    "id": "T-162",
+    "section": "Pult",
+    "wo": "Szene offen",
+    "datei": "src/components/game/Pult.tsx",
+    "feld": "offen",
+    "text": "offen",
+    "match": "offen"
+  },
+  {
+    "nr": 113,
+    "id": "T-163",
+    "section": "Pult",
+    "wo": "keine Absicht",
+    "datei": "src/components/game/Pult.tsx",
+    "feld": "keine-absicht",
+    "text": "Keine offene Absicht — die Frist läuft trotzdem.",
+    "match": "Keine offene Absicht — die Frist läuft trotzdem."
+  },
+  {
+    "nr": 114,
+    "id": "T-164",
+    "section": "Pult",
+    "wo": "Spalte Spieler",
+    "datei": "src/components/game/Pult.tsx",
+    "feld": "spalte-spieler",
+    "text": "Spieler",
+    "match": "Spieler"
+  },
+  {
+    "nr": 115,
+    "id": "T-165",
+    "section": "Pult",
+    "wo": "Button Leitung",
+    "datei": "src/components/game/Pult.tsx",
+    "feld": "leitung",
+    "text": "Leitung übernehmen",
+    "match": "Leitung übernehmen"
+  },
+  {
+    "nr": 116,
+    "id": "T-166",
+    "section": "Pult",
+    "wo": "SlDesk Kopf",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "kopf",
+    "text": "Du siehst dieselbe Szene wie die Spieler — aber diese Klappe bleibt allein dir vorbehalten. Du führst die Regie, sitzt aber nicht mit am Tisch.",
+    "match": "Du siehst dieselbe Szene wie die Spieler — aber diese Klappe bleibt allein dir vorbehalten."
+  },
+  {
+    "nr": 117,
+    "id": "T-167",
+    "section": "Pult",
+    "wo": "SlDesk Titel",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "titel",
+    "text": "Spielleiter",
+    "match": "Spielleiter"
+  },
+  {
+    "nr": 118,
+    "id": "T-168",
+    "section": "Pult",
+    "wo": "Als Spieler",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "als-spieler",
+    "text": "Als Spieler",
+    "match": "Als Spieler"
+  },
+  {
+    "nr": 119,
+    "id": "T-169",
+    "section": "Pult",
+    "wo": "In die Welt schreiben",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "in-die-welt",
+    "text": "In die Welt schreiben",
+    "match": "In die Welt schreiben"
+  },
+  {
+    "nr": 120,
+    "id": "T-170",
+    "section": "Pult",
+    "wo": "Placeholder Titel",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "placeholder-titel",
+    "text": "Titel",
+    "match": "Titel"
+  },
+  {
+    "nr": 121,
+    "id": "T-171",
+    "section": "Pult",
+    "wo": "Placeholder Körper",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "placeholder-koerper",
+    "text": "Was die Welt tut.",
+    "match": "Was die Welt tut."
+  },
+  {
+    "nr": 122,
+    "id": "T-172",
+    "section": "Pult",
+    "wo": "Frist jetzt",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "frist-jetzt",
+    "text": "Frist jetzt",
+    "match": "Frist jetzt"
+  },
+  {
+    "nr": 123,
+    "id": "T-173",
+    "section": "Pult",
+    "wo": "gezogen, nicht in der Welt",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "gezogen",
+    "text": "Gezogen — noch nicht in der Welt",
+    "match": "Gezogen — noch nicht in der Welt"
+  },
+  {
+    "nr": 124,
+    "id": "T-174",
+    "section": "Pult",
+    "wo": "Ins Leben",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "ins-leben",
+    "text": "Ins Leben",
+    "match": "Ins Leben"
+  },
+  {
+    "nr": 125,
+    "id": "T-175",
+    "section": "Pult",
+    "wo": "Verwerfen",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "verwerfen",
+    "text": "Verwerfen",
+    "match": "Verwerfen"
+  },
+  {
+    "nr": 126,
+    "id": "T-176",
+    "section": "Pult",
+    "wo": "Trigger Kopf",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "trigger",
+    "text": "Trigger dieser Gasse",
+    "match": "Trigger dieser Gasse"
+  },
+  {
+    "nr": 127,
+    "id": "T-177",
+    "section": "Pult",
+    "wo": "Trigger Hinweis",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "trigger-hinweis",
+    "text": "Nur du ziehst. Öffnen der Szene zündet nichts.",
+    "match": "Nur du ziehst. Öffnen der Szene zündet nichts."
+  },
+  {
+    "nr": 128,
+    "id": "T-178",
+    "section": "Pult",
+    "wo": "keine Keime",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "keine-keime",
+    "text": "Keine vorbereiteten Keime an diesem Ort.",
+    "match": "Keine vorbereiteten Keime an diesem Ort."
+  },
+  {
+    "nr": 129,
+    "id": "T-179",
+    "section": "Pult",
+    "wo": "Ziehen",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "ziehen",
+    "text": "Ziehen",
+    "match": "Ziehen"
+  },
+  {
+    "nr": 130,
+    "id": "T-180",
+    "section": "Pult",
+    "wo": "Gezogen Button",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "gezogen-btn",
+    "text": "Gezogen",
+    "match": "Gezogen"
+  },
+  {
+    "nr": 131,
+    "id": "T-181",
+    "section": "Pult",
+    "wo": "Anwesend",
+    "datei": "src/components/game/SlDesk.tsx",
+    "feld": "anwesend",
+    "text": "Anwesend",
+    "match": "Anwesend"
+  },
+  {
+    "nr": 132,
+    "id": "T-190",
+    "section": "Stadtblatt SL",
+    "wo": "Kicker",
+    "datei": "src/routes/sl.tsx",
+    "feld": "kicker",
+    "text": "Spielleiter · Kampagne 1",
+    "match": "Spielleiter · Kampagne 1"
+  },
+  {
+    "nr": 133,
+    "id": "T-191",
+    "section": "Stadtblatt SL",
+    "wo": "Einleitung (Zahlen werden eingesetzt)",
+    "datei": "src/routes/sl.tsx",
+    "feld": "lead",
+    "text": "Stadt, Viertel, Gasse, Haus, Haushalt — {Häuser} Adressen in {Viertel} Vierteln. {Szenen} Szenen liegen bereit. Die Torstraße ist offen. {Gruppen} Gruppen und 42 Stammbäume geben dir, was du brauchst, um jede Tür mit einem Namen zu füllen.",
+    "match": "Stadt, Viertel, Gasse, Haus, Haushalt — {Häuser}"
+  },
+  {
+    "nr": 134,
+    "id": "T-192",
+    "section": "Stadtblatt SL",
+    "wo": "Kartenzeile",
+    "datei": "src/routes/sl.tsx",
+    "feld": "karten",
+    "text": "Karten: Tick, Track, Truck, Hanni, Nanni",
+    "match": "Karten: Tick, Track, Truck, Hanni, Nanni"
+  },
+  {
+    "nr": 135,
+    "id": "T-193",
+    "section": "Stadtblatt SL",
+    "wo": "geöffnet",
+    "datei": "src/routes/sl.tsx",
+    "feld": "geoeffnet",
+    "text": "Geöffnet: Torstraße — der erste Zug liegt bei den fünf",
+    "match": "Geöffnet: Torstraße — der erste Zug liegt bei den fünf"
+  },
+  {
+    "nr": 136,
+    "id": "T-194",
+    "section": "Stadtblatt SL",
+    "wo": "Gruppen-Überschrift",
+    "datei": "src/routes/sl.tsx",
+    "feld": "gruppen",
+    "text": "Gruppen",
+    "match": "Gruppen"
+  },
+  {
+    "nr": 137,
+    "id": "T-200",
+    "section": "Erschaffung",
+    "wo": "Zurück",
+    "datei": "src/components/chargen/Wizard.tsx",
+    "feld": "zurueck",
+    "text": "Zurück",
+    "match": "Zurück"
+  },
+  {
+    "nr": 138,
+    "id": "T-201",
+    "section": "Erschaffung",
+    "wo": "Weiter",
+    "datei": "src/components/chargen/Wizard.tsx",
+    "feld": "weiter",
+    "text": "Weiter",
+    "match": "Weiter"
+  },
+  {
+    "nr": 139,
+    "id": "T-202",
+    "section": "Erschaffung",
+    "wo": "letzter Schritt",
+    "datei": "src/components/chargen/Wizard.tsx",
+    "feld": "auf-bogen",
+    "text": "Auf den Bogen",
+    "match": "Auf den Bogen"
+  },
+  {
+    "nr": 140,
+    "id": "T-210",
+    "section": "Tabs",
+    "wo": "Sozial",
+    "datei": "src/components/game/ActionTabs.tsx",
+    "feld": "sozial",
+    "text": "Sozial",
+    "match": "Sozial"
+  },
+  {
+    "nr": 141,
+    "id": "T-211",
+    "section": "Tabs",
+    "wo": "Bewegung",
+    "datei": "src/components/game/ActionTabs.tsx",
+    "feld": "bewegung",
+    "text": "Bewegung",
+    "match": "Bewegung"
+  },
+  {
+    "nr": 142,
+    "id": "T-212",
+    "section": "Tabs",
+    "wo": "Kampf",
+    "datei": "src/components/game/ActionTabs.tsx",
+    "feld": "kampf",
+    "text": "Kampf",
+    "match": "Kampf"
+  },
+  {
+    "nr": 143,
+    "id": "T-213",
+    "section": "Tabs",
+    "wo": "Ressourcen",
+    "datei": "src/components/game/ActionTabs.tsx",
+    "feld": "ressourcen",
+    "text": "Ressourcen",
+    "match": "Ressourcen"
+  },
+  {
+    "nr": 144,
+    "id": "T-220",
+    "section": "Karte/Brett",
+    "wo": "Vorhang reißen",
+    "datei": "src/components/game/MapBoard.tsx",
+    "feld": "vorhang",
+    "text": "Vorhang reißen",
+    "match": "Vorhang reißen"
+  },
+  {
+    "nr": 145,
+    "id": "T-221",
+    "section": "Karte/Brett",
+    "wo": "nicht enthüllt",
+    "datei": "src/components/game/MapBoard.tsx",
+    "feld": "nicht-enthuellt",
+    "text": "Noch nicht enthüllt",
+    "match": "Noch nicht enthüllt"
+  },
+  {
+    "nr": 146,
+    "id": "T-222",
+    "section": "Karte/Brett",
+    "wo": "nicht gebunden",
+    "datei": "src/components/game/MapBoard.tsx",
+    "feld": "nicht-gebunden",
+    "text": "nicht gebunden",
+    "match": "nicht gebunden"
+  },
+  {
+    "nr": 147,
+    "id": "T-223",
+    "section": "Karte/Brett",
+    "wo": "Sturmangriff möglich",
+    "datei": "src/components/game/MapBoard.tsx",
+    "feld": "sturm",
+    "text": "Sturmangriff möglich",
+    "match": "Sturmangriff möglich"
+  },
+  {
+    "nr": 148,
+    "id": "T-224",
+    "section": "Karte/Brett",
+    "wo": "Verlassen",
+    "datei": "src/components/game/MapBoard.tsx",
+    "feld": "verlassen",
+    "text": "Verlassen",
+    "match": "Verlassen"
+  },
+  {
+    "nr": 149,
+    "id": "T-225",
+    "section": "Karte/Brett",
+    "wo": "Gehen",
+    "datei": "src/components/game/MapBoard.tsx",
+    "feld": "gehen",
+    "text": "Gehen",
+    "match": "Gehen"
+  },
+  {
+    "nr": 150,
+    "id": "T-230",
+    "section": "Tracker",
+    "wo": "Zugfolge",
+    "datei": "src/components/game/Tracker.tsx",
+    "feld": "zugfolge",
+    "text": "Zugfolge",
+    "match": "Zugfolge"
+  },
+  {
+    "nr": 151,
+    "id": "T-231",
+    "section": "Tracker",
+    "wo": "Checkliste",
+    "datei": "src/components/game/Tracker.tsx",
+    "feld": "checkliste",
+    "text": "Checkliste",
+    "match": "Checkliste"
+  },
+  {
+    "nr": 152,
+    "id": "T-232",
+    "section": "Tracker",
+    "wo": "Bewegung",
+    "datei": "src/components/game/Tracker.tsx",
+    "feld": "bewegung",
+    "text": "Bewegung",
+    "match": "Bewegung"
+  },
+  {
+    "nr": 153,
+    "id": "T-233",
+    "section": "Tracker",
+    "wo": "Schuss",
+    "datei": "src/components/game/Tracker.tsx",
+    "feld": "schuss",
+    "text": "Schuss",
+    "match": "Schuss"
+  },
+  {
+    "nr": 154,
+    "id": "T-234",
+    "section": "Tracker",
+    "wo": "Nahkampf",
+    "datei": "src/components/game/Tracker.tsx",
+    "feld": "nahkampf",
+    "text": "Nahkampf",
+    "match": "Nahkampf"
+  },
+  {
+    "nr": 155,
+    "id": "T-235",
+    "section": "Tracker",
+    "wo": "Magie",
+    "datei": "src/components/game/Tracker.tsx",
+    "feld": "magie",
+    "text": "Magie",
+    "match": "Magie"
+  },
+  {
+    "nr": 156,
+    "id": "T-240",
+    "section": "Wurfplatte",
+    "wo": "kritischer Treffer",
+    "datei": "src/components/game/DicePlate.tsx",
+    "feld": "krit",
+    "text": "kritischer Treffer",
+    "match": "kritischer Treffer"
+  },
+  {
+    "nr": 157,
+    "id": "T-241",
+    "section": "Wurfplatte",
+    "wo": "Patzer",
+    "datei": "src/components/game/DicePlate.tsx",
+    "feld": "patzer",
+    "text": "Patzer",
+    "match": "Patzer"
+  },
+  {
+    "nr": 158,
+    "id": "T-242",
+    "section": "Wurfplatte",
+    "wo": "Pasch",
+    "datei": "src/components/game/DicePlate.tsx",
+    "feld": "pasch",
+    "text": "Pasch",
+    "match": "Pasch"
+  },
+  {
+    "nr": 159,
+    "id": "T-250",
+    "section": "Grau",
+    "wo": "bewusstlos",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "bewusstlos",
+    "text": "Bewusstlos.",
+    "match": "Bewusstlos."
+  },
+  {
+    "nr": 160,
+    "id": "T-251",
+    "section": "Grau",
+    "wo": "liegen",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "liegen",
+    "text": "Nur Aufstehen oder kriechen.",
+    "match": "Nur Aufstehen oder kriechen."
+  },
+  {
+    "nr": 161,
+    "id": "T-252",
+    "section": "Grau",
+    "wo": "betäubt",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "betaubt",
+    "text": "Betäubt — keine Handlung.",
+    "match": "Betäubt — keine Handlung."
+  },
+  {
+    "nr": 162,
+    "id": "T-253",
+    "section": "Grau",
+    "wo": "nicht ausgebildet",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "nicht-ausgebildet",
+    "text": "Nicht ausgebildet.",
+    "match": "Nicht ausgebildet."
+  },
+  {
+    "nr": 163,
+    "id": "T-254",
+    "section": "Grau",
+    "wo": "stehst aufstehen",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "stehst",
+    "text": "Stehst.",
+    "match": "Stehst."
+  },
+  {
+    "nr": 164,
+    "id": "T-255",
+    "section": "Grau",
+    "wo": "kein Ort",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "kein-ort",
+    "text": "Kein Ort.",
+    "match": "Kein Ort."
+  },
+  {
+    "nr": 165,
+    "id": "T-256",
+    "section": "Grau",
+    "wo": "kein Handel",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "kein-handel",
+    "text": "Kein Stand, kein Preis.",
+    "match": "Kein Stand, kein Preis."
+  },
+  {
+    "nr": 166,
+    "id": "T-257",
+    "section": "Grau",
+    "wo": "kein Gesicht",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "kein-gesicht",
+    "text": "Niemand wartet auf ein Wort.",
+    "match": "Niemand wartet auf ein Wort."
+  },
+  {
+    "nr": 167,
+    "id": "T-258",
+    "section": "Grau",
+    "wo": "kein Klatsch",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "kein-klatsch",
+    "text": "Hier ist niemand, der redet.",
+    "match": "Hier ist niemand, der redet."
+  },
+  {
+    "nr": 168,
+    "id": "T-259",
+    "section": "Grau",
+    "wo": "waffe schon",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "schon-hand",
+    "text": "Schon in der Hand.",
+    "match": "Schon in der Hand."
+  },
+  {
+    "nr": 169,
+    "id": "T-260",
+    "section": "Grau",
+    "wo": "kein Glück",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "kein-glueck",
+    "text": "Kein eigener Wurf offen.",
+    "match": "Kein eigener Wurf offen."
+  },
+  {
+    "nr": 170,
+    "id": "T-261",
+    "section": "Grau",
+    "wo": "kein Mut",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "kein-mut",
+    "text": "Kein Zustand, keine Psychologie.",
+    "match": "Kein Zustand, keine Psychologie."
+  },
+  {
+    "nr": 171,
+    "id": "T-262",
+    "section": "Grau",
+    "wo": "Schicksal unnötig",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "nicht-noetig",
+    "text": "Nicht nötig.",
+    "match": "Nicht nötig."
+  },
+  {
+    "nr": 172,
+    "id": "T-263",
+    "section": "Grau",
+    "wo": "Zähigkeit",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "kein-wurf-ersetzen",
+    "text": "Kein Wurf zum Ersetzen.",
+    "match": "Kein Wurf zum Ersetzen."
+  },
+  {
+    "nr": 173,
+    "id": "T-264",
+    "section": "Grau",
+    "wo": "kein Kampf",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "kein-kampf",
+    "text": "Kein Kampf.",
+    "match": "Kein Kampf."
+  },
+  {
+    "nr": 174,
+    "id": "T-265",
+    "section": "Grau",
+    "wo": "nicht gebunden",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "nicht-gebunden",
+    "text": "Nicht gebunden.",
+    "match": "Nicht gebunden."
+  },
+  {
+    "nr": 175,
+    "id": "T-266",
+    "section": "Grau",
+    "wo": "zu weit",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "zu-weit",
+    "text": "Zu weit. Gehen oder Sturmangriff.",
+    "match": "Zu weit. Gehen oder Sturmangriff."
+  },
+  {
+    "nr": 176,
+    "id": "T-267",
+    "section": "Grau",
+    "wo": "gebunden",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "gebunden",
+    "text": "Gebunden.",
+    "match": "Gebunden."
+  },
+  {
+    "nr": 177,
+    "id": "T-268",
+    "section": "Grau",
+    "wo": "zu nah für Sturm",
+    "datei": "src/lib/wfrp/grey.ts",
+    "feld": "zu-nah",
+    "text": "Zu nah für Sturmangriff.",
+    "match": "Zu nah für Sturmangriff."
+  },
+  {
+    "nr": 178,
+    "id": "T-280",
+    "section": "Ort",
+    "wo": "Torstraße, erste Öffnung",
+    "datei": "src/lib/wfrp/drosselau.ts",
+    "feld": "torstrasse-opening",
+    "text": "Nasser Stein und Pferdeharn. Das Stadttor im Rücken. Links das Zollhaus, daneben der Gasthof Zum Wanderer. Eine Bäckerei, eine Fleischerei, ein Kramladen. Vorstadt hinter euch, Marktplatz voraus, Bettelgasse zur Seite. Fünf unter dem Bogen. Niemand hat sie hereingewunken.",
+    "match": "Nasser Stein und Pferdeharn. Das Stadttor im Rücken. Links das Zollhaus, daneben der Gasthof Zum Wanderer. Eine Bäckerei, eine Fleischerei, ein Kramladen. Vorstadt hinter euch, Marktplatz voraus, Bettelgasse zur Seite. Fünf unter dem Bogen. Niemand hat sie hereingewunken."
+  },
+  {
+    "nr": 179,
+    "id": "T-281",
+    "section": "Ort",
+    "wo": "andere Gasse, Schablone",
+    "datei": "src/lib/wfrp/drosselau.ts",
+    "feld": "gasse-schablone",
+    "text": "{Name}. {Notiz}. {erste Häuser}. Noch {n} Häuser. Wege nach {Nachbarn}. Niemand hat ein Wort gegeben.",
+    "match": "{Name}. {Notiz}. {erste Häuser}. Noch {n} Häuser"
+  },
+  {
+    "nr": 180,
+    "id": "T-290",
+    "section": "Erste Stunde",
+    "wo": "Beat Titel Torwache",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "h1-arne-titel",
+    "text": "Torwache prüft",
+    "match": "Torwache prüft"
+  },
+  {
+    "nr": 181,
+    "id": "T-291",
+    "section": "Erste Stunde",
+    "wo": "Arne tritt heraus",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "h1-arne-body",
+    "text": "Aus dem Zollhaus tritt ein Mann in der wollenen Jacke der Stadt. Helm unter dem Arm. Der Riemen der Handwaffe ist zu. Arne Helm, Torstraße 8. Er stellt sich nicht vor.",
+    "match": "Aus dem Zollhaus tritt ein Mann in der wollenen Jacke der Stadt. Helm unter dem Arm. Der Riemen der Handwaffe ist zu. Arne Helm, Torstraße 8. Er stellt sich nicht vor."
+  },
+  {
+    "nr": 182,
+    "id": "T-292",
+    "section": "Erste Stunde",
+    "wo": "Arne erste Worte",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "h1-worte",
+    "text": "„Namen. Woher. Waffen offen, oder ich zähl sie selbst. Der Zwerg bleibt im Licht.“",
+    "match": "„Namen. Woher. Waffen offen, oder ich zähl sie selbst. Der Zwerg bleibt im Licht.“"
+  },
+  {
+    "nr": 183,
+    "id": "T-293",
+    "section": "Erste Stunde",
+    "wo": "Ticks Absicht (öffentlich)",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "h1-absicht",
+    "text": "Tick will sich umschauen, bevor er den Mund aufmacht.",
+    "match": "Tick will sich umschauen, bevor er den Mund aufmacht."
+  },
+  {
+    "nr": 184,
+    "id": "T-294",
+    "section": "Erste Stunde",
+    "wo": "Was Tick sieht — Erfolg (nur Tick + SL)",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "h1-sieht-ok",
+    "text": "Die Luke am Zollhaus steht einen Spalt. Kreide an der Tür: Striche, heutiger Tross. Hinter Helm kein zweiter Mann. Die Bäckerei dampft. An der Bettelgasse-Ecke hängt ein nasser Lappen, niemand darunter. Helm zählt Lippen, nicht Augen. Er hat die fünf schon im Torbuch, bevor jemand spricht.",
+    "match": "Die Luke am Zollhaus steht einen Spalt. Kreide an der Tür: Striche, heutiger Tross. Hinter Helm kein zweiter Mann. Die Bäckerei dampft. An der Bettelgasse-Ecke hängt ein nasser Lappen, niemand darunter. Helm zählt Lippen, nicht Augen. Er hat die fünf schon im Torbuch, bevor jemand spricht."
+  },
+  {
+    "nr": 185,
+    "id": "T-295",
+    "section": "Erste Stunde",
+    "wo": "Was Tick sieht — Fehlschlag (nur Tick + SL)",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "h1-sieht-fail",
+    "text": "Helm steht zu nah. Der Dampf der Bäckerei verschluckt die Ecke. Tick sieht Jacke, Riemen, den Helm unter dem Arm — und dass die Luke zufällt.",
+    "match": "Helm steht zu nah. Der Dampf der Bäckerei verschluckt die Ecke. Tick sieht Jacke, Riemen, den Helm unter dem Arm — und dass die Luke zufällt."
+  },
+  {
+    "nr": 186,
+    "id": "T-296",
+    "section": "Erste Stunde",
+    "wo": "Arne wartet auf Namen",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "h1-frage",
+    "text": "„Fünf auf einmal. Der Halbling zählt extra. Ein Name. Dann der nächste.“ Er wartet. Die Frist läuft.",
+    "match": "„Fünf auf einmal. Der Halbling zählt extra. Ein Name. Dann der nächste.“ Er wartet. Die Frist läuft."
+  },
+  {
+    "nr": 187,
+    "id": "T-297",
+    "section": "Erste Stunde",
+    "wo": "SL-Log ziehen",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "sl-log-zoll",
+    "text": "SL zieht Arne Helm. Kein Automat.",
+    "match": "SL zieht Arne Helm. Kein Automat."
+  },
+  {
+    "nr": 188,
+    "id": "T-298",
+    "section": "Erste Stunde",
+    "wo": "SL-Log Wurf",
+    "datei": "src/lib/wfrp/session.ts",
+    "feld": "sl-log-ask",
+    "text": "Spieler würfelt.",
+    "match": "Spieler würfelt."
+  },
+  {
+    "nr": 189,
+    "id": "K-umschauen-label",
+    "section": "Handlungskarten",
+    "wo": "Umschauen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "umschauen.label",
+    "text": "Umschauen",
+    "match": "Umschauen"
+  },
+  {
+    "nr": 190,
+    "id": "K-umschauen-ask",
+    "section": "Handlungskarten",
+    "wo": "Umschauen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "umschauen.ask",
+    "text": "Mich umschauen",
+    "match": "Mich umschauen"
+  },
+  {
+    "nr": 191,
+    "id": "K-umschauen-summary",
+    "section": "Handlungskarten",
+    "wo": "Umschauen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "umschauen.summary",
+    "text": "Den Ort und die Leute mit den Augen abtasten.",
+    "match": "Den Ort und die Leute mit den Augen abtasten."
+  },
+  {
+    "nr": 192,
+    "id": "K-intuition-label",
+    "section": "Handlungskarten",
+    "wo": "Einschätzen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "intuition.label",
+    "text": "Einschätzen",
+    "match": "Einschätzen"
+  },
+  {
+    "nr": 193,
+    "id": "K-intuition-ask",
+    "section": "Handlungskarten",
+    "wo": "Einschätzen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "intuition.ask",
+    "text": "Die Lage einschätzen",
+    "match": "Die Lage einschätzen"
+  },
+  {
+    "nr": 194,
+    "id": "K-intuition-summary",
+    "section": "Handlungskarten",
+    "wo": "Einschätzen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "intuition.summary",
+    "text": "Absicht und Haltung eines Gegenübers lesen.",
+    "match": "Absicht und Haltung eines Gegenübers lesen."
+  },
+  {
+    "nr": 195,
+    "id": "K-reden-label",
+    "section": "Handlungskarten",
+    "wo": "Ansprechen / Verhandeln · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "reden.label",
+    "text": "Ansprechen / Verhandeln",
+    "match": "Ansprechen / Verhandeln"
+  },
+  {
+    "nr": 196,
+    "id": "K-reden-ask",
+    "section": "Handlungskarten",
+    "wo": "Ansprechen / Verhandeln · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "reden.ask",
+    "text": "Jemanden ansprechen",
+    "match": "Jemanden ansprechen"
+  },
+  {
+    "nr": 197,
+    "id": "K-reden-summary",
+    "section": "Handlungskarten",
+    "wo": "Ansprechen / Verhandeln · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "reden.summary",
+    "text": "Mit Worten überzeugen, schmeicheln, Vertrauen suchen.",
+    "match": "Mit Worten überzeugen, schmeicheln, Vertrauen suchen."
+  },
+  {
+    "nr": 198,
+    "id": "K-feilschen-label",
+    "section": "Handlungskarten",
+    "wo": "Handeln · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "feilschen.label",
+    "text": "Handeln",
+    "match": "Handeln"
+  },
+  {
+    "nr": 199,
+    "id": "K-feilschen-ask",
+    "section": "Handlungskarten",
+    "wo": "Handeln · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "feilschen.ask",
+    "text": "Um den Preis feilschen",
+    "match": "Um den Preis feilschen"
+  },
+  {
+    "nr": 200,
+    "id": "K-feilschen-summary",
+    "section": "Handlungskarten",
+    "wo": "Handeln · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "feilschen.summary",
+    "text": "Den Preis drücken. Vergleich gegen den Händler.",
+    "match": "Den Preis drücken. Vergleich gegen den Händler."
+  },
+  {
+    "nr": 201,
+    "id": "K-kaufen-label",
+    "section": "Handlungskarten",
+    "wo": "Kaufen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "kaufen.label",
+    "text": "Kaufen",
+    "match": "Kaufen"
+  },
+  {
+    "nr": 202,
+    "id": "K-kaufen-ask",
+    "section": "Handlungskarten",
+    "wo": "Kaufen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "kaufen.ask",
+    "text": "Kaufen",
+    "match": "Kaufen"
+  },
+  {
+    "nr": 203,
+    "id": "K-kaufen-summary",
+    "section": "Handlungskarten",
+    "wo": "Kaufen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "kaufen.summary",
+    "text": "Zuerst zahlen, dann Feilschen um den Preis. Verfügbarkeit entscheidet der SL.",
+    "match": "Zuerst zahlen, dann Feilschen um den Preis. Verfügbarkeit entscheidet der SL."
+  },
+  {
+    "nr": 204,
+    "id": "K-bestechen-label",
+    "section": "Handlungskarten",
+    "wo": "Bestechen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "bestechen.label",
+    "text": "Bestechen",
+    "match": "Bestechen"
+  },
+  {
+    "nr": 205,
+    "id": "K-bestechen-ask",
+    "section": "Handlungskarten",
+    "wo": "Bestechen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "bestechen.ask",
+    "text": "Bestechen",
+    "match": "Bestechen"
+  },
+  {
+    "nr": 206,
+    "id": "K-bestechen-summary",
+    "section": "Handlungskarten",
+    "wo": "Bestechen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "bestechen.summary",
+    "text": "Geld oder Gefälligkeit gegen ein Entgegenkommen.",
+    "match": "Geld oder Gefälligkeit gegen ein Entgegenkommen."
+  },
+  {
+    "nr": 207,
+    "id": "K-einschuechtern-label",
+    "section": "Handlungskarten",
+    "wo": "Einschüchtern · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "einschuechtern.label",
+    "text": "Einschüchtern",
+    "match": "Einschüchtern"
+  },
+  {
+    "nr": 208,
+    "id": "K-einschuechtern-ask",
+    "section": "Handlungskarten",
+    "wo": "Einschüchtern · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "einschuechtern.ask",
+    "text": "Einschüchtern",
+    "match": "Einschüchtern"
+  },
+  {
+    "nr": 209,
+    "id": "K-einschuechtern-summary",
+    "section": "Handlungskarten",
+    "wo": "Einschüchtern · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "einschuechtern.summary",
+    "text": "Drohen. Status färbt die Konsequenz, nicht die Karte.",
+    "match": "Drohen. Status färbt die Konsequenz, nicht die Karte."
+  },
+  {
+    "nr": 210,
+    "id": "K-klatsch-label",
+    "section": "Handlungskarten",
+    "wo": "Gerüchte · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "klatsch.label",
+    "text": "Gerüchte",
+    "match": "Gerüchte"
+  },
+  {
+    "nr": 211,
+    "id": "K-klatsch-ask",
+    "section": "Handlungskarten",
+    "wo": "Gerüchte · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "klatsch.ask",
+    "text": "Nach Gerüchten fragen",
+    "match": "Nach Gerüchten fragen"
+  },
+  {
+    "nr": 212,
+    "id": "K-klatsch-summary",
+    "section": "Handlungskarten",
+    "wo": "Gerüchte · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "klatsch.summary",
+    "text": "In der Menge nach Geschichten und Preisen fischen.",
+    "match": "In der Menge nach Geschichten und Preisen fischen."
+  },
+  {
+    "nr": 213,
+    "id": "K-schleichen-label",
+    "section": "Handlungskarten",
+    "wo": "Schleichen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "schleichen.label",
+    "text": "Schleichen",
+    "match": "Schleichen"
+  },
+  {
+    "nr": 214,
+    "id": "K-schleichen-ask",
+    "section": "Handlungskarten",
+    "wo": "Schleichen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "schleichen.ask",
+    "text": "Schleichen",
+    "match": "Schleichen"
+  },
+  {
+    "nr": 215,
+    "id": "K-schleichen-summary",
+    "section": "Handlungskarten",
+    "wo": "Schleichen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "schleichen.summary",
+    "text": "Unbemerkt bleiben oder sich davonstehlen.",
+    "match": "Unbemerkt bleiben oder sich davonstehlen."
+  },
+  {
+    "nr": 216,
+    "id": "K-gehen-label",
+    "section": "Handlungskarten",
+    "wo": "Gehen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "gehen.label",
+    "text": "Gehen",
+    "match": "Gehen"
+  },
+  {
+    "nr": 217,
+    "id": "K-gehen-ask",
+    "section": "Handlungskarten",
+    "wo": "Gehen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "gehen.ask",
+    "text": "Woanders hingehen",
+    "match": "Woanders hingehen"
+  },
+  {
+    "nr": 218,
+    "id": "K-gehen-summary",
+    "section": "Handlungskarten",
+    "wo": "Gehen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "gehen.summary",
+    "text": "An einen genannten Ort der Szene oder einen Ausgang. Im Kampf: Bewegung × 2 Meter. Kein Wurf.",
+    "match": "An einen genannten Ort der Szene oder einen Ausgang. Im Kampf: Bewegung × 2 Meter. Kein Wurf."
+  },
+  {
+    "nr": 219,
+    "id": "K-warten-label",
+    "section": "Handlungskarten",
+    "wo": "Abwarten · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "warten.label",
+    "text": "Abwarten",
+    "match": "Abwarten"
+  },
+  {
+    "nr": 220,
+    "id": "K-warten-ask",
+    "section": "Handlungskarten",
+    "wo": "Abwarten · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "warten.ask",
+    "text": "Abwarten",
+    "match": "Abwarten"
+  },
+  {
+    "nr": 221,
+    "id": "K-warten-summary",
+    "section": "Handlungskarten",
+    "wo": "Abwarten · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "warten.summary",
+    "text": "Stillstehen, beobachten, die Frist verstreichen lassen.",
+    "match": "Stillstehen, beobachten, die Frist verstreichen lassen."
+  },
+  {
+    "nr": 222,
+    "id": "K-sprinten-label",
+    "section": "Handlungskarten",
+    "wo": "Sprinten · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "sprinten.label",
+    "text": "Sprinten",
+    "match": "Sprinten"
+  },
+  {
+    "nr": 223,
+    "id": "K-sprinten-ask",
+    "section": "Handlungskarten",
+    "wo": "Sprinten · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "sprinten.ask",
+    "text": "Sprinten",
+    "match": "Sprinten"
+  },
+  {
+    "nr": 224,
+    "id": "K-sprinten-summary",
+    "section": "Handlungskarten",
+    "wo": "Sprinten · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "sprinten.summary",
+    "text": "Volle Bewegung. Im Kampf eine Handlung.",
+    "match": "Volle Bewegung. Im Kampf eine Handlung."
+  },
+  {
+    "nr": 225,
+    "id": "K-fliehen-label",
+    "section": "Handlungskarten",
+    "wo": "Fliehen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "fliehen.label",
+    "text": "Fliehen",
+    "match": "Fliehen"
+  },
+  {
+    "nr": 226,
+    "id": "K-fliehen-ask",
+    "section": "Handlungskarten",
+    "wo": "Fliehen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "fliehen.ask",
+    "text": "Fliehen",
+    "match": "Fliehen"
+  },
+  {
+    "nr": 227,
+    "id": "K-fliehen-summary",
+    "section": "Handlungskarten",
+    "wo": "Fliehen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "fliehen.summary",
+    "text": "Aus dem Kampf. Gebunden: freie Attacke des Gegners.",
+    "match": "Aus dem Kampf. Gebunden: freie Attacke des Gegners."
+  },
+  {
+    "nr": 228,
+    "id": "K-aufstehen-label",
+    "section": "Handlungskarten",
+    "wo": "Aufstehen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "aufstehen.label",
+    "text": "Aufstehen",
+    "match": "Aufstehen"
+  },
+  {
+    "nr": 229,
+    "id": "K-aufstehen-ask",
+    "section": "Handlungskarten",
+    "wo": "Aufstehen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "aufstehen.ask",
+    "text": "Aufstehen",
+    "match": "Aufstehen"
+  },
+  {
+    "nr": 230,
+    "id": "K-aufstehen-summary",
+    "section": "Handlungskarten",
+    "wo": "Aufstehen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "aufstehen.summary",
+    "text": "Den Zustand Niedergestreckt beenden.",
+    "match": "Den Zustand Niedergestreckt beenden."
+  },
+  {
+    "nr": 231,
+    "id": "K-kriechen-label",
+    "section": "Handlungskarten",
+    "wo": "Kriechen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "kriechen.label",
+    "text": "Kriechen",
+    "match": "Kriechen"
+  },
+  {
+    "nr": 232,
+    "id": "K-kriechen-ask",
+    "section": "Handlungskarten",
+    "wo": "Kriechen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "kriechen.ask",
+    "text": "Kriechen",
+    "match": "Kriechen"
+  },
+  {
+    "nr": 233,
+    "id": "K-kriechen-summary",
+    "section": "Handlungskarten",
+    "wo": "Kriechen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "kriechen.summary",
+    "text": "Halbe Bewegung, solange du niedergestreckt bist.",
+    "match": "Halbe Bewegung, solange du niedergestreckt bist."
+  },
+  {
+    "nr": 234,
+    "id": "K-waffe_ziehen-label",
+    "section": "Handlungskarten",
+    "wo": "Waffe ziehen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "waffe_ziehen.label",
+    "text": "Waffe ziehen",
+    "match": "Waffe ziehen"
+  },
+  {
+    "nr": 235,
+    "id": "K-waffe_ziehen-ask",
+    "section": "Handlungskarten",
+    "wo": "Waffe ziehen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "waffe_ziehen.ask",
+    "text": "Die Waffe ziehen",
+    "match": "Die Waffe ziehen"
+  },
+  {
+    "nr": 236,
+    "id": "K-waffe_ziehen-summary",
+    "section": "Handlungskarten",
+    "wo": "Waffe ziehen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "waffe_ziehen.summary",
+    "text": "Den Dolch oder die geführte Waffe ziehen. Eskaliert die Szene.",
+    "match": "Den Dolch oder die geführte Waffe ziehen. Eskaliert die Szene."
+  },
+  {
+    "nr": 237,
+    "id": "K-angreifen-label",
+    "section": "Handlungskarten",
+    "wo": "Angreifen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "angreifen.label",
+    "text": "Angreifen",
+    "match": "Angreifen"
+  },
+  {
+    "nr": 238,
+    "id": "K-angreifen-ask",
+    "section": "Handlungskarten",
+    "wo": "Angreifen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "angreifen.ask",
+    "text": "Angreifen",
+    "match": "Angreifen"
+  },
+  {
+    "nr": 239,
+    "id": "K-angreifen-summary",
+    "section": "Handlungskarten",
+    "wo": "Angreifen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "angreifen.summary",
+    "text": "Vergleichender Wurf. Meist Nahkampf gegen Nahkampf oder Ausweichen.",
+    "match": "Vergleichender Wurf. Meist Nahkampf gegen Nahkampf oder Ausweichen."
+  },
+  {
+    "nr": 240,
+    "id": "K-sturmangriff-label",
+    "section": "Handlungskarten",
+    "wo": "Sturmangriff · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "sturmangriff.label",
+    "text": "Sturmangriff",
+    "match": "Sturmangriff"
+  },
+  {
+    "nr": 241,
+    "id": "K-sturmangriff-ask",
+    "section": "Handlungskarten",
+    "wo": "Sturmangriff · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "sturmangriff.ask",
+    "text": "Sturmangriff",
+    "match": "Sturmangriff"
+  },
+  {
+    "nr": 242,
+    "id": "K-sturmangriff-summary",
+    "section": "Handlungskarten",
+    "wo": "Sturmangriff · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "sturmangriff.summary",
+    "text": "Bewegung + Handlung, +1 Vorteil, Bindung.",
+    "match": "Bewegung + Handlung, +1 Vorteil, Bindung."
+  },
+  {
+    "nr": 243,
+    "id": "K-loesen-label",
+    "section": "Handlungskarten",
+    "wo": "Aus Bindung lösen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "loesen.label",
+    "text": "Aus Bindung lösen",
+    "match": "Aus Bindung lösen"
+  },
+  {
+    "nr": 244,
+    "id": "K-loesen-ask",
+    "section": "Handlungskarten",
+    "wo": "Aus Bindung lösen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "loesen.ask",
+    "text": "Aus Bindung lösen",
+    "match": "Aus Bindung lösen"
+  },
+  {
+    "nr": 245,
+    "id": "K-loesen-summary",
+    "section": "Handlungskarten",
+    "wo": "Aus Bindung lösen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "loesen.summary",
+    "text": "Wurf oder Vorteilsvorsprung ausgeben.",
+    "match": "Wurf oder Vorteilsvorsprung ausgeben."
+  },
+  {
+    "nr": 246,
+    "id": "K-volle_abwehr-label",
+    "section": "Handlungskarten",
+    "wo": "Nur verteidigen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "volle_abwehr.label",
+    "text": "Nur verteidigen",
+    "match": "Nur verteidigen"
+  },
+  {
+    "nr": 247,
+    "id": "K-volle_abwehr-ask",
+    "section": "Handlungskarten",
+    "wo": "Nur verteidigen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "volle_abwehr.ask",
+    "text": "Nur verteidigen",
+    "match": "Nur verteidigen"
+  },
+  {
+    "nr": 248,
+    "id": "K-volle_abwehr-summary",
+    "section": "Handlungskarten",
+    "wo": "Nur verteidigen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "volle_abwehr.summary",
+    "text": "Die Handlung der Abwehr opfern. Nächster Vergleich zu deinen Gunsten.",
+    "match": "Die Handlung der Abwehr opfern. Nächster Vergleich zu deinen Gunsten."
+  },
+  {
+    "nr": 249,
+    "id": "K-ausweichen-label",
+    "section": "Handlungskarten",
+    "wo": "Attacke ausweichen · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "ausweichen.label",
+    "text": "Attacke ausweichen",
+    "match": "Attacke ausweichen"
+  },
+  {
+    "nr": 250,
+    "id": "K-ausweichen-ask",
+    "section": "Handlungskarten",
+    "wo": "Attacke ausweichen · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "ausweichen.ask",
+    "text": "Attacke ausweichen",
+    "match": "Attacke ausweichen"
+  },
+  {
+    "nr": 251,
+    "id": "K-ausweichen-summary",
+    "section": "Handlungskarten",
+    "wo": "Attacke ausweichen · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "ausweichen.summary",
+    "text": "Keine eigene Handlung. Verteidigung gegen den nächsten Schlag.",
+    "match": "Keine eigene Handlung. Verteidigung gegen den nächsten Schlag."
+  },
+  {
+    "nr": 252,
+    "id": "K-glueck-label",
+    "section": "Handlungskarten",
+    "wo": "Glückspunkt · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "glueck.label",
+    "text": "Glückspunkt",
+    "match": "Glückspunkt"
+  },
+  {
+    "nr": 253,
+    "id": "K-glueck-ask",
+    "section": "Handlungskarten",
+    "wo": "Glückspunkt · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "glueck.ask",
+    "text": "Glückspunkt",
+    "match": "Glückspunkt"
+  },
+  {
+    "nr": 254,
+    "id": "K-glueck-summary",
+    "section": "Handlungskarten",
+    "wo": "Glückspunkt · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "glueck.summary",
+    "text": "Eigenen Wurf wiederholen oder +1 EG. Nur im Glück-Fenster.",
+    "match": "Eigenen Wurf wiederholen oder +1 EG. Nur im Glück-Fenster."
+  },
+  {
+    "nr": 255,
+    "id": "K-mut-label",
+    "section": "Handlungskarten",
+    "wo": "Mutpunkt · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "mut.label",
+    "text": "Mutpunkt",
+    "match": "Mutpunkt"
+  },
+  {
+    "nr": 256,
+    "id": "K-mut-ask",
+    "section": "Handlungskarten",
+    "wo": "Mutpunkt · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "mut.ask",
+    "text": "Mutpunkt",
+    "match": "Mutpunkt"
+  },
+  {
+    "nr": 257,
+    "id": "K-mut-summary",
+    "section": "Handlungskarten",
+    "wo": "Mutpunkt · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "mut.summary",
+    "text": "Einen Zustand entfernen. Bei Niedergestreckt zusätzlich +1 LP.",
+    "match": "Einen Zustand entfernen. Bei Niedergestreckt zusätzlich +1 LP."
+  },
+  {
+    "nr": 258,
+    "id": "K-schicksal-label",
+    "section": "Handlungskarten",
+    "wo": "Schicksal opfern · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "schicksal.label",
+    "text": "Schicksal opfern",
+    "match": "Schicksal opfern"
+  },
+  {
+    "nr": 259,
+    "id": "K-schicksal-ask",
+    "section": "Handlungskarten",
+    "wo": "Schicksal opfern · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "schicksal.ask",
+    "text": "Schicksal opfern",
+    "match": "Schicksal opfern"
+  },
+  {
+    "nr": 260,
+    "id": "K-schicksal-summary",
+    "section": "Handlungskarten",
+    "wo": "Schicksal opfern · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "schicksal.summary",
+    "text": "Nicht sterben / die Szene überleben. Permanent.",
+    "match": "Nicht sterben / die Szene überleben. Permanent."
+  },
+  {
+    "nr": 261,
+    "id": "K-zaehigkeit-label",
+    "section": "Handlungskarten",
+    "wo": "Zähigkeit · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "zaehigkeit.label",
+    "text": "Zähigkeit",
+    "match": "Zähigkeit"
+  },
+  {
+    "nr": 262,
+    "id": "K-zaehigkeit-ask",
+    "section": "Handlungskarten",
+    "wo": "Zähigkeit · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "zaehigkeit.ask",
+    "text": "Zähigkeit",
+    "match": "Zähigkeit"
+  },
+  {
+    "nr": 263,
+    "id": "K-zaehigkeit-summary",
+    "section": "Handlungskarten",
+    "wo": "Zähigkeit · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "zaehigkeit.summary",
+    "text": "Wurf selbst wählen oder Mutation vermeiden. Permanent.",
+    "match": "Wurf selbst wählen oder Mutation vermeiden. Permanent."
+  },
+  {
+    "nr": 264,
+    "id": "K-freitext-label",
+    "section": "Handlungskarten",
+    "wo": "Bitte an den SL · Name der Karte",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "freitext.label",
+    "text": "Bitte an den SL",
+    "match": "Bitte an den SL"
+  },
+  {
+    "nr": 265,
+    "id": "K-freitext-ask",
+    "section": "Handlungskarten",
+    "wo": "Bitte an den SL · Chip auf dem Tisch",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "freitext.ask",
+    "text": "Etwas anderes versuchen",
+    "match": "Etwas anderes versuchen"
+  },
+  {
+    "nr": 266,
+    "id": "K-freitext-summary",
+    "section": "Handlungskarten",
+    "wo": "Bitte an den SL · kurzer Satz darunter",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "freitext.summary",
+    "text": "Keine alleinige Steuerung. Der SL hängt sie an eine Fähigkeit oder lehnt ab.",
+    "match": "Keine alleinige Steuerung. Der SL hängt sie an eine Fähigkeit oder lehnt ab."
+  },
+  {
+    "nr": 267,
+    "id": "K-grau-0",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "kein Feind in Sicht und nicht Kampfmodus",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[0].grund",
+    "text": "Kein Kampf.",
+    "match": "Kein Kampf."
+  },
+  {
+    "nr": 268,
+    "id": "K-grau-1",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "nicht gebunden",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[1].grund",
+    "text": "Nicht gebunden. Angreifen erst nach Annähern oder Sturmangriff.",
+    "match": "Nicht gebunden. Angreifen erst nach Annähern oder Sturmangriff."
+  },
+  {
+    "nr": 269,
+    "id": "K-grau-2",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "gebunden",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[2].grund",
+    "text": "Gebunden.",
+    "match": "Gebunden."
+  },
+  {
+    "nr": 270,
+    "id": "K-grau-3",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "waffe bereits gezogen",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[3].grund",
+    "text": "Schon in der Hand.",
+    "match": "Schon in der Hand."
+  },
+  {
+    "nr": 271,
+    "id": "K-grau-4",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "kein eigener offener Wurf",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[4].grund",
+    "text": "Kein eigener Wurf offen.",
+    "match": "Kein eigener Wurf offen."
+  },
+  {
+    "nr": 272,
+    "id": "K-grau-5",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "kein Zustand und keine Psychologie",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[5].grund",
+    "text": "Kein Zustand, keine Psychologie.",
+    "match": "Kein Zustand, keine Psychologie."
+  },
+  {
+    "nr": 273,
+    "id": "K-grau-6",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "nicht sterbend / ausweglos",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[6].grund",
+    "text": "Nicht nötig.",
+    "match": "Nicht nötig."
+  },
+  {
+    "nr": 274,
+    "id": "K-grau-7",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "kein eigener Wurf in diesem Tick",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[7].grund",
+    "text": "Kein Wurf zum Ersetzen.",
+    "match": "Kein Wurf zum Ersetzen."
+  },
+  {
+    "nr": 275,
+    "id": "K-grau-8",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "nicht niedergestreckt",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[8].grund",
+    "text": "Stehst.",
+    "match": "Stehst."
+  },
+  {
+    "nr": 276,
+    "id": "K-grau-9",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "niedergestreckt",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[9].grund",
+    "text": "Nur Aufstehen oder kriechen.",
+    "match": "Nur Aufstehen oder kriechen."
+  },
+  {
+    "nr": 277,
+    "id": "K-grau-10",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "ausbau ohne Steigerung",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[10].grund",
+    "text": "Nicht ausgebildet.",
+    "match": "Nicht ausgebildet."
+  },
+  {
+    "nr": 278,
+    "id": "K-grau-11",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "kein Ausgang",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[11].grund",
+    "text": "Kein Ausgang.",
+    "match": "Kein Ausgang."
+  },
+  {
+    "nr": 279,
+    "id": "K-grau-12",
+    "section": "Handlungskarten · Buch-Grau",
+    "wo": "bewusstlos",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "grau[12].grund",
+    "text": "Bewusstlos.",
+    "match": "Bewusstlos."
+  },
+  {
+    "nr": 280,
+    "id": "K-regel-grau",
+    "section": "Handlungskarten",
+    "wo": "Regel, wie Grau funktioniert",
+    "datei": "knowledge/data/catalog.json",
+    "feld": "regel_grau",
+    "text": "Karten, die der Charakter kennt, aber jetzt nicht nutzen kann, bleiben stehen und sind ausgegraut. Grund auf der Karte. Nie löschen.",
+    "match": "Karten, die der Charakter kennt, aber jetzt nicht nutzen kann, bleiben stehen und sind ausgegraut. Grund auf der Karte. Nie löschen."
+  },
+  {
+    "nr": 281,
+    "id": "S-welt-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Welt",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "welt.label",
+    "text": "Welt",
+    "match": "Welt"
+  },
+  {
+    "nr": 282,
+    "id": "S-welt-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Welt",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "welt.why",
+    "text": "Erst zuhören, was diese Welt erzählt — gewählt wird später.",
+    "match": "Erst zuhören, was diese Welt erzählt — gewählt wird später."
+  },
+  {
+    "nr": 283,
+    "id": "S-volk-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Volk",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "volk.label",
+    "text": "Volk",
+    "match": "Volk"
+  },
+  {
+    "nr": 284,
+    "id": "S-volk-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Volk",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "volk.why",
+    "text": "Woher du kommst, prägt, wer du wirst. Die Zahlen folgen danach.",
+    "match": "Woher du kommst, prägt, wer du wirst. Die Zahlen folgen danach."
+  },
+  {
+    "nr": 285,
+    "id": "S-pnp-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Spiel",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "pnp.label",
+    "text": "Spiel",
+    "match": "Spiel"
+  },
+  {
+    "nr": 286,
+    "id": "S-pnp-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Spiel",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "pnp.why",
+    "text": "Was hier digital läuft — und was ganz beim Spielleiter bleibt.",
+    "match": "Was hier digital läuft — und was ganz beim Spielleiter bleibt."
+  },
+  {
+    "nr": 287,
+    "id": "S-karriere-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Karriere",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "karriere.label",
+    "text": "Karriere",
+    "match": "Karriere"
+  },
+  {
+    "nr": 288,
+    "id": "S-karriere-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Karriere",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "karriere.why",
+    "text": "Die Klasse ist deine Herkunft, die Karriere dein Beruf im Reich.",
+    "match": "Die Klasse ist deine Herkunft, die Karriere dein Beruf im Reich."
+  },
+  {
+    "nr": 289,
+    "id": "S-werte-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Werte",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "werte.label",
+    "text": "Werte",
+    "match": "Werte"
+  },
+  {
+    "nr": 290,
+    "id": "S-werte-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Werte",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "werte.why",
+    "text": "Zehn Attribute geben dir Gestalt, dann entscheidet das Schicksal.",
+    "match": "Zehn Attribute geben dir Gestalt, dann entscheidet das Schicksal."
+  },
+  {
+    "nr": 291,
+    "id": "S-faehigkeiten-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Fähigkeiten",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "faehigkeiten.label",
+    "text": "Fähigkeiten",
+    "match": "Fähigkeiten"
+  },
+  {
+    "nr": 292,
+    "id": "S-faehigkeiten-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Fähigkeiten",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "faehigkeiten.why",
+    "text": "Zeig, was du gelernt hast — und wähl ein Talent, das dich auszeichnet.",
+    "match": "Zeig, was du gelernt hast — und wähl ein Talent, das dich auszeichnet."
+  },
+  {
+    "nr": 293,
+    "id": "S-ausruestung-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Ausrüstung",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "ausruestung.label",
+    "text": "Ausrüstung",
+    "match": "Ausrüstung"
+  },
+  {
+    "nr": 294,
+    "id": "S-ausruestung-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Ausrüstung",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "ausruestung.why",
+    "text": "Was du trägst und bei dir hast, folgt aus deiner Karriere.",
+    "match": "Was du trägst und bei dir hast, folgt aus deiner Karriere."
+  },
+  {
+    "nr": 295,
+    "id": "S-details-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Details",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "details.label",
+    "text": "Details",
+    "match": "Details"
+  },
+  {
+    "nr": 296,
+    "id": "S-details-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Details",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "details.why",
+    "text": "Name, Alter, Aussehen, Ziele — das Gesicht hinter den Werten.",
+    "match": "Name, Alter, Aussehen, Ziele — das Gesicht hinter den Werten."
+  },
+  {
+    "nr": 297,
+    "id": "S-gruppe-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Gruppe",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "gruppe.label",
+    "text": "Gruppe",
+    "match": "Gruppe"
+  },
+  {
+    "nr": 298,
+    "id": "S-gruppe-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Gruppe",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "gruppe.why",
+    "text": "Kannst du überspringen — der Spielleiter führt euch zusammen.",
+    "match": "Kannst du überspringen — der Spielleiter führt euch zusammen."
+  },
+  {
+    "nr": 299,
+    "id": "S-leben-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station Leben",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "leben.label",
+    "text": "Leben",
+    "match": "Leben"
+  },
+  {
+    "nr": 300,
+    "id": "S-leben-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum Leben",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "leben.why",
+    "text": "Beantworte mindestens drei Fragen zu deinem Leben, die Herkunft steht auf der Liste.",
+    "match": "Beantworte mindestens drei Fragen zu deinem Leben, die Herkunft steht auf der Liste."
+  },
+  {
+    "nr": 301,
+    "id": "S-xp-label",
+    "section": "Erschaffung · Station",
+    "wo": "Station EP",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "xp.label",
+    "text": "EP",
+    "match": "EP"
+  },
+  {
+    "nr": 302,
+    "id": "S-xp-why",
+    "section": "Erschaffung · Station",
+    "wo": "Warum EP",
+    "datei": "src/lib/wfrp/stations.ts",
+    "feld": "xp.why",
+    "text": "Optional — dein Bogen wartet auch ohne das.",
+    "match": "Optional — dein Bogen wartet auch ohne das."
+  },
+  {
+    "nr": 303,
+    "id": "G-tick-herkunft",
+    "section": "Gesichter",
+    "wo": "Tick · Herkunft",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Tick.herkunft",
+    "text": "Reikland, ein Weiler westlich der Stadt",
+    "match": "Reikland, ein Weiler westlich der Stadt"
+  },
+  {
+    "nr": 304,
+    "id": "G-tick-motivation",
+    "section": "Gesichter",
+    "wo": "Tick · Motivation",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Tick.motivation",
+    "text": "Die Ordnung halten, bis jemand sagt, was gilt.",
+    "match": "Die Ordnung halten, bis jemand sagt, was gilt."
+  },
+  {
+    "nr": 305,
+    "id": "G-tick-shortGoal",
+    "section": "Gesichter",
+    "wo": "Tick · kurzes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Tick.shortGoal",
+    "text": "Herausfinden, wer am Tor das Sagen hat.",
+    "match": "Herausfinden, wer am Tor das Sagen hat."
+  },
+  {
+    "nr": 306,
+    "id": "G-tick-longGoal",
+    "section": "Gesichter",
+    "wo": "Tick · langes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Tick.longGoal",
+    "text": "Wieder raus. Mit den anderen.",
+    "match": "Wieder raus. Mit den anderen."
+  },
+  {
+    "nr": 307,
+    "id": "G-tick-woher",
+    "section": "Gesichter",
+    "wo": "Tick · Antwort: woher",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Tick.woher",
+    "text": "Ein Weiler westlich, Getreide und Wache.",
+    "match": "Ein Weiler westlich, Getreide und Wache."
+  },
+  {
+    "nr": 308,
+    "id": "G-tick-glaube",
+    "section": "Gesichter",
+    "wo": "Tick · Antwort: Glaube",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Tick.glaube",
+    "text": "Sigmar, weil die Mutter es so wollte.",
+    "match": "Sigmar, weil die Mutter es so wollte."
+  },
+  {
+    "nr": 309,
+    "id": "G-tick-angst",
+    "section": "Gesichter",
+    "wo": "Tick · Antwort: Angst",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Tick.angst",
+    "text": "Dass die Stadt zuhält und niemand mehr öffnet.",
+    "match": "Dass die Stadt zuhält und niemand mehr öffnet."
+  },
+  {
+    "nr": 310,
+    "id": "G-track-herkunft",
+    "section": "Gesichter",
+    "wo": "Track · Herkunft",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Track.herkunft",
+    "text": "Altdorf, ein Kontor an der Reik",
+    "match": "Altdorf, ein Kontor an der Reik"
+  },
+  {
+    "nr": 311,
+    "id": "G-track-motivation",
+    "section": "Gesichter",
+    "wo": "Track · Motivation",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Track.motivation",
+    "text": "Zahlen, die stimmen. Leute, die zahlen.",
+    "match": "Zahlen, die stimmen. Leute, die zahlen."
+  },
+  {
+    "nr": 312,
+    "id": "G-track-shortGoal",
+    "section": "Gesichter",
+    "wo": "Track · kurzes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Track.shortGoal",
+    "text": "Einen Preis in Drosselau erfahren, der kein Wucher ist.",
+    "match": "Einen Preis in Drosselau erfahren, der kein Wucher ist."
+  },
+  {
+    "nr": 313,
+    "id": "G-track-longGoal",
+    "section": "Gesichter",
+    "wo": "Track · langes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Track.longGoal",
+    "text": "Ein Siegel, das die Tore wieder aufmacht.",
+    "match": "Ein Siegel, das die Tore wieder aufmacht."
+  },
+  {
+    "nr": 314,
+    "id": "G-track-woher",
+    "section": "Gesichter",
+    "wo": "Track · Antwort: woher",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Track.woher",
+    "text": "Kontor in Altdorf. Der Wagen blieb hier stehen.",
+    "match": "Kontor in Altdorf. Der Wagen blieb hier stehen."
+  },
+  {
+    "nr": 315,
+    "id": "G-track-glaube",
+    "section": "Gesichter",
+    "wo": "Track · Antwort: Glaube",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Track.glaube",
+    "text": "Handrich. Der Rest ist Buchhaltung.",
+    "match": "Handrich. Der Rest ist Buchhaltung."
+  },
+  {
+    "nr": 316,
+    "id": "G-track-angst",
+    "section": "Gesichter",
+    "wo": "Track · Antwort: Angst",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Track.angst",
+    "text": "Leere Taschen und volle Speicher der anderen.",
+    "match": "Leere Taschen und volle Speicher der anderen."
+  },
+  {
+    "nr": 317,
+    "id": "G-truck-herkunft",
+    "section": "Gesichter",
+    "wo": "Truck · Herkunft",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Truck.herkunft",
+    "text": "Karaz-a-Karak, Lehrling auf der Walz",
+    "match": "Karaz-a-Karak, Lehrling auf der Walz"
+  },
+  {
+    "nr": 318,
+    "id": "G-truck-motivation",
+    "section": "Gesichter",
+    "wo": "Truck · Motivation",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Truck.motivation",
+    "text": "Ein Werk, das hält. Ein Groll, der wartet.",
+    "match": "Ein Werk, das hält. Ein Groll, der wartet."
+  },
+  {
+    "nr": 319,
+    "id": "G-truck-shortGoal",
+    "section": "Gesichter",
+    "wo": "Truck · kurzes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Truck.shortGoal",
+    "text": "Eine Esse in der Schmiedezeile, die nicht fremd ist.",
+    "match": "Eine Esse in der Schmiedezeile, die nicht fremd ist."
+  },
+  {
+    "nr": 320,
+    "id": "G-truck-longGoal",
+    "section": "Gesichter",
+    "wo": "Truck · langes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Truck.longGoal",
+    "text": "Die Walz beenden. Nicht in dieser Stadt sterben.",
+    "match": "Die Walz beenden. Nicht in dieser Stadt sterben."
+  },
+  {
+    "nr": 321,
+    "id": "G-truck-woher",
+    "section": "Gesichter",
+    "wo": "Truck · Antwort: woher",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Truck.woher",
+    "text": "Die Walz. Der Hammer ist älter als die Stadtmauer.",
+    "match": "Die Walz. Der Hammer ist älter als die Stadtmauer."
+  },
+  {
+    "nr": 322,
+    "id": "G-truck-glaube",
+    "section": "Gesichter",
+    "wo": "Truck · Antwort: Glaube",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Truck.glaube",
+    "text": "Grungni. Ahnen zuerst.",
+    "match": "Grungni. Ahnen zuerst."
+  },
+  {
+    "nr": 323,
+    "id": "G-truck-angst",
+    "section": "Gesichter",
+    "wo": "Truck · Antwort: Angst",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Truck.angst",
+    "text": "Schande vor den Ahnen, wenn das Werk bricht.",
+    "match": "Schande vor den Ahnen, wenn das Werk bricht."
+  },
+  {
+    "nr": 324,
+    "id": "G-hanni-herkunft",
+    "section": "Gesichter",
+    "wo": "Hanni · Herkunft",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Hanni.herkunft",
+    "text": "Haffenstadt, Cousinen in jeder Gasse",
+    "match": "Haffenstadt, Cousinen in jeder Gasse"
+  },
+  {
+    "nr": 325,
+    "id": "G-hanni-motivation",
+    "section": "Gesichter",
+    "wo": "Hanni · Motivation",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Hanni.motivation",
+    "text": "Nicht auffallen. Trotzdem satt werden.",
+    "match": "Nicht auffallen. Trotzdem satt werden."
+  },
+  {
+    "nr": 326,
+    "id": "G-hanni-shortGoal",
+    "section": "Gesichter",
+    "wo": "Hanni · kurzes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Hanni.shortGoal",
+    "text": "Eine warme Ecke in der Bettelgasse, ohne Schuld.",
+    "match": "Eine warme Ecke in der Bettelgasse, ohne Schuld."
+  },
+  {
+    "nr": 327,
+    "id": "G-hanni-longGoal",
+    "section": "Gesichter",
+    "wo": "Hanni · langes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Hanni.longGoal",
+    "text": "Nanni wieder nach Hause bringen. Dann essen.",
+    "match": "Nanni wieder nach Hause bringen. Dann essen."
+  },
+  {
+    "nr": 328,
+    "id": "G-hanni-woher",
+    "section": "Gesichter",
+    "wo": "Hanni · Antwort: woher",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Hanni.woher",
+    "text": "Haffenstadt. Die Tante hat uns auf den Wagen gesetzt.",
+    "match": "Haffenstadt. Die Tante hat uns auf den Wagen gesetzt."
+  },
+  {
+    "nr": 329,
+    "id": "G-hanni-glaube",
+    "section": "Gesichter",
+    "wo": "Hanni · Antwort: Glaube",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Hanni.glaube",
+    "text": "Esmeralda. Der Topf zuerst.",
+    "match": "Esmeralda. Der Topf zuerst."
+  },
+  {
+    "nr": 330,
+    "id": "G-hanni-angst",
+    "section": "Gesichter",
+    "wo": "Hanni · Antwort: Angst",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Hanni.angst",
+    "text": "Hunger, und dass Nanni ohne mich bleibt.",
+    "match": "Hunger, und dass Nanni ohne mich bleibt."
+  },
+  {
+    "nr": 331,
+    "id": "G-nanni-herkunft",
+    "section": "Gesichter",
+    "wo": "Nanni · Herkunft",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Nanni.herkunft",
+    "text": "Ubersreik, eine kleine Praxis",
+    "match": "Ubersreik, eine kleine Praxis"
+  },
+  {
+    "nr": 332,
+    "id": "G-nanni-motivation",
+    "section": "Gesichter",
+    "wo": "Nanni · Motivation",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Nanni.motivation",
+    "text": "Wunden schließen. Fragen offen lassen.",
+    "match": "Wunden schließen. Fragen offen lassen."
+  },
+  {
+    "nr": 333,
+    "id": "G-nanni-shortGoal",
+    "section": "Gesichter",
+    "wo": "Nanni · kurzes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Nanni.shortGoal",
+    "text": "Wer in Drosselau heilen darf, ohne die Gilde zu fragen.",
+    "match": "Wer in Drosselau heilen darf, ohne die Gilde zu fragen."
+  },
+  {
+    "nr": 334,
+    "id": "G-nanni-longGoal",
+    "section": "Gesichter",
+    "wo": "Nanni · langes Ziel",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Nanni.longGoal",
+    "text": "Hanni nicht verlieren. Dann weiter.",
+    "match": "Hanni nicht verlieren. Dann weiter."
+  },
+  {
+    "nr": 335,
+    "id": "G-nanni-woher",
+    "section": "Gesichter",
+    "wo": "Nanni · Antwort: woher",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Nanni.woher",
+    "text": "Ubersreik. Die Lehre war kürzer als der Weg hierher.",
+    "match": "Ubersreik. Die Lehre war kürzer als der Weg hierher."
+  },
+  {
+    "nr": 336,
+    "id": "G-nanni-glaube",
+    "section": "Gesichter",
+    "wo": "Nanni · Antwort: Glaube",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Nanni.glaube",
+    "text": "Shallya. Die Hand, nicht das Schwert.",
+    "match": "Shallya. Die Hand, nicht das Schwert."
+  },
+  {
+    "nr": 337,
+    "id": "G-nanni-angst",
+    "section": "Gesichter",
+    "wo": "Nanni · Antwort: Angst",
+    "datei": "src/lib/wfrp/party.ts",
+    "feld": "Nanni.angst",
+    "text": "Ein Fieber, dem ich keinen Namen geben kann.",
+    "match": "Ein Fieber, dem ich keinen Namen geben kann."
+  },
+  {
+    "nr": 338,
+    "id": "D-sehr-leicht",
+    "section": "Schwierigkeit",
+    "wo": "Sehr leicht (+60)",
+    "datei": "src/lib/wfrp/types.ts",
+    "feld": "DIFFICULTY_LABEL.sehr-leicht",
+    "text": "Sehr leicht (+60)",
+    "match": "Sehr leicht (+60)"
+  },
+  {
+    "nr": 339,
+    "id": "D-leicht",
+    "section": "Schwierigkeit",
+    "wo": "Leicht (+40)",
+    "datei": "src/lib/wfrp/types.ts",
+    "feld": "DIFFICULTY_LABEL.leicht",
+    "text": "Leicht (+40)",
+    "match": "Leicht (+40)"
+  },
+  {
+    "nr": 340,
+    "id": "D-durchschnittlich",
+    "section": "Schwierigkeit",
+    "wo": "Durchschnittlich (+20)",
+    "datei": "src/lib/wfrp/types.ts",
+    "feld": "DIFFICULTY_LABEL.durchschnittlich",
+    "text": "Durchschnittlich (+20)",
+    "match": "Durchschnittlich (+20)"
+  },
+  {
+    "nr": 341,
+    "id": "D-herausfordernd",
+    "section": "Schwierigkeit",
+    "wo": "Herausfordernd (+0)",
+    "datei": "src/lib/wfrp/types.ts",
+    "feld": "DIFFICULTY_LABEL.herausfordernd",
+    "text": "Herausfordernd (+0)",
+    "match": "Herausfordernd (+0)"
+  },
+  {
+    "nr": 342,
+    "id": "D-schwer",
+    "section": "Schwierigkeit",
+    "wo": "Schwer (−20)",
+    "datei": "src/lib/wfrp/types.ts",
+    "feld": "DIFFICULTY_LABEL.schwer",
+    "text": "Schwer (−20)",
+    "match": "Schwer (−20)"
+  },
+  {
+    "nr": 343,
+    "id": "D-sehr-schwer",
+    "section": "Schwierigkeit",
+    "wo": "Sehr schwer (−30)",
+    "datei": "src/lib/wfrp/types.ts",
+    "feld": "DIFFICULTY_LABEL.sehr-schwer",
+    "text": "Sehr schwer (−30)",
+    "match": "Sehr schwer (−30)"
+  }
+]

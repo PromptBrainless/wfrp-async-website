@@ -11,7 +11,7 @@ Du musst nicht zur Liste. Der Pfeil reicht.
 | am Tisch sitzen | [Abend](#1-abend--spielen) |
 | einen Bogen anlegen | [Bogen](#2-bogen--anlegen) |
 | eine Regel nachschlagen | [Buch](#3-buch--nachschlagen) |
-| die Engine verstehen | [Gerät](#4-gerät--halten) |
+| die Sätze des Spiels ändern | [Spieltexte](../copy/SPIELTEXTE.md) |
 
 ---
 
@@ -73,6 +73,7 @@ Die Engine spricht nicht. JSON zählt.
 | 2 | [Aktionskatalog](10-system/04-aktionskatalog-v1.md) |
 | 3 | [data/](data/README.md) |
 | 4 | [src/lib/wfrp](../src/lib/wfrp/README.md) |
+| 5 | [Spieltexte](../copy/SPIELTEXTE.md) — Sätze, die das Spiel zeigt |
 
 ---
 
