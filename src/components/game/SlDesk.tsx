@@ -12,9 +12,9 @@ export function SlDesk() {
   const addLog = useTisch((s) => s.addLog);
   const setRole = useTisch((s) => s.setRole);
   const setView = useTisch((s) => s.setView);
+  const seatId = useTisch((s) => s.seatId);
   const scene = campaign.scenes[campaign.currentSceneId];
   const pending = campaign.pending;
-  const submitted = Object.keys(campaign.intentions);
   const [title, setTitle] = useState("");
   const [body, setBody] = useState("");
 
@@ -22,14 +22,17 @@ export function SlDesk() {
     <div className="space-y-6 text-ink">
       <header>
         <h2 className="font-display text-xl">Spielleiter</h2>
-        <p className="mt-1 text-sm text-ink-muted">Dieselbe Szene. Spieler sehen diese Klappe nicht.</p>
+        <p className="mt-1 text-sm text-ink-muted">
+          Du siehst dieselbe Szene wie die Spieler — aber diese Klappe bleibt allein dir vorbehalten. Du führst die
+          Regie, sitzt aber nicht mit am Tisch.
+        </p>
         <Button
           size="sm"
           variant="quiet"
           className="mt-3"
           onClick={() => {
             setRole("spieler");
-            setView("platz-1");
+            setView(seatId ?? "platz-1");
           }}
         >
           Als Spieler

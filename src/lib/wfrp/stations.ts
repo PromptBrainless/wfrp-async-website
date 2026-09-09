@@ -17,19 +17,19 @@ export const STATIONS: {
   why: string;
   explain: string[];
 }[] = [
-  { id: "welt", label: "Welt", why: "Zuhören, noch nicht wählen.", explain: ["01-welt-und-voelker"] },
-  { id: "volk", label: "Volk", why: "Kultur und Ort. Zahlen danach.", explain: ["01-welt-und-voelker"] },
-  { id: "pnp", label: "Spiel", why: "Was digital ist, was der SL bleibt.", explain: ["02-pnp"] },
+  { id: "welt", label: "Welt", why: "Erst zuhören, was diese Welt erzählt — gewählt wird später.", explain: ["01-welt-und-voelker"] },
+  { id: "volk", label: "Volk", why: "Woher du kommst, prägt, wer du wirst. Die Zahlen folgen danach.", explain: ["01-welt-und-voelker"] },
+  { id: "pnp", label: "Spiel", why: "Was hier digital läuft — und was ganz beim Spielleiter bleibt.", explain: ["02-pnp"] },
   {
     id: "karriere",
     label: "Karriere",
-    why: "Klasse ist Herkunft, Karriere der Beruf.",
+    why: "Die Klasse ist deine Herkunft, die Karriere dein Beruf im Reich.",
     explain: ["03-klasse", "04-karriere", "05-status", "06-waehrung", "07-rang"],
   },
   {
     id: "werte",
     label: "Werte",
-    why: "Zehn Attribute, dann Schicksal.",
+    why: "Zehn Attribute geben dir Gestalt, dann entscheidet das Schicksal.",
     explain: [
       "08-attribute",
       "09-w100",
@@ -44,7 +44,7 @@ export const STATIONS: {
   {
     id: "faehigkeiten",
     label: "Fähigkeiten",
-    why: "Was du kannst, und ein Talent.",
+    why: "Zeig, was du gelernt hast — und wähl ein Talent, das dich auszeichnet.",
     explain: [
       "16-faehigkeit-und-talent",
       "17-zufaellige-talente",
@@ -55,23 +55,23 @@ export const STATIONS: {
   {
     id: "ausruestung",
     label: "Ausrüstung",
-    why: "Pakete und Startgeld folgen der Karriere.",
+    why: "Was du trägst und bei dir hast, folgt aus deiner Karriere.",
     explain: ["20-ausruestung", "21-gugel-oder-maske", "22-startgeld", "23-traglast"],
   },
   {
     id: "details",
     label: "Details",
-    why: "Name, Alter, Aussehen, Ziele.",
+    why: "Name, Alter, Aussehen, Ziele — das Gesicht hinter den Werten.",
     explain: ["24-alter-aussehen", "25-bart", "26-ziele"],
   },
-  { id: "gruppe", label: "Gruppe", why: "Überspringbar — der SL führt zusammen.", explain: ["27-gruppe"] },
+  { id: "gruppe", label: "Gruppe", why: "Kannst du überspringen — der Spielleiter führt euch zusammen.", explain: ["27-gruppe"] },
   {
     id: "leben",
     label: "Leben",
-    why: "Mindestens drei Fragen. Herkunft aus der Liste.",
+    why: "Beantworte mindestens drei Fragen zu deinem Leben, die Herkunft steht auf der Liste.",
     explain: ["28-zehn-fragen", "39-psychologie"],
   },
-  { id: "xp", label: "EP", why: "Optional. Der Bogen wartet.", explain: ["29-steigerungen-ep"] },
+  { id: "xp", label: "EP", why: "Optional — dein Bogen wartet auch ohne das.", explain: ["29-steigerungen-ep"] },
 ];
 
 export const STATION_IDS = STATIONS.map((s) => s.id);

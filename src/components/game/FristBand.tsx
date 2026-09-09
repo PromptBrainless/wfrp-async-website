@@ -11,7 +11,7 @@ export function FristBand() {
 
   return (
     <p className="frist-band">
-      Kein Zug. Alle dürfen, bis die Frist um ist.
+      Kein Zug. Alle dürfen handeln, bis die Frist um ist.
       {done.length ? ` ${done.map((c) => c.name).join(", ")} ${done.length === 1 ? "hat" : "haben"} gehandelt.` : ""}
       {open.length ? ` Offen: ${open.map((c) => c.name).join(", ")}.` : " Alle Absichten liegen."}
     </p>

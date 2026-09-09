@@ -49,7 +49,7 @@ export function Journal() {
           ) : null}
         </article>
       ) : (
-        <p className="mt-3 text-sm text-ink-muted">Nichts freigegeben.</p>
+        <p className="mt-3 text-sm text-ink-muted">Noch ist kein Blatt freigegeben — der Spielleiter entscheidet, wann.</p>
       )}
     </section>
   );

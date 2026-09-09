@@ -162,7 +162,9 @@ export function Composer({ onMore }: { onMore: () => void }) {
         <p className="font-display text-sm text-ink">
           {who} wirft {skill?.label ?? "jetzt"}
         </p>
-        <p className="mt-1 text-sm text-ink-muted">W100. Nur die Rechnung — die Welt schreibst du danach.</p>
+        <p className="mt-1 text-sm text-ink-muted">
+          Ein W100 entscheidet über Erfolg oder Misserfolg — was daraus in der Szene wird, erzählst du danach selbst.
+        </p>
         <Button className="mt-3 w-full" variant="wax" size="lg" onClick={playerRoll}>
           Würfeln
         </Button>
@@ -173,7 +175,7 @@ export function Composer({ onMore }: { onMore: () => void }) {
   if (pending && !sl && pending.intention.characterId === actor?.id) {
     return (
       <footer className="play-foot">
-        <p className="text-sm text-ink-muted">Die Absicht liegt beim Spielleiter.</p>
+        <p className="text-sm text-ink-muted">Deine Intention liegt beim Spielleiter. Warte auf die Frist — oder auf die Aufforderung zum Wurf.</p>
       </footer>
     );
   }
@@ -181,7 +183,9 @@ export function Composer({ onMore }: { onMore: () => void }) {
   if (!sl && actor && campaign.intentions[actor.id]) {
     return (
       <footer className="play-foot">
-        <p className="text-sm text-ink-muted">Deine Absicht liegt. Die anderen dürfen noch. Kein Zug — die Frist hält.</p>
+        <p className="text-sm text-ink-muted">
+          Deine Absicht liegt. Die anderen dürfen noch. Kein Zug — die Frist hält den Tisch.
+        </p>
       </footer>
     );
   }
@@ -193,9 +197,9 @@ export function Composer({ onMore }: { onMore: () => void }) {
   if (!sl && empty) {
     return (
       <footer className="play-foot">
-        <p className="text-sm text-ink-muted">Kein Bogen auf dem Platz.</p>
-        <Link to="/erschaffung" className="mt-3 inline-block text-sm text-ink underline-offset-4 hover:underline">
-          Charakter anlegen
+        <p className="text-sm text-ink-muted">Auf diesem Platz liegt noch kein Bogen.</p>
+        <Link to="/karte" className="mt-3 inline-block text-sm text-ink underline-offset-4 hover:underline">
+          Würfeln, nur Name eintragen
         </Link>
       </footer>
     );
@@ -204,7 +208,7 @@ export function Composer({ onMore }: { onMore: () => void }) {
   if (!scene.opened && !sl) {
     return (
       <footer className="play-foot">
-        <p className="text-sm text-ink-muted">Die Gasse liegt zu. Der Spielleiter öffnet.</p>
+        <p className="text-sm text-ink-muted">Die Gasse liegt zu. Der Spielleiter entscheidet, welche Tür sich öffnet.</p>
       </footer>
     );
   }
@@ -229,7 +233,7 @@ export function Composer({ onMore }: { onMore: () => void }) {
             </button>
           </div>
           {!sl && scene.protocol.length <= 1 ? (
-            <p className="mt-2 text-xs text-ink-faint">Erst den Ort. Dann eine Absicht.</p>
+            <p className="mt-2 text-xs text-ink-faint">Erst den Ort. Dann eine Absicht — ausgegraute Karten bleiben sichtbar, mit Grund.</p>
           ) : null}
         </>
       )}

@@ -78,15 +78,21 @@ export function IntentBar() {
       {pendingRoll && (role === "spieler" || role === "tisch") ? (
         <div className="rounded-lg border border-ink/15 bg-paper p-3">
           <p className="font-display text-sm text-ink">Dein Wurf steht aus</p>
-          <p className="mt-1 text-sm text-ink-muted">W100 gegen die angesagte Zielzahl. Der SL deutet danach.</p>
+          <p className="mt-1 text-sm text-ink-muted">
+            Ein W100 entscheidet gegen die angesagte Zielzahl — was er bedeutet, deutet der Spielleiter danach.
+          </p>
           <Button className="mt-3 w-full" variant="wax" onClick={playerRoll}>
             Würfeln
           </Button>
         </div>
       ) : pending && !showSl && !pendingRoll ? (
-        <p className="text-sm text-ink-muted">Intention liegt beim SL. Warten auf die Frist — oder auf die Aufforderung zum Wurf.</p>
+        <p className="text-sm text-ink-muted">
+          Deine Intention liegt beim Spielleiter. Warte auf die Frist — oder auf die Aufforderung zum Wurf.
+        </p>
       ) : !def && !pending && !pendingRoll ? (
-        <p className="text-sm text-ink-muted">Eine Karte wählen. Graue Karten bleiben sichtbar, mit Grund.</p>
+        <p className="text-sm text-ink-muted">
+          Wähle eine Karte. Ausgegraute Karten bleiben sichtbar, mit einem Grund, warum sie noch nicht offenstehen.
+        </p>
       ) : null}
     </div>
   );

@@ -5,7 +5,6 @@ import {
   egBand,
   effectiveTarget,
   formatDiceNumbers,
-  formatSl,
   hitLocation,
   isDoubles,
   isSuccess,
@@ -14,7 +13,7 @@ import {
   successLevels,
 } from "./dice";
 import { PRIVATE_ACTIONS } from "./eyes";
-import { ICON_FROM_KIND, type IconKind } from "./icons";
+import { ICON_FROM_KIND } from "./icons";
 import { applyTalentToRoll, bargainExtra } from "./talents";
 import { DIFFICULTY_MOD } from "./types";
 import type {
@@ -221,7 +220,7 @@ export function applyCombatOutcome(campaign: Campaign, roll: RollResult): Campai
     icon: "wurf",
     dice: plate,
   });
-  let next: Campaign = { ...campaign, characters: { ...campaign.characters }, scenes: { ...campaign.scenes } };
+  const next: Campaign = { ...campaign, characters: { ...campaign.characters }, scenes: { ...campaign.scenes } };
   let scn = pushProtocol(scene, diceBeat);
 
   if ((roll.actionId === "sturmangriff" || roll.actionId === "angreifen") && roll.success) {

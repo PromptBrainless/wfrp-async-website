@@ -29,13 +29,14 @@ function SlPage() {
           <p className="font-display text-xs uppercase tracking-mark text-ink-faint">Spielleiter · Kampagne 1</p>
           <h1 className="mt-4 font-display text-4xl text-ink">{DROSSELAU.name}</h1>
           <p className="mt-4 max-w-prose text-lg leading-relaxed text-ink-muted">
-            Stadt → Viertel → Gasse → Haus → Haushalt. {DROSSELAU_SCENE_COUNT} Szenen. Torstraße offen.{" "}
-            {GROUPS.length} Gruppen, 42 Stammbäume.
+            Stadt, Viertel, Gasse, Haus, Haushalt — {DROSSELAU_HOUSE_COUNT} Adressen in {QUARTIERS.length} Vierteln.{" "}
+            {DROSSELAU_SCENE_COUNT} Szenen liegen bereit. Die Torstraße ist offen. {GROUPS.length} Gruppen und 42
+            Stammbäume geben dir, was du brauchst, um jede Tür mit einem Namen zu füllen.
           </p>
           <ul className="mt-6 space-y-1 text-sm text-ink">
-            <li>Spieler: Tick, Track, Truck, Hanni, Nanni</li>
+            <li>Karten: Tick, Track, Truck, Hanni, Nanni</li>
             <li>Viertel: {QUARTIERS.length}</li>
-            <li>Offen: Torstraße</li>
+            <li>Geöffnet: Torstraße — der erste Zug liegt bei den fünf</li>
           </ul>
 
           <h2 className="mt-10 font-display text-xl text-ink">Gruppen</h2>

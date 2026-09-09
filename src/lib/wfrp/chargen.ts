@@ -404,7 +404,6 @@ export function skillAdvances(d: ChargenDraft): Record<string, number> {
 
 export function allTalents(d: ChargenDraft): string[] {
   const sp = d.speciesId ? SPECIES[d.speciesId] : null;
-  const career = d.careerId ? CAREER_BY_ID[d.careerId] : null;
   const list = [
     ...(sp?.talentFixed ?? []),
     ...d.talentOr,

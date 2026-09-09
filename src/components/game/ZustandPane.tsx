@@ -13,7 +13,7 @@ export function ZustandPane() {
     return (
       <div className="play-pane-pad">
         <p className="font-display text-lg text-ink">Kein Bogen</p>
-        <p className="mt-2 text-sm text-ink-muted">Oben einen Namen wählen. Dann liegt hier der Bogen.</p>
+        <p className="mt-2 text-sm text-ink-muted">Erst eine Karte wählen. Dann liegt hier der Bogen.</p>
       </div>
     );
   }

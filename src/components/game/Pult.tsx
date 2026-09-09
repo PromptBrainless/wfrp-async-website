@@ -39,7 +39,7 @@ export function Pult() {
             Offen: {campaign.characters[pending.intention.characterId]?.name} will {pending.intention.actionId}
           </p>
         ) : (
-          <p className="mt-2 text-sm text-ink-muted">Keine offene Absicht.</p>
+          <p className="mt-2 text-sm text-ink-muted">Keine offene Absicht — die Frist läuft trotzdem.</p>
         )}
         <table className="mt-3 w-full text-sm">
           <thead>
