@@ -59,7 +59,7 @@ export function IntentBar() {
             </select>
           </label>
           <div className="mt-3 grid grid-cols-2 gap-2">
-            <Button size="sm" variant="wax" onClick={slAskRoll}>
+            <Button size="sm" variant="wax" onClick={() => slAskRoll()}>
               Spieler würfelt
             </Button>
             <Button size="sm" variant="ink" onClick={slRoll}>

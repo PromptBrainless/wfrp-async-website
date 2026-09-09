@@ -13,6 +13,7 @@ import {
   skillValue,
   successLevels,
 } from "./dice";
+import { PRIVATE_ACTIONS } from "./eyes";
 import { ICON_FROM_KIND, type IconKind } from "./icons";
 import { applyTalentToRoll, bargainExtra } from "./talents";
 import { DIFFICULTY_MOD } from "./types";
@@ -32,7 +33,7 @@ function nowEntry(
   body: string,
   numbers?: string,
   extra?: Partial<
-    Pick<ProtocolEntry, "secret" | "image" | "portrait" | "placeId" | "speaker" | "icon" | "dice">
+    Pick<ProtocolEntry, "secret" | "image" | "portrait" | "placeId" | "speaker" | "icon" | "dice" | "privateTo">
   >,
 ): ProtocolEntry {
   return {
@@ -191,6 +192,7 @@ export function applySocialOutcome(campaign: Campaign, roll: RollResult): Campai
   const scene = campaign.scenes[campaign.currentSceneId];
   const actor = campaign.characters[roll.characterId];
   const plate = plateFrom(roll, actor?.name ?? "Wurf");
+  const privateTo = PRIVATE_ACTIONS.has(roll.actionId) ? actor?.id : undefined;
   const scn = pushProtocol(
     scene,
     nowEntry("rules", CATALOG_BY_ID[roll.actionId]?.label ?? roll.actionId, `${actor?.name ?? "Jemand"} wirft.`, formatRollLine(roll), {
@@ -198,6 +200,7 @@ export function applySocialOutcome(campaign: Campaign, roll: RollResult): Campai
       speaker: actor?.id,
       icon: "wurf",
       dice: plate,
+      privateTo,
     }),
   );
   const next: Campaign = {

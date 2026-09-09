@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { formatMoney } from "@/lib/wfrp/money";
 import { useTisch } from "@/lib/wfrp/store";
-import { activePc, isSeatEmpty, SEAT_IDS } from "@/lib/wfrp/seats";
-import { cn } from "@/lib/utils";
+import { activePc } from "@/lib/wfrp/seats";
 
 function formatFrist(endsAt: number, now: number): string {
   const ms = endsAt - now;
@@ -18,7 +17,6 @@ export function CharHead({ onBlatt }: { onBlatt: () => void }) {
   const campaign = useTisch((s) => s.campaign);
   const viewId = useTisch((s) => s.viewId);
   const role = useTisch((s) => s.role);
-  const setView = useTisch((s) => s.setView);
   const scene = campaign.scenes[campaign.currentSceneId];
   const sl = role === "sl";
   const pc = activePc(campaign, viewId);
@@ -28,7 +26,9 @@ export function CharHead({ onBlatt }: { onBlatt: () => void }) {
       ? (campaign.characters[viewId] ?? null)
       : null
     : who;
-  const recap = [...campaign.journalNotes].reverse().find((n) => n.body)?.body;
+  const recap = [...campaign.journalNotes]
+    .reverse()
+    .find((n) => n.body && (sl || !n.privateTo || n.privateTo === viewId))?.body;
   const [now, setNow] = useState<number | null>(null);
 
   useEffect(() => {
@@ -74,27 +74,6 @@ export function CharHead({ onBlatt }: { onBlatt: () => void }) {
         <p className="play-recap" style={{ borderTop: "none", paddingTop: 0 }}>
           Nächste Zeile trägt {inspect.name}
         </p>
-      ) : null}
-      {!sl ? (
-        <div className="play-party" role="tablist" aria-label="Wer spielt">
-          {SEAT_IDS.map((id) => {
-            const ch = campaign.characters[id];
-            if (!ch || isSeatEmpty(ch)) return null;
-            const on = viewId === id;
-            return (
-              <button
-                key={id}
-                type="button"
-                role="tab"
-                aria-selected={on}
-                className={cn("play-party-chip", on && "is-on")}
-                onClick={() => setView(id)}
-              >
-                {ch.name}
-              </button>
-            );
-          })}
-        </div>
       ) : null}
       {recap ? <p className="play-recap">{recap}</p> : null}
     </header>

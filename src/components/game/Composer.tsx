@@ -79,7 +79,7 @@ export function Composer({ onMore }: { onMore: () => void }) {
           </select>
         </label>
         <div className="mt-2 grid grid-cols-2 gap-2">
-          <Button size="sm" variant="wax" onClick={slAskRoll}>
+          <Button size="sm" variant="wax" onClick={() => slAskRoll()}>
             Spieler würfelt
           </Button>
           <Button size="sm" variant="ink" onClick={slRoll}>
@@ -174,6 +174,14 @@ export function Composer({ onMore }: { onMore: () => void }) {
     return (
       <footer className="play-foot">
         <p className="text-sm text-ink-muted">Die Absicht liegt beim Spielleiter.</p>
+      </footer>
+    );
+  }
+
+  if (!sl && actor && campaign.intentions[actor.id]) {
+    return (
+      <footer className="play-foot">
+        <p className="text-sm text-ink-muted">Deine Absicht liegt. Die anderen dürfen noch. Kein Zug — die Frist hält.</p>
       </footer>
     );
   }

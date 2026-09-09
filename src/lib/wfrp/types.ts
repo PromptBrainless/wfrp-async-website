@@ -201,6 +201,8 @@ export interface ProtocolEntry {
   speaker?: string;
   icon?: IconKind;
   dice?: DicePlate;
+  /** Nur dieser Charakter und der SL sehen den Beat. */
+  privateTo?: string;
 }
 
 export interface PreparedEvent {
@@ -370,6 +372,7 @@ export interface JournalNote {
   npcNames: string[];
   openQuestion?: string;
   sourceProtocolId?: string;
+  privateTo?: string;
 }
 
 export type SlLogKind =

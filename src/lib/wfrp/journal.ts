@@ -17,6 +17,7 @@ export function noteFromBeat(scene: Scene, entry: ProtocolEntry): JournalNote | 
     body: short,
     npcNames,
     sourceProtocolId: entry.id,
+    privateTo: entry.privateTo,
   };
   if (entry.kind === "intent") note.openQuestion = "Wurf oder automatisches Gelingen?";
   return note;

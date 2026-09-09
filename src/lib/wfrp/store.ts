@@ -6,6 +6,7 @@ import { formatMoney } from "./money";
 import { canWalkTo, distanceBetween, foeId, pinById, tokenPlace } from "./movement";
 import { addBeat } from "./journal";
 import { applyCombatOutcome, applySocialOutcome, nowEntry, pushProtocol, rollSimple } from "./resolve";
+import { PRIVATE_ACTIONS } from "./eyes";
 import { createCampaign } from "./seed";
 import { activePc, claimSeat, filledPcs, isSeatEmpty, SEAT_IDS } from "./seats";
 import type {
@@ -43,7 +44,7 @@ type Store = {
   setPane: (pane: WorkPane) => void;
   submit: () => void;
   slAuto: (kind: "success" | "fail") => void;
-  slAskRoll: () => void;
+  slAskRoll: (who?: string) => void;
   slRoll: () => void;
   playerRoll: () => void;
   fortune: (mode: "skip" | "reroll" | "plus") => void;
@@ -57,6 +58,9 @@ type Store = {
   forceCountdown: () => void;
   reset: () => void;
   addCharacter: (c: Character) => void;
+  occupySeat: (seatId: string, c: Character) => void;
+  sitAs: (id: string) => void;
+  seatId: string | null;
   selectedTokenId: string | null;
   selectedJournalId: string | null;
   selectedPlaceId: string | null;
@@ -64,7 +68,7 @@ type Store = {
   selectJournal: (id: string | null) => void;
   selectPlace: (id: string | null) => void;
   moveToPlace: (characterId: string, placeId: string) => void;
-  addLog: (entry: { kind: ProtocolEntry["kind"]; title: string; body: string; secret?: boolean }) => void;
+  addLog: (entry: { kind: ProtocolEntry["kind"]; title: string; body: string; secret?: boolean; privateTo?: string }) => void;
   removeLog: (id: string) => void;
   revealFog: (id: string) => void;
   revealPin: (id: string) => void;
@@ -93,26 +97,45 @@ function withLog(c: Campaign, entry: SlLogEntry): Campaign {
   return { ...c, slLog: [...c.slLog, entry] };
 }
 
+function dropIntention(c: Campaign, characterId: string): Campaign {
+  const rest = { ...c.intentions };
+  delete rest[characterId];
+  const next = Object.values(rest)[0];
+  const pending =
+    c.pending?.intention.characterId === characterId
+      ? next
+        ? { intention: next, difficulty: c.pending.difficulty, editedNarrative: "" }
+        : null
+      : c.pending;
+  return { ...c, intentions: rest, pending };
+}
+
 function executeRoll(campaign: Campaign, difficulty: DifficultyId, proxy: boolean) {
+  const asked = campaign.pendingPlayerRoll;
   const pending = campaign.pending;
-  if (!pending) return null;
-  const actor = campaign.characters[pending.intention.characterId];
-  const def = CATALOG_BY_ID[pending.intention.actionId];
+  const characterId = asked?.characterId ?? pending?.intention.characterId;
+  const actionId = asked?.actionId ?? pending?.intention.actionId;
+  if (!characterId || !actionId) return null;
+  const actor = campaign.characters[characterId];
+  const def = CATALOG_BY_ID[actionId];
   if (!actor || !def) return null;
   const combat = currentScene(campaign).mode === "kampf";
   const roll = rollSimple(actor, def.id, difficulty, combat && def.resolver === "combat", proxy);
   const applied =
     combat && def.resolver === "combat" ? applyCombatOutcome(campaign, roll) : applySocialOutcome(campaign, roll);
   const hasFortune = !proxy && actor.kind === "pc" && applied.characters[actor.id].fortune > 0;
-  return {
-    applied: {
+  const next = dropIntention(
+    {
       ...applied,
-      pending: null,
       pendingPlayerRoll: null,
       lastRoll: roll,
       fortune: hasFortune ? { characterId: actor.id, actionId: def.id, roll, snapshot: formatSl(roll.sl) } : null,
       phase: hasFortune ? ("fortune" as const) : ("collecting" as const),
     },
+    actor.id,
+  );
+  return {
+    applied: next,
     actor,
     def,
     roll,
@@ -123,6 +146,7 @@ export const useTisch = create<Store>()((set, get) => ({
   campaign: createCampaign(),
   role: "spieler",
   viewId: PC_ID,
+  seatId: null,
   selectedAction: null,
   note: "",
   difficulty: "durchschnittlich",
@@ -150,12 +174,20 @@ export const useTisch = create<Store>()((set, get) => ({
     const scene = currentScene(campaign);
     const actor = campaign.characters[viewId];
     const asWorld = role === "sl" && (!actor || viewId === "welt");
+    const last = campaign.lastRoll;
+    const privateTo =
+      !asWorld && last && PRIVATE_ACTIONS.has(last.actionId) && last.characterId === (actor?.id ?? "")
+        ? actor?.id
+        : asWorld && last && PRIVATE_ACTIONS.has(last.actionId)
+          ? last.characterId
+          : undefined;
     const entry = asWorld
-      ? nowEntry("world", "Welt", text, undefined, { icon: "welt" })
+      ? nowEntry("world", "Welt", text, undefined, { icon: "welt", privateTo })
       : nowEntry("world", actor.name, text, undefined, {
           portrait: actor.portrait,
           speaker: actor.id,
           icon: "person",
+          privateTo,
         });
     set({
       campaign: withLog(
@@ -314,7 +346,7 @@ export const useTisch = create<Store>()((set, get) => ({
       {
         ...campaign,
         intentions: { ...campaign.intentions, [actor.id]: intention },
-        pending: { intention, difficulty: get().difficulty, editedNarrative: "" },
+        pending: campaign.pending ?? { intention, difficulty: get().difficulty, editedNarrative: "" },
         phase: "ready",
       },
       scene.id,
@@ -329,7 +361,7 @@ export const useTisch = create<Store>()((set, get) => ({
       selectedAction !== "freitext" &&
       (def.resolver === "simple" || def.resolver === "opposed" || def.resolver === "combat") &&
       (role !== "sl" || actor.kind === "npc");
-    if (needsAsk) get().slAskRoll();
+    if (needsAsk) get().slAskRoll(actor.id);
   },
   slAuto: (kind) => {
     const { campaign } = get();
@@ -339,40 +371,43 @@ export const useTisch = create<Store>()((set, get) => ({
     const label = CATALOG_BY_ID[pending.intention.actionId]?.label ?? pending.intention.actionId;
     const body =
       kind === "success" ? "Ohne Wurf: der SL lässt es gelten." : "Ohne Wurf: der SL lässt es scheitern.";
-    set({
-      campaign: withLog(
-        {
-          ...campaign,
-          pending: null,
-          pendingPlayerRoll: null,
-          intentions: {},
-          phase: "collecting",
-          scenes: {
-            ...campaign.scenes,
-            [scene.id]: pushProtocol(scene, nowEntry("world", label, body, undefined, { icon: "sl" })),
-          },
+    const cleared = dropIntention(
+      {
+        ...campaign,
+        pendingPlayerRoll: null,
+        phase: "collecting",
+        scenes: {
+          ...campaign.scenes,
+          [scene.id]: pushProtocol(scene, nowEntry("world", label, body, undefined, { icon: "sl" })),
         },
-        slEntry("auto", label, body),
-      ),
+      },
+      pending.intention.characterId,
+    );
+    set({
+      campaign: withLog(cleared, slEntry("auto", label, body)),
     });
   },
-  slAskRoll: () => {
+  slAskRoll: (who?: string) => {
     const { campaign, difficulty } = get();
-    const pending = campaign.pending;
-    if (!pending) return;
-    const actor = campaign.characters[pending.intention.characterId];
-    const def = CATALOG_BY_ID[pending.intention.actionId];
+    const intention =
+      (who ? campaign.intentions[who] : null) ?? campaign.pending?.intention;
+    if (!intention) return;
+    const actor = campaign.characters[intention.characterId];
+    const def = CATALOG_BY_ID[intention.actionId];
     if (!actor || !def) return;
+    if (campaign.pendingPlayerRoll && campaign.pendingPlayerRoll.characterId !== actor.id) return;
     const skillId = def.skill ?? "wahrnehmung";
     const combat = currentScene(campaign).mode === "kampf";
     const target = effectiveTarget(actor, skillId, difficulty, { combat: combat && def.resolver === "combat" });
     const scene = currentScene(campaign);
     const title = "Wirf";
     const body = `${actor.name}: ${SKILL_LABEL[skillId] ?? skillId}, Ziel ${target}. Der Wurf gehört dir.`;
+    const privateTo = PRIVATE_ACTIONS.has(def.id) ? actor.id : undefined;
     set({
       campaign: withLog(
         {
           ...campaign,
+          pending: campaign.pending ?? { intention, difficulty, editedNarrative: "" },
           pendingPlayerRoll: {
             characterId: actor.id,
             actionId: def.id,
@@ -382,7 +417,7 @@ export const useTisch = create<Store>()((set, get) => ({
               def.resolver === "opposed" || def.resolver === "combat"
                 ? def.resolver === "combat"
                   ? "ausweichen"
-                  : pending.intention.actionId === "feilschen" || pending.intention.actionId === "kaufen"
+                  : intention.actionId === "feilschen" || intention.actionId === "kaufen"
                     ? "feilschen"
                     : "besonnenheit"
                 : undefined,
@@ -392,7 +427,15 @@ export const useTisch = create<Store>()((set, get) => ({
           phase: "ready",
           scenes: {
             ...campaign.scenes,
-            [scene.id]: pushProtocol(scene, nowEntry("rules", title, body, undefined, { icon: "wurf", speaker: actor.id, portrait: actor.portrait })),
+            [scene.id]: pushProtocol(
+              scene,
+              nowEntry("rules", title, body, undefined, {
+                icon: "wurf",
+                speaker: actor.id,
+                portrait: actor.portrait,
+                privateTo,
+              }),
+            ),
           },
         },
         slEntry("ask-roll", title, body),
@@ -613,7 +656,24 @@ export const useTisch = create<Store>()((set, get) => ({
     set((s) => {
       const claimed = claimSeat(s.campaign, c);
       if (!claimed) return s;
-      return { campaign: claimed.campaign, viewId: claimed.id };
+      return { campaign: claimed.campaign, viewId: claimed.id, seatId: claimed.id, role: "spieler" as const };
+    }),
+  occupySeat: (seatId, c) =>
+    set((s) => {
+      if (!SEAT_IDS.includes(seatId as (typeof SEAT_IDS)[number])) return s;
+      const next = { ...c, id: seatId, kind: "pc" as const };
+      return {
+        campaign: { ...s.campaign, characters: { ...s.campaign.characters, [seatId]: next } },
+        viewId: seatId,
+        seatId,
+        role: "spieler" as const,
+      };
+    }),
+  sitAs: (id) =>
+    set((s) => {
+      const ch = s.campaign.characters[id];
+      if (!ch || ch.kind !== "pc") return s;
+      return { seatId: id, viewId: id, role: "spieler" as const };
     }),
   selectToken: (id) => set({ selectedTokenId: id, selectedJournalId: id }),
   selectJournal: (id) => set({ selectedJournalId: id }),
@@ -664,12 +724,17 @@ export const useTisch = create<Store>()((set, get) => ({
       selectedPlaceId: placeId,
     });
   },
-  addLog: ({ kind, title, body, secret }) => {
+  addLog: ({ kind, title, body, secret, privateTo }) => {
     const { campaign, selectedPlaceId } = get();
     const scene = currentScene(campaign);
     const pin = selectedPlaceId ? pinById(scene.board, selectedPlaceId) : undefined;
+    const last = campaign.lastRoll;
+    const eyes =
+      privateTo ??
+      (last && PRIVATE_ACTIONS.has(last.actionId) && kind === "world" && !secret ? last.characterId : undefined);
     const extra: Partial<ProtocolEntry> = {
       secret,
+      privateTo: eyes,
       placeId: selectedPlaceId ?? undefined,
       image: pin ? scene.board.image : undefined,
       icon: kind === "world" ? "welt" : kind === "event" ? "ereignis" : "sl",

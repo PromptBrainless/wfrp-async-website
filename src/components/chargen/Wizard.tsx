@@ -32,6 +32,7 @@ import {
 import { skillLabel } from "@/lib/wfrp/config";
 import { useChargen } from "@/lib/wfrp/chargen-store";
 import { useTisch } from "@/lib/wfrp/store";
+import { firstEmptySeatId } from "@/lib/wfrp/seats";
 import { STATION_IDS, STATIONS, GOETTER, type StationId } from "@/lib/wfrp/stations";
 import { ExplainPanel } from "./ExplainPanel";
 import { W100Visual } from "./W100Visual";
@@ -42,6 +43,8 @@ export function ChargenWizard() {
   const setStation = useChargen((s) => s.setStation);
   const reset = useChargen((s) => s.reset);
   const addCharacter = useTisch((s) => s.addCharacter);
+  const occupySeat = useTisch((s) => s.occupySeat);
+  const campaign = useTisch((s) => s.campaign);
   const navigate = useNavigate();
   const ep = bonusEp(draft);
   const station = draft.station ?? "welt";
@@ -55,7 +58,9 @@ export function ChargenWizard() {
     if (last) {
       const c = draftToCharacter(draft);
       if (!c) return;
-      addCharacter(c);
+      const empty = firstEmptySeatId(campaign);
+      if (empty) addCharacter(c);
+      else occupySeat("platz-1", c);
       navigate({ to: "/tisch" });
       return;
     }

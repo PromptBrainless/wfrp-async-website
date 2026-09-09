@@ -253,6 +253,81 @@ export type ChargenDraft = {
   secretGoal: string;
 };
 
+export function rollFullDraft(rng = Math.random): ChargenDraft {
+  let species = rollSpecies(rng);
+  let career: CareerDef | undefined;
+  let careerRoll = 0;
+  for (let i = 0; i < 30; i++) {
+    careerRoll = d100(rng);
+    career = careerForRoll(species.id, careerRoll);
+    if (career && stageOf(career).skills.length) break;
+    career = undefined;
+  }
+  if (!career) {
+    career =
+      CAREERS.find((c) => c.complete && Boolean(c.ranges[species.id]) && stageOf(c).skills.length > 0) ??
+      CAREERS.find((c) => c.id === "wachmann")!;
+  }
+  const sp = SPECIES[species.id];
+  const raw = emptyAttrs();
+  for (const a of ATTRS) raw[a] = twoD10(rng);
+  const pool = [...sp.skills];
+  const pick = (n: number) => {
+    const out: string[] = [];
+    while (out.length < n && pool.length) {
+      const i = Math.floor(rng() * pool.length);
+      out.push(pool.splice(i, 1)[0]!);
+    }
+    return out;
+  };
+  const plus5 = pick(3);
+  const plus3 = pick(3);
+  const talentOr = sp.talentOr.map((pair) => pair[Math.floor(rng() * pair.length)]!);
+  const owned = [...sp.talentFixed, ...talentOr];
+  const randomTalents = rollUniqueTalents(sp.randomTalents, owned, rng);
+  const stage = stageOf(career);
+  const careerAdv = Object.fromEntries(stage.skills.map((s) => [s, 5]));
+  const careerTalent = stage.talents[Math.floor(rng() * Math.max(1, stage.talents.length))] ?? null;
+  const attrAdvances = emptyAttrs();
+  const plusAttrs = (stage.plus.length ? stage.plus : ATTRS) as Attr[];
+  for (let i = 0; i < 5; i++) attrAdvances[plusAttrs[i % plusAttrs.length]!] += 1;
+  const extra = sp.extra;
+  const fateExtra = extra > 0 && rng() > 0.5 ? 1 : 0;
+  const resExtra = Math.min(extra - fateExtra, extra > 1 && rng() > 0.5 ? 1 : 0);
+  return {
+    ...newDraft(),
+    station: "details",
+    step: 8,
+    speciesId: species.id,
+    speciesEp: 20,
+    lastSpeciesRoll: species.roll,
+    careerId: career.id,
+    careerEp: 0,
+    careerRolls: [careerRoll],
+    attrMethod: "keep",
+    attrEp: 50,
+    attrRaw: raw,
+    attrAdvances,
+    fateExtra,
+    resExtra,
+    plus5,
+    plus3,
+    talentOr,
+    randomTalents,
+    careerAdv,
+    careerTalent,
+    money: moneyFromStatus(stage.status.tier, stage.status.rank, rng),
+    name: rollName(species.id, rng),
+    age: rollAge(species.id, rng),
+    heightCm: rollHeight(species.id, rng),
+    eyes: rollEyes(species.id, rng),
+    hair: rollHair(species.id, rng),
+    herkunft: "Reikland",
+    gott: species.id === "zwerg" ? "Grungni" : species.id.includes("elf") ? "Asuryan" : "Sigmar",
+    motivation: "Noch offen.",
+  };
+}
+
 export function newDraft(): ChargenDraft {
   return {
     station: "welt",

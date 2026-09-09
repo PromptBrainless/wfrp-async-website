@@ -3,6 +3,7 @@ import { Copy, RotateCcw, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { DicePlate } from "./DicePlate";
 import { ICON_FROM_KIND, iconSrc } from "@/lib/wfrp/icons";
+import { canSeeBeat } from "@/lib/wfrp/eyes";
 import { useTisch } from "@/lib/wfrp/store";
 import type { ProtocolEntry } from "@/lib/wfrp/types";
 import { cn } from "@/lib/utils";
@@ -29,6 +30,8 @@ const KIND_MARK: Record<ProtocolEntry["kind"], string> = {
 export function Leben({ compact = false }: { compact?: boolean }) {
   const campaign = useTisch((s) => s.campaign);
   const role = useTisch((s) => s.role);
+  const viewId = useTisch((s) => s.viewId);
+  const seatId = useTisch((s) => s.seatId);
   const selectPlace = useTisch((s) => s.selectPlace);
   const addLog = useTisch((s) => s.addLog);
   const removeLog = useTisch((s) => s.removeLog);
@@ -48,13 +51,15 @@ export function Leben({ compact = false }: { compact?: boolean }) {
 
   const beats = useMemo(() => {
     const q = query.trim().toLowerCase();
+    const me = seatId ?? viewId;
     return scene.protocol.filter((e) => {
       if (!sl && role !== "tisch" && e.secret) return false;
+      if (!canSeeBeat(e, { role, viewId: me })) return false;
       if (filter !== "alle" && e.kind !== filter) return false;
       if (q && !`${e.title} ${e.body} ${e.numbers ?? ""}`.toLowerCase().includes(q)) return false;
       return true;
     });
-  }, [scene.protocol, sl, role, filter, query]);
+  }, [scene.protocol, sl, role, filter, query, viewId, seatId]);
 
   useEffect(() => {
     setClock(true);

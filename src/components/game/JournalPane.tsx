@@ -3,7 +3,14 @@ import { useTisch } from "@/lib/wfrp/store";
 
 export function JournalPane() {
   const notes = useTisch((s) => s.campaign.journalNotes);
-  const recent = [...notes].reverse();
+  const role = useTisch((s) => s.role);
+  const viewId = useTisch((s) => s.viewId);
+  const seatId = useTisch((s) => s.seatId);
+  const me = seatId ?? viewId;
+  const sl = role === "sl";
+  const recent = [...notes]
+    .reverse()
+    .filter((n) => sl || !n.privateTo || n.privateTo === me);
 
   return (
     <div className="play-pane-pad">

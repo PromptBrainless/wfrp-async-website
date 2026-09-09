@@ -148,6 +148,7 @@ export function playFirstHour(campaign: Campaign): Campaign {
       icon: "wurf",
       speaker: "platz-1",
       dice: look,
+      privateTo: "platz-1",
     }),
     beat({
       id: "h1-sieht",
@@ -158,6 +159,7 @@ export function playFirstHour(campaign: Campaign): Campaign {
         ? "Die Luke am Zollhaus steht einen Spalt. Kreide an der Tür: Striche, heutiger Tross. Hinter Helm kein zweiter Mann. Die Bäckerei dampft. An der Bettelgasse-Ecke hängt ein nasser Lappen, niemand darunter. Helm zählt Lippen, nicht Augen. Er hat die fünf schon im Torbuch, bevor jemand spricht."
         : "Helm steht zu nah. Der Dampf der Bäckerei verschluckt die Ecke. Tick sieht Jacke, Riemen, den Helm unter dem Arm — und dass die Luke zufällt.",
       icon: "ort",
+      privateTo: "platz-1",
     }),
     beat({
       id: "h1-frage",
