@@ -77,7 +77,7 @@ Die Engine spricht nicht. JSON zählt.
 | 4 | [src/lib/wfrp](../src/lib/wfrp/README.md) |
 | 5 | [Spieltexte](../copy/SPIELTEXTE.md) — Sätze, die das Spiel zeigt |
 | 6 | [Beschreibungen](../copy/BESCHREIBUNGEN.md) — Ort, Haus, Gesicht, erste Stunde |
-| 6 | [Glossar](../copy/GLOSSAR.md) — Frist, Faden, Blatt, Pult, Absicht |
+| 7 | [Glossar](../copy/GLOSSAR.md) — Frist, Faden, Blatt, Pult, Absicht |
 
 ---
 
