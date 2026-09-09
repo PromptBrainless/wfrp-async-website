@@ -12,6 +12,8 @@ Du musst nicht zur Liste. Der Pfeil reicht.
 | einen Bogen anlegen | [Bogen](#2-bogen--anlegen) |
 | eine Regel nachschlagen | [Buch](#3-buch--nachschlagen) |
 | die Sätze des Spiels ändern | [Spieltexte](../copy/SPIELTEXTE.md) |
+| die Beschreibungen der Stadt lesen | [Beschreibungen](../copy/BESCHREIBUNGEN.md) |
+| die Wörter treffen | [Glossar](../copy/GLOSSAR.md) |
 
 ---
 
@@ -74,6 +76,8 @@ Die Engine spricht nicht. JSON zählt.
 | 3 | [data/](data/README.md) |
 | 4 | [src/lib/wfrp](../src/lib/wfrp/README.md) |
 | 5 | [Spieltexte](../copy/SPIELTEXTE.md) — Sätze, die das Spiel zeigt |
+| 6 | [Beschreibungen](../copy/BESCHREIBUNGEN.md) — Ort, Haus, Gesicht, erste Stunde |
+| 6 | [Glossar](../copy/GLOSSAR.md) — Frist, Faden, Blatt, Pult, Absicht |
 
 ---
 
