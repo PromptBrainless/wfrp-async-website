@@ -31,8 +31,8 @@ export function Hub() {
         <p className="font-display text-[11px] uppercase tracking-mark text-ink-faint">Kampagne</p>
         <h2 className="font-display text-2xl text-ink">{campaign.subtitle}</h2>
         <p className="mt-2 max-w-prose text-sm leading-relaxed text-ink-muted">
-          Nur geöffnete Orte liegen auf dem Tisch. Teaser und Hinweis sind Verpackung — die Schwierigkeit setzt der
-          Spielleiter am Wurf. Noch geschlossene Türen öffnet allein er.
+          Nur geöffnete Orte liegen auf dem Tisch. Teaser und Hinweis sind nur die Verpackung — die eigentliche
+          Schwierigkeit legt der Spielleiter erst beim Wurf fest. Noch geschlossene Türen öffnet ausschließlich er.
         </p>
       </header>
       <ul className="grid gap-3 sm:grid-cols-2">

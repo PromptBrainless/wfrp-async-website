@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 const KINDS: { id: ProtocolEntry["kind"] | "alle"; label: string }[] = [
   { id: "alle", label: "Alles" },
   { id: "world", label: "Welt" },
-  { id: "intent", label: "Intention" },
+  { id: "intent", label: "Absicht" },
   { id: "rules", label: "Wurf" },
   { id: "event", label: "Ereignis" },
   { id: "sl", label: "SL" },
@@ -23,7 +23,7 @@ const KIND_MARK: Record<ProtocolEntry["kind"], string> = {
   rules: "Wurf",
   event: "Ereignis",
   system: "System",
-  intent: "Intention",
+  intent: "Absicht",
   sl: "SL",
 };
 
@@ -129,10 +129,10 @@ export function Leben({ compact = false }: { compact?: boolean }) {
         {beats.length === 0 ? (
           <li className="text-sm text-ink-muted">
             {scene.opened
-              ? "Noch kein Beat. Die Szene wartet."
+              ? "Noch liegt nichts im Faden. Die Szene wartet."
               : sl
-                ? "Szene zu. Öffne eine Gasse im Pult."
-                : "Szene zu. Der Spielleiter öffnet eine Gasse."}
+                ? "Die Szene ist geschlossen. Öffne eine Gasse im Pult."
+                : "Die Szene ist geschlossen. Der Spielleiter öffnet als Nächstes eine Gasse."}
           </li>
         ) : (
           beats.map((e, i) => (
@@ -161,7 +161,7 @@ export function Leben({ compact = false }: { compact?: boolean }) {
                       </span>
                     </p>
                     <h3 className="font-display text-base text-ink">{e.title}</h3>
-                    <p className="mt-1 text-sm leading-relaxed text-ink-muted">{e.body}</p>
+                    <p className="mt-1 text-sm leading-relaxed text-ink-muted whitespace-pre-wrap">{e.body}</p>
                     {e.dice ? <DicePlate dice={e.dice} /> : e.numbers ? <p className="dice-plate">{e.numbers}</p> : null}
                   </div>
                   {sl ? (
@@ -181,8 +181,8 @@ export function Leben({ compact = false }: { compact?: boolean }) {
         <div className="leben-roll">
           <p className="font-display text-sm text-ink">Dein Wurf</p>
           <p className="mt-1 text-sm text-ink-muted">
-            Der SL hat {campaign.characters[pendingRoll?.characterId ?? ""]?.name} aufgefordert. Die Rechnung erscheint danach
-            im Faden.
+            Der Spielleiter hat {campaign.characters[pendingRoll?.characterId ?? ""]?.name} zum Wurf aufgefordert. Das
+            Ergebnis erscheint im Anschluss im Faden.
           </p>
           <Button className="mt-3 w-full" variant="wax" onClick={playerRoll}>
             Würfeln
@@ -225,7 +225,7 @@ export function Leben({ compact = false }: { compact?: boolean }) {
             className="leben-search mt-2 min-h-24"
             value={draftBody}
             onChange={(e) => setDraftBody(e.target.value)}
-            placeholder="Was die Welt tut. Spieler sehen das, außer geheim."
+            placeholder="Was die Welt gerade tut. Spieler sehen diesen Eintrag — außer, er ist als geheim markiert."
           />
           <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
             <label className="flex min-h-11 items-center gap-2 text-sm text-ink-muted">

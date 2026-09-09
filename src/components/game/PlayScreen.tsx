@@ -49,7 +49,7 @@ export function PlayScreen() {
           <div className="blatt-inner play-inner" style={{ justifyContent: "center", padding: "2rem" }}>
             <p className="font-display text-lg text-ink">Wer sitzt?</p>
             <p className="mt-2 text-sm text-ink-muted">
-              Erst eine Karte wählen. Dann der Tisch — du siehst mit den Augen, die du nimmst.
+              Wähle zuerst eine Karte. Dann nimmst du am Tisch Platz — und siehst die Welt mit den Augen, für die du dich entschieden hast.
             </p>
             <Link to="/" className="mt-4 text-sm text-ink underline-offset-4 hover:underline">
               Zur Auswahl

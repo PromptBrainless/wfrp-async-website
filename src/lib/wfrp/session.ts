@@ -2,6 +2,8 @@ import { addBeat } from "./journal";
 import { egBand, effectiveTarget, formatSl, isDoubles, isSuccess, skillValue, successLevels } from "./dice";
 import { DIFFICULTY_MOD, ATTRS, type Campaign, type Character, type DicePlate, type ProtocolEntry } from "./types";
 import { SKILL_LABEL } from "./config";
+import { pickLook } from "./looks";
+import { STREET_LOOKS } from "./looks-drosselau";
 
 const ARNE_ID = "nsc-arne-helm";
 
@@ -155,9 +157,7 @@ export function playFirstHour(campaign: Campaign): Campaign {
       at: at(t0, 6),
       kind: "world",
       title: "Was Tick sieht",
-      body: look.success
-        ? "Die Luke am Zollhaus steht einen Spalt. Kreide an der Tür: Striche, heutiger Tross. Hinter Helm kein zweiter Mann. Die Bäckerei dampft. An der Bettelgasse-Ecke hängt ein nasser Lappen, niemand darunter. Helm zählt Lippen, nicht Augen. Er hat die fünf schon im Torbuch, bevor jemand spricht."
-        : "Helm steht zu nah. Der Dampf der Bäckerei verschluckt die Ecke. Tick sieht Jacke, Riemen, den Helm unter dem Arm — und dass die Luke zufällt.",
+      body: pickLook(STREET_LOOKS.torstrasse, look),
       icon: "ort",
       privateTo: "platz-1",
     }),

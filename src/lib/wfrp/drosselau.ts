@@ -1,5 +1,7 @@
-import type { PreparedEvent, Scene, SceneHint } from "./types";
+import type { LookLayers, PreparedEvent, Scene, SceneHint } from "./types";
 import { SCENE_CATALOG_IDS } from "./config";
+import { HOUSE_LOOKS, STREET_LOOKS } from "./looks-drosselau";
+import type { PlaceLook } from "./looks";
 
 export interface HouseDef {
   nr: number;
@@ -304,15 +306,35 @@ function emptyBoard(): Scene["board"] {
 
 const SHOP = /bäckerei|fleischerei|kram|gasthaus|gilde|wechsel|zunft|laden|schenke|schmiede|weber|töpfer|gerber|krämer/i;
 
-export function streetOpening(street: StreetDef, byId: Record<string, StreetDef>): string {
-  if (street.id === "torstrasse") {
-    return "Nasser Stein und Pferdeharn. Das Stadttor im Rücken. Links das Zollhaus, daneben der Gasthof Zum Wanderer. Eine Bäckerei, eine Fleischerei, ein Kramladen. Vorstadt hinter euch, Marktplatz voraus, Bettelgasse zur Seite. Fünf unter dem Bogen. Niemand hat sie hereingewunken.";
-  }
-  const ways = street.neighbors.map((n) => byId[n]?.name ?? n);
-  const fronts = street.houses.slice(0, 3).map((h) => h.name).join(", ");
-  const more = street.houses.length > 3 ? ` Noch ${street.houses.length - 3} Häuser.` : "";
-  const note = street.note ? `${street.note}. ` : "";
-  return `${street.name}. ${note}${fronts}.${more} Wege nach ${ways.join(", ")}. Niemand hat ein Wort gegeben.`;
+function layersOf(look: PlaceLook): LookLayers {
+  return { grob: look.grob, teil: look.teil, voll: look.voll, scharf: look.scharf };
+}
+
+function fallbackHouseLook(street: StreetDef, house: HouseDef): PlaceLook {
+  const empty = Boolean(house.empty);
+  const keim = (house.events ?? []).map((ev) => `${ev.label}: ${ev.hint}`).join(" ");
+  return {
+    offen: empty
+      ? `${house.name} an der ${street.name}, Nummer ${house.nr}. Leer. Die Luft steht. Ausgang auf die ${street.name}. Was dahinter wirklich liegt, öffnet der Spielleiter — nicht die Gasse.`
+      : `${house.name} an der ${street.name}, Nummer ${house.nr}. Die Tür ist geschlossen. Von der Schwelle: Holz, der Geruch des Hauses, kein Wort das dir gegeben wurde. Ausgang auf die ${street.name}.`,
+    grob: empty ? "Staub, Dunkel, nichts das antwortet." : "Schwelle, Tür, ein Geruch. Das ist alles, solange niemand öffnet.",
+    teil: empty
+      ? "Leerstand. Spuren im Staub, oder keiner. Die Nachbarn gehen außen rum."
+      : `Durchs Fenster von ${house.name} siehst du, was das Glas hergibt — Umrisse, Licht oder keins.`,
+    voll: keim
+      ? `${house.name}. ${keim} Noch hat niemand gezogen.`
+      : empty
+        ? "Die Leere ist vollständig. Wer hier wohnte, hat nichts gelassen das einen Namen trägt."
+        : `Die Stube von ${house.name} hält, was ein Haus dieser Gasse hält. Mehr sagt der Ort nicht, bis jemand spricht.`,
+    scharf: house.events?.[0]
+      ? `${house.events[0].hint} Das liegt still, bis der Spielleiter es zieht.`
+      : "Ein Detail, das nicht zur Ordnung der Gasse passt — nur wenn der Spielleiter es legt.",
+    sl: `${street.name} ${house.nr}. ${empty ? "Leer. " : ""}${keim || "Kein Keim."} Engine zieht niemanden.`,
+  };
+}
+
+export function streetOpening(street: StreetDef, _byId?: Record<string, StreetDef>): string {
+  return STREET_LOOKS[street.id]?.offen ?? `${street.name}. ${street.note}`.trim();
 }
 
 function streetBoard(street: StreetDef, byId: Record<string, StreetDef>): Scene["board"] {
@@ -385,11 +407,12 @@ export function buildDrosselauScenes(): Record<string, Scene> {
     ];
     const flags = ["drosselau", "viertel-" + street.quartier, "gasse", street.id];
     if (street.quartier === "markt") flags.push("handel");
+    const streetLook = STREET_LOOKS[street.id];
     scenes[sid] = shell({
       id: sid,
       title: street.name,
       locationName: `Drosselau · ${street.name}`,
-      slText: streetOpening(street, byId),
+      slText: streetLook?.offen ?? streetOpening(street, byId),
       teaser: `${street.houses.length} Gebäude. Wege: ${street.neighbors.map((n) => byId[n].name).join(", ")}.`,
       exits,
       locationFlags: flags,
@@ -402,6 +425,8 @@ export function buildDrosselauScenes(): Record<string, Scene> {
           hint: `${ev.hint} · Nr. ${h.nr}. Nur der SL zieht.`,
         })),
       ),
+      look: streetLook ? layersOf(streetLook) : undefined,
+      slNote: streetLook?.sl,
     });
 
     for (const house of street.houses) {
@@ -409,18 +434,19 @@ export function buildDrosselauScenes(): Record<string, Scene> {
       const flags = ["drosselau", "viertel-" + street.quartier, "haus", street.id];
       if (house.empty) flags.push("leer");
       if (SHOP.test(house.name)) flags.push("handel");
+      const houseLook = HOUSE_LOOKS[`${street.id}-${house.nr}`] ?? fallbackHouseLook(street, house);
       scenes[hid] = shell({
         id: hid,
         title: house.name,
         locationName: `Drosselau · ${street.name} ${house.nr}`,
-        slText: house.empty
-          ? `${house.name}. Leer. Ausgang auf die ${street.name}.`
-          : `${house.name} an der ${street.name}. Ausgang auf die Gasse. Niemand hat ein Wort gegeben.`,
+        slText: houseLook.offen,
         teaser: house.empty ? "Leerstand. Der SL öffnet, nicht die Engine." : `Haus in der ${street.name}.`,
         difficultyHint: house.hint ?? "ruhig",
         exits: [{ id: "auf-gasse", label: `Auf die ${street.name}`, toScene: sid }],
         locationFlags: flags,
         events: house.events ?? [],
+        look: layersOf(houseLook),
+        slNote: houseLook.sl,
       });
     }
   }

@@ -11,9 +11,9 @@ export function FristBand() {
 
   return (
     <p className="frist-band">
-      Kein Zug. Alle dürfen handeln, bis die Frist um ist.
+      Es gibt keine Zugreihenfolge. Alle dürfen handeln, bis die Frist abgelaufen ist.
       {done.length ? ` ${done.map((c) => c.name).join(", ")} ${done.length === 1 ? "hat" : "haben"} gehandelt.` : ""}
-      {open.length ? ` Offen: ${open.map((c) => c.name).join(", ")}.` : " Alle Absichten liegen."}
+      {open.length ? ` Offen: ${open.map((c) => c.name).join(", ")}.` : " Alle Absichten liegen bereit."}
       {scene.ask?.speaker ? ` ${scene.ask.speaker} wartet.` : ""}
     </p>
   );

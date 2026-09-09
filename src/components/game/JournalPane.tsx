@@ -18,7 +18,7 @@ export function JournalPane() {
       <h2 className="font-display text-lg text-ink">Was geschehen ist</h2>
       {recent.length === 0 ? (
         <p className="mt-3 text-sm text-ink-muted">
-          Noch leer. Das Journal schreibt mit, sobald etwas geschieht — was nur deine Augen sahen, bleibt bei dir.
+          Noch leer. Das Journal füllt sich, sobald etwas geschieht — was nur deine Augen gesehen haben, bleibt bei dir.
         </p>
       ) : (
         <ul className="mt-3 space-y-3">

@@ -214,7 +214,7 @@ export function Composer({ onMore }: { onMore: () => void }) {
           {who} wirft {skill?.label ?? "jetzt"}
         </p>
         <p className="mt-1 text-sm text-ink-muted">
-          Ein W100 entscheidet über Erfolg oder Misserfolg — was daraus in der Szene wird, erzählst du danach selbst.
+          Ein W100 entscheidet über Erfolg oder Misserfolg. Was daraus in der Szene wird, erzählst du im Anschluss selbst.
         </p>
         <Button className="mt-3 w-full" variant="wax" size="lg" onClick={playerRoll}>
           Würfeln
@@ -228,7 +228,8 @@ export function Composer({ onMore }: { onMore: () => void }) {
       <footer className="play-foot">
         <AskLine scene={scene} />
         <p className="text-sm text-ink-muted">
-          Deine Intention liegt beim Spielleiter.
+          Deine Absicht liegt jetzt beim Spielleiter. Warte auf das Ende der Frist — oder auf die Aufforderung zu einem
+          Wurf.
           {openNames.length ? ` ${openNames.join(", ")} ${openNames.length === 1 ? "darf" : "dürfen"} noch.` : ""}
         </p>
         {mouth(actor ? `Was ${actor.name.split(" ")[0]} sagt` : "Was du sagst", "Sagen")}
@@ -241,9 +242,9 @@ export function Composer({ onMore }: { onMore: () => void }) {
       <footer className="play-foot">
         <AskLine scene={scene} />
         <p className="text-sm text-ink-muted">
-          Deine Absicht liegt.
-          {openNames.length ? ` ${openNames.join(", ")} ${openNames.length === 1 ? "darf" : "dürfen"} noch.` : " Alle Absichten liegen."}
-          {scene.ask?.speaker ? ` ${scene.ask.speaker} wartet.` : ""} Kein Zug — die Frist hält den Tisch.
+          Deine Absicht liegt bereit.
+          {openNames.length ? ` ${openNames.join(", ")} ${openNames.length === 1 ? "darf" : "dürfen"} noch.` : " Alle Absichten liegen bereit."}
+          {scene.ask?.speaker ? ` ${scene.ask.speaker} wartet.` : ""} Kein Zug — die Frist hält den Tisch zusammen.
         </p>
         {mouth(`Was ${actor.name.split(" ")[0]} sagt`, "Sagen")}
       </footer>
@@ -268,7 +269,7 @@ export function Composer({ onMore }: { onMore: () => void }) {
   if (!scene.opened && !sl) {
     return (
       <footer className="play-foot">
-        <p className="text-sm text-ink-muted">Die Gasse liegt zu. Der Spielleiter entscheidet, welche Tür sich öffnet.</p>
+        <p className="text-sm text-ink-muted">Die Gasse liegt zu. Der Spielleiter entscheidet, welche Tür sich als Nächstes öffnet.</p>
       </footer>
     );
   }

@@ -7,6 +7,7 @@ import { canWalkTo, distanceBetween, foeId, pinById, tokenPlace } from "./moveme
 import { addBeat } from "./journal";
 import { applyCombatOutcome, applySocialOutcome, nowEntry, pushProtocol, rollSimple } from "./resolve";
 import { PRIVATE_ACTIONS } from "./eyes";
+import { pickLook } from "./looks";
 import { createCampaign } from "./seed";
 import { activePc, claimSeat, filledPcs, isSeatEmpty, SEAT_IDS } from "./seats";
 import type {
@@ -376,9 +377,19 @@ export const useTisch = create<Store>()((set, get) => ({
     const pending = campaign.pending;
     if (!pending) return;
     const scene = currentScene(campaign);
-    const label = CATALOG_BY_ID[pending.intention.actionId]?.label ?? pending.intention.actionId;
-    const body =
-      kind === "success" ? "Ohne Wurf: der SL lässt es gelten." : "Ohne Wurf: der SL lässt es scheitern.";
+    const actor = campaign.characters[pending.intention.characterId];
+    const actionId = pending.intention.actionId;
+    const label = CATALOG_BY_ID[actionId]?.label ?? actionId;
+    const look =
+      (actionId === "umschauen" || actionId === "intuition") && scene.look
+        ? pickLook(scene.look, { success: kind === "success", sl: kind === "success" ? 2 : -2 })
+        : null;
+    const title = look ? `Was ${actor?.name ?? "jemand"} sieht` : label;
+    const body = look
+      ? look
+      : kind === "success"
+        ? "Ohne Wurf: der Spielleiter lässt es gelten."
+        : "Ohne Wurf: der Spielleiter lässt es scheitern.";
     const cleared = dropIntention(
       {
         ...campaign,
@@ -386,13 +397,21 @@ export const useTisch = create<Store>()((set, get) => ({
         phase: "collecting",
         scenes: {
           ...campaign.scenes,
-          [scene.id]: pushProtocol(scene, nowEntry("world", label, body, undefined, { icon: "sl" })),
+          [scene.id]: pushProtocol(
+            scene,
+            nowEntry("world", title, body, undefined, {
+              icon: look ? "ort" : "sl",
+              privateTo: look ? actor?.id : undefined,
+              speaker: look ? actor?.id : undefined,
+              portrait: look ? actor?.portrait : undefined,
+            }),
+          ),
         },
       },
       pending.intention.characterId,
     );
     set({
-      campaign: withLog(cleared, slEntry("auto", label, body)),
+      campaign: withLog(cleared, slEntry("auto", title, body)),
     });
   },
   slAskRoll: (who?: string) => {

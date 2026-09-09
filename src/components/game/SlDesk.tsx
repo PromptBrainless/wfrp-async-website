@@ -80,6 +80,40 @@ export function SlDesk() {
         </div>
       </section>
 
+      {scene.look ? (
+        <section className="sl-look">
+          <p className="font-display text-sm">Was der Ort hergibt</p>
+          <p className="mt-1 text-xs text-ink-muted">
+            Du siehst alle Lagen. Der Spieler bekommt nach dem Umschauen nur die, die sein Wurf trägt.
+          </p>
+          {scene.slText ? (
+            <div className="mt-3">
+              <p className="font-display text-[11px] uppercase tracking-mark text-ink-faint">Offen — ohne Wurf</p>
+              <p className="mt-1 text-sm leading-relaxed text-ink whitespace-pre-wrap">{scene.slText}</p>
+            </div>
+          ) : null}
+          {(
+            [
+              ["Grob — Fehlwurf", scene.look.grob],
+              ["Teil — knapp", scene.look.teil],
+              ["Voll — gelungen", scene.look.voll],
+              ["Scharf — hoher EG", scene.look.scharf],
+            ] as const
+          ).map(([label, text]) => (
+            <div key={label} className="mt-3">
+              <p className="font-display text-[11px] uppercase tracking-mark text-ink-faint">{label}</p>
+              <p className="mt-1 text-sm leading-relaxed text-ink whitespace-pre-wrap">{text}</p>
+            </div>
+          ))}
+          {scene.slNote ? (
+            <div className="mt-3 rounded-sm border border-ink/15 p-3">
+              <p className="font-display text-[11px] uppercase tracking-mark text-ink-faint">Nur du</p>
+              <p className="mt-1 text-sm leading-relaxed text-ink-muted whitespace-pre-wrap">{scene.slNote}</p>
+            </div>
+          ) : null}
+        </section>
+      ) : null}
+
       {lastDraw ? (
         <section className="rounded-md border border-primary/40 bg-raised p-3">
           <p className="font-display text-sm">Gezogen — noch nicht in der Welt</p>
@@ -98,7 +132,7 @@ export function SlDesk() {
 
       <section>
         <p className="font-display text-sm">Trigger dieser Gasse</p>
-        <p className="mt-1 text-xs text-ink-muted">Nur du ziehst. Öffnen der Szene zündet nichts.</p>
+        <p className="mt-1 text-xs text-ink-muted">Nur du ziehst diese Karten — das Öffnen der Szene löst noch nichts aus.</p>
         {scene.events.length === 0 ? (
           <p className="mt-2 text-sm text-ink-muted">Keine vorbereiteten Keime an diesem Ort.</p>
         ) : (

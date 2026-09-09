@@ -33,7 +33,7 @@ export function IntentBar() {
             className="mt-2 h-11 w-full rounded-sm border border-ink/20 bg-paper px-3 text-sm text-ink"
           />
           <Button className="mt-3 w-full" variant="wax" onClick={submit}>
-            Intention senden
+            Absicht senden
           </Button>
         </div>
       ) : null}
@@ -79,7 +79,7 @@ export function IntentBar() {
         <div className="rounded-lg border border-ink/15 bg-paper p-3">
           <p className="font-display text-sm text-ink">Dein Wurf steht aus</p>
           <p className="mt-1 text-sm text-ink-muted">
-            Ein W100 entscheidet gegen die angesagte Zielzahl — was er bedeutet, deutet der Spielleiter danach.
+            Ein W100 entscheidet gegen die angesagte Zielzahl. Was das Ergebnis bedeutet, deutet der Spielleiter im Anschluss.
           </p>
           <Button className="mt-3 w-full" variant="wax" onClick={playerRoll}>
             Würfeln
@@ -87,11 +87,11 @@ export function IntentBar() {
         </div>
       ) : pending && !showSl && !pendingRoll ? (
         <p className="text-sm text-ink-muted">
-          Deine Intention liegt beim Spielleiter. Warte auf die Frist — oder auf die Aufforderung zum Wurf.
+          Deine Absicht liegt jetzt beim Spielleiter. Warte auf das Ende der Frist — oder auf die Aufforderung zu einem Wurf.
         </p>
       ) : !def && !pending && !pendingRoll ? (
         <p className="text-sm text-ink-muted">
-          Wähle eine Karte. Ausgegraute Karten bleiben sichtbar, mit einem Grund, warum sie noch nicht offenstehen.
+          Wähle eine Karte. Ausgegraute Karten bleiben sichtbar — mit einer Erklärung, warum sie gerade nicht zur Verfügung stehen.
         </p>
       ) : null}
     </div>

@@ -14,6 +14,7 @@ import {
 } from "./dice";
 import { PRIVATE_ACTIONS } from "./eyes";
 import { ICON_FROM_KIND } from "./icons";
+import { pickLook } from "./looks";
 import { applyTalentToRoll, bargainExtra } from "./talents";
 import { DIFFICULTY_MOD } from "./types";
 import type {
@@ -192,7 +193,7 @@ export function applySocialOutcome(campaign: Campaign, roll: RollResult): Campai
   const actor = campaign.characters[roll.characterId];
   const plate = plateFrom(roll, actor?.name ?? "Wurf");
   const privateTo = PRIVATE_ACTIONS.has(roll.actionId) ? actor?.id : undefined;
-  const scn = pushProtocol(
+  let scn = pushProtocol(
     scene,
     nowEntry("rules", CATALOG_BY_ID[roll.actionId]?.label ?? roll.actionId, `${actor?.name ?? "Jemand"} wirft.`, formatRollLine(roll), {
       portrait: actor?.portrait,
@@ -202,6 +203,17 @@ export function applySocialOutcome(campaign: Campaign, roll: RollResult): Campai
       privateTo,
     }),
   );
+  if ((roll.actionId === "umschauen" || roll.actionId === "intuition") && scene.look && actor) {
+    scn = pushProtocol(
+      scn,
+      nowEntry("world", `Was ${actor.name} sieht`, pickLook(scene.look, roll), undefined, {
+        icon: "ort",
+        privateTo: actor.id,
+        speaker: actor.id,
+        portrait: actor.portrait,
+      }),
+    );
+  }
   const next: Campaign = {
     ...campaign,
     scenes: { ...campaign.scenes, [scn.id]: scn },

@@ -43,7 +43,7 @@ export const STATIONS: {
   },
   {
     id: "faehigkeiten",
-    label: "Fähigkeiten",
+    label: "Fertigkeiten",
     why: "Zeig, was du gelernt hast — und wähl ein Talent, das dich auszeichnet.",
     explain: [
       "16-faehigkeit-und-talent",

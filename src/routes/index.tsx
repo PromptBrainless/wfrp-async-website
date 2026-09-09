@@ -21,9 +21,9 @@ function Home() {
           <p className="font-display text-xs uppercase tracking-mark text-ink-faint">Warhammer Fantasy Roleplay</p>
           <h1 className="mt-4 font-display text-5xl leading-none text-ink sm:text-6xl">Die Frist</h1>
           <p className="mt-5 max-w-prose text-lg leading-relaxed text-ink-muted">
-            Drosselau, ein Marktflecken am Nebenfluss der Reik, unter dem Schutz Sigmars. Fünf Karten liegen bereit.
-            Du wählst ein Gesicht — dann siehst du nur mit diesen Augen. Der Spielleiter führt die Regie, sitzt aber
-            nicht mit am Tisch.
+            Willkommen in Drosselau, einem Marktflecken am Nebenfluss der Reik, unter dem Schutz Sigmars. Fünf Karten
+            liegen bereit für dich. Wähle ein Gesicht — von diesem Moment an siehst du die Stadt nur noch mit diesen
+            Augen. Der Spielleiter führt die Regie im Hintergrund, sitzt aber nicht mit am Tisch.
           </p>
 
           <p className="mt-8 font-display text-[11px] uppercase tracking-mark text-ink-faint">Eine Karte nutzen</p>

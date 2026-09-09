@@ -157,6 +157,14 @@ export type IconKind =
 
 export type SceneHint = "ruhig" | "angespannt" | "gefaehrlich";
 
+/** Was ein Umschauen hergibt. grob bei Fehlwurf, scharf nur bei hohem EG. */
+export interface LookLayers {
+  grob: string;
+  teil: string;
+  voll: string;
+  scharf: string;
+}
+
 export interface OpposedPlate {
   name: string;
   skillLabel: string;
@@ -292,6 +300,10 @@ export interface Scene {
   journal: JournalCard[];
   /** Was die Szene gerade von den Spielern will. Hängt, bis der SL neu spricht. */
   ask?: { speaker?: string; text: string };
+  /** Umschauen, gestaffelt. Der SL sieht alle Lagen. */
+  look?: LookLayers;
+  /** Nur SL: wer wohnt, was nicht gesagt wird, welche Keime still liegen. */
+  slNote?: string;
 }
 
 export interface Intention {

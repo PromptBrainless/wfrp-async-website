@@ -35,7 +35,7 @@ function KartePage() {
           </Link>
           <h1 className="mt-4 font-display text-3xl text-ink">Neue Karte</h1>
           <p className="mt-2 text-sm text-ink-muted">
-            Das Buch würfelt Volk, Karriere und Werte. Du nennst den Namen — das Gesicht hinter den Zahlen.
+            Das Buch würfelt Volk, Karriere und Werte für dich. Du gibst dem Ergebnis nur noch einen Namen — das Gesicht hinter den Zahlen.
           </p>
 
           <dl className="mt-6 grid gap-2 text-sm text-ink">
