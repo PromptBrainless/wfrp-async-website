@@ -2,7 +2,7 @@
 
 **Stand:** 2026-09-09.
 
-**Repo:** https://github.com/PromptBrainless/wfrp-async-website (öffentlich)  
+**Repo:** https://github.com/PromptBrainless/Rollenspiele-2-Versuch (öffentlich)  
 **Wege:** [00-WEGE.md](00-WEGE.md)  
 **Fortschritt Wissen:** [00-VOLLTEXT.md](00-VOLLTEXT.md) — 329 / 329  
 **Spiel:** [10-system/00-das-spiel.md](10-system/00-das-spiel.md)  

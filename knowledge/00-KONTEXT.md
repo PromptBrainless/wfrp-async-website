@@ -1,7 +1,7 @@
 # Kontext — eine Struktur
 
 Stand: 2026-09-09, Abend. Dies ist die **eine** Wahrheit für neue Sessions.  
-Repo: https://github.com/PromptBrainless/wfrp-async-website · `4a40951` · öffentlich  
+Repo: https://github.com/PromptBrainless/Rollenspiele-2-Versuch · `4a40951` · öffentlich  
 Sicherung als Kleist-Bild: [kleist-stand.jpg](../public/images/context/kleist-stand.jpg)  
 Presse: [00-KONTEXT-kleist.txt](00-KONTEXT-kleist.txt) · Script: `python3 scripts/kleist-snapshot.py`
 
