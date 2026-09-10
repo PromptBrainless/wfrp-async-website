@@ -3,7 +3,8 @@
 Arbeitsrepo. Asynchrones **Warhammer Fantasy Roleplay 4e** (Ulisses, Grundregelwerk 2. überarbeitete Auflage).
 
 **Kampagne 1:** fünf Spieler — Tick, Track, Truck, Hanni, Nanni · Ort **Drosselau** · Torstraße offen.  
-**GitHub:** [PromptBrainless/Rollenspiele-2-Versuch](https://github.com/PromptBrainless/Rollenspiele-2-Versuch) — öffentlich, kein Fan-Release, keine PDFs.
+**GitHub:** [PromptBrainless/wfrp-async-website](https://github.com/PromptBrainless/wfrp-async-website) — öffentlich, kein Fan-Release, keine PDFs.  
+Unabhängige Kopie: [Rollenspiele 2 Versuch](https://github.com/PromptBrainless/Rollenspiele-2-Versuch).
 
 Spieler setzt Absicht und wirft den W100. Der SL ist Leitung, keine Figur. Die Engine spricht nicht.
 
@@ -14,8 +15,8 @@ Spieler setzt Absicht und wirft den W100. Der SL ist Leitung, keine Figur. Die E
 Das öffentliche Repo ist die Quelle. Sandkasten-Zip, Uploads und `node_modules` gehören nicht dazu.
 
 ```
-git clone https://github.com/PromptBrainless/Rollenspiele-2-Versuch.git
-cd Rollenspiele-2-Versuch
+git clone https://github.com/PromptBrainless/wfrp-async-website.git
+cd wfrp-async-website
 npm install
 ```
 
