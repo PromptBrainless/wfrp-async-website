@@ -5,7 +5,23 @@ Arbeitsrepo. Asynchrones **Warhammer Fantasy Roleplay 4e** (Ulisses, Grundregelw
 **Kampagne 1:** fünf Spieler — Tick, Track, Truck, Hanni, Nanni · Ort **Drosselau** · Torstraße offen.  
 **GitHub:** [PromptBrainless/wfrp-async-website](https://github.com/PromptBrainless/wfrp-async-website) — öffentlich, kein Fan-Release, keine PDFs.
 
-Spieler setzt Intention und wirft den W100. Der SL ist Leitung, keine Figur. Die Engine spricht nicht.
+Spieler setzt Absicht und wirft den W100. Der SL ist Leitung, keine Figur. Die Engine spricht nicht.
+
+---
+
+## Klonen — optionale Entwicklung ab jetzt
+
+Das öffentliche Repo ist die Quelle. Sandkasten-Zip, Uploads und `node_modules` gehören nicht dazu.
+
+```
+git clone https://github.com/PromptBrainless/wfrp-async-website.git
+cd wfrp-async-website
+npm install
+```
+
+Stand: `main` · `3c6bb44`. Internes Arbeitsrepo, kein Fan-Release. [NOTICE.md](NOTICE.md).
+
+Danach: [NEUES-FENSTER.md](NEUES-FENSTER.md).
 
 ---
 

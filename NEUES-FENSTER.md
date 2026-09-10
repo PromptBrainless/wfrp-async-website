@@ -1,5 +1,6 @@
 Datum: 2026-09-09, Abend  
-Repo: https://github.com/PromptBrainless/wfrp-async-website · `4a40951` · öffentlich
+Repo: https://github.com/PromptBrainless/wfrp-async-website · `3c6bb44` · öffentlich  
+Klonen: `git clone https://github.com/PromptBrainless/wfrp-async-website.git`
 
 Internes Entwicklungsrepo, kein Fan-Projekt nach außen.
 

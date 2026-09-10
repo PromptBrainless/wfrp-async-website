@@ -40,6 +40,6 @@ compendium-import/
 .idea/
 .vscode/
 
-# Python
-__pycache__/
-*.pyc
+# Lokale Schnappschüsse und Chat-Uploads — nicht das Repo
+die-frist-*.zip
+attachments/
